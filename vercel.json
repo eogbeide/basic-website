@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    { "source": "/", "destination": "/academy/", "permanent": false },
+    { "source": "/index.html", "destination": "/academy/", "permanent": false },
+    { "source": "/barkerbox-signup", "destination": "/academy/", "permanent": false },
+    { "source": "/barkerbox-signup/:path*", "destination": "/academy/", "permanent": false },
+    { "source": "/interactive_event", "destination": "/academy/", "permanent": false },
+    { "source": "/interactive_event/:path*", "destination": "/academy/", "permanent": false }
+  ]
+}
