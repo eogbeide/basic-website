@@ -1,0 +1,577 @@
+body {
+  /* Uses a clean professional font for the whole page. */
+  font-family: Arial, Helvetica, sans-serif;
+  /* Removes the browser's default space around the page. */
+  margin: 0;
+  /* Removes the browser's default inside space on the page. */
+  padding: 0;
+  /* Gives the page a dark consulting-style background. */
+  background-color: #151617;
+  /* Sets the main text color to white. */
+  color: white;
+  /* Adds comfortable space between lines of text. */
+  line-height: 1.6;
+}
+
+.site-header {
+  /* Places the logo and navigation on one line. */
+  display: flex;
+  /* Puts space between the logo and navigation. */
+  justify-content: space-between;
+  /* Lines up the logo and navigation vertically. */
+  align-items: center;
+  /* Adds space inside the header. */
+  padding: 24px 34px;
+  /* Gives the header the same dark color as the hero. */
+  background-color: #151617;
+}
+
+.logo {
+  /* Places the logo mark and text beside each other. */
+  display: flex;
+  /* Lines up the logo pieces vertically. */
+  align-items: center;
+  /* Adds space between the logo mark and text. */
+  gap: 12px;
+  /* Makes the logo text bold. */
+  font-weight: bold;
+  /* Sets a readable logo text size. */
+  font-size: 20px;
+  /* Makes the logo text white. */
+  color: white;
+  /* Removes the underline from the logo link. */
+  text-decoration: none;
+}
+
+.logo-mark {
+  /* Places the letter in a small square logo mark. */
+  display: inline-block;
+  /* Sets the logo mark width. */
+  width: 34px;
+  /* Sets the logo mark height. */
+  height: 34px;
+  /* Gives the logo mark a bright gold background. */
+  background-color: #ffc629;
+  /* Makes the logo mark text dark. */
+  color: #151617;
+  /* Centers the logo mark letter horizontally. */
+  text-align: center;
+  /* Centers the logo mark letter vertically. */
+  line-height: 34px;
+  /* Makes the logo mark letter bold. */
+  font-weight: bold;
+  /* Slightly rounds the logo mark corners. */
+  border-radius: 4px;
+}
+
+.nav-links {
+  /* Places navigation links in one line. */
+  display: flex;
+  /* Lines up navigation links vertically. */
+  align-items: center;
+}
+
+.nav-links a {
+  /* Adds space to the left of each navigation link. */
+  margin-left: 28px;
+  /* Makes navigation links light gray. */
+  color: #d7d7d7;
+  /* Removes underlines from navigation links. */
+  text-decoration: none;
+  /* Makes navigation links small and polished. */
+  font-size: 13px;
+  /* Makes navigation links bold. */
+  font-weight: bold;
+  /* Makes navigation links uppercase like the reference design. */
+  text-transform: uppercase;
+}
+
+.nav-links a:hover {
+  /* Changes navigation links to gold on hover. */
+  color: #ffc629;
+}
+
+.nav-button {
+  /* Adds button-style space inside the booking link. */
+  padding: 14px 18px;
+  /* Gives the booking link a gold background. */
+  background-color: #ffc629;
+  /* Makes the booking link text dark. */
+  color: #151617 !important;
+}
+
+.nav-button:hover {
+  /* Brightens the booking button when hovered. */
+  background-color: #ffd85c;
+}
+
+main {
+  /* Keeps the main content on the dark page background. */
+  background-color: #151617;
+}
+
+.hero {
+  /* Places the image and hero text beside each other. */
+  display: flex;
+  /* Lines up the image and text vertically. */
+  align-items: center;
+  /* Keeps the hero content from becoming too wide. */
+  max-width: 1180px;
+  /* Centers the hero section on the page. */
+  margin: 0 auto;
+  /* Adds space inside the hero section. */
+  padding: 48px 34px 70px;
+  /* Adds space between the image and text. */
+  gap: 70px;
+  /* Keeps the hero tall and dramatic. */
+  min-height: 560px;
+}
+
+.hero-image {
+  /* Gives the image side a balanced width. */
+  width: 42%;
+  /* Centers the image inside its area. */
+  text-align: center;
+}
+
+.hero-image img {
+  /* Makes the consultant image fill its column. */
+  width: 100%;
+  /* Prevents the image from becoming too large. */
+  max-width: 430px;
+  /* Sets a steady image height. */
+  height: 520px;
+  /* Crops the photo neatly. */
+  object-fit: cover;
+  /* Centers the crop on the person in the photo. */
+  object-position: center top;
+  /* Adds a soft shadow behind the portrait. */
+  box-shadow: 0 26px 60px rgba(0, 0, 0, 0.45);
+}
+
+.hero-text {
+  /* Gives the text side the remaining space. */
+  width: 58%;
+}
+
+.hero-subheading {
+  /* Makes the subheading gold. */
+  color: #ffc629;
+  /* Makes the subheading bold. */
+  font-weight: bold;
+  /* Makes the subheading compact. */
+  font-size: 14px;
+  /* Makes the subheading uppercase. */
+  text-transform: uppercase;
+  /* Removes extra space above the subheading. */
+  margin-top: 0;
+  /* Adds space below the subheading. */
+  margin-bottom: 16px;
+}
+
+.hero-subheading::before {
+  /* Adds a short line before the subheading. */
+  content: "";
+  /* Shows the line as a small block. */
+  display: inline-block;
+  /* Sets the line width. */
+  width: 28px;
+  /* Sets the line height. */
+  height: 2px;
+  /* Gives the line a light gray color. */
+  background-color: #c7c7c7;
+  /* Adds space between the line and text. */
+  margin-right: 10px;
+  /* Lifts the line to align with the text. */
+  vertical-align: middle;
+}
+
+h1 {
+  /* Makes the main heading large and bold. */
+  font-size: 52px;
+  /* Tightens the heading line spacing. */
+  line-height: 1.12;
+  /* Removes extra space above the heading. */
+  margin-top: 0;
+  /* Adds space below the heading. */
+  margin-bottom: 24px;
+  /* Makes the heading white. */
+  color: white;
+}
+
+.hero-description {
+  /* Makes the description easy to read. */
+  font-size: 17px;
+  /* Gives the description a soft gray color. */
+  color: #d1d1d1;
+  /* Adds space below the description. */
+  margin-bottom: 28px;
+  /* Keeps the description from becoming too wide. */
+  max-width: 620px;
+}
+
+.consultant-card {
+  /* Adds a vertical accent line beside the consultant name. */
+  border-left: 2px solid #44484d;
+  /* Adds space between the line and text. */
+  padding-left: 24px;
+  /* Adds space below the consultant card. */
+  margin-bottom: 34px;
+}
+
+.consultant-card h2 {
+  /* Sets the consultant name size. */
+  font-size: 24px;
+  /* Removes extra space above the consultant name. */
+  margin-top: 0;
+  /* Adds a little space below the consultant name. */
+  margin-bottom: 2px;
+}
+
+.consultant-card p {
+  /* Gives the consultant title a soft gray color. */
+  color: #cfcfcf;
+  /* Removes extra space around the consultant title. */
+  margin: 0;
+}
+
+.hero-actions {
+  /* Places the two hero buttons beside each other. */
+  display: flex;
+  /* Adds space between the two hero buttons. */
+  gap: 20px;
+}
+
+.hero-button {
+  /* Shows the link as a button. */
+  display: inline-block;
+  /* Adds comfortable space inside the button. */
+  padding: 17px 30px;
+  /* Gives the main button a gold background. */
+  background-color: #ffc629;
+  /* Makes the main button text dark. */
+  color: #151617;
+  /* Removes the underline from the link. */
+  text-decoration: none;
+  /* Makes the button text bold. */
+  font-weight: bold;
+  /* Makes the button text uppercase. */
+  text-transform: uppercase;
+  /* Sets a clean button text size. */
+  font-size: 13px;
+}
+
+.hero-button:hover {
+  /* Brightens the main button when hovered. */
+  background-color: #ffd85c;
+}
+
+.secondary-button {
+  /* Shows the secondary link as a button. */
+  display: inline-block;
+  /* Adds comfortable space inside the secondary button. */
+  padding: 16px 30px;
+  /* Adds a light border around the secondary button. */
+  border: 1px solid #d7d7d7;
+  /* Makes the secondary button text white. */
+  color: white;
+  /* Removes the underline from the secondary button. */
+  text-decoration: none;
+  /* Makes the secondary button text bold. */
+  font-weight: bold;
+  /* Makes the secondary button text uppercase. */
+  text-transform: uppercase;
+  /* Sets a clean secondary button text size. */
+  font-size: 13px;
+}
+
+.secondary-button:hover {
+  /* Gives the secondary button a white background on hover. */
+  background-color: white;
+  /* Makes the secondary button text dark on hover. */
+  color: #151617;
+}
+
+.about {
+  /* Keeps the about section from becoming too wide. */
+  max-width: 1180px;
+  /* Centers the about section on the page. */
+  margin: 0 auto;
+  /* Adds space around the about section. */
+  padding: 20px 34px 70px;
+}
+
+.about-intro {
+  /* Keeps the about intro text from becoming too wide. */
+  max-width: 860px;
+  /* Adds space below the about intro. */
+  margin-bottom: 30px;
+}
+
+.section-label {
+  /* Makes the section label gold. */
+  color: #ffc629;
+  /* Makes the section label bold. */
+  font-weight: bold;
+  /* Makes the section label uppercase. */
+  text-transform: uppercase;
+  /* Sets a compact section label size. */
+  font-size: 13px;
+  /* Adds space below the section label. */
+  margin-bottom: 10px;
+}
+
+.about-intro h2 {
+  /* Makes the about heading large and confident. */
+  font-size: 40px;
+  /* Tightens the about heading line spacing. */
+  line-height: 1.18;
+  /* Removes extra space above the about heading. */
+  margin-top: 0;
+  /* Adds space below the about heading. */
+  margin-bottom: 18px;
+  /* Makes the about heading white. */
+  color: white;
+}
+
+.about-intro p {
+  /* Makes the about intro paragraph easy to read. */
+  font-size: 18px;
+  /* Gives the about intro text a soft gray color. */
+  color: #d1d1d1;
+  /* Adds space below each about intro paragraph. */
+  margin-bottom: 16px;
+}
+
+.linkedin-link {
+  /* Shows the LinkedIn link as an inline text link. */
+  display: inline-block;
+  /* Makes the LinkedIn link gold. */
+  color: #ffc629;
+  /* Makes the LinkedIn link bold. */
+  font-weight: bold;
+  /* Removes the default underline from the link. */
+  text-decoration: none;
+  /* Adds space above the LinkedIn link. */
+  margin-top: 4px;
+}
+
+.linkedin-link:hover {
+  /* Adds an underline when the LinkedIn link is hovered. */
+  text-decoration: underline;
+}
+
+.about-grid {
+  /* Places the about cards in a row. */
+  display: flex;
+  /* Adds space between the about cards. */
+  gap: 22px;
+}
+
+.about-card {
+  /* Allows each about card to share the row evenly. */
+  flex: 1;
+  /* Adds space inside each about card. */
+  padding: 28px;
+  /* Gives each about card a slightly lighter dark background. */
+  background-color: #202224;
+  /* Adds a subtle border around each about card. */
+  border: 1px solid #34373a;
+}
+
+.about-card h3 {
+  /* Makes about card headings clear. */
+  font-size: 22px;
+  /* Makes about card headings white. */
+  color: white;
+  /* Removes extra space above about card headings. */
+  margin-top: 0;
+  /* Adds space below about card headings. */
+  margin-bottom: 10px;
+}
+
+.about-card p {
+  /* Uses a soft gray for about card text. */
+  color: #c7c7c7;
+  /* Removes extra space below about card text. */
+  margin-bottom: 0;
+}
+
+.credential-row {
+  /* Places credentials in one flexible row. */
+  display: flex;
+  /* Allows credentials to wrap on smaller screens. */
+  flex-wrap: wrap;
+  /* Adds space between credentials. */
+  gap: 12px;
+  /* Adds space above the credential row. */
+  margin-top: 24px;
+}
+
+.credential-row span {
+  /* Adds space inside each credential pill. */
+  padding: 10px 14px;
+  /* Gives each credential a dark background. */
+  background-color: #101112;
+  /* Adds a gold border around each credential. */
+  border: 1px solid #ffc629;
+  /* Makes credential text gold. */
+  color: #ffc629;
+  /* Sets a compact credential text size. */
+  font-size: 13px;
+  /* Makes credential text bold. */
+  font-weight: bold;
+}
+
+.services {
+  /* Places service cards in a row. */
+  display: flex;
+  /* Adds space between service cards. */
+  gap: 22px;
+  /* Keeps the services section from becoming too wide. */
+  max-width: 1180px;
+  /* Centers the services section. */
+  margin: 0 auto;
+  /* Adds space around the services section. */
+  padding: 0 34px 70px;
+}
+
+.service-card {
+  /* Allows each service card to share the row evenly. */
+  flex: 1;
+  /* Adds space inside each service card. */
+  padding: 28px;
+  /* Gives each service card a slightly lighter dark background. */
+  background-color: #202224;
+  /* Adds a subtle border around each card. */
+  border: 1px solid #34373a;
+}
+
+.service-card h3 {
+  /* Makes service card headings clear. */
+  font-size: 22px;
+  /* Makes service card headings white. */
+  color: white;
+  /* Removes extra space above service card headings. */
+  margin-top: 0;
+  /* Adds a small space below service card headings. */
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  /* Uses a soft gray for service card text. */
+  color: #c7c7c7;
+  /* Removes extra space below service card text. */
+  margin-bottom: 0;
+}
+
+footer {
+  /* Centers the footer text. */
+  text-align: center;
+  /* Adds space inside the footer. */
+  padding: 28px;
+  /* Gives the footer a nearly black background. */
+  background-color: #101112;
+  /* Makes the footer text light gray. */
+  color: #cfcfcf;
+}
+
+footer p {
+  /* Removes the default space around the footer paragraph. */
+  margin: 0;
+}
+
+@media (max-width: 850px) {
+  .site-header {
+    /* Stacks the logo and navigation on smaller screens. */
+    display: block;
+    /* Centers the header content on smaller screens. */
+    text-align: center;
+  }
+
+  .nav-links {
+    /* Centers navigation links on smaller screens. */
+    justify-content: center;
+    /* Lets navigation links wrap to new lines. */
+    flex-wrap: wrap;
+    /* Adds space above the navigation links. */
+    margin-top: 18px;
+  }
+
+  .nav-links a {
+    /* Adds balanced space around navigation links on smaller screens. */
+    margin: 8px;
+  }
+
+  .hero {
+    /* Stacks the hero image and text on smaller screens. */
+    display: block;
+    /* Reduces hero spacing on smaller screens. */
+    padding: 32px 24px 52px;
+  }
+
+  .hero-image {
+    /* Makes the image area full width on smaller screens. */
+    width: 100%;
+    /* Adds space below the image on smaller screens. */
+    margin-bottom: 34px;
+  }
+
+  .hero-image img {
+    /* Reduces the image height on smaller screens. */
+    height: 380px;
+  }
+
+  .hero-text {
+    /* Makes the text area full width on smaller screens. */
+    width: 100%;
+  }
+
+  h1 {
+    /* Reduces the main heading size on smaller screens. */
+    font-size: 40px;
+  }
+
+  .hero-actions {
+    /* Stacks the hero buttons on smaller screens. */
+    display: block;
+  }
+
+  .hero-button,
+  .secondary-button {
+    /* Makes buttons easier to tap on smaller screens. */
+    margin-bottom: 12px;
+  }
+
+  .services {
+    /* Stacks service cards on smaller screens. */
+    display: block;
+    /* Reduces services section spacing on smaller screens. */
+    padding: 0 24px 50px;
+  }
+
+  .about {
+    /* Reduces about section spacing on smaller screens. */
+    padding: 0 24px 50px;
+  }
+
+  .about-intro h2 {
+    /* Reduces the about heading size on smaller screens. */
+    font-size: 32px;
+  }
+
+  .about-grid {
+    /* Stacks about cards on smaller screens. */
+    display: block;
+  }
+
+  .about-card {
+    /* Adds space below each stacked about card. */
+    margin-bottom: 18px;
+  }
+
+  .service-card {
+    /* Adds space below each stacked service card. */
+    margin-bottom: 18px;
+  }
+}

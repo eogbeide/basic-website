@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GIF Gala RSVP</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Animated background emoji layer -->
+  <div class="floating-layer" aria-hidden="true" id="floating-layer"></div>
+
+  <main class="page">
+    <div class="card">
+
+      <!-- ── Invitation Header ─────────────────────────────────── -->
+      <header class="card-header">
+        <p class="eyebrow">✨ You Are Cordially Invited ✨</p>
+        <h1 class="title">
+          You're Invited to the<br />
+          <span class="gradient-text">GIF Gala:</span><br />
+          Where Memes Come to Life!
+        </h1>
+
+        <!-- ── Subheading / Date ──────────────────────────────── -->
+        <p class="event-date">📅 July 21, 2023</p>
+      </header>
+
+      <!-- ── Description ───────────────────────────────────────── -->
+      <p class="description">
+        Get ready for the internet's most legendary night out! Dress as your
+        favorite GIF or meme and join us for an evening of viral vibes, iconic
+        moments, and non-stop laughter. From Doge to Distracted Boyfriend —
+        all memes are welcome. It's going to be <em>legendary</em>.
+      </p>
+
+      <!-- ── Confirmation message (shown after submit) ─────────── -->
+      <div id="confirmation" class="confirmation" aria-live="polite"></div>
+
+      <!-- ── RSVP Form ──────────────────────────────────────────── -->
+      <form id="rsvp-form" class="rsvp-form" novalidate>
+
+        <!-- Email -->
+        <div class="form-group">
+          <label for="email">Email Address <span class="req">*</span></label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@example.com"
+            autocomplete="email"
+            required
+          />
+          <p class="field-error" id="email-error" role="alert"></p>
+        </div>
+
+        <!-- Attendance -->
+        <div class="form-group">
+          <label class="group-label">Will you attend? <span class="req">*</span></label>
+          <div class="radio-group" role="radiogroup" aria-labelledby="attendance-label">
+            <label class="radio-card">
+              <input type="radio" name="attendance" value="yes" required />
+              <span>😎 Oh heck yes!</span>
+            </label>
+            <label class="radio-card">
+              <input type="radio" name="attendance" value="maybe" />
+              <span>🤔 Maybe…</span>
+            </label>
+            <label class="radio-card">
+              <input type="radio" name="attendance" value="no" />
+              <span>😢 Can't make it</span>
+            </label>
+          </div>
+          <p class="field-error" id="attendance-error" role="alert"></p>
+        </div>
+
+        <button type="submit" class="submit-btn">
+          <span class="btn-text">Send My RSVP 🎉</span>
+          <span class="btn-spinner" aria-hidden="true"></span>
+        </button>
+
+      </form>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

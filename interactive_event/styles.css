@@ -1,0 +1,395 @@
+/* ── Reset & base ────────────────────────────────────────────────────────── */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  background: #0a0a12;
+  color: #e8e0f5;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ── Animated floating emoji background ─────────────────────────────────── */
+
+.floating-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+@keyframes floatUp {
+  0%   { transform: translateY(110vh) rotate(0deg);   opacity: 0; }
+  10%  { opacity: 0.6; }
+  90%  { opacity: 0.4; }
+  100% { transform: translateY(-12vh) rotate(360deg); opacity: 0; }
+}
+
+.float-emoji {
+  position: absolute;
+  bottom: -10%;
+  font-size: 26px;
+  animation: floatUp linear infinite;
+  user-select: none;
+}
+
+/* ── Page layout ─────────────────────────────────────────────────────────── */
+
+.page {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px 60px;
+}
+
+/* ── Card ────────────────────────────────────────────────────────────────── */
+
+.card {
+  background: linear-gradient(160deg, #16102a 0%, #1a1030 100%);
+  border: 1px solid rgba(180, 80, 255, 0.25);
+  border-radius: 24px;
+  box-shadow:
+    0 0 0 1px rgba(255, 80, 200, 0.08),
+    0 24px 70px rgba(120, 0, 200, 0.35),
+    0 4px 20px rgba(0, 0, 0, 0.6);
+  max-width: 560px;
+  width: 100%;
+  padding: 52px 44px 44px;
+  animation: cardDrop 0.55s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes cardDrop {
+  from { opacity: 0; transform: translateY(-30px) scale(0.96); }
+  to   { opacity: 1; transform: translateY(0)    scale(1);    }
+}
+
+/* ── Header ──────────────────────────────────────────────────────────────── */
+
+.card-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #c084fc;
+  margin: 0 0 14px;
+}
+
+.title {
+  font-family: 'Bangers', cursive;
+  font-size: 42px;
+  line-height: 1.12;
+  letter-spacing: 1px;
+  color: #f0e8ff;
+  margin: 0 0 16px;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #f700ff, #00d4ff, #ffe600);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+@keyframes shimmer {
+  to { background-position: 200% center; }
+}
+
+.event-date {
+  display: inline-block;
+  background: rgba(180, 80, 255, 0.18);
+  border: 1px solid rgba(180, 80, 255, 0.35);
+  border-radius: 999px;
+  padding: 6px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #e0b8ff;
+  margin: 0;
+}
+
+/* ── Description ─────────────────────────────────────────────────────────── */
+
+.description {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #c4b8d8;
+  margin: 0 0 32px;
+  text-align: center;
+}
+
+.description em {
+  color: #f0c0ff;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* ── Confirmation message ────────────────────────────────────────────────── */
+
+.confirmation {
+  display: none;
+  text-align: center;
+  padding: 28px 20px;
+  border-radius: 16px;
+  margin-bottom: 28px;
+}
+
+.confirmation.visible {
+  display: block;
+  animation: popIn 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes popIn {
+  from { opacity: 0; transform: scale(0.88); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+.confirmation.yes-state {
+  background: linear-gradient(135deg, rgba(0, 220, 130, 0.12), rgba(0, 180, 255, 0.1));
+  border: 1px solid rgba(0, 220, 130, 0.3);
+}
+
+.confirmation.maybe-state,
+.confirmation.no-state {
+  background: rgba(180, 80, 255, 0.1);
+  border: 1px solid rgba(180, 80, 255, 0.25);
+}
+
+.confirmation-icon {
+  font-size: 56px;
+  display: block;
+  margin-bottom: 12px;
+  animation: bounceIcon 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes bounceIcon {
+  0%   { transform: scale(0) rotate(-20deg); }
+  60%  { transform: scale(1.2) rotate(8deg); }
+  100% { transform: scale(1) rotate(0); }
+}
+
+.confirmation h2 {
+  font-family: 'Bangers', cursive;
+  font-size: 28px;
+  letter-spacing: 0.5px;
+  color: #f0e8ff;
+  margin: 0 0 8px;
+}
+
+.confirmation p {
+  font-size: 15px;
+  color: #c4b8d8;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* ── Form ────────────────────────────────────────────────────────────────── */
+
+.rsvp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label, .group-label {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #c084fc;
+}
+
+.req {
+  color: #f700ff;
+}
+
+input[type="email"] {
+  padding: 14px 16px;
+  font-size: 15px;
+  font-family: inherit;
+  color: #f0e8ff;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid rgba(180, 80, 255, 0.3);
+  border-radius: 10px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input[type="email"]::placeholder {
+  color: #6b5e80;
+}
+
+input[type="email"]:focus {
+  outline: none;
+  border-color: #c084fc;
+  box-shadow: 0 0 0 3px rgba(192, 132, 252, 0.18);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* ── Radio cards ─────────────────────────────────────────────────────────── */
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.radio-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 1.5px solid rgba(180, 80, 255, 0.2);
+  background: rgba(255, 255, 255, 0.04);
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+  font-size: 15px;
+  font-weight: 600;
+  color: #d4c8e8;
+}
+
+.radio-card:hover {
+  border-color: rgba(192, 132, 252, 0.5);
+  background: rgba(192, 132, 252, 0.08);
+}
+
+.radio-card input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  border-radius: 50%;
+  border: 2px solid rgba(180, 80, 255, 0.5);
+  background: transparent;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+  position: relative;
+}
+
+.radio-card input[type="radio"]:checked {
+  border-color: #c084fc;
+  background: radial-gradient(circle, #c084fc 40%, transparent 45%);
+}
+
+.radio-card:has(input:checked) {
+  border-color: #c084fc;
+  background: rgba(192, 132, 252, 0.14);
+  color: #f0e8ff;
+}
+
+/* ── Field errors ────────────────────────────────────────────────────────── */
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%       { transform: translateX(-7px); }
+  40%       { transform: translateX(7px); }
+  60%       { transform: translateX(-4px); }
+  80%       { transform: translateX(4px); }
+}
+
+.shake {
+  animation: shake 0.4s ease both;
+}
+
+.input-error {
+  border-color: #ff4d6d !important;
+  box-shadow: 0 0 0 3px rgba(255, 77, 109, 0.15) !important;
+}
+
+.field-error {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ff6b8a;
+  margin: 0;
+  min-height: 16px;
+}
+
+/* ── Submit button ───────────────────────────────────────────────────────── */
+
+.submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 17px 24px;
+  background: linear-gradient(135deg, #b300ff, #ff00c8);
+  color: #fff;
+  font-family: 'Bangers', cursive;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(179, 0, 255, 0.45);
+  transition: transform 0.15s ease, box-shadow 0.2s ease;
+  margin-top: 4px;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(179, 0, 255, 0.6);
+}
+
+.submit-btn:active {
+  transform: translateY(0);
+}
+
+.submit-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Spinner inside button */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.btn-spinner {
+  display: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.65s linear infinite;
+}
+
+.submit-btn.loading .btn-text { display: none; }
+.submit-btn.loading .btn-spinner { display: inline-block; }
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+
+@media (max-width: 560px) {
+  .card {
+    padding: 36px 22px 32px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .submit-btn {
+    font-size: 18px;
+  }
+}
