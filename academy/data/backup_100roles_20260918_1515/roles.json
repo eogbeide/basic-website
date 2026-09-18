@@ -260,14 +260,14 @@
             "coverage": "AI Adoption & Organizational Change / Stakeholder Management",
             "videos": [
               {
-                "title": "GenAI Leadership & Adoption (~42m)",
-                "url": "https://www.youtube.com/watch?v=e3snrDsct1o",
-                "channel": "AWS re:Invent"
+                "title": "What Is Change Management?",
+                "url": "https://www.youtube.com/watch?v=e4jnFqlUMmM",
+                "channel": "Prosci"
               },
               {
-                "title": "Successful Enterprise AI Adoption (~60m)",
-                "url": "https://www.youtube.com/watch?v=gjEHaZzHWnM",
-                "channel": "NDC"
+                "title": "Change Sponsor Best Practices",
+                "url": "https://www.youtube.com/watch?v=BIlEjegYMJE",
+                "channel": "Prosci"
               }
             ]
           },
@@ -276,13 +276,13 @@
             "coverage": "Business Process Mapping & BPMN / Operating Models / AI Use Cases",
             "videos": [
               {
-                "title": "Copilot Workflow Redesign (40m)",
-                "url": "https://www.youtube.com/watch?v=kvKwQW6rQJE",
-                "channel": "Microsoft Ignite"
+                "title": "Create a BPMN Diagram in Camunda 8",
+                "url": "https://www.youtube.com/watch?v=0n8MiEmNg1Y",
+                "channel": "Camunda"
               },
               {
-                "title": "Process Modernization & BPMN (59m)",
-                "url": "https://www.youtube.com/watch?v=2xGuCJ5lsxw",
+                "title": "AI Agent Workflow + Human-in-the-Loop",
+                "url": "https://www.youtube.com/watch?v=E0BaMLL5Uf4",
                 "channel": "Camunda"
               }
             ]
@@ -298,14 +298,14 @@
             "coverage": "AI Adoption & Change / Learning Design / Communications",
             "videos": [
               {
-                "title": "Enterprise Copilot Adoption (45m)",
-                "url": "https://www.youtube.com/watch?v=We9U68QF294",
-                "channel": "Microsoft Ignite"
+                "title": "ADKAR Change Management Model",
+                "url": "https://www.youtube.com/watch?v=zYe2fG8m4Ow",
+                "channel": "Prosci"
               },
               {
-                "title": "High-Performance Organizations (39m)",
-                "url": "https://www.youtube.com/watch?v=sCyb1V0CBQ0",
-                "channel": "AWS re:Invent"
+                "title": "Copilot Adoption Journeys That...",
+                "url": "https://www.youtube.com/watch?v=lxCzrYlhD54",
+                "channel": "Microsoft Learn"
               }
             ]
           },
@@ -314,14 +314,14 @@
             "coverage": "Product Analytics / Benefits Realization / Adoption Measurement",
             "videos": [
               {
-                "title": "Enterprise AI Adoption & ROI (43m)",
-                "url": "https://www.youtube.com/watch?v=XBv25DnBoa4",
-                "channel": "AI Council"
+                "title": "Measuring Copilot Usage, Adoption &...",
+                "url": "https://www.youtube.com/watch?v=dJAfk712dtc",
+                "channel": "Microsoft"
               },
               {
-                "title": "Scaling Enterprise AI (56m)",
-                "url": "https://www.youtube.com/watch?v=WUJIrkb3sow",
-                "channel": "W&B/Snowflake"
+                "title": "Copilot Dashboard Overview",
+                "url": "https://www.youtube.com/watch?v=ae6Ov_QBXaI",
+                "channel": "Microsoft 365"
               }
             ]
           }
@@ -336,14 +336,14 @@
             "coverage": "Responsible AI & Governance / AI & Agent Governance and Safety",
             "videos": [
               {
-                "title": "AI Security, Privacy & Governance (35m)",
-                "url": "https://www.youtube.com/watch?v=l6ou6hVUJ3k",
-                "channel": "Google Cloud"
+                "title": "The Importance of AI Governance",
+                "url": "https://www.youtube.com/watch?v=Q020C-Jw0o8",
+                "channel": "IBM Technology"
               },
               {
-                "title": "Secure Copilot Adoption with Purview (39m)",
-                "url": "https://www.youtube.com/watch?v=8X-FvmnB-n4",
-                "channel": "Microsoft"
+                "title": "AI Risk Management Framework 1.0 Explainer",
+                "url": "https://www.nist.gov/video/introduction-nist-ai-risk-management-framework-ai-rmf-10-explainer-video",
+                "channel": "NIST"
               }
             ]
           },
@@ -352,14 +352,14 @@
             "coverage": "AI Strategy / Operating Models / Enterprise Transformation",
             "videos": [
               {
-                "title": "Responsible AI Adoption at Scale (43m)",
-                "url": "https://www.youtube.com/watch?v=7hqyL3-U8uU",
-                "channel": "Microsoft"
+                "title": "AI Adoption Framework",
+                "url": "https://www.youtube.com/watch?v=0jFj0cPBX0g",
+                "channel": "Google Cloud"
               },
               {
-                "title": "Enterprise AI Operating Model (36m)",
-                "url": "https://www.youtube.com/watch?v=YEWz6GDnAY4",
-                "channel": "Red Hat/CNS"
+                "title": "AI Operating Model at Think 2026",
+                "url": "https://www.youtube.com/watch?v=YHKXflgkHak",
+                "channel": "IBM Technology"
               }
             ]
           }
@@ -383,9 +383,9 @@
             "coverage": "Product Discovery, AI UX & Customer Research",
             "videos": [
               {
-                "title": "Design Thinking: Method, Not Magic",
-                "url": "https://www.youtube.com/watch?v=vSuK2C89yjA",
-                "channel": "Stanford d.school"
+                "title": "IDEO U",
+                "url": "https://www.youtube.com/watch?v=ldYzbV0NDp8",
+                "channel": "What Is Design Thinking?"
               },
               {
                 "title": "Google Cloud",
@@ -399,9 +399,9 @@
             "coverage": "Prompt Engineering, Context Engineering & RAG",
             "videos": [
               {
-                "title": "Prompt Engineering 101",
-                "url": "https://www.youtube.com/watch?v=tugUOUff2Uk",
-                "channel": "Microsoft Reactor"
+                "title": "Microsoft Reactor",
+                "url": "https://www.youtube.com/watch?v=QU35WpiOLQo",
+                "channel": "What Is Prompt Engineering?"
               },
               {
                 "title": "Microsoft",
@@ -998,9 +998,9 @@
             "coverage": "Kubernetes & Cloud Infrastructure",
             "videos": [
               {
-                "title": "Kubernetes 101 Workshop",
-                "url": "https://www.youtube.com/watch?v=wymoY6Z_uCs",
-                "channel": "CNCF"
+                "title": "Google Cloud Tech",
+                "url": "https://www.youtube.com/watch?v=cC46cg5FFAM",
+                "channel": "What Is Kubernetes?"
               },
               {
                 "title": "Google Cloud",
@@ -1036,9 +1036,9 @@
             "coverage": "Distributed Systems, Scheduling & GPU Operations",
             "videos": [
               {
-                "title": "Distributed Systems Lecture",
-                "url": "https://www.youtube.com/watch?v=cQP8WApzIQQ",
-                "channel": "MIT 6.824"
+                "title": "IBM Technology",
+                "url": "https://www.youtube.com/watch?v=eWMgsk7mpFc",
+                "channel": "What Is CAP Theorem?"
               },
               {
                 "title": "CNCF",
@@ -1079,9 +1079,9 @@
                 "channel": "Build Foundry Agents with the AI Gateway Tier"
               },
               {
-                "title": "Engineering with Backstage",
-                "url": "https://www.youtube.com/watch?v=lCgDiusuixM",
-                "channel": "CNCF / Spotify"
+                "title": "Backstage / Spotify",
+                "url": "https://www.youtube.com/watch?v=85TQEpNCaU0",
+                "channel": "What Is Backstage?"
               }
             ]
           },
@@ -1090,9 +1090,9 @@
             "coverage": "Observability, SRE & Production Reliability",
             "videos": [
               {
-                "title": "Alerting with Service Level Objectives",
-                "url": "https://www.youtube.com/watch?v=_2th8LDnvQk",
-                "channel": "USENIX / Google"
+                "title": "Google Cloud Tech",
+                "url": "https://www.youtube.com/watch?v=E3ReKuJ8ewA",
+                "channel": "The Art of SLOs"
               },
               {
                 "title": "Google Cloud",
@@ -1935,9 +1935,9 @@
             "coverage": "Data Quality / Lineage / Observability / SRE / Governance",
             "videos": [
               {
-                "title": "Data Quality Monitoring at Scale",
-                "url": "https://www.youtube.com/watch?v=SLINAuoIfq4",
-                "channel": "Databricks"
+                "title": "What Is Data Observability?",
+                "url": "https://www.youtube.com/watch?v=Lt8_s8ywEAA",
+                "channel": "Monte Carlo"
               },
               {
                 "title": "Lineage System Table in Unity Catalog",
@@ -2940,7 +2940,7 @@
                 "channel": "Zero Trust Security for AI Agents"
               },
               {
-                "title": "Google Cloud",
+                "title": "Google Cloud Design a production support system with trusted-knowledge RAG, case triage, tool-using agent assist, automated routing and explicit human escalation. Build evals for answer quality and resolution, instrument CSAT/deflection/SLA metrics, add access controls and observability, and create a feedback loop that converts recurring issues into product or documentation improvements. Explain the service workflow and knowledge boundaries clearly; apply retrieval, routing and escalation to realistic cases; compare self-service, agent-assist and human handoff; show eval, CSAT, SLA, reliability and security evidence; quantify deflection, resolution time or customer-impact improvement.",
                 "url": "https://www.youtube.com/watch?v=E3ReKuJ8ewA",
                 "channel": "The Art of SLOs"
               }
@@ -3581,9 +3581,9 @@
             "coverage": "Data Governance / Operating Models / Stewardship / Policy",
             "videos": [
               {
-                "title": "Enabling Agility with Data Governance",
-                "url": "https://www.youtube.com/watch?v=vznDgJkoH7k",
-                "channel": "AWS re:Invent"
+                "title": "Data Governance Explained",
+                "url": "https://www.youtube.com/watch?v=24Ki4Ck4Y2E",
+                "channel": "IBM Technology"
               },
               {
                 "title": "Zhamak Dehghani: Data Mesh & Data as a Product",
@@ -3619,9 +3619,9 @@
             "coverage": "Data Quality / Observability / Contracts / SLOs",
             "videos": [
               {
-                "title": "Data Quality Monitoring at Scale",
-                "url": "https://www.youtube.com/watch?v=SLINAuoIfq4",
-                "channel": "Databricks"
+                "title": "What Is Data Observability?",
+                "url": "https://www.youtube.com/watch?v=Lt8_s8ywEAA",
+                "channel": "Monte Carlo"
               },
               {
                 "title": "Data Contracts: The Key to Data Quality",
@@ -3635,9 +3635,9 @@
             "coverage": "MDM / Reference Data / Ontologies / Knowledge Graphs",
             "videos": [
               {
-                "title": "Master Data Management Cloud Webinar",
-                "url": "https://www.youtube.com/watch?v=wMbO1m_zH2c",
-                "channel": "Informatica"
+                "title": "What Is Master Data Management?",
+                "url": "https://www.youtube.com/watch?v=l83bkKJh1wM",
+                "channel": "IBM Technology"
               },
               {
                 "title": "Ontologies for Knowledge Graph Creation",
@@ -3657,9 +3657,9 @@
             "coverage": "Access Governance / ABAC / Policy as Code / Audit Controls",
             "videos": [
               {
-                "title": "IAM Best Practices",
-                "url": "https://www.youtube.com/watch?v=_wiGpBQGCjU",
-                "channel": "AWS re:Invent"
+                "title": "RBAC vs. ABAC",
+                "url": "https://www.youtube.com/watch?v=rvZ35YW4t5k",
+                "channel": "IBM Technology"
               },
               {
                 "title": "Open Policy Agent Intro & Deep Dive",
@@ -6015,9 +6015,9 @@
                 "channel": "How Leaders Can Drive AI Transformation"
               },
               {
-                "title": "Successful Enterprise AI Adoption",
-                "url": "https://www.youtube.com/watch?v=gjEHaZzHWnM",
-                "channel": "NDC"
+                "title": "Prosci",
+                "url": "https://www.youtube.com/watch?v=e4jnFqlUMmM",
+                "channel": "What Is Change Management?"
               }
             ]
           }
@@ -6656,14 +6656,14 @@
             "coverage": "Design & Creative Production",
             "videos": [
               {
-                "title": "Firefly Creative Workflow Deep Dive",
-                "url": "https://www.youtube.com/watch?v=ojCH-N-qEjw",
-                "channel": "Adobe Live"
+                "title": "Typography",
+                "url": "https://www.youtube.com/watch?v=sByzHoiYFX0",
+                "channel": "GCFGlobal"
               },
               {
-                "title": "Content Authenticity Initiative: Trust & Transparency",
-                "url": "https://www.youtube.com/watch?v=Xd6vtHMlse4",
-                "channel": "Adobe"
+                "title": "Layout & Composition",
+                "url": "https://www.youtube.com/watch?v=a5KYlHNKQB8",
+                "channel": "GCFGlobal"
               }
             ]
           },
@@ -6748,14 +6748,14 @@
             "coverage": "Animation & AI Content Creation / Responsible AI",
             "videos": [
               {
-                "title": "Typographic Hierarchy Masterclass",
-                "url": "https://www.behance.net/live/videos/22685/Teaching-Typography-Typographic-Hierarchy-with-Cory-Allen-Hall",
-                "channel": "Adobe Live"
+                "title": "Generate Videos with AI",
+                "url": "https://www.youtube.com/watch?v=7xN9DZOs2-0",
+                "channel": "Adobe Firefly"
               },
               {
-                "title": "Typographic Structure & Grid Systems",
-                "url": "https://www.behance.net/live/videos/22457/Teaching%20Typography%3A%20Typographic%20Structure%20with%20Cory%20Allen%20Hall",
-                "channel": "Adobe Live"
+                "title": "Content Credentials Explained",
+                "url": "https://www.youtube.com/watch?v=U8YU1pZgGmY",
+                "channel": "Adobe"
               }
             ]
           }
@@ -6940,9 +6940,9 @@
             "coverage": "Operations Research, Simulation & Decision Science",
             "videos": [
               {
-                "title": "Supply Chain Simulation & Optimization Webinar",
-                "url": "https://www.youtube.com/watch?v=xSXUMX2HOL4",
-                "channel": "AnyLogic"
+                "title": "Supply Chain Simulation Software: AnyLogic Overview",
+                "url": "https://www.youtube.com/watch?v=Fuyh-sM6WQI",
+                "channel": ""
               },
               {
                 "title": "Agent-Based Supply Chain Simulation in AnyLogic",
@@ -6956,9 +6956,9 @@
             "coverage": "Operational Excellence Analytics: Root Cause, SPC & Process Mining",
             "videos": [
               {
-                "title": "Applied Process Mining Webinar",
-                "url": "https://www.youtube.com/watch?v=hv1OrfhSwnc",
-                "channel": "Celonis"
+                "title": "Celonis",
+                "url": "https://www.youtube.com/watch?v=hsdHZ5MJBNM",
+                "channel": "Process Mining Explained"
               },
               {
                 "title": "Celonis",
@@ -7415,9 +7415,9 @@
                 "channel": "SaaS Pricing and Packaging"
               },
               {
-                "title": "Value Proposition Canvas Webinar",
-                "url": "https://www.youtube.com/watch?v=r0mtUQnny94",
-                "channel": "Strategyzer"
+                "title": "Strategyzer",
+                "url": "https://www.youtube.com/watch?v=ReM1uqmVfP0",
+                "channel": "Value Proposition Canvas Explained"
               }
             ]
           }
@@ -7448,13 +7448,13 @@
             "coverage": "Experimentation & A/B Testing",
             "videos": [
               {
-                "title": "Lecture 3: Elasticity (48 min)",
+                "title": "Khan Academy",
                 "url": "https://www.youtube.com/watch?v=FBWJYH8DZ1g",
-                "channel": "MIT OpenCourseWare"
+                "channel": "Introduction to Price Elasticity of Demand"
               },
               {
                 "title": "Willingness to Pay",
-                "url": "",
+                "url": "https://www.youtube.com/watch?v=4TYaog-ljG0",
                 "channel": "How To Price SaaS Products Accurately"
               }
             ]
@@ -7486,14 +7486,14 @@
             "coverage": "Monetization Strategy & Business Models",
             "videos": [
               {
-                "title": "Business Model Canvas Webinar",
-                "url": "https://www.youtube.com/watch?v=SliMK6Z2jlA",
-                "channel": "Strategyzer"
+                "title": "Strategyzer",
+                "url": "https://www.youtube.com/watch?v=QoAOzMTLP5s",
+                "channel": "Business Model Canvas Explained"
               },
               {
-                "title": "Usage-Based Pricing Deep Dive",
-                "url": "https://www.youtube.com/watch?v=_9FQaNjObS0",
-                "channel": "SaaS Talks"
+                "title": "What Is Usage-Based Pricing for SaaS?",
+                "url": "https://www.youtube.com/watch?v=yJqduKPT6iw",
+                "channel": ""
               }
             ]
           }
@@ -7538,9 +7538,9 @@
                 "channel": "Microsoft Learn"
               },
               {
-                "title": "Enabling Agility with Data Governance",
-                "url": "https://www.youtube.com/watch?v=vznDgJkoH7k",
-                "channel": "AWS re:Invent"
+                "title": "Data Governance Explained",
+                "url": "https://www.youtube.com/watch?v=uPsUjKLHLAg",
+                "channel": "IBM Technology"
               }
             ]
           }
@@ -7571,9 +7571,9 @@
             "coverage": "Privacy-Enhancing Technologies / ML Privacy / Private Analytics",
             "videos": [
               {
-                "title": "Cynthia Dwork: Differential Privacy",
-                "url": "https://www.youtube.com/watch?v=lg-VhHlztqo",
-                "channel": "Simons Institute"
+                "title": "Protecting Privacy with MATH",
+                "url": "https://www.youtube.com/watch?v=pT19VwBAqKA",
+                "channel": "MinutePhysics + US Census"
               },
               {
                 "title": "Federated Learning on Decentralized Data",
@@ -7593,9 +7593,9 @@
             "coverage": "Cryptography / Distributed Systems / Privacy-Preserving Compute",
             "videos": [
               {
-                "title": "Secure Multiparty Computation",
-                "url": "https://www.youtube.com/watch?v=pjlXjBSyyHI",
-                "channel": "Simons Institute"
+                "title": "What Is Secure Multiparty Computation?",
+                "url": "https://www.youtube.com/watch?v=l25jcolQW6Q",
+                "channel": "Boston University"
               },
               {
                 "title": "AI and Fully Homomorphic Encryption",
@@ -7763,8 +7763,8 @@
             "coverage": "Process Improvement: Lean, Six Sigma & Kaizen",
             "videos": [
               {
-                "title": "Six Sigma Full Course",
-                "url": "https://www.youtube.com/watch?v=tVLq77s0KvU",
+                "title": "Lean Six Sigma in 8 Minutes",
+                "url": "https://www.youtube.com/watch?v=s2HCrhNVfak",
                 "channel": "Simplilearn"
               },
               {
@@ -7822,8 +7822,8 @@
                 "channel": "Gemba Academy"
               },
               {
-                "title": "Applied Process Mining Webinar",
-                "url": "https://www.youtube.com/watch?v=hv1OrfhSwnc",
+                "title": "What Is Process Mining?",
+                "url": "https://www.youtube.com/watch?v=quQxlUqjuP0",
                 "channel": "Celonis"
               }
             ]
@@ -7860,9 +7860,9 @@
                 "channel": "Gemba Academy"
               },
               {
-                "title": "Successful Enterprise AI Adoption",
-                "url": "https://www.youtube.com/watch?v=gjEHaZzHWnM",
-                "channel": "NDC"
+                "title": "ADKAR Change Management Model",
+                "url": "https://www.youtube.com/watch?v=zYe2fG8m4Ow",
+                "channel": "Prosci"
               }
             ]
           }
@@ -9336,7 +9336,7 @@
                 "channel": "Interactive Agent Evals"
               },
               {
-                "title": "Microsoft Product Leader",
+                "title": "Microsoft Product Leader Build a production-oriented revenue intelligence copilot that unifies CRM, product-usage and customer signals; researches accounts, scores opportunities, recommends next-best actions and automates follow-up. Add forecast/health views, agent evals, approval boundaries, adoption telemetry and a weekly GTM operating review. Explain the revenue workflow and data model clearly; apply AI to a realistic seller/account scenario; compare autonomy, CRM hygiene and human-review tradeoffs; show scoring, forecast, eval and adoption evidence; quantify seller productivity, conversion, expansion or pipeline impact.",
                 "url": "https://www.youtube.com/watch?v=yDLErwgajOQ",
                 "channel": "Go-to-Market Strategy"
               }
@@ -9490,9 +9490,9 @@
                 "channel": "Elastic"
               },
               {
-                "title": "Semantic Search & Vector Database Workshop",
-                "url": "https://www.youtube.com/watch?v=7RF03_WQJpQ",
-                "channel": "Pinecone"
+                "title": "What Is Semantic Search?",
+                "url": "https://www.youtube.com/watch?v=xqY8txOthI4",
+                "channel": "Google Cloud"
               }
             ]
           },
@@ -9506,8 +9506,8 @@
                 "channel": "Google Cloud"
               },
               {
-                "title": "AI Retrieval with Vector Search & Knowledge Graphs",
-                "url": "https://www.youtube.com/watch?v=LtoM-0IhKnY",
+                "title": "What Is a Vector Database?",
+                "url": "https://www.youtube.com/watch?v=OCZQUQxQ-Jo",
                 "channel": "IBM"
               }
             ]
@@ -9566,9 +9566,9 @@
                 "channel": "Meta FAISS"
               },
               {
-                "title": "Enterprise Semantic Search at Scale",
-                "url": "https://www.youtube.com/watch?v=Q7bIdv2FQzY",
-                "channel": "Pinecone"
+                "title": "Scaling Real-Time Search",
+                "url": "https://www.nvidia.com/en-us/on-demand/session/gtc26-s81701/",
+                "channel": "Perplexity + NVIDIA"
               }
             ]
           },
@@ -9613,9 +9613,9 @@
                 "channel": "Practical Networking"
               },
               {
-                "title": "Zero Trust Access Controls",
-                "url": "https://www.youtube.com/watch?v=2jz5FQpGWQ4",
-                "channel": "Google Cloud"
+                "title": "Zero Trust Explained in 4 Minutes",
+                "url": "https://www.youtube.com/watch?v=yn6CPQ9RioA",
+                "channel": "IBM Technology"
               }
             ]
           },
@@ -9667,9 +9667,9 @@
                 "channel": "AWS Events"
               },
               {
-                "title": "IAM Best Practices",
-                "url": "https://www.youtube.com/watch?v=_wiGpBQGCjU",
-                "channel": "AWS re:Invent"
+                "title": "Learn AWS IAM in Under 10 Minutes",
+                "url": "https://www.youtube.com/watch?v=9Pk2J_5qnlk",
+                "channel": "AWS Developers"
               }
             ]
           }
@@ -9769,9 +9769,9 @@
             "coverage": "Operating Model, Organizational Leadership & Change",
             "videos": [
               {
-                "title": "Gartner (2026)",
-                "url": "https://www.youtube.com/watch?v=r2LBULIKJVw",
-                "channel": "Nail Your Next Board Presentation"
+                "title": "Prosci",
+                "url": "https://www.youtube.com/watch?v=oRDd9umVFT8",
+                "channel": "The ADKAR Model Overview"
               },
               {
                 "title": "Prosci",
@@ -9823,14 +9823,14 @@
             "coverage": "Board Communication, Shareholder Value & Executive Presence",
             "videos": [
               {
-                "title": "GenAI Leadership & Adoption",
-                "url": "https://www.youtube.com/watch?v=e3snrDsct1o",
-                "channel": "AWS re:Invent"
-              },
-              {
                 "title": "Sylvia Ann Hewlett / Talks at Google",
                 "url": "https://www.youtube.com/watch?v=i2QOAfWLedE",
                 "channel": "Executive Presence"
+              },
+              {
+                "title": "Gartner (2026)",
+                "url": "https://www.youtube.com/watch?v=r2LBULIKJVw",
+                "channel": "Nail Your Next Board Presentation"
               }
             ]
           }
@@ -10881,9 +10881,9 @@
                 "channel": "Databricks"
               },
               {
-                "title": "Data Quality Monitoring at Scale",
-                "url": "https://www.youtube.com/watch?v=SLINAuoIfq4",
-                "channel": "Databricks"
+                "title": "What Is Data Observability?",
+                "url": "https://www.youtube.com/watch?v=Lt8_s8ywEAA",
+                "channel": "Monte Carlo"
               }
             ]
           },
@@ -10892,8 +10892,8 @@
             "coverage": "Analytics / ML Product / GenAI / Conversational BI",
             "videos": [
               {
-                "title": "AI/BI Dashboards & Genie End-to-End",
-                "url": "https://www.youtube.com/watch?v=Tc3WqbV7fKA",
+                "title": "What Is AI/BI Genie?",
+                "url": "https://www.youtube.com/watch?v=3_TpRj3z_Gs",
                 "channel": "Databricks"
               },
               {
@@ -10930,9 +10930,9 @@
             "coverage": "Data Governance / Responsible AI / Executive Leadership",
             "videos": [
               {
-                "title": "Data & AI Governance",
-                "url": "https://www.youtube.com/watch?v=cdmvSHJEh2E",
-                "channel": "Google Cloud Next"
+                "title": "The Importance of AI Governance",
+                "url": "https://www.youtube.com/watch?v=Q020C-Jw0o8",
+                "channel": "IBM Technology"
               },
               {
                 "title": "Introduction to the AI Risk Management...",
@@ -11737,14 +11737,14 @@
             "coverage": "Systems Architecture & System Design / APIs",
             "videos": [
               {
-                "title": "Scaling to Your First 10 Million Users",
-                "url": "https://www.youtube.com/watch?v=w95murBkYmU",
-                "channel": "AWS re:Invent"
+                "title": "7 System Design Concepts in 10 Minutes",
+                "url": "https://www.youtube.com/watch?v=Qd9tJ3H_hPE",
+                "channel": "ByteByteGo"
               },
               {
-                "title": "Designing Quality APIs",
-                "url": "https://www.youtube.com/watch?v=P0a7PwRNLVU",
-                "channel": "Google Cloud"
+                "title": "What Is a REST API?",
+                "url": "https://www.youtube.com/watch?v=lsMQRaeKNDk",
+                "channel": "IBM Technology"
               }
             ]
           },
@@ -12042,7 +12042,7 @@
                 "channel": "Google Design"
               },
               {
-                "title": "Common Pitfalls of A/B Testing",
+                "title": "Common Pitfalls of A/B Testing Design and validate an AI-enabled or data-rich product experience: synthesize user evidence; map journeys/IA; build high-fidelity interactive prototypes; test usability and accessibility; define reusable components and implementation specs; use AI-assisted exploration with human review; define success/counter-metrics and an experiment plan; deliver annotated handoff and a post-launch iteration backlog. Show evidence-to-design traceability; interaction craft and accessibility; coherent systems thinking; prototyping depth; engineering feasibility; appropriate AI use; and measurable user/business outcomes with explicit tradeoffs.",
                 "url": "",
                 "channel": "Stanford"
               }
@@ -12165,7 +12165,7 @@
                 "channel": "Steve Portigal"
               },
               {
-                "title": "Continuous Discovery",
+                "title": "Continuous Discovery Run a decision-grade mixed-method study for an AI-enabled product: define the decision, research questions, sampling and ethics; conduct interviews and usability sessions; design a survey/behavioral analysis and experiment; code and synthesize qualitative evidence; quantify uncertainty and causal limits; evaluate AI trust/quality; triangulate findings and deliver an executive-ready recommendation plus research roadmap. Demonstrate methodological fit, sampling rigor, unbiased instruments, reproducible qualitative synthesis, sound statistics/causal reasoning, AI-evaluation judgment, clear uncertainty, stakeholder influence and traceable product decisions.",
                 "url": "",
                 "channel": "Stanford / Teresa Torres"
               }
