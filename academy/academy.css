@@ -111,6 +111,38 @@ a {
   flex-direction: column;
 }
 
+.mode-toggle {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 14px;
+  background-color: #151617;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.mode-toggle button {
+  flex: 1;
+  background: none;
+  border: none;
+  color: #8a8a8a;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.mode-toggle button:hover {
+  color: #d7d7d7;
+}
+
+.mode-toggle button.active {
+  background-color: #ffc629;
+  color: #151617;
+}
+
 .search-box input {
   width: 100%;
   padding: 12px 14px;
@@ -183,23 +215,103 @@ a {
   margin-top: 0;
 }
 
-.role-card {
+.detail-card {
   background-color: #1c1d1e;
   border: 1px solid #2a2a2a;
   border-radius: 10px;
   padding: 30px;
 }
 
-.role-card h2 {
+.detail-card h2 {
   font-size: 28px;
   margin: 0 0 8px;
 }
 
-.role-benchmark {
+.detail-description {
+  color: #d7d7d7;
+  font-size: 14px;
+  margin: 0 0 14px;
+}
+
+.detail-benchmark {
   color: #ffc629;
   font-size: 13px;
   font-weight: bold;
   margin: 0 0 24px;
+}
+
+.cross-links-block,
+.course-sequence-block,
+.tier-block {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #2a2a2a;
+}
+
+.cross-links-block h3,
+.course-sequence-block h3 {
+  color: #ffc629;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 12px;
+}
+
+.role-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.role-pill {
+  background-color: #17181a;
+  border: 1px solid #333;
+  color: #d7d7d7;
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.role-pill:hover {
+  border-color: #ffc629;
+  color: #ffc629;
+}
+
+.course-sequence {
+  margin: 0;
+  padding-left: 22px;
+  color: #d7d7d7;
+  font-size: 14px;
+}
+
+.course-sequence li {
+  margin-bottom: 6px;
+}
+
+.tier-label {
+  color: #ffc629;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 10px;
+}
+
+.tier-courses,
+.tier-bridges {
+  margin: 0 0 12px;
+  padding-left: 22px;
+  color: #d7d7d7;
+  font-size: 14px;
+}
+
+.tier-bridges-label {
+  color: #8a8a8a;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin: 0 0 6px;
 }
 
 .level-block {

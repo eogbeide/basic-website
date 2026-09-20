@@ -1,13 +1,4 @@
 (function () {
-  var roles = ROLES_DATA.slice().sort(function (a, b) {
-    return a.name.localeCompare(b.name);
-  });
-
-  var listEl = document.getElementById('role-list');
-  var detailEl = document.getElementById('role-detail');
-  var searchEl = document.getElementById('search-input');
-  var countEl = document.getElementById('role-count-num');
-
   function escapeHtml(str) {
     if (!str) return '';
     return String(str)
@@ -19,31 +10,6 @@
 
   function slugify(name) {
     return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-  }
-
-  var bySlug = {};
-  roles.forEach(function (r) {
-    bySlug[slugify(r.name)] = r;
-  });
-
-  function renderList(filterText) {
-    var filtered = roles.filter(function (r) {
-      if (!filterText) return true;
-      return r.name.toLowerCase().indexOf(filterText.toLowerCase()) !== -1;
-    });
-
-    countEl.textContent = filtered.length;
-
-    if (filtered.length === 0) {
-      listEl.innerHTML = '<li class="no-match">No roles match your search.</li>';
-      return;
-    }
-
-    listEl.innerHTML = filtered
-      .map(function (r) {
-        return '<li data-slug="' + slugify(r.name) + '">' + escapeHtml(r.name) + '</li>';
-      })
-      .join('');
   }
 
   function levelClass(level) {
@@ -65,7 +31,7 @@
     return (
       '<div class="competency">' +
       '<p class="competency-title">' + escapeHtml(c.title) + '</p>' +
-      '<p class="competency-coverage">Coverage: ' + escapeHtml(c.coverage) + '</p>' +
+      (c.coverage ? '<p class="competency-coverage">Coverage: ' + escapeHtml(c.coverage) + '</p>' : '') +
       '<ul class="video-links">' + c.videos.map(renderVideo).join('') + '</ul>' +
       '</div>'
     );
@@ -82,10 +48,10 @@
   }
 
   function renderRole(role) {
-    detailEl.innerHTML =
-      '<div class="role-card">' +
+    return (
+      '<div class="detail-card">' +
       '<h2>' + escapeHtml(role.name) + '</h2>' +
-      (role.benchmark ? '<p class="role-benchmark">Benchmark: ' + escapeHtml(role.benchmark) + '</p>' : '') +
+      (role.benchmark ? '<p class="detail-benchmark">Benchmark: ' + escapeHtml(role.benchmark) + '</p>' : '') +
       role.levels.map(renderLevel).join('') +
       (role.capstone
         ? '<div class="capstone-block"><h3>Role-Readiness Proof / Capstone</h3><p>' + escapeHtml(role.capstone) + '</p></div>'
@@ -93,28 +59,202 @@
       (role.rubric
         ? '<div class="rubric-block"><h3>Proof Rubric</h3><p>' + escapeHtml(role.rubric) + '</p></div>'
         : '') +
+      '</div>'
+    );
+  }
+
+  function renderPathway(pathway) {
+    var roleLinks = (pathway.representative_roles || [])
+      .map(function (r) {
+        return '<button type="button" class="role-pill" data-cross-role="' + escapeHtml(slugify(r)) + '">' + escapeHtml(r) + '</button>';
+      })
+      .join('');
+    var courses = (pathway.course_sequence || [])
+      .map(function (c) {
+        return '<li>' + escapeHtml(c) + '</li>';
+      })
+      .join('');
+    return (
+      '<div class="detail-card">' +
+      '<h2>' + escapeHtml(pathway.name) + '</h2>' +
+      (pathway.description ? '<p class="detail-description">' + escapeHtml(pathway.description) + '</p>' : '') +
+      (pathway.market_basis ? '<p class="detail-benchmark">Market Basis: ' + escapeHtml(pathway.market_basis) + '</p>' : '') +
+      (roleLinks
+        ? '<div class="cross-links-block"><h3>Representative Roles</h3><div class="role-pills">' + roleLinks + '</div></div>'
+        : '') +
+      (courses
+        ? '<div class="course-sequence-block"><h3>Course Sequence</h3><ol class="course-sequence">' + courses + '</ol></div>'
+        : '') +
+      '</div>'
+    );
+  }
+
+  function renderCertificate(cert) {
+    var tiers = (cert.tiers || [])
+      .map(function (t) {
+        var courses = (t.courses || []).map(function (c) { return '<li>' + escapeHtml(c) + '</li>'; }).join('');
+        var bridges = (t.bridges || []).map(function (b) { return '<li>' + escapeHtml(b) + '</li>'; }).join('');
+        return (
+          '<div class="tier-block">' +
+          '<p class="tier-label">' + escapeHtml(t.tier) + '</p>' +
+          (courses ? '<ul class="tier-courses">' + courses + '</ul>' : '') +
+          (bridges ? '<p class="tier-bridges-label">Bridge Topics</p><ul class="tier-bridges">' + bridges + '</ul>' : '') +
+          '</div>'
+        );
+      })
+      .join('');
+    return (
+      '<div class="detail-card">' +
+      '<h2>' + escapeHtml(cert.name) + '</h2>' +
+      (cert.description ? '<p class="detail-description">' + escapeHtml(cert.description) + '</p>' : '') +
+      (cert.university_benchmark ? '<p class="detail-benchmark">University Curriculum Benchmark: ' + escapeHtml(cert.university_benchmark) + '</p>' : '') +
+      tiers +
+      (cert.capstone
+        ? '<div class="capstone-block"><h3>Integrative Capstone</h3><p>' + escapeHtml(cert.capstone) + '</p></div>'
+        : '') +
+      (cert.evidence_standard
+        ? '<div class="rubric-block"><h3>Evidence Standard</h3><p>' + escapeHtml(cert.evidence_standard) + '</p></div>'
+        : '') +
+      '</div>'
+    );
+  }
+
+  var MODES = {
+    roles: {
+      label: 'roles',
+      data: (typeof ROLES_DATA !== 'undefined' ? ROLES_DATA : []).slice().sort(function (a, b) { return a.name.localeCompare(b.name); }),
+      searchPlaceholder: 'Search roles, e.g. AI Engineer, UX, Finance...',
+      emptyTitle: 'Choose a role to open its mastery path',
+      emptyBody: 'Search by title or scroll the list on the left. Every role includes 6 core competencies, 12 direct video bridges and a hands-on capstone.',
+      render: renderRole,
+    },
+    pathways: {
+      label: 'learning pathways',
+      data: (typeof PATHWAYS_DATA !== 'undefined' ? PATHWAYS_DATA : []).slice().sort(function (a, b) { return a.name.localeCompare(b.name); }),
+      searchPlaceholder: 'Search pathways, e.g. AI, Cloud, Design...',
+      emptyTitle: 'Choose a learning pathway',
+      emptyBody: 'Pathways move through one discipline end-to-end: foundations, build, operate, optimize and lead, with a curated course sequence and representative roles.',
+      render: renderPathway,
+    },
+    certificates: {
+      label: 'academic certificates',
+      data: (typeof CERTIFICATES_DATA !== 'undefined' ? CERTIFICATES_DATA : []).slice().sort(function (a, b) { return a.name.localeCompare(b.name); }),
+      searchPlaceholder: 'Search certificates, e.g. Computer Science, Physics...',
+      emptyTitle: 'Choose an academic certificate',
+      emptyBody: 'University-benchmarked, major-inspired curricula spanning foundations, intermediate core and advanced specialization, each with an integrative capstone.',
+      render: renderCertificate,
+    },
+  };
+
+  Object.keys(MODES).forEach(function (key) {
+    var bySlug = {};
+    MODES[key].data.forEach(function (item) {
+      bySlug[slugify(item.name)] = item;
+    });
+    MODES[key].bySlug = bySlug;
+  });
+
+  var listEl = document.getElementById('role-list');
+  var detailEl = document.getElementById('role-detail');
+  var searchEl = document.getElementById('search-input');
+  var countEl = document.getElementById('role-count-num');
+  var countLabelEl = document.getElementById('role-count-label');
+  var toggleButtons = document.querySelectorAll('.mode-toggle button[data-mode]');
+
+  var currentMode = 'roles';
+
+  function renderList(filterText) {
+    var mode = MODES[currentMode];
+    var filtered = mode.data.filter(function (item) {
+      if (!filterText) return true;
+      return item.name.toLowerCase().indexOf(filterText.toLowerCase()) !== -1;
+    });
+
+    countEl.textContent = filtered.length;
+    if (countLabelEl) countLabelEl.textContent = mode.label;
+
+    if (filtered.length === 0) {
+      listEl.innerHTML = '<li class="no-match">No matches in this view.</li>';
+      return;
+    }
+
+    listEl.innerHTML = filtered
+      .map(function (item) {
+        return '<li data-slug="' + slugify(item.name) + '">' + escapeHtml(item.name) + '</li>';
+      })
+      .join('');
+  }
+
+  function showEmptyState() {
+    var mode = MODES[currentMode];
+    detailEl.innerHTML =
+      '<div class="empty-state">' +
+      '<h2>' + escapeHtml(mode.emptyTitle) + '</h2>' +
+      '<p>' + escapeHtml(mode.emptyBody) + '</p>' +
       '</div>';
+  }
+
+  function renderItem(item) {
+    detailEl.innerHTML = MODES[currentMode].render(item);
 
     document.querySelectorAll('.role-list li[data-slug]').forEach(function (li) {
-      li.classList.toggle('active', li.getAttribute('data-slug') === slugify(role.name));
+      li.classList.toggle('active', li.getAttribute('data-slug') === slugify(item.name));
     });
 
     detailEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  function selectRole(slug, updateHash) {
-    var role = bySlug[slug];
-    if (!role) return;
-    renderRole(role);
+  function selectItem(slug, updateHash) {
+    var item = MODES[currentMode].bySlug[slug];
+    if (!item) return;
+    renderItem(item);
     if (updateHash) {
-      history.replaceState(null, '', '#' + slug);
+      history.replaceState(null, '', '#' + currentMode + '/' + slug);
+    }
+  }
+
+  function setMode(mode, slug, updateHash) {
+    if (!MODES[mode]) return;
+    currentMode = mode;
+
+    toggleButtons.forEach(function (btn) {
+      btn.classList.toggle('active', btn.getAttribute('data-mode') === mode);
+    });
+    if (searchEl) {
+      searchEl.value = '';
+      searchEl.placeholder = MODES[mode].searchPlaceholder;
+    }
+
+    renderList('');
+
+    if (slug && MODES[mode].bySlug[slug]) {
+      selectItem(slug, false);
+    } else {
+      showEmptyState();
+    }
+
+    if (updateHash) {
+      history.replaceState(null, '', slug ? '#' + mode + '/' + slug : '#' + mode);
     }
   }
 
   listEl.addEventListener('click', function (e) {
     var li = e.target.closest('li[data-slug]');
     if (!li) return;
-    selectRole(li.getAttribute('data-slug'), true);
+    selectItem(li.getAttribute('data-slug'), true);
+  });
+
+  detailEl.addEventListener('click', function (e) {
+    var pill = e.target.closest('[data-cross-role]');
+    if (!pill) return;
+    var slug = pill.getAttribute('data-cross-role');
+    setMode('roles', slug, true);
+  });
+
+  toggleButtons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      setMode(btn.getAttribute('data-mode'), null, true);
+    });
   });
 
   searchEl.addEventListener('input', function () {
@@ -122,14 +262,14 @@
   });
 
   window.addEventListener('hashchange', function () {
-    var slug = location.hash.replace('#', '');
-    if (slug) selectRole(slug, false);
+    var parts = location.hash.replace('#', '').split('/');
+    if (parts[0]) setMode(parts[0], parts[1], false);
   });
 
-  renderList('');
-
-  var initialSlug = location.hash.replace('#', '');
-  if (initialSlug && bySlug[initialSlug]) {
-    selectRole(initialSlug, false);
+  var initialParts = location.hash.replace('#', '').split('/');
+  if (initialParts[0] && MODES[initialParts[0]]) {
+    setMode(initialParts[0], initialParts[1], false);
+  } else {
+    setMode('roles', null, false);
   }
 })();

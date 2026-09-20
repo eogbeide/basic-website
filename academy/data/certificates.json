@@ -1,0 +1,527 @@
+[
+  {
+    "name": "Comprehensive Certificate in Computer Science",
+    "description": "University-benchmarked breadth across programming, discrete mathematics, algorithms, systems, software engineering, data, theory, security, cloud and modern AI.",
+    "university_benchmark": "MIT 6-3  |  Stanford CS",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          "Python",
+          "Mathematics for Data Science",
+          "Data Structures & Algorithms",
+          "Computer Engineering",
+          "Linux, Operating Systems & Networking Foundations"
+        ],
+        "bridges": [
+          "Discrete Mathematics & Proofs"
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          "Object-Oriented Design & Design Patterns",
+          "Databases",
+          "APIs",
+          "Software Testing & Quality Engineering",
+          "Systems Architecture & System Design",
+          "Distributed Systems"
+        ],
+        "bridges": [
+          "Computer Architecture & OS Mental Model"
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          "Cybersecurity",
+          "Cloud Computing",
+          "Platform Engineering",
+          "Machine Learning",
+          "MLOps & Model Serving",
+          "AI Agents"
+        ],
+        "bridges": [
+          "Theory of Computation"
+        ]
+      }
+    ],
+    "capstone": "Design, implement, test and deploy a substantial software system with algorithms, persistence, network APIs, concurrency/distribution, security controls and observability. Submit architecture diagrams, tests, benchmarks and a technical defense.",
+    "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
+    "page": 378
+  },
+  {
+    "name": "Comprehensive Certificate in Mathematics",
+    "description": "University-benchmarked mathematical progression from proof and calculus through linear algebra, differential equations, analysis, algebra, probability, optimization and",
+    "university_benchmark": "MIT Mathematics  |  Oxford Mathematics  |  Cambridge Maths",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          "Problem Solving & Great Questions"
+        ],
+        "bridges": [
+          "Algebra / Trigonometry / Geometry Refresher",
+          "Calculus I-II Intuition",
+          "Linear Algebra",
+          "Mathematical Proof & Logic"
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          "Statistics & Probability",
+          "ML Mathematics"
+        ],
+        "bridges": [
+          "Multivariable Calculus",
+          "Differential Equations",
+          "Fourier / Complex-Systems Intuition"
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          "Causal Inference, Forecasting & Decision Science"
+        ],
+        "bridges": [
+          "Real Analysis",
+          "Abstract Algebra",
+          "Optimization & Numerical Methods",
+          "Machine Learning / Deep Learning as applications (applied)"
+        ]
+      }
+    ],
+    "capstone": "Produce a mathematical modeling portfolio: one proof-based analysis, one continuous model, one probabilistic/statistical model and one optimization problem. Validate numerically and explain assumptions, derivations and limitations.",
+    "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
+    "page": 379
+  },
+  {
+    "name": "Comprehensive Certificate in Statistics",
+    "description": "University-benchmarked study of probability, inference, regression, experiments, sampling, stochastic processes, time series, causal reasoning, computing and decision",
+    "university_benchmark": "UC Berkeley Statistics  |  Harvard Statistics",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          "Statistics & Probability",
+          "Mathematics for Data Science",
+          "SQL & Analytics",
+          "Data Science Foundations"
+        ],
+        "bridges": [
+          "Calculus + Linear Algebra Prerequisites"
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          "Experimentation & A/B Testing",
+          "Causal Inference, Forecasting & Decision Science",
+          "Data Storytelling & Visualization"
+        ],
+        "bridges": [
+          "Statistical Inference & Uncertainty",
+          "Linear Regression / Modeling",
+          "Design of Experiments"
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          "Machine Learning",
+          "Data Quality, Governance & Lineage",
+          "Responsible AI & Governance"
+        ],
+        "bridges": [
+          "Time Series & Forecasting",
+          "Stochastic Processes",
+          "Bayesian Reasoning"
+        ]
+      }
+    ],
+    "capstone": "Design a statistically defensible study from question to decision: sampling and measurement plan, exploratory analysis, inference/modeling, uncertainty, diagnostics, sensitivity checks, causal limitations and an executive-ready data story.",
+    "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
+    "page": 380
+  },
+  {
+    "name": "Comprehensive Certificate in Physics",
+    "description": "University-benchmarked physical reasoning through mechanics, relativity, fields, waves, thermodynamics, quantum physics, laboratory methods and computational modeling.",
+    "university_benchmark": "MIT Physics  |  Oxford Physics",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          "Mathematics for Data Science"
+        ],
+        "bridges": [
+          "Classical Mechanics / Newton Laws",
+          "Special Relativity",
+          "Electric & Magnetic Fields",
+          "Waves & Optics",
+          "Experimental & Computational Physics"
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          "Systems Thinking"
+        ],
+        "bridges": [
+          "Thermodynamics & Statistical Mechanics",
+          "Quantum Physics I",
+          "Differential Equations",
+          "Fourier Methods"
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          "Computer Engineering",
+          "Autonomous Systems",
+          "Robotic Systems",
+          "AI Compute, Inference & Performance Engineering"
+        ],
+        "bridges": [
+          "Modern / Quantum Physics II"
+        ]
+      }
+    ],
+    "capstone": "Model a physical system analytically and computationally. Derive governing equations, estimate parameters, simulate behavior, compare predictions with measured or published data, quantify uncertainty and explain physical limits.",
+    "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
+    "page": 381
+  },
+  {
+    "name": "Comprehensive Certificate in Electrical Engineering",
+    "description": "University-benchmarked electrical engineering core spanning circuits, digital logic, signals, fields, electronics, controls, communications, embedded systems, power and",
+    "university_benchmark": "MIT EE 6-5  |  CMU ECE",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          "Mathematics for Data Science",
+          "Computer Engineering",
+          "Engineering Design Process & Requirements"
+        ],
+        "bridges": [
+          "Circuits & Electronics",
+          "Digital Logic / Digital Electronics"
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          "Systems Architecture & System Design",
+          "Event-Driven Architecture, Messaging & Realtime Systems"
+        ],
+        "bridges": [
+          "Signals & Systems",
+          "Control Systems",
+          "Electromagnetics"
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          "Robotic Systems",
+          "AI Compute, Inference & Performance Engineering",
+          "Systems Engineering"
+        ],
+        "bridges": [
+          "Communications",
+          "Semiconductor Devices / Electronics",
+          "Power / Energy Systems"
+        ]
+      }
+    ],
+    "capstone": "Design a hardware-software control system with sensing, processing, communication and actuation. Produce schematic/block architecture, timing and power budgets, firmware/software interfaces, verification plan and prototype evidence.",
+    "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
+    "page": 382
+  },
+  {
+    "name": "Comprehensive Certificate in Mechanical Engineering",
+    "description": "University-benchmarked mechanical engineering sequence across statics, dynamics, solids, thermodynamics, fluids, heat transfer, design, manufacturing, controls, measurement",
+    "university_benchmark": "MIT Mechanical Engineering  |  Stanford Mechanical Engineering",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          "Mathematics for Data Science",
+          "Engineering Design Process & Requirements",
+          "CAD, Prototyping & Design Validation"
+        ],
+        "bridges": [
+          "Statics & Mechanics of Materials",
+          "Dynamics"
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          "Advanced Mechanical Design Analysis, GD&T & Reliability",
+          "Systems Engineering"
+        ],
+        "bridges": [
+          "Thermodynamics",
+          "Fluid Mechanics",
+          "Heat Transfer"
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          "Design for Manufacturing, Reliability & Cost",
+          "Robotic Systems",
+          "Autonomous Systems",
+          "Infrastructure Hardware Engineering",
+          "Operational Excellence Analytics: Root Cause, SPC & Process"
+        ],
+        "bridges": [
+          "Controls / Mechatronics"
+        ]
+      }
+    ],
+    "capstone": "Design a mechanical or mechatronic product from requirements through CAD/analysis, free-body and dynamics reasoning, thermal-fluid checks, tolerance stack, materials/manufacturing plan, reliability analysis and prototype test plan.",
+    "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
+    "page": 383
+  },
+  {
+    "name": "Comprehensive Certificate in Chemical Engineering",
+    "description": "University-benchmarked process engineering core across material/energy balances, thermodynamics, transport, reaction engineering, separations, process control, safety and",
+    "university_benchmark": "MIT Chemical Engineering  |  Imperial Chemical Engineering",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          "Mathematics for Data Science",
+          "Statistics & Probability",
+          "Systems Thinking"
+        ],
+        "bridges": [
+          "Chemistry / Physics Foundations",
+          "Material & Energy Balances"
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [],
+        "bridges": [
+          "Chemical Engineering Thermodynamics",
+          "Fluid / Heat / Mass Transport",
+          "Reaction Engineering / Kinetics",
+          "Separations - McCabe-Thiele",
+          "Process Control - PID"
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          "Process Improvement: Lean, Six Sigma & Kaizen",
+          "Operational Excellence Analytics: Root Cause, SPC & Process",
+          "Systems Engineering",
+          "Program, Risk, Dependency & Vendor Management"
+        ],
+        "bridges": [
+          "Process Safety / HAZOP"
+        ]
+      }
+    ],
+    "capstone": "Complete a conceptual process design: material/energy balances, process flow, unit-operation rationale, thermo/transport/reaction assumptions, separation strategy, control and safety philosophy, economics, risk review and improvement plan.",
+    "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
+    "page": 384
+  },
+  {
+    "name": "Comprehensive Certificate in Industrial Engineering",
+    "description": "University-benchmarked optimization and operations curriculum spanning probability, OR, simulation, quality, process design, supply chain, human factors, analytics and",
+    "university_benchmark": "Georgia Tech Industrial Engineering  |  Purdue Industrial Engineering",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          "Mathematics for Data Science",
+          "Statistics & Probability",
+          "SQL & Analytics",
+          "Operations Management & Operating Models",
+          "Systems Thinking"
+        ],
+        "bridges": [
+          "Linear Programming / Optimization"
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          "Process Improvement: Lean, Six Sigma & Kaizen",
+          "Operational Excellence Analytics: Root Cause, SPC & Process",
+          "Business Process Mapping & BPMN",
+          "Financial Modeling, Business Cases & Unit Economics"
+        ],
+        "bridges": [
+          "Stochastic Models / Queueing",
+          "Simulation / Monte Carlo"
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          "Causal Inference, Forecasting & Decision Science",
+          "Data Engineering",
+          "Program, Risk, Dependency & Vendor Management",
+          "Negotiation & Stakeholder Management"
+        ],
+        "bridges": [
+          "Supply Chain & Logistics Systems",
+          "Human Factors / Ergonomics"
+        ]
+      }
+    ],
+    "capstone": "Diagnose and redesign a real operation: demand/capacity model, process map, bottleneck analysis, quality/SPC, simulation or optimization model, human-factor risks, economics, implementation roadmap and control plan.",
+    "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
+    "page": 385
+  },
+  {
+    "name": "Comprehensive Certificate in Computer Engineering",
+    "description": "University-benchmarked hardware-software integration spanning circuits, digital logic, architecture, embedded/real-time systems, signals, OS/networking, verification and",
+    "university_benchmark": "CMU Electrical & Computer Engineering  |  UIUC Computer Engineering",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          "Computer Engineering",
+          "Mathematics for Data Science",
+          "Python",
+          "Linux, Operating Systems & Networking Foundations"
+        ],
+        "bridges": [
+          "Circuits & Electronics",
+          "Digital Logic"
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          "Systems Architecture & System Design",
+          "Software Testing & Quality Engineering",
+          "Systems Engineering"
+        ],
+        "bridges": [
+          "Computer Architecture",
+          "Embedded / Real-Time Systems",
+          "Signals & Systems"
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          "AI Compute, Inference & Performance Engineering",
+          "Robotic Systems",
+          "Autonomous Systems",
+          "CI/CD, Release Engineering & Developer Operations",
+          "Cybersecurity"
+        ],
+        "bridges": [
+          "FPGA / RTL Concepts"
+        ]
+      }
+    ],
+    "capstone": "Build a hardware-software co-design prototype: compute platform, I/O/sensors, firmware or systems software, network interface, performance/power measurements, verification evidence and system-integration review.",
+    "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
+    "page": 386
+  },
+  {
+    "name": "Comprehensive Certificate in Systems Engineering",
+    "description": "University-benchmarked lifecycle systems curriculum spanning needs, requirements, decision analysis, MBSE/SysML, architecture, modeling, risk, integration,",
+    "university_benchmark": "Johns Hopkins Systems Engineering  |  Cornell Systems Engineering",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          "Systems Thinking",
+          "Engineering Design Process & Requirements",
+          "Systems Engineering",
+          "Statistics & Probability"
+        ],
+        "bridges": [
+          "Systems Engineering Lifecycle Overview",
+          "Decision Analysis / Optimization"
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          "Systems Architecture & System Design",
+          "Architect Integration Strategy",
+          "Technical Design with Engineering",
+          "Program, Risk, Dependency & Vendor Management"
+        ],
+        "bridges": [
+          "MBSE / SysML & Digital Thread",
+          "Modeling & Simulation"
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          "Distributed Systems",
+          "Security Fundamentals & Threat Modeling",
+          "Autonomous Systems",
+          "Robotic Systems"
+        ],
+        "bridges": [
+          "Reliability / FMEA / Uncertainty",
+          "Verification & Validation"
+        ]
+      }
+    ],
+    "capstone": "Produce a full lifecycle system package: CONOPS, stakeholder needs, traceable requirements, architecture/MBSE views, interface map, decision/trade study, risk/FMEA, integration plan, V&V matrix and operational readiness review.",
+    "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
+    "page": 387
+  },
+  {
+    "name": "Comprehensive Certificate in Writing & Reading",
+    "description": "University-benchmarked literacy and literature track spanning close reading, composition, argument, poetry, narrative, literary history, research, rhetoric, creative writing and",
+    "university_benchmark": "Stanford English  |  Yale English",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [],
+        "bridges": [
+          "Close Reading & Textual Evidence",
+          "Academic Composition / Argument & Evidence",
+          "Poetry & Poetics",
+          "Narrative & Narrative Theory",
+          "Literary History / World Anglophone Reading"
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          "Speech Writing & Rhetoric",
+          "Business Storytelling, Slidecraft & Technical Writing",
+          "Content Creation"
+        ],
+        "bridges": [
+          "Research Methods, Sources & Citation",
+          "Critical / Literary Methodology",
+          "Creative Writing & Revision"
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          "Business Writing & Executive Communication",
+          "AI for Writing & Research",
+          "Speaking & Presentation Frameworks",
+          "Executive Presence & Speaking to Senior Leaders",
+          "Negotiation & Stakeholder Management"
+        ],
+        "bridges": [
+          "Historical Breadth: Medieval -> Contemporary"
+        ]
+      }
+    ],
+    "capstone": "Create a reading-and-writing portfolio: annotated close reading, poetry or narrative analysis, historically contextualized essay, research synthesis with sources, creative piece, technical/executive memo and five-minute speech. Revise with structured feedback.",
+    "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
+    "page": 388
+  }
+]

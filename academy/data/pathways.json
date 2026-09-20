@@ -1,0 +1,497 @@
+[
+  {
+    "name": "AI, Agents & Intelligent Automation",
+    "description": "Models, RAG, agents, autonomy, orchestration, evaluation, LLMOps, governance and AI factories.",
+    "market_basis": "OpenAI, Anthropic, Microsoft/AWS AI engineering and safety roles",
+    "representative_roles": [
+      "AI Engineer",
+      "AI Research Engineer",
+      "AI Security Engineer",
+      "AI Solutions Engineer",
+      "AI Builder"
+    ],
+    "course_sequence": [
+      "Generative AI",
+      "Prompt & Context Engineering",
+      "Embeddings",
+      "Search & AI Search",
+      "Vector Databases",
+      "Retrieval-Augmented Generation (RAG)",
+      "Fine-Tuning & Model Adaptation",
+      "Multimodal AI",
+      "Tool Use & Function Calling",
+      "AI Agents",
+      "AI Experience Engineering",
+      "Agent Context, Memory & State",
+      "Agent Frameworks & Platforms",
+      "MCPs (Model Context Protocol)",
+      "Agentic Tools Platform",
+      "Agentic Security",
+      "AI Orchestration",
+      "Workflow Automation",
+      "AI Evals & Monitoring",
+      "LLMOps",
+      "AI Platform",
+      "AI Factory",
+      "Production Backend & Agentic Systems Engineering",
+      "AI Red Teaming & Adversarial Testing",
+      "AI Compute, Inference & Performance Engineering",
+      "ML Foundations & GenAI",
+      "AI & Agent Governance and Safety",
+      "Autonomous Systems"
+    ],
+    "page": 23
+  },
+  {
+    "name": "AI Product, Strategy & Enterprise Transformation",
+    "description": "Discovery, strategy, roadmaps, economics, enterprise transformation, GTM and AI governance.",
+    "market_basis": "Apple/Microsoft product, OpenAI/AWS AI product and enterprise-transformation roles",
+    "representative_roles": [
+      "Technical Product Manager",
+      "AI Product Manager",
+      "Strategy Consultant",
+      "Product Marketing Manager",
+      "Senior Leadership"
+    ],
+    "course_sequence": [
+      "Design Thinking",
+      "Product Discovery & Customer Research",
+      "Software Product Design & Development",
+      "Technical Design with Engineering",
+      "Strategy Development & Goal Setting",
+      "AI Strategy",
+      "KPIs & Product Metrics",
+      "Product Roadmapping & Prioritization",
+      "AI Roadmapping & Portfolio Planning",
+      "Experimentation & A/B Testing",
+      "Product Analytics & Growth",
+      "Agile Product Development & Management",
+      "Agile Program Development & Management",
+      "Drive Agentic Execution Excellence",
+      "Platform Product Development & Management",
+      "AI Product Management & Economics",
+      "AI for Product Prototyping, Design & Development",
+      "Go-to-Market & Product Launch",
+      "AI-Enabled Product Optimization",
+      "Responsible AI & Governance",
+      "Market Research, Competitive Analysis & Market Sizing",
+      "Financial Modeling, Business Cases & Unit Economics",
+      "Program, Risk, Dependency & Vendor Management",
+      "Enterprise AI",
+      "Shipping Impactful Products",
+      "Digital Marketing",
+      "Strategic AI Applications",
+      "Portfolio Roadmap & Lifecycle Management",
+      "Product Pricing, Packaging & Monetization",
+      "Monetization Strategy & Business Models",
+      "Globalization, Geopolitics & Global Business",
+      "Product Evangelist ->",
+      "Software Product Manager"
+    ],
+    "page": 70
+  },
+  {
+    "name": "Software & Application Engineering",
+    "description": "Programming, APIs, full-stack applications, testing, release engineering and AI-assisted development.",
+    "market_basis": "Amazon, Microsoft, Google and modern full-stack / platform engineering roles",
+    "representative_roles": [
+      "Software Developer",
+      "Full-Stack Engineer",
+      "Product Builder",
+      "Solution Architect",
+      "AI Solutions Engineer"
+    ],
+    "course_sequence": [
+      "Git & GitHub",
+      "Python",
+      "Data Structures & Algorithms",
+      "Object-Oriented Design & Design Patterns",
+      "Web Development",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Front-End Development",
+      "Next.js",
+      "Databases",
+      "APIs",
+      "Authentication & Authorization",
+      "Node.js",
+      "Back-End Development",
+      "Clean Code, Refactoring & Code Review",
+      "Full-Stack Development",
+      "App Development",
+      "Software Testing & Quality Engineering",
+      "Vibe Coding / AI-Assisted Development",
+      "Linux, Operating Systems & Networking Foundations",
+      "CI/CD, Release Engineering & Developer Operations",
+      "Event-Driven Architecture, Messaging & Realtime Systems"
+    ],
+    "page": 111
+  },
+  {
+    "name": "Cloud, Platform & Systems Engineering",
+    "description": "Cloud, distributed systems, platform engineering, security, SRE, hardware and lifecycle systems engineering.",
+    "market_basis": "AWS/Microsoft/Google cloud, platform, networking, SRE and systems engineering roles",
+    "representative_roles": [
+      "Cloud/Platform Engineer",
+      "SRE",
+      "Network Engineer",
+      "Systems Engineer",
+      "Hardware/Aerospace/Robotics Engineer"
+    ],
+    "course_sequence": [
+      "Systems Thinking",
+      "Computer Engineering",
+      "Systems Architecture & System Design",
+      "Architect Integration Strategy",
+      "Distributed Systems",
+      "Systems Engineering",
+      "Engineering Design Process & Requirements",
+      "CAD, Prototyping & Design Validation",
+      "Design for Manufacturing, Reliability & Cost",
+      "Cloud Computing",
+      "Cybersecurity",
+      "Security Fundamentals & Threat Modeling",
+      "Network Security & Zero Trust",
+      "Identity & Access Management (IAM)",
+      "Cloud Security",
+      "Containers & Docker",
+      "Kubernetes",
+      "Infrastructure as Code",
+      "DevOps",
+      "Observability & Site Reliability Engineering",
+      "Application Security",
+      "Ethical Hacking & Penetration Testing",
+      "DevSecOps",
+      "Detection, Incident Response & Security Operations",
+      "Platform Engineering",
+      "Cloud Architecture, Migration & FinOps",
+      "Security Governance, Risk, Privacy & Software Supply Chain",
+      "Advanced Mechanical Design Analysis, GD&T & Reliability",
+      "Infrastructure Hardware Engineering",
+      "Robotic Systems",
+      "Aerospace Engineering"
+    ],
+    "page": 152
+  },
+  {
+    "name": "Data, AI & Machine Learning",
+    "description": "Math, statistics, ML, data engineering, intelligent data platforms, decision science and MLOps.",
+    "market_basis": "Amazon/Microsoft data, BI, data science, ML and data-platform roles",
+    "representative_roles": [
+      "Data Scientist",
+      "Data Engineer",
+      "BIE",
+      "Data Analyst",
+      "Decision Scientist",
+      "ML Engineer"
+    ],
+    "course_sequence": [
+      "Mathematics for Data Science",
+      "Statistics & Probability",
+      "ML Mathematics",
+      "SQL & Analytics",
+      "Data Science Foundations",
+      "Machine Learning",
+      "Feature Engineering & Model Evaluation",
+      "Deep Learning",
+      "Computer Vision",
+      "Natural Language Processing (NLP)",
+      "Data Engineering",
+      "Data Modeling, Warehousing & Lakehouse",
+      "Data Pipelines, Orchestration & Streaming",
+      "Data Quality, Governance & Lineage",
+      "Data Platform",
+      "MLOps & Model Serving",
+      "Causal Inference, Forecasting & Decision Science",
+      "Spark, Analytics Engineering & Data Contracts",
+      "Operational Excellence Analytics: Root Cause, SPC & Process Mining",
+      "Intelligent Data Platform",
+      "Graph Databases, Knowledge Graphs & GraphRAG"
+    ],
+    "page": 203
+  },
+  {
+    "name": "Design, Communication & Digital Experience",
+    "description": "UX, research, visual storytelling, writing, presentations, creative production and design-to-development delivery.",
+    "market_basis": "Apple/Google/Figma/Adobe product design, UX, creative and communication roles",
+    "representative_roles": [
+      "UX Designer",
+      "UX Researcher",
+      "UI/Product Designer",
+      "Graphic/Multimedia Designer",
+      "Product Marketing"
+    ],
+    "course_sequence": [
+      "UI/UX Design",
+      "AI for Writing & Research",
+      "Business Writing & Executive Communication",
+      "Content Creation",
+      "Animation & AI Content Creation",
+      "Data Storytelling & Visualization",
+      "Speaking & Presentation Frameworks",
+      "Speech Writing & Rhetoric",
+      "Executive Presence & Speaking to Senior Leaders",
+      "Business Storytelling, Slidecraft & Technical Writing",
+      "Design & Creative Production",
+      "Global Languages & Intercultural Communication"
+    ],
+    "page": 236
+  },
+  {
+    "name": "Leadership, Management & Personal Development",
+    "description": "Leadership, people management, coaching, influence, executive effectiveness, execution and AI-era transformation.",
+    "market_basis": "Senior management, strategy, program leadership, coaching and organizational-transformation roles",
+    "representative_roles": [
+      "Senior Manager",
+      "Senior Leadership",
+      "Coaching",
+      "Customer Success",
+      "AI Technical Program Manager"
+    ],
+    "course_sequence": [
+      "How to Study Efficiently & Effectively",
+      "Problem Solving & Great Questions",
+      "Management Consulting & Structured Problem Solving",
+      "Operations Management & Operating Models",
+      "Process Improvement: Lean, Six Sigma & Kaizen",
+      "Business Process Mapping & BPMN",
+      "Leadership & Management",
+      "People Management",
+      "Coaching & Feedback",
+      "Difficult Conversations & Conflict Resolution",
+      "Negotiation & Stakeholder Management",
+      "Organizational Leadership: Decision-Making, Influence",
+      "Executive Coaching, Assessment & Facilitation",
+      "Personal Development & Executive Effectiveness",
+      "New York Times Bestseller Insights: Leadership,"
+    ],
+    "page": 255
+  },
+  {
+    "name": "Creator Economy, Social Media & Digital Growth",
+    "description": "Build audience, manage brand communities, create platform-native content, measure performance and turn attention into sustainable revenue across ads, memberships, sponsorships, affiliate/social commerce and owned products/services.",
+    "market_basis": "Indeed, Sprout Social, Later and Robert Half converge on strategy, content, community management, social listening, analytics/ROI, paid media, influencer partnerships, AI fluency and discoverability. Creator monetization adds platform programs, affiliate/social commerce, sponsorships, memberships and owned offers.",
+    "representative_roles": [
+      "Content Creator",
+      "Social Media Manager"
+    ],
+    "course_sequence": [
+      "Social Media Strategy, Growth & Community Management",
+      "Content Creation",
+      "Animation & AI Content Creation",
+      "AI for Writing & Research",
+      "Digital Marketing",
+      "Search & AI Search",
+      "Product Analytics & Growth",
+      "Experimentation & A/B Testing",
+      "Data Storytelling & Visualization",
+      "Creator Monetization, Partnerships & Social Commerce",
+      "Negotiation & Stakeholder Management",
+      "Business Storytelling, Slidecraft & Technical Writing",
+      "Workflow Automation"
+    ],
+    "page": 492
+  },
+  {
+    "name": "Revenue Operations, Technical Sales & GTM Systems",
+    "description": "Build market-ready capability through a mastery-ordered sequence that combines Academy foundations with the specific operating skills repeatedly appearing in 2026 role descriptions.",
+    "market_basis": "Current RevOps and Solutions Engineering roles converge on GTM process, CRM/data, forecasting, technical discovery, demos/POCs, value engineering and cross-functional revenue execution.",
+    "representative_roles": [
+      "Customer Success Manager",
+      "Product Evangelist",
+      "Product Marketing Manager",
+      "Revenue Operations Manager",
+      "Sales & Revenue AI Consultant",
+      "Sales Engineer / Solutions Consultant"
+    ],
+    "course_sequence": [
+      "C165  Revenue Operations & GTM Systems",
+      "C166  Technical Sales & Solution Engineering",
+      "C041  Go-to-Market & Product Launch",
+      "C127  Market Research, Competitive Analysis & Market Sizing",
+      "C030  KPIs & Product Metrics",
+      "C034  Product Analytics & Growth",
+      "C128  Financial Modeling, Business Cases & Unit Economics",
+      "C123  Negotiation & Stakeholder Management",
+      "C018  Workflow Automation",
+      "C141  Enterprise AI"
+    ],
+    "page": 502
+  },
+  {
+    "name": "Data Center, AI Compute & Infrastructure",
+    "description": "Build market-ready capability through a mastery-ordered sequence that combines Academy foundations with the specific operating skills repeatedly appearing in 2026 role descriptions.",
+    "market_basis": "AI infrastructure hiring increasingly spans mission-critical facilities, accelerators, server lifecycle, cluster networking, capacity, deployment and reliability rather than treating hardware and cloud as separate domains.",
+    "representative_roles": [
+      "AI Platform Engineer",
+      "Cloud / Platform Engineer",
+      "Data Center & AI Infrastructure Engineer",
+      "DevOps / Site Reliability Engineer",
+      "Hardware Engineer",
+      "Network Engineer"
+    ],
+    "course_sequence": [
+      "C168  Data Center Engineering: Power, Cooling & AI Infrastructure",
+      "C152  Infrastructure Hardware Engineering",
+      "C126  AI Compute, Inference & Performance Engineering",
+      "C130  Linux, Operating Systems & Networking",
+      "C073  Cloud Computing",
+      "C080  Kubernetes",
+      "C068  Distributed Systems",
+      "C083  Observability & Site Reliability Engineering",
+      "C088  Platform Engineering",
+      "C020  LLMOps"
+    ],
+    "page": 503
+  },
+  {
+    "name": "Healthcare Operations, Digital Health & Interoperability",
+    "description": "Build market-ready capability through a mastery-ordered sequence that combines Academy foundations with the specific operating skills repeatedly appearing in 2026 role descriptions.",
+    "market_basis": "Healthcare operations increasingly combines service delivery, quality, compliance, revenue cycle and value-based care with analytics and interoperable EHR/FHIR data flows.",
+    "representative_roles": [
+      "Compliance & Risk AI Consultant",
+      "Healthcare AI Consultant",
+      "Healthcare Operations Manager"
+    ],
+    "course_sequence": [
+      "C169  Healthcare Operations, Value-Based Care & Revenue Cycle",
+      "C170  Healthcare Data Interoperability: EHR, HL7 & FHIR",
+      "C116  Operations Management & Operating Models",
+      "C117  Process Improvement: Lean, Six Sigma & Kaizen",
+      "C118  Business Process Mapping & BPMN",
+      "C092  SQL & Analytics",
+      "C110  Data Storytelling & Visualization",
+      "C129  Program, Risk, Dependency & Vendor Management",
+      "C134  Security Governance, Risk, Privacy & Software Supply Chain",
+      "C141  Enterprise AI"
+    ],
+    "page": 504
+  },
+  {
+    "name": "Data Governance, Privacy & Trust",
+    "description": "Build market-ready capability through a mastery-ordered sequence that combines Academy foundations with the specific operating skills repeatedly appearing in 2026 role descriptions.",
+    "market_basis": "Modern AI/data organizations need explicit ownership for data maps, classification, lineage, access, retention, privacy impact and regulatory readiness alongside technical governance controls.",
+    "representative_roles": [
+      "Compliance & Risk AI Consultant",
+      "Data Governance & Privacy Manager",
+      "Enterprise & Data Architect",
+      "Responsible AI Manager"
+    ],
+    "course_sequence": [
+      "C102  Data Quality, Governance & Lineage",
+      "C134  Security Governance, Risk, Privacy & Software Supply Chain",
+      "C077  Identity & Access Management (IAM)",
+      "C100  Data Modeling, Warehousing & Lakehouse",
+      "C043  Responsible AI & Governance",
+      "C148  AI & Agent Governance and Safety",
+      "C142  Intelligent Data Platform",
+      "C075  Security Fundamentals & Threat Modeling",
+      "C129  Program, Risk, Dependency & Vendor Management",
+      "C145  Graph Databases, Knowledge Graphs & Semantic Systems"
+    ],
+    "page": 505
+  },
+  {
+    "name": "AI Evaluation, Reliability & Safety Engineering",
+    "description": "Build market-ready capability through a mastery-ordered sequence that combines Academy foundations with the specific operating skills repeatedly appearing in 2026 role descriptions.",
+    "market_basis": "Frontier AI teams are separating evaluation, robustness and reliability into dedicated engineering disciplines spanning release gates, adversarial testing, observability, SLOs and incident response.",
+    "representative_roles": [
+      "AI Evaluation & Reliability Engineer",
+      "AI Research Engineer",
+      "AI Security Engineer",
+      "DevOps / Site Reliability Engineer",
+      "Machine Learning Engineer",
+      "MLOps Engineer"
+    ],
+    "course_sequence": [
+      "C019  AI Evals & Monitoring",
+      "C095  Feature Engineering & Model Evaluation",
+      "C125  AI Red Teaming & Adversarial Testing",
+      "C083  Observability & Site Reliability Engineering",
+      "C104  MLOps & Model Serving",
+      "C020  LLMOps",
+      "C016  Agentic Security",
+      "C043  Responsible AI & Governance",
+      "C148  AI & Agent Governance and Safety",
+      "C087  Detection, Incident Response & Security Operations"
+    ],
+    "page": 506
+  },
+  {
+    "name": "Product Operations & Product Leadership",
+    "description": "Build market-ready capability through a mastery-ordered sequence that combines Academy foundations with the specific operating skills repeatedly appearing in 2026 role descriptions.",
+    "market_basis": "Product Ops is emerging as the connective operating layer across research/engineering, product, insights and launches - enabling product teams to make faster, repeatable and evidence-based decisions.",
+    "representative_roles": [
+      "AI Product Manager",
+      "Portfolio Manager",
+      "Product Operations Manager",
+      "Software Product Manager",
+      "Technical Product Manager"
+    ],
+    "course_sequence": [
+      "C167  Product Operations & Product Operating Models",
+      "C025  Product Discovery & Customer Research",
+      "C030  KPIs & Product Metrics",
+      "C031  Product Roadmapping & Prioritization",
+      "C034  Product Analytics & Growth",
+      "C035  Agile Product Development & Management",
+      "C036  Agile Program Development & Management",
+      "C041  Go-to-Market & Product Launch",
+      "C129  Program, Risk, Dependency & Vendor Management",
+      "C153  Portfolio Roadmap & Lifecycle Management"
+    ],
+    "page": 507
+  },
+  {
+    "name": "Actuarial, Insurance & Enterprise Risk",
+    "description": "Build market-ready capability through a mastery-ordered sequence that combines Academy foundations with the specific operating skills repeatedly appearing in 2026 role descriptions.",
+    "market_basis": "Actuarial work remains a specialized quantitative market combining insurance domain knowledge, probability, pricing/reserving, forecasting, regulatory analysis, model governance and business partnership.",
+    "representative_roles": [
+      "Actuary / Insurance Risk Analytics Specialist",
+      "Compliance & Risk AI Consultant",
+      "Decision Scientist (Operations Research)",
+      "Finance Manager",
+      "Quantitative Finance / FinTech Engineer"
+    ],
+    "course_sequence": [
+      "C171  Actuarial & Insurance Risk Analytics",
+      "C090  Statistics & Probability",
+      "C089  Mathematics for Data Science",
+      "C136  Causal Inference, Forecasting & Decision Science",
+      "C092  SQL & Analytics",
+      "C128  Financial Modeling, Business Cases & Unit Economics",
+      "C110  Data Storytelling & Visualization",
+      "C093  Data Science Foundations",
+      "C094  Machine Learning",
+      "C129  Program, Risk, Dependency & Vendor Management"
+    ],
+    "page": 508
+  },
+  {
+    "name": "AI Adoption, Transformation & Organizational Change",
+    "description": "Build market-ready capability through a mastery-ordered sequence that combines Academy foundations with the specific operating skills repeatedly appearing in 2026 role descriptions.",
+    "market_basis": "Enterprise AI value increasingly depends on adoption: leaders must redesign workflows, mobilize stakeholders, train users, manage resistance, measure usage/outcomes and reinforce responsible new ways of working.",
+    "representative_roles": [
+      "AI Adoption & Change Management Lead",
+      "AI Product Manager",
+      "Responsible AI Manager",
+      "Senior Leadership",
+      "Strategic Manager & Leader",
+      "Strategy Consultant"
+    ],
+    "course_sequence": [
+      "C172  AI Adoption & Organizational Change Management",
+      "C124  Organizational Leadership: Decision-Making, Influence & Change",
+      "C141  Enterprise AI",
+      "C029  AI Strategy",
+      "C150  Strategic AI Applications",
+      "C118  Business Process Mapping & BPMN",
+      "C116  Operations Management & Operating Models",
+      "C117  Process Improvement: Lean, Six Sigma & Kaizen",
+      "C121  Coaching & Feedback",
+      "C148  AI & Agent Governance and Safety"
+    ],
+    "page": 509
+  }
+]
