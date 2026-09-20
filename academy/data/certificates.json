@@ -468,11 +468,11 @@
           },
           {
             "title": "Autonomous Systems",
-            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+            "url": null
           },
           {
             "title": "Robotic Systems",
-            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+            "url": null
           },
           {
             "title": "AI Compute, Inference & Performance Engineering",
@@ -587,7 +587,7 @@
         "courses": [
           {
             "title": "Robotic Systems",
-            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+            "url": null
           },
           {
             "title": "AI Compute, Inference & Performance Engineering",
@@ -718,19 +718,19 @@
           },
           {
             "title": "Robotic Systems",
-            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+            "url": null
           },
           {
             "title": "Autonomous Systems",
-            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+            "url": null
           },
           {
             "title": "Infrastructure Hardware Engineering",
-            "url": "https://www.youtube.com/watch?v=_Pqfjer8-O4"
+            "url": null
           },
           {
             "title": "Operational Excellence Analytics: Root Cause, SPC & Process",
-            "url": "https://www.youtube.com/watch?v=SgJfXIjFsds"
+            "url": null
           }
         ],
         "bridges": [
@@ -844,7 +844,7 @@
           },
           {
             "title": "Operational Excellence Analytics: Root Cause, SPC & Process",
-            "url": "https://www.youtube.com/watch?v=SgJfXIjFsds"
+            "url": null
           },
           {
             "title": "Systems Engineering",
@@ -944,7 +944,7 @@
           },
           {
             "title": "Operational Excellence Analytics: Root Cause, SPC & Process",
-            "url": "https://www.youtube.com/watch?v=SgJfXIjFsds"
+            "url": null
           },
           {
             "title": "Business Process Mapping & BPMN",
@@ -1110,11 +1110,11 @@
           },
           {
             "title": "Robotic Systems",
-            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+            "url": null
           },
           {
             "title": "Autonomous Systems",
-            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+            "url": null
           },
           {
             "title": "CI/CD, Release Engineering & Developer Operations",
@@ -1249,11 +1249,11 @@
           },
           {
             "title": "Autonomous Systems",
-            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+            "url": null
           },
           {
             "title": "Robotic Systems",
-            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+            "url": null
           }
         ],
         "bridges": [
