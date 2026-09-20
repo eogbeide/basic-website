@@ -407,14 +407,6 @@
       {
         "title": "Globalization, Geopolitics & Global Business",
         "url": null
-      },
-      {
-        "title": "Product Evangelist ->",
-        "url": null
-      },
-      {
-        "title": "Software Product Manager",
-        "url": null
       }
     ],
     "page": 70,
@@ -1651,7 +1643,7 @@
         "url": "https://www.youtube.com/watch?v=udh2ERCOmps"
       },
       {
-        "title": "Organizational Leadership: Decision-Making, Influence",
+        "title": "Organizational Leadership: Decision-Making, Influence & Change",
         "url": null
       },
       {
@@ -1663,7 +1655,7 @@
         "url": "https://www.youtube.com/watch?v=ktlTxC4QG8g"
       },
       {
-        "title": "New York Times Bestseller Insights: Leadership,",
+        "title": "New York Times Bestseller Insights: Leadership, Growth & Decisions",
         "url": null
       }
     ],
@@ -1922,35 +1914,35 @@
       },
       {
         "title": "C041  Go-to-Market & Product Launch",
-        "url": "https://www.youtube.com/watch?v=yDLErwgajOQ"
+        "url": null
       },
       {
         "title": "C127  Market Research, Competitive Analysis & Market Sizing",
-        "url": "https://www.youtube.com/watch?v=l7-5x0ra2tc"
+        "url": null
       },
       {
         "title": "C030  KPIs & Product Metrics",
-        "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw"
+        "url": null
       },
       {
         "title": "C034  Product Analytics & Growth",
-        "url": "https://www.youtube.com/watch?v=N-Igkw7__z0"
+        "url": null
       },
       {
         "title": "C128  Financial Modeling, Business Cases & Unit Economics",
-        "url": "https://www.youtube.com/watch?v=veSXjIzTa3c"
+        "url": null
       },
       {
         "title": "C123  Negotiation & Stakeholder Management",
-        "url": "https://www.youtube.com/watch?v=udh2ERCOmps"
+        "url": null
       },
       {
         "title": "C018  Workflow Automation",
-        "url": "https://www.youtube.com/watch?v=dhqNVh-4AMQ"
+        "url": null
       },
       {
         "title": "C141  Enterprise AI",
-        "url": "https://www.youtube.com/watch?v=ocyFONwoJQg"
+        "url": null
       }
     ],
     "page": 502,
@@ -2124,7 +2116,7 @@
       },
       {
         "title": "C126  AI Compute, Inference & Performance Engineering",
-        "url": "https://www.youtube.com/watch?v=9tvJ_GYJA-o"
+        "url": null
       },
       {
         "title": "C130  Linux, Operating Systems & Networking",
@@ -2132,27 +2124,27 @@
       },
       {
         "title": "C073  Cloud Computing",
-        "url": "https://www.youtube.com/watch?v=M988_fsOSWo"
+        "url": null
       },
       {
         "title": "C080  Kubernetes",
-        "url": "https://www.youtube.com/watch?v=PziYflu8cB8"
+        "url": null
       },
       {
         "title": "C068  Distributed Systems",
-        "url": "https://www.youtube.com/watch?v=mBUCF1WGI_I"
+        "url": null
       },
       {
         "title": "C083  Observability & Site Reliability Engineering",
-        "url": "https://www.youtube.com/watch?v=cqllWjlvziY"
+        "url": null
       },
       {
         "title": "C088  Platform Engineering",
-        "url": "https://www.youtube.com/watch?v=lIDb6J78aDo"
+        "url": null
       },
       {
         "title": "C020  LLMOps",
-        "url": "https://www.youtube.com/watch?v=YqurSBERAlY"
+        "url": null
       }
     ],
     "page": 503,
@@ -2211,27 +2203,27 @@
       },
       {
         "title": "C118  Business Process Mapping & BPMN",
-        "url": "https://www.youtube.com/watch?v=yAvm_re5YGA"
+        "url": null
       },
       {
         "title": "C092  SQL & Analytics",
-        "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+        "url": null
       },
       {
         "title": "C110  Data Storytelling & Visualization",
-        "url": "https://www.youtube.com/watch?v=1nYFpuc2Umk"
+        "url": null
       },
       {
         "title": "C129  Program, Risk, Dependency & Vendor Management",
-        "url": "https://www.youtube.com/watch?v=uJF0Rpy0YuI"
+        "url": null
       },
       {
         "title": "C134  Security Governance, Risk, Privacy & Software Supply Chain",
-        "url": "https://www.youtube.com/watch?v=BuTt6QNiuZI"
+        "url": null
       },
       {
         "title": "C141  Enterprise AI",
-        "url": "https://www.youtube.com/watch?v=ocyFONwoJQg"
+        "url": null
       }
     ],
     "page": 504,
@@ -2275,39 +2267,39 @@
     "course_sequence": [
       {
         "title": "C102  Data Quality, Governance & Lineage",
-        "url": "https://www.youtube.com/watch?v=24Ki4Ck4Y2E"
+        "url": null
       },
       {
         "title": "C134  Security Governance, Risk, Privacy & Software Supply Chain",
-        "url": "https://www.youtube.com/watch?v=BuTt6QNiuZI"
+        "url": null
       },
       {
         "title": "C077  Identity & Access Management (IAM)",
-        "url": "https://www.youtube.com/watch?v=2pbgdbCT2dA"
+        "url": null
       },
       {
         "title": "C100  Data Modeling, Warehousing & Lakehouse",
-        "url": "https://www.youtube.com/watch?v=gRE3E7VUzRU"
+        "url": null
       },
       {
         "title": "C043  Responsible AI & Governance",
-        "url": "https://www.youtube.com/watch?v=0oeD2Wf25wY"
+        "url": null
       },
       {
         "title": "C148  AI & Agent Governance and Safety",
-        "url": "https://www.youtube.com/watch?v=Q020C-Jw0o8"
+        "url": null
       },
       {
         "title": "C142  Intelligent Data Platform",
-        "url": "https://www.youtube.com/watch?v=GbxVsi94DrE"
+        "url": null
       },
       {
         "title": "C075  Security Fundamentals & Threat Modeling",
-        "url": "https://www.youtube.com/watch?v=PfoMPTzTK4M"
+        "url": null
       },
       {
         "title": "C129  Program, Risk, Dependency & Vendor Management",
-        "url": "https://www.youtube.com/watch?v=uJF0Rpy0YuI"
+        "url": null
       },
       {
         "title": "C145  Graph Databases, Knowledge Graphs & Semantic Systems",
@@ -2351,43 +2343,43 @@
     "course_sequence": [
       {
         "title": "C019  AI Evals & Monitoring",
-        "url": "https://www.youtube.com/watch?v=SnbGD677_u0"
+        "url": null
       },
       {
         "title": "C095  Feature Engineering & Model Evaluation",
-        "url": "https://www.youtube.com/watch?v=PVVSfqQZ8P0"
+        "url": null
       },
       {
         "title": "C125  AI Red Teaming & Adversarial Testing",
-        "url": "https://www.youtube.com/watch?v=DwFVhFdD2fs"
+        "url": null
       },
       {
         "title": "C083  Observability & Site Reliability Engineering",
-        "url": "https://www.youtube.com/watch?v=cqllWjlvziY"
+        "url": null
       },
       {
         "title": "C104  MLOps & Model Serving",
-        "url": "https://www.youtube.com/watch?v=OejCJL2EC3k"
+        "url": null
       },
       {
         "title": "C020  LLMOps",
-        "url": "https://www.youtube.com/watch?v=YqurSBERAlY"
+        "url": null
       },
       {
         "title": "C016  Agentic Security",
-        "url": "https://www.youtube.com/watch?v=jrHRe9lSqqA"
+        "url": null
       },
       {
         "title": "C043  Responsible AI & Governance",
-        "url": "https://www.youtube.com/watch?v=0oeD2Wf25wY"
+        "url": null
       },
       {
         "title": "C148  AI & Agent Governance and Safety",
-        "url": "https://www.youtube.com/watch?v=Q020C-Jw0o8"
+        "url": null
       },
       {
         "title": "C087  Detection, Incident Response & Security Operations",
-        "url": "https://www.youtube.com/watch?v=iAx4PgYoWD4"
+        "url": null
       }
     ],
     "page": 506,
@@ -2430,35 +2422,35 @@
       },
       {
         "title": "C025  Product Discovery & Customer Research",
-        "url": "https://www.youtube.com/watch?v=l7-5x0ra2tc"
+        "url": null
       },
       {
         "title": "C030  KPIs & Product Metrics",
-        "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw"
+        "url": null
       },
       {
         "title": "C031  Product Roadmapping & Prioritization",
-        "url": "https://www.youtube.com/watch?v=x0d_GE_jWGE"
+        "url": null
       },
       {
         "title": "C034  Product Analytics & Growth",
-        "url": "https://www.youtube.com/watch?v=N-Igkw7__z0"
+        "url": null
       },
       {
         "title": "C035  Agile Product Development & Management",
-        "url": "https://www.youtube.com/watch?v=4Ugsu2n2cLE"
+        "url": null
       },
       {
         "title": "C036  Agile Program Development & Management",
-        "url": "https://www.youtube.com/watch?v=29M-rw6DWd8"
+        "url": null
       },
       {
         "title": "C041  Go-to-Market & Product Launch",
-        "url": "https://www.youtube.com/watch?v=yDLErwgajOQ"
+        "url": null
       },
       {
         "title": "C129  Program, Risk, Dependency & Vendor Management",
-        "url": "https://www.youtube.com/watch?v=uJF0Rpy0YuI"
+        "url": null
       },
       {
         "title": "C153  Portfolio Roadmap & Lifecycle Management",
@@ -2505,39 +2497,39 @@
       },
       {
         "title": "C090  Statistics & Probability",
-        "url": "https://www.youtube.com/watch?v=oI3hZJqXJuc"
+        "url": null
       },
       {
         "title": "C089  Mathematics for Data Science",
-        "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+        "url": null
       },
       {
         "title": "C136  Causal Inference, Forecasting & Decision Science",
-        "url": "https://www.youtube.com/watch?v=4jRBRDbJemM"
+        "url": null
       },
       {
         "title": "C092  SQL & Analytics",
-        "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+        "url": null
       },
       {
         "title": "C128  Financial Modeling, Business Cases & Unit Economics",
-        "url": "https://www.youtube.com/watch?v=veSXjIzTa3c"
+        "url": null
       },
       {
         "title": "C110  Data Storytelling & Visualization",
-        "url": "https://www.youtube.com/watch?v=1nYFpuc2Umk"
+        "url": null
       },
       {
         "title": "C093  Data Science Foundations",
-        "url": "https://www.youtube.com/watch?v=8SF_h3xF3cE"
+        "url": null
       },
       {
         "title": "C094  Machine Learning",
-        "url": "https://www.youtube.com/watch?v=hDKCxebp88A"
+        "url": null
       },
       {
         "title": "C129  Program, Risk, Dependency & Vendor Management",
-        "url": "https://www.youtube.com/watch?v=uJF0Rpy0YuI"
+        "url": null
       }
     ],
     "page": 508,
@@ -2585,11 +2577,11 @@
       },
       {
         "title": "C141  Enterprise AI",
-        "url": "https://www.youtube.com/watch?v=ocyFONwoJQg"
+        "url": null
       },
       {
         "title": "C029  AI Strategy",
-        "url": "https://www.youtube.com/watch?v=nHXahonlIBM"
+        "url": null
       },
       {
         "title": "C150  Strategic AI Applications",
@@ -2597,23 +2589,23 @@
       },
       {
         "title": "C118  Business Process Mapping & BPMN",
-        "url": "https://www.youtube.com/watch?v=yAvm_re5YGA"
+        "url": null
       },
       {
         "title": "C116  Operations Management & Operating Models",
-        "url": "https://www.youtube.com/watch?v=DEuzzLled6k"
+        "url": null
       },
       {
         "title": "C117  Process Improvement: Lean, Six Sigma & Kaizen",
-        "url": "https://www.youtube.com/watch?v=s2HCrhNVfak"
+        "url": null
       },
       {
         "title": "C121  Coaching & Feedback",
-        "url": "https://www.youtube.com/watch?v=bL8wrwDb8aA"
+        "url": null
       },
       {
         "title": "C148  AI & Agent Governance and Safety",
-        "url": "https://www.youtube.com/watch?v=Q020C-Jw0o8"
+        "url": null
       }
     ],
     "page": 509,
