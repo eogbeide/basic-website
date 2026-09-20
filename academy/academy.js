@@ -12,6 +12,10 @@
     return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
   }
 
+  function courseSlug(name) {
+    return slugify(name.replace(/^C\d{2,3}\s+/i, ''));
+  }
+
   function levelClass(level) {
     return level.toLowerCase();
   }
@@ -63,6 +67,67 @@
     );
   }
 
+  var COURSES_LIST = (typeof COURSES_DATA !== 'undefined' ? COURSES_DATA : []);
+  var coursesBySlug = {};
+  COURSES_LIST.forEach(function (c) {
+    coursesBySlug[courseSlug(c.name)] = c;
+  });
+
+  function renderCourseListItem(c) {
+    var title = escapeHtml(typeof c === 'string' ? c : c.title);
+    var rawName = typeof c === 'string' ? c : c.title;
+    var slug = courseSlug(rawName);
+    if (coursesBySlug[slug]) {
+      return '<li><button type="button" class="course-link" data-cross-course="' + escapeHtml(slug) + '">' + title + '</button></li>';
+    }
+    var url = (c && c.url) ? escapeHtml(c.url) : null;
+    return url
+      ? '<li><a href="' + url + '" target="_blank" rel="noopener noreferrer">' + title + '</a></li>'
+      : '<li>' + title + '</li>';
+  }
+
+  function renderCourseVideo(v) {
+    var title = escapeHtml(v.title || 'Watch');
+    var url = v.url ? escapeHtml(v.url) : '#';
+    var channel = v.channel ? ' &mdash; ' + escapeHtml(v.channel) : '';
+    var time = v.time ? ' <span class="video-time">(' + escapeHtml(v.time) + ')</span>' : '';
+    return (
+      '<li><a href="' + url + '" target="_blank" rel="noopener noreferrer">' +
+      '<span class="play-icon">&#9654;</span><span>' + title + channel + time +
+      (v.why ? '<br><span class="video-why">' + escapeHtml(v.why) + '</span>' : '') +
+      '</span></a></li>'
+    );
+  }
+
+  function renderCourse(course, backTarget) {
+    var back = backTarget
+      ? '<button type="button" class="back-link" data-back-to="' + escapeHtml(backTarget.mode) + '/' + escapeHtml(backTarget.slug) + '">&larr; Back to ' + escapeHtml(backTarget.label) + '</button>'
+      : '';
+    var levels = (course.levels || [])
+      .map(function (lvl) {
+        if (!lvl.videos || !lvl.videos.length) return '';
+        return (
+          '<div class="level-block">' +
+          '<span class="level-badge ' + levelClass(lvl.level) + '">' + escapeHtml(lvl.level) + '</span>' +
+          '<ul class="video-links">' + lvl.videos.map(renderCourseVideo).join('') + '</ul>' +
+          '</div>'
+        );
+      })
+      .join('');
+    var handsOn = course.hands_on
+      ? '<div class="capstone-block"><h3>Hands-On Mastery</h3><ul class="video-links">' + renderCourseVideo(course.hands_on) + '</ul></div>'
+      : '';
+    return (
+      '<div class="detail-card">' +
+      back +
+      '<h2>' + escapeHtml(course.name) + '</h2>' +
+      (course.description ? '<p class="detail-description">' + escapeHtml(course.description) + '</p>' : '') +
+      levels +
+      handsOn +
+      '</div>'
+    );
+  }
+
   function renderPathway(pathway) {
     var roleLinks = (pathway.representative_roles || [])
       .map(function (r) {
@@ -70,13 +135,7 @@
       })
       .join('');
     var courses = (pathway.course_sequence || [])
-      .map(function (c) {
-        var title = escapeHtml(typeof c === 'string' ? c : c.title);
-        var url = (c && c.url) ? escapeHtml(c.url) : null;
-        return url
-          ? '<li><a href="' + url + '" target="_blank" rel="noopener noreferrer">' + title + '</a></li>'
-          : '<li>' + title + '</li>';
-      })
+      .map(function (c) { return renderCourseListItem(c); })
       .join('');
     var resources = (pathway.capability_resources || [])
       .map(function (r) {
@@ -111,13 +170,7 @@
     var tiers = (cert.tiers || [])
       .map(function (t) {
         var courses = (t.courses || [])
-          .map(function (c) {
-            var title = escapeHtml(typeof c === 'string' ? c : c.title);
-            var url = (c && c.url) ? escapeHtml(c.url) : null;
-            return url
-              ? '<li><a href="' + url + '" target="_blank" rel="noopener noreferrer">' + title + '</a></li>'
-              : '<li>' + title + '</li>';
-          })
+          .map(function (c) { return renderCourseListItem(c); })
           .join('');
         var bridges = (t.bridges || [])
           .map(function (b) {
@@ -209,6 +262,8 @@
   var toggleButtons = document.querySelectorAll('.mode-toggle button[data-mode]');
 
   var currentMode = 'roles';
+  var currentSlug = null;
+  var currentItemName = '';
 
   function renderList(filterText) {
     var mode = MODES[currentMode];
@@ -254,9 +309,21 @@
   function selectItem(slug, updateHash) {
     var item = MODES[currentMode].bySlug[slug];
     if (!item) return;
+    currentSlug = slug;
+    currentItemName = item.name;
     renderItem(item);
     if (updateHash) {
       history.replaceState(null, '', '#' + currentMode + '/' + slug);
+    }
+  }
+
+  function showCourse(slug, backTarget, updateHash) {
+    var course = coursesBySlug[slug];
+    if (!course) return;
+    detailEl.innerHTML = renderCourse(course, backTarget);
+    detailEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (updateHash) {
+      history.replaceState(null, '', '#course/' + slug);
     }
   }
 
@@ -277,6 +344,8 @@
     if (slug && MODES[mode].bySlug[slug]) {
       selectItem(slug, false);
     } else {
+      currentSlug = null;
+      currentItemName = '';
       showEmptyState();
     }
 
@@ -293,9 +362,22 @@
 
   detailEl.addEventListener('click', function (e) {
     var pill = e.target.closest('[data-cross-role]');
-    if (!pill) return;
-    var slug = pill.getAttribute('data-cross-role');
-    setMode('roles', slug, true);
+    if (pill) {
+      setMode('roles', pill.getAttribute('data-cross-role'), true);
+      return;
+    }
+    var courseBtn = e.target.closest('[data-cross-course]');
+    if (courseBtn) {
+      var backTarget = currentSlug ? { mode: currentMode, slug: currentSlug, label: currentItemName } : null;
+      showCourse(courseBtn.getAttribute('data-cross-course'), backTarget, true);
+      return;
+    }
+    var backBtn = e.target.closest('[data-back-to]');
+    if (backBtn) {
+      var parts = backBtn.getAttribute('data-back-to').split('/');
+      setMode(parts[0], parts[1], true);
+      return;
+    }
   });
 
   toggleButtons.forEach(function (btn) {
@@ -308,15 +390,17 @@
     renderList(searchEl.value.trim());
   });
 
-  window.addEventListener('hashchange', function () {
+  function routeFromHash() {
     var parts = location.hash.replace('#', '').split('/');
-    if (parts[0]) setMode(parts[0], parts[1], false);
-  });
-
-  var initialParts = location.hash.replace('#', '').split('/');
-  if (initialParts[0] && MODES[initialParts[0]]) {
-    setMode(initialParts[0], initialParts[1], false);
-  } else {
-    setMode('roles', null, false);
+    if (parts[0] === 'course' && parts[1]) {
+      showCourse(parts[1], null, false);
+    } else if (parts[0] && MODES[parts[0]]) {
+      setMode(parts[0], parts[1], false);
+    } else {
+      setMode('roles', null, false);
+    }
   }
+
+  window.addEventListener('hashchange', routeFromHash);
+  routeFromHash();
 })();
