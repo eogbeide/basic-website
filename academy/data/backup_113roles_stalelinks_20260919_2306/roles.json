@@ -13795,7 +13795,7 @@
                 "channel": "Walmart Connect"
               },
               {
-                "title": "In-Store Retail Media and the Omnichannel Customer Journey",
+                "title": "Walmart Connect at CES 2026",
                 "url": "https://www.youtube.com/watch?v=KStCpcZNuYM",
                 "channel": "Walmart Connect"
               }
@@ -13806,14 +13806,14 @@
             "coverage": "PIM / Product Taxonomy / Product Attributes / Data Quality / Commerce",
             "videos": [
               {
-                "title": "Onboarding and Collaborating with Suppliers at Scale",
+                "title": "Product Cloud: Centralize, Enrich, Activate & Optimize Product Information",
                 "url": "https://www.youtube.com/watch?v=LSHUgK1Liho",
-                "channel": "Akeneo Unlock"
+                "channel": "Akeneo"
               },
               {
-                "title": "Spaenaur's Digital-Ready Product Catalog with Akeneo + Shopify",
+                "title": "Get Product Data Holiday Ready for AI Shopping",
                 "url": "https://www.youtube.com/watch?v=NxroQenOrEE",
-                "channel": "Akeneo"
+                "channel": "Google Ads"
               }
             ]
           }
@@ -13828,14 +13828,14 @@
             "coverage": "Agentic AI / Data Pipelines / PIM Integration / Human-in-the-Loop",
             "videos": [
               {
-                "title": "The Agentic Data Cloud: Powering a System of Action",
+                "title": "Agentic Data Cloud",
                 "url": "https://www.youtube.com/watch?v=OhakgDMxaro",
-                "channel": "Google Cloud Next"
+                "channel": "Google Cloud"
               },
               {
-                "title": "Shape Your Roadmap: PIM + Asset Manager",
+                "title": "How to Manage Merchant Center Data Sources",
                 "url": "https://www.youtube.com/watch?v=ZwZuZZujwvo",
-                "channel": "Akeneo Unlock"
+                "channel": "Google Ads"
               }
             ]
           },
@@ -13849,9 +13849,9 @@
                 "channel": "Neo4j"
               },
               {
-                "title": "GraphRAG Explained: Building Smarter LLMs",
+                "title": "Build Your Next GenAI Breakthrough with Neo4j",
                 "url": "https://www.youtube.com/watch?v=n8nDHPuoD8o",
-                "channel": "Jennifer Reif"
+                "channel": "Neo4j"
               }
             ]
           }
@@ -13866,14 +13866,14 @@
             "coverage": "Search & Retrieval / Recommenders / Personalization / Conversational Commerce",
             "videos": [
               {
-                "title": "Get Started with Agent Search for AI Agents",
+                "title": "Retail Search: AI-Driven Product Discovery & Recommendations",
                 "url": "https://www.youtube.com/watch?v=b-_WCvhocqo",
-                "channel": "Google Cloud Next"
+                "channel": "Google Cloud"
               },
               {
-                "title": "Agentic Commerce: Shopping Agents + Open Standards",
+                "title": "Make Ecommerce Products Stand Out in Search",
                 "url": "https://www.youtube.com/watch?v=GNlWClpVtcQ",
-                "channel": "Google Cloud Next"
+                "channel": "Google Search Central"
               }
             ]
           },
@@ -13882,12 +13882,12 @@
             "coverage": "Structured Product Data / Merchant Feeds / APIs / Platform Strategy / Measurement",
             "videos": [
               {
-                "title": "Conversational Commerce with Google",
+                "title": "How to Get Your Products into Search",
                 "url": "https://www.youtube.com/watch?v=Zrt46loj-Cc",
-                "channel": "Google Cloud Events"
+                "channel": "Google Search Central"
               },
               {
-                "title": "Reinventing Retail with AI",
+                "title": "Customer Innovation with Google's Agentic Data Cloud",
                 "url": "https://www.youtube.com/watch?v=pKEmQ1VMxsM",
                 "channel": "Google Cloud"
               }
