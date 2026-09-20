@@ -52,11 +52,26 @@
   }
 
   function renderRole(role) {
+    var bonus = (role.bonus || [])
+      .map(function (b) {
+        var url = b.url ? escapeHtml(b.url) : '#';
+        var channel = b.channel ? ' &mdash; ' + escapeHtml(b.channel) : '';
+        return (
+          '<li><a href="' + url + '" target="_blank" rel="noopener noreferrer">' +
+          '<span class="play-icon">&#9654;</span><span>' +
+          (b.label ? '<strong>' + escapeHtml(b.label) + ':</strong> ' : '') +
+          escapeHtml(b.title) + channel + '</span></a></li>'
+        );
+      })
+      .join('');
     return (
       '<div class="detail-card">' +
       '<h2>' + escapeHtml(role.name) + '</h2>' +
       (role.benchmark ? '<p class="detail-benchmark">Benchmark: ' + escapeHtml(role.benchmark) + '</p>' : '') +
       role.levels.map(renderLevel).join('') +
+      (bonus
+        ? '<div class="cross-links-block"><h3>Bonus Quick Explainer</h3><ul class="video-links">' + bonus + '</ul></div>'
+        : '') +
       (role.capstone
         ? '<div class="capstone-block"><h3>Role-Readiness Proof / Capstone</h3><p>' + escapeHtml(role.capstone) + '</p></div>'
         : '') +
