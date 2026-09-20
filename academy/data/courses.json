@@ -13137,7 +13137,7 @@
   },
   {
     "name": "Personal Development & Executive Effectiveness",
-    "description": "Develop the habits, mindset, focus, communication, empathy, connection and executive judgment needed for sustained personal and leadership growth. Use concise reviews of influential books, motivational ideas, speaking frameworks and CEO-level leadership research, then convert the lessons into a personal operating system. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Develop the habits, mindset, focus, communication, empathy, connection and executive judgment needed for sustained personal and leadership growth. Use concise reviews of influential books, motivational ideas, speaking frameworks and CEO-level leadership research, then convert the lessons into a personal operating system.",
     "levels": [
       {
         "level": "BASIC",
@@ -13227,7 +13227,7 @@
   },
   {
     "name": "AI & Agent Governance and Safety",
-    "description": "Govern AI and autonomous agents across the full lifecycle: risk classification, accountable ownership, policy and control design, model/agent inventories, permissions, human oversight, safety testing, content safeguards, auditability, incident response, regulatory alignment and continuous monitoring. Apply NIST, OWASP and enterprise Responsible AI practices to production agentic systems. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Govern AI and autonomous agents across the full lifecycle: risk classification, accountable ownership, policy and control design, model/agent inventories, permissions, human oversight, safety testing, content safeguards, auditability, incident response, regulatory alignment and continuous monitoring. Apply NIST, OWASP and enterprise Responsible AI practices to production agentic systems.",
     "levels": [
       {
         "level": "BASIC",
@@ -13317,7 +13317,7 @@
   },
   {
     "name": "New York Times Bestseller Insights: Leadership, Personal Growth & Decision-Making",
-    "description": "Learn high-leverage ideas from influential New York Times bestselling books through concise video reviews and summaries. Focus on habits, agency, growth, rethinking, courageous leadership, originality, execution, vulnerability and financial judgment - then translate each insight into a concrete behavior or leadership practice. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Learn high-leverage ideas from influential New York Times bestselling books through concise video reviews and summaries. Focus on habits, agency, growth, rethinking, courageous leadership, originality, execution, vulnerability and financial judgment - then translate each insight into a concrete behavior or leadership practice.",
     "levels": [
       {
         "level": "BASIC",
@@ -13407,7 +13407,7 @@
   },
   {
     "name": "Strategic AI Applications",
-    "description": "Apply AI strategically across major enterprise and societal domains. Learn to identify high-value use cases, map workflows and decisions, connect AI to domain data and systems, quantify value and risk, select the right ML/GenAI/agent pattern, and build governed roadmaps across Finance, Healthcare, Sales, Customer Support, Operations & Supply Chain, Legal, Human Resources, and Compliance & Risk. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Apply AI strategically across major enterprise and societal domains. Learn to identify high-value use cases, map workflows and decisions, connect AI to domain data and systems, quantify value and risk, select the right ML/GenAI/agent pattern, and build governed roadmaps across Finance, Healthcare, Sales, Customer Support, Operations & Supply Chain, Legal, Human Resources, and Compliance & Risk.",
     "levels": [
       {
         "level": "BASIC",
@@ -13497,7 +13497,7 @@
   },
   {
     "name": "Design & Creative Production",
-    "description": "Build end-to-end creative capability across graphic design, photography, videography, typography, composition, color, lighting, audio, editing, motion graphics, storyboarding, digital layouts and AI-assisted creative workflows. Learn to move from brief and concept to polished assets for video, photo, web, social, presentations and campaigns. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Build end-to-end creative capability across graphic design, photography, videography, typography, composition, color, lighting, audio, editing, motion graphics, storyboarding, digital layouts and AI-assisted creative workflows. Learn to move from brief and concept to polished assets for video, photo, web, social, presentations and campaigns.",
     "levels": [
       {
         "level": "BASIC",
@@ -13583,7 +13583,7 @@
   },
   {
     "name": "Infrastructure Hardware Engineering",
-    "description": "Design and operate physical compute infrastructure from digital logic and server components through CPUs/GPUs/accelerators, racks, networking, storage, power and thermal systems, manufacturing, validation, reliability and fleet lifecycle. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Design and operate physical compute infrastructure from digital logic and server components through CPUs/GPUs/accelerators, racks, networking, storage, power and thermal systems, manufacturing, validation, reliability and fleet lifecycle.",
     "levels": [
       {
         "level": "BASIC",
@@ -13673,7 +13673,7 @@
   },
   {
     "name": "Portfolio Roadmap & Lifecycle Management",
-    "description": "Manage a portfolio from strategy through introduction, growth, maturity and retirement. Balance customer value, market opportunity, product health, technical investment, dependencies, capacity and economics across multiple products and time horizons. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Manage a portfolio from strategy through introduction, growth, maturity and retirement. Balance customer value, market opportunity, product health, technical investment, dependencies, capacity and economics across multiple products and time horizons.",
     "levels": [
       {
         "level": "BASIC",
@@ -13763,7 +13763,7 @@
   },
   {
     "name": "Product Pricing, Packaging & Monetization",
-    "description": "Design pricing and packaging that capture customer value. Learn segmentation, willingness-to-pay research, value metrics, tiers and entitlements, elasticity, conjoint and price-sensitivity methods, discounting, experimentation, unit economics and commercial rollout. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Design pricing and packaging that capture customer value. Learn segmentation, willingness-to-pay research, value metrics, tiers and entitlements, elasticity, conjoint and price-sensitivity methods, discounting, experimentation, unit economics and commercial rollout.",
     "levels": [
       {
         "level": "BASIC",
@@ -13853,7 +13853,7 @@
   },
   {
     "name": "Monetization Strategy & Business Models",
-    "description": "Choose and evolve the economic model for products and platforms across subscription, freemium, usage/outcome-based, transaction/marketplace, advertising, licensing and services. Connect monetization to customer value, growth, retention, product experience and sustainable unit economics. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Choose and evolve the economic model for products and platforms across subscription, freemium, usage/outcome-based, transaction/marketplace, advertising, licensing and services. Connect monetization to customer value, growth, retention, product experience and sustainable unit economics.",
     "levels": [
       {
         "level": "BASIC",
@@ -13943,7 +13943,7 @@
   },
   {
     "name": "Autonomous Systems",
-    "description": "Design systems that perceive, estimate state, decide, plan and act safely in the physical world. Cover sensing and sensor fusion, localization/SLAM, perception, planning, control, learning, simulation, safety/verification and edge/fleet operations. BASIC - 3 VIDEOS | UNDERSTAND",
+    "description": "Design systems that perceive, estimate state, decide, plan and act safely in the physical world. Cover sensing and sensor fusion, localization/SLAM, perception, planning, control, learning, simulation, safety/verification and edge/fleet operations.",
     "levels": [
       {
         "level": "BASIC",
@@ -14033,7 +14033,7 @@
   },
   {
     "name": "Robotic Systems",
-    "description": "Engineer integrated robots across mechanics, electronics, sensors/actuators, embedded and real-time software, C++/Python, ROS 2 middleware, perception, localization, SLAM, planning, control, simulation, safety, testing and hardware integration. BASIC - 3 VIDEOS | UNDERSTAND",
+    "description": "Engineer integrated robots across mechanics, electronics, sensors/actuators, embedded and real-time software, C++/Python, ROS 2 middleware, perception, localization, SLAM, planning, control, simulation, safety, testing and hardware integration.",
     "levels": [
       {
         "level": "BASIC",
@@ -14123,7 +14123,7 @@
   },
   {
     "name": "Global Languages & Intercultural Communication",
-    "description": "Build a repeatable system for acquiring globally useful languages and communicating across cultures. The course uses five high-reach non-English languages - Spanish, Mandarin Chinese, Hindi, Arabic and French - while teaching pronunciation, listening, speaking, reading, writing, deliberate practice and cultural intelligence. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Build a repeatable system for acquiring globally useful languages and communicating across cultures. The course uses five high-reach non-English languages - Spanish, Mandarin Chinese, Hindi, Arabic and French - while teaching pronunciation, listening, speaking, reading, writing, deliberate practice and cultural intelligence.",
     "levels": [
       {
         "level": "BASIC",
@@ -14213,7 +14213,7 @@
   },
   {
     "name": "Globalization, Geopolitics & Global Business",
-    "description": "Understand how trade, capital, technology, supply chains, culture, migration, regulation and geopolitics shape global strategy. Learn to connect comparative advantage and exchange rates to localization, resilience, market entry, data sovereignty, geopolitical risk and multinational operating choices. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Understand how trade, capital, technology, supply chains, culture, migration, regulation and geopolitics shape global strategy. Learn to connect comparative advantage and exchange rates to localization, resilience, market entry, data sovereignty, geopolitical risk and multinational operating choices.",
     "levels": [
       {
         "level": "BASIC",
@@ -14303,7 +14303,7 @@
   },
   {
     "name": "How to Study Efficiently & Effectively",
-    "description": "Build an evidence-based study system that improves retention, transfer and exam performance without simply adding more hours. Learn metacognition, focus, deep processing, retrieval practice, spacing, interleaving, self-regulated learning, deliberate practice and feedback. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Build an evidence-based study system that improves retention, transfer and exam performance without simply adding more hours. Learn metacognition, focus, deep processing, retrieval practice, spacing, interleaving, self-regulated learning, deliberate practice and feedback.",
     "levels": [
       {
         "level": "BASIC",
@@ -14388,7 +14388,7 @@
   },
   {
     "name": "AI Mastery - Learn, Work, Create & Build with AI",
-    "description": "Develop durable fluency across ChatGPT/OpenAI, Google Gemini, Microsoft Copilot, Anthropic Claude, Perplexity, GitHub Copilot and creative AI. Learn not just product menus, but how to learn new AI systems, choose the right tool, verify outputs and turn AI capability into measurable value. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Develop durable fluency across ChatGPT/OpenAI, Google Gemini, Microsoft Copilot, Anthropic Claude, Perplexity, GitHub Copilot and creative AI. Learn not just product menus, but how to learn new AI systems, choose the right tool, verify outputs and turn AI capability into measurable value.",
     "levels": [
       {
         "level": "BASIC",
@@ -14478,7 +14478,7 @@
   },
   {
     "name": "Aerospace Engineering",
-    "description": "Build aerospace-engineering fluency across aerodynamics, flight mechanics, propulsion, structures, thermal systems, guidance/navigation/control, systems engineering, testing, reliability, autonomy and mission design. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Build aerospace-engineering fluency across aerodynamics, flight mechanics, propulsion, structures, thermal systems, guidance/navigation/control, systems engineering, testing, reliability, autonomy and mission design.",
     "levels": [
       {
         "level": "BASIC",
@@ -14568,19 +14568,85 @@
   },
   {
     "name": "Social Media Strategy, Growth & Community Management",
-    "description": "Plan a measurable social presence across strategy, content calendars, publishing, community management, social listening, analytics, paid/organic activation, social SEO and reputation. BASIC - 3 VIDEOS | UNDERSTAND 1. HubSpot - How To Create a Social Media Strategy Plan ~10 min Build goals, audience, competitor analysis, platform choice, content strategy, influencer/trend use and measurement. WATCH -> 2. Buffer - Create Your Social Media Calendar From Scratch ~7 min Turn strategy into an operating rhythm: content ideas, calendar structure, posting cadence and scheduling. WATCH -> 3. Sprout Social - Social Media Insights 101 ~4 min Understand reach, growth, engagement, monitoring/listening and how social data should influence business decisions. WATCH -> CONTINUE THE MASTERY PATH INTERMEDIATE - APPLY | ADVANCED - ARCHITECT / OPTIMIZE | HANDS-ON - BUILD + TEST Mastery rule: complete the Basic Top 3 first. Then continue to three Intermediate videos, three Advanced videos, the Hands-On Mastery build and references. QUICK START LINKS Creator Pathway -> Social Media Manager -> Content Creator -> Mastery Extension -> Modern AI, Product & Engineering Academy - 162 Core Courses + 10 Extensions | | Course 163 | Page 496 85 Job-Benchmarked Roles",
+    "description": "Plan a measurable social presence across strategy, content calendars, publishing, community management, social listening, analytics, paid/organic activation, social SEO and reputation.",
     "levels": [
       {
         "level": "BASIC",
-        "videos": []
+        "videos": [
+          {
+            "title": "How To Create a Social Media Strategy Plan",
+            "channel": "HubSpot",
+            "time": "~10 min",
+            "why": "Build goals, audience, competitor analysis, platform choice, content strategy, influencer/trend use and measurement.",
+            "url": "https://www.youtube.com/watch?v=VS0Sao1oHlw"
+          },
+          {
+            "title": "Create Your Social Media Calendar From Scratch",
+            "channel": "Buffer",
+            "time": "~7 min",
+            "why": "Turn strategy into an operating rhythm: content ideas, calendar structure, posting cadence and scheduling.",
+            "url": "https://www.youtube.com/watch?v=QcZ5sYJ-G-U"
+          },
+          {
+            "title": "Social Media Insights 101",
+            "channel": "Sprout Social",
+            "time": "~4 min",
+            "why": "Understand reach, growth, engagement, monitoring/listening and how social data should influence business decisions.",
+            "url": "https://www.youtube.com/watch?v=BNgHmpmNpJA"
+          }
+        ]
       },
       {
         "level": "INTERMEDIATE",
-        "videos": []
+        "videos": [
+          {
+            "title": "What Is Social Listening?",
+            "channel": "Sprout Social",
+            "time": "",
+            "why": "Use listening to uncover audience needs, competitors, influencers, trends and early crisis signals.",
+            "url": "https://www.youtube.com/watch?v=lXJK6neMRi4"
+          },
+          {
+            "title": "How to Create a Content Marketing Strategy",
+            "channel": "HubSpot",
+            "time": "",
+            "why": "Connect social content to audience journey, goals, audits and repeatable editorial planning.",
+            "url": "https://www.youtube.com/watch?v=40X4mNxHJkw"
+          },
+          {
+            "title": "Starting Meta Ads in 2026? Follow These 5 Steps",
+            "channel": "Ben Heath",
+            "time": "",
+            "why": "Add paid-social execution, targeting, measurement and creative-testing discipline.",
+            "url": "https://www.youtube.com/watch?v=l8uk_2Rvu9I"
+          }
+        ]
       },
       {
         "level": "ADVANCED",
-        "videos": []
+        "videos": [
+          {
+            "title": "Does Social SEO Really Work?",
+            "channel": "Hootsuite Labs",
+            "time": "",
+            "why": "Use experiment-driven social SEO to improve discovery on TikTok/Instagram-style platforms.",
+            "url": "https://www.youtube.com/watch?v=aL6Cqe-XJN0"
+          },
+          {
+            "title": "5 Social Media Crisis Management Tips",
+            "channel": "Sprinklr",
+            "time": "",
+            "why": "Build crisis playbooks, response roles, listening and proactive stakeholder communication.",
+            "url": "https://www.youtube.com/watch?v=wcq08_rMKtw"
+          },
+          {
+            "title": "Retention Analysis",
+            "channel": "Mixpanel",
+            "time": "",
+            "why": "Move beyond vanity metrics into cohort/retention analysis and behavioral learning loops.",
+            "url": "https://www.youtube.com/watch?v=3ucW4aJk0h4"
+          }
+        ]
       }
     ],
     "hands_on": {
@@ -14592,19 +14658,85 @@
   },
   {
     "name": "Creator Monetization, Partnerships & Social Commerce",
-    "description": "Turn audience trust into a diversified creator business using platform monetization, brand deals, affiliate/social commerce, memberships and owned digital products/services - without relying on one revenue stream. BASIC - 3 VIDEOS | UNDERSTAND 1. YouTube Creators - Partner Program: How to Make Money on YouTube ~6 min Understand platform revenue paths including ads/Premium revenue, memberships, Supers and Shopping for eligible creators. WATCH -> 2. Learn With Shopify - How to Start Affiliate Marketing in 2026 ~17 min Learn niche selection, affiliate programs, trust-based content, promotion across social/video/email and conversion tracking. WATCH -> 3. Later - How to Get Brand Deals as a Beginner Creator ~3 min Learn what brands look for, pitching, pricing and how to build paid creator relationships. WATCH -> CONTINUE THE MASTERY PATH INTERMEDIATE - APPLY | ADVANCED - ARCHITECT / OPTIMIZE | HANDS-ON - BUILD + TEST Mastery rule: complete the Basic Top 3 first. Then continue to three Intermediate videos, three Advanced videos, the Hands-On Mastery build and references. QUICK START LINKS Creator Pathway -> Social Media Manager -> Content Creator -> Mastery Extension -> Modern AI, Product & Engineering Academy - 162 Core Courses + 10 Extensions | | Course 164 | Page 498 85 Job-Benchmarked Roles",
+    "description": "Turn audience trust into a diversified creator business using platform monetization, brand deals, affiliate/social commerce, memberships and owned digital products/services - without relying on one revenue stream.",
     "levels": [
       {
         "level": "BASIC",
-        "videos": []
+        "videos": [
+          {
+            "title": "Partner Program: How to Make Money on YouTube",
+            "channel": "YouTube Creators",
+            "time": "~6 min",
+            "why": "Understand platform revenue paths including ads/Premium revenue, memberships, Supers and Shopping for eligible creators.",
+            "url": "https://www.youtube.com/watch?v=om2WiDsHLso"
+          },
+          {
+            "title": "How to Start Affiliate Marketing in 2026",
+            "channel": "Learn With Shopify",
+            "time": "~17 min",
+            "why": "Learn niche selection, affiliate programs, trust-based content, promotion across social/video/email and conversion tracking.",
+            "url": "https://www.youtube.com/watch?v=HnV5JXBWCeQ"
+          },
+          {
+            "title": "How to Get Brand Deals as a Beginner Creator",
+            "channel": "Later",
+            "time": "~3 min",
+            "why": "Learn what brands look for, pitching, pricing and how to build paid creator relationships.",
+            "url": "https://www.youtube.com/watch?v=jIgWHFGed2w"
+          }
+        ]
       },
       {
         "level": "INTERMEDIATE",
-        "videos": []
+        "videos": [
+          {
+            "title": "YouTube Shopping Affiliate Program",
+            "channel": "YouTube Creators",
+            "time": "",
+            "why": "Connect tagged products, affiliate commissions, eligibility, tracking and shopping best practices.",
+            "url": "https://www.youtube.com/watch?v=C0L-bPeCuXM"
+          },
+          {
+            "title": "Channel Memberships",
+            "channel": "YouTube Creators",
+            "time": "",
+            "why": "Design recurring direct-to-fan revenue with tiers, perks, promotion and membership analytics.",
+            "url": "https://www.youtube.com/watch?v=220nXk_mJiE"
+          },
+          {
+            "title": "Brand Deals for Small Creators",
+            "channel": "Katie Steckly",
+            "time": "",
+            "why": "Build a media kit, set rates and choose brand partnerships that fit the audience.",
+            "url": "https://www.youtube.com/watch?v=3ZPoPSyjYA8"
+          }
+        ]
       },
       {
         "level": "ADVANCED",
-        "videos": []
+        "videos": [
+          {
+            "title": "Digital Product Store Tutorial 2026",
+            "channel": "Shopify",
+            "time": "",
+            "why": "Add owned digital products so creator revenue is not dependent on platform payouts or sponsors.",
+            "url": "https://www.youtube.com/watch?v=yU3DCNb7B1w"
+          },
+          {
+            "title": "Pricing for B2B SaaS",
+            "channel": "Willingness to Pay",
+            "time": "",
+            "why": "Use willingness-to-pay logic to price sponsorship packages, memberships, services and digital offers.",
+            "url": "https://www.youtube.com/watch?v=cdQzCVUJybY"
+          },
+          {
+            "title": "Business Model Canvas Explained",
+            "channel": "Strategyzer",
+            "time": "",
+            "why": "Architect a complete creator-business model across audience, channels, partners, costs and revenue streams.",
+            "url": "https://www.youtube.com/watch?v=QoAOzMTLP5s"
+          }
+        ]
       }
     ],
     "hands_on": {
@@ -14616,7 +14748,7 @@
   },
   {
     "name": "Revenue Operations & GTM Systems",
-    "description": "Design the revenue operating system across marketing, sales and customer success: lifecycle stages, CRM/data, routing, pipeline, forecasting, territory/capacity, quote-to-cash, analytics and AI-enabled automation. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Design the revenue operating system across marketing, sales and customer success: lifecycle stages, CRM/data, routing, pipeline, forecasting, territory/capacity, quote-to-cash, analytics and AI-enabled automation.",
     "levels": [
       {
         "level": "BASIC",
@@ -14662,7 +14794,7 @@
   },
   {
     "name": "Technical Sales & Solution Engineering",
-    "description": "Lead technical presales from discovery through tailored solution architecture, demonstrations, proofs of concept, security/integration validation, RFP/RFI response, value engineering and executive decision support. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Lead technical presales from discovery through tailored solution architecture, demonstrations, proofs of concept, security/integration validation, RFP/RFI response, value engineering and executive decision support.",
     "levels": [
       {
         "level": "BASIC",
@@ -14708,7 +14840,7 @@
   },
   {
     "name": "Product Operations & Product Operating Models",
-    "description": "Build the operating system around product teams: planning cadences, intake/prioritization, product insights, launch/release operations, decision records, tooling, cross-functional governance and continuous improvement. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Build the operating system around product teams: planning cadences, intake/prioritization, product insights, launch/release operations, decision records, tooling, cross-functional governance and continuous improvement.",
     "levels": [
       {
         "level": "BASIC",
@@ -14754,7 +14886,7 @@
   },
   {
     "name": "Data Center Engineering: Power, Cooling & AI Infrastructure",
-    "description": "Design and operate the physical foundation of high-density AI compute: electrical architecture, rack power, liquid cooling, server/accelerator systems, networking, commissioning, telemetry, capacity and facility reliability. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Design and operate the physical foundation of high-density AI compute: electrical architecture, rack power, liquid cooling, server/accelerator systems, networking, commissioning, telemetry, capacity and facility reliability.",
     "levels": [
       {
         "level": "BASIC",
@@ -14800,7 +14932,7 @@
   },
   {
     "name": "Healthcare Operations, Value-Based Care & Revenue Cycle",
-    "description": "Operate healthcare delivery as a measurable system across patient flow, staffing/capacity, quality, compliance, revenue cycle, value-based care, payer/provider economics, process improvement and operational analytics. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Operate healthcare delivery as a measurable system across patient flow, staffing/capacity, quality, compliance, revenue cycle, value-based care, payer/provider economics, process improvement and operational analytics.",
     "levels": [
       {
         "level": "BASIC",
@@ -14846,7 +14978,7 @@
   },
   {
     "name": "Healthcare Data Interoperability: EHR, HL7 & FHIR",
-    "description": "Connect healthcare systems safely using EHR concepts, HL7 messaging and FHIR resources/APIs: resources, profiles, terminology, REST interactions, integration architecture, identity, consent, security and implementation testing. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Connect healthcare systems safely using EHR concepts, HL7 messaging and FHIR resources/APIs: resources, profiles, terminology, REST interactions, integration architecture, identity, consent, security and implementation testing.",
     "levels": [
       {
         "level": "BASIC",
@@ -14892,7 +15024,7 @@
   },
   {
     "name": "Actuarial & Insurance Risk Analytics",
-    "description": "Apply probability and statistical modeling to insurance pricing, reserving and portfolio risk: exposure and loss data, frequency/severity, credibility, trends, scenario analysis, regulation, model governance and decision communication. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Apply probability and statistical modeling to insurance pricing, reserving and portfolio risk: exposure and loss data, frequency/severity, credibility, trends, scenario analysis, regulation, model governance and decision communication.",
     "levels": [
       {
         "level": "BASIC",
@@ -14938,7 +15070,7 @@
   },
   {
     "name": "AI Adoption & Organizational Change Management",
-    "description": "Lead the people side of AI transformation: change strategy, readiness, sponsorship, stakeholder engagement, workflow redesign, communications, training, resistance management, adoption metrics, governance and sustainment. BASIC - 3 VIDEOS  |  UNDERSTAND",
+    "description": "Lead the people side of AI transformation: change strategy, readiness, sponsorship, stakeholder engagement, workflow redesign, communications, training, resistance management, adoption metrics, governance and sustainment.",
     "levels": [
       {
         "level": "BASIC",
