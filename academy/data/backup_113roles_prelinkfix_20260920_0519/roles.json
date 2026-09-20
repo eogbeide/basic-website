@@ -1999,12 +1999,12 @@
             "videos": [
               {
                 "title": "Discussing Backend For Front-end",
-                "url": "https://www.youtube.com/watch?v=oKLVzK_pqgg",
+                "url": "",
                 "channel": "NDC"
               },
               {
                 "title": "Designing Quality APIs",
-                "url": "https://www.youtube.com/watch?v=P0a7PwRNLVU",
+                "url": "",
                 "channel": "Google Cloud"
               }
             ]
@@ -2015,12 +2015,12 @@
             "videos": [
               {
                 "title": "Migrating to Cloud SQL for MySQL",
-                "url": "https://www.youtube.com/watch?v=77JMe-EHIU8",
+                "url": "",
                 "channel": "Google Cloud"
               },
               {
                 "title": "Designing Data-Intensive Applications",
-                "url": "https://www.youtube.com/watch?v=SVOrURyOu_U",
+                "url": "",
                 "channel": "Martin Kleppmann"
               }
             ]
@@ -2037,12 +2037,12 @@
             "videos": [
               {
                 "title": "APIs and Integration",
-                "url": "https://www.youtube.com/watch?v=mAyETqU1Mww",
+                "url": "",
                 "channel": "Salesforce Developers"
               },
               {
                 "title": "Building an Integration Strategy for the Future",
-                "url": "https://www.youtube.com/watch?v=CLBlmazHeIE",
+                "url": "",
                 "channel": "AWS"
               }
             ]
@@ -2053,12 +2053,12 @@
             "videos": [
               {
                 "title": "Event-Driven Integrations with EventBridge",
-                "url": "https://www.youtube.com/watch?v=W3Rh70jG-LM",
+                "url": "",
                 "channel": "AWS re:Invent"
               },
               {
                 "title": "Master API Contract Testing",
-                "url": "https://www.youtube.com/watch?v=INJla2N2iZU",
+                "url": "",
                 "channel": "Postman"
               }
             ]
@@ -2075,12 +2075,12 @@
             "videos": [
               {
                 "title": "OWASP API Security Top 10 Course",
-                "url": "https://www.youtube.com/watch?v=YYe0FdfdgDU",
+                "url": "",
                 "channel": ""
               },
               {
                 "title": "Are You Well-Architected?",
-                "url": "https://www.youtube.com/watch?v=jtjEWlGkwjQ",
+                "url": "",
                 "channel": "AWS re:Invent"
               }
             ]
@@ -2091,12 +2091,12 @@
             "videos": [
               {
                 "title": "GitHub Actions CI/CD + Docker",
-                "url": "https://www.youtube.com/watch?v=R8_veQiYBjI",
+                "url": "",
                 "channel": "TechWorld with Nana"
               },
               {
                 "title": "Incident Management: SRE Implements DevOps",
-                "url": "https://www.youtube.com/watch?v=n4y9dwinPBQ",
+                "url": "",
                 "channel": "Google"
               }
             ]
@@ -2867,12 +2867,12 @@
             "videos": [
               {
                 "title": "Intro to Large Language Models",
-                "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+                "url": "",
                 "channel": "Andrej Karpathy"
               },
               {
                 "title": "Well-Architected GenAI + Agentic Apps",
-                "url": "https://www.youtube.com/watch?v=0sfKGUZ6kcg",
+                "url": "",
                 "channel": "AWS re:Invent"
               }
             ]
@@ -2883,12 +2883,12 @@
             "videos": [
               {
                 "title": "Ontologies for Knowledge Graph Creation",
-                "url": "https://www.youtube.com/watch?v=RYuw4oq0G84",
+                "url": "",
                 "channel": "Neo4j"
               },
               {
                 "title": "Intro + Word Vectors",
-                "url": "https://www.youtube.com/watch?v=DzpHeXVSC5I",
+                "url": "",
                 "channel": "Stanford CS224N"
               }
             ]
@@ -2905,12 +2905,12 @@
             "videos": [
               {
                 "title": "Causal Inference, Part 1",
-                "url": "https://www.youtube.com/watch?v=gRkUhg9Wb-I",
+                "url": "",
                 "channel": "MIT OCW"
               },
               {
                 "title": "Causal Inference, Part 2",
-                "url": "https://www.youtube.com/watch?v=g5v-NvNoJQQ",
+                "url": "",
                 "channel": "MIT OCW"
               }
             ]
@@ -2921,12 +2921,12 @@
             "videos": [
               {
                 "title": "Agents SDK Build Hour",
-                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
+                "url": "",
                 "channel": "OpenAI"
               },
               {
                 "title": "Building Effective Agents",
-                "url": "https://www.youtube.com/watch?v=uhJJgc-0iTQ",
+                "url": "",
                 "channel": "Anthropic"
               }
             ]
@@ -2943,12 +2943,12 @@
             "videos": [
               {
                 "title": "LLM Evals: Common Mistakes",
-                "url": "https://www.youtube.com/watch?v=GL0XhAj5LPE",
+                "url": "",
                 "channel": "Hamel Husain"
               },
               {
                 "title": "Vector Database Architecture Deep Dive",
-                "url": "https://www.youtube.com/watch?v=6hdEJdHWXRE",
+                "url": "",
                 "channel": "Weaviate"
               }
             ]
@@ -2959,12 +2959,12 @@
             "videos": [
               {
                 "title": "Data & AI Governance: Catalog for AI",
-                "url": "https://www.youtube.com/watch?v=cdmvSHJEh2E",
+                "url": "",
                 "channel": "Google Cloud"
               },
               {
                 "title": "Building the Agentic Enterprise",
-                "url": "https://www.youtube.com/watch?v=lsqPct4NnNs",
+                "url": "",
                 "channel": "Google Cloud"
               }
             ]
@@ -12291,12 +12291,12 @@
             "videos": [
               {
                 "title": "Observing the User Experience in 2026",
-                "url": "https://www.youtube.com/watch?v=QZ61wToFILM",
+                "url": "",
                 "channel": "Stanford Online"
               },
               {
                 "title": "UX Research & Usability Testing (Jenny Gove)",
-                "url": "https://www.youtube.com/watch?v=QD-clxkLnrE",
+                "url": "",
                 "channel": "Google"
               }
             ]
@@ -12307,12 +12307,12 @@
             "videos": [
               {
                 "title": "Essential Design Principles (WWDC)",
-                "url": "https://developer.apple.com/videos/play/wwdc2017/802/",
+                "url": "",
                 "channel": "Apple"
               },
               {
                 "title": "Intentional Design (WWDC)",
-                "url": "https://developer.apple.com/videos/play/wwdc2018/802/",
+                "url": "",
                 "channel": "Apple"
               }
             ]
@@ -12329,12 +12329,12 @@
             "videos": [
               {
                 "title": "Advanced Prototyping Techniques",
-                "url": "https://www.youtube.com/watch?v=o3r1CBEFYX4",
+                "url": "",
                 "channel": "Figma"
               },
               {
                 "title": "Designing Fluid Interfaces (WWDC)",
-                "url": "https://developer.apple.com/videos/play/wwdc2018/803/",
+                "url": "",
                 "channel": "Apple"
               }
             ]
@@ -12345,12 +12345,12 @@
             "videos": [
               {
                 "title": "Exceptional Accessibility Experience (WWDC)",
-                "url": "https://developer.apple.com/videos/play/wwdc2018/230/",
+                "url": "",
                 "channel": "Apple"
               },
               {
                 "title": "The Qualities of Great Design (WWDC)",
-                "url": "https://developer.apple.com/videos/play/wwdc2018/801/",
+                "url": "",
                 "channel": "Apple"
               }
             ]
@@ -12367,12 +12367,12 @@
             "videos": [
               {
                 "title": "Introduction to Design Systems",
-                "url": "https://www.youtube.com/watch?v=t3VW-qa8544",
+                "url": "",
                 "channel": "Figma"
               },
               {
                 "title": "Dev Mode Collaboration Workshop",
-                "url": "https://www.youtube.com/watch?v=QAX7CFac5fU",
+                "url": "",
                 "channel": "Figma"
               }
             ]
@@ -12383,12 +12383,12 @@
             "videos": [
               {
                 "title": "Designing Human-Centered AI Products",
-                "url": "https://www.youtube.com/watch?v=rf83vRxLWFQ",
+                "url": "",
                 "channel": "Google Design"
               },
               {
                 "title": "Common Pitfalls of A/B Testing",
-                "url": "https://www.youtube.com/watch?v=NkQ51iyFgs0",
+                "url": "",
                 "channel": "Stanford"
               }
             ]
@@ -12415,12 +12415,12 @@
             "videos": [
               {
                 "title": "User Interviews (45 min)",
-                "url": "https://www.youtube.com/watch?v=vWlXNS-3Ct8",
+                "url": "",
                 "channel": "NN/g + Steve Portigal"
               },
               {
                 "title": "Great User Research for Non-Researchers",
-                "url": "https://www.youtube.com/watch?v=x-_1r5uKqlA",
+                "url": "",
                 "channel": "Steve Portigal"
               }
             ]
@@ -12431,12 +12431,12 @@
             "videos": [
               {
                 "title": "Thematic Analysis: Best Practice",
-                "url": "https://www.youtube.com/watch?v=4voVhTiVydc",
+                "url": "",
                 "channel": "Victoria Clarke"
               },
               {
                 "title": "Introduction to Thematic Analysis",
-                "url": "https://www.youtube.com/watch?v=5zFcC10vOVY",
+                "url": "",
                 "channel": "Braun & Clarke"
               }
             ]
@@ -12453,12 +12453,12 @@
             "videos": [
               {
                 "title": "UX Research & Usability Testing (Jenny Gove)",
-                "url": "https://www.youtube.com/watch?v=QD-clxkLnrE",
+                "url": "",
                 "channel": "Google"
               },
               {
                 "title": "Observing the User Experience in 2026",
-                "url": "https://www.youtube.com/watch?v=QZ61wToFILM",
+                "url": "",
                 "channel": "Stanford Online"
               }
             ]
@@ -12469,12 +12469,12 @@
             "videos": [
               {
                 "title": "Common Pitfalls of A/B Testing",
-                "url": "https://www.youtube.com/watch?v=NkQ51iyFgs0",
+                "url": "",
                 "channel": "Stanford"
               },
               {
                 "title": "ML + Causal Inference for Personalization",
-                "url": "https://www.youtube.com/watch?v=carmc4abRzA",
+                "url": "",
                 "channel": "Susan Athey"
               }
             ]
@@ -12491,12 +12491,12 @@
             "videos": [
               {
                 "title": "Causal Inference with AI Models (2026)",
-                "url": "https://www.youtube.com/watch?v=djGa1-EiNs0",
+                "url": "",
                 "channel": "Susan Athey"
               },
               {
                 "title": "Designing Human-Centered AI Products",
-                "url": "https://www.youtube.com/watch?v=rf83vRxLWFQ",
+                "url": "",
                 "channel": "Google Design"
               }
             ]
@@ -12507,12 +12507,12 @@
             "videos": [
               {
                 "title": "Boosting User Research Impact (47 min)",
-                "url": "https://www.youtube.com/watch?v=TVtvUPFSK50",
+                "url": "",
                 "channel": "Steve Portigal"
               },
               {
                 "title": "Continuous Discovery",
-                "url": "https://www.youtube.com/watch?v=0E1fC9nECiQ",
+                "url": "",
                 "channel": "Stanford / Teresa Torres"
               }
             ]
