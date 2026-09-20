@@ -381,7 +381,17 @@
       {
         "heading": "RESOURCE PRINCIPLE",
         "type": "paragraph",
-        "text": "One strong explanatory source + one primary Qbank + official assessments beats collecting five overlapping resources. Add a second source only to solve a specific weakness."
+        "text": "One strong explanatory source + one primary Qbank + official assessments beats collecting five overlapping resources. Add a second source only to solve a specific weakness. NEW RESOURCE STANDARD - VIDEO FIRST, EXAM EVIDENCE SECOND"
+      },
+      {
+        "heading": "RESOURCE PRINCIPLE",
+        "type": "bullets",
+        "items": [
+          "Student-facing teaching links must be direct videos or true video libraries - not university syllabi, curriculum descriptions, webinars or course-registration pages.",
+          "University curricula (UW, Stanford, Harvard, Hopkins, PNWU, etc.) are benchmark evidence only; they define coverage, not the learner's teaching resource.",
+          "Each course now separates DEEP CONCEPT videos from HIGH-YIELD EXAM REVIEW videos and from QBANK/OFFICIAL ASSESSMENT tools.",
+          "Step 1 is pass/fail, so there is no current Step 1 percentile to copy. For scored exams such as Step 2 CK, we use recurring patterns from recent 270+ public score reports as community evidence - never as a guarantee."
+        ]
       }
     ],
     "page": 5
@@ -560,88 +570,116 @@
   {
     "name": "CELL & MOLECULAR BIOLOGY + GENETICS",
     "list_label": "CELL & MOLECULAR BIOLOGY + GENETICS",
-    "phase": "YEAR 1 - FOUNDATIONS | Curriculum + Exam Mastery",
+    "phase": "YEAR 1 - FOUNDATIONS | VIDEO-FIRST + EXAM MASTERY",
     "category": "Year 1 — Foundations of Medicine",
     "sections": [
       {
-        "heading": "WHY THIS COURSE EXISTS",
+        "heading": "",
         "type": "paragraph",
-        "text": "Create the mechanistic bridge from DNA and cell biology to inherited disease, cancer biology, targeted therapies and modern diagnostics."
+        "text": "Target: understand DNA -> RNA -> protein, cell regulation, inheritance and molecular disease deeply enough to handle school mechanisms and board-style clinical genetics."
       },
       {
-        "heading": "Mastery checklist",
-        "type": "bullets",
-        "items": [
-          "Cell membranes, organelles, cytoskeleton, trafficking, signaling and cell cycle.",
-          "DNA replication/repair, transcription, RNA processing and translation.",
-          "Mendelian inheritance, pedigrees, penetrance/expressivity, mosaicism, imprinting and anticipation.",
-          "Chromosomal disease, population genetics and multifactorial inheritance.",
-          "Genomic technologies: PCR, sequencing, microarrays, cytogenetics and molecular diagnostics.",
-          "Cancer genetics, oncogenes, tumor suppressors and DNA-repair syndromes."
-        ]
+        "heading": "A. CONCEPT MASTERY - substantive videos",
+        "type": "paragraph",
+        "text": "Use these before high-yield mnemonics. They build the mechanism so exam facts have a place to attach."
       },
       {
-        "heading": "You should be able to...",
-        "type": "bullets",
-        "items": [
-          "Predict phenotypes from inheritance patterns.",
-          "Interpret pedigrees, molecular test results and chromosome abnormalities.",
-          "Link cellular defects to organ-level disease.",
-          "Explain how mutations alter proteins, pathways and therapies.",
-          "Choose an appropriate molecular/genetic diagnostic approach at a conceptual level."
-        ]
-      },
-      {
-        "heading": "High-value learning resources",
+        "heading": "A. CONCEPT MASTERY - substantive videos",
         "type": "table",
         "columns": [
-          "Resource",
-          "Type",
-          "Link",
-          "How to use it"
+          "#",
+          "Video",
+          "Time",
+          "Why",
+          "Link"
         ],
         "rows": [
           [
-            "Johns Hopkins - Scientific Foundations of Medicine",
-            "University curriculum",
-            "https://www.hopkinsmedicine.org/som/curriculum/genes-to-society/year-one/scientific-foundations-medicine",
-            "Reference benchmark for molecular/cellular/genetic foundations."
+            "1.",
+            "DNA Replication - Ninja Nerd",
+            "~67 min",
+            "Core replication machinery, leading/lagging strands, proofreading, telomeres and clinically relevant failure points.",
+            "https://www.youtube.com/watch?v=xvWdIi6_fGg"
           ],
           [
-            "AMBOSS",
-            "Library + Qbank",
-            "https://www.amboss.com/us/students/student-life",
-            "Genetics and molecular disease review with board-style questions."
+            "2.",
+            "DNA Transcription - Ninja Nerd",
+            "~85 min",
+            "Promoters, polymerases, transcription factors, RNA processing and differences between prokaryotic and eukaryotic transcription.",
+            "https://www.youtube.com/watch?v=ZrCx98CtJ_4"
           ],
           [
-            "UWorld Step 1",
-            "Qbank",
-            "https://medical.uworld.com/usmle/usmle-step-1/",
-            "Apply molecular/genetic mechanisms to clinical vignettes."
-          ],
-          [
-            "USMLE Step 1 content outline",
-            "Official blueprint",
-            "https://www.usmle.org/exam-resources/step-1-materials/step-1-content-outline-and-specifications",
-            "Use discipline and organ-system mapping to check completeness."
+            "3.",
+            "Translation: Protein Synthesis - Ninja Nerd",
+            "~93 min",
+            "Genetic code, tRNA/ribosomes, initiation/elongation/termination and post-translational processing.",
+            "https://www.youtube.com/watch?v=80kxa1zApUM"
           ]
         ]
       },
       {
-        "heading": "High-value learning resources — Exam alignment",
-        "type": "bullets",
-        "items": [
-          "USMLE Step 1 lists genetics (5-10%) and histology/cell biology (5-15%) as overlapping disciplines.",
-          "Genetics also reappears in pediatrics, obstetrics, oncology, neurology and reproductive medicine throughout later years."
+        "heading": "B. HIGH-YIELD EXAM REVIEW - direct playable videos",
+        "type": "paragraph",
+        "text": "Use after concept mastery or after Qbank misses. Short mnemonics are review tools, not the core curriculum."
+      },
+      {
+        "heading": "B. HIGH-YIELD EXAM REVIEW - direct playable videos",
+        "type": "table",
+        "columns": [
+          "#",
+          "Video",
+          "Time",
+          "Why",
+          "Link"
+        ],
+        "rows": [
+          [
+            "4.",
+            "Genetics Terms - Dirty Medicine",
+            "high-yield",
+            "Rapidly consolidates penetrance, expressivity, heterogeneity, mosaicism and other repeatedly tested genetics vocabulary.",
+            "https://www.youtube.com/watch?v=xA3-pIUUQWg"
+          ],
+          [
+            "5.",
+            "X-Linked Pedigrees MADE EASY - Dirty Medicine",
+            "exam drill",
+            "Pattern recognition for pedigrees; use immediately before timed genetics questions.",
+            "https://www.youtube.com/watch?v=3zXMAzcsF2M"
+          ],
+          [
+            "6.",
+            "Autosomal Recessive Disease Song - Dirty Medicine",
+            "BONUS",
+            "Memory reinforcement only. Keep as a BONUS after understanding inheritance and disease mechanisms.",
+            "https://www.youtube.com/watch?v=EpClzj31tok"
+          ]
         ]
       },
       {
-        "heading": "High-value learning resources — Mastery / assessment loop",
-        "type": "bullets",
-        "items": [
-          "Solve pedigrees and probability questions without notes.",
-          "For each genetic disease, learn inheritance + molecular defect + mechanism + major phenotype + diagnostic clue.",
-          "Use mixed questions so genetics is not learned as an isolated discipline."
+        "heading": "C. PRACTICE + READINESS - intentionally not video",
+        "type": "table",
+        "columns": [
+          "Resource",
+          "Description",
+          "Link"
+        ],
+        "rows": [
+          [
+            "UWorld Step 1",
+            "Primary vignette application: inheritance, molecular defects, cancer genetics and diagnostic reasoning.",
+            "https://www.uworld.com/medical/usmle/"
+          ],
+          [
+            "AMBOSS USMLE",
+            "Targeted genetics/cell-biology review plus questions when a Qbank error exposes a weak concept.",
+            "https://www.amboss.com/us/usmle"
+          ],
+          [
+            "NBME Self-Assessments",
+            "Use official-style assessments for readiness; do not substitute creator videos for NBME calibration. MASTERY GATE From memory: explain DNA replication/transcription/translation; solve inheritance/pedigree problems; connect mutation -> protein/cell defect -> phenotype; then complete mixed timed questions and remediate recurring errors.",
+            "https://www.nbme.org/examinees/self-assessments"
+          ]
         ]
       }
     ],
@@ -650,88 +688,116 @@
   {
     "name": "BIOCHEMISTRY & METABOLISM",
     "list_label": "BIOCHEMISTRY & METABOLISM",
-    "phase": "YEAR 1 - FOUNDATIONS | Curriculum + Exam Mastery",
+    "phase": "YEAR 1 - FOUNDATIONS | VIDEO-FIRST + EXAM MASTERY",
     "category": "Year 1 — Foundations of Medicine",
     "sections": [
       {
-        "heading": "WHY THIS COURSE EXISTS",
+        "heading": "",
         "type": "paragraph",
-        "text": "Understand energy handling and macromolecular metabolism well enough to reason through nutrition, endocrine disease, inborn errors, toxicology and pharmacologic effects."
+        "text": "Target: build pathway logic first, then compress to the enzyme deficiencies, vitamins, storage diseases and regulation patterns most useful for school exams and Step/COMLEX vignettes."
       },
       {
-        "heading": "Mastery checklist",
-        "type": "bullets",
-        "items": [
-          "Protein structure, enzymes, kinetics and regulation.",
-          "Glycolysis, gluconeogenesis, glycogen, TCA, oxidative phosphorylation and pentose phosphate pathway.",
-          "Fatty-acid metabolism, ketones, cholesterol/lipoproteins.",
-          "Amino-acid and nitrogen metabolism, urea cycle, heme metabolism and purines/pyrimidines.",
-          "Fed/fasted states, insulin/glucagon integration and exercise metabolism.",
-          "Vitamins/cofactors, nutrition and common inborn errors of metabolism."
-        ]
+        "heading": "A. CONCEPT MASTERY - substantive videos",
+        "type": "paragraph",
+        "text": "Learn the metabolic map and regulation before memorizing disease associations."
       },
       {
-        "heading": "You should be able to...",
-        "type": "bullets",
-        "items": [
-          "Draw central pathways from memory and identify regulated steps.",
-          "Predict laboratory findings from enzyme deficiencies.",
-          "Integrate metabolism with endocrine physiology and nutrition.",
-          "Explain vitamin/cofactor deficiency syndromes mechanistically.",
-          "Use biochemical mechanisms to interpret drug/toxin effects."
-        ]
-      },
-      {
-        "heading": "High-value learning resources",
+        "heading": "A. CONCEPT MASTERY - substantive videos",
         "type": "table",
         "columns": [
-          "Resource",
-          "Type",
-          "Link",
-          "How to use it"
+          "#",
+          "Video",
+          "Time",
+          "Why",
+          "Link"
         ],
         "rows": [
           [
-            "Johns Hopkins - Scientific Foundations of Medicine",
-            "University benchmark",
-            "https://www.hopkinsmedicine.org/som/curriculum/genes-to-society/year-one/scientific-foundations-medicine",
-            "Includes macromolecules, metabolism and genetics as core foundations."
+            "1.",
+            "Glycolysis - Ninja Nerd",
+            "~35 min",
+            "Walk through the pathway, enzymes, energy accounting and clinical meaning; draw the pathway after the video without notes.",
+            "https://www.youtube.com/watch?v=gggC9vctvBQ"
           ],
           [
-            "UWorld Step 1",
-            "Qbank",
-            "https://medical.uworld.com/usmle/usmle-step-1/",
-            "Clinical biochemistry + metabolic disease vignettes."
+            "2.",
+            "The Krebs Cycle - Ninja Nerd",
+            "~32 min",
+            "Build the TCA mental model, regulation and integration with NADH/FADH2 production and downstream oxidative phosphorylation.",
+            "https://www.youtube.com/watch?v=rr7IRYLqleg"
           ],
           [
-            "AMBOSS",
-            "Library + Qbank",
-            "https://www.amboss.com/us/students/student-life",
-            "Targeted metabolism/nutrition review and questions."
-          ],
-          [
-            "USMLE Step 1 content outline",
-            "Official blueprint",
-            "https://www.usmle.org/exam-resources/step-1-materials/step-1-content-outline-and-specifications",
-            "Step 1 discipline weighting includes biochemistry (5-15%) and nutrition integrated across systems."
+            "3.",
+            "Gluconeogenesis - Ninja Nerd",
+            "~29 min",
+            "Understand bypass enzymes, fasting physiology and hormonal control; compare directly against glycolysis.",
+            "https://www.youtube.com/watch?v=YpV96faQOZc"
           ]
         ]
       },
       {
-        "heading": "High-value learning resources — Exam alignment",
-        "type": "bullets",
-        "items": [
-          "Step 1 foundational science remains integrated into organ-system disease rather than isolated recall.",
-          "COMLEX Level 1 similarly tests biomedical science in clinical presentations."
+        "heading": "B. HIGH-YIELD EXAM REVIEW - direct playable videos",
+        "type": "paragraph",
+        "text": "These are targeted compression/retrieval resources repeatedly recommended in Step-focused communities; they supplement, not replace, deep learning."
+      },
+      {
+        "heading": "B. HIGH-YIELD EXAM REVIEW - direct playable videos",
+        "type": "table",
+        "columns": [
+          "#",
+          "Video",
+          "Time",
+          "Why",
+          "Link"
+        ],
+        "rows": [
+          [
+            "4.",
+            "Glycogen Storage Diseases - Dirty Medicine",
+            "high-yield",
+            "Turn a difficult disease list into recognizable enzyme, organ and laboratory patterns for vignettes.",
+            "https://www.youtube.com/watch?v=LuVcPNF5Slg"
+          ],
+          [
+            "5.",
+            "Lysosomal Storage Diseases - High Yield - Dirty Medicine",
+            "high-yield",
+            "Rapid syndrome differentiation and classic presentation cues; review after concept-level lysosome/cell biology.",
+            "https://www.youtube.com/watch?v=kVbvunUlmAI"
+          ],
+          [
+            "6.",
+            "Fat Soluble Vitamins - Dirty Medicine",
+            "high-yield",
+            "High-yield deficiency/toxicity patterns and associations; pair immediately with timed questions.",
+            "https://www.youtube.com/watch?v=3G_e0tILSmM"
+          ]
         ]
       },
       {
-        "heading": "High-value learning resources — Mastery / assessment loop",
-        "type": "bullets",
-        "items": [
-          "At end of each pathway: reproduce pathway + regulation + key diseases on one page.",
-          "Use cases such as fasting hypoglycemia, acidosis, hyperammonemia and dyslipidemia to force integration.",
-          "Repeat missed metabolic questions after 7-14 days to confirm durable correction."
+        "heading": "C. PRACTICE + READINESS - intentionally not video",
+        "type": "table",
+        "columns": [
+          "Resource",
+          "Description",
+          "Link"
+        ],
+        "rows": [
+          [
+            "UWorld Step 1",
+            "Primary application layer for enzyme deficiencies, metabolic states, nutrition, toxicology and integrated physiology.",
+            "https://www.uworld.com/medical/usmle/"
+          ],
+          [
+            "AMBOSS USMLE",
+            "Targeted repair for weak pathways and rapid cross-linking to clinical manifestations.",
+            "https://www.amboss.com/us/usmle"
+          ],
+          [
+            "NBME Self-Assessments",
+            "Readiness calibration; use performance patterns to decide which pathways or disease clusters require re-teaching. MASTERY GATE From memory: reconstruct central metabolic relationships and regulation; explain fed/fasted states; recognize vitamin/storage/enzyme-deficiency patterns; then complete mixed timed questions and repeat every missed concept 7-14 days later.",
+            "https://www.nbme.org/examinees/self-assessments"
+          ]
         ]
       }
     ],
@@ -740,93 +806,185 @@
   {
     "name": "PHYSIOLOGY",
     "list_label": "PHYSIOLOGY",
-    "phase": "YEAR 1 - FOUNDATIONS | Curriculum + Exam Mastery",
+    "phase": "YEAR 1 - FOUNDATIONS | CONCEPT MASTERY + SCHOOL EXAM REVIEW",
     "category": "Year 1 — Foundations of Medicine",
     "sections": [
       {
-        "heading": "WHY THIS COURSE EXISTS",
+        "heading": "",
         "type": "paragraph",
-        "text": "Build quantitative and mechanistic understanding of normal function so pathology becomes a deviation from a known model rather than a list of facts."
+        "text": "Target: build a predictive model of normal function. The goal is to reason through perturbations, graphs, equations and compensatory responses - not memorize isolated facts."
       },
       {
-        "heading": "Mastery checklist",
-        "type": "bullets",
-        "items": [
-          "Membrane potentials, ion channels, transport and action potentials.",
-          "Autonomic physiology, receptor signaling and second messengers.",
-          "Cardiac mechanics, pressure-volume relationships and hemodynamics.",
-          "Respiratory mechanics, gas exchange and acid-base.",
-          "Renal filtration, tubular transport, volume/osmolality and acid-base.",
-          "GI, endocrine and reproductive physiology.",
-          "Exercise, thermoregulation and integrated homeostasis."
-        ]
+        "heading": "A. CONCEPT MASTERY - 6 substantive direct videos",
+        "type": "paragraph",
+        "text": "Use these as deep-learning bridges for the most transferable physiology ideas. Re-draw the mechanism or graph from memory after each video."
       },
       {
-        "heading": "You should be able to...",
-        "type": "bullets",
-        "items": [
-          "Predict direction-of-change in physiologic variables.",
-          "Interpret basic pressure-volume, flow, gas and renal graphs.",
-          "Solve acid-base and clearance concepts.",
-          "Explain compensatory responses to perturbation.",
-          "Use normal physiology to infer pathology and therapy."
-        ]
-      },
-      {
-        "heading": "High-value learning resources",
+        "heading": "A. CONCEPT MASTERY - 6 substantive direct videos",
         "type": "table",
         "columns": [
-          "Resource",
-          "Type",
-          "Link",
-          "How to use it"
+          "#",
+          "Video",
+          "Time",
+          "Why",
+          "Link"
         ],
         "rows": [
           [
-            "Ninja Nerd - Pharmacodynamics",
-            "Deep mechanism video",
-            "https://www.youtube.com/watch?v=JDpg2tdHdq0",
-            "Although pharmacology-focused, it reinforces receptors, dose-response and physiologic signaling."
+            "1.",
+            "Resting Membrane, Graded & Action Potentials - Ninja Nerd",
+            "long-form",
+            "Membrane gradients, Na/K ATPase, graded potentials, threshold, refractory periods, propagation and myelination.",
+            "https://www.youtube.com/watch?v=Jk_9IhHVOTk"
           ],
           [
-            "UWorld Step 1",
-            "Qbank",
-            "https://medical.uworld.com/usmle/usmle-step-1/",
-            "High-value integrated physiology questions."
+            "2.",
+            "Cardiac Cycle - Ninja Nerd",
+            "long-form",
+            "Integrates pressure, volume, valves, ECG timing and heart sounds - the base model for murmurs and hemodynamics.",
+            "https://www.youtube.com/watch?v=xamYVlNF5Zo"
           ],
           [
-            "AMBOSS",
-            "Library + Qbank",
-            "https://www.amboss.com/us/students/student-life",
-            "System-based physiology review and diagrams."
+            "3.",
+            "Glomerular Filtration - Ninja Nerd",
+            "long-form",
+            "Filtration barrier, Starling forces, GFR, afferent/efferent tone, creatinine/inulin and renal perfusion logic.",
+            "https://www.youtube.com/watch?v=SVqSqPOcahY"
           ],
           [
-            "USMLE Step 1 content outline",
-            "Official blueprint",
-            "https://www.usmle.org/exam-resources/step-1-materials/step-1-content-outline-and-specifications",
-            "Physiology overlaps roughly 30-40% of Step 1 items by discipline classification."
+            "4.",
+            "Ventilation-Perfusion Coupling - Ninja Nerd",
+            "long-form",
+            "V/Q matching, apex-base gradients, shunt vs dead space and the physiology behind common hypoxemia patterns.",
+            "https://www.youtube.com/watch?v=yUtngVm93-c"
+          ],
+          [
+            "5.",
+            "Acid-Base Disorders - Ninja Nerd",
+            "~92 min",
+            "Mechanistic review of metabolic/respiratory acidosis and alkalosis, compensation and diagnostic approach.",
+            "https://www.youtube.com/watch?v=tW1oXP9sw98"
+          ],
+          [
+            "6.",
+            "Pancreas Overview - Insulin & Glucagon - Ninja Nerd",
+            "long-form",
+            "Fed vs fasting physiology, beta/alpha cell regulation, signaling and system-wide metabolic effects. SCHOOL-EXAM REVIEW CHECK",
+            "https://www.youtube.com/watch?v=EZmWx6LHxWs"
           ]
         ]
       },
       {
-        "heading": "High-value learning resources — Exam alignment",
+        "heading": "A. CONCEPT MASTERY - 6 substantive direct videos",
         "type": "bullets",
         "items": [
-          "Physiology is one of the largest Step 1 discipline overlaps.",
-          "Every Year 2 organ-system block should reopen the relevant normal-physiology model before pathology."
-        ]
-      },
-      {
-        "heading": "High-value learning resources — Mastery / assessment loop",
-        "type": "bullets",
-        "items": [
-          "Build equation/relationship sheets from memory rather than copying formulas.",
-          "Explain each graph out loud and predict what changes under disease/drug perturbation.",
-          "Do system-mixed questions weekly to prevent compartmentalized learning."
+          "From memory, predict direction-of-change for preload/afterload/contractility, GFR, ventilation/perfusion, hormones and acid-base variables.",
+          "Interpret pressure-volume loops, spirometry/PFT patterns, clearance/GFR relationships, ABGs and common physiology graphs under time pressure.",
+          "For every wrong answer: name the normal variable, the perturbation, the compensatory response and the final observable finding. Page 11A"
         ]
       }
     ],
     "page": 10
+  },
+  {
+    "name": "PHYSIOLOGY - HIGH-YIELD EXAM REVIEW",
+    "list_label": "PHYSIOLOGY - HIGH-YIELD EXAM REVIEW",
+    "phase": "YEAR 1-2 | USMLE STEP 1 + COMLEX LEVEL 1 + QBANK TRANSFER",
+    "category": "Year 1 — Foundations of Medicine",
+    "sections": [
+      {
+        "heading": "",
+        "type": "paragraph",
+        "text": "WHY PHYSIOLOGY GETS EXTRA WEIGHT HERE USMLE currently classifies physiology as overlapping roughly 30-40% of Step 1 items. The exam is integrated, so normal physiology is usually tested through disease, graphs, tables, drugs and compensatory responses."
+      },
+      {
+        "heading": "B. HIGH-YIELD PROFESSIONAL-EXAM REVIEW - 6 direct videos",
+        "type": "paragraph",
+        "text": "Use after concept learning or after Qbank/NBME misses. These emphasize test-maker patterns, active recall and high-yield application."
+      },
+      {
+        "heading": "B. HIGH-YIELD PROFESSIONAL-EXAM REVIEW - 6 direct videos",
+        "type": "table",
+        "columns": [
+          "#",
+          "Video",
+          "Time",
+          "Why",
+          "Link"
+        ],
+        "rows": [
+          [
+            "1.",
+            "High Yield Arrows for the USMLE - Rahul Damania, MD / HyGuru",
+            "~2 hr",
+            "Direction-of-change reasoning across cardio, respiratory, endocrine, renal and reproductive physiology - a strong bridge to NBME-style arrow questions.",
+            "https://www.youtube.com/watch?v=JKlUlALdR24"
+          ],
+          [
+            "2.",
+            "How 260+ Scorers Master Cardio on the USMLE - Alec Palmerton, MD",
+            "~50 min",
+            "Question-driven cardio reasoning with baroreflex, hemodynamics and right-heart physiology; explicitly framed around high-scoring test strategy.",
+            "https://www.youtube.com/watch?v=TYe-wrDuFqg"
+          ],
+          [
+            "3.",
+            "USMLE Step 1 - Renal Physiology [High Yield BRS Concepts] - Rahul Damania, MD / HyGuru",
+            "~70 min",
+            "Renal blood flow, filtration, plasma flow, nephron handling and high-yield physiology before renal pathology.",
+            "https://www.youtube.com/watch?v=Ob_g35rqOmA"
+          ],
+          [
+            "4.",
+            "High Yield Respiratory for Shelf Exams & Step 1 + Step 2 CK - Alec Palmerton, MD",
+            "2026",
+            "V/Q mismatch, A-a gradient, oxygenation and common exam traps in a clinical-vignette framework.",
+            "https://www.youtube.com/watch?v=HU3V0kftcqY"
+          ],
+          [
+            "5.",
+            "Top NBME Concepts - Endocrinology - Rahul Damania, MD / HyGuru",
+            "~83 min",
+            "Hormone signaling, thyroid, calcium/PTH, diabetes and adrenal physiology integrated with NBME-style questions.",
+            "https://www.youtube.com/watch?v=vML4IuG0OIs"
+          ],
+          [
+            "6.",
+            "Acid/Base || USMLE - Dirty Medicine",
+            "exam review",
+            "Fast board-oriented acid-base consolidation after deeper mechanism work; pair immediately with timed ABG questions.",
+            "https://www.youtube.com/watch?v=J9jisOXB_Oo"
+          ]
+        ]
+      },
+      {
+        "heading": "C. PRACTICE + READINESS - intentionally not video",
+        "type": "table",
+        "columns": [
+          "Resource",
+          "Description",
+          "Link"
+        ],
+        "rows": [
+          [
+            "UWorld Step 1",
+            "Primary physiology transfer layer: graphs, tables, compensatory responses and system-integrated vignettes. Review every option, not only the keyed answer.",
+            "https://www.uworld.com/medical/usmle/"
+          ],
+          [
+            "AMBOSS USMLE",
+            "Targeted weak-system repair and additional question exposure when UWorld/NBME analytics reveal a physiology gap.",
+            "https://www.amboss.com/us/usmle"
+          ],
+          [
+            "NBME Self-Assessments",
+            "Official-style calibration. Use repeated error patterns to decide which physiology model must be rebuilt before test day. PROFESSIONAL-EXAM MASTERY GATE You are ready to move on when you can explain normal physiology without notes, solve arrow/graph/equation questions mechanistically, predict compensation before seeing answer choices, and maintain performance on mixed timed Qbank/NBME blocks. For COMLEX, keep the same physiology foundation while integrating OPP/OMM and the NBOME blueprint. Page 11B",
+            "https://www.nbme.org/examinees/self-assessments"
+          ]
+        ]
+      }
+    ],
+    "page": 11
   },
   {
     "name": "IMMUNOLOGY",
@@ -917,7 +1075,7 @@
         ]
       }
     ],
-    "page": 11
+    "page": 12
   },
   {
     "name": "MICROBIOLOGY & INFECTIOUS DISEASE FOUNDATIONS",
@@ -1007,7 +1165,7 @@
         ]
       }
     ],
-    "page": 12
+    "page": 13
   },
   {
     "name": "PHARMACOLOGY FOUNDATIONS",
@@ -1097,7 +1255,7 @@
         ]
       }
     ],
-    "page": 13
+    "page": 14
   },
   {
     "name": "PATHOLOGY FOUNDATIONS",
@@ -1187,7 +1345,7 @@
         ]
       }
     ],
-    "page": 14
+    "page": 15
   },
   {
     "name": "NEUROSCIENCE + BEHAVIORAL SCIENCE",
@@ -1277,7 +1435,7 @@
         ]
       }
     ],
-    "page": 15
+    "page": 16
   },
   {
     "name": "BIOSTATISTICS, EPIDEMIOLOGY & EVIDENCE-BASED MEDICINE",
@@ -1367,7 +1525,7 @@
         ]
       }
     ],
-    "page": 16
+    "page": 17
   },
   {
     "name": "CLINICAL SKILLS I + PROFESSIONAL PRACTICE",
@@ -1458,7 +1616,7 @@
         ]
       }
     ],
-    "page": 17
+    "page": 18
   },
   {
     "name": "OSTEOPATHIC PRINCIPLES & MANIPULATIVE MEDICINE (DO TRACK)",
@@ -1547,7 +1705,7 @@
         ]
       }
     ],
-    "page": 18
+    "page": 19
   },
   {
     "name": "YEAR 1 - EXAM MASTERY PLAN",
@@ -1592,7 +1750,7 @@
         "text": "The goal is not to enter dedicated early. The goal is to learn every school block deeply enough that later Step 1/COMLEX review becomes retrieval and integration rather than first exposure."
       }
     ],
-    "page": 19
+    "page": 20
   },
   {
     "name": "YEAR 2 - ORGAN SYSTEMS, DISEASE & THERAPEUTICS",
@@ -1655,7 +1813,7 @@
         ]
       }
     ],
-    "page": 20
+    "page": 21
   },
   {
     "name": "YEAR 2 SYSTEM BLOCKS",
@@ -1707,7 +1865,7 @@
         "text": "Complete a targeted question set after each major topic, then a timed mixed block at the end of the system. Remediate by mechanism, not by memorizing the question."
       }
     ],
-    "page": 21
+    "page": 22
   },
   {
     "name": "YEAR 2 SYSTEM BLOCKS",
@@ -1759,7 +1917,7 @@
         "text": "Complete a targeted question set after each major topic, then a timed mixed block at the end of the system. Remediate by mechanism, not by memorizing the question."
       }
     ],
-    "page": 22
+    "page": 23
   },
   {
     "name": "YEAR 2 SYSTEM BLOCKS",
@@ -1811,7 +1969,7 @@
         "text": "Complete a targeted question set after each major topic, then a timed mixed block at the end of the system. Remediate by mechanism, not by memorizing the question."
       }
     ],
-    "page": 23
+    "page": 24
   },
   {
     "name": "YEAR 2 SYSTEM BLOCKS",
@@ -1863,7 +2021,7 @@
         "text": "Complete a targeted question set after each major topic, then a timed mixed block at the end of the system. Remediate by mechanism, not by memorizing the question."
       }
     ],
-    "page": 24
+    "page": 25
   },
   {
     "name": "YEAR 2 SYSTEM BLOCKS",
@@ -1915,7 +2073,7 @@
         "text": "Complete a targeted question set after each major topic, then a timed mixed block at the end of the system. Remediate by mechanism, not by memorizing the question."
       }
     ],
-    "page": 25
+    "page": 26
   },
   {
     "name": "YEAR 2 CAPSTONE - STEP 1 + COMLEX LEVEL 1",
@@ -2004,7 +2162,7 @@
         ]
       }
     ],
-    "page": 26
+    "page": 27
   },
   {
     "name": "YEAR 3 - CORE CLINICAL CLERKSHIPS",
@@ -2064,7 +2222,7 @@
         "text": "Study from the patients you see, but do not study only the patients you see. Shelf/COMAT exams sample the full discipline, including topics your rotation may not expose you to."
       }
     ],
-    "page": 27
+    "page": 28
   },
   {
     "name": "CLERKSHIP MASTERY",
@@ -2112,7 +2270,7 @@
         "text": "For every patient: know the problem representation, differential, key evidence for/against, next diagnostic step, initial management, disposition and what could make the patient worse."
       }
     ],
-    "page": 28
+    "page": 29
   },
   {
     "name": "CLERKSHIP MASTERY",
@@ -2158,7 +2316,7 @@
         "text": "For every patient: know the problem representation, differential, key evidence for/against, next diagnostic step, initial management, disposition and what could make the patient worse."
       }
     ],
-    "page": 29
+    "page": 30
   },
   {
     "name": "CLERKSHIP MASTERY",
@@ -2204,7 +2362,7 @@
         "text": "For every patient: know the problem representation, differential, key evidence for/against, next diagnostic step, initial management, disposition and what could make the patient worse."
       }
     ],
-    "page": 30
+    "page": 31
   },
   {
     "name": "CLERKSHIP MASTERY",
@@ -2250,7 +2408,7 @@
         "text": "For every patient: know the problem representation, differential, key evidence for/against, next diagnostic step, initial management, disposition and what could make the patient worse."
       }
     ],
-    "page": 31
+    "page": 32
   },
   {
     "name": "YEAR 3 - SHELF / COMAT EXAM SYSTEM",
@@ -2305,7 +2463,7 @@
         ]
       }
     ],
-    "page": 32
+    "page": 33
   },
   {
     "name": "YEAR 4 - ADVANCED CLINICAL MEDICINE",
@@ -2361,7 +2519,7 @@
         "text": "Use the AAMC Core EPAs as a practical checklist: gather history/physical, prioritize differential, recommend tests, enter/discuss orders, document, present, hand off, recognize urgent care, obtain consent, contribute to team care and identify system failures."
       }
     ],
-    "page": 33
+    "page": 34
   },
   {
     "name": "STEP 2 CK + COMLEX LEVEL 2-CE",
@@ -2432,7 +2590,7 @@
         ]
       }
     ],
-    "page": 34
+    "page": 35
   },
   {
     "name": "TRANSITION TO RESIDENCY + STEP 3 / LEVEL 3 PREVIEW",
@@ -2489,7 +2647,7 @@
         "text": "This Academy teaches concepts and exam preparation. Actual patient-care decisions must follow the learner's level of training, supervision, institutional policy and current clinical guidelines."
       }
     ],
-    "page": 35
+    "page": 36
   },
   {
     "name": "STUDY OPERATING SYSTEM",
@@ -2546,7 +2704,7 @@
         ]
       }
     ],
-    "page": 36
+    "page": 37
   },
   {
     "name": "READINESS GATES - DO NOT USE A SINGLE SCORE",
@@ -2598,7 +2756,7 @@
         "text": "A curriculum can maximize coverage and preparation, but no resource stack can guarantee a school or licensing-exam result. Readiness decisions should use official assessments, school guidance and the learner's full performance pattern."
       }
     ],
-    "page": 37
+    "page": 38
   },
   {
     "name": "PRIMARY BENCHMARK & OFFICIAL SOURCES",
@@ -2647,7 +2805,7 @@
         "text": "strategy, question practice and school/Step/COMLEX crosswalk."
       }
     ],
-    "page": 38
+    "page": 39
   },
   {
     "name": "REVIEW EXPANSION - V2",
@@ -2667,19 +2825,30 @@
         ]
       },
       {
-        "heading": "Jump to review tracks — School content review",
-        "type": "paragraph",
-        "text": "Year 1 review | Year 2 review | Clerkship review"
-      },
-      {
-        "heading": "Jump to review tracks — Professional exams",
-        "type": "paragraph",
-        "text": "USMLE Step 1 | COMLEX Level 1 | Step 2 CK | Level 2-CE | Step 3 / Level 3"
-      },
-      {
-        "heading": "Resource system",
-        "type": "paragraph",
-        "text": "Resource decision matrix | Official + curated sources"
+        "heading": "Jump to review tracks",
+        "type": "table",
+        "columns": [
+          "Resource",
+          "Description",
+          "Link"
+        ],
+        "rows": [
+          [
+            "School content review",
+            "Year 1 review | Year 2 review | Clerkship review",
+            ""
+          ],
+          [
+            "Professional exams",
+            "USMLE Step 1 | COMLEX Level 1 | Step 2 CK | Level 2-CE | Step 3 / Level 3",
+            ""
+          ],
+          [
+            "Resource system",
+            "Resource decision matrix | Official + curated sources",
+            ""
+          ]
+        ]
       },
       {
         "heading": "Master rule — Use one primary content source, one primary question bank, official assessments, and targeted supplemental videos only when the data show a weakness. A learner should be able to explain the mechanism, recognize the pattern, choose the next diagnostic/management step, and defend why competing answers are wrong.",
@@ -2687,7 +2856,7 @@
         "text": "2026/27 review-expanded edition - verify official exam updates before testing"
       }
     ],
-    "page": 39
+    "page": 40
   },
   {
     "name": "THE THREE-LAYER REVIEW SYSTEM",
@@ -2755,7 +2924,7 @@
         ]
       }
     ],
-    "page": 40
+    "page": 41
   },
   {
     "name": "YEAR 1 CONTENT REVIEW - FOUNDATIONAL SCIENCES I",
@@ -2810,7 +2979,7 @@
         ]
       }
     ],
-    "page": 41
+    "page": 42
   },
   {
     "name": "YEAR 1 CONTENT REVIEW - FOUNDATIONAL SCIENCES II",
@@ -2863,7 +3032,7 @@
         ]
       }
     ],
-    "page": 42
+    "page": 43
   },
   {
     "name": "YEAR 1 CONTENT REVIEW - DISEASE + CLINICAL FOUNDATIONS",
@@ -2919,7 +3088,7 @@
         "text": "Strong Medicine - evidence-based physical exam course introduction and Stanford Medicine 25 video gallery should supplement, not replace, supervised skills lab and standardized-patient practice. 2026/27 review-expanded edition - verify official exam updates before testing"
       }
     ],
-    "page": 43
+    "page": 44
   },
   {
     "name": "YEAR 1 SCHOOL-EXAM REVIEW CYCLE - 7 DAYS",
@@ -2985,7 +3154,7 @@
         ]
       }
     ],
-    "page": 44
+    "page": 45
   },
   {
     "name": "YEAR 1 CUMULATIVE REVIEW - END-OF-TERM",
@@ -3035,7 +3204,7 @@
         "text": "2026/27 review-expanded edition - verify official exam updates before testing"
       }
     ],
-    "page": 45
+    "page": 46
   },
   {
     "name": "YEAR 2 SYSTEMS REVIEW - CARDIOVASCULAR, RESPIRATORY, RENAL",
@@ -3086,7 +3255,7 @@
         ]
       }
     ],
-    "page": 46
+    "page": 47
   },
   {
     "name": "YEAR 2 SYSTEMS REVIEW - GI, ENDOCRINE, REPRODUCTIVE",
@@ -3125,7 +3294,7 @@
         ]
       }
     ],
-    "page": 47
+    "page": 48
   },
   {
     "name": "YEAR 2 SYSTEMS REVIEW - HEME/ONC + INFECTIOUS DISEASE",
@@ -3173,7 +3342,7 @@
         ]
       }
     ],
-    "page": 48
+    "page": 49
   },
   {
     "name": "YEAR 2 SYSTEMS REVIEW - MSK/DERM/RHEUM + NEURO/PSYCH",
@@ -3218,7 +3387,7 @@
         ]
       }
     ],
-    "page": 49
+    "page": 50
   },
   {
     "name": "YEAR 2 INTEGRATED REVIEW - THE 7-LINK CHAIN",
@@ -3279,7 +3448,7 @@
         "text": "2026/27 review-expanded edition - verify official exam updates before testing"
       }
     ],
-    "page": 50
+    "page": 51
   },
   {
     "name": "FROM YEAR 2 TO DEDICATED: PRE-BOARD TRANSITION",
@@ -3330,7 +3499,7 @@
         ]
       }
     ],
-    "page": 51
+    "page": 52
   },
   {
     "name": "USMLE STEP 1 - BLUEPRINT-DRIVEN REVIEW",
@@ -3407,7 +3576,7 @@
         ]
       }
     ],
-    "page": 52
+    "page": 53
   },
   {
     "name": "USMLE STEP 1 - CONTENT REVIEW STACK",
@@ -3467,7 +3636,7 @@
         "text": "2026/27 review-expanded edition - verify official exam updates before testing"
       }
     ],
-    "page": 53
+    "page": 54
   },
   {
     "name": "USMLE STEP 1 - 6-WEEK DEDICATED TEMPLATE",
@@ -3528,7 +3697,7 @@
         ]
       }
     ],
-    "page": 54
+    "page": 55
   },
   {
     "name": "USMLE STEP 1 - READINESS + REMEDIATION",
@@ -3577,7 +3746,7 @@
         "text": "For exams on/after May 14, 2026, Step 1 uses fourteen 30-minute blocks in an 8-hour session, with no more than 20 questions per block. Practice the current official interface before test day. Official Step 1 content/format 2026/27 review-expanded edition - verify official exam updates before testing"
       }
     ],
-    "page": 55
+    "page": 56
   },
   {
     "name": "COMLEX-USA LEVEL 1 - BLUEPRINT REVIEW",
@@ -3629,7 +3798,7 @@
         "text": "Current Level 1 minimums include musculoskeletal 13%; wellness/community health 12%; nervous/mental health 10%; GI/nutrition 10%; circulatory/hematologic 10%; respiratory 10%; and smaller explicit domains for development/reproduction, endocrine, renal/breast and integumentary. Official Level 1 page | COMLEX blueprint 2026/27 review-expanded edition - verify official exam updates before testing"
       }
     ],
-    "page": 56
+    "page": 57
   },
   {
     "name": "COMLEX LEVEL 1 - RESOURCE + OMM INTEGRATION",
@@ -3679,7 +3848,7 @@
         ]
       }
     ],
-    "page": 57
+    "page": 58
   },
   {
     "name": "COMLEX LEVEL 1 - DEDICATED + READINESS",
@@ -3723,7 +3892,7 @@
         "text": "NBOME reduced Level 1 to 320 questions in 2026; current official pages should be checked for session/break details before testing. Level 1 official page | COMLEX examination/blueprint resources 2026/27 review-expanded edition - verify official exam updates before testing"
       }
     ],
-    "page": 58
+    "page": 59
   },
   {
     "name": "CLERKSHIP CONTENT REVIEW SYSTEM",
@@ -3768,7 +3937,7 @@
         ]
       }
     ],
-    "page": 59
+    "page": 60
   },
   {
     "name": "SHELF / COMAT REVIEW - INTERNAL MEDICINE",
@@ -3807,7 +3976,7 @@
         "text": "2026/27 review-expanded edition - verify official exam updates before testing"
       }
     ],
-    "page": 60
+    "page": 61
   },
   {
     "name": "SHELF / COMAT REVIEW - SURGERY + EMERGENCY MEDICINE",
@@ -3838,7 +4007,7 @@
         "text": "OnlineMedEd clinical | UWorld Step 2 | AMBOSS | NBME CSMS | COMAT 2026/27 review-expanded edition - verify official exam updates before testing"
       }
     ],
-    "page": 61
+    "page": 62
   },
   {
     "name": "SHELF / COMAT REVIEW - PEDIATRICS + OB/GYN",
@@ -3869,7 +4038,7 @@
         "text": "OnlineMedEd clinical | UWorld Step 2 | AMBOSS | NBME CSMS | COMAT 2026/27 review-expanded edition - verify official exam updates before testing"
       }
     ],
-    "page": 62
+    "page": 63
   },
   {
     "name": "SHELF / COMAT REVIEW - PSYCHIATRY + NEUROLOGY + FAMILY MEDICINE",
@@ -3902,7 +4071,7 @@
         ]
       }
     ],
-    "page": 63
+    "page": 64
   },
   {
     "name": "USMLE STEP 2 CK - BLUEPRINT REVIEW",
@@ -3966,7 +4135,7 @@
         "text": "Medicine contributes 55-65%, Pediatrics 17-27%, OB/GYN 10-20%, Psychiatry 10-15%, and Surgery 5-15%, with substantial integration across disciplines. Official Step 2 CK specifications 2026/27 review-expanded edition - verify official exam updates before testing"
       }
     ],
-    "page": 64
+    "page": 65
   },
   {
     "name": "USMLE STEP 2 CK - CONTENT REVIEW STACK",
@@ -4027,7 +4196,7 @@
         ]
       }
     ],
-    "page": 65
+    "page": 66
   },
   {
     "name": "USMLE STEP 2 CK - 4-6 WEEK DEDICATED TEMPLATE",
@@ -4071,7 +4240,7 @@
         "text": "For exams on/after May 7, 2026, Step 2 CK uses sixteen 30-minute blocks in a 9-hour session, with no more than 20 questions per block. Endurance practice should reflect shorter but more frequent blocks. Official Step 2 CK page 2026/27 review-expanded edition - verify official exam updates before testing"
       }
     ],
-    "page": 66
+    "page": 67
   },
   {
     "name": "COMLEX-USA LEVEL 2-CE - BLUEPRINT REVIEW",
@@ -4128,7 +4297,7 @@
         ]
       }
     ],
-    "page": 67
+    "page": 68
   },
   {
     "name": "STEP 2 CK / LEVEL 2-CE - READINESS MATRIX",
@@ -4178,7 +4347,7 @@
         "text": "2026/27 review-expanded edition - verify official exam updates before testing"
       }
     ],
-    "page": 68
+    "page": 69
   },
   {
     "name": "STEP 3 + COMLEX LEVEL 3 - POST-GRADUATE REVIEW",
@@ -4205,7 +4374,7 @@
         ]
       }
     ],
-    "page": 69
+    "page": 70
   },
   {
     "name": "CASE-SIMULATION REVIEW - CCS + CDM",
@@ -4264,7 +4433,7 @@
         ]
       }
     ],
-    "page": 70
+    "page": 71
   },
   {
     "name": "RESOURCE DECISION MATRIX",
@@ -4363,7 +4532,7 @@
         ]
       }
     ],
-    "page": 71
+    "page": 72
   },
   {
     "name": "THE “ONE + ONE + OFFICIAL + TARGETED” RULE",
@@ -4413,7 +4582,7 @@
         "text": "2026/27 review-expanded edition - verify official exam updates before testing"
       }
     ],
-    "page": 72
+    "page": 73
   },
   {
     "name": "OFFICIAL + CURATED REVIEW SOURCES",
@@ -4464,6 +4633,6 @@
         "text": "2026/27 review-expanded edition - verify official exam updates before testing"
       }
     ],
-    "page": 73
+    "page": 74
   }
 ]
