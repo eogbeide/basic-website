@@ -7,11 +7,26 @@
       {
         "tier": "FOUNDATIONS / INTRODUCTION",
         "courses": [
-          "Python",
-          "Mathematics for Data Science",
-          "Data Structures & Algorithms",
-          "Computer Engineering",
-          "Linux, Operating Systems & Networking Foundations"
+          {
+            "title": "Python",
+            "url": "https://www.youtube.com/watch?v=x7X9w_GIm1s"
+          },
+          {
+            "title": "Mathematics for Data Science",
+            "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+          },
+          {
+            "title": "Data Structures & Algorithms",
+            "url": "https://www.youtube.com/watch?v=8hly31xKli0"
+          },
+          {
+            "title": "Computer Engineering",
+            "url": "https://www.youtube.com/watch?v=gI-qXk7XojA"
+          },
+          {
+            "title": "Linux, Operating Systems & Networking Foundations",
+            "url": "https://www.youtube.com/watch?v=fQbBPa0ADvs"
+          }
         ],
         "bridges": [
           {
@@ -23,12 +38,30 @@
       {
         "tier": "INTERMEDIATE CORE",
         "courses": [
-          "Object-Oriented Design & Design Patterns",
-          "Databases",
-          "APIs",
-          "Software Testing & Quality Engineering",
-          "Systems Architecture & System Design",
-          "Distributed Systems"
+          {
+            "title": "Object-Oriented Design & Design Patterns",
+            "url": "https://www.youtube.com/watch?v=BJatgOiiht4"
+          },
+          {
+            "title": "Databases",
+            "url": "https://www.youtube.com/watch?v=zsjvFFKOm3c"
+          },
+          {
+            "title": "APIs",
+            "url": "https://www.youtube.com/watch?v=-MTSQjw5DrM"
+          },
+          {
+            "title": "Software Testing & Quality Engineering",
+            "url": "https://www.youtube.com/watch?v=oFO85YFuXjg"
+          },
+          {
+            "title": "Systems Architecture & System Design",
+            "url": "https://www.youtube.com/watch?v=FxAom29OEKE"
+          },
+          {
+            "title": "Distributed Systems",
+            "url": "https://www.youtube.com/watch?v=mBUCF1WGI_I"
+          }
         ],
         "bridges": [
           {
@@ -40,12 +73,30 @@
       {
         "tier": "ADVANCED / SPECIALIZATION",
         "courses": [
-          "Cybersecurity",
-          "Cloud Computing",
-          "Platform Engineering",
-          "Machine Learning",
-          "MLOps & Model Serving",
-          "AI Agents"
+          {
+            "title": "Cybersecurity",
+            "url": "https://www.youtube.com/watch?v=FMMWSLIcaME"
+          },
+          {
+            "title": "Cloud Computing",
+            "url": "https://www.youtube.com/watch?v=M988_fsOSWo"
+          },
+          {
+            "title": "Platform Engineering",
+            "url": "https://www.youtube.com/watch?v=lIDb6J78aDo"
+          },
+          {
+            "title": "Machine Learning",
+            "url": "https://www.youtube.com/watch?v=hDKCxebp88A"
+          },
+          {
+            "title": "MLOps & Model Serving",
+            "url": "https://www.youtube.com/watch?v=OejCJL2EC3k"
+          },
+          {
+            "title": "AI Agents",
+            "url": "https://www.youtube.com/watch?v=LP5OCa20Zpg"
+          }
         ],
         "bridges": [
           {
@@ -99,7 +150,10 @@
       {
         "tier": "FOUNDATIONS / INTRODUCTION",
         "courses": [
-          "Problem Solving & Great Questions"
+          {
+            "title": "Problem Solving & Great Questions",
+            "url": "https://www.youtube.com/watch?v=dItUGF8GdTw"
+          }
         ],
         "bridges": [
           {
@@ -123,8 +177,14 @@
       {
         "tier": "INTERMEDIATE CORE",
         "courses": [
-          "Statistics & Probability",
-          "ML Mathematics"
+          {
+            "title": "Statistics & Probability",
+            "url": "https://www.youtube.com/watch?v=oI3hZJqXJuc"
+          },
+          {
+            "title": "ML Mathematics",
+            "url": "https://www.youtube.com/watch?v=kjBOesZCoqc"
+          }
         ],
         "bridges": [
           {
@@ -144,7 +204,10 @@
       {
         "tier": "ADVANCED / SPECIALIZATION",
         "courses": [
-          "Causal Inference, Forecasting & Decision Science"
+          {
+            "title": "Causal Inference, Forecasting & Decision Science",
+            "url": "https://www.youtube.com/watch?v=4jRBRDbJemM"
+          }
         ],
         "bridges": [
           {
@@ -210,10 +273,22 @@
       {
         "tier": "FOUNDATIONS / INTRODUCTION",
         "courses": [
-          "Statistics & Probability",
-          "Mathematics for Data Science",
-          "SQL & Analytics",
-          "Data Science Foundations"
+          {
+            "title": "Statistics & Probability",
+            "url": "https://www.youtube.com/watch?v=oI3hZJqXJuc"
+          },
+          {
+            "title": "Mathematics for Data Science",
+            "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+          },
+          {
+            "title": "SQL & Analytics",
+            "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+          },
+          {
+            "title": "Data Science Foundations",
+            "url": "https://www.youtube.com/watch?v=8SF_h3xF3cE"
+          }
         ],
         "bridges": [
           {
@@ -225,9 +300,18 @@
       {
         "tier": "INTERMEDIATE CORE",
         "courses": [
-          "Experimentation & A/B Testing",
-          "Causal Inference, Forecasting & Decision Science",
-          "Data Storytelling & Visualization"
+          {
+            "title": "Experimentation & A/B Testing",
+            "url": "https://www.youtube.com/watch?v=6oQwFJjzHII"
+          },
+          {
+            "title": "Causal Inference, Forecasting & Decision Science",
+            "url": "https://www.youtube.com/watch?v=4jRBRDbJemM"
+          },
+          {
+            "title": "Data Storytelling & Visualization",
+            "url": "https://www.youtube.com/watch?v=1nYFpuc2Umk"
+          }
         ],
         "bridges": [
           {
@@ -247,9 +331,18 @@
       {
         "tier": "ADVANCED / SPECIALIZATION",
         "courses": [
-          "Machine Learning",
-          "Data Quality, Governance & Lineage",
-          "Responsible AI & Governance"
+          {
+            "title": "Machine Learning",
+            "url": "https://www.youtube.com/watch?v=hDKCxebp88A"
+          },
+          {
+            "title": "Data Quality, Governance & Lineage",
+            "url": "https://www.youtube.com/watch?v=24Ki4Ck4Y2E"
+          },
+          {
+            "title": "Responsible AI & Governance",
+            "url": "https://www.youtube.com/watch?v=0oeD2Wf25wY"
+          }
         ],
         "bridges": [
           {
@@ -311,7 +404,10 @@
       {
         "tier": "FOUNDATIONS / INTRODUCTION",
         "courses": [
-          "Mathematics for Data Science"
+          {
+            "title": "Mathematics for Data Science",
+            "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+          }
         ],
         "bridges": [
           {
@@ -339,7 +435,10 @@
       {
         "tier": "INTERMEDIATE CORE",
         "courses": [
-          "Systems Thinking"
+          {
+            "title": "Systems Thinking",
+            "url": "https://www.youtube.com/watch?v=HzT1-BZIJQA"
+          }
         ],
         "bridges": [
           {
@@ -363,10 +462,22 @@
       {
         "tier": "ADVANCED / SPECIALIZATION",
         "courses": [
-          "Computer Engineering",
-          "Autonomous Systems",
-          "Robotic Systems",
-          "AI Compute, Inference & Performance Engineering"
+          {
+            "title": "Computer Engineering",
+            "url": "https://www.youtube.com/watch?v=gI-qXk7XojA"
+          },
+          {
+            "title": "Autonomous Systems",
+            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+          },
+          {
+            "title": "Robotic Systems",
+            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+          },
+          {
+            "title": "AI Compute, Inference & Performance Engineering",
+            "url": "https://www.youtube.com/watch?v=9tvJ_GYJA-o"
+          }
         ],
         "bridges": [
           {
@@ -420,9 +531,18 @@
       {
         "tier": "FOUNDATIONS / INTRODUCTION",
         "courses": [
-          "Mathematics for Data Science",
-          "Computer Engineering",
-          "Engineering Design Process & Requirements"
+          {
+            "title": "Mathematics for Data Science",
+            "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+          },
+          {
+            "title": "Computer Engineering",
+            "url": "https://www.youtube.com/watch?v=gI-qXk7XojA"
+          },
+          {
+            "title": "Engineering Design Process & Requirements",
+            "url": "https://www.youtube.com/watch?v=IbbxjA5e2hw"
+          }
         ],
         "bridges": [
           {
@@ -438,8 +558,14 @@
       {
         "tier": "INTERMEDIATE CORE",
         "courses": [
-          "Systems Architecture & System Design",
-          "Event-Driven Architecture, Messaging & Realtime Systems"
+          {
+            "title": "Systems Architecture & System Design",
+            "url": "https://www.youtube.com/watch?v=FxAom29OEKE"
+          },
+          {
+            "title": "Event-Driven Architecture, Messaging & Realtime Systems",
+            "url": "https://www.youtube.com/watch?v=UiIIqIGqAKs"
+          }
         ],
         "bridges": [
           {
@@ -459,9 +585,18 @@
       {
         "tier": "ADVANCED / SPECIALIZATION",
         "courses": [
-          "Robotic Systems",
-          "AI Compute, Inference & Performance Engineering",
-          "Systems Engineering"
+          {
+            "title": "Robotic Systems",
+            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+          },
+          {
+            "title": "AI Compute, Inference & Performance Engineering",
+            "url": "https://www.youtube.com/watch?v=9tvJ_GYJA-o"
+          },
+          {
+            "title": "Systems Engineering",
+            "url": "https://www.youtube.com/watch?v=J_y2I09rj_I"
+          }
         ],
         "bridges": [
           {
@@ -523,9 +658,18 @@
       {
         "tier": "FOUNDATIONS / INTRODUCTION",
         "courses": [
-          "Mathematics for Data Science",
-          "Engineering Design Process & Requirements",
-          "CAD, Prototyping & Design Validation"
+          {
+            "title": "Mathematics for Data Science",
+            "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+          },
+          {
+            "title": "Engineering Design Process & Requirements",
+            "url": "https://www.youtube.com/watch?v=IbbxjA5e2hw"
+          },
+          {
+            "title": "CAD, Prototyping & Design Validation",
+            "url": "https://www.youtube.com/watch?v=d3qGQ2utl2A"
+          }
         ],
         "bridges": [
           {
@@ -541,8 +685,14 @@
       {
         "tier": "INTERMEDIATE CORE",
         "courses": [
-          "Advanced Mechanical Design Analysis, GD&T & Reliability",
-          "Systems Engineering"
+          {
+            "title": "Advanced Mechanical Design Analysis, GD&T & Reliability",
+            "url": "https://www.youtube.com/watch?v=ht9GwXQMgpo"
+          },
+          {
+            "title": "Systems Engineering",
+            "url": "https://www.youtube.com/watch?v=J_y2I09rj_I"
+          }
         ],
         "bridges": [
           {
@@ -562,11 +712,26 @@
       {
         "tier": "ADVANCED / SPECIALIZATION",
         "courses": [
-          "Design for Manufacturing, Reliability & Cost",
-          "Robotic Systems",
-          "Autonomous Systems",
-          "Infrastructure Hardware Engineering",
-          "Operational Excellence Analytics: Root Cause, SPC & Process"
+          {
+            "title": "Design for Manufacturing, Reliability & Cost",
+            "url": "https://www.youtube.com/watch?v=QwRMsdmlbbA"
+          },
+          {
+            "title": "Robotic Systems",
+            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+          },
+          {
+            "title": "Autonomous Systems",
+            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+          },
+          {
+            "title": "Infrastructure Hardware Engineering",
+            "url": "https://www.youtube.com/watch?v=_Pqfjer8-O4"
+          },
+          {
+            "title": "Operational Excellence Analytics: Root Cause, SPC & Process",
+            "url": "https://www.youtube.com/watch?v=SgJfXIjFsds"
+          }
         ],
         "bridges": [
           {
@@ -620,9 +785,18 @@
       {
         "tier": "FOUNDATIONS / INTRODUCTION",
         "courses": [
-          "Mathematics for Data Science",
-          "Statistics & Probability",
-          "Systems Thinking"
+          {
+            "title": "Mathematics for Data Science",
+            "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+          },
+          {
+            "title": "Statistics & Probability",
+            "url": "https://www.youtube.com/watch?v=oI3hZJqXJuc"
+          },
+          {
+            "title": "Systems Thinking",
+            "url": "https://www.youtube.com/watch?v=HzT1-BZIJQA"
+          }
         ],
         "bridges": [
           {
@@ -664,10 +838,22 @@
       {
         "tier": "ADVANCED / SPECIALIZATION",
         "courses": [
-          "Process Improvement: Lean, Six Sigma & Kaizen",
-          "Operational Excellence Analytics: Root Cause, SPC & Process",
-          "Systems Engineering",
-          "Program, Risk, Dependency & Vendor Management"
+          {
+            "title": "Process Improvement: Lean, Six Sigma & Kaizen",
+            "url": "https://www.youtube.com/watch?v=s2HCrhNVfak"
+          },
+          {
+            "title": "Operational Excellence Analytics: Root Cause, SPC & Process",
+            "url": "https://www.youtube.com/watch?v=SgJfXIjFsds"
+          },
+          {
+            "title": "Systems Engineering",
+            "url": "https://www.youtube.com/watch?v=J_y2I09rj_I"
+          },
+          {
+            "title": "Program, Risk, Dependency & Vendor Management",
+            "url": "https://www.youtube.com/watch?v=uJF0Rpy0YuI"
+          }
         ],
         "bridges": [
           {
@@ -721,11 +907,26 @@
       {
         "tier": "FOUNDATIONS / INTRODUCTION",
         "courses": [
-          "Mathematics for Data Science",
-          "Statistics & Probability",
-          "SQL & Analytics",
-          "Operations Management & Operating Models",
-          "Systems Thinking"
+          {
+            "title": "Mathematics for Data Science",
+            "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+          },
+          {
+            "title": "Statistics & Probability",
+            "url": "https://www.youtube.com/watch?v=oI3hZJqXJuc"
+          },
+          {
+            "title": "SQL & Analytics",
+            "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+          },
+          {
+            "title": "Operations Management & Operating Models",
+            "url": "https://www.youtube.com/watch?v=DEuzzLled6k"
+          },
+          {
+            "title": "Systems Thinking",
+            "url": "https://www.youtube.com/watch?v=HzT1-BZIJQA"
+          }
         ],
         "bridges": [
           {
@@ -737,10 +938,22 @@
       {
         "tier": "INTERMEDIATE CORE",
         "courses": [
-          "Process Improvement: Lean, Six Sigma & Kaizen",
-          "Operational Excellence Analytics: Root Cause, SPC & Process",
-          "Business Process Mapping & BPMN",
-          "Financial Modeling, Business Cases & Unit Economics"
+          {
+            "title": "Process Improvement: Lean, Six Sigma & Kaizen",
+            "url": "https://www.youtube.com/watch?v=s2HCrhNVfak"
+          },
+          {
+            "title": "Operational Excellence Analytics: Root Cause, SPC & Process",
+            "url": "https://www.youtube.com/watch?v=SgJfXIjFsds"
+          },
+          {
+            "title": "Business Process Mapping & BPMN",
+            "url": "https://www.youtube.com/watch?v=yAvm_re5YGA"
+          },
+          {
+            "title": "Financial Modeling, Business Cases & Unit Economics",
+            "url": "https://www.youtube.com/watch?v=veSXjIzTa3c"
+          }
         ],
         "bridges": [
           {
@@ -756,10 +969,22 @@
       {
         "tier": "ADVANCED / SPECIALIZATION",
         "courses": [
-          "Causal Inference, Forecasting & Decision Science",
-          "Data Engineering",
-          "Program, Risk, Dependency & Vendor Management",
-          "Negotiation & Stakeholder Management"
+          {
+            "title": "Causal Inference, Forecasting & Decision Science",
+            "url": "https://www.youtube.com/watch?v=4jRBRDbJemM"
+          },
+          {
+            "title": "Data Engineering",
+            "url": "https://www.youtube.com/watch?v=SETspQRY9ZU"
+          },
+          {
+            "title": "Program, Risk, Dependency & Vendor Management",
+            "url": "https://www.youtube.com/watch?v=uJF0Rpy0YuI"
+          },
+          {
+            "title": "Negotiation & Stakeholder Management",
+            "url": "https://www.youtube.com/watch?v=udh2ERCOmps"
+          }
         ],
         "bridges": [
           {
@@ -817,10 +1042,22 @@
       {
         "tier": "FOUNDATIONS / INTRODUCTION",
         "courses": [
-          "Computer Engineering",
-          "Mathematics for Data Science",
-          "Python",
-          "Linux, Operating Systems & Networking Foundations"
+          {
+            "title": "Computer Engineering",
+            "url": "https://www.youtube.com/watch?v=gI-qXk7XojA"
+          },
+          {
+            "title": "Mathematics for Data Science",
+            "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+          },
+          {
+            "title": "Python",
+            "url": "https://www.youtube.com/watch?v=x7X9w_GIm1s"
+          },
+          {
+            "title": "Linux, Operating Systems & Networking Foundations",
+            "url": "https://www.youtube.com/watch?v=fQbBPa0ADvs"
+          }
         ],
         "bridges": [
           {
@@ -836,9 +1073,18 @@
       {
         "tier": "INTERMEDIATE CORE",
         "courses": [
-          "Systems Architecture & System Design",
-          "Software Testing & Quality Engineering",
-          "Systems Engineering"
+          {
+            "title": "Systems Architecture & System Design",
+            "url": "https://www.youtube.com/watch?v=FxAom29OEKE"
+          },
+          {
+            "title": "Software Testing & Quality Engineering",
+            "url": "https://www.youtube.com/watch?v=oFO85YFuXjg"
+          },
+          {
+            "title": "Systems Engineering",
+            "url": "https://www.youtube.com/watch?v=J_y2I09rj_I"
+          }
         ],
         "bridges": [
           {
@@ -858,11 +1104,26 @@
       {
         "tier": "ADVANCED / SPECIALIZATION",
         "courses": [
-          "AI Compute, Inference & Performance Engineering",
-          "Robotic Systems",
-          "Autonomous Systems",
-          "CI/CD, Release Engineering & Developer Operations",
-          "Cybersecurity"
+          {
+            "title": "AI Compute, Inference & Performance Engineering",
+            "url": "https://www.youtube.com/watch?v=9tvJ_GYJA-o"
+          },
+          {
+            "title": "Robotic Systems",
+            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+          },
+          {
+            "title": "Autonomous Systems",
+            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+          },
+          {
+            "title": "CI/CD, Release Engineering & Developer Operations",
+            "url": "https://www.youtube.com/watch?v=R8_veQiYBjI"
+          },
+          {
+            "title": "Cybersecurity",
+            "url": "https://www.youtube.com/watch?v=FMMWSLIcaME"
+          }
         ],
         "bridges": [
           {
@@ -916,10 +1177,22 @@
       {
         "tier": "FOUNDATIONS / INTRODUCTION",
         "courses": [
-          "Systems Thinking",
-          "Engineering Design Process & Requirements",
-          "Systems Engineering",
-          "Statistics & Probability"
+          {
+            "title": "Systems Thinking",
+            "url": "https://www.youtube.com/watch?v=HzT1-BZIJQA"
+          },
+          {
+            "title": "Engineering Design Process & Requirements",
+            "url": "https://www.youtube.com/watch?v=IbbxjA5e2hw"
+          },
+          {
+            "title": "Systems Engineering",
+            "url": "https://www.youtube.com/watch?v=J_y2I09rj_I"
+          },
+          {
+            "title": "Statistics & Probability",
+            "url": "https://www.youtube.com/watch?v=oI3hZJqXJuc"
+          }
         ],
         "bridges": [
           {
@@ -935,10 +1208,22 @@
       {
         "tier": "INTERMEDIATE CORE",
         "courses": [
-          "Systems Architecture & System Design",
-          "Architect Integration Strategy",
-          "Technical Design with Engineering",
-          "Program, Risk, Dependency & Vendor Management"
+          {
+            "title": "Systems Architecture & System Design",
+            "url": "https://www.youtube.com/watch?v=FxAom29OEKE"
+          },
+          {
+            "title": "Architect Integration Strategy",
+            "url": "https://www.youtube.com/watch?v=o2HJCGcYwoU"
+          },
+          {
+            "title": "Technical Design with Engineering",
+            "url": "https://www.youtube.com/watch?v=FxAom29OEKE"
+          },
+          {
+            "title": "Program, Risk, Dependency & Vendor Management",
+            "url": "https://www.youtube.com/watch?v=uJF0Rpy0YuI"
+          }
         ],
         "bridges": [
           {
@@ -954,10 +1239,22 @@
       {
         "tier": "ADVANCED / SPECIALIZATION",
         "courses": [
-          "Distributed Systems",
-          "Security Fundamentals & Threat Modeling",
-          "Autonomous Systems",
-          "Robotic Systems"
+          {
+            "title": "Distributed Systems",
+            "url": "https://www.youtube.com/watch?v=mBUCF1WGI_I"
+          },
+          {
+            "title": "Security Fundamentals & Threat Modeling",
+            "url": "https://www.youtube.com/watch?v=PfoMPTzTK4M"
+          },
+          {
+            "title": "Autonomous Systems",
+            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+          },
+          {
+            "title": "Robotic Systems",
+            "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+          }
         ],
         "bridges": [
           {
@@ -1041,9 +1338,18 @@
       {
         "tier": "INTERMEDIATE CORE",
         "courses": [
-          "Speech Writing & Rhetoric",
-          "Business Storytelling, Slidecraft & Technical Writing",
-          "Content Creation"
+          {
+            "title": "Speech Writing & Rhetoric",
+            "url": "https://www.youtube.com/watch?v=3klMM9BkW5o"
+          },
+          {
+            "title": "Business Storytelling, Slidecraft & Technical Writing",
+            "url": "https://www.youtube.com/watch?v=1nYFpuc2Umk"
+          },
+          {
+            "title": "Content Creation",
+            "url": "https://www.youtube.com/watch?v=DSOfPEyeMNg"
+          }
         ],
         "bridges": [
           {
@@ -1063,11 +1369,26 @@
       {
         "tier": "ADVANCED / SPECIALIZATION",
         "courses": [
-          "Business Writing & Executive Communication",
-          "AI for Writing & Research",
-          "Speaking & Presentation Frameworks",
-          "Executive Presence & Speaking to Senior Leaders",
-          "Negotiation & Stakeholder Management"
+          {
+            "title": "Business Writing & Executive Communication",
+            "url": "https://www.youtube.com/watch?v=8E-oqahDnb8"
+          },
+          {
+            "title": "AI for Writing & Research",
+            "url": "https://www.youtube.com/watch?v=PDw3Uk9dN9k"
+          },
+          {
+            "title": "Speaking & Presentation Frameworks",
+            "url": "https://www.youtube.com/watch?v=o3K_HbpWNpg"
+          },
+          {
+            "title": "Executive Presence & Speaking to Senior Leaders",
+            "url": "https://www.youtube.com/watch?v=eIho2S0ZahI"
+          },
+          {
+            "title": "Negotiation & Stakeholder Management",
+            "url": "https://www.youtube.com/watch?v=udh2ERCOmps"
+          }
         ],
         "bridges": [
           {

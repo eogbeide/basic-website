@@ -11,34 +11,118 @@
       "AI Builder"
     ],
     "course_sequence": [
-      "Generative AI",
-      "Prompt & Context Engineering",
-      "Embeddings",
-      "Search & AI Search",
-      "Vector Databases",
-      "Retrieval-Augmented Generation (RAG)",
-      "Fine-Tuning & Model Adaptation",
-      "Multimodal AI",
-      "Tool Use & Function Calling",
-      "AI Agents",
-      "AI Experience Engineering",
-      "Agent Context, Memory & State",
-      "Agent Frameworks & Platforms",
-      "MCPs (Model Context Protocol)",
-      "Agentic Tools Platform",
-      "Agentic Security",
-      "AI Orchestration",
-      "Workflow Automation",
-      "AI Evals & Monitoring",
-      "LLMOps",
-      "AI Platform",
-      "AI Factory",
-      "Production Backend & Agentic Systems Engineering",
-      "AI Red Teaming & Adversarial Testing",
-      "AI Compute, Inference & Performance Engineering",
-      "ML Foundations & GenAI",
-      "AI & Agent Governance and Safety",
-      "Autonomous Systems"
+      {
+        "title": "Generative AI",
+        "url": "https://www.youtube.com/watch?v=G2fqAlgmoPo"
+      },
+      {
+        "title": "Prompt & Context Engineering",
+        "url": "https://www.youtube.com/watch?v=ysPbXH0LpIE"
+      },
+      {
+        "title": "Embeddings",
+        "url": "https://www.youtube.com/watch?v=gl1r1XV0SLw"
+      },
+      {
+        "title": "Search & AI Search",
+        "url": "https://www.youtube.com/watch?v=gl1r1XV0SLw"
+      },
+      {
+        "title": "Vector Databases",
+        "url": "https://www.youtube.com/watch?v=4pUYfY-b5CQ"
+      },
+      {
+        "title": "Retrieval-Augmented Generation (RAG)",
+        "url": "https://www.youtube.com/watch?v=T-D1OfcDW1M"
+      },
+      {
+        "title": "Fine-Tuning & Model Adaptation",
+        "url": "https://www.youtube.com/watch?v=8R8BMQZj_aQ"
+      },
+      {
+        "title": "Multimodal AI",
+        "url": "https://www.youtube.com/watch?v=fD9SiYSpiwE"
+      },
+      {
+        "title": "Tool Use & Function Calling",
+        "url": "https://www.youtube.com/watch?v=hciNKcLwSes"
+      },
+      {
+        "title": "AI Agents",
+        "url": "https://www.youtube.com/watch?v=LP5OCa20Zpg"
+      },
+      {
+        "title": "AI Experience Engineering",
+        "url": "https://www.youtube.com/watch?v=JppYmctp0a8"
+      },
+      {
+        "title": "Agent Context, Memory & State",
+        "url": "https://www.youtube.com/watch?v=4GiqzUHD5AA"
+      },
+      {
+        "title": "Agent Frameworks & Platforms",
+        "url": "https://www.youtube.com/watch?v=aHCDrAbH_go"
+      },
+      {
+        "title": "MCPs (Model Context Protocol)",
+        "url": "https://www.youtube.com/watch?v=agBbdiOPLQA"
+      },
+      {
+        "title": "Agentic Tools Platform",
+        "url": "https://www.youtube.com/watch?v=7E-qdsVEoB8"
+      },
+      {
+        "title": "Agentic Security",
+        "url": "https://www.youtube.com/watch?v=jrHRe9lSqqA"
+      },
+      {
+        "title": "AI Orchestration",
+        "url": "https://www.youtube.com/watch?v=dg8eloQbKLM"
+      },
+      {
+        "title": "Workflow Automation",
+        "url": "https://www.youtube.com/watch?v=dhqNVh-4AMQ"
+      },
+      {
+        "title": "AI Evals & Monitoring",
+        "url": "https://www.youtube.com/watch?v=SnbGD677_u0"
+      },
+      {
+        "title": "LLMOps",
+        "url": "https://www.youtube.com/watch?v=YqurSBERAlY"
+      },
+      {
+        "title": "AI Platform",
+        "url": "https://www.youtube.com/watch?v=8rlNdKywldQ"
+      },
+      {
+        "title": "AI Factory",
+        "url": "https://www.youtube.com/watch?v=1zURUZtPAE0"
+      },
+      {
+        "title": "Production Backend & Agentic Systems Engineering",
+        "url": "https://www.youtube.com/watch?v=E3ReKuJ8ewA"
+      },
+      {
+        "title": "AI Red Teaming & Adversarial Testing",
+        "url": "https://www.youtube.com/watch?v=DwFVhFdD2fs"
+      },
+      {
+        "title": "AI Compute, Inference & Performance Engineering",
+        "url": "https://www.youtube.com/watch?v=9tvJ_GYJA-o"
+      },
+      {
+        "title": "ML Foundations & GenAI",
+        "url": "https://www.youtube.com/watch?v=znF2U_3Z210"
+      },
+      {
+        "title": "AI & Agent Governance and Safety",
+        "url": "https://www.youtube.com/watch?v=Q020C-Jw0o8"
+      },
+      {
+        "title": "Autonomous Systems",
+        "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+      }
     ],
     "page": 23,
     "capability_resources": [
@@ -200,39 +284,138 @@
       "Senior Leadership"
     ],
     "course_sequence": [
-      "Design Thinking",
-      "Product Discovery & Customer Research",
-      "Software Product Design & Development",
-      "Technical Design with Engineering",
-      "Strategy Development & Goal Setting",
-      "AI Strategy",
-      "KPIs & Product Metrics",
-      "Product Roadmapping & Prioritization",
-      "AI Roadmapping & Portfolio Planning",
-      "Experimentation & A/B Testing",
-      "Product Analytics & Growth",
-      "Agile Product Development & Management",
-      "Agile Program Development & Management",
-      "Drive Agentic Execution Excellence",
-      "Platform Product Development & Management",
-      "AI Product Management & Economics",
-      "AI for Product Prototyping, Design & Development",
-      "Go-to-Market & Product Launch",
-      "AI-Enabled Product Optimization",
-      "Responsible AI & Governance",
-      "Market Research, Competitive Analysis & Market Sizing",
-      "Financial Modeling, Business Cases & Unit Economics",
-      "Program, Risk, Dependency & Vendor Management",
-      "Enterprise AI",
-      "Shipping Impactful Products",
-      "Digital Marketing",
-      "Strategic AI Applications",
-      "Portfolio Roadmap & Lifecycle Management",
-      "Product Pricing, Packaging & Monetization",
-      "Monetization Strategy & Business Models",
-      "Globalization, Geopolitics & Global Business",
-      "Product Evangelist ->",
-      "Software Product Manager"
+      {
+        "title": "Design Thinking",
+        "url": "https://www.youtube.com/watch?v=ldYzbV0NDp8"
+      },
+      {
+        "title": "Product Discovery & Customer Research",
+        "url": "https://www.youtube.com/watch?v=l7-5x0ra2tc"
+      },
+      {
+        "title": "Software Product Design & Development",
+        "url": "https://www.youtube.com/watch?v=l7-5x0ra2tc"
+      },
+      {
+        "title": "Technical Design with Engineering",
+        "url": "https://www.youtube.com/watch?v=FxAom29OEKE"
+      },
+      {
+        "title": "Strategy Development & Goal Setting",
+        "url": "https://www.youtube.com/watch?v=UZrTl16hZdk"
+      },
+      {
+        "title": "AI Strategy",
+        "url": "https://www.youtube.com/watch?v=nHXahonlIBM"
+      },
+      {
+        "title": "KPIs & Product Metrics",
+        "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw"
+      },
+      {
+        "title": "Product Roadmapping & Prioritization",
+        "url": "https://www.youtube.com/watch?v=x0d_GE_jWGE"
+      },
+      {
+        "title": "AI Roadmapping & Portfolio Planning",
+        "url": "https://www.youtube.com/watch?v=fi4Br8RiPqk"
+      },
+      {
+        "title": "Experimentation & A/B Testing",
+        "url": "https://www.youtube.com/watch?v=6oQwFJjzHII"
+      },
+      {
+        "title": "Product Analytics & Growth",
+        "url": "https://www.youtube.com/watch?v=N-Igkw7__z0"
+      },
+      {
+        "title": "Agile Product Development & Management",
+        "url": "https://www.youtube.com/watch?v=4Ugsu2n2cLE"
+      },
+      {
+        "title": "Agile Program Development & Management",
+        "url": "https://www.youtube.com/watch?v=29M-rw6DWd8"
+      },
+      {
+        "title": "Drive Agentic Execution Excellence",
+        "url": "https://www.youtube.com/watch?v=aHCDrAbH_go"
+      },
+      {
+        "title": "Platform Product Development & Management",
+        "url": "https://www.youtube.com/watch?v=l7ld_Bfrybc"
+      },
+      {
+        "title": "AI Product Management & Economics",
+        "url": "https://www.youtube.com/watch?v=G2fqAlgmoPo"
+      },
+      {
+        "title": "AI for Product Prototyping, Design & Development",
+        "url": "https://www.youtube.com/watch?v=dX4BufGeRwg"
+      },
+      {
+        "title": "Go-to-Market & Product Launch",
+        "url": "https://www.youtube.com/watch?v=yDLErwgajOQ"
+      },
+      {
+        "title": "AI-Enabled Product Optimization",
+        "url": "https://www.youtube.com/watch?v=6oQwFJjzHII"
+      },
+      {
+        "title": "Responsible AI & Governance",
+        "url": "https://www.youtube.com/watch?v=0oeD2Wf25wY"
+      },
+      {
+        "title": "Market Research, Competitive Analysis & Market Sizing",
+        "url": "https://www.youtube.com/watch?v=l7-5x0ra2tc"
+      },
+      {
+        "title": "Financial Modeling, Business Cases & Unit Economics",
+        "url": "https://www.youtube.com/watch?v=veSXjIzTa3c"
+      },
+      {
+        "title": "Program, Risk, Dependency & Vendor Management",
+        "url": "https://www.youtube.com/watch?v=uJF0Rpy0YuI"
+      },
+      {
+        "title": "Enterprise AI",
+        "url": "https://www.youtube.com/watch?v=ocyFONwoJQg"
+      },
+      {
+        "title": "Shipping Impactful Products",
+        "url": "https://www.youtube.com/watch?v=12D8zEdOPYo"
+      },
+      {
+        "title": "Digital Marketing",
+        "url": "https://www.youtube.com/watch?v=wZZnxXyES80"
+      },
+      {
+        "title": "Strategic AI Applications",
+        "url": "https://www.youtube.com/watch?v=c4dwJlTzgdI"
+      },
+      {
+        "title": "Portfolio Roadmap & Lifecycle Management",
+        "url": "https://www.youtube.com/watch?v=KPwRprJNt8E"
+      },
+      {
+        "title": "Product Pricing, Packaging & Monetization",
+        "url": "https://www.youtube.com/watch?v=cdQzCVUJybY"
+      },
+      {
+        "title": "Monetization Strategy & Business Models",
+        "url": "https://www.youtube.com/watch?v=QoAOzMTLP5s"
+      },
+      {
+        "title": "Globalization, Geopolitics & Global Business",
+        "url": "https://www.youtube.com/watch?v=5SnR-e0S6Ic"
+      },
+      {
+        "title": "Product Evangelist ->",
+        "url": "https://www.youtube.com/watch?v=aibjoGk4M74"
+      },
+      {
+        "title": "Software Product Manager",
+        "url": "https://www.youtube.com/watch?v=aibjoGk4M74"
+      }
     ],
     "page": 70,
     "capability_resources": [
@@ -394,29 +577,98 @@
       "AI Solutions Engineer"
     ],
     "course_sequence": [
-      "Git & GitHub",
-      "Python",
-      "Data Structures & Algorithms",
-      "Object-Oriented Design & Design Patterns",
-      "Web Development",
-      "JavaScript",
-      "TypeScript",
-      "React",
-      "Front-End Development",
-      "Next.js",
-      "Databases",
-      "APIs",
-      "Authentication & Authorization",
-      "Node.js",
-      "Back-End Development",
-      "Clean Code, Refactoring & Code Review",
-      "Full-Stack Development",
-      "App Development",
-      "Software Testing & Quality Engineering",
-      "Vibe Coding / AI-Assisted Development",
-      "Linux, Operating Systems & Networking Foundations",
-      "CI/CD, Release Engineering & Developer Operations",
-      "Event-Driven Architecture, Messaging & Realtime Systems"
+      {
+        "title": "Git & GitHub",
+        "url": null
+      },
+      {
+        "title": "Python",
+        "url": null
+      },
+      {
+        "title": "Data Structures & Algorithms",
+        "url": null
+      },
+      {
+        "title": "Object-Oriented Design & Design Patterns",
+        "url": null
+      },
+      {
+        "title": "Web Development",
+        "url": null
+      },
+      {
+        "title": "JavaScript",
+        "url": null
+      },
+      {
+        "title": "TypeScript",
+        "url": null
+      },
+      {
+        "title": "React",
+        "url": null
+      },
+      {
+        "title": "Front-End Development",
+        "url": null
+      },
+      {
+        "title": "Next.js",
+        "url": null
+      },
+      {
+        "title": "Databases",
+        "url": null
+      },
+      {
+        "title": "APIs",
+        "url": null
+      },
+      {
+        "title": "Authentication & Authorization",
+        "url": null
+      },
+      {
+        "title": "Node.js",
+        "url": null
+      },
+      {
+        "title": "Back-End Development",
+        "url": null
+      },
+      {
+        "title": "Clean Code, Refactoring & Code Review",
+        "url": null
+      },
+      {
+        "title": "Full-Stack Development",
+        "url": null
+      },
+      {
+        "title": "App Development",
+        "url": null
+      },
+      {
+        "title": "Software Testing & Quality Engineering",
+        "url": null
+      },
+      {
+        "title": "Vibe Coding / AI-Assisted Development",
+        "url": null
+      },
+      {
+        "title": "Linux, Operating Systems & Networking Foundations",
+        "url": null
+      },
+      {
+        "title": "CI/CD, Release Engineering & Developer Operations",
+        "url": null
+      },
+      {
+        "title": "Event-Driven Architecture, Messaging & Realtime Systems",
+        "url": null
+      }
     ],
     "page": 111,
     "capability_resources": [
@@ -614,37 +866,130 @@
       "Hardware/Aerospace/Robotics Engineer"
     ],
     "course_sequence": [
-      "Systems Thinking",
-      "Computer Engineering",
-      "Systems Architecture & System Design",
-      "Architect Integration Strategy",
-      "Distributed Systems",
-      "Systems Engineering",
-      "Engineering Design Process & Requirements",
-      "CAD, Prototyping & Design Validation",
-      "Design for Manufacturing, Reliability & Cost",
-      "Cloud Computing",
-      "Cybersecurity",
-      "Security Fundamentals & Threat Modeling",
-      "Network Security & Zero Trust",
-      "Identity & Access Management (IAM)",
-      "Cloud Security",
-      "Containers & Docker",
-      "Kubernetes",
-      "Infrastructure as Code",
-      "DevOps",
-      "Observability & Site Reliability Engineering",
-      "Application Security",
-      "Ethical Hacking & Penetration Testing",
-      "DevSecOps",
-      "Detection, Incident Response & Security Operations",
-      "Platform Engineering",
-      "Cloud Architecture, Migration & FinOps",
-      "Security Governance, Risk, Privacy & Software Supply Chain",
-      "Advanced Mechanical Design Analysis, GD&T & Reliability",
-      "Infrastructure Hardware Engineering",
-      "Robotic Systems",
-      "Aerospace Engineering"
+      {
+        "title": "Systems Thinking",
+        "url": "https://www.youtube.com/watch?v=HzT1-BZIJQA"
+      },
+      {
+        "title": "Computer Engineering",
+        "url": "https://www.youtube.com/watch?v=gI-qXk7XojA"
+      },
+      {
+        "title": "Systems Architecture & System Design",
+        "url": "https://www.youtube.com/watch?v=FxAom29OEKE"
+      },
+      {
+        "title": "Architect Integration Strategy",
+        "url": "https://www.youtube.com/watch?v=o2HJCGcYwoU"
+      },
+      {
+        "title": "Distributed Systems",
+        "url": "https://www.youtube.com/watch?v=mBUCF1WGI_I"
+      },
+      {
+        "title": "Systems Engineering",
+        "url": "https://www.youtube.com/watch?v=J_y2I09rj_I"
+      },
+      {
+        "title": "Engineering Design Process & Requirements",
+        "url": "https://www.youtube.com/watch?v=IbbxjA5e2hw"
+      },
+      {
+        "title": "CAD, Prototyping & Design Validation",
+        "url": "https://www.youtube.com/watch?v=d3qGQ2utl2A"
+      },
+      {
+        "title": "Design for Manufacturing, Reliability & Cost",
+        "url": "https://www.youtube.com/watch?v=QwRMsdmlbbA"
+      },
+      {
+        "title": "Cloud Computing",
+        "url": "https://www.youtube.com/watch?v=M988_fsOSWo"
+      },
+      {
+        "title": "Cybersecurity",
+        "url": "https://www.youtube.com/watch?v=FMMWSLIcaME"
+      },
+      {
+        "title": "Security Fundamentals & Threat Modeling",
+        "url": "https://www.youtube.com/watch?v=PfoMPTzTK4M"
+      },
+      {
+        "title": "Network Security & Zero Trust",
+        "url": "https://www.youtube.com/watch?v=yn6CPQ9RioA"
+      },
+      {
+        "title": "Identity & Access Management (IAM)",
+        "url": "https://www.youtube.com/watch?v=2pbgdbCT2dA"
+      },
+      {
+        "title": "Cloud Security",
+        "url": "https://www.youtube.com/watch?v=gblkOr7phK8"
+      },
+      {
+        "title": "Containers & Docker",
+        "url": "https://www.youtube.com/watch?v=Gjnup-PuquQ"
+      },
+      {
+        "title": "Kubernetes",
+        "url": "https://www.youtube.com/watch?v=PziYflu8cB8"
+      },
+      {
+        "title": "Infrastructure as Code",
+        "url": "https://www.youtube.com/watch?v=tomUWcQ0P3k"
+      },
+      {
+        "title": "DevOps",
+        "url": "https://www.youtube.com/watch?v=UbtB4sMaaNM"
+      },
+      {
+        "title": "Observability & Site Reliability Engineering",
+        "url": "https://www.youtube.com/watch?v=cqllWjlvziY"
+      },
+      {
+        "title": "Application Security",
+        "url": "https://www.youtube.com/watch?v=Jzr0Jdnq_EI"
+      },
+      {
+        "title": "Ethical Hacking & Penetration Testing",
+        "url": "https://www.youtube.com/watch?v=3Kq1MIfTWCE"
+      },
+      {
+        "title": "DevSecOps",
+        "url": "https://www.youtube.com/watch?v=nrhxNNH5lt0"
+      },
+      {
+        "title": "Detection, Incident Response & Security Operations",
+        "url": "https://www.youtube.com/watch?v=iAx4PgYoWD4"
+      },
+      {
+        "title": "Platform Engineering",
+        "url": "https://www.youtube.com/watch?v=lIDb6J78aDo"
+      },
+      {
+        "title": "Cloud Architecture, Migration & FinOps",
+        "url": "https://www.youtube.com/watch?v=Ni1P8TITtE8"
+      },
+      {
+        "title": "Security Governance, Risk, Privacy & Software Supply Chain",
+        "url": "https://www.youtube.com/watch?v=BuTt6QNiuZI"
+      },
+      {
+        "title": "Advanced Mechanical Design Analysis, GD&T & Reliability",
+        "url": "https://www.youtube.com/watch?v=ht9GwXQMgpo"
+      },
+      {
+        "title": "Infrastructure Hardware Engineering",
+        "url": "https://www.youtube.com/watch?v=_Pqfjer8-O4"
+      },
+      {
+        "title": "Robotic Systems",
+        "url": "https://www.youtube.com/watch?v=t2Ic6iGLmvc"
+      },
+      {
+        "title": "Aerospace Engineering",
+        "url": "https://ocw.mit.edu/courses/16-687-private-pilot-ground-school-january-iap-2019/resources/lecture-2-airplane-aerodynamics/"
+      }
     ],
     "page": 152,
     "capability_resources": [
@@ -807,27 +1152,90 @@
       "ML Engineer"
     ],
     "course_sequence": [
-      "Mathematics for Data Science",
-      "Statistics & Probability",
-      "ML Mathematics",
-      "SQL & Analytics",
-      "Data Science Foundations",
-      "Machine Learning",
-      "Feature Engineering & Model Evaluation",
-      "Deep Learning",
-      "Computer Vision",
-      "Natural Language Processing (NLP)",
-      "Data Engineering",
-      "Data Modeling, Warehousing & Lakehouse",
-      "Data Pipelines, Orchestration & Streaming",
-      "Data Quality, Governance & Lineage",
-      "Data Platform",
-      "MLOps & Model Serving",
-      "Causal Inference, Forecasting & Decision Science",
-      "Spark, Analytics Engineering & Data Contracts",
-      "Operational Excellence Analytics: Root Cause, SPC & Process Mining",
-      "Intelligent Data Platform",
-      "Graph Databases, Knowledge Graphs & GraphRAG"
+      {
+        "title": "Mathematics for Data Science",
+        "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+      },
+      {
+        "title": "Statistics & Probability",
+        "url": "https://www.youtube.com/watch?v=oI3hZJqXJuc"
+      },
+      {
+        "title": "ML Mathematics",
+        "url": "https://www.youtube.com/watch?v=kjBOesZCoqc"
+      },
+      {
+        "title": "SQL & Analytics",
+        "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+      },
+      {
+        "title": "Data Science Foundations",
+        "url": "https://www.youtube.com/watch?v=8SF_h3xF3cE"
+      },
+      {
+        "title": "Machine Learning",
+        "url": "https://www.youtube.com/watch?v=hDKCxebp88A"
+      },
+      {
+        "title": "Feature Engineering & Model Evaluation",
+        "url": "https://www.youtube.com/watch?v=PVVSfqQZ8P0"
+      },
+      {
+        "title": "Deep Learning",
+        "url": "https://www.youtube.com/watch?v=II4giR4vOOo"
+      },
+      {
+        "title": "Computer Vision",
+        "url": "https://www.youtube.com/watch?v=2fq9wYslV0A"
+      },
+      {
+        "title": "Natural Language Processing (NLP)",
+        "url": "https://www.youtube.com/watch?v=X4d4MiTVNcw"
+      },
+      {
+        "title": "Data Engineering",
+        "url": "https://www.youtube.com/watch?v=SETspQRY9ZU"
+      },
+      {
+        "title": "Data Modeling, Warehousing & Lakehouse",
+        "url": "https://www.youtube.com/watch?v=gRE3E7VUzRU"
+      },
+      {
+        "title": "Data Pipelines, Orchestration & Streaming",
+        "url": "https://www.youtube.com/watch?v=0Tmz-fR0Zv4"
+      },
+      {
+        "title": "Data Quality, Governance & Lineage",
+        "url": "https://www.youtube.com/watch?v=24Ki4Ck4Y2E"
+      },
+      {
+        "title": "Data Platform",
+        "url": "https://www.youtube.com/watch?v=IryMPbSsv10"
+      },
+      {
+        "title": "MLOps & Model Serving",
+        "url": "https://www.youtube.com/watch?v=OejCJL2EC3k"
+      },
+      {
+        "title": "Causal Inference, Forecasting & Decision Science",
+        "url": "https://www.youtube.com/watch?v=4jRBRDbJemM"
+      },
+      {
+        "title": "Spark, Analytics Engineering & Data Contracts",
+        "url": "https://www.youtube.com/watch?v=uhVpLwjEOKU"
+      },
+      {
+        "title": "Operational Excellence Analytics: Root Cause, SPC & Process Mining",
+        "url": "https://www.youtube.com/watch?v=SgJfXIjFsds"
+      },
+      {
+        "title": "Intelligent Data Platform",
+        "url": "https://www.youtube.com/watch?v=GbxVsi94DrE"
+      },
+      {
+        "title": "Graph Databases, Knowledge Graphs & GraphRAG",
+        "url": "https://www.youtube.com/watch?v=d5w6URZeVAY"
+      }
     ],
     "page": 203,
     "capability_resources": [
@@ -989,18 +1397,54 @@
       "Product Marketing"
     ],
     "course_sequence": [
-      "UI/UX Design",
-      "AI for Writing & Research",
-      "Business Writing & Executive Communication",
-      "Content Creation",
-      "Animation & AI Content Creation",
-      "Data Storytelling & Visualization",
-      "Speaking & Presentation Frameworks",
-      "Speech Writing & Rhetoric",
-      "Executive Presence & Speaking to Senior Leaders",
-      "Business Storytelling, Slidecraft & Technical Writing",
-      "Design & Creative Production",
-      "Global Languages & Intercultural Communication"
+      {
+        "title": "UI/UX Design",
+        "url": "https://www.youtube.com/watch?v=DTr3naujzqs"
+      },
+      {
+        "title": "AI for Writing & Research",
+        "url": "https://www.youtube.com/watch?v=PDw3Uk9dN9k"
+      },
+      {
+        "title": "Business Writing & Executive Communication",
+        "url": "https://www.youtube.com/watch?v=8E-oqahDnb8"
+      },
+      {
+        "title": "Content Creation",
+        "url": "https://www.youtube.com/watch?v=DSOfPEyeMNg"
+      },
+      {
+        "title": "Animation & AI Content Creation",
+        "url": "https://www.youtube.com/watch?v=2nGwjjXJx8E"
+      },
+      {
+        "title": "Data Storytelling & Visualization",
+        "url": "https://www.youtube.com/watch?v=1nYFpuc2Umk"
+      },
+      {
+        "title": "Speaking & Presentation Frameworks",
+        "url": "https://www.youtube.com/watch?v=o3K_HbpWNpg"
+      },
+      {
+        "title": "Speech Writing & Rhetoric",
+        "url": "https://www.youtube.com/watch?v=3klMM9BkW5o"
+      },
+      {
+        "title": "Executive Presence & Speaking to Senior Leaders",
+        "url": "https://www.youtube.com/watch?v=eIho2S0ZahI"
+      },
+      {
+        "title": "Business Storytelling, Slidecraft & Technical Writing",
+        "url": "https://www.youtube.com/watch?v=1nYFpuc2Umk"
+      },
+      {
+        "title": "Design & Creative Production",
+        "url": "https://www.youtube.com/watch?v=dFSia1LZI4Y"
+      },
+      {
+        "title": "Global Languages & Intercultural Communication",
+        "url": "https://www.youtube.com/watch?v=o_XVt5rdpFY"
+      }
     ],
     "page": 236,
     "capability_resources": [
@@ -1162,21 +1606,66 @@
       "AI Technical Program Manager"
     ],
     "course_sequence": [
-      "How to Study Efficiently & Effectively",
-      "Problem Solving & Great Questions",
-      "Management Consulting & Structured Problem Solving",
-      "Operations Management & Operating Models",
-      "Process Improvement: Lean, Six Sigma & Kaizen",
-      "Business Process Mapping & BPMN",
-      "Leadership & Management",
-      "People Management",
-      "Coaching & Feedback",
-      "Difficult Conversations & Conflict Resolution",
-      "Negotiation & Stakeholder Management",
-      "Organizational Leadership: Decision-Making, Influence",
-      "Executive Coaching, Assessment & Facilitation",
-      "Personal Development & Executive Effectiveness",
-      "New York Times Bestseller Insights: Leadership,"
+      {
+        "title": "How to Study Efficiently & Effectively",
+        "url": "https://www.youtube.com/watch?v=RH95h36NChI"
+      },
+      {
+        "title": "Problem Solving & Great Questions",
+        "url": "https://www.youtube.com/watch?v=dItUGF8GdTw"
+      },
+      {
+        "title": "Management Consulting & Structured Problem Solving",
+        "url": "https://www.youtube.com/watch?v=6kReKGrcoSc"
+      },
+      {
+        "title": "Operations Management & Operating Models",
+        "url": "https://www.youtube.com/watch?v=DEuzzLled6k"
+      },
+      {
+        "title": "Process Improvement: Lean, Six Sigma & Kaizen",
+        "url": "https://www.youtube.com/watch?v=s2HCrhNVfak"
+      },
+      {
+        "title": "Business Process Mapping & BPMN",
+        "url": "https://www.youtube.com/watch?v=yAvm_re5YGA"
+      },
+      {
+        "title": "Leadership & Management",
+        "url": "https://www.youtube.com/watch?v=lmyZMtPVodo"
+      },
+      {
+        "title": "People Management",
+        "url": "https://www.youtube.com/watch?v=vmxHUiiHgNk"
+      },
+      {
+        "title": "Coaching & Feedback",
+        "url": "https://www.youtube.com/watch?v=bL8wrwDb8aA"
+      },
+      {
+        "title": "Difficult Conversations & Conflict Resolution",
+        "url": "https://www.youtube.com/watch?v=H6tYrqvh_Zw"
+      },
+      {
+        "title": "Negotiation & Stakeholder Management",
+        "url": "https://www.youtube.com/watch?v=udh2ERCOmps"
+      },
+      {
+        "title": "Organizational Leadership: Decision-Making, Influence",
+        "url": "https://www.youtube.com/watch?v=lmyZMtPVodo"
+      },
+      {
+        "title": "Executive Coaching, Assessment & Facilitation",
+        "url": "https://www.youtube.com/watch?v=RNOb1D5uqqk"
+      },
+      {
+        "title": "Personal Development & Executive Effectiveness",
+        "url": "https://www.youtube.com/watch?v=ktlTxC4QG8g"
+      },
+      {
+        "title": "New York Times Bestseller Insights: Leadership,",
+        "url": "https://www.youtube.com/watch?v=PmvhH6R-H44"
+      }
     ],
     "page": 255,
     "capability_resources": [
@@ -1335,19 +1824,58 @@
       "Social Media Manager"
     ],
     "course_sequence": [
-      "Social Media Strategy, Growth & Community Management",
-      "Content Creation",
-      "Animation & AI Content Creation",
-      "AI for Writing & Research",
-      "Digital Marketing",
-      "Search & AI Search",
-      "Product Analytics & Growth",
-      "Experimentation & A/B Testing",
-      "Data Storytelling & Visualization",
-      "Creator Monetization, Partnerships & Social Commerce",
-      "Negotiation & Stakeholder Management",
-      "Business Storytelling, Slidecraft & Technical Writing",
-      "Workflow Automation"
+      {
+        "title": "Social Media Strategy, Growth & Community Management",
+        "url": "https://www.youtube.com/watch?v=VS0Sao1oHlw"
+      },
+      {
+        "title": "Content Creation",
+        "url": "https://www.youtube.com/watch?v=DSOfPEyeMNg"
+      },
+      {
+        "title": "Animation & AI Content Creation",
+        "url": "https://www.youtube.com/watch?v=2nGwjjXJx8E"
+      },
+      {
+        "title": "AI for Writing & Research",
+        "url": "https://www.youtube.com/watch?v=PDw3Uk9dN9k"
+      },
+      {
+        "title": "Digital Marketing",
+        "url": "https://www.youtube.com/watch?v=wZZnxXyES80"
+      },
+      {
+        "title": "Search & AI Search",
+        "url": "https://www.youtube.com/watch?v=gl1r1XV0SLw"
+      },
+      {
+        "title": "Product Analytics & Growth",
+        "url": "https://www.youtube.com/watch?v=N-Igkw7__z0"
+      },
+      {
+        "title": "Experimentation & A/B Testing",
+        "url": "https://www.youtube.com/watch?v=6oQwFJjzHII"
+      },
+      {
+        "title": "Data Storytelling & Visualization",
+        "url": "https://www.youtube.com/watch?v=1nYFpuc2Umk"
+      },
+      {
+        "title": "Creator Monetization, Partnerships & Social Commerce",
+        "url": "https://www.youtube.com/watch?v=om2WiDsHLso"
+      },
+      {
+        "title": "Negotiation & Stakeholder Management",
+        "url": "https://www.youtube.com/watch?v=udh2ERCOmps"
+      },
+      {
+        "title": "Business Storytelling, Slidecraft & Technical Writing",
+        "url": "https://www.youtube.com/watch?v=1nYFpuc2Umk"
+      },
+      {
+        "title": "Workflow Automation",
+        "url": "https://www.youtube.com/watch?v=dhqNVh-4AMQ"
+      }
     ],
     "page": 492,
     "capability_resources": [
@@ -1384,16 +1912,46 @@
       "Sales Engineer / Solutions Consultant"
     ],
     "course_sequence": [
-      "C165  Revenue Operations & GTM Systems",
-      "C166  Technical Sales & Solution Engineering",
-      "C041  Go-to-Market & Product Launch",
-      "C127  Market Research, Competitive Analysis & Market Sizing",
-      "C030  KPIs & Product Metrics",
-      "C034  Product Analytics & Growth",
-      "C128  Financial Modeling, Business Cases & Unit Economics",
-      "C123  Negotiation & Stakeholder Management",
-      "C018  Workflow Automation",
-      "C141  Enterprise AI"
+      {
+        "title": "C165  Revenue Operations & GTM Systems",
+        "url": null
+      },
+      {
+        "title": "C166  Technical Sales & Solution Engineering",
+        "url": "https://www.youtube.com/watch?v=ocyFONwoJQg"
+      },
+      {
+        "title": "C041  Go-to-Market & Product Launch",
+        "url": "https://www.youtube.com/watch?v=dhqNVh-4AMQ"
+      },
+      {
+        "title": "C127  Market Research, Competitive Analysis & Market Sizing",
+        "url": "https://www.youtube.com/watch?v=udh2ERCOmps"
+      },
+      {
+        "title": "C030  KPIs & Product Metrics",
+        "url": "https://www.youtube.com/watch?v=veSXjIzTa3c"
+      },
+      {
+        "title": "C034  Product Analytics & Growth",
+        "url": "https://www.youtube.com/watch?v=N-Igkw7__z0"
+      },
+      {
+        "title": "C128  Financial Modeling, Business Cases & Unit Economics",
+        "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw"
+      },
+      {
+        "title": "C123  Negotiation & Stakeholder Management",
+        "url": "https://www.youtube.com/watch?v=l7-5x0ra2tc"
+      },
+      {
+        "title": "C018  Workflow Automation",
+        "url": "https://www.youtube.com/watch?v=yDLErwgajOQ"
+      },
+      {
+        "title": "C141  Enterprise AI",
+        "url": "https://www.youtube.com/watch?v=twpN81dk8Bo"
+      }
     ],
     "page": 502,
     "capability_resources": [
@@ -1556,16 +2114,46 @@
       "Network Engineer"
     ],
     "course_sequence": [
-      "C168  Data Center Engineering: Power, Cooling & AI Infrastructure",
-      "C152  Infrastructure Hardware Engineering",
-      "C126  AI Compute, Inference & Performance Engineering",
-      "C130  Linux, Operating Systems & Networking",
-      "C073  Cloud Computing",
-      "C080  Kubernetes",
-      "C068  Distributed Systems",
-      "C083  Observability & Site Reliability Engineering",
-      "C088  Platform Engineering",
-      "C020  LLMOps"
+      {
+        "title": "C168  Data Center Engineering: Power, Cooling & AI Infrastructure",
+        "url": null
+      },
+      {
+        "title": "C152  Infrastructure Hardware Engineering",
+        "url": "https://www.youtube.com/watch?v=YqurSBERAlY"
+      },
+      {
+        "title": "C126  AI Compute, Inference & Performance Engineering",
+        "url": "https://www.youtube.com/watch?v=lIDb6J78aDo"
+      },
+      {
+        "title": "C130  Linux, Operating Systems & Networking",
+        "url": "https://www.youtube.com/watch?v=cqllWjlvziY"
+      },
+      {
+        "title": "C073  Cloud Computing",
+        "url": "https://www.youtube.com/watch?v=mBUCF1WGI_I"
+      },
+      {
+        "title": "C080  Kubernetes",
+        "url": "https://www.youtube.com/watch?v=PziYflu8cB8"
+      },
+      {
+        "title": "C068  Distributed Systems",
+        "url": "https://www.youtube.com/watch?v=M988_fsOSWo"
+      },
+      {
+        "title": "C083  Observability & Site Reliability Engineering",
+        "url": "https://www.youtube.com/watch?v=fQbBPa0ADvs"
+      },
+      {
+        "title": "C088  Platform Engineering",
+        "url": "https://www.youtube.com/watch?v=9tvJ_GYJA-o"
+      },
+      {
+        "title": "C020  LLMOps",
+        "url": "https://www.youtube.com/watch?v=_Pqfjer8-O4"
+      }
     ],
     "page": 503,
     "capability_resources": [
@@ -1605,16 +2193,46 @@
       "Healthcare Operations Manager"
     ],
     "course_sequence": [
-      "C169  Healthcare Operations, Value-Based Care & Revenue Cycle",
-      "C170  Healthcare Data Interoperability: EHR, HL7 & FHIR",
-      "C116  Operations Management & Operating Models",
-      "C117  Process Improvement: Lean, Six Sigma & Kaizen",
-      "C118  Business Process Mapping & BPMN",
-      "C092  SQL & Analytics",
-      "C110  Data Storytelling & Visualization",
-      "C129  Program, Risk, Dependency & Vendor Management",
-      "C134  Security Governance, Risk, Privacy & Software Supply Chain",
-      "C141  Enterprise AI"
+      {
+        "title": "C169  Healthcare Operations, Value-Based Care & Revenue Cycle",
+        "url": null
+      },
+      {
+        "title": "C170  Healthcare Data Interoperability: EHR, HL7 & FHIR",
+        "url": null
+      },
+      {
+        "title": "C116  Operations Management & Operating Models",
+        "url": null
+      },
+      {
+        "title": "C117  Process Improvement: Lean, Six Sigma & Kaizen",
+        "url": "https://www.youtube.com/watch?v=ocyFONwoJQg"
+      },
+      {
+        "title": "C118  Business Process Mapping & BPMN",
+        "url": "https://www.youtube.com/watch?v=BuTt6QNiuZI"
+      },
+      {
+        "title": "C092  SQL & Analytics",
+        "url": "https://www.youtube.com/watch?v=uJF0Rpy0YuI"
+      },
+      {
+        "title": "C110  Data Storytelling & Visualization",
+        "url": "https://www.youtube.com/watch?v=1nYFpuc2Umk"
+      },
+      {
+        "title": "C129  Program, Risk, Dependency & Vendor Management",
+        "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+      },
+      {
+        "title": "C134  Security Governance, Risk, Privacy & Software Supply Chain",
+        "url": "https://www.youtube.com/watch?v=yAvm_re5YGA"
+      },
+      {
+        "title": "C141  Enterprise AI",
+        "url": null
+      }
     ],
     "page": 504,
     "capability_resources": [
@@ -1655,16 +2273,46 @@
       "Responsible AI Manager"
     ],
     "course_sequence": [
-      "C102  Data Quality, Governance & Lineage",
-      "C134  Security Governance, Risk, Privacy & Software Supply Chain",
-      "C077  Identity & Access Management (IAM)",
-      "C100  Data Modeling, Warehousing & Lakehouse",
-      "C043  Responsible AI & Governance",
-      "C148  AI & Agent Governance and Safety",
-      "C142  Intelligent Data Platform",
-      "C075  Security Fundamentals & Threat Modeling",
-      "C129  Program, Risk, Dependency & Vendor Management",
-      "C145  Graph Databases, Knowledge Graphs & Semantic Systems"
+      {
+        "title": "C102  Data Quality, Governance & Lineage",
+        "url": null
+      },
+      {
+        "title": "C134  Security Governance, Risk, Privacy & Software Supply Chain",
+        "url": "https://www.youtube.com/watch?v=d5w6URZeVAY"
+      },
+      {
+        "title": "C077  Identity & Access Management (IAM)",
+        "url": "https://www.youtube.com/watch?v=uJF0Rpy0YuI"
+      },
+      {
+        "title": "C100  Data Modeling, Warehousing & Lakehouse",
+        "url": "https://www.youtube.com/watch?v=PfoMPTzTK4M"
+      },
+      {
+        "title": "C043  Responsible AI & Governance",
+        "url": "https://www.youtube.com/watch?v=GbxVsi94DrE"
+      },
+      {
+        "title": "C148  AI & Agent Governance and Safety",
+        "url": "https://www.youtube.com/watch?v=Q020C-Jw0o8"
+      },
+      {
+        "title": "C142  Intelligent Data Platform",
+        "url": "https://www.youtube.com/watch?v=0oeD2Wf25wY"
+      },
+      {
+        "title": "C075  Security Fundamentals & Threat Modeling",
+        "url": "https://www.youtube.com/watch?v=gRE3E7VUzRU"
+      },
+      {
+        "title": "C129  Program, Risk, Dependency & Vendor Management",
+        "url": "https://www.youtube.com/watch?v=2pbgdbCT2dA"
+      },
+      {
+        "title": "C145  Graph Databases, Knowledge Graphs & Semantic Systems",
+        "url": "https://www.youtube.com/watch?v=BuTt6QNiuZI"
+      }
     ],
     "page": 505,
     "capability_resources": [
@@ -1701,16 +2349,46 @@
       "MLOps Engineer"
     ],
     "course_sequence": [
-      "C019  AI Evals & Monitoring",
-      "C095  Feature Engineering & Model Evaluation",
-      "C125  AI Red Teaming & Adversarial Testing",
-      "C083  Observability & Site Reliability Engineering",
-      "C104  MLOps & Model Serving",
-      "C020  LLMOps",
-      "C016  Agentic Security",
-      "C043  Responsible AI & Governance",
-      "C148  AI & Agent Governance and Safety",
-      "C087  Detection, Incident Response & Security Operations"
+      {
+        "title": "C019  AI Evals & Monitoring",
+        "url": null
+      },
+      {
+        "title": "C095  Feature Engineering & Model Evaluation",
+        "url": "https://www.youtube.com/watch?v=iAx4PgYoWD4"
+      },
+      {
+        "title": "C125  AI Red Teaming & Adversarial Testing",
+        "url": "https://www.youtube.com/watch?v=Q020C-Jw0o8"
+      },
+      {
+        "title": "C083  Observability & Site Reliability Engineering",
+        "url": "https://www.youtube.com/watch?v=0oeD2Wf25wY"
+      },
+      {
+        "title": "C104  MLOps & Model Serving",
+        "url": "https://www.youtube.com/watch?v=jrHRe9lSqqA"
+      },
+      {
+        "title": "C020  LLMOps",
+        "url": "https://www.youtube.com/watch?v=YqurSBERAlY"
+      },
+      {
+        "title": "C016  Agentic Security",
+        "url": "https://www.youtube.com/watch?v=OejCJL2EC3k"
+      },
+      {
+        "title": "C043  Responsible AI & Governance",
+        "url": "https://www.youtube.com/watch?v=cqllWjlvziY"
+      },
+      {
+        "title": "C148  AI & Agent Governance and Safety",
+        "url": "https://www.youtube.com/watch?v=DwFVhFdD2fs"
+      },
+      {
+        "title": "C087  Detection, Incident Response & Security Operations",
+        "url": "https://www.youtube.com/watch?v=PVVSfqQZ8P0"
+      }
     ],
     "page": 506,
     "capability_resources": [
@@ -1746,16 +2424,46 @@
       "Technical Product Manager"
     ],
     "course_sequence": [
-      "C167  Product Operations & Product Operating Models",
-      "C025  Product Discovery & Customer Research",
-      "C030  KPIs & Product Metrics",
-      "C031  Product Roadmapping & Prioritization",
-      "C034  Product Analytics & Growth",
-      "C035  Agile Product Development & Management",
-      "C036  Agile Program Development & Management",
-      "C041  Go-to-Market & Product Launch",
-      "C129  Program, Risk, Dependency & Vendor Management",
-      "C153  Portfolio Roadmap & Lifecycle Management"
+      {
+        "title": "C167  Product Operations & Product Operating Models",
+        "url": null
+      },
+      {
+        "title": "C025  Product Discovery & Customer Research",
+        "url": "https://www.youtube.com/watch?v=KPwRprJNt8E"
+      },
+      {
+        "title": "C030  KPIs & Product Metrics",
+        "url": "https://www.youtube.com/watch?v=uJF0Rpy0YuI"
+      },
+      {
+        "title": "C031  Product Roadmapping & Prioritization",
+        "url": "https://www.youtube.com/watch?v=yDLErwgajOQ"
+      },
+      {
+        "title": "C034  Product Analytics & Growth",
+        "url": "https://www.youtube.com/watch?v=29M-rw6DWd8"
+      },
+      {
+        "title": "C035  Agile Product Development & Management",
+        "url": "https://www.youtube.com/watch?v=4Ugsu2n2cLE"
+      },
+      {
+        "title": "C036  Agile Program Development & Management",
+        "url": "https://www.youtube.com/watch?v=N-Igkw7__z0"
+      },
+      {
+        "title": "C041  Go-to-Market & Product Launch",
+        "url": "https://www.youtube.com/watch?v=x0d_GE_jWGE"
+      },
+      {
+        "title": "C129  Program, Risk, Dependency & Vendor Management",
+        "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw"
+      },
+      {
+        "title": "C153  Portfolio Roadmap & Lifecycle Management",
+        "url": "https://www.youtube.com/watch?v=l7-5x0ra2tc"
+      }
     ],
     "page": 507,
     "capability_resources": [
@@ -1791,16 +2499,46 @@
       "Quantitative Finance / FinTech Engineer"
     ],
     "course_sequence": [
-      "C171  Actuarial & Insurance Risk Analytics",
-      "C090  Statistics & Probability",
-      "C089  Mathematics for Data Science",
-      "C136  Causal Inference, Forecasting & Decision Science",
-      "C092  SQL & Analytics",
-      "C128  Financial Modeling, Business Cases & Unit Economics",
-      "C110  Data Storytelling & Visualization",
-      "C093  Data Science Foundations",
-      "C094  Machine Learning",
-      "C129  Program, Risk, Dependency & Vendor Management"
+      {
+        "title": "C171  Actuarial & Insurance Risk Analytics",
+        "url": null
+      },
+      {
+        "title": "C090  Statistics & Probability",
+        "url": "https://www.youtube.com/watch?v=uJF0Rpy0YuI"
+      },
+      {
+        "title": "C089  Mathematics for Data Science",
+        "url": "https://www.youtube.com/watch?v=hDKCxebp88A"
+      },
+      {
+        "title": "C136  Causal Inference, Forecasting & Decision Science",
+        "url": "https://www.youtube.com/watch?v=8SF_h3xF3cE"
+      },
+      {
+        "title": "C092  SQL & Analytics",
+        "url": "https://www.youtube.com/watch?v=1nYFpuc2Umk"
+      },
+      {
+        "title": "C128  Financial Modeling, Business Cases & Unit Economics",
+        "url": "https://www.youtube.com/watch?v=veSXjIzTa3c"
+      },
+      {
+        "title": "C110  Data Storytelling & Visualization",
+        "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+      },
+      {
+        "title": "C093  Data Science Foundations",
+        "url": "https://www.youtube.com/watch?v=4jRBRDbJemM"
+      },
+      {
+        "title": "C094  Machine Learning",
+        "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+      },
+      {
+        "title": "C129  Program, Risk, Dependency & Vendor Management",
+        "url": "https://www.youtube.com/watch?v=oI3hZJqXJuc"
+      }
     ],
     "page": 508,
     "capability_resources": [
@@ -1837,16 +2575,46 @@
       "Strategy Consultant"
     ],
     "course_sequence": [
-      "C172  AI Adoption & Organizational Change Management",
-      "C124  Organizational Leadership: Decision-Making, Influence & Change",
-      "C141  Enterprise AI",
-      "C029  AI Strategy",
-      "C150  Strategic AI Applications",
-      "C118  Business Process Mapping & BPMN",
-      "C116  Operations Management & Operating Models",
-      "C117  Process Improvement: Lean, Six Sigma & Kaizen",
-      "C121  Coaching & Feedback",
-      "C148  AI & Agent Governance and Safety"
+      {
+        "title": "C172  AI Adoption & Organizational Change Management",
+        "url": null
+      },
+      {
+        "title": "C124  Organizational Leadership: Decision-Making, Influence & Change",
+        "url": "https://www.youtube.com/watch?v=Q020C-Jw0o8"
+      },
+      {
+        "title": "C141  Enterprise AI",
+        "url": "https://www.youtube.com/watch?v=bL8wrwDb8aA"
+      },
+      {
+        "title": "C029  AI Strategy",
+        "url": "https://www.youtube.com/watch?v=s2HCrhNVfak"
+      },
+      {
+        "title": "C150  Strategic AI Applications",
+        "url": "https://www.youtube.com/watch?v=DEuzzLled6k"
+      },
+      {
+        "title": "C118  Business Process Mapping & BPMN",
+        "url": "https://www.youtube.com/watch?v=yAvm_re5YGA"
+      },
+      {
+        "title": "C116  Operations Management & Operating Models",
+        "url": "https://www.youtube.com/watch?v=c4dwJlTzgdI"
+      },
+      {
+        "title": "C117  Process Improvement: Lean, Six Sigma & Kaizen",
+        "url": "https://www.youtube.com/watch?v=nHXahonlIBM"
+      },
+      {
+        "title": "C121  Coaching & Feedback",
+        "url": "https://www.youtube.com/watch?v=ocyFONwoJQg"
+      },
+      {
+        "title": "C148  AI & Agent Governance and Safety",
+        "url": "https://www.youtube.com/watch?v=lmyZMtPVodo"
+      }
     ],
     "page": 509,
     "capability_resources": [

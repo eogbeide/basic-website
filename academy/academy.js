@@ -71,7 +71,11 @@
       .join('');
     var courses = (pathway.course_sequence || [])
       .map(function (c) {
-        return '<li>' + escapeHtml(c) + '</li>';
+        var title = escapeHtml(typeof c === 'string' ? c : c.title);
+        var url = (c && c.url) ? escapeHtml(c.url) : null;
+        return url
+          ? '<li><a href="' + url + '" target="_blank" rel="noopener noreferrer">' + title + '</a></li>'
+          : '<li>' + title + '</li>';
       })
       .join('');
     var resources = (pathway.capability_resources || [])
@@ -106,7 +110,15 @@
   function renderCertificate(cert) {
     var tiers = (cert.tiers || [])
       .map(function (t) {
-        var courses = (t.courses || []).map(function (c) { return '<li>' + escapeHtml(c) + '</li>'; }).join('');
+        var courses = (t.courses || [])
+          .map(function (c) {
+            var title = escapeHtml(typeof c === 'string' ? c : c.title);
+            var url = (c && c.url) ? escapeHtml(c.url) : null;
+            return url
+              ? '<li><a href="' + url + '" target="_blank" rel="noopener noreferrer">' + title + '</a></li>'
+              : '<li>' + title + '</li>';
+          })
+          .join('');
         var bridges = (t.bridges || [])
           .map(function (b) {
             var topic = escapeHtml(typeof b === 'string' ? b : b.topic);
