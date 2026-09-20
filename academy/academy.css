@@ -298,12 +298,46 @@ a {
   margin: 0 0 10px;
 }
 
-.tier-courses,
-.tier-bridges {
+.tier-courses {
   margin: 0 0 12px;
   padding-left: 22px;
   color: #d7d7d7;
   font-size: 14px;
+}
+
+.tier-bridges {
+  list-style: none;
+  margin: 0 0 12px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tier-bridges li {
+  color: #d7d7d7;
+  font-size: 14px;
+}
+
+.tier-bridges a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #d7d7d7;
+  font-size: 14px;
+  padding: 4px 6px;
+  border-radius: 6px;
+}
+
+.tier-bridges a:hover {
+  background-color: #232426;
+  color: #ffc629;
+}
+
+.tier-bridges .play-icon {
+  color: #ffc629;
+  flex-shrink: 0;
 }
 
 .tier-bridges-label {

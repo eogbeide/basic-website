@@ -93,7 +93,15 @@
     var tiers = (cert.tiers || [])
       .map(function (t) {
         var courses = (t.courses || []).map(function (c) { return '<li>' + escapeHtml(c) + '</li>'; }).join('');
-        var bridges = (t.bridges || []).map(function (b) { return '<li>' + escapeHtml(b) + '</li>'; }).join('');
+        var bridges = (t.bridges || [])
+          .map(function (b) {
+            var topic = escapeHtml(typeof b === 'string' ? b : b.topic);
+            var url = (b && b.url) ? escapeHtml(b.url) : null;
+            return url
+              ? '<li><a href="' + url + '" target="_blank" rel="noopener noreferrer"><span class="play-icon">&#9654;</span><span>' + topic + '</span></a></li>'
+              : '<li>' + topic + '</li>';
+          })
+          .join('');
         return (
           '<div class="tier-block">' +
           '<p class="tier-label">' + escapeHtml(t.tier) + '</p>' +

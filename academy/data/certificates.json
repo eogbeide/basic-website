@@ -14,7 +14,10 @@
           "Linux, Operating Systems & Networking Foundations"
         ],
         "bridges": [
-          "Discrete Mathematics & Proofs"
+          {
+            "topic": "Discrete Mathematics & Proofs",
+            "url": "https://www.youtube.com/watch?v=YFZzLQN5qOU"
+          }
         ]
       },
       {
@@ -28,7 +31,10 @@
           "Distributed Systems"
         ],
         "bridges": [
-          "Computer Architecture & OS Mental Model"
+          {
+            "topic": "Computer Architecture & OS Mental Model",
+            "url": "https://www.youtube.com/watch?v=FZGugFqdr60"
+          }
         ]
       },
       {
@@ -42,13 +48,15 @@
           "AI Agents"
         ],
         "bridges": [
-          "Theory of Computation"
+          {
+            "topic": "Theory of Computation",
+            "url": "https://www.youtube.com/watch?v=58N2N7zJGrQ"
+          }
         ]
       }
     ],
     "capstone": "Design, implement, test and deploy a substantial software system with algorithms, persistence, network APIs, concurrency/distribution, security controls and observability. Submit architecture diagrams, tests, benchmarks and a technical defense.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 378,
     "resource_links": [
       {
         "competency": "Programming, data structures & algorithms",
@@ -80,7 +88,8 @@
         "coverage": "Theory of Computation bridge",
         "url": "https://www.youtube.com/watch?v=58N2N7zJGrQ"
       }
-    ]
+    ],
+    "page": 378
   },
   {
     "name": "Comprehensive Certificate in Mathematics",
@@ -93,10 +102,22 @@
           "Problem Solving & Great Questions"
         ],
         "bridges": [
-          "Algebra / Trigonometry / Geometry Refresher",
-          "Calculus I-II Intuition",
-          "Linear Algebra",
-          "Mathematical Proof & Logic"
+          {
+            "topic": "Algebra / Trigonometry / Geometry Refresher",
+            "url": "https://www.youtube.com/watch?v=JrWJnwCMlP0"
+          },
+          {
+            "topic": "Calculus I-II Intuition",
+            "url": "https://www.youtube.com/watch?v=WUvTyaaNkzM"
+          },
+          {
+            "topic": "Linear Algebra",
+            "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+          },
+          {
+            "topic": "Mathematical Proof & Logic",
+            "url": "https://www.youtube.com/watch?v=YFZzLQN5qOU"
+          }
         ]
       },
       {
@@ -106,9 +127,18 @@
           "ML Mathematics"
         ],
         "bridges": [
-          "Multivariable Calculus",
-          "Differential Equations",
-          "Fourier / Complex-Systems Intuition"
+          {
+            "topic": "Multivariable Calculus",
+            "url": "https://www.youtube.com/watch?v=TrcCbdWwCBc"
+          },
+          {
+            "topic": "Differential Equations",
+            "url": "https://www.youtube.com/watch?v=p_di4Zn4wz4"
+          },
+          {
+            "topic": "Fourier / Complex-Systems Intuition",
+            "url": "https://www.youtube.com/watch?v=spUNpyF58BY"
+          }
         ]
       },
       {
@@ -117,16 +147,27 @@
           "Causal Inference, Forecasting & Decision Science"
         ],
         "bridges": [
-          "Real Analysis",
-          "Abstract Algebra",
-          "Optimization & Numerical Methods",
-          "Machine Learning / Deep Learning as applications (applied)"
+          {
+            "topic": "Real Analysis",
+            "url": "https://www.youtube.com/watch?v=BWvjy0a1Ffg"
+          },
+          {
+            "topic": "Abstract Algebra",
+            "url": "https://www.youtube.com/watch?v=IP7nW_hKB7I"
+          },
+          {
+            "topic": "Optimization & Numerical Methods",
+            "url": "https://www.youtube.com/watch?v=IHZwWFHWa-w"
+          },
+          {
+            "topic": "Machine Learning / Deep Learning as applications (applied)",
+            "url": "https://www.youtube.com/watch?v=aircAruvnKk"
+          }
         ]
       }
     ],
     "capstone": "Produce a mathematical modeling portfolio: one proof-based analysis, one continuous model, one probabilistic/statistical model and one optimization problem. Validate numerically and explain assumptions, derivations and limitations.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 379,
     "resource_links": [
       {
         "competency": "Proof, logic & mathematical reasoning",
@@ -158,7 +199,8 @@
         "coverage": "Abstract Algebra bridge",
         "url": "https://www.youtube.com/watch?v=IP7nW_hKB7I"
       }
-    ]
+    ],
+    "page": 379
   },
   {
     "name": "Comprehensive Certificate in Statistics",
@@ -174,7 +216,10 @@
           "Data Science Foundations"
         ],
         "bridges": [
-          "Calculus + Linear Algebra Prerequisites"
+          {
+            "topic": "Calculus + Linear Algebra Prerequisites",
+            "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+          }
         ]
       },
       {
@@ -185,9 +230,18 @@
           "Data Storytelling & Visualization"
         ],
         "bridges": [
-          "Statistical Inference & Uncertainty",
-          "Linear Regression / Modeling",
-          "Design of Experiments"
+          {
+            "topic": "Statistical Inference & Uncertainty",
+            "url": "https://www.youtube.com/watch?v=TqOeMYtOc1w"
+          },
+          {
+            "topic": "Linear Regression / Modeling",
+            "url": "https://www.youtube.com/watch?v=nk2CQITm_eo"
+          },
+          {
+            "topic": "Design of Experiments",
+            "url": "https://www.youtube.com/watch?v=crpuBZv6XtA"
+          }
         ]
       },
       {
@@ -198,15 +252,23 @@
           "Responsible AI & Governance"
         ],
         "bridges": [
-          "Time Series & Forecasting",
-          "Stochastic Processes",
-          "Bayesian Reasoning"
+          {
+            "topic": "Time Series & Forecasting",
+            "url": "https://www.youtube.com/watch?v=QyL4b88nLsg"
+          },
+          {
+            "topic": "Stochastic Processes",
+            "url": "https://www.youtube.com/watch?v=TuTmC8aOQJE"
+          },
+          {
+            "topic": "Bayesian Reasoning",
+            "url": "https://www.youtube.com/watch?v=HZGCoVF3YvM"
+          }
         ]
       }
     ],
     "capstone": "Design a statistically defensible study from question to decision: sampling and measurement plan, exploratory analysis, inference/modeling, uncertainty, diagnostics, sensitivity checks, causal limitations and an executive-ready data story.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 380,
     "resource_links": [
       {
         "competency": "Linear algebra / calculus + statistical computing",
@@ -238,7 +300,8 @@
         "coverage": "Bayes Theorem bridge",
         "url": "https://www.youtube.com/watch?v=TuTmC8aOQJE"
       }
-    ]
+    ],
+    "page": 380
   },
   {
     "name": "Comprehensive Certificate in Physics",
@@ -251,11 +314,26 @@
           "Mathematics for Data Science"
         ],
         "bridges": [
-          "Classical Mechanics / Newton Laws",
-          "Special Relativity",
-          "Electric & Magnetic Fields",
-          "Waves & Optics",
-          "Experimental & Computational Physics"
+          {
+            "topic": "Classical Mechanics / Newton Laws",
+            "url": "https://www.youtube.com/watch?v=kKKM8Y-u7ds"
+          },
+          {
+            "topic": "Special Relativity",
+            "url": "https://www.youtube.com/watch?v=AInCqm5nCzw"
+          },
+          {
+            "topic": "Electric & Magnetic Fields",
+            "url": "https://www.youtube.com/watch?v=8kcvyoHsXrw"
+          },
+          {
+            "topic": "Waves & Optics",
+            "url": "https://www.youtube.com/watch?v=1JeBWHzrRD4"
+          },
+          {
+            "topic": "Experimental & Computational Physics",
+            "url": "https://www.youtube.com/watch?v=4Y9OO9AepgU"
+          }
         ]
       },
       {
@@ -264,10 +342,22 @@
           "Systems Thinking"
         ],
         "bridges": [
-          "Thermodynamics & Statistical Mechanics",
-          "Quantum Physics I",
-          "Differential Equations",
-          "Fourier Methods"
+          {
+            "topic": "Thermodynamics & Statistical Mechanics",
+            "url": "https://www.youtube.com/watch?v=4RX_lpoGRBg"
+          },
+          {
+            "topic": "Quantum Physics I",
+            "url": "https://www.youtube.com/watch?v=lZ3bPUKo5zc"
+          },
+          {
+            "topic": "Differential Equations",
+            "url": "https://www.youtube.com/watch?v=p_di4Zn4wz4"
+          },
+          {
+            "topic": "Fourier Methods",
+            "url": "https://www.youtube.com/watch?v=1JeBWHzrRD4"
+          }
         ]
       },
       {
@@ -279,13 +369,15 @@
           "AI Compute, Inference & Performance Engineering"
         ],
         "bridges": [
-          "Modern / Quantum Physics II"
+          {
+            "topic": "Modern / Quantum Physics II",
+            "url": "https://www.youtube.com/watch?v=QI13S04w8dM"
+          }
         ]
       }
     ],
     "capstone": "Model a physical system analytically and computationally. Derive governing equations, estimate parameters, simulate behavior, compare predictions with measured or published data, quantify uncertainty and explain physical limits.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 381,
     "resource_links": [
       {
         "competency": "Classical mechanics",
@@ -317,7 +409,8 @@
         "coverage": "MIT OCW Junior Lab",
         "url": "https://www.youtube.com/watch?v=4Y9OO9AepgU"
       }
-    ]
+    ],
+    "page": 381
   },
   {
     "name": "Comprehensive Certificate in Electrical Engineering",
@@ -332,8 +425,14 @@
           "Engineering Design Process & Requirements"
         ],
         "bridges": [
-          "Circuits & Electronics",
-          "Digital Logic / Digital Electronics"
+          {
+            "topic": "Circuits & Electronics",
+            "url": "https://learn.mit.edu/video/13676/lecture-1-introduction-and-lumped-abstraction?playlist=13675"
+          },
+          {
+            "topic": "Digital Logic / Digital Electronics",
+            "url": "https://www.youtube.com/watch?v=2xXErGeeb_Q"
+          }
         ]
       },
       {
@@ -343,9 +442,18 @@
           "Event-Driven Architecture, Messaging & Realtime Systems"
         ],
         "bridges": [
-          "Signals & Systems",
-          "Control Systems",
-          "Electromagnetics"
+          {
+            "topic": "Signals & Systems",
+            "url": "https://www.youtube.com/watch?v=s8rsR_TStaA"
+          },
+          {
+            "topic": "Control Systems",
+            "url": "https://www.youtube.com/watch?v=HcLYoCmWOjI"
+          },
+          {
+            "topic": "Electromagnetics",
+            "url": "https://www.youtube.com/watch?v=xx8fH-r3Luk"
+          }
         ]
       },
       {
@@ -356,15 +464,23 @@
           "Systems Engineering"
         ],
         "bridges": [
-          "Communications",
-          "Semiconductor Devices / Electronics",
-          "Power / Energy Systems"
+          {
+            "topic": "Communications",
+            "url": "https://ocw.mit.edu/courses/6-450-principles-of-digital-communications-i-fall-2006/resources/lecture-1-introduction/"
+          },
+          {
+            "topic": "Semiconductor Devices / Electronics",
+            "url": "https://www.youtube.com/watch?v=7jaa1rlW7Ak"
+          },
+          {
+            "topic": "Power / Energy Systems",
+            "url": "https://www.youtube.com/watch?v=f7oXhDatwtY"
+          }
         ]
       }
     ],
     "capstone": "Design a hardware-software control system with sensing, processing, communication and actuation. Produce schematic/block architecture, timing and power budgets, firmware/software interfaces, verification plan and prototype evidence.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 382,
     "resource_links": [
       {
         "competency": "Circuits & analog electronics",
@@ -396,7 +512,8 @@
         "coverage": "Semiconductor Devices bridge",
         "url": "https://www.youtube.com/watch?v=7jaa1rlW7Ak"
       }
-    ]
+    ],
+    "page": 382
   },
   {
     "name": "Comprehensive Certificate in Mechanical Engineering",
@@ -411,8 +528,14 @@
           "CAD, Prototyping & Design Validation"
         ],
         "bridges": [
-          "Statics & Mechanics of Materials",
-          "Dynamics"
+          {
+            "topic": "Statics & Mechanics of Materials",
+            "url": "https://www.youtube.com/watch?v=aQf6Q8t1FQE"
+          },
+          {
+            "topic": "Dynamics",
+            "url": "https://www.youtube.com/watch?v=GUvoVvXwoOQ"
+          }
         ]
       },
       {
@@ -422,9 +545,18 @@
           "Systems Engineering"
         ],
         "bridges": [
-          "Thermodynamics",
-          "Fluid Mechanics",
-          "Heat Transfer"
+          {
+            "topic": "Thermodynamics",
+            "url": "https://www.youtube.com/watch?v=4i1MUWJoI0U"
+          },
+          {
+            "topic": "Fluid Mechanics",
+            "url": "https://www.youtube.com/watch?v=fJefjG3xhW0"
+          },
+          {
+            "topic": "Heat Transfer",
+            "url": "https://www.youtube.com/watch?v=YK7G6l_K6sA"
+          }
         ]
       },
       {
@@ -437,13 +569,15 @@
           "Operational Excellence Analytics: Root Cause, SPC & Process"
         ],
         "bridges": [
-          "Controls / Mechatronics"
+          {
+            "topic": "Controls / Mechatronics",
+            "url": "https://www.youtube.com/watch?v=HcLYoCmWOjI"
+          }
         ]
       }
     ],
     "capstone": "Design a mechanical or mechatronic product from requirements through CAD/analysis, free-body and dynamics reasoning, thermal-fluid checks, tolerance stack, materials/manufacturing plan, reliability analysis and prototype test plan.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 383,
     "resource_links": [
       {
         "competency": "Statics, mechanics & materials",
@@ -475,7 +609,8 @@
         "coverage": "Advanced Mechanical Design Analysis",
         "url": "https://www.youtube.com/watch?v=G7wnGeR_69k"
       }
-    ]
+    ],
+    "page": 383
   },
   {
     "name": "Comprehensive Certificate in Chemical Engineering",
@@ -490,19 +625,40 @@
           "Systems Thinking"
         ],
         "bridges": [
-          "Chemistry / Physics Foundations",
-          "Material & Energy Balances"
+          {
+            "topic": "Chemistry / Physics Foundations",
+            "url": "https://www.youtube.com/watch?v=FSyAehMdpyI"
+          },
+          {
+            "topic": "Material & Energy Balances",
+            "url": "https://www.youtube.com/watch?v=10qbOTikL1k"
+          }
         ]
       },
       {
         "tier": "INTERMEDIATE CORE",
         "courses": [],
         "bridges": [
-          "Chemical Engineering Thermodynamics",
-          "Fluid / Heat / Mass Transport",
-          "Reaction Engineering / Kinetics",
-          "Separations - McCabe-Thiele",
-          "Process Control - PID"
+          {
+            "topic": "Chemical Engineering Thermodynamics",
+            "url": "https://www.youtube.com/watch?v=UMs9GIrY4dw"
+          },
+          {
+            "topic": "Fluid / Heat / Mass Transport",
+            "url": "https://www.youtube.com/watch?v=NwOZ1tSe9hs"
+          },
+          {
+            "topic": "Reaction Engineering / Kinetics",
+            "url": "https://www.youtube.com/watch?v=DGNw4S7MtZs"
+          },
+          {
+            "topic": "Separations - McCabe-Thiele",
+            "url": "https://www.youtube.com/watch?v=rlg-ptQMAsg"
+          },
+          {
+            "topic": "Process Control - PID",
+            "url": "https://www.youtube.com/watch?v=hhV0zf2sKeQ"
+          }
         ]
       },
       {
@@ -514,13 +670,15 @@
           "Program, Risk, Dependency & Vendor Management"
         ],
         "bridges": [
-          "Process Safety / HAZOP"
+          {
+            "topic": "Process Safety / HAZOP",
+            "url": "https://www.youtube.com/watch?v=QT49PASYob0"
+          }
         ]
       }
     ],
     "capstone": "Complete a conceptual process design: material/energy balances, process flow, unit-operation rationale, thermo/transport/reaction assumptions, separation strategy, control and safety philosophy, economics, risk review and improvement plan.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 384,
     "resource_links": [
       {
         "competency": "Material & energy balances",
@@ -552,7 +710,8 @@
         "coverage": "HAZOP / Process Safety bridge",
         "url": "https://www.youtube.com/watch?v=QT49PASYob0"
       }
-    ]
+    ],
+    "page": 384
   },
   {
     "name": "Comprehensive Certificate in Industrial Engineering",
@@ -569,7 +728,10 @@
           "Systems Thinking"
         ],
         "bridges": [
-          "Linear Programming / Optimization"
+          {
+            "topic": "Linear Programming / Optimization",
+            "url": "https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-programming/v/introduction-to-linear-programming"
+          }
         ]
       },
       {
@@ -581,8 +743,14 @@
           "Financial Modeling, Business Cases & Unit Economics"
         ],
         "bridges": [
-          "Stochastic Models / Queueing",
-          "Simulation / Monte Carlo"
+          {
+            "topic": "Stochastic Models / Queueing",
+            "url": "https://www.youtube.com/watch?v=4H9dMn919cs"
+          },
+          {
+            "topic": "Simulation / Monte Carlo",
+            "url": "https://live.ocw.mit.edu/courses/ids-333-risk-and-decision-analysis-fall-2021/resources/unit-5-simulation-video-1/"
+          }
         ]
       },
       {
@@ -594,14 +762,19 @@
           "Negotiation & Stakeholder Management"
         ],
         "bridges": [
-          "Supply Chain & Logistics Systems",
-          "Human Factors / Ergonomics"
+          {
+            "topic": "Supply Chain & Logistics Systems",
+            "url": "https://ocw.mit.edu/courses/16-660j-introduction-to-lean-six-sigma-methods-january-iap-2012/resources/lean-supply-chain-basics/"
+          },
+          {
+            "topic": "Human Factors / Ergonomics",
+            "url": "https://www.youtube.com/watch?v=m4f81ZS19v8"
+          }
         ]
       }
     ],
     "capstone": "Diagnose and redesign a real operation: demand/capacity model, process map, bottleneck analysis, quality/SPC, simulation or optimization model, human-factor risks, economics, implementation roadmap and control plan.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 385,
     "resource_links": [
       {
         "competency": "Probability & statistics",
@@ -633,7 +806,8 @@
         "coverage": "MIT Lean Supply Chain",
         "url": null
       }
-    ]
+    ],
+    "page": 385
   },
   {
     "name": "Comprehensive Certificate in Computer Engineering",
@@ -649,8 +823,14 @@
           "Linux, Operating Systems & Networking Foundations"
         ],
         "bridges": [
-          "Circuits & Electronics",
-          "Digital Logic"
+          {
+            "topic": "Circuits & Electronics",
+            "url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/resources/lecture-1/"
+          },
+          {
+            "topic": "Digital Logic",
+            "url": "https://www.youtube.com/watch?v=2xXErGeeb_Q"
+          }
         ]
       },
       {
@@ -661,9 +841,18 @@
           "Systems Engineering"
         ],
         "bridges": [
-          "Computer Architecture",
-          "Embedded / Real-Time Systems",
-          "Signals & Systems"
+          {
+            "topic": "Computer Architecture",
+            "url": "https://www.youtube.com/watch?v=FZGugFqdr60"
+          },
+          {
+            "topic": "Embedded / Real-Time Systems",
+            "url": "https://www.youtube.com/watch?v=uFhDGagZzjs"
+          },
+          {
+            "topic": "Signals & Systems",
+            "url": "https://www.youtube.com/watch?v=s8rsR_TStaA"
+          }
         ]
       },
       {
@@ -676,13 +865,15 @@
           "Cybersecurity"
         ],
         "bridges": [
-          "FPGA / RTL Concepts"
+          {
+            "topic": "FPGA / RTL Concepts",
+            "url": "https://www.youtube.com/watch?v=lLg1AgA2Xoo"
+          }
         ]
       }
     ],
     "capstone": "Build a hardware-software co-design prototype: compute platform, I/O/sensors, firmware or systems software, network interface, performance/power measurements, verification evidence and system-integration review.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 386,
     "resource_links": [
       {
         "competency": "Circuits & electronics",
@@ -714,7 +905,8 @@
         "coverage": "FPGA bridge",
         "url": "https://www.youtube.com/watch?v=lLg1AgA2Xoo"
       }
-    ]
+    ],
+    "page": 386
   },
   {
     "name": "Comprehensive Certificate in Systems Engineering",
@@ -730,8 +922,14 @@
           "Statistics & Probability"
         ],
         "bridges": [
-          "Systems Engineering Lifecycle Overview",
-          "Decision Analysis / Optimization"
+          {
+            "topic": "Systems Engineering Lifecycle Overview",
+            "url": "https://www.youtube.com/watch?v=pSfZutP9H-U"
+          },
+          {
+            "topic": "Decision Analysis / Optimization",
+            "url": "https://live.ocw.mit.edu/courses/ids-333-risk-and-decision-analysis-fall-2021/resources/unit-5-simulation-video-1/"
+          }
         ]
       },
       {
@@ -743,8 +941,14 @@
           "Program, Risk, Dependency & Vendor Management"
         ],
         "bridges": [
-          "MBSE / SysML & Digital Thread",
-          "Modeling & Simulation"
+          {
+            "topic": "MBSE / SysML & Digital Thread",
+            "url": "https://www.youtube.com/watch?v=Cqf-CJR0n1U"
+          },
+          {
+            "topic": "Modeling & Simulation",
+            "url": "https://live.ocw.mit.edu/courses/ids-333-risk-and-decision-analysis-fall-2021/resources/unit-5-simulation-video-1/"
+          }
         ]
       },
       {
@@ -756,14 +960,19 @@
           "Robotic Systems"
         ],
         "bridges": [
-          "Reliability / FMEA / Uncertainty",
-          "Verification & Validation"
+          {
+            "topic": "Reliability / FMEA / Uncertainty",
+            "url": "https://www.youtube.com/watch?v=aQwhHTKl8M4"
+          },
+          {
+            "topic": "Verification & Validation",
+            "url": "https://www.youtube.com/watch?v=-63JXElqPaY"
+          }
         ]
       }
     ],
     "capstone": "Produce a full lifecycle system package: CONOPS, stakeholder needs, traceable requirements, architecture/MBSE views, interface map, decision/trade study, risk/FMEA, integration plan, V&V matrix and operational readiness review.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 387,
     "resource_links": [
       {
         "competency": "Stakeholder needs, requirements & lifecycle",
@@ -795,7 +1004,8 @@
         "coverage": "Systems Engineering V&V",
         "url": "https://www.youtube.com/watch?v=-63JXElqPaY"
       }
-    ]
+    ],
+    "page": 387
   },
   {
     "name": "Comprehensive Certificate in Writing & Reading",
@@ -806,11 +1016,26 @@
         "tier": "FOUNDATIONS / INTRODUCTION",
         "courses": [],
         "bridges": [
-          "Close Reading & Textual Evidence",
-          "Academic Composition / Argument & Evidence",
-          "Poetry & Poetics",
-          "Narrative & Narrative Theory",
-          "Literary History / World Anglophone Reading"
+          {
+            "topic": "Close Reading & Textual Evidence",
+            "url": "https://www.youtube.com/watch?v=J2KHX1Pm5co"
+          },
+          {
+            "topic": "Academic Composition / Argument & Evidence",
+            "url": "https://www.youtube.com/watch?v=3gdMJ19QqRc"
+          },
+          {
+            "topic": "Poetry & Poetics",
+            "url": "https://www.youtube.com/watch?v=ykk1JVufvE8"
+          },
+          {
+            "topic": "Narrative & Narrative Theory",
+            "url": "https://www.youtube.com/watch?v=11_oVlwfv2M"
+          },
+          {
+            "topic": "Literary History / World Anglophone Reading",
+            "url": "https://www.youtube.com/watch?v=TyVAU5iGe0k"
+          }
         ]
       },
       {
@@ -821,9 +1046,18 @@
           "Content Creation"
         ],
         "bridges": [
-          "Research Methods, Sources & Citation",
-          "Critical / Literary Methodology",
-          "Creative Writing & Revision"
+          {
+            "topic": "Research Methods, Sources & Citation",
+            "url": "https://www.youtube.com/watch?v=3gdMJ19QqRc"
+          },
+          {
+            "topic": "Critical / Literary Methodology",
+            "url": "https://www.youtube.com/watch?v=47YyqXdrIhU"
+          },
+          {
+            "topic": "Creative Writing & Revision",
+            "url": "https://www.youtube.com/watch?v=vtIzMaLkCaM"
+          }
         ]
       },
       {
@@ -836,13 +1070,15 @@
           "Negotiation & Stakeholder Management"
         ],
         "bridges": [
-          "Historical Breadth: Medieval -> Contemporary"
+          {
+            "topic": "Historical Breadth: Medieval -> Contemporary",
+            "url": "https://oyc.yale.edu/english/engl-291/lecture-1"
+          }
         ]
       }
     ],
     "capstone": "Create a reading-and-writing portfolio: annotated close reading, poetry or narrative analysis, historically contextualized essay, research synthesis with sources, creative piece, technical/executive memo and five-minute speech. Revise with structured feedback.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 388,
     "resource_links": [
       {
         "competency": "Close reading & textual evidence",
@@ -874,6 +1110,7 @@
         "coverage": "UChicago - Writing Effectively",
         "url": "https://www.youtube.com/watch?v=vtIzMaLkCaM"
       }
-    ]
+    ],
+    "page": 388
   }
 ]
