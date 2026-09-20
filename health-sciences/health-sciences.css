@@ -1,0 +1,341 @@
+/* Zuyini Health Sciences Academy - matches the dark / gold branding of the main site. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #151617;
+  color: white;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 34px;
+  background-color: #151617;
+  border-bottom: 1px solid #262626;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.logo-mark {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background-color: #ffc629;
+  color: #151617;
+  text-align: center;
+  line-height: 34px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.nav-links a {
+  margin-left: 28px;
+  color: #d7d7d7;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-links a:hover {
+  color: #ffc629;
+}
+
+.academy-hero {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 48px 34px 28px;
+  text-align: center;
+}
+
+.section-label {
+  color: #ffc629;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0 0 12px;
+}
+
+.academy-hero h1 {
+  font-size: 30px;
+  margin: 0 0 14px;
+}
+
+.hero-description {
+  color: #b9b9b9;
+  font-size: 15px;
+  margin: 0;
+}
+
+.app-shell {
+  display: flex;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 34px 60px;
+  gap: 28px;
+  align-items: flex-start;
+}
+
+.role-panel {
+  width: 320px;
+  flex-shrink: 0;
+  background-color: #1c1d1e;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  padding: 18px;
+  position: sticky;
+  top: 20px;
+  max-height: calc(100vh - 40px);
+  display: flex;
+  flex-direction: column;
+}
+
+.category-select {
+  width: 100%;
+  padding: 10px 12px;
+  background-color: #151617;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.category-select:focus {
+  outline: none;
+  border-color: #ffc629;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 12px 14px;
+  background-color: #151617;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: #ffc629;
+}
+
+.role-count {
+  color: #8a8a8a;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 14px 0 8px;
+}
+
+.role-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.role-list li {
+  padding: 10px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #d7d7d7;
+}
+
+.role-list li:hover {
+  background-color: #26272a;
+}
+
+.role-list li.active {
+  background-color: #ffc629;
+  color: #151617;
+  font-weight: bold;
+}
+
+.role-list li .no-match {
+  color: #666;
+}
+
+.role-detail {
+  flex: 1;
+  min-width: 0;
+}
+
+.empty-state {
+  background-color: #1c1d1e;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  padding: 60px 40px;
+  text-align: center;
+  color: #b9b9b9;
+}
+
+.empty-state h2 {
+  color: white;
+  margin-top: 0;
+}
+
+.detail-card {
+  background-color: #1c1d1e;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.detail-card h2 {
+  font-size: 28px;
+  margin: 0 0 8px;
+}
+
+.topic-phase {
+  display: inline-block;
+  color: #ffc629;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin: 0 0 20px;
+  padding: 5px 12px;
+  border: 1px solid rgba(255, 198, 41, 0.35);
+  border-radius: 999px;
+  background: rgba(255, 198, 41, 0.06);
+}
+
+.hsa-section {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #2a2a2a;
+}
+
+.hsa-section:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.hsa-section h3 {
+  color: #ffc629;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 12px;
+}
+
+.hsa-paragraph {
+  color: #d7d7d7;
+  font-size: 14.5px;
+  margin: 0;
+}
+
+.hsa-bullets {
+  margin: 0;
+  padding-left: 22px;
+  color: #d7d7d7;
+  font-size: 14.5px;
+}
+
+.hsa-bullets li {
+  margin-bottom: 8px;
+}
+
+.hsa-table-wrap {
+  overflow-x: auto;
+}
+
+.hsa-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+
+.hsa-table th {
+  text-align: left;
+  color: #ffc629;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  padding: 8px 12px;
+  border-bottom: 1px solid #333;
+  white-space: nowrap;
+}
+
+.hsa-table td {
+  color: #d7d7d7;
+  padding: 10px 12px;
+  border-bottom: 1px solid #232426;
+  vertical-align: top;
+}
+
+.hsa-table tr:last-child td {
+  border-bottom: none;
+}
+
+.hsa-table td a {
+  color: #ffc629;
+  text-decoration: none;
+}
+
+.hsa-table td a:hover {
+  text-decoration: underline;
+}
+
+.back-link {
+  display: inline-block;
+  background: none;
+  border: none;
+  color: #ffc629;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  color: #6f6f6f;
+  font-size: 12px;
+  border-top: 1px solid #262626;
+}
+
+@media (max-width: 860px) {
+  .app-shell {
+    flex-direction: column;
+  }
+
+  .role-panel {
+    width: 100%;
+    position: static;
+    max-height: 320px;
+  }
+}

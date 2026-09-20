@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zuyini Health Sciences Academy</title>
+  <link rel="stylesheet" href="health-sciences.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="../index.html" class="logo">
+      <span class="logo-mark">Z</span>
+      <span>Zuyini Health Sciences Academy</span>
+    </a>
+    <nav class="nav-links">
+      <a href="../academy/index.html">Zuyini Academy</a>
+      <a href="../index.html">Main Site</a>
+    </nav>
+  </header>
+
+  <section class="academy-hero">
+    <p class="section-label">Medical School MD + DO Mastery</p>
+    <h1>A 4-year, board-aligned study system for medical school and licensing exams.</h1>
+    <p class="hero-description">Walk the full Year 1&ndash;4 curriculum &mdash; foundational sciences, organ-system blocks, clinical clerkships and advanced practice &mdash; each with mastery checklists and linked learning resources, plus a dedicated review system for school exams, Shelf/COMAT, USMLE Step 1&ndash;3 and COMLEX-USA Levels 1&ndash;3.</p>
+  </section>
+
+  <main class="app-shell">
+    <aside class="role-panel">
+      <select id="category-select" class="category-select"></select>
+      <div class="search-box">
+        <input id="search-input" type="text" placeholder="Search topics, e.g. Anatomy, Step 1, Clerkship..." autocomplete="off" />
+      </div>
+      <p class="role-count"><span id="topic-count-num">74</span> <span>topics</span></p>
+      <ul id="topic-list" class="role-list"></ul>
+    </aside>
+
+    <section class="role-detail" id="topic-detail">
+      <div class="empty-state">
+        <h2>Choose a topic to open it</h2>
+        <p>Browse by curriculum year and review-system stage on the left, or search across all 74 topics.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Zuyini Health Sciences Academy. Built by Manny Ogbeide.</p>
+  </footer>
+
+  <script src="data/data.js"></script>
+  <script src="health-sciences.js"></script>
+</body>
+</html>
