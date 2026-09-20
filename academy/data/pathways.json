@@ -40,7 +40,153 @@
       "AI & Agent Governance and Safety",
       "Autonomous Systems"
     ],
-    "page": 23
+    "page": 23,
+    "capability_resources": [
+      {
+        "label": "Foundation models, LLMs & generative AI — BASIC",
+        "title": "Transformers",
+        "channel": "3Blue1Brown",
+        "url": "https://www.youtube.com/watch?v=wjZofJX0v4M"
+      },
+      {
+        "label": "Foundation models, LLMs & generative AI — INTERMEDIATE",
+        "title": "Intro to LLMs",
+        "channel": "Karpathy",
+        "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g"
+      },
+      {
+        "label": "Foundation models, LLMs & generative AI — ADVANCED",
+        "title": "Build GPT from Scratch",
+        "channel": "Karpathy",
+        "url": "https://www.youtube.com/watch?v=kCc8FmEb1nY"
+      },
+      {
+        "label": "Prompt/context engineering & structured outputs — BASIC",
+        "title": "Prompt Engineering",
+        "channel": "OpenAI Academy",
+        "url": "https://academy.openai.com/public/videos/introduction-to-prompt-engineering-2025-02-13"
+      },
+      {
+        "label": "Prompt/context engineering & structured outputs — INTERMEDIATE",
+        "title": "Agents, Prompts & RAG",
+        "channel": "Stanford CS230",
+        "url": "https://www.youtube.com/watch?v=k1njvbBmfsw"
+      },
+      {
+        "label": "Prompt/context engineering & structured outputs — ADVANCED",
+        "title": "Structured Outputs Build Hour",
+        "channel": "OpenAI Academy",
+        "url": "https://academy.openai.com/en/public/videos/structured-outputs-build-hour-2025-02-07"
+      },
+      {
+        "label": "Search, embeddings & grounded RAG — BASIC",
+        "title": "RAG Explained",
+        "channel": "IBM Technology",
+        "url": "https://www.youtube.com/watch?v=T-D1OfcDW1M"
+      },
+      {
+        "label": "Search, embeddings & grounded RAG — INTERMEDIATE",
+        "title": "RAG From Scratch",
+        "channel": "Lance Martin",
+        "url": "https://www.youtube.com/watch?v=sVcwVQRHIc8"
+      },
+      {
+        "label": "Search, embeddings & grounded RAG — ADVANCED",
+        "title": "Advanced RAG Deep Dive",
+        "channel": "Microsoft Reactor",
+        "url": "https://reactor.microsoft.com/en-us/reactor/events/26775/"
+      },
+      {
+        "label": "Agents, tools, MCP & orchestration — BASIC",
+        "title": "Agentic Workflows",
+        "channel": "OpenAI Academy",
+        "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/unlock-agentic-power-with-the-agents-sdk"
+      },
+      {
+        "label": "Agents, tools, MCP & orchestration — INTERMEDIATE",
+        "title": "Building Effective Agents",
+        "channel": "Anthropic",
+        "url": "https://www.youtube.com/watch?v=uhJJgc-0iTQ"
+      },
+      {
+        "label": "Agents, tools, MCP & orchestration — ADVANCED",
+        "title": "Reliable Agent Architectures",
+        "channel": "OpenAI Academy",
+        "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-designing-reliable-agent-architectures-2025-12-11"
+      },
+      {
+        "label": "Evaluation, observability & failure analysis — BASIC",
+        "title": "Evaluating LLM Apps",
+        "channel": "OpenAI Academy",
+        "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-building-applications-with-evaluations"
+      },
+      {
+        "label": "Evaluation, observability & failure analysis — INTERMEDIATE",
+        "title": "Practical Eval Systems",
+        "channel": "OpenAI Academy",
+        "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11"
+      },
+      {
+        "label": "Evaluation, observability & failure analysis — ADVANCED",
+        "title": "Monitor + Evaluate Agents",
+        "channel": "Microsoft Reactor",
+        "url": "https://developer.microsoft.com/en-us/reactor/events/26690/"
+      },
+      {
+        "label": "Security, red teaming & governance — BASIC",
+        "title": "AI Red Teaming 101",
+        "channel": "Microsoft",
+        "url": "https://www.youtube.com/watch?v=DabrWAKNQZc"
+      },
+      {
+        "label": "Security, red teaming & governance — INTERMEDIATE",
+        "title": "Automate with PyRIT",
+        "channel": "Microsoft",
+        "url": "https://www.youtube.com/watch?v=cEHTxmpAgjA"
+      },
+      {
+        "label": "Security, red teaming & governance — ADVANCED",
+        "title": "Zero Trust for AI Agents",
+        "channel": "IBM Technology",
+        "url": "https://www.youtube.com/watch?v=d8d9EZHU7fw"
+      },
+      {
+        "label": "LLMOps, serving & AI platform operations — BASIC",
+        "title": "LLMOps Explained",
+        "channel": "IBM Technology",
+        "url": "https://www.youtube.com/watch?v=cvPEiPt7HXo"
+      },
+      {
+        "label": "LLMOps, serving & AI platform operations — INTERMEDIATE",
+        "title": "Deploy Models with NIM",
+        "channel": "NVIDIA Developer",
+        "url": "https://www.youtube.com/watch?v=s-5el_YillY"
+      },
+      {
+        "label": "LLMOps, serving & AI platform operations — ADVANCED",
+        "title": "TensorRT-LLM Optimization",
+        "channel": "NVIDIA Developer",
+        "url": "https://www.youtube.com/watch?v=c8_hnLSXSCs"
+      },
+      {
+        "label": "Model/provider selection, use-case scoping & AI value — BASIC",
+        "title": "Foundation Models & Value",
+        "channel": "IBM Technology",
+        "url": "https://www.youtube.com/watch?v=1JzMSbcInxc"
+      },
+      {
+        "label": "Model/provider selection, use-case scoping & AI value — INTERMEDIATE",
+        "title": "Pick the Right Model 29. AI Mastery",
+        "channel": "IBM Technology",
+        "url": "https://www.youtube.com/watch?v=pePAAGfh-IU"
+      },
+      {
+        "label": "Model/provider selection, use-case scoping & AI value — ADVANCED",
+        "title": "Use-Case Discovery & Scoping",
+        "channel": "OpenAI Academy",
+        "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11"
+      }
+    ]
   },
   {
     "name": "AI Product, Strategy & Enterprise Transformation",
@@ -88,7 +234,153 @@
       "Product Evangelist ->",
       "Software Product Manager"
     ],
-    "page": 70
+    "page": 70,
+    "capability_resources": [
+      {
+        "label": "Customer discovery & opportunity framing — BASIC",
+        "title": "Modern Product Discovery",
+        "channel": "Teresa Torres",
+        "url": "https://www.youtube.com/watch?v=aWQUSiOZ0x8"
+      },
+      {
+        "label": "Customer discovery & opportunity framing — INTERMEDIATE",
+        "title": "How to Talk to Users",
+        "channel": "Y Combinator",
+        "url": "https://www.youtube.com/watch?v=z1iF1c8w5Lg"
+      },
+      {
+        "label": "Customer discovery & opportunity framing — ADVANCED",
+        "title": "Continuous Product Discovery",
+        "channel": "Teresa Torres / ProdPad",
+        "url": "https://www.prodpad.com/webinars/continuous-product-discovery/"
+      },
+      {
+        "label": "Strategy, roadmaps & portfolio choices — BASIC",
+        "title": "Build a Product Roadmap",
+        "channel": "Product School",
+        "url": "https://www.youtube.com/watch?v=fi4Br8RiPqk"
+      },
+      {
+        "label": "Strategy, roadmaps & portfolio choices — INTERMEDIATE",
+        "title": "Outcome-Oriented Roadmaps",
+        "channel": "Product School",
+        "url": "https://www.youtube.com/watch?v=nGjhd-OCctU"
+      },
+      {
+        "label": "Strategy, roadmaps & portfolio choices — ADVANCED",
+        "title": "Good Strategy / Bad Strategy",
+        "channel": "Richard Rumelt",
+        "url": "https://www.youtube.com/watch?v=UZrTl16hZdk"
+      },
+      {
+        "label": "AI economics, business cases & monetization — BASIC",
+        "title": "When NOT to Use AI",
+        "channel": "IBM Technology",
+        "url": "https://www.youtube.com/watch?v=_ZqSFVi6UDY"
+      },
+      {
+        "label": "AI economics, business cases & monetization — INTERMEDIATE",
+        "title": "Use-Case Discovery & Scoping",
+        "channel": "OpenAI Academy",
+        "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11"
+      },
+      {
+        "label": "AI economics, business cases & monetization — ADVANCED",
+        "title": "FinOps for AI",
+        "channel": "AWS Events",
+        "url": "https://www.youtube.com/watch?v=ycQqUcKMlvc"
+      },
+      {
+        "label": "Metrics, experimentation & outcome measurement — BASIC",
+        "title": "Product Strategy Metrics",
+        "channel": "Reforge",
+        "url": "https://www.youtube.com/watch?v=4_2s9PMSzaE"
+      },
+      {
+        "label": "Metrics, experimentation & outcome measurement — INTERMEDIATE",
+        "title": "Funnels, Cohorts & Retention",
+        "channel": "Amplitude",
+        "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw"
+      },
+      {
+        "label": "Metrics, experimentation & outcome measurement — ADVANCED",
+        "title": "Online Controlled Experiments",
+        "channel": "ACM / Ron Kohavi",
+        "url": "https://www.youtube.com/watch?v=ZfhQ-fIg4EU"
+      },
+      {
+        "label": "Technical architecture, APIs & data/platform fluency — BASIC",
+        "title": "Single Server to Scale",
+        "channel": "System Design",
+        "url": "https://www.youtube.com/watch?v=olfaBgJrUBI"
+      },
+      {
+        "label": "Technical architecture, APIs & data/platform fluency — INTERMEDIATE",
+        "title": "Event-Driven Architecture",
+        "channel": "Confluent",
+        "url": "https://www.youtube.com/watch?v=J-kKR3omk-g"
+      },
+      {
+        "label": "Technical architecture, APIs & data/platform fluency — ADVANCED",
+        "title": "Design a Payment System",
+        "channel": "ByteByteGo",
+        "url": "https://www.youtube.com/watch?v=FxAom29OEKE"
+      },
+      {
+        "label": "Enterprise transformation & operating-model change — BASIC",
+        "title": "Enterprise AI Playbook",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/watch?v=ocyFONwoJQg"
+      },
+      {
+        "label": "Enterprise transformation & operating-model change — INTERMEDIATE",
+        "title": "Scaling AI with Confidence",
+        "channel": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2026/04/01/scaling-ai-with-confidence-how-leaders-are-using-ai-to-drive-enterprise-transformation/"
+      },
+      {
+        "label": "Enterprise transformation & operating-model change — ADVANCED",
+        "title": "9 AI Strategy Mistakes",
+        "channel": "MIT Sloan Management Review",
+        "url": "https://www.youtube.com/watch?v=nHXahonlIBM"
+      },
+      {
+        "label": "GTM, pricing & launch execution — BASIC",
+        "title": "Go-to-Market Strategy",
+        "channel": "Product School / Microsoft",
+        "url": "https://www.youtube.com/watch?v=HOKSeMHVwro"
+      },
+      {
+        "label": "GTM, pricing & launch execution — INTERMEDIATE",
+        "title": "Influencing Pricing",
+        "channel": "Product Marketing Alliance",
+        "url": "https://www.productmarketingalliance.com/product-marketers-influence-pricing-video/"
+      },
+      {
+        "label": "GTM, pricing & launch execution — ADVANCED",
+        "title": "Product Launch Checklist",
+        "channel": "GTM Alliance",
+        "url": "https://www.gotomarketalliance.com/get-to-market-with-the-product-launch-checklist-video/"
+      },
+      {
+        "label": "Responsible AI, risk & governance — BASIC",
+        "title": "AI RMF Explainer",
+        "channel": "NIST",
+        "url": "https://www.nist.gov/video/introduction-nist-ai-risk-management-framework-ai-rmf-10-explainer-video"
+      },
+      {
+        "label": "Responsible AI, risk & governance — INTERMEDIATE",
+        "title": "Responsible AI Standard",
+        "channel": "Microsoft",
+        "url": "https://www.youtube.com/watch?v=lkIlsgrIMtU"
+      },
+      {
+        "label": "Responsible AI, risk & governance — ADVANCED",
+        "title": "AI RMF Playbook",
+        "channel": "NIST",
+        "url": "https://www.nist.gov/video/ai-risk-management-framework-playbook"
+      }
+    ]
   },
   {
     "name": "Software & Application Engineering",
@@ -126,7 +418,189 @@
       "CI/CD, Release Engineering & Developer Operations",
       "Event-Driven Architecture, Messaging & Realtime Systems"
     ],
-    "page": 111
+    "page": 111,
+    "capability_resources": [
+      {
+        "label": "Programming fundamentals, algorithms & complexity — BASIC",
+        "title": "Functions + Variables",
+        "channel": "Harvard CS50P",
+        "url": "https://cs50.harvard.edu/python/weeks/0/"
+      },
+      {
+        "label": "Programming fundamentals, algorithms & complexity — INTERMEDIATE",
+        "title": "Algorithms",
+        "channel": "Harvard CS50x",
+        "url": "https://cs50.harvard.edu/x/weeks/3/"
+      },
+      {
+        "label": "Programming fundamentals, algorithms & complexity — ADVANCED",
+        "title": "Computational Complexity",
+        "channel": "MIT 6.006",
+        "url": "https://learn.mit.edu/video/7099/lecture-19-complexity?playlist=7071"
+      },
+      {
+        "label": "Software design, patterns & maintainability — BASIC",
+        "title": "Object-Oriented Programming",
+        "channel": "Harvard CS50P",
+        "url": "https://cs50.harvard.edu/python/weeks/8/"
+      },
+      {
+        "label": "Software design, patterns & maintainability — INTERMEDIATE",
+        "title": "Design Patterns in Plain English",
+        "channel": "Mosh",
+        "url": "https://www.youtube.com/watch?v=NU_1StN5Tkk"
+      },
+      {
+        "label": "Software design, patterns & maintainability — ADVANCED",
+        "title": "Refactoring: Design Evolution",
+        "channel": "Martin Fowler",
+        "url": "https://www.youtube.com/watch?v=CjCJ76oZXTE"
+      },
+      {
+        "label": "Frontend web engineering: JS, TS, React & Next.js — BASIC",
+        "title": "What is React?",
+        "channel": "Microsoft",
+        "url": "https://learn.microsoft.com/en-us/shows/web-wednesday/what-is-react"
+      },
+      {
+        "label": "Frontend web engineering: JS, TS, React & Next.js — INTERMEDIATE",
+        "title": "TypeScript Crash Course",
+        "channel": "Microsoft / Matt Pocock",
+        "url": "https://learn.microsoft.com/en-us/shows/vs-code-livestreams/typescript-crash-course-with-matt-pocock"
+      },
+      {
+        "label": "Frontend web engineering: JS, TS, React & Next.js — ADVANCED",
+        "title": "React Server Components + SSR",
+        "channel": "Vercel",
+        "url": "https://www.youtube.com/watch?v=1V0dnClvOH0"
+      },
+      {
+        "label": "Backend APIs, Node.js & full-stack services — BASIC",
+        "title": "What is a REST API?",
+        "channel": "IBM Technology",
+        "url": "https://www.youtube.com/watch?v=lsMQRaeKNDk"
+      },
+      {
+        "label": "Backend APIs, Node.js & full-stack services — INTERMEDIATE",
+        "title": "Node.js + Express Web API",
+        "channel": "Microsoft",
+        "url": "https://learn.microsoft.com/en-us/shows/beginners-series-to-nodejs/how-to-create-a-web-api-with-nodejs-and-express-17-of-26"
+      },
+      {
+        "label": "Backend APIs, Node.js & full-stack services — ADVANCED",
+        "title": "Scalability + Security",
+        "channel": "Harvard CS50 Web",
+        "url": "https://cs50.harvard.edu/web/weeks/8/"
+      },
+      {
+        "label": "Databases, persistence & data modeling — BASIC",
+        "title": "PostgreSQL Full Tutorial",
+        "channel": "freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk"
+      },
+      {
+        "label": "Databases, persistence & data modeling — INTERMEDIATE",
+        "title": "Query Processing",
+        "channel": "CMU Database Group",
+        "url": "https://www.youtube.com/watch?v=vmI72W-vgYI"
+      },
+      {
+        "label": "Databases, persistence & data modeling — ADVANCED",
+        "title": "Concurrency Control",
+        "channel": "CMU Database Group",
+        "url": "https://www.youtube.com/watch?v=x8ZoOfvVlwE"
+      },
+      {
+        "label": "Testing & quality engineering — BASIC",
+        "title": "Unit Tests",
+        "channel": "Harvard CS50P",
+        "url": "https://cs50.harvard.edu/python/weeks/5/"
+      },
+      {
+        "label": "Testing & quality engineering — INTERMEDIATE",
+        "title": "Playwright End-to-End Testing",
+        "channel": "Microsoft",
+        "url": "https://learn.microsoft.com/en-us/shows/getting-started-with-end-to-end-testing-with-playwright/"
+      },
+      {
+        "label": "Testing & quality engineering — ADVANCED",
+        "title": "Contract Testing for Services",
+        "channel": "PactFlow",
+        "url": "https://www.youtube.com/watch?v=IetyhDr48RI"
+      },
+      {
+        "label": "System design, event-driven & realtime systems — BASIC",
+        "title": "Event-Driven Architecture Patterns",
+        "channel": "Confluent",
+        "url": "https://www.youtube.com/watch?v=J-kKR3omk-g"
+      },
+      {
+        "label": "System design, event-driven & realtime systems — INTERMEDIATE",
+        "title": "Distributed Systems - Lecture 1",
+        "channel": "MIT 6.824",
+        "url": "https://www.youtube.com/watch?v=cQP8WApzIQQ"
+      },
+      {
+        "label": "System design, event-driven & realtime systems — ADVANCED",
+        "title": "Distributed Event-Driven Apps",
+        "channel": "GOTO / AWS",
+        "url": "https://www.youtube.com/watch?v=9StQpMLC-5Q"
+      },
+      {
+        "label": "CI/CD, release engineering & developer operations — BASIC",
+        "title": "GitHub Actions Fundamentals",
+        "channel": "Microsoft",
+        "url": "https://learn.microsoft.com/en-us/shows/visual-studio-toolbox/github-actions"
+      },
+      {
+        "label": "CI/CD, release engineering & developer operations — INTERMEDIATE",
+        "title": "GitHub Actions + Docker CI/CD",
+        "channel": "TechWorld with Nana",
+        "url": "https://www.youtube.com/watch?v=R8_veQiYBjI"
+      },
+      {
+        "label": "CI/CD, release engineering & developer operations — ADVANCED",
+        "title": "DevOps + Software Architecture",
+        "channel": "GOTO",
+        "url": "https://www.youtube.com/watch?v=Qv92qaIGbDg"
+      },
+      {
+        "label": "Authentication, authorization & application security — BASIC",
+        "title": "OAuth 2.0 + OpenID Connect",
+        "channel": "Okta",
+        "url": "https://www.okta.com/resources/videos/oauth-2-0-openid-connect-in-plain-english/"
+      },
+      {
+        "label": "Authentication, authorization & application security — INTERMEDIATE",
+        "title": "OWASP Top 10 - 2025",
+        "channel": "Aikido Security",
+        "url": "https://www.youtube.com/watch?v=Jzr0Jdnq_EI"
+      },
+      {
+        "label": "Authentication, authorization & application security — ADVANCED",
+        "title": "ASVS v5 Secure Development",
+        "channel": "OWASP",
+        "url": "https://www.youtube.com/watch?v=d6gYd1W4hfA"
+      },
+      {
+        "label": "AI-assisted development & coding agents — BASIC",
+        "title": "Getting Started with Copilot",
+        "channel": "GitHub",
+        "url": "https://www.youtube.com/watch?v=n0NlxUyA7FI"
+      },
+      {
+        "label": "AI-assisted development & coding agents — INTERMEDIATE",
+        "title": "Complete Copilot Guide",
+        "channel": "GitHub",
+        "url": "https://www.youtube.com/watch?v=SJqGYwRq0uc"
+      },
+      {
+        "label": "AI-assisted development & coding agents — ADVANCED",
+        "title": "Ask, Edit, Agent + MCP",
+        "channel": "Microsoft",
+        "url": "https://learn.microsoft.com/en-us/shows/visual-studio-code/ask-edit-and-agent-in-depth-overview-of-github-copilot-chat-modes"
+      }
+    ]
   },
   {
     "name": "Cloud, Platform & Systems Engineering",
@@ -172,7 +646,153 @@
       "Robotic Systems",
       "Aerospace Engineering"
     ],
-    "page": 152
+    "page": 152,
+    "capability_resources": [
+      {
+        "label": "Linux, OS, networking & production troubleshooting — BASIC",
+        "title": "Linux & Terminal Commands",
+        "channel": "freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=ZtqBQ68cfJc"
+      },
+      {
+        "label": "Linux, OS, networking & production troubleshooting — INTERMEDIATE",
+        "title": "How Data Moves",
+        "channel": "Practical Networking",
+        "url": "https://www.youtube.com/watch?v=YJGGYKAV4pA"
+      },
+      {
+        "label": "Linux, OS, networking & production troubleshooting — ADVANCED",
+        "title": "Linux Performance Tools",
+        "channel": "Brendan Gregg",
+        "url": "https://www.youtube.com/watch?v=FJW8nGV4jxY"
+      },
+      {
+        "label": "Cloud architecture, migration & FinOps — BASIC",
+        "title": "Cloud Computing Explained",
+        "channel": "IBM Technology",
+        "url": "https://www.youtube.com/watch?v=Ni1P8TITtE8"
+      },
+      {
+        "label": "Cloud architecture, migration & FinOps — INTERMEDIATE",
+        "title": "Well-Architected Framework",
+        "channel": "AWS",
+        "url": "https://www.youtube.com/watch?v=KvEDbPmha6o"
+      },
+      {
+        "label": "Cloud architecture, migration & FinOps — ADVANCED",
+        "title": "Unit Economics",
+        "channel": "FinOps Foundation",
+        "url": "https://www.youtube.com/watch?v=Y1ruCJu0xss"
+      },
+      {
+        "label": "Distributed systems, consensus & resilience — BASIC",
+        "title": "Replication",
+        "channel": "Martin Kleppmann",
+        "url": "https://www.youtube.com/watch?v=uXEYuDwm7e4"
+      },
+      {
+        "label": "Distributed systems, consensus & resilience — INTERMEDIATE",
+        "title": "Consensus",
+        "channel": "Martin Kleppmann",
+        "url": "https://www.youtube.com/watch?v=rN6ma561tak"
+      },
+      {
+        "label": "Distributed systems, consensus & resilience — ADVANCED",
+        "title": "Raft",
+        "channel": "Martin Kleppmann",
+        "url": "https://www.youtube.com/watch?v=mBUCF1WGI_I"
+      },
+      {
+        "label": "Containers, Kubernetes & infrastructure as code — BASIC",
+        "title": "Kubernetes Explained",
+        "channel": "IBM Technology",
+        "url": "https://www.youtube.com/watch?v=aSrqRSk43lY"
+      },
+      {
+        "label": "Containers, Kubernetes & infrastructure as code — INTERMEDIATE",
+        "title": "Kubernetes Crash Course",
+        "channel": "TechWorld with Nana",
+        "url": "https://www.youtube.com/watch?v=PziYflu8cB8"
+      },
+      {
+        "label": "Containers, Kubernetes & infrastructure as code — ADVANCED",
+        "title": "Terraform at Scale",
+        "channel": "HashiCorp",
+        "url": "https://www.youtube.com/watch?v=SlTac72zdfc"
+      },
+      {
+        "label": "Platform engineering, golden paths & developer self-service — BASIC",
+        "title": "Modern Blueprint",
+        "channel": "PlatformCon",
+        "url": "https://www.youtube.com/watch?v=jfM9aNBAX-o"
+      },
+      {
+        "label": "Platform engineering, golden paths & developer self-service — INTERMEDIATE",
+        "title": "From the Ground Up",
+        "channel": "Platform Engineering",
+        "url": "https://www.youtube.com/watch?v=6y3O72jipFo"
+      },
+      {
+        "label": "Platform engineering, golden paths & developer self-service — ADVANCED",
+        "title": "Building an IDP",
+        "channel": "Kelsey Hightower / Backstage",
+        "url": "https://www.youtube.com/watch?v=Yq9hFWYQxSU"
+      },
+      {
+        "label": "SRE, observability, SLOs & incident response — BASIC",
+        "title": "Adopt SRE",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/watch?v=cqllWjlvziY"
+      },
+      {
+        "label": "SRE, observability, SLOs & incident response — INTERMEDIATE",
+        "title": "Getting Started with SLOs",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/watch?v=U53wC2A75Is"
+      },
+      {
+        "label": "SRE, observability, SLOs & incident response — ADVANCED",
+        "title": "Incident Management",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/watch?v=n4y9dwinPBQ"
+      },
+      {
+        "label": "Identity, network & cloud security — BASIC",
+        "title": "Zero Trust Explained",
+        "channel": "Microsoft Security",
+        "url": "https://www.youtube.com/watch?v=PitpSDmUaXE"
+      },
+      {
+        "label": "Identity, network & cloud security — INTERMEDIATE",
+        "title": "IAM Access Control",
+        "channel": "AWS re:Invent",
+        "url": "https://www.youtube.com/watch?v=4OpZmBp9S0k"
+      },
+      {
+        "label": "Identity, network & cloud security — ADVANCED",
+        "title": "Zero Trust Network + Infra",
+        "channel": "Microsoft Mechanics",
+        "url": "https://www.youtube.com/watch?v=jroIqFCgMfI"
+      },
+      {
+        "label": "Systems engineering, requirements & lifecycle assurance — BASIC",
+        "title": "Requirements Definition",
+        "channel": "MIT",
+        "url": "https://www.youtube.com/watch?v=-63JXElqPaY"
+      },
+      {
+        "label": "Systems engineering, requirements & lifecycle assurance — INTERMEDIATE",
+        "title": "System Architecture",
+        "channel": "MIT",
+        "url": "https://www.youtube.com/watch?v=ScbSrUSbumo"
+      },
+      {
+        "label": "Systems engineering, requirements & lifecycle assurance — ADVANCED",
+        "title": "Verification & Validation",
+        "channel": "MIT",
+        "url": "https://www.youtube.com/watch?v=J_y2I09rj_I"
+      }
+    ]
   },
   {
     "name": "Data, AI & Machine Learning",
@@ -209,7 +829,153 @@
       "Intelligent Data Platform",
       "Graph Databases, Knowledge Graphs & GraphRAG"
     ],
-    "page": 203
+    "page": 203,
+    "capability_resources": [
+      {
+        "label": "Mathematics, probability & statistical reasoning — BASIC",
+        "title": "Vectors + Linear Algebra",
+        "channel": "3Blue1Brown",
+        "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+      },
+      {
+        "label": "Mathematics, probability & statistical reasoning — INTERMEDIATE",
+        "title": "Bayes Theorem",
+        "channel": "StatQuest",
+        "url": "https://www.youtube.com/watch?v=9wCnvr7Xw4E"
+      },
+      {
+        "label": "Mathematics, probability & statistical reasoning — ADVANCED",
+        "title": "Bias, Variance + Regularization",
+        "channel": "Stanford CS229",
+        "url": "https://www.youtube.com/watch?v=XhyOAX6oSX4"
+      },
+      {
+        "label": "SQL analytics & query engineering — BASIC",
+        "title": "SQL Full Database Course",
+        "channel": "freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+      },
+      {
+        "label": "SQL analytics & query engineering — INTERMEDIATE",
+        "title": "SQL Beginner -> Advanced",
+        "channel": "Alex The Analyst",
+        "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ"
+      },
+      {
+        "label": "SQL analytics & query engineering — ADVANCED",
+        "title": "SQL for Data Engineering",
+        "channel": "Luke Barousse",
+        "url": "https://www.youtube.com/watch?v=UjhFbq4uU2Y"
+      },
+      {
+        "label": "Data modeling, warehousing & lakehouse architecture — BASIC",
+        "title": "Lakehouse Architecture + Security",
+        "channel": "Databricks",
+        "url": "https://www.youtube.com/watch?v=5oz5dwHU_mM"
+      },
+      {
+        "label": "Data modeling, warehousing & lakehouse architecture — INTERMEDIATE",
+        "title": "Data Modeling 101 for Lakehouse",
+        "channel": "Databricks",
+        "url": "https://www.youtube.com/watch?v=kZjAJkDs3so"
+      },
+      {
+        "label": "Data modeling, warehousing & lakehouse architecture — ADVANCED",
+        "title": "What's Wrong with Medallion?",
+        "channel": "Databricks",
+        "url": "https://www.youtube.com/watch?v=QO9J7sZZgLM"
+      },
+      {
+        "label": "Pipelines, orchestration, Spark & streaming — BASIC",
+        "title": "Apache Kafka Fundamentals",
+        "channel": "Confluent",
+        "url": "https://www.youtube.com/watch?v=-DyWhcX3Dpc"
+      },
+      {
+        "label": "Pipelines, orchestration, Spark & streaming — INTERMEDIATE",
+        "title": "GCP + Kafka + PySpark + Airflow",
+        "channel": "End-to-End Build",
+        "url": "https://www.youtube.com/watch?v=Cb2BpFoL30g"
+      },
+      {
+        "label": "Pipelines, orchestration, Spark & streaming — ADVANCED",
+        "title": "Airflow + Databricks + Kubernetes",
+        "channel": "Platform Build",
+        "url": "https://www.youtube.com/watch?v=92X54U6gm0Y"
+      },
+      {
+        "label": "Machine learning, features & model evaluation — BASIC",
+        "title": "Gentle Intro to Machine Learning",
+        "channel": "StatQuest",
+        "url": "https://www.youtube.com/watch?v=Gv9_4yMHFhI"
+      },
+      {
+        "label": "Machine learning, features & model evaluation — INTERMEDIATE",
+        "title": "Cross Validation",
+        "channel": "StatQuest",
+        "url": "https://www.youtube.com/watch?v=fSytzGwwBVw"
+      },
+      {
+        "label": "Machine learning, features & model evaluation — ADVANCED",
+        "title": "Evaluation Metrics",
+        "channel": "Stanford CS229",
+        "url": "https://www.youtube.com/watch?v=Lb1-iNIOLBw"
+      },
+      {
+        "label": "Deep learning, computer vision & NLP — BASIC",
+        "title": "But What Is a Neural Network?",
+        "channel": "3Blue1Brown",
+        "url": "https://www.youtube.com/watch?v=aircAruvnKk"
+      },
+      {
+        "label": "Deep learning, computer vision & NLP — INTERMEDIATE",
+        "title": "Introduction to Deep Learning 2026",
+        "channel": "MIT 6.S191",
+        "url": "https://www.youtube.com/watch?v=6FkRvTtUc-o"
+      },
+      {
+        "label": "Deep learning, computer vision & NLP — ADVANCED",
+        "title": "Build GPT from Scratch",
+        "channel": "Andrej Karpathy",
+        "url": "https://www.youtube.com/watch?v=kCc8FmEb1nY"
+      },
+      {
+        "label": "Experimentation, forecasting, causal & operational analytics — BASIC",
+        "title": "Hypothesis Testing",
+        "channel": "StatQuest",
+        "url": "https://www.youtube.com/watch?v=hGoTUyBnbxg"
+      },
+      {
+        "label": "Experimentation, forecasting, causal & operational analytics — INTERMEDIATE",
+        "title": "Online Controlled Experiments",
+        "channel": "Ron Kohavi",
+        "url": "https://www.youtube.com/watch?v=qtboCGd_hTA"
+      },
+      {
+        "label": "Experimentation, forecasting, causal & operational analytics — ADVANCED",
+        "title": "Introduction to Causal Inference",
+        "channel": "Brady Neal",
+        "url": "https://www.youtube.com/watch?v=DXBPtpBhGqo"
+      },
+      {
+        "label": "Production ML, governance & intelligent data platforms — BASIC",
+        "title": "MLOps Explained",
+        "channel": "IBM Technology",
+        "url": "https://www.youtube.com/watch?v=OejCJL2EC3k"
+      },
+      {
+        "label": "Production ML, governance & intelligent data platforms — INTERMEDIATE",
+        "title": "Data Governance Explained",
+        "channel": "IBM Technology",
+        "url": "https://www.youtube.com/watch?v=uPsUjKLHLAg"
+      },
+      {
+        "label": "Production ML, governance & intelligent data platforms — ADVANCED",
+        "title": "Microsoft Fabric Deep Overview",
+        "channel": "John Savill",
+        "url": "https://www.youtube.com/watch?v=GbxVsi94DrE"
+      }
+    ]
   },
   {
     "name": "Design, Communication & Digital Experience",
@@ -236,7 +1002,153 @@
       "Design & Creative Production",
       "Global Languages & Intercultural Communication"
     ],
-    "page": 236
+    "page": 236,
+    "capability_resources": [
+      {
+        "label": "User research & problem discovery — BASIC",
+        "title": "What Is User Research?",
+        "channel": "NN/g",
+        "url": "https://www.nngroup.com/videos/what-is-user-research/"
+      },
+      {
+        "label": "User research & problem discovery — INTERMEDIATE",
+        "title": "How to Talk to Users",
+        "channel": "Y Combinator",
+        "url": "https://www.youtube.com/watch?v=z1iF1c8w5Lg"
+      },
+      {
+        "label": "User research & problem discovery — ADVANCED",
+        "title": "Study Design Validity",
+        "channel": "NN/g",
+        "url": "https://www.nngroup.com/videos/internal-vs-external-validity-ux-study-design/"
+      },
+      {
+        "label": "Interaction design, usability & accessibility — BASIC",
+        "title": "Usability Testing 101",
+        "channel": "NN/g",
+        "url": "https://www.youtube.com/watch?v=n8MnoJyl3W4"
+      },
+      {
+        "label": "Interaction design, usability & accessibility — INTERMEDIATE",
+        "title": "Inclusive Design",
+        "channel": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/video/inclusive-design/"
+      },
+      {
+        "label": "Interaction design, usability & accessibility — ADVANCED",
+        "title": "Design Systems + Accessibility",
+        "channel": "Figma",
+        "url": "https://www.youtube.com/watch?v=_c2pJ6fU910"
+      },
+      {
+        "label": "Graphic design, typography & brand systems — BASIC",
+        "title": "Typography Foundations",
+        "channel": "Adobe",
+        "url": "https://www.youtube.com/watch?v=hkOqk8kf1xk"
+      },
+      {
+        "label": "Graphic design, typography & brand systems — INTERMEDIATE",
+        "title": "Dynamic Layouts",
+        "channel": "Adobe",
+        "url": "https://www.youtube.com/watch?v=RpmbQ8vxZoY"
+      },
+      {
+        "label": "Graphic design, typography & brand systems — ADVANCED",
+        "title": "Brand Identity System",
+        "channel": "Adobe Live",
+        "url": "https://www.behance.net/live/videos/24961/How-to-Design-a-Brand-Identity-in-Adobe-Illustrator-with-Jeremy-Mura"
+      },
+      {
+        "label": "Video, motion & multimedia production — BASIC",
+        "title": "Premiere Pro Foundations",
+        "channel": "Adobe",
+        "url": "https://www.youtube.com/watch?v=-varpUzy9Pc"
+      },
+      {
+        "label": "Video, motion & multimedia production — INTERMEDIATE",
+        "title": "Color Correction + Grading",
+        "channel": "Adobe",
+        "url": "https://www.adobe.com/learn/premiere-pro/web/color-correct-and-grade-color-mode"
+      },
+      {
+        "label": "Video, motion & multimedia production — ADVANCED",
+        "title": "Motion Graphics Templates",
+        "channel": "Adobe",
+        "url": "https://www.adobe.com/learn/after-effects/web/create-motion-graphics"
+      },
+      {
+        "label": "Data storytelling & visual communication — BASIC",
+        "title": "Turn Data Into Stories",
+        "channel": "storytelling with data",
+        "url": "https://www.youtube.com/watch?v=Hfx1X9WSGYQ"
+      },
+      {
+        "label": "Data storytelling & visual communication — INTERMEDIATE",
+        "title": "Storytelling Best Practices",
+        "channel": "Tableau",
+        "url": "https://www.tableau.com/learn/webinars/data-storytelling-best-practices"
+      },
+      {
+        "label": "Data storytelling & visual communication — ADVANCED",
+        "title": "Storytelling with Data",
+        "channel": "Talks at Google",
+        "url": "https://www.youtube.com/watch?v=8EMW7io4rSI"
+      },
+      {
+        "label": "Business writing, rhetoric & presentations — BASIC",
+        "title": "Strategic Communication",
+        "channel": "Stanford GSB",
+        "url": "https://www.gsb.stanford.edu/insights/class-takeaways-essentials-strategic-communication"
+      },
+      {
+        "label": "Business writing, rhetoric & presentations — INTERMEDIATE",
+        "title": "Structure Great Talks",
+        "channel": "Nancy Duarte / TED",
+        "url": "https://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks"
+      },
+      {
+        "label": "Business writing, rhetoric & presentations — ADVANCED",
+        "title": "Make Communication Memorable",
+        "channel": "Stanford GSB",
+        "url": "https://www.youtube.com/watch?v=Fsr4yrSAIAQ"
+      },
+      {
+        "label": "Design systems & implementation handoff — BASIC",
+        "title": "Variables + Design Tokens",
+        "channel": "Figma",
+        "url": "https://www.youtube.com/watch?v=1ONxxlJnvdM"
+      },
+      {
+        "label": "Design systems & implementation handoff — INTERMEDIATE",
+        "title": "Dev Mode Handoff",
+        "channel": "Figma",
+        "url": "https://www.youtube.com/watch?v=xCJsRuH7v9w"
+      },
+      {
+        "label": "Design systems & implementation handoff — ADVANCED",
+        "title": "Code Connect + Developer Workflows",
+        "channel": "Figma",
+        "url": "https://www.youtube.com/watch?v=A4mqzgFbmjI"
+      },
+      {
+        "label": "AI-assisted creative & research workflows — BASIC",
+        "title": "Prompt Engineering",
+        "channel": "OpenAI Academy",
+        "url": "https://academy.openai.com/public/videos/introduction-to-prompt-engineering-2025-02-13"
+      },
+      {
+        "label": "AI-assisted creative & research workflows — INTERMEDIATE",
+        "title": "Firefly Creative Workflows",
+        "channel": "Adobe",
+        "url": "https://www.youtube.com/watch?v=tZBohx5AN1Q"
+      },
+      {
+        "label": "AI-assisted creative & research workflows — ADVANCED",
+        "title": "Search + Deep Research",
+        "channel": "OpenAI Academy",
+        "url": "https://academy.openai.com/public/videos/chatgpt-for-research-web-search-deep-research-and-code-2025-06-04"
+      }
+    ]
   },
   {
     "name": "Leadership, Management & Personal Development",
@@ -266,7 +1178,153 @@
       "Personal Development & Executive Effectiveness",
       "New York Times Bestseller Insights: Leadership,"
     ],
-    "page": 255
+    "page": 255,
+    "capability_resources": [
+      {
+        "label": "Strategy, prioritization & decision quality — BASIC",
+        "title": "A Plan Is Not a Strategy",
+        "channel": "HBR / Roger Martin",
+        "url": "https://www.youtube.com/watch?v=iuYlGRnC7J8"
+      },
+      {
+        "label": "Strategy, prioritization & decision quality — INTERMEDIATE",
+        "title": "Good Strategy / Bad Strategy",
+        "channel": "LSE / Richard Rumelt",
+        "url": "https://www.youtube.com/watch?v=UZrTl16hZdk"
+      },
+      {
+        "label": "Strategy, prioritization & decision quality — ADVANCED",
+        "title": "Playing to Win",
+        "channel": "Roger Martin",
+        "url": "https://www.youtube.com/watch?v=I_JnjK8sGNU"
+      },
+      {
+        "label": "People management & team operating systems — BASIC",
+        "title": "Leaders Make You Feel Safe",
+        "channel": "TED / Simon Sinek",
+        "url": "https://www.youtube.com/watch?v=lmyZMtPVodo"
+      },
+      {
+        "label": "People management & team operating systems — INTERMEDIATE",
+        "title": "Psychological Safety",
+        "channel": "Harvard / Amy Edmondson",
+        "url": "https://www.youtube.com/watch?v=LhoLuui9gX8"
+      },
+      {
+        "label": "People management & team operating systems — ADVANCED",
+        "title": "Radical Candor",
+        "channel": "TED / Kim Scott",
+        "url": "https://www.youtube.com/watch?v=vmxHUiiHgNk"
+      },
+      {
+        "label": "Coaching, feedback & development — BASIC",
+        "title": "Coaching Conversation",
+        "channel": "GROW",
+        "url": "https://www.youtube.com/watch?v=_TMM0lhukBg"
+      },
+      {
+        "label": "Coaching, feedback & development — INTERMEDIATE",
+        "title": "Feedback That Lands",
+        "channel": "TED / Renee St Jacques",
+        "url": "https://www.youtube.com/watch?v=OAIlucguNzY"
+      },
+      {
+        "label": "Coaching, feedback & development — ADVANCED",
+        "title": "Role-Play",
+        "channel": "GROW 1:1",
+        "url": "https://www.youtube.com/watch?v=ZUS_WxKAXiE"
+      },
+      {
+        "label": "Executive communication & presence — BASIC",
+        "title": "Think Fast, Talk Smart",
+        "channel": "Stanford GSB",
+        "url": "https://www.youtube.com/watch?v=HAnw168huqA"
+      },
+      {
+        "label": "Executive communication & presence — INTERMEDIATE",
+        "title": "Structure Great Talks",
+        "channel": "Nancy Duarte",
+        "url": "https://www.youtube.com/watch?v=1nYFpuc2Umk"
+      },
+      {
+        "label": "Executive communication & presence — ADVANCED",
+        "title": "Win an Argument",
+        "channel": "TED / Neal Katyal",
+        "url": "https://www.youtube.com/watch?v=VmLMMNhxZMU"
+      },
+      {
+        "label": "Negotiation, conflict & stakeholder influence — BASIC",
+        "title": "Negotiation Techniques",
+        "channel": "Stakeholder",
+        "url": "https://www.youtube.com/watch?v=P-FqixW0hGU"
+      },
+      {
+        "label": "Negotiation, conflict & stakeholder influence — INTERMEDIATE",
+        "title": "Practice",
+        "channel": "Difficult Conversations",
+        "url": "https://www.youtube.com/watch?v=N2Lza0hL3ro"
+      },
+      {
+        "label": "Negotiation, conflict & stakeholder influence — ADVANCED",
+        "title": "Difficult Conversations 3e",
+        "channel": "Harvard PON",
+        "url": "https://dev.pon.harvard.edu/awards-grants-and-fellowships/pon-live-difficult-conversations/"
+      },
+      {
+        "label": "Program execution, risk & operating cadence — BASIC",
+        "title": "Introduction to Nexus",
+        "channel": "Scrum.org",
+        "url": "https://www.youtube.com/watch?v=uJF0Rpy0YuI"
+      },
+      {
+        "label": "Program execution, risk & operating cadence — INTERMEDIATE",
+        "title": "Dependency Visualization",
+        "channel": "Atlassian",
+        "url": "https://www.youtube.com/watch?v=eQu5VsUqyZA"
+      },
+      {
+        "label": "Program execution, risk & operating cadence — ADVANCED",
+        "title": "Dependency + Risk Board",
+        "channel": "Agile Program Planning",
+        "url": "https://www.youtube.com/watch?v=29M-rw6DWd8"
+      },
+      {
+        "label": "Learning, focus & personal effectiveness — BASIC",
+        "title": "Learning How to Learn",
+        "channel": "Barbara Oakley / TEDx",
+        "url": "https://www.youtube.com/watch?v=O96fE1E-rf8"
+      },
+      {
+        "label": "Learning, focus & personal effectiveness — INTERMEDIATE",
+        "title": "Cognitive Principles",
+        "channel": "Stephen Chew",
+        "url": "https://www.youtube.com/watch?v=1xeHh5DnCIw"
+      },
+      {
+        "label": "Learning, focus & personal effectiveness — ADVANCED",
+        "title": "Self-Regulated Learning",
+        "channel": "Samford / Chew",
+        "url": "https://www.youtube.com/watch?v=fM7DBBHI7d8"
+      },
+      {
+        "label": "AI leadership, transformation & governance — BASIC",
+        "title": "GenAI Value Creation",
+        "channel": "IBM Technology",
+        "url": "https://www.youtube.com/watch?v=fBR42OxjWaM"
+      },
+      {
+        "label": "AI leadership, transformation & governance — INTERMEDIATE",
+        "title": "AI Strategy Failure Modes",
+        "channel": "MIT Sloan",
+        "url": "https://www.youtube.com/watch?v=zA0w_sjjjes"
+      },
+      {
+        "label": "AI leadership, transformation & governance — ADVANCED",
+        "title": "AI RMF 1.0 Explainer",
+        "channel": "NIST",
+        "url": "https://www.nist.gov/video/introduction-nist-ai-risk-management-framework-ai-rmf-10-explainer-video"
+      }
+    ]
   },
   {
     "name": "Creator Economy, Social Media & Digital Growth",
@@ -291,7 +1349,27 @@
       "Business Storytelling, Slidecraft & Technical Writing",
       "Workflow Automation"
     ],
-    "page": 492
+    "page": 492,
+    "capability_resources": [
+      {
+        "label": "Social strategy & channel choice",
+        "title": "HubSpot - Social Media Strategy",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=VS0Sao1oHlw"
+      },
+      {
+        "label": "Community, trends & reputation",
+        "title": "Sprout - Social Listening",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=lXJK6neMRi4"
+      },
+      {
+        "label": "Creator revenue architecture",
+        "title": "YouTube - Make Money on YouTube",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=om2WiDsHLso"
+      }
+    ]
   },
   {
     "name": "Revenue Operations, Technical Sales & GTM Systems",
@@ -317,7 +1395,153 @@
       "C018  Workflow Automation",
       "C141  Enterprise AI"
     ],
-    "page": 502
+    "page": 502,
+    "capability_resources": [
+      {
+        "label": "RevOps operating model & revenue lifecycle — BASIC",
+        "title": "What Is RevOps?",
+        "channel": "RevOps Co-op",
+        "url": "https://www.revopscoop.com/webinar-series/what-is-revops-evolution"
+      },
+      {
+        "label": "RevOps operating model & revenue lifecycle — INTERMEDIATE",
+        "title": "Revenue Cycle: 4 Fundamentals",
+        "channel": "RevOps Co-op",
+        "url": "https://www.revopscoop.com/webinar-series/mastering-revenue-bowtie-metrics"
+      },
+      {
+        "label": "RevOps operating model & revenue lifecycle — ADVANCED",
+        "title": "Data Foundation That Wins in 2026",
+        "channel": "RevOps Co-op",
+        "url": "https://www.revopscoop.com/webinar-series/revops-data-foundation-2026"
+      },
+      {
+        "label": "RevOps operating model & revenue lifecycle — HANDS-ON",
+        "title": "Execute RevOps with Lifecycle Stages",
+        "channel": "HubSpot Academy",
+        "url": "https://academy.hubspot.com/lessons/Lifecycle-Stages-Management"
+      },
+      {
+        "label": "Forecasting & pipeline management — BASIC",
+        "title": "Bottom-Up Sales Forecasting",
+        "channel": "Weflow",
+        "url": "https://www.weflow.ai/videos/yZdcUdZgsk0"
+      },
+      {
+        "label": "Forecasting & pipeline management — INTERMEDIATE",
+        "title": "Fix Pipeline Mismanagement",
+        "channel": "RevOps Co-op",
+        "url": "https://www.revopscoop.com/webinar-series/fix-pipeline-mismanagement"
+      },
+      {
+        "label": "Forecasting & pipeline management — ADVANCED",
+        "title": "RevOps Maturity: Forecasts + Pipeline",
+        "channel": "SBR Consulting",
+        "url": "https://sbrconsulting.com/video-learning/revops-maturity/"
+      },
+      {
+        "label": "Forecasting & pipeline management — HANDS-ON",
+        "title": "Run a Weekly Forecast Meeting",
+        "channel": "Weflow",
+        "url": "https://www.weflow.ai/videos/n3D7t0a0SAs"
+      },
+      {
+        "label": "Territory & capacity planning — BASIC",
+        "title": "Territory Planning Demo",
+        "channel": "Salesforce",
+        "url": "https://www.youtube.com/watch?v=GM0WLcEh1rw"
+      },
+      {
+        "label": "Territory & capacity planning — INTERMEDIATE",
+        "title": "Maps + Territory Planning Deep Dive",
+        "channel": "Salesforce Ben",
+        "url": "https://www.youtube.com/watch?v=FWuxog7dn5E"
+      },
+      {
+        "label": "Territory & capacity planning — ADVANCED",
+        "title": "Territory, Quota + Capacity Optimization",
+        "channel": "Anaplan + Gartner",
+        "url": "https://www.anaplan.com/resources/webinars/driving-profitable-growth-with-territory-quota-optimization/"
+      },
+      {
+        "label": "Territory & capacity planning — HANDS-ON",
+        "title": "Optimize Territory Alignment",
+        "channel": "Salesforce Trailhead",
+        "url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-maps-territory-planning"
+      },
+      {
+        "label": "Quote-to-cash / CPQ architecture — BASIC",
+        "title": "What Is CPQ?",
+        "channel": "Salesforce",
+        "url": "https://www.youtube.com/watch?v=Xs5RDCAK6uA"
+      },
+      {
+        "label": "Quote-to-cash / CPQ architecture — INTERMEDIATE",
+        "title": "Why RevOps Is Sales + Billing",
+        "channel": "RevOps Co-op",
+        "url": "https://www.revopscoop.com/webinar-series/revops-sales-billing"
+      },
+      {
+        "label": "Quote-to-cash / CPQ architecture — ADVANCED",
+        "title": "Revenue Cloud / Q2C Architecture",
+        "channel": "RSM",
+        "url": "https://rsmus.com/events/2025-events/cpqs-end-of-sale-all-eyes-on-revenue-cloud.html"
+      },
+      {
+        "label": "Quote-to-cash / CPQ architecture — HANDS-ON",
+        "title": "CPQ End-to-End Implementation",
+        "channel": "Salesforce Revenue Cloud",
+        "url": "https://www.youtube.com/watch?v=k8tlnkV1BjQ"
+      },
+      {
+        "label": "CRM lifecycle & lead routing — BASIC",
+        "title": "Lifecycle Stages",
+        "channel": "HubSpot",
+        "url": "https://knowledge.hubspot.com/records/use-lifecycle-stages?wvideo=ydmtek6kzh"
+      },
+      {
+        "label": "CRM lifecycle & lead routing — INTERMEDIATE",
+        "title": "Lead Scoring + Routing",
+        "channel": "HubSpot Academy",
+        "url": "https://academy.hubspot.com/lessons/lead-scoring-lead-routing-hubspot"
+      },
+      {
+        "label": "CRM lifecycle & lead routing — ADVANCED",
+        "title": "Advanced Distributed Lead Routing",
+        "channel": "HubSpot Academy",
+        "url": "https://academy.hubspot.com/lessons/using-advanced-lead-routing-to-manage-a-distributed-sales-force"
+      },
+      {
+        "label": "CRM lifecycle & lead routing — HANDS-ON",
+        "title": "Build a Sales Process Workflow",
+        "channel": "HubSpot Academy",
+        "url": "https://academy.hubspot.com/videos/4763155"
+      },
+      {
+        "label": "Dashboards & revenue analytics — BASIC",
+        "title": "Sales Reporting in HubSpot",
+        "channel": "HubSpot Academy",
+        "url": "https://academy.hubspot.com/lessons/sales-reporting-in-hubspot"
+      },
+      {
+        "label": "Dashboards & revenue analytics — INTERMEDIATE",
+        "title": "Designing Compelling Dashboards",
+        "channel": "HubSpot Academy",
+        "url": "https://academy.hubspot.com/lessons/hubspot-dashboards"
+      },
+      {
+        "label": "Dashboards & revenue analytics — ADVANCED",
+        "title": "Custom Report Builder Deep Dive",
+        "channel": "HubSpot Academy",
+        "url": "https://academy.hubspot.com/lessons/creating-custom-hubspot-reports"
+      },
+      {
+        "label": "Dashboards & revenue analytics — HANDS-ON",
+        "title": "How to Create a Dashboard",
+        "channel": "HubSpot Academy",
+        "url": "https://academy.hubspot.com/videos/7496467"
+      }
+    ]
   },
   {
     "name": "Data Center, AI Compute & Infrastructure",
@@ -343,7 +1567,33 @@
       "C088  Platform Engineering",
       "C020  LLMOps"
     ],
-    "page": 503
+    "page": 503,
+    "capability_resources": [
+      {
+        "label": "Power, cooling, racks + DCIM foundations — BASIC",
+        "title": "Schneider - Prepare Data Center Infrastructure for AI Growth",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=LwsoyBYHR6o"
+      },
+      {
+        "label": "Rack-scale thermal + facility integration — INTERMEDIATE",
+        "title": "NVIDIA / Schneider - From Compute to Cool",
+        "channel": "",
+        "url": "https://www.nvidia.com/en-us/on-demand/session/gtcdc25-dc51212/"
+      },
+      {
+        "label": "GPU utilization, Kubernetes + reliability at scale — ADVANCED",
+        "title": "NVIDIA / HPE - From Idle to Optimized",
+        "channel": "",
+        "url": "https://www.nvidia.com/en-us/on-demand/session/gtc26-s82139/"
+      },
+      {
+        "label": "Provision + manage an on-prem AI cluster — HANDS-ON",
+        "title": "NVIDIA - Base Command Manager Hands-On Lab",
+        "channel": "",
+        "url": "https://www.nvidia.com/en-us/on-demand/session/gtc25-dlit71603/"
+      }
+    ]
   },
   {
     "name": "Healthcare Operations, Digital Health & Interoperability",
@@ -366,7 +1616,33 @@
       "C134  Security Governance, Risk, Privacy & Software Supply Chain",
       "C141  Enterprise AI"
     ],
-    "page": 504
+    "page": 504,
+    "capability_resources": [
+      {
+        "label": "Patient flow + healthcare operating-system foundations — BASIC",
+        "title": "IHI - Achieving Hospital-wide Patient Flow",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=W-O8hSv__PE"
+      },
+      {
+        "label": "Quality improvement + revenue-cycle workflows — INTERMEDIATE",
+        "title": "Dr. Mike Evans - Quality Improvement in Healthcare",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=jq52ZjMzqyI"
+      },
+      {
+        "label": "Value-based payment, risk + performance — ADVANCED",
+        "title": "AMA - Aligning Payment in Value-Based Care: Part II",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=29uqdVgKAFs"
+      },
+      {
+        "label": "Secure FHIR / SMART interoperability implementation — HANDS-ON",
+        "title": "InterSystems - SMART on FHIR Server Setup",
+        "channel": "",
+        "url": "https://community.intersystems.com/post/video-smart-fhir-introduction-fhir-server-setup"
+      }
+    ]
   },
   {
     "name": "Data Governance, Privacy & Trust",
@@ -390,7 +1666,27 @@
       "C129  Program, Risk, Dependency & Vendor Management",
       "C145  Graph Databases, Knowledge Graphs & Semantic Systems"
     ],
-    "page": 505
+    "page": 505,
+    "capability_resources": [
+      {
+        "label": "Data governance",
+        "title": "IBM - Data Governance Explained",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=whF6dH-XZUM"
+      },
+      {
+        "label": "Data lineage",
+        "title": "What Is Data Lineage?",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=24Ki4Ck4Y2E"
+      },
+      {
+        "label": "AI risk governance",
+        "title": "IBM - NIST AI Risk Management Framework",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=0oeD2Wf25wY"
+      }
+    ]
   },
   {
     "name": "AI Evaluation, Reliability & Safety Engineering",
@@ -416,7 +1712,27 @@
       "C148  AI & Agent Governance and Safety",
       "C087  Detection, Incident Response & Security Operations"
     ],
-    "page": 506
+    "page": 506,
+    "capability_resources": [
+      {
+        "label": "LLM evaluation",
+        "title": "Arize - LLM Observability & Evaluation",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=JsCCrBF7F1g"
+      },
+      {
+        "label": "AI red teaming",
+        "title": "Microsoft Developer - AI Red Teaming 101",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=DwFVhFdD2fs"
+      },
+      {
+        "label": "Reliability/SLOs",
+        "title": "Google - The Art of SLOs",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=E3ReKuJ8ewA"
+      }
+    ]
   },
   {
     "name": "Product Operations & Product Leadership",
@@ -441,7 +1757,27 @@
       "C129  Program, Risk, Dependency & Vendor Management",
       "C153  Portfolio Roadmap & Lifecycle Management"
     ],
-    "page": 507
+    "page": 507,
+    "capability_resources": [
+      {
+        "label": "Product Ops system",
+        "title": "Melissa Perri & Denise Tilles - Ultimate Guide to Product Oper",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=9VdixM9KPN4"
+      },
+      {
+        "label": "Operating model",
+        "title": "What Is Product Ops?",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=J-1Q4U5S8rg"
+      },
+      {
+        "label": "Influence",
+        "title": "Product School - How to Influence Stakeholders",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=QMhDYkFhErY"
+      }
+    ]
   },
   {
     "name": "Actuarial, Insurance & Enterprise Risk",
@@ -466,7 +1802,27 @@
       "C094  Machine Learning",
       "C129  Program, Risk, Dependency & Vendor Management"
     ],
-    "page": 508
+    "page": 508,
+    "capability_resources": [
+      {
+        "label": "Probability foundation",
+        "title": "StatQuest - Probability Distributions",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=9wCnvr7Xw4E"
+      },
+      {
+        "label": "Bayesian reasoning",
+        "title": "StatQuest - Bayes Theorem",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=oI3hZJqXJuc"
+      },
+      {
+        "label": "Actuarial risk modeling",
+        "title": "Actuarial Science & Risk Modeling - 2026 Overview",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=L-PBREuGHbs"
+      }
+    ]
   },
   {
     "name": "AI Adoption, Transformation & Organizational Change",
@@ -492,6 +1848,26 @@
       "C121  Coaching & Feedback",
       "C148  AI & Agent Governance and Safety"
     ],
-    "page": 509
+    "page": 509,
+    "capability_resources": [
+      {
+        "label": "Change foundations",
+        "title": "Prosci - What Is Change Management?",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=e4jnFqlUMmM"
+      },
+      {
+        "label": "Individual adoption",
+        "title": "Prosci - ADKAR Change Management Model",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=zYe2fG8m4Ow"
+      },
+      {
+        "label": "Enterprise AI strategy",
+        "title": "Google Cloud - Enterprise AI Playbook",
+        "channel": "",
+        "url": "https://www.youtube.com/watch?v=ocyFONwoJQg"
+      }
+    ]
   }
 ]

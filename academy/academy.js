@@ -74,6 +74,17 @@
         return '<li>' + escapeHtml(c) + '</li>';
       })
       .join('');
+    var resources = (pathway.capability_resources || [])
+      .map(function (r) {
+        var url = r.url ? escapeHtml(r.url) : '#';
+        var channel = r.channel ? ' &mdash; ' + escapeHtml(r.channel) : '';
+        return (
+          '<li><a href="' + url + '" target="_blank" rel="noopener noreferrer">' +
+          '<span class="play-icon">&#9654;</span><span><strong>' + escapeHtml(r.label) + ':</strong> ' +
+          escapeHtml(r.title) + channel + '</span></a></li>'
+        );
+      })
+      .join('');
     return (
       '<div class="detail-card">' +
       '<h2>' + escapeHtml(pathway.name) + '</h2>' +
@@ -84,6 +95,9 @@
         : '') +
       (courses
         ? '<div class="course-sequence-block"><h3>Course Sequence</h3><ol class="course-sequence">' + courses + '</ol></div>'
+        : '') +
+      (resources
+        ? '<div class="cross-links-block"><h3>Direct Video Bridges</h3><ul class="video-links">' + resources + '</ul></div>'
         : '') +
       '</div>'
     );
