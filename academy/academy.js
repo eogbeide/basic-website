@@ -103,12 +103,25 @@
         );
       })
       .join('');
+    var resourceLinks = (cert.resource_links || [])
+      .map(function (r) {
+        var url = r.url ? escapeHtml(r.url) : '#';
+        return (
+          '<li><a href="' + url + '" target="_blank" rel="noopener noreferrer">' +
+          '<span class="play-icon">&#9654;</span><span>' + escapeHtml(r.competency) +
+          ' &mdash; ' + escapeHtml(r.coverage) + '</span></a></li>'
+        );
+      })
+      .join('');
     return (
       '<div class="detail-card">' +
       '<h2>' + escapeHtml(cert.name) + '</h2>' +
       (cert.description ? '<p class="detail-description">' + escapeHtml(cert.description) + '</p>' : '') +
       (cert.university_benchmark ? '<p class="detail-benchmark">University Curriculum Benchmark: ' + escapeHtml(cert.university_benchmark) + '</p>' : '') +
       tiers +
+      (resourceLinks
+        ? '<div class="cross-links-block"><h3>Direct Learning Bridges</h3><ul class="video-links">' + resourceLinks + '</ul></div>'
+        : '') +
       (cert.capstone
         ? '<div class="capstone-block"><h3>Integrative Capstone</h3><p>' + escapeHtml(cert.capstone) + '</p></div>'
         : '') +

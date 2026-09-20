@@ -48,7 +48,39 @@
     ],
     "capstone": "Design, implement, test and deploy a substantial software system with algorithms, persistence, network APIs, concurrency/distribution, security controls and observability. Submit architecture diagrams, tests, benchmarks and a technical defense.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 378
+    "page": 378,
+    "resource_links": [
+      {
+        "competency": "Programming, data structures & algorithms",
+        "coverage": "Data Structures & Algorithms",
+        "url": "https://www.youtube.com/watch?v=8hly31xKli0"
+      },
+      {
+        "competency": "Discrete mathematics, proof & logic",
+        "coverage": "Academic proof bridge",
+        "url": "https://www.youtube.com/watch?v=YFZzLQN5qOU"
+      },
+      {
+        "competency": "Probability & inference for computing",
+        "coverage": "Statistics & Probability - NEW",
+        "url": "https://www.youtube.com/watch?v=vemZtEM63GY"
+      },
+      {
+        "competency": "Computer architecture, OS & networking",
+        "coverage": "Computer Engineering",
+        "url": "https://www.youtube.com/watch?v=FZGugFqdr60"
+      },
+      {
+        "competency": "Software construction, testing & quality",
+        "coverage": "Software Testing & Quality Engineering",
+        "url": "https://www.youtube.com/watch?v=tIrcxwLqzjQ"
+      },
+      {
+        "competency": "Theory of computation + advanced depth",
+        "coverage": "Theory of Computation bridge",
+        "url": "https://www.youtube.com/watch?v=58N2N7zJGrQ"
+      }
+    ]
   },
   {
     "name": "Comprehensive Certificate in Mathematics",
@@ -94,7 +126,39 @@
     ],
     "capstone": "Produce a mathematical modeling portfolio: one proof-based analysis, one continuous model, one probabilistic/statistical model and one optimization problem. Validate numerically and explain assumptions, derivations and limitations.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 379
+    "page": 379,
+    "resource_links": [
+      {
+        "competency": "Proof, logic & mathematical reasoning",
+        "coverage": "Academic proof bridge",
+        "url": "https://www.youtube.com/watch?v=YFZzLQN5qOU"
+      },
+      {
+        "competency": "Calculus + multivariable foundations",
+        "coverage": "Calculus bridge",
+        "url": "https://www.youtube.com/watch?v=WUvTyaaNkzM"
+      },
+      {
+        "competency": "Linear algebra",
+        "coverage": "ML Mathematics",
+        "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs"
+      },
+      {
+        "competency": "Differential equations + Fourier methods",
+        "coverage": "Differential Equations bridge",
+        "url": "https://www.youtube.com/watch?v=vA9dfINW4Rg"
+      },
+      {
+        "competency": "Real analysis",
+        "coverage": "MIT OCW Real Analysis",
+        "url": null
+      },
+      {
+        "competency": "Abstract algebra + structural depth",
+        "coverage": "Abstract Algebra bridge",
+        "url": "https://www.youtube.com/watch?v=IP7nW_hKB7I"
+      }
+    ]
   },
   {
     "name": "Comprehensive Certificate in Statistics",
@@ -142,7 +206,39 @@
     ],
     "capstone": "Design a statistically defensible study from question to decision: sampling and measurement plan, exploratory analysis, inference/modeling, uncertainty, diagnostics, sensitivity checks, causal limitations and an executive-ready data story.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 380
+    "page": 380,
+    "resource_links": [
+      {
+        "competency": "Linear algebra / calculus + statistical computing",
+        "coverage": "ML Mathematics",
+        "url": "https://www.youtube.com/watch?v=_V8eKsto3Ug"
+      },
+      {
+        "competency": "Probability & random variables",
+        "coverage": "Statistics & Probability",
+        "url": "https://www.youtube.com/watch?v=oI3hZJqXJuc"
+      },
+      {
+        "competency": "Statistical inference & uncertainty",
+        "coverage": "Confidence Intervals bridge",
+        "url": "https://www.youtube.com/watch?v=TqOeMYtOc1w"
+      },
+      {
+        "competency": "Regression & statistical modeling",
+        "coverage": "Regression bridge",
+        "url": "https://www.youtube.com/watch?v=nk2CQITm_eo"
+      },
+      {
+        "competency": "Experimental design + causal inference",
+        "coverage": "Design of Experiments bridge",
+        "url": "https://www.youtube.com/watch?v=crpuBZv6XtA"
+      },
+      {
+        "competency": "Bayesian + stochastic / time-series depth",
+        "coverage": "Bayes Theorem bridge",
+        "url": "https://www.youtube.com/watch?v=TuTmC8aOQJE"
+      }
+    ]
   },
   {
     "name": "Comprehensive Certificate in Physics",
@@ -189,7 +285,39 @@
     ],
     "capstone": "Model a physical system analytically and computationally. Derive governing equations, estimate parameters, simulate behavior, compare predictions with measured or published data, quantify uncertainty and explain physical limits.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 381
+    "page": 381,
+    "resource_links": [
+      {
+        "competency": "Classical mechanics",
+        "coverage": "Mechanics bridge",
+        "url": "https://www.youtube.com/watch?v=kKKM8Y-u7ds"
+      },
+      {
+        "competency": "Electric & magnetic fields",
+        "coverage": "Electric Fields bridge",
+        "url": "https://www.youtube.com/watch?v=8kcvyoHsXrw"
+      },
+      {
+        "competency": "Waves, optics & Fourier intuition",
+        "coverage": "Fourier / Waves bridge",
+        "url": "https://www.youtube.com/watch?v=1JeBWHzrRD4"
+      },
+      {
+        "competency": "Thermal & statistical physics",
+        "coverage": "Thermodynamics bridge",
+        "url": "https://www.youtube.com/watch?v=4RX_lpoGRBg"
+      },
+      {
+        "competency": "Quantum mechanics",
+        "coverage": "Quantum Physics bridge",
+        "url": "https://www.youtube.com/watch?v=lZ3bPUKo5zc"
+      },
+      {
+        "competency": "Experimental / computational physics",
+        "coverage": "MIT OCW Junior Lab",
+        "url": "https://www.youtube.com/watch?v=4Y9OO9AepgU"
+      }
+    ]
   },
   {
     "name": "Comprehensive Certificate in Electrical Engineering",
@@ -236,7 +364,39 @@
     ],
     "capstone": "Design a hardware-software control system with sensing, processing, communication and actuation. Produce schematic/block architecture, timing and power budgets, firmware/software interfaces, verification plan and prototype evidence.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 382
+    "page": 382,
+    "resource_links": [
+      {
+        "competency": "Circuits & analog electronics",
+        "coverage": "MIT OCW Circuits",
+        "url": null
+      },
+      {
+        "competency": "Probability & inference for EE",
+        "coverage": "Statistics & Probability - NEW",
+        "url": "https://www.youtube.com/watch?v=j9WZyLZCBzs"
+      },
+      {
+        "competency": "Digital logic + computer architecture",
+        "coverage": "Computer Engineering",
+        "url": "https://www.youtube.com/watch?v=2xXErGeeb_Q"
+      },
+      {
+        "competency": "Signals & systems",
+        "coverage": "Signals & Systems bridge",
+        "url": "https://www.youtube.com/watch?v=s8rsR_TStaA"
+      },
+      {
+        "competency": "Feedback & control systems",
+        "coverage": "Controls bridge",
+        "url": "https://www.youtube.com/watch?v=HcLYoCmWOjI"
+      },
+      {
+        "competency": "EM, communications, devices & power depth",
+        "coverage": "Semiconductor Devices bridge",
+        "url": "https://www.youtube.com/watch?v=7jaa1rlW7Ak"
+      }
+    ]
   },
   {
     "name": "Comprehensive Certificate in Mechanical Engineering",
@@ -283,7 +443,39 @@
     ],
     "capstone": "Design a mechanical or mechatronic product from requirements through CAD/analysis, free-body and dynamics reasoning, thermal-fluid checks, tolerance stack, materials/manufacturing plan, reliability analysis and prototype test plan.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 383
+    "page": 383,
+    "resource_links": [
+      {
+        "competency": "Statics, mechanics & materials",
+        "coverage": "Statics bridge",
+        "url": "https://www.youtube.com/watch?v=Hn_iozUo9m4"
+      },
+      {
+        "competency": "Engineering dynamics & control",
+        "coverage": "MIT OCW Engineering Dynamics - FIXED",
+        "url": null
+      },
+      {
+        "competency": "Thermodynamics",
+        "coverage": "Thermodynamics bridge",
+        "url": "https://www.youtube.com/watch?v=4i1MUWJoI0U"
+      },
+      {
+        "competency": "Fluid mechanics + heat transfer",
+        "coverage": "Fluids bridge",
+        "url": "https://www.youtube.com/watch?v=fJefjG3xhW0"
+      },
+      {
+        "competency": "Design, manufacturing & validation",
+        "coverage": "Engineering Design Process & Requirements",
+        "url": "https://www.youtube.com/watch?v=Um_g8sQ_p3Y"
+      },
+      {
+        "competency": "Reliability, GD&T + mechatronics depth",
+        "coverage": "Advanced Mechanical Design Analysis",
+        "url": "https://www.youtube.com/watch?v=G7wnGeR_69k"
+      }
+    ]
   },
   {
     "name": "Comprehensive Certificate in Chemical Engineering",
@@ -328,7 +520,39 @@
     ],
     "capstone": "Complete a conceptual process design: material/energy balances, process flow, unit-operation rationale, thermo/transport/reaction assumptions, separation strategy, control and safety philosophy, economics, risk review and improvement plan.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 384
+    "page": 384,
+    "resource_links": [
+      {
+        "competency": "Material & energy balances",
+        "coverage": "Material Balance bridge",
+        "url": "https://www.youtube.com/watch?v=10qbOTikL1k"
+      },
+      {
+        "competency": "Chemical engineering thermodynamics",
+        "coverage": "LearnChemE Thermodynamics - FIXED",
+        "url": null
+      },
+      {
+        "competency": "Transport: fluid / heat / mass",
+        "coverage": "Transport bridge",
+        "url": "https://www.youtube.com/watch?v=NwOZ1tSe9hs"
+      },
+      {
+        "competency": "Reaction engineering & kinetics",
+        "coverage": "Reaction Engineering bridge",
+        "url": "https://www.youtube.com/watch?v=DGNw4S7MtZs"
+      },
+      {
+        "competency": "Separations + process control",
+        "coverage": "Separations bridge",
+        "url": "https://www.youtube.com/watch?v=rlg-ptQMAsg"
+      },
+      {
+        "competency": "Process safety + design / optimization",
+        "coverage": "HAZOP / Process Safety bridge",
+        "url": "https://www.youtube.com/watch?v=QT49PASYob0"
+      }
+    ]
   },
   {
     "name": "Comprehensive Certificate in Industrial Engineering",
@@ -377,7 +601,39 @@
     ],
     "capstone": "Diagnose and redesign a real operation: demand/capacity model, process map, bottleneck analysis, quality/SPC, simulation or optimization model, human-factor risks, economics, implementation roadmap and control plan.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 385
+    "page": 385,
+    "resource_links": [
+      {
+        "competency": "Probability & statistics",
+        "coverage": "Statistics & Probability",
+        "url": "https://www.youtube.com/watch?v=j9WZyLZCBzs"
+      },
+      {
+        "competency": "Linear / convex optimization",
+        "coverage": "Linear Programming bridge",
+        "url": null
+      },
+      {
+        "competency": "Stochastic models + queueing",
+        "coverage": "Queueing bridge",
+        "url": "https://www.youtube.com/watch?v=4H9dMn919cs"
+      },
+      {
+        "competency": "Simulation / Monte Carlo",
+        "coverage": "MIT OCW Simulation",
+        "url": null
+      },
+      {
+        "competency": "Quality + process improvement",
+        "coverage": "Lean, Six Sigma & Kaizen",
+        "url": "https://www.youtube.com/watch?v=hQRfikgHzdg"
+      },
+      {
+        "competency": "Supply chain + human factors / systems design",
+        "coverage": "MIT Lean Supply Chain",
+        "url": null
+      }
+    ]
   },
   {
     "name": "Comprehensive Certificate in Computer Engineering",
@@ -426,7 +682,39 @@
     ],
     "capstone": "Build a hardware-software co-design prototype: compute platform, I/O/sensors, firmware or systems software, network interface, performance/power measurements, verification evidence and system-integration review.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 386
+    "page": 386,
+    "resource_links": [
+      {
+        "competency": "Circuits & electronics",
+        "coverage": "MIT OCW Circuits",
+        "url": null
+      },
+      {
+        "competency": "Digital logic & lab thinking",
+        "coverage": "Computer Engineering",
+        "url": "https://www.youtube.com/watch?v=2xXErGeeb_Q"
+      },
+      {
+        "competency": "Computer architecture / organization",
+        "coverage": "Computer Engineering",
+        "url": "https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-4-assembly-language-computer-architecture/"
+      },
+      {
+        "competency": "Data structures, algorithms & discrete core",
+        "coverage": "Data Structures & Algorithms - NEW",
+        "url": "https://www.youtube.com/watch?v=8hly31xKli0"
+      },
+      {
+        "competency": "Probability + signals / systems",
+        "coverage": "Statistics & Probability - NEW",
+        "url": "https://www.youtube.com/watch?v=j9WZyLZCBzs"
+      },
+      {
+        "competency": "Embedded / real-time + FPGA depth",
+        "coverage": "FPGA bridge",
+        "url": "https://www.youtube.com/watch?v=lLg1AgA2Xoo"
+      }
+    ]
   },
   {
     "name": "Comprehensive Certificate in Systems Engineering",
@@ -475,7 +763,39 @@
     ],
     "capstone": "Produce a full lifecycle system package: CONOPS, stakeholder needs, traceable requirements, architecture/MBSE views, interface map, decision/trade study, risk/FMEA, integration plan, V&V matrix and operational readiness review.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 387
+    "page": 387,
+    "resource_links": [
+      {
+        "competency": "Stakeholder needs, requirements & lifecycle",
+        "coverage": "Systems Engineering",
+        "url": "https://www.youtube.com/watch?v=J_y2I09rj_I"
+      },
+      {
+        "competency": "Architecture, interfaces & integration",
+        "coverage": "Systems Architecture & System Design",
+        "url": "https://learn.mit.edu/video/9119/session-4-system-architecture-and-concept-generation?playlist=9105"
+      },
+      {
+        "competency": "MBSE / SysML + digital thread",
+        "coverage": "MBSE bridge",
+        "url": "https://www.youtube.com/watch?v=Cqf-CJR0n1U"
+      },
+      {
+        "competency": "Decision analysis, simulation & optimization",
+        "coverage": "MIT OCW Decision / Simulation",
+        "url": null
+      },
+      {
+        "competency": "Reliability, risk & uncertainty",
+        "coverage": "FMEA / Reliability bridge",
+        "url": "https://www.youtube.com/watch?v=aQwhHTKl8M4"
+      },
+      {
+        "competency": "Integration, verification & validation",
+        "coverage": "Systems Engineering V&V",
+        "url": "https://www.youtube.com/watch?v=-63JXElqPaY"
+      }
+    ]
   },
   {
     "name": "Comprehensive Certificate in Writing & Reading",
@@ -522,6 +842,38 @@
     ],
     "capstone": "Create a reading-and-writing portfolio: annotated close reading, poetry or narrative analysis, historically contextualized essay, research synthesis with sources, creative piece, technical/executive memo and five-minute speech. Revise with structured feedback.",
     "evidence_standard": "Publish the project, retain the artifacts, and write a concise reflection showing understanding, application and judgment.",
-    "page": 388
+    "page": 388,
+    "resource_links": [
+      {
+        "competency": "Close reading & textual evidence",
+        "coverage": "Oregon State - Close Reading",
+        "url": null
+      },
+      {
+        "competency": "Academic argument, evidence + research",
+        "coverage": "University of York - Critical Argument",
+        "url": "https://www.youtube.com/watch?v=3gdMJ19QqRc"
+      },
+      {
+        "competency": "Poetry & poetics",
+        "coverage": "University of York - Reading Poetry",
+        "url": "https://www.youtube.com/watch?v=ykk1JVufvE8"
+      },
+      {
+        "competency": "Narrative theory + plot / story",
+        "coverage": "Open Yale - Russian Formalism - FIXED",
+        "url": null
+      },
+      {
+        "competency": "Literary history + contextual reading",
+        "coverage": "Open Yale - Literature Context - FIXED",
+        "url": null
+      },
+      {
+        "competency": "Creative revision + professional rhetoric",
+        "coverage": "UChicago - Writing Effectively",
+        "url": "https://www.youtube.com/watch?v=vtIzMaLkCaM"
+      }
+    ]
   }
 ]
