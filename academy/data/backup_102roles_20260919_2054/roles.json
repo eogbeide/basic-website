@@ -1969,43 +1969,43 @@
   },
   {
     "name": "Backend & Integration Engineer",
-    "benchmark": "DNS Solutions Senior Backend & Integration Engineer + Stripe API Platform / UI Platform + Salesforce MuleSoft Integration Architecture (Sep 2026) Market refresh: Node.js middleware and BFF services; REST/API contracts; enterprise and SaaS integrations; Salesforce/MuleSoft; Cloud SQL/BigQuery migrations; OWASP security; performance/reliability; CI/CD; architecture decisions; incident readiness; technical leadership.",
-    "capstone": "Architect and implement a production backend/integration layer for a public digital product. Build a BFF or middleware service; publish versioned API contracts and schemas; integrate Salesforce plus an internal or SaaS system; design an event/webhook path with idempotency, retries and dead-letter handling; migrate or modernize a relational data store with rollback; implement authentication, authorization, rate limits and OWASP controls; create CI/CD quality gates; instrument latency, errors and SLOs; run a failure drill; and document ADRs, runbooks and an executive-ready architecture decision package.",
-    "rubric": "Demonstrate working, testable integration engineering: clean service boundaries; stable and compatible API contracts; secure credentials and authorization; reliable sync and async patterns; migration evidence with rollback; actionable telemetry and SLOs; safe release automation; incident recovery; and technical decisions that clearly explain scalability, security, maintainability and business tradeoffs.",
+    "benchmark": "DNS Solutions Senior Backend & Integration Engineer + Stripe API Platform / UI Platform BFF + Salesforce MuleSoft integration architecture (current Sep 2026) Market refresh: Node.js backend services; REST/OpenAPI; middleware and BFFs; SaaS/CRM integration; SQL/BigQuery/Cloud SQL; database migration; event-driven workflows; API security; contract testing; observability; CI/CD; architecture leadership.",
+    "capstone": "Build a production-style backend-for-frontend and integration layer for a public digital product. Implement Node.js services with OpenAPI contracts; OAuth/OIDC authentication and authorization; Salesforce/CRM integration; Cloud SQL plus BigQuery data flows; webhook and event-driven processing with retries, idempotency and a dead-letter path; schema/contract tests; OWASP controls; OpenTelemetry tracing, metrics and logs; CI/CD; migration and rollback plans; architecture decision records; SLOs and operational dashboards.",
+    "rubric": "Show that you can translate business requirements into secure, observable and evolvable integration architecture - and operate it through migration, release, incidents and change - rather than merely connect two APIs.",
     "levels": [
       {
         "level": "BASIC",
-        "intro": "Build secure backend services, APIs and durable data foundations",
+        "intro": "Design clean backend services and durable API boundaries",
         "competencies": [
           {
-            "title": "Backend service architecture, BFF + API contracts",
-            "coverage": "Node.js / Backend Development / BFF / REST / API Design",
+            "title": "REST/OpenAPI, service boundaries, RPC + backend architecture",
+            "coverage": "Back End / APIs / Distributed Systems / System Design",
             "videos": [
               {
-                "title": "Discussing Backend For Front-end",
-                "url": "",
-                "channel": "NDC"
+                "title": "Better API Design with OpenAPI",
+                "url": "https://www.youtube.com/watch?v=uBs6dfUgxcI",
+                "channel": "Google Cloud"
               },
               {
-                "title": "Designing Quality APIs",
-                "url": "",
-                "channel": "Google Cloud"
+                "title": "RPC and Threads Engineer cloud data access and migration paths",
+                "url": "https://www.youtube.com/watch?v=gA4YXUJX7t8",
+                "channel": "MIT 6.824"
               }
             ]
           },
           {
-            "title": "SQL data modeling, cloud databases + migration",
-            "coverage": "SQL / Cloud SQL / BigQuery / Schema Design / Migration",
+            "title": "Relational data, BigQuery architecture, Cloud SQL migrations",
+            "coverage": "SQL / Data Engineering / Cloud Databases / Migration",
             "videos": [
               {
-                "title": "Migrating to Cloud SQL for MySQL",
-                "url": "",
+                "title": "Unlocking the Power of BigQuery",
+                "url": "https://www.youtube.com/watch?v=KL_i5XZIaJg",
                 "channel": "Google Cloud"
               },
               {
-                "title": "Designing Data-Intensive Applications",
-                "url": "",
-                "channel": "Martin Kleppmann"
+                "title": "Migrate SQL Server to Cloud SQL",
+                "url": "https://www.youtube.com/watch?v=O26s6mCiNsI",
+                "channel": "Google Cloud"
               }
             ]
           }
@@ -2013,37 +2013,37 @@
       },
       {
         "level": "INTERMEDIATE",
-        "intro": "Integrate enterprise systems with reliable synchronous and event-driven patterns",
+        "intro": "Build API-led enterprise integrations and middleware",
         "competencies": [
           {
-            "title": "Salesforce, middleware + enterprise integration patterns",
-            "coverage": "Salesforce APIs / MuleSoft / Middleware / SaaS Integration",
+            "title": "CRM/SaaS connectivity, middleware, API-led patterns + reusable services",
+            "coverage": "Systems Integration / Salesforce / API Management / Middleware",
             "videos": [
               {
-                "title": "APIs and Integration",
-                "url": "",
+                "title": "Integration Made Easy with MuleSoft",
+                "url": "https://www.youtube.com/watch?v=jIomaZfWgnQ",
                 "channel": "Salesforce Developers"
               },
               {
-                "title": "Building an Integration Strategy for the Future",
-                "url": "",
-                "channel": "AWS"
+                "title": "APIs + API-Led Connectivity Design event-driven workflows for resilient integration",
+                "url": "https://www.youtube.com/watch?v=M4gYW2o9IKc",
+                "channel": "MuleSoft from Start"
               }
             ]
           },
           {
-            "title": "Events, webhooks, contract testing + compatibility",
-            "coverage": "Event-Driven Architecture / Webhooks / Contracts / Versioning",
+            "title": "Design event-driven workflows for resilient integration",
+            "coverage": "",
             "videos": [
               {
-                "title": "Event-Driven Integrations with EventBridge",
-                "url": "",
+                "title": "Serverlesspresso Event-Driven Architecture",
+                "url": "https://www.youtube.com/watch?v=qs0U0LdNkV0",
                 "channel": "AWS re:Invent"
               },
               {
-                "title": "Master API Contract Testing",
-                "url": "",
-                "channel": "Postman"
+                "title": "Event-Driven Architectures with ECS/Fargate",
+                "url": "https://www.youtube.com/watch?v=-oXkuy_21BI",
+                "channel": "AWS re:Invent"
               }
             ]
           }
@@ -2051,37 +2051,37 @@
       },
       {
         "level": "ADVANCED",
-        "intro": "Own security, reliability, delivery and technical leadership across integrations",
+        "intro": "Secure and verify APIs as production contracts",
         "competencies": [
           {
-            "title": "API security, performance + production reliability",
-            "coverage": "OWASP API Security / Auth / Rate Limits / Performance / SLOs",
+            "title": "OWASP risks, authz/authn, schema contracts + regression protection",
+            "coverage": "API Security / Testing / OpenAPI / Quality Engineering",
             "videos": [
               {
                 "title": "OWASP API Security Top 10 Course",
-                "url": "",
-                "channel": ""
+                "url": "https://www.youtube.com/watch?v=YYe0FdfdgDU",
+                "channel": "APIsec + freeCodeCamp"
               },
               {
-                "title": "Are You Well-Architected?",
-                "url": "",
-                "channel": "AWS re:Invent"
+                "title": "Master API Contract Testing Operate integrations with observability, CI/CD + technical leadership",
+                "url": "https://www.youtube.com/watch?v=INJla2N2iZU",
+                "channel": "Postman"
               }
             ]
           },
           {
-            "title": "CI/CD, incident readiness + architecture leadership",
-            "coverage": "CI/CD / Release Engineering / Observability / Incident Response",
+            "title": "Operate integrations with observability, CI/CD + technical leadership",
+            "coverage": "",
             "videos": [
               {
-                "title": "GitHub Actions CI/CD + Docker",
-                "url": "",
-                "channel": "TechWorld with Nana"
+                "title": "OpenTelemetry Hands-On Codelab",
+                "url": "https://www.youtube.com/watch?v=1DTmuCTlGaE",
+                "channel": "CNCF"
               },
               {
-                "title": "Incident Management: SRE Implements DevOps",
-                "url": "",
-                "channel": "Google"
+                "title": "Build a CI/CD Pipeline with GitHub Actions",
+                "url": "https://www.youtube.com/watch?v=5MJRtldPOEI",
+                "channel": "GitHub"
               }
             ]
           }
@@ -2830,42 +2830,42 @@
   },
   {
     "name": "Core AI Product Manager",
-    "benchmark": "Qualtrics Core AI (Understand) + Cisco AI Knowledge Graph & Intelligence + Intuit Conversational AI Platform + Asana AI Agents Experience (Sep 2026) Market refresh: semantic/ontology systems; NLP enrichment; prediction and simulation; agent runtime; context/memory/retrieval; evals and observability; model abstraction; enterprise governance; developer adoption.",
-    "capstone": "Define and launch a shared Core AI 'Understand' platform: customer and internal-developer discovery; canonical ontology/semantic layer; unstructured enrichment; predictive/causal use cases plus simulation; benchmark suite; agent runtime with tools, memory and retrieval; offline/online evals plus human review; observability/debugging; model gateway with cost-latency-reliability tradeoffs; permissions, safety and governance; developer enablement; and an investment roadmap tied to reuse, quality and customer value.",
-    "rubric": "Show product judgment across shared AI primitives: define reusable capabilities instead of one-off features; quantify quality, latency, cost and adoption; connect semantic grounding to retrieval and agent behavior; establish evaluation and observability loops; govern model/provider abstraction; and translate platform investment into measurable developer and customer outcomes.",
+    "benchmark": "Qualtrics Core AI (Understand) + Cisco AI Knowledge Graph & Intelligence + Intuit Conversational AI Platform + Asana AI Agents Experience (current Sep 2026) Market refresh: semantic/ontology systems; NLP enrichment; prediction and simulation; agent runtime; context/memory/retrieval; evals and observability; model abstraction; enterprise governance; developer adoption.",
+    "capstone": "Define and launch a shared Core AI \"Understand\" platform: customer + internal-developer discovery; canonical ontology/semantic layer; unstructured enrichment; predictive/causal use case plus simulation; benchmark suite; agent runtime with tools, memory and retrieval; offline/online evals + human review; observability/debugging; model gateway with cost-latency-reliability tradeoffs; permissions, safety and governance; adoption, documentation and developer enablement; and an investment roadmap with measurable quality, reuse and customer-value outcomes.",
+    "rubric": "Show that you can turn fast-moving AI capabilities into reusable, governed platform primitives with credible quality metrics, economic tradeoffs and customer/developer adoption - not merely ship a one-off AI feature.",
     "levels": [
       {
         "level": "BASIC",
-        "intro": "Define the shared AI intelligence layer and its product strategy",
+        "intro": "Define Core AI strategy and reason about modern AI architecture",
         "competencies": [
           {
-            "title": "Core AI platform strategy, architecture + investment decisions",
+            "title": "AI platform strategy, architecture + investment decisions",
             "coverage": "AI Product Mgmt / AI Platform / Generative AI / Technical Strategy",
             "videos": [
               {
                 "title": "Intro to Large Language Models",
-                "url": "",
+                "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
                 "channel": "Andrej Karpathy"
               },
               {
-                "title": "Well-Architected GenAI + Agentic Apps",
-                "url": "",
+                "title": "Well-Architected GenAI + Agentic Apps Build semantic intelligence over enterprise + unstructured data",
+                "url": "https://www.youtube.com/watch?v=0sfKGUZ6kcg",
                 "channel": "AWS re:Invent"
               }
             ]
           },
           {
-            "title": "Semantic intelligence over enterprise + unstructured data",
-            "coverage": "Knowledge Graphs / Ontologies / NLP / Unstructured Data",
+            "title": "Build semantic intelligence over enterprise + unstructured data",
+            "coverage": "",
             "videos": [
               {
                 "title": "Ontologies for Knowledge Graph Creation",
-                "url": "",
+                "url": "https://www.youtube.com/watch?v=RYuw4oq0G84",
                 "channel": "Neo4j"
               },
               {
                 "title": "Intro + Word Vectors",
-                "url": "",
+                "url": "https://www.youtube.com/watch?v=DzpHeXVSC5I",
                 "channel": "Stanford CS224N"
               }
             ]
@@ -2874,7 +2874,7 @@
       },
       {
         "level": "INTERMEDIATE",
-        "intro": "Productize prediction, simulation and reusable agent infrastructure",
+        "intro": "Productize prediction, simulation and measurable intelligence",
         "competencies": [
           {
             "title": "Prediction, causal reasoning, scenario modeling + benchmarks",
@@ -2882,28 +2882,28 @@
             "videos": [
               {
                 "title": "Causal Inference, Part 1",
-                "url": "",
+                "url": "https://www.youtube.com/watch?v=gRkUhg9Wb-I",
                 "channel": "MIT OCW"
               },
               {
-                "title": "Causal Inference, Part 2",
-                "url": "",
+                "title": "Causal Inference, Part 2 Design agent runtime, tools, context and memory",
+                "url": "https://www.youtube.com/watch?v=g5v-NvNoJQQ",
                 "channel": "MIT OCW"
               }
             ]
           },
           {
-            "title": "Agent runtime, tools, context + memory",
-            "coverage": "Agents / Tool Use / Context / Memory / Retrieval",
+            "title": "Design agent runtime, tools, context and memory",
+            "coverage": "",
             "videos": [
               {
                 "title": "Agents SDK Build Hour",
-                "url": "",
+                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
                 "channel": "OpenAI"
               },
               {
                 "title": "Building Effective Agents",
-                "url": "",
+                "url": "https://www.youtube.com/watch?v=uhJJgc-0iTQ",
                 "channel": "Anthropic"
               }
             ]
@@ -2912,37 +2912,37 @@
       },
       {
         "level": "ADVANCED",
-        "intro": "Operate measurable, governed Core AI primitives at enterprise scale",
+        "intro": "Build quality loops for evals, retrieval and observability",
         "competencies": [
           {
-            "title": "Evaluation, retrieval quality + production observability",
+            "title": "Evaluation, benchmarking, retrieval quality + production debugging",
             "coverage": "AI Evals / RAG / Retrieval / Observability / Reliability",
             "videos": [
               {
                 "title": "LLM Evals: Common Mistakes",
-                "url": "",
+                "url": "https://www.youtube.com/watch?v=GL0XhAj5LPE",
                 "channel": "Hamel Husain"
               },
               {
-                "title": "Vector Database Architecture Deep Dive",
-                "url": "",
+                "title": "Vector Database Architecture Deep Dive Lead enterprise AI platform governance, economics + adoption",
+                "url": "https://www.youtube.com/watch?v=6hdEJdHWXRE",
                 "channel": "Weaviate"
               }
             ]
           },
           {
-            "title": "Governance, model economics + enterprise developer adoption",
-            "coverage": "AI Governance / Model Abstraction / Economics / Adoption",
+            "title": "Lead enterprise AI platform governance, economics + adoption",
+            "coverage": "",
             "videos": [
               {
                 "title": "Data & AI Governance: Catalog for AI",
-                "url": "",
-                "channel": "Google Cloud"
+                "url": "https://www.youtube.com/watch?v=cdmvSHJEh2E",
+                "channel": "Google Cloud Next"
               },
               {
                 "title": "Building the Agentic Enterprise",
-                "url": "",
-                "channel": "Google Cloud"
+                "url": "https://www.youtube.com/watch?v=lsqPct4NnNs",
+                "channel": "Google Cloud Next"
               }
             ]
           }
@@ -12544,1235 +12544,5 @@
       }
     ],
     "page": 523
-  },
-  {
-    "name": "MuleSoft Developer / Integration Architect",
-    "benchmark": "Accenture MuleSoft Developer + MuleSoft Sr. Developer / Architect + MuleSoft Architect (current Sep 2026) Market refresh: Anypoint Platform, Studio, Mule Runtime and DataWeave; API-led connectivity; MUnit; API Manager and Exchange; CloudHub/RTF; OAuth/JWT/TLS; Git/CI/CD; enterprise SaaS integration; observability, HA/DR, governance and agentic/MCP integration.",
-    "capstone": "Design and ship a production MuleSoft integration platform. Build System, Process and Experience APIs; integrate Salesforce plus another enterprise/SaaS system; implement DataWeave transformations, error handling and MUnit tests; enforce API Manager authentication, authorization, rate limits and policies; deploy through CI/CD to CloudHub 2.0 or Runtime Fabric; instrument logs, metrics and alerts; test failover/DR; publish reusable assets and documentation; and add one governed MCP/agentic integration where appropriate.",
-    "rubric": "Prove working integration engineering: correct API-led boundaries; reusable contracts and assets; secure OAuth/JWT/TLS controls; transformation and test evidence; CI/CD with rollback; observability and incident readiness; HA/DR behavior; governance and versioning; production troubleshooting; and architecture decisions that explain scalability, maintainability, cost and business tradeoffs.",
-    "levels": [
-      {
-        "level": "BASIC",
-        "intro": "Build the MuleSoft development foundation + reusable API layer",
-        "competencies": [
-          {
-            "title": "Anypoint Platform, Mule runtime + DataWeave",
-            "coverage": "Anypoint Studio / Mule Runtime / DataWeave / REST & SOAP / Connectors",
-            "videos": [
-              {
-                "title": "Anypoint Platform Overview",
-                "url": "https://videos.mulesoft.com/watch/bakFGgwqNDJzoJFNydiMiH",
-                "channel": "MuleSoft"
-              },
-              {
-                "title": "Intro to DataWeave",
-                "url": "https://videos.mulesoft.com/watch/Udh3kKXBl4WvtZl5hluazQ",
-                "channel": "MuleSoft"
-              }
-            ]
-          },
-          {
-            "title": "API-led connectivity + reusable API contracts",
-            "coverage": "System / Process / Experience APIs / API Design / Reuse",
-            "videos": [
-              {
-                "title": "Anypoint Platform",
-                "url": "https://www.youtube.com/watch?v=jRYQnF0v7_o",
-                "channel": "API-Led Connectivity"
-              },
-              {
-                "title": "API Manager Product Spotlight INTERMEDIATE Test, secure and deploy integrations through modern delivery pipelines",
-                "url": "https://videos.mulesoft.com/watch/DVBh7B1suty8yk1igmD2FC",
-                "channel": "MuleSoft"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "INTERMEDIATE",
-        "intro": "",
-        "competencies": [
-          {
-            "title": "MUnit testing, API security + policy enforcement",
-            "coverage": "MUnit / API Manager / OAuth / OIDC / JWT / Policies",
-            "videos": [
-              {
-                "title": "Introduction to MUnit",
-                "url": "https://videos.mulesoft.com/watch/mZ47wnvdqsoSQFMHk2GEEL",
-                "channel": "MuleSoft"
-              },
-              {
-                "title": "OAuth + OpenID Connect",
-                "url": "https://videos.mulesoft.com/watch/ymkReYaGuRdKMDmi9oY4ki",
-                "channel": "MuleSoft"
-              }
-            ]
-          },
-          {
-            "title": "Cloud deployment, CI/CD + hybrid runtime",
-            "coverage": "CloudHub 2.0 / Runtime Fabric / GitHub Actions / Release Automation",
-            "videos": [
-              {
-                "title": "CloudHub 2.0 Product Spotlight",
-                "url": "https://videos.mulesoft.com/watch/Q8ExDai23FjdCD4tsz25Z6",
-                "channel": "MuleSoft"
-              },
-              {
-                "title": "Deploy with GitHub Actions",
-                "url": "https://videos.mulesoft.com/watch/RuJasLQijkwhnLHVD5tLLy",
-                "channel": "MuleSoft"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "ADVANCED",
-        "intro": "Architect governed, reliable integration platforms + agentic connectivity",
-        "competencies": [
-          {
-            "title": "API governance, runtime patterns + reusable enterprise assets",
-            "coverage": "API Policies / Governance / Runtime Fabric / Enterprise Integration Patterns",
-            "videos": [
-              {
-                "title": "API Policies & Best Practices",
-                "url": "https://videos.mulesoft.com/watch/FCpnbG63xAcQK99N9hGKWw",
-                "channel": "MuleSoft"
-              },
-              {
-                "title": "Runtime Fabric Explained",
-                "url": "https://www.youtube.com/watch?v=bwGrGCQCkNM",
-                "channel": "MuleSoft"
-              }
-            ]
-          },
-          {
-            "title": "Reliability, HA/DR + agentic/MCP integration",
-            "coverage": "Monitoring / HA / Multi-Region DR / MCP / Technical Leadership",
-            "videos": [
-              {
-                "title": "HA + Multi-Region DR",
-                "url": "https://videos.mulesoft.com/watch/My6RehHeuQPV4ChkcrEgSZ",
-                "channel": "MuleSoft"
-              },
-              {
-                "title": "Model Context Protocol (MCP)",
-                "url": "https://www.youtube.com/watch?v=CQywdSdi5iA",
-                "channel": "Anthropic"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "page": 560
-  },
-  {
-    "name": "Solutions Engineer",
-    "benchmark": "Aera Technology Solutions Engineer | Presales + current enterprise and AI solutions-engineering signals (Sep 2026) Market refresh: deep discovery, product/platform fluency, target architecture and integrations, tailored demos/POCs, technical validation, identity/security, troubleshooting, ROI/value engineering, executive storytelling, deployment handoff, adoption and feedback-to-product.",
-    "capstone": "Run an enterprise solutions-engineering cycle end to end. Conduct discovery and define decision criteria; produce a target architecture covering data, APIs/integrations, identity and security; build a tailored working demo/POC; validate functional quality, latency/reliability and key risks; document technical objections and competitive tradeoffs; quantify value/ROI; present an executive readout; then create a production-readiness checklist, deployment roadmap, customer handoff package and feedback-to-product memo.",
-    "rubric": "Demonstrate discovery depth and requirement traceability; defend architecture and integration choices; show a working POC rather than slides alone; test security, reliability and failure cases; quantify technical and business success criteria; handle objections accurately; communicate to technical and executive audiences; and show a credible path from technical proof to production adoption and reusable field learning.",
-    "levels": [
-      {
-        "level": "BASIC",
-        "intro": "Turn customer ambiguity into a credible technical solution hypothesis",
-        "competencies": [
-          {
-            "title": "Discovery, qualification + measurable success criteria",
-            "coverage": "Product Discovery / Technical Sales / Value Discovery",
-            "videos": [
-              {
-                "title": "Use Case Discovery",
-                "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
-                "channel": "OpenAI Academy"
-              },
-              {
-                "title": "Discovery & Value Selling",
-                "url": "https://www.youtube.com/watch?v=cH_o8RJ8Lcs",
-                "channel": "Peter Cohan"
-              }
-            ]
-          },
-          {
-            "title": "Solution architecture, APIs + integration patterns",
-            "coverage": "Systems Architecture / APIs / Event-Driven Integration",
-            "videos": [
-              {
-                "title": "Designing Quality APIs",
-                "url": "https://www.youtube.com/watch?v=P0a7PwRNLVU",
-                "channel": "Google Cloud"
-              },
-              {
-                "title": "Event-Driven Architecture INTERMEDIATE Prove the technical win with hands-on builds + production safeguards",
-                "url": "https://www.youtube.com/watch?v=o2HJCGcYwoU",
-                "channel": "IBM Technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "INTERMEDIATE",
-        "intro": "",
-        "competencies": [
-          {
-            "title": "Tailored demos, POCs + working prototypes",
-            "coverage": "Prototyping / APIs / AI Solutions / Rapid Technical Validation",
-            "videos": [
-              {
-                "title": "Build Hour: Agents SDK",
-                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
-                "channel": "OpenAI"
-              },
-              {
-                "title": "FastAPI Full Course",
-                "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA",
-                "channel": "freeCodeCamp"
-              }
-            ]
-          },
-          {
-            "title": "Security, identity + production readiness",
-            "coverage": "IAM / Zero Trust / Reliability / Compliance Readiness",
-            "videos": [
-              {
-                "title": "Identity & Access Management",
-                "url": "https://www.youtube.com/watch?v=aNj36g7fSsU",
-                "channel": "IBM Technology"
-              },
-              {
-                "title": "Zero Trust for AI Agents",
-                "url": "https://www.youtube.com/watch?v=G6Aot9UCePU",
-                "channel": "Microsoft Mechanics"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "ADVANCED",
-        "intro": "Translate technical proof into business value, adoption + reusable field leverage",
-        "competencies": [
-          {
-            "title": "Technical validation, evaluation + business value",
-            "coverage": "AI/Software Evaluation / Performance / ROI / Value Engineering",
-            "videos": [
-              {
-                "title": "Practical Evaluation Systems",
-                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
-                "channel": "OpenAI Academy"
-              },
-              {
-                "title": "Cloud Value Framework",
-                "url": "https://www.youtube.com/watch?v=hE59vCkpBBE",
-                "channel": "AWS"
-              }
-            ]
-          },
-          {
-            "title": "Executive communication, adoption + feedback-to-product",
-            "coverage": "Executive Communication / Stakeholder Influence / Adoption / Product Feedback",
-            "videos": [
-              {
-                "title": "Think Fast, Talk Smart",
-                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
-                "channel": "Stanford GSB"
-              },
-              {
-                "title": "Influence Stakeholders",
-                "url": "https://www.youtube.com/watch?v=QMhDYkFhErY",
-                "channel": "Product School"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "page": 561
-  },
-  {
-    "name": "Customer Engineer",
-    "benchmark": "Google Cloud Customer Engineer + Cognizant AI Customer Engineer (current Sep 2026) Market refresh: customer-facing cloud/platform architecture, workload discovery, systems design, workshops, debugging and prototypes; APIs/data integration; identity/security; AI agents/RAG where relevant; PoCs/MVPs; migration and production readiness; reliability, adoption, executive guidance and sales-to-delivery continuity.",
-    "capstone": "Act as the technical owner for a strategic customer workload from discovery through production readiness. Run a workload/use-case workshop; define measurable success and a target cloud architecture; build a working API/data or AI-enabled prototype; integrate identity and security; test reliability and failure behavior; document migration and deployment steps; create SLOs, observability and a runbook; deliver a technical deep dive plus executive value narrative; then hand off to delivery with adoption milestones and a field-feedback backlog.",
-    "rubric": "Show trusted-advisor behavior backed by engineering evidence: accurate discovery; defensible architecture; hands-on prototype and debugging; secure identity/data boundaries; measurable quality, latency and reliability; explicit migration/operational risks; clear executive communication; smooth sales-to-delivery continuity; adoption measures; and product/engineering feedback grounded in real customer friction rather than anecdotes.",
-    "levels": [
-      {
-        "level": "BASIC",
-        "intro": "Diagnose the workload, define success + shape the target platform architecture",
-        "competencies": [
-          {
-            "title": "Customer discovery, workload assessment + outcomes",
-            "coverage": "Product Discovery / Use-Case Scoping / Technical Workshops",
-            "videos": [
-              {
-                "title": "How to Talk to Users",
-                "url": "https://www.youtube.com/watch?v=z1iF1c8w5Lg",
-                "channel": "Y Combinator"
-              },
-              {
-                "title": "Use Case Discovery",
-                "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
-                "channel": "OpenAI Academy"
-              }
-            ]
-          },
-          {
-            "title": "Cloud architecture, APIs + system design",
-            "coverage": "Cloud Architecture / Well-Architected Systems / API Design",
-            "videos": [
-              {
-                "title": "Five Pillars of Well-Architected",
-                "url": "https://www.youtube.com/watch?v=KvEDbPmha6o",
-                "channel": "AWS"
-              },
-              {
-                "title": "Designing Quality APIs INTERMEDIATE Build and troubleshoot proofs that integrate cleanly with the customer environment",
-                "url": "https://www.youtube.com/watch?v=P0a7PwRNLVU",
-                "channel": "Google Cloud"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "INTERMEDIATE",
-        "intro": "",
-        "competencies": [
-          {
-            "title": "Prototyping, APIs + AI/data integration",
-            "coverage": "Python / FastAPI / AI Agents / Integration Prototyping",
-            "videos": [
-              {
-                "title": "FastAPI Full Course",
-                "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA",
-                "channel": "freeCodeCamp"
-              },
-              {
-                "title": "Build Hour: Agents SDK",
-                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
-                "channel": "OpenAI"
-              }
-            ]
-          },
-          {
-            "title": "Identity, security + production troubleshooting",
-            "coverage": "IAM / Zero Trust / Debugging / Production Readiness",
-            "videos": [
-              {
-                "title": "Identity & Access Management",
-                "url": "https://www.youtube.com/watch?v=aNj36g7fSsU",
-                "channel": "IBM Technology"
-              },
-              {
-                "title": "Zero Trust for AI Agents",
-                "url": "https://www.youtube.com/watch?v=G6Aot9UCePU",
-                "channel": "Microsoft Mechanics"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "ADVANCED",
-        "intro": "Own reliability, adoption + technical leadership from validation through production",
-        "competencies": [
-          {
-            "title": "Reliability, migration + operational adoption",
-            "coverage": "SLOs / Incident Readiness / Migration / Change Adoption",
-            "videos": [
-              {
-                "title": "Getting Started with SLOs",
-                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
-                "channel": "Google Cloud"
-              },
-              {
-                "title": "ADKAR Change Management",
-                "url": "https://www.youtube.com/watch?v=zYe2fG8m4Ow",
-                "channel": "Prosci"
-              }
-            ]
-          },
-          {
-            "title": "Evaluation, customer value + executive technical guidance",
-            "coverage": "Evaluation / Business Value / Executive Communication / Delivery Handoff",
-            "videos": [
-              {
-                "title": "Practical Evaluation Systems",
-                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
-                "channel": "OpenAI Academy"
-              },
-              {
-                "title": "Think Fast, Talk Smart",
-                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
-                "channel": "Stanford GSB"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "page": 562
-  },
-  {
-    "name": "Senior Manager, Product Management - Technical",
-    "benchmark": "Amazon Sr. Manager, Product Management-Tech, Amazon Customer Service (Job 10505497) + current principal-level product signals (Sep 2026) Market refresh: AI-native associate platform strategy; multi-domain roadmaps; first-contact resolution, handle time and CSAT; workflow simplification; PM hiring, coaching and ownership; cross-functional delivery across engineering, applied science, BI, UX and operations; senior-leadership reviews; data-backed investment narratives.",
-    "capstone": "Act as Senior Manager for an AI-native customer-service product portfolio. Define the platform vision and four-domain roadmap; write PRDs and sequencing logic; set first-contact resolution, handle-time, CSAT and adoption goals; simplify fragmented workflows; design human/AI handoffs and responsible-AI quality gates; hire/coach domain PMs with clear ownership; align Engineering, Applied Science, BI, UX and Operations; deliver a launch/adoption plan; then author a data-backed investment narrative and run a senior-leadership portfolio review with scale/stop/reallocate decisions.",
-    "rubric": "Demonstrate senior product leadership rather than feature management: coherent platform strategy and multi-domain roadmap; measurable customer-service outcomes; workflow simplification; credible AI/human-agent product judgment; PM hiring, coaching and ownership; cross-functional execution; responsible-AI controls; launch/adoption discipline; decision-ready metrics; senior-leadership writing; and evidence that resources and roadmap priorities change when customer, quality or operational evidence changes.",
-    "levels": [
-      {
-        "level": "BASIC",
-        "intro": "Set the product direction and turn strategy into a coherent portfolio of bets",
-        "competencies": [
-          {
-            "title": "Vision, customer problems + product strategy stack",
-            "coverage": "Product Vision / Strategy / Roadmap Logic / Outcome Framing",
-            "videos": [
-              {
-                "title": "Product Strategy Stack",
-                "url": "https://www.youtube.com/watch?v=tncs0m5pmQg",
-                "channel": "Ravi Mehta / Lenny"
-              },
-              {
-                "title": "Crafting a Compelling Product Vision",
-                "url": "https://www.youtube.com/watch?v=tBPTwUmaxDs",
-                "channel": "Ebi Atawodi / Lenny"
-              }
-            ]
-          },
-          {
-            "title": "Product operating model + portfolio-level tradeoffs",
-            "coverage": "Empowered Teams / Portfolio Bets / Prioritization / Multi-Year Roadmaps",
-            "videos": [
-              {
-                "title": "Moving to the Product Operating Model",
-                "url": "https://www.youtube.com/watch?v=Tj7uKMT9Ih4",
-                "channel": "Marty Cagan"
-              },
-              {
-                "title": "Netflix Product Strategy / 10X Strategy INTERMEDIATE Scale execution through decision systems, PM talent and high-performing teams",
-                "url": "https://www.youtube.com/watch?v=k4u80usX1Js",
-                "channel": "Gibson Biddle"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "INTERMEDIATE",
-        "intro": "",
-        "competencies": [
-          {
-            "title": "Scaled execution, operating cadence + opportunity cost",
-            "coverage": "Product Operations / Decision Cadence / Pre-Mortems / Opportunity Cost",
-            "videos": [
-              {
-                "title": "Lessons from Scaling Stripe",
-                "url": "https://www.youtube.com/watch?v=Mv0o9o4MRh0",
-                "channel": "Claire Hughes Johnson"
-              },
-              {
-                "title": "The Art of Product Management",
-                "url": "https://www.youtube.com/watch?v=YP_QghPLG-8",
-                "channel": "Shreyas Doshi"
-              }
-            ]
-          },
-          {
-            "title": "Lead PMs, coach talent + build strong team rituals",
-            "coverage": "People Leadership / Coaching / Career Development / Team Operating Systems",
-            "videos": [
-              {
-                "title": "How to Be the Best Coach to Product People",
-                "url": "https://www.youtube.com/watch?v=4n3ybRqU5mU",
-                "channel": "Petra Wille"
-              },
-              {
-                "title": "What Sets Great Teams Apart",
-                "url": "https://www.youtube.com/watch?v=XmgetFMgQZ0",
-                "channel": "Lane Shackleton / Lenny"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "ADVANCED",
-        "intro": "Lead AI-native product organizations and executive portfolio decisions",
-        "competencies": [
-          {
-            "title": "AI-native service + human/AI product leadership",
-            "coverage": "Applied AI / Human-AI Collaboration / Responsible AI / Customer Experience",
-            "videos": [
-              {
-                "title": "What Every Product Leader Needs to Know",
-                "url": "https://www.youtube.com/watch?v=OhW1e5x8cD0",
-                "channel": "Marty Cagan"
-              },
-              {
-                "title": "Agentic AI + Amazon Connect",
-                "url": "https://www.youtube.com/watch?v=sq5FNe2_JzI",
-                "channel": "AWS re:Invent 2025"
-              }
-            ]
-          },
-          {
-            "title": "Executive portfolio reviews + commercial judgment",
-            "coverage": "Investment Narratives / Portfolio Reviews / Monetization / GTM / Adoption",
-            "videos": [
-              {
-                "title": "Master Pricing for Your Business",
-                "url": "https://www.youtube.com/watch?v=J4fUDNNxyg0",
-                "channel": "Product School"
-              },
-              {
-                "title": "AI-Assisted GTM for Product Teams",
-                "url": "https://www.youtube.com/watch?v=3o2C74iWez4",
-                "channel": "Product School / Atlassian"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "page": 563
-  },
-  {
-    "name": "Principal Product Manager, Agentic Evals",
-    "benchmark": "Expedia Group Principal Product Manager, Agentic Evals (current Sep 2026) Market refresh: company-wide AI evaluation strategy; agent/task/trajectory evaluation; metrics for accuracy, safety, latency, helpfulness and long-term outcomes; scalable datasets and tooling; LLM-judge calibration; experimentation and statistical reliability; scorecards/release gates; governance, risk, adoption and roadmap recommendations.",
-    "capstone": "Define and launch an org-level evaluation system for an agentic product portfolio. Create the eval taxonomy and success criteria; build representative golden datasets from realistic tasks and production-like traces; instrument runs, tools and trajectories; implement deterministic, LLM-judge and human evals; calibrate judges; measure accuracy, safety, helpfulness, latency, cost and user outcomes; quantify repeatability; create scorecards and release gates; investigate failures; compare two agent/model versions; and publish governance plus roadmap recommendations.",
-    "rubric": "Prove that the eval system supports product decisions, not leaderboard theater: valid user-centered metrics; task, outcome and trajectory coverage; representative data; calibrated judges with human reference labels; error analysis; statistical reliability; safety/transparency; reproducibility; latency/cost guardrails; production feedback loops; traceability; clear release/rollback thresholds; and roadmap decisions that follow from evidence.",
-    "levels": [
-      {
-        "level": "BASIC",
-        "intro": "Define what good means and design an evaluation system around real user outcomes",
-        "competencies": [
-          {
-            "title": "Evaluation foundations, failure taxonomy + product metrics",
-            "coverage": "AI Evals / Error Analysis / Product Quality / User Outcomes",
-            "videos": [
-              {
-                "title": "10 Things I Hate About AI Evals",
-                "url": "https://www.youtube.com/watch?v=QEk-XwrkqhI",
-                "channel": "Hamel Husain"
-              },
-              {
-                "title": "LLM Agent Evaluations",
-                "url": "https://www.youtube.com/watch?v=VfOA2a0dj4w",
-                "channel": "UC Berkeley RDI"
-              }
-            ]
-          },
-          {
-            "title": "Agent evaluation architecture + capability vs regression tests",
-            "coverage": "Agent Evals / Task Success / Regression / Test Pyramids",
-            "videos": [
-              {
-                "title": "How to Evaluate Agents in Practice",
-                "url": "https://www.youtube.com/watch?v=vuBvf7ZRKTA",
-                "channel": "Google Cloud"
-              },
-              {
-                "title": "Stop Vibe-Testing Your AI Agents INTERMEDIATE Instrument trajectories, build datasets and calibrate automated evaluators",
-                "url": "https://www.youtube.com/watch?v=L6CLr1gjrUg",
-                "channel": "Arize AI"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "INTERMEDIATE",
-        "intro": "",
-        "competencies": [
-          {
-            "title": "Trajectory/tool-use evaluation + representative datasets",
-            "coverage": "Agent Trajectories / Tools / Golden Sets / Experiments / Continuous Eval",
-            "videos": [
-              {
-                "title": "Evaluate Agent Trajectories with AgentEvals",
-                "url": "https://www.youtube.com/watch?v=FCKjETgr54U",
-                "channel": "LangChain"
-              },
-              {
-                "title": "How Do You Actually Evaluate an AI Agent?",
-                "url": "https://www.youtube.com/watch?v=wiJk8b_vjt0",
-                "channel": "LangChain"
-              }
-            ]
-          },
-          {
-            "title": "LLM-as-judge design, calibration + evaluator reliability",
-            "coverage": "LLM Judges / Human Labels / Calibration / Meta-Evaluation / Error Analysis",
-            "videos": [
-              {
-                "title": "LLM-as-a-Judge 101",
-                "url": "https://www.youtube.com/watch?v=pnlT_xatpVQ",
-                "channel": "Arize AI"
-              },
-              {
-                "title": "Align Your LLM Judge for Better Evaluations",
-                "url": "https://www.youtube.com/watch?v=AMCmhRoKnSk",
-                "channel": "Weights & Biases"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "ADVANCED",
-        "intro": "Operate a statistically defensible, governed eval platform that drives product decisions",
-        "competencies": [
-          {
-            "title": "Benchmark reliability, repeated trials + release-gate confidence",
-            "coverage": "Statistical Reliability / Benchmark Noise / Repeatability / Release Gates",
-            "videos": [
-              {
-                "title": "Your Agent Evolved. Your Evals Didnt",
-                "url": "https://www.youtube.com/watch?v=nxokqOq1imY",
-                "channel": "Braintrust / AI Engineer"
-              },
-              {
-                "title": "Predictable Noise in LLM Benchmarks",
-                "url": "https://www.youtube.com/watch?v=HV8pugcFVO0",
-                "channel": "UC Berkeley RDI"
-              }
-            ]
-          },
-          {
-            "title": "Evaluation governance, safety + continuous optimization",
-            "coverage": "Evaluation Governance / Safety / Feedback Loops / Optimization / Org Adoption",
-            "videos": [
-              {
-                "title": "Evaluation",
-                "url": "https://www.youtube.com/watch?v=JpAxdTWQJxM",
-                "channel": "Stanford CS336"
-              },
-              {
-                "title": "Agent Optimization: Evals + Feedback Loops",
-                "url": "https://www.youtube.com/watch?v=A48uhxfxbsM",
-                "channel": "Pydantic AI"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "page": 564
-  },
-  {
-    "name": "Ethical Hacker / Penetration Tester",
-    "benchmark": "Google Cloud / Mandiant Offensive Security Consultant + current enterprise red-team practice (Sep 2026) Market refresh: authorized penetration testing and red teaming; network, web, API, mobile, cloud, wireless and social-engineering assessment; scripting/tooling; identity and privilege-path analysis; threat-informed adversary emulation; evidence capture; executive reporting; remediation and retesting; strict rules of engagement and safety.",
-    "capstone": "Plan and execute an authorized enterprise penetration-test simulation inside an isolated lab or written-scope environment. Write rules of engagement, approved assets and stop conditions; map attack surfaces and threat hypotheses; assess web/API, identity/cloud and one additional approved surface; record non-destructive proof, affected controls and ATT&CK mappings; remove test artifacts; prioritize remediation; produce technical and executive reports; then retest fixes and document defensive learning.",
-    "rubric": "Prove legal authorization and scope discipline first; no testing beyond approved assets. Show reproducible but non-destructive evidence, least-impact validation, secrets/privacy handling, cleanup, accurate severity, ATT&CK mapping where useful, clear remediation, retest evidence, and communication that helps defenders reduce risk rather than merely demonstrating exploitation.",
-    "levels": [
-      {
-        "level": "BASIC",
-        "intro": "Operate legally and methodically: scope the engagement, verify vulnerabilities and document evidence",
-        "competencies": [
-          {
-            "title": "Authorization, rules of engagement + assessment methodology",
-            "coverage": "Ethics & Authorization / Scoping / ROE / Methodology / Reporting",
-            "videos": [
-              {
-                "title": "Introduction to Pentesting with Mike Felch",
-                "url": "https://www.youtube.com/watch?v=5mHr_Tt6pvE",
-                "channel": "BHIS"
-              },
-              {
-                "title": "Intro to Desktop Application Testing Methodology",
-                "url": "https://www.youtube.com/watch?v=nudjtezcQ3A",
-                "channel": "BHIS"
-              }
-            ]
-          },
-          {
-            "title": "Web, API + application security testing",
-            "coverage": "HTTP / OWASP / Web Security / API Security / Validation",
-            "videos": [
-              {
-                "title": "What Is SQL Injection? Web Security Academy",
-                "url": "https://www.youtube.com/watch?v=wX6tszfgYp4",
-                "channel": "PortSwigger"
-              },
-              {
-                "title": "API Security Fundamentals INTERMEDIATE Expand across identity, cloud and human/physical attack surfaces within explicit scope",
-                "url": "https://www.youtube.com/watch?v=R-4_DbV1Su4",
-                "channel": "freeCodeCamp / APIsec"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "INTERMEDIATE",
-        "intro": "",
-        "competencies": [
-          {
-            "title": "Identity, privilege paths + cloud security assessment",
-            "coverage": "Identity / Privilege Escalation / Azure & Cloud / Credential Risk",
-            "videos": [
-              {
-                "title": "Shadow Credentials for Privilege Escalation",
-                "url": "https://www.youtube.com/watch?v=3Tg70DRgZ4w",
-                "channel": "BHIS"
-              },
-              {
-                "title": "Getting Started in Pentesting the Cloud: Azure",
-                "url": "https://www.youtube.com/watch?v=u_3cV0pzptY",
-                "channel": "BHIS"
-              }
-            ]
-          },
-          {
-            "title": "Wireless, physical + social-engineering assessment",
-            "coverage": "Wireless / Physical Security / Social Engineering / Defensive Recommendations",
-            "videos": [
-              {
-                "title": "How to Hack Wi-Fi with No Wi-Fi",
-                "url": "https://www.youtube.com/watch?v=lqvq3xH0qYM",
-                "channel": "BHIS"
-              },
-              {
-                "title": "Social Engineering for Physical Pentesting Assignments",
-                "url": "https://www.youtube.com/watch?v=TIfSrX4w2os",
-                "channel": "NorthSec"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "ADVANCED",
-        "intro": "Run threat-informed red-team exercises and turn findings into durable defensive improvement",
-        "competencies": [
-          {
-            "title": "Adversary emulation + red/purple-team planning",
-            "coverage": "MITRE ATT&CK / Threat Intelligence / Red Team / Purple Team / Detection",
-            "videos": [
-              {
-                "title": "Adversarial Emulation Extravaganza",
-                "url": "https://www.youtube.com/watch?v=q_y05SOZvPY",
-                "channel": "BHIS"
-              },
-              {
-                "title": "Emulating an Adversary with Imperfect Intelligence",
-                "url": "https://www.youtube.com/watch?v=cXlWY3OnjO0",
-                "channel": "DEF CON"
-              }
-            ]
-          },
-          {
-            "title": "AI-assisted testing, governance + executive remediation",
-            "coverage": "Responsible AI / Pen Test Program / Reporting / Remediation / Retest",
-            "videos": [
-              {
-                "title": "Using AI to Augment Web App Pentesting Methodologies",
-                "url": "https://www.youtube.com/watch?v=WALqWZhDi-g",
-                "channel": "BHIS"
-              },
-              {
-                "title": "Why Your Org Needs a Penetration Test Program",
-                "url": "https://www.youtube.com/watch?v=OUWEdX1gMsg",
-                "channel": "BHIS"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "page": 565
-  },
-  {
-    "name": "Director, Software Engineering",
-    "benchmark": "Amazon AWS Director of Software Development (Job 10514283) + senior engineering-organization leadership signals (Sep 2026) Market refresh: multi-team software strategy; technical direction across critical infrastructure; leader-of-leaders talent systems; organization design; architecture and operating mechanisms; developer productivity; observability/SRE; incident and investment governance; AI-native development; senior executive technical advising; scaling globally distributed teams.",
-    "capstone": "Create a three-year engineering operating plan for a mission-critical software/platform organization. Define engineering strategy, architecture principles and organizational topology; build a leadership bench and succession plan; set developer-productivity, quality, reliability and cost metrics; establish design/release/incident mechanisms; prioritize technical-debt and platform investments; introduce guarded AI coding/agent workflows with evals, permissions and observability; allocate headcount and budget; then defend the plan in an executive architecture and investment review.",
-    "rubric": "Demonstrate leader-of-leaders capability and technical credibility: explicit engineering strategy choices; healthy organization design; strong manager and Staff+ development; measurable delivery, DevEx and reliability; architecture and technical-debt judgment; evidence-based incident learning; safe AI-native development; resource and budget tradeoffs; and concise executive influence grounded in customer, business and engineering outcomes.",
-    "levels": [
-      {
-        "level": "BASIC",
-        "intro": "Set engineering direction while preserving credible technical judgment and healthy teams",
-        "competencies": [
-          {
-            "title": "Engineering strategy + durable technical direction",
-            "coverage": "Engineering Strategy / Architecture Principles / Technical Roadmaps / Tradeoffs",
-            "videos": [
-              {
-                "title": "Solving the Engineering Strategy Crisis",
-                "url": "https://www.youtube.com/watch?v=vkfzpQ10eI4",
-                "channel": "Will Larson"
-              },
-              {
-                "title": "Being Technical in Technical Leadership",
-                "url": "https://www.youtube.com/watch?v=G25_RQqV4vE",
-                "channel": "OReilly / Camille Fournier"
-              }
-            ]
-          },
-          {
-            "title": "Team motivation, delegation + leader development",
-            "coverage": "Engineering Leadership / Delegation / Coaching / Leadership Bench",
-            "videos": [
-              {
-                "title": "Building and Motivating Engineering Teams",
-                "url": "https://www.youtube.com/watch?v=7R-Y2DwWOr0",
-                "channel": "Camille Fournier"
-              },
-              {
-                "title": "Cloning Yourself Isnt an Option INTERMEDIATE Scale through culture, operating mechanisms and measurable engineering systems",
-                "url": "https://vimeo.com/139907569",
-                "channel": "Camille Fournier"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "INTERMEDIATE",
-        "intro": "",
-        "competencies": [
-          {
-            "title": "Culture, org design + process at multi-team scale",
-            "coverage": "Engineering Culture / Org Design / Operating Mechanisms / Process Design",
-            "videos": [
-              {
-                "title": "Rebooting Culture",
-                "url": "https://vimeo.com/173328699",
-                "channel": "Camille Fournier"
-              },
-              {
-                "title": "Design Organizational Processes That Work",
-                "url": "https://www.youtube.com/watch?v=CQEtscooLxU",
-                "channel": "Will Larson"
-              }
-            ]
-          },
-          {
-            "title": "Developer productivity + observability/reliability economics",
-            "coverage": "DevEx / DORA-SPACE / SRE / Observability / Reliability Investment",
-            "videos": [
-              {
-                "title": "Measure and Improve Developer Productivity",
-                "url": "https://www.youtube.com/watch?v=dP8NmcEkxJI",
-                "channel": "Nicole Forsgren"
-              },
-              {
-                "title": "Observabilitying the Future of Software",
-                "url": "https://www.youtube.com/watch?v=c_YwzERxU4k",
-                "channel": "Charity Majors"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "ADVANCED",
-        "intro": "Lead an AI-native engineering organization through cross-org complexity and executive tradeoffs",
-        "competencies": [
-          {
-            "title": "AI-native delivery + evidence-based production risk",
-            "coverage": "AI-Assisted SDLC / AIOps / Reliability / Evaluation / Human Review",
-            "videos": [
-              {
-                "title": "AIOps: Prove It!",
-                "url": "https://www.youtube.com/watch?v=7cJiDpfZ6Bg",
-                "channel": "USENIX SREcon"
-              },
-              {
-                "title": "Why Technical Leadership Matters",
-                "url": "https://www.youtube.com/watch?v=_6BKK1SPAVI",
-                "channel": "Patrick Kua"
-              }
-            ]
-          },
-          {
-            "title": "Technical leadership bench + cross-org influence",
-            "coverage": "Staff+ Leadership / Technical Strategy / Influence / Leadership Development",
-            "videos": [
-              {
-                "title": "Technical Leadership",
-                "url": "https://www.youtube.com/watch?v=k_nti-mk5IY",
-                "channel": "Laura Paterson & Patrick Kua"
-              },
-              {
-                "title": "What I Wish I Knew as a First-Time Tech Lead",
-                "url": "https://www.youtube.com/watch?v=CjgWwmBW-bc",
-                "channel": "Patrick Kua"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "page": 566
-  },
-  {
-    "name": "Director, Product Management",
-    "benchmark": "Amazon Director, Product Management, AWS Developer Tools (Job 10513401) + cross-employer director-level product leadership signals (Sep 2026) Market refresh: portfolio vision, strategy and execution; large PM-team leadership; developer platforms, agent enablement and evaluation systems; product operating models; platform/API strategy; investment and prioritization; PM coaching; AI-era defensibility; commercialization; GM/P&L thinking; executive and board narratives.",
-    "capstone": "Act as Director of Product for an AI-enabled developer or enterprise platform. Define a three-year portfolio vision, target customers/jobs and competitive thesis; choose four to six strategic bets with kill/scale criteria; define platform/API and agent/evaluation strategy; set outcome, adoption, quality, safety and commercial metrics; design discovery and experimentation mechanisms; create PM org design and coaching plans; model investment, pricing/value capture and P&L tradeoffs; then run an executive/board portfolio review and reallocate resources based on evidence.",
-    "rubric": "Show director-level product judgment: coherent portfolio strategy and explicit choices; customer and market evidence; outcome-driven operating model; platform/technical fluency; strong PM coaching and organizational design; defensible AI/agent strategy with trust and evals; commercial and P&L reasoning; disciplined investment tradeoffs; and executive/board communication that links product decisions to measurable business results.",
-    "levels": [
-      {
-        "level": "BASIC",
-        "intro": "Create portfolio direction that connects customer value, product vision and business strategy",
-        "competencies": [
-          {
-            "title": "Product vision + strategy system",
-            "coverage": "Product Vision / Product Strategy / Market Choices / Roadmap Logic",
-            "videos": [
-              {
-                "title": "What Exactly Is a Product Strategy?",
-                "url": "https://www.youtube.com/watch?v=fUPDCek9y-U",
-                "channel": "Roman Pichler"
-              },
-              {
-                "title": "Inspiring with a Product Vision",
-                "url": "https://www.youtube.com/watch?v=QVwE320c7Mc",
-                "channel": "Product School / Ebi Atawodi"
-              }
-            ]
-          },
-          {
-            "title": "Outcome-based product operating model + empowered teams",
-            "coverage": "Product Operating Model / Outcomes / Discovery / Empowered Teams",
-            "videos": [
-              {
-                "title": "From Features to Outcomes",
-                "url": "https://www.youtube.com/watch?v=7KA-FguOI2s",
-                "channel": "SVPG / Chris Jones"
-              },
-              {
-                "title": "What PMs Do at Winning Companies INTERMEDIATE Scale platforms, portfolios and PM talent instead of managing feature queues",
-                "url": "https://www.youtube.com/watch?v=NJv4KQA0H9I",
-                "channel": "Marty Cagan"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "INTERMEDIATE",
-        "intro": "",
-        "competencies": [
-          {
-            "title": "Platform portfolio strategy + anti-theater decision quality",
-            "coverage": "Platform PM / Portfolio Bets / Prioritization / Product Decision Quality",
-            "videos": [
-              {
-                "title": "Platform Product Management: Changing Whats Possible",
-                "url": "https://www.youtube.com/watch?v=O3vvo2Sinww",
-                "channel": "Product School"
-              },
-              {
-                "title": "Product Management Theater",
-                "url": "https://www.youtube.com/watch?v=9N4ZgNaWvI0",
-                "channel": "Marty Cagan / Lenny"
-              }
-            ]
-          },
-          {
-            "title": "PM coaching + product leadership at organizational scale",
-            "coverage": "Product Leadership / Coaching / PM Career Growth / Leadership Systems",
-            "videos": [
-              {
-                "title": "Coaching Product People Dojo",
-                "url": "https://www.youtube.com/watch?v=QG_wYug6HBY",
-                "channel": "SVPG / Christian Idiodi"
-              },
-              {
-                "title": "Product Leadership Is Hard",
-                "url": "https://www.youtube.com/watch?v=Aiqni0zUAfY",
-                "channel": "SVPG / Marty Cagan"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "ADVANCED",
-        "intro": "Own AI-era business outcomes, agentic strategy and executive/board narratives",
-        "competencies": [
-          {
-            "title": "Defensible AI strategy + agentic product portfolio",
-            "coverage": "AI Strategy / Agents / Trust / Evals / Portfolio Moats",
-            "videos": [
-              {
-                "title": "From Hype to Moat: Defensible AI Strategy",
-                "url": "https://www.youtube.com/watch?v=m91Zk5ueT1I",
-                "channel": "ProductCon / Penny Szeto"
-              },
-              {
-                "title": "Deploying AI Agents in Product Teams",
-                "url": "https://www.youtube.com/watch?v=2gnB2xq3wo8",
-                "channel": "ProductCon"
-              }
-            ]
-          },
-          {
-            "title": "GM economics + executive and board influence",
-            "coverage": "P&L / Unit Economics / Resource Tradeoffs / Board Communication",
-            "videos": [
-              {
-                "title": "VPs of Product Operating as GMs",
-                "url": "https://www.youtube.com/watch?v=iGSucp4riF0",
-                "channel": "ProductCon / Dave Bottoms"
-              },
-              {
-                "title": "The Board Doesnt Care About Your Roadmap",
-                "url": "https://www.youtube.com/watch?v=8Pp_zyfK4dE",
-                "channel": "ProductCon / Tim Holley"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "page": 567
-  },
-  {
-    "name": "Director, Program Management",
-    "benchmark": "Google Director, Technical Program Management, POps Engineering + enterprise-transformation program leadership signals (Sep 2026) Market refresh: enterprise-wide transformation planning and delivery; strategic roadmaps and OKRs; portfolio governance; budget/resource plans; cross-functional workstreams and dependencies; executive decision cadence; change adoption; benefit realization; large global organizations; vendor/risk management; AI-first modernization and responsible AI-enabled program operations.",
-    "capstone": "Lead an enterprise transformation program such as AI-platform modernization. Build an 18-24 month strategy-to-execution roadmap with workstreams, OKRs, milestones, budget, resources and decision rights; map dependencies, stage gates, risks and vendors; establish executive steering and escalation cadence; design change/adoption and benefits-realization plans; implement responsible AI-assisted program workflows with privacy and human-review controls; run a disruption scenario; then deliver an executive transformation review showing value realized, unresolved risks and reallocation decisions.",
-    "rubric": "Demonstrate enterprise program leadership: strategy alignment and outcome clarity; portfolio sequencing; realistic budget/resource logic; explicit governance and decision rights; cross-functional dependency management; quantified risk and benefit realization; adoption/sponsorship evidence; disciplined vendor management; responsible AI use; fast escalation and recovery; and executive communication that converts complex program evidence into clear decisions.",
-    "levels": [
-      {
-        "level": "BASIC",
-        "intro": "Translate strategy into governed portfolios, measurable outcomes and executable operating plans",
-        "competencies": [
-          {
-            "title": "Strategy-to-program portfolio + OKRs",
-            "coverage": "Strategy Execution / OKRs / Portfolio Alignment / Outcome Planning",
-            "videos": [
-              {
-                "title": "Maintaining Radical Focus with OKRs",
-                "url": "https://www.youtube.com/watch?v=08KJsQyLIiw",
-                "channel": "Christina Wodtke"
-              },
-              {
-                "title": "What Is Strategy Execution?",
-                "url": "https://www.youtube.com/watch?v=iEfH4y-XzK0",
-                "channel": "Institute for Strategy Execution"
-              }
-            ]
-          },
-          {
-            "title": "Portfolio governance, prioritization + risk",
-            "coverage": "Portfolio Governance / Prioritization / Risk / Scenario Planning",
-            "videos": [
-              {
-                "title": "Strategic Portfolio Management with Atlassian",
-                "url": "https://www.youtube.com/watch?v=1CXfgJ9NDEw",
-                "channel": "Valiantys"
-              },
-              {
-                "title": "Are You Sure Thats a Risk? INTERMEDIATE Coordinate multi-org execution, change adoption and executive decision flow",
-                "url": "https://www.youtube.com/watch?v=IAyuOFDwXE0",
-                "channel": "MIT OpenCourseWare"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "INTERMEDIATE",
-        "intro": "",
-        "competencies": [
-          {
-            "title": "Executive alignment, strategy execution + change narrative",
-            "coverage": "Executive Stakeholders / Decision Cadence / Change Story / Escalation",
-            "videos": [
-              {
-                "title": "Tell a Compelling Change Story",
-                "url": "https://www.youtube.com/watch?v=4FlP1-5WMyo",
-                "channel": "McKinsey"
-              },
-              {
-                "title": "Project Management and Change Management: Integrated Approach",
-                "url": "https://www.youtube.com/watch?v=rnc17lr1Tz0",
-                "channel": "Prosci"
-              }
-            ]
-          },
-          {
-            "title": "Enterprise change capability + adoption systems",
-            "coverage": "Change Management / Sponsorship / Adoption / Enterprise Capability",
-            "videos": [
-              {
-                "title": "Five Tenets of Change Management",
-                "url": "https://www.youtube.com/watch?v=isfq1zuep_c",
-                "channel": "Prosci"
-              },
-              {
-                "title": "How to Build Change Capability with Structure and Intent",
-                "url": "https://www.youtube.com/watch?v=Kgz00a-3g3s",
-                "channel": "Prosci"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "ADVANCED",
-        "intro": "Run transformation offices, investment portfolios and AI-enabled program systems",
-        "competencies": [
-          {
-            "title": "Transformation office + accountability and value realization",
-            "coverage": "Transformation Office / Benefits / Governance / Resource Allocation / Accountability",
-            "videos": [
-              {
-                "title": "Transformation Office: Key Success Factors",
-                "url": "https://www.youtube.com/watch?v=G9E2k0-k_YQ",
-                "channel": "McKinsey"
-              },
-              {
-                "title": "Transformation Office: Removing Roadblocks",
-                "url": "https://www.youtube.com/watch?v=DJIrzSYyosM",
-                "channel": "McKinsey"
-              }
-            ]
-          },
-          {
-            "title": "AI-enabled program operating model + portfolio execution",
-            "coverage": "AI for Program Management / Responsible Automation / Hybrid Delivery / Portfolio Learning",
-            "videos": [
-              {
-                "title": "AI Tools for Project Management",
-                "url": "https://www.youtube.com/watch?v=tLabykkGbEw",
-                "channel": "PMI"
-              },
-              {
-                "title": "Effective Enterprise Change Management Strategies",
-                "url": "https://www.youtube.com/watch?v=v1se0gkkIrg",
-                "channel": "Prosci"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "page": 568
-  },
-  {
-    "name": "Portfolio and Platform Lead",
-    "benchmark": "Gates Foundation MNCNH AI Portfolio & Platform Lead + Salesforce Enterprise AI & Portfolio Management Platforms + Pfizer AI Platform Product Management (Sep 2026) Market refresh: AI portfolio lifecycle from concept and proof-of-concept to scale; stage-gate readiness and investment decisions; roadmaps, budgets, milestones and grant/partner performance; platform-as-product strategy and adoption; human-centered design for constrained settings; AI evaluation, trust and responsible governance; FHIR/HL7/DHIS2/OpenMRS interoperability; data-access agreements; ministries, funders, grantees and implementer coordination; scalable health-system adoption.",
-    "capstone": "Build and govern a cross-product AI portfolio and shared platform for a public-health or enterprise context. Define the strategy, outcome thesis and platform charter; inventory 6-8 initiatives; create stage-gate and scaling-readiness criteria; model budgets, resources and investment memos; run human-centered research including low-bandwidth and accessibility constraints; define shared platform capabilities and APIs plus an integration map for FHIR, DHIS2 and OpenMRS; write data-access, privacy, security and evaluation requirements; create dashboards for quality, adoption, cost and reliability; design the stakeholder and country/partner scale-up plan; pilot one use case; then make evidence-backed scale, pivot or stop decisions in an annual portfolio review.",
-    "rubric": "Demonstrate portfolio and platform judgment together: clear strategy and sequencing; evidence-backed stage gates and resource allocation; platform-as-product adoption; human-centered design and trust; standards-based interoperability; AI evaluation and data governance; privacy/security controls; scaling and adoption grounded in operating context; partner and government influence; measurable outcome, cost and reliability evidence; explicit scale/pivot/stop decisions; and an executive narrative that connects investments to impact.",
-    "levels": [
-      {
-        "level": "BASIC",
-        "intro": "Prioritize a portfolio and build shared platform capabilities that create measurable outcomes",
-        "competencies": [
-          {
-            "title": "Portfolio lifecycle, stage gates + investment allocation",
-            "coverage": "AI Roadmapping / Portfolio Planning / Business Cases / Program Risk",
-            "videos": [
-              {
-                "title": "Level Up from Product to Portfolio Management",
-                "url": "https://www.youtube.com/watch?v=XxTe1m9HgPo",
-                "channel": "Dragonboat / ProductCon"
-              },
-              {
-                "title": "Resource Allocation & Dependency Planning",
-                "url": "https://www.youtube.com/watch?v=ipPCTdl_VBA",
-                "channel": "Dragonboat"
-              }
-            ]
-          },
-          {
-            "title": "Platform-as-product strategy + internal adoption",
-            "coverage": "Platform Product Management / Developer Experience / KPIs / Adoption",
-            "videos": [
-              {
-                "title": "Platform Product Management: What It Is & Why It Matters",
-                "url": "https://www.youtube.com/watch?v=fQJdsDAn4XA",
-                "channel": "Platform Engineering"
-              },
-              {
-                "title": "What Does a Platform Product Manager Do? INTERMEDIATE Design for users and make products interoperable with real health-system workflows",
-                "url": "https://www.youtube.com/watch?v=05v-GMKQc9c",
-                "channel": "Platform Engineering"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "INTERMEDIATE",
-        "intro": "",
-        "competencies": [
-          {
-            "title": "Human-centered design, trust + constrained-context UX",
-            "coverage": "Product Discovery / UX Research / Accessibility / Human-Centered AI",
-            "videos": [
-              {
-                "title": "Designers: Think Big",
-                "url": "https://www.youtube.com/watch?v=UAinLaT42xY",
-                "channel": "TED / Tim Brown"
-              },
-              {
-                "title": "What Is Human-Centered Artificial Intelligence?",
-                "url": "https://www.youtube.com/watch?v=4W2kXBBFDw4",
-                "channel": "Stanford HAI"
-              }
-            ]
-          },
-          {
-            "title": "APIs, FHIR + health-system interoperability",
-            "coverage": "APIs / Integration Strategy / FHIR-HL7 / DHIS2 / Health Data Exchange",
-            "videos": [
-              {
-                "title": "Introducing HL7 FHIR for eCQM Reporting: FHIR 101",
-                "url": "https://www.youtube.com/watch?v=m-R1oesO0pQ",
-                "channel": "CMS"
-              },
-              {
-                "title": "Integration with Other Platforms",
-                "url": "https://www.youtube.com/watch?v=eHQ-RCE45mY",
-                "channel": "DHIS2"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": "ADVANCED",
-        "intro": "Govern evidence and scale adoption across partners, countries and regulated operating contexts",
-        "competencies": [
-          {
-            "title": "AI evaluation, responsible deployment + data governance",
-            "coverage": "AI Evals / Responsible AI / Data Governance / Privacy / Trust",
-            "videos": [
-              {
-                "title": "AI in Public Health",
-                "url": "https://www.youtube.com/watch?v=sXhnvCplnbM",
-                "channel": "PAHO / WHO"
-              },
-              {
-                "title": "Smart Implementation of AI in Health",
-                "url": "https://www.youtube.com/watch?v=FO2o_OosW-E",
-                "channel": "Milken Institute"
-              }
-            ]
-          },
-          {
-            "title": "Scaling readiness, partner ecosystems + country adoption",
-            "coverage": "Enterprise AI / Change & Adoption / Global Health / Partner Enablement",
-            "videos": [
-              {
-                "title": "Scaling Digital Solutions in LMIC Health Systems",
-                "url": "https://www.youtube.com/watch?v=IRg23GVnUh0",
-                "channel": "World Health Summit"
-              },
-              {
-                "title": "Using AI to Improve Health Care in Africa: Horizon1000",
-                "url": "https://www.youtube.com/watch?v=Ou4VUdQ9vOg",
-                "channel": "Bill Gates"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "page": 569
   }
 ]
