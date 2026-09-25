@@ -15883,5 +15883,1505 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Enterprise Account Executive / AI Sales",
+    "benchmark": "Anthropic Strategic Account Executive, Tech + OpenAI Account Director, Digital Native Enterprise + Salesforce Enterprise Account Executive, Agentforce & Data 360 (current Sep 2026) Market refresh: full-cycle enterprise AI sales; discovery and use-case qualification; C-suite multi-threading; technical evaluations; security, procurement and legal orchestration; commercial negotiation; pipeline and forecast accuracy; deployment and adoption; measurable value realization; expansion, renewal and repeatable sales playbooks.",
+    "capstone": "Own a strategic enterprise AI account end to end. Build the account thesis, whitespace/use-case map and stakeholder plan; run discovery and quantify the value hypothesis; define a technical evaluation with success criteria; create security, legal and procurement readiness; build a mutual action plan, commercial proposal and negotiation strategy; maintain an evidence-based forecast; close the agreement; then run deployment/adoption milestones, an executive QBR, and an expansion/renewal plan tied to measurable customer outcomes.",
+    "rubric": "Show evidence of consultative selling rather than feature pitching: sharp discovery and qualification; credible AI/technical fluency; multi-threaded C-suite and practitioner relationships; explicit business value and ROI logic; disciplined evaluation and mutual action planning; security/procurement/legal readiness; sound commercial negotiation; accurate forecast reasoning; deployment and adoption proof; measurable value realization; expansion/renewal logic; and product feedback that improves the repeatable sales motion.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build trusted discovery, account strategy and a differentiated AI value narrative",
+        "competencies": [
+          {
+            "title": "Customer discovery, account planning + AI use-case qualification",
+            "coverage": "Enterprise Sales / Customer Discovery / AI Use-Case Discovery / Account Planning",
+            "videos": [
+              {
+                "title": "Use Case Discovery & System Scoping (46m)",
+                "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "How to Sell (Tyler Bosmeny, full lecture)",
+                "url": "https://www.youtube.com/watch?v=xZi4kTJG-LE",
+                "channel": "Y Combinator / Stanford"
+              }
+            ]
+          },
+          {
+            "title": "Positioning, executive narrative + value hypothesis",
+            "coverage": "Product Marketing / Business Storytelling / Executive Communication / Value Selling",
+            "videos": [
+              {
+                "title": "The Sales Pitch That Wins (1h30m)",
+                "url": "https://www.youtube.com/watch?v=-VqmFI9vY7w",
+                "channel": "April Dunford"
+              },
+              {
+                "title": "Think Fast, Talk Smart (full lecture)",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Orchestrate technical evaluation, stakeholders and complex commercial buying processes",
+        "competencies": [
+          {
+            "title": "Multi-threaded enterprise deal orchestration + technical evaluation",
+            "coverage": "Enterprise GTM / Technical Sales / Stakeholder Management / Solution Evaluation",
+            "videos": [
+              {
+                "title": "Future of B2B Sales: AI-Powered Team Selling (webinar)",
+                "url": "https://www.gong.io/resources/webinars/the-future-of-b2b-sales-unlocking-growth-with-ai-powered-team-selling/",
+                "channel": "Gong + Anthropic"
+              },
+              {
+                "title": "Scaling AI Applications into the Enterprise (AMA)",
+                "url": "https://www.youtube.com/watch?v=WrANK9oFfHw",
+                "channel": "OpenAI DevDay"
+              }
+            ]
+          },
+          {
+            "title": "Procurement, commercial negotiation + agreement structure",
+            "coverage": "Negotiation / Procurement / Legal-Commercial / Pricing & Packaging",
+            "videos": [
+              {
+                "title": "Getting to Yes in Challenging Times",
+                "url": "https://www.pon.harvard.edu/free-videos/getting-to-yes-in-challenging-times/",
+                "channel": "Harvard PON"
+              },
+              {
+                "title": "Winning Over the Toughest Counterparts (1h)",
+                "url": "https://professional.dce.harvard.edu/events/winning-over-the-toughest-counterparts-strategies-for-effective-negotiation/",
+                "channel": "Harvard DCE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Run a forecastable account business from deployment through expansion and renewal",
+        "competencies": [
+          {
+            "title": "Pipeline forecasting, account health + expansion",
+            "coverage": "Sales Operations / Forecasting / Revenue Operations / Customer Success",
+            "videos": [
+              {
+                "title": "Fast-Track to Success: Revenue Forecasting (on-demand)",
+                "url": "https://www.salesforce.com/ap/events/webinars/predict-revenue-faster/?bc=OTH",
+                "channel": "Salesforce"
+              },
+              {
+                "title": "Turning Adoption Insights into Action: Driving GRR (43m)",
+                "url": "https://pulselibrary.gainsight.com/video/turning-adoption-insights-into-action-driving-grr-with-gainsight/",
+                "channel": "Gainsight"
+              }
+            ]
+          },
+          {
+            "title": "AI adoption, value realization + strategic account growth",
+            "coverage": "AI Adoption / Customer Success / Value Realization / Enterprise Transformation",
+            "videos": [
+              {
+                "title": "OpenAI on OpenAI: Applying AI to Our Own Workflows",
+                "url": "https://www.youtube.com/watch?v=nKuXMDCtyQI",
+                "channel": "OpenAI"
+              },
+              {
+                "title": "Scale Faster & Measure Results with AI-Driven Enablement",
+                "url": "https://www.gong.io/resources/webinars/scale-faster-and-measure-results-with-ai-driven-enablement",
+                "channel": "Gong"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 596,
+    "category": "Revenue Operations, Technical Sales & GTM Systems"
+  },
+  {
+    "name": "Strategic Partnerships / Alliances Manager",
+    "benchmark": "OpenAI ISV Partnerships Lead + OpenAI Strategic Partner Manager, Monetization Partnerships + Anthropic partner / GTM alliance roles (current Sep 2026) Market refresh: ecosystem strategy and segmentation; partner recruitment and portfolio management; product/API integrations; commercial negotiation; joint business planning; co-build, co-sell, co-market and marketplace motions; launch readiness and executive governance; partner pipeline, adoption, consumption and revenue; expansion, renewal and reusable partner programs.",
+    "capstone": "Build and operate a strategic AI/software partnership as a business. Define the ecosystem thesis and partner-selection scorecard; select a partner and create a joint business plan with economics and measurable outcomes; design the product/API integration and launch-readiness plan; build co-build, co-sell, co-market and marketplace motions; negotiate a term-sheet position; establish executive governance, roadmap reviews and issue escalation; instrument partner pipeline, launches, adoption, consumption, revenue and customer impact; then make renewal/expansion decisions and convert the successful motion into a reusable partnership playbook.",
+    "rubric": "Prove partnership judgment across strategy, product and commercial execution: differentiated ecosystem thesis; disciplined partner selection; coherent joint economics and business plan; technically credible integration and launch readiness; executable co-sell/co-market/marketplace motion; defensible negotiation positions; executive alignment and governance; clear owners, dependencies and escalation; trusted partner metrics; measurable adoption, usage, revenue or customer impact; expansion/renewal evidence; and repeatable operating mechanisms that can scale beyond one relationship.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Choose the right ecosystem bets and build economically coherent partner strategies",
+        "competencies": [
+          {
+            "title": "Ecosystem thesis, partner segmentation + strategic fit",
+            "coverage": "Platform Strategy / Ecosystem Strategy / Market Analysis / Portfolio Prioritization",
+            "videos": [
+              {
+                "title": "When AI Agents Join the Platform (60m)",
+                "url": "https://executive.mit.edu/webinar/when-ai-agents-join-the-platform-implications-for-strategy-pricing-and-governance.html",
+                "channel": "MIT Sloan"
+              },
+              {
+                "title": "How to Be a Strategic Leader",
+                "url": "https://www.youtube.com/watch?v=_wKUEOeAnFI",
+                "channel": "Stanford GSB"
+              }
+            ]
+          },
+          {
+            "title": "Joint business plans, partner economics + commercial model",
+            "coverage": "Business Cases / Unit Economics / Partnerships / Strategic Finance",
+            "videos": [
+              {
+                "title": "How Are You Going to Make Money? Business / Venture Model",
+                "url": "https://ocw.mit.edu/courses/15-393-nuts-and-bolts-of-new-ventures-january-iap-2025/resources/ocw_15393_session2-part2_mp4/",
+                "channel": "MIT OCW"
+              },
+              {
+                "title": "Measuring Investment Returns",
+                "url": "https://www.youtube.com/watch?v=ZJX3likXr-I",
+                "channel": "Aswath Damodaran"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Turn partnership intent into integrated products, launches and repeatable joint GTM",
+        "competencies": [
+          {
+            "title": "Product integration, roadmap alignment + launch readiness",
+            "coverage": "APIs / AI Platform / Product Partnerships / Launch Management",
+            "videos": [
+              {
+                "title": "Developer State of the Union",
+                "url": "https://www.youtube.com/watch?v=r1R3RDPvPeg",
+                "channel": "OpenAI DevDay"
+              },
+              {
+                "title": "Orchestrating Agents at Scale",
+                "url": "https://www.youtube.com/watch?v=KplSDxYv9xU",
+                "channel": "OpenAI DevDay"
+              }
+            ]
+          },
+          {
+            "title": "Co-sell, marketplace + partner enablement",
+            "coverage": "Partner GTM / Marketplace / Sales Enablement / Channel Strategy",
+            "videos": [
+              {
+                "title": "Leading Partners Drive Co-Sell Success (60m)",
+                "url": "https://www.youtube.com/watch?v=jdHU4LyoFxc",
+                "channel": "Microsoft Marketplace"
+              },
+              {
+                "title": "Scaling AI Applications into the Enterprise (AMA)",
+                "url": "https://www.youtube.com/watch?v=WrANK9oFfHw",
+                "channel": "OpenAI DevDay"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Govern partnerships as businesses and scale the highest-value ecosystem motions",
+        "competencies": [
+          {
+            "title": "Commercial negotiation, executive governance + issue resolution",
+            "coverage": "Negotiation / Executive Communication / Governance / Stakeholder Management",
+            "videos": [
+              {
+                "title": "Winning Over the Toughest Counterparts (1h)",
+                "url": "https://professional.dce.harvard.edu/events/winning-over-the-toughest-counterparts-strategies-for-effective-negotiation/",
+                "channel": "Harvard DCE"
+              },
+              {
+                "title": "Think Fast, Talk Smart (full lecture)",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          },
+          {
+            "title": "Partner performance, adoption + portfolio expansion",
+            "coverage": "Partner Success / Product Analytics / Revenue Growth / Ecosystem Operations",
+            "videos": [
+              {
+                "title": "Driving Results with Strategic Success Planning",
+                "url": "https://pulselibrary.gainsight.com/video/driving-results-with-strategic-success-planning/",
+                "channel": "Gainsight"
+              },
+              {
+                "title": "OpenAI on OpenAI: Applying AI to Our Own Workflows",
+                "url": "https://www.youtube.com/watch?v=nKuXMDCtyQI",
+                "channel": "OpenAI"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 597,
+    "category": "Revenue Operations, Technical Sales & GTM Systems"
+  },
+  {
+    "name": "Startup Founder / Venture Founder",
+    "benchmark": "Banyan Software Entrepreneur in Residence + Human Agency EIR + JetBrains EIR / Product Lead (current Sep 2026); triangulated with YC / Stanford and MIT founder practice because founder roles are not standardized employee postings. Market refresh: zero-to-one opportunity discovery; customer validation; founder-led product and GTM; AI-native building; MVP-to-revenue ownership; lean teams; fundraising and ownership; hiring/culture; measurable growth; operating cadence and scale transition.",
+    "capstone": "Build a venture from zero to an evidence-backed launch. Define a founder thesis and target customer; conduct 15-20 customer interviews; quantify the market and strongest pain; ship a narrow MVP; instrument activation, retention and willingness-to-pay; close the first 3-5 customers or equivalent demand proof; build pricing and unit economics; create a 12-month cash/runway model and cap-table scenarios; prepare a fundraising data room and investor narrative; define hiring/culture principles and weekly operating metrics; add one AI-native workflow or product capability with evaluation and human-control boundaries; then make a scale, pivot or stop decision from evidence.",
+    "rubric": "Show founder evidence, not pitch-deck theater: traceable customer learning; rapid but disciplined MVP iteration; retention / revenue or credible demand signal; explicit PMF hypothesis and disconfirming evidence; repeatable founder-led sales; transparent unit economics and runway; ownership / financing literacy; high-bar hiring and operating cadence; AI leverage with evals, security and human review; and the ability to change direction when evidence weakens the original thesis.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Validate a venture thesis and turn a painful problem into a product people want",
+        "competencies": [
+          {
+            "title": "Founder thesis, problem selection + customer discovery",
+            "coverage": "Entrepreneurship / Product Discovery / Customer Research / Market Analysis",
+            "videos": [
+              {
+                "title": "How to Start a Startup, Lecture 1 (full lecture)",
+                "url": "https://www.youtube.com/watch?v=CBYhVcO4WgI",
+                "channel": "YC / Stanford"
+              },
+              {
+                "title": "Disciplined Entrepreneurship with Bill Aulet (~1h)",
+                "url": "https://www.youtube.com/watch?v=6Dlhuq4VtrY",
+                "channel": "MIT Sloan"
+              }
+            ]
+          },
+          {
+            "title": "MVP, product-market fit + early-user learning",
+            "coverage": "MVP / Product-Market Fit / Product Analytics / Experimentation",
+            "videos": [
+              {
+                "title": "Building Product, Talking to Users & Growing (full lecture)",
+                "url": "https://startupclass.github.io/lectures/lecture-4/",
+                "channel": "Stanford / YC"
+              },
+              {
+                "title": "How to Build Products Users Love (full lecture)",
+                "url": "https://startupclass.github.io/lectures/lecture-7/",
+                "channel": "Stanford / YC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Create repeatable revenue and finance the company without losing product truth",
+        "competencies": [
+          {
+            "title": "Founder-led sales, distribution + growth loops",
+            "coverage": "Founder-Led Sales / GTM / Growth / Retention / Revenue",
+            "videos": [
+              {
+                "title": "How to Sell by Tyler Bosmeny (full lecture)",
+                "url": "https://www.youtube.com/watch?v=xZi4kTJG-LE",
+                "channel": "Y Combinator"
+              },
+              {
+                "title": "Growth with Alex Schultz (full lecture)",
+                "url": "https://www.youtube.com/watch?v=vJqlG5ytLDs",
+                "channel": "Y Combinator"
+              }
+            ]
+          },
+          {
+            "title": "Fundraising, ownership + legal / finance mechanics",
+            "coverage": "Fundraising / Cap Table / Startup Finance / Legal / Governance",
+            "videos": [
+              {
+                "title": "How to Raise Money (full lecture)",
+                "url": "https://www.youtube.com/watch?v=0JBOSmRo8js",
+                "channel": "YC / Stanford"
+              },
+              {
+                "title": "Legal & Accounting Basics for Startups (full lecture)",
+                "url": "https://startupclass.github.io/lectures/lecture-18/",
+                "channel": "Stanford / YC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Forge a durable company, scale leadership and use AI as an operating advantage",
+        "competencies": [
+          {
+            "title": "Operating system, hiring + management cadence",
+            "coverage": "Startup Operations / Hiring / Culture / Leadership / Metrics",
+            "videos": [
+              {
+                "title": "How to Operate with Keith Rabois (full lecture)",
+                "url": "https://www.youtube.com/watch?v=w19IBxDu2Y4",
+                "channel": "YC / Stanford"
+              },
+              {
+                "title": "How to Manage with Ben Horowitz (full lecture)",
+                "url": "https://www.youtube.com/watch?v=j7tr3IlH5Ro",
+                "channel": "Y Combinator"
+              }
+            ]
+          },
+          {
+            "title": "Scale transition, strategic leadership + AI-native execution",
+            "coverage": "Scaleup / Strategy / AI-Native Operations / Reliability / Governance",
+            "videos": [
+              {
+                "title": "From Startup to Scaleup: Sam Altman & Reid Hoffman",
+                "url": "https://www.youtube.com/watch?v=PB64IQrkID8",
+                "channel": "Y Combinator"
+              },
+              {
+                "title": "Builder Bootcamp: Production & Optimization (recording)",
+                "url": "https://academy.openai.com/en/public/videos/builder-bootcamp-production-and-optimization-july-23-2026-07-23",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 598,
+    "category": "Business Management"
+  },
+  {
+    "name": "Entrepreneur / Business Owner",
+    "benchmark": "Current Entrepreneur-in-Residence / venture-builder postings (Human Agency, Banyan Software) + OpenAI 2026 small-business AI research + MIT entrepreneurship practice. This path is cash-flow and operator oriented rather than venture-scale by default. Market refresh: opportunity selection; business-model design; cash-flow discipline; customer acquisition and pricing; operations and delegation; legal/risk basics; hiring and culture; scalable systems; multi-channel growth; AI as a flexible capability layer for marketing, service, analysis and operations.",
+    "capstone": "Launch or materially improve a real or simulated operating business. Select a customer problem and business model; interview customers and test willingness-to-pay; build a simple offer and sales process; model revenue, gross margin, cash conversion and 12-month cash flow; choose legal/funding assumptions; acquire an initial cohort of customers; document the end-to-end operating process and supplier/vendor dependencies; delegate at least one recurring workflow with controls; establish a KPI dashboard and monthly business review; implement one AI-enabled workflow with human verification; then produce a growth plan covering pricing, channel mix, hiring, capital needs, resilience and owner time leverage.",
+    "rubric": "Prove a business can operate, not just launch: real customer evidence; coherent unit economics and cash visibility; repeatable acquisition / sales motion; pricing discipline; reliable fulfillment and service process; legal / financial hygiene; delegation and standard work; KPI-driven decisions; resilient supplier and capacity planning; responsible AI use with source checks and approvals; and a growth plan that improves both enterprise value and the owner's leverage rather than simply increasing workload.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Choose a viable business model and understand how money, customers and risk fit together",
+        "competencies": [
+          {
+            "title": "Opportunity selection, positioning + business-model economics",
+            "coverage": "Entrepreneurship / Market Research / Strategy / Business Models",
+            "videos": [
+              {
+                "title": "What It Takes to Be Successful as an Entrepreneur (1h11)",
+                "url": "https://www.youtube.com/watch?v=YWZr4lr1jR0",
+                "channel": "MIT OCW"
+              },
+              {
+                "title": "Competition Is for Losers, Peter Thiel (full lecture)",
+                "url": "https://www.youtube.com/watch?v=3Fx5Q8xGU8k",
+                "channel": "YC / Stanford"
+              }
+            ]
+          },
+          {
+            "title": "Cash discipline, legal structure + financing choices",
+            "coverage": "Small-Business Finance / Cash Flow / Legal / Funding / Risk",
+            "videos": [
+              {
+                "title": "Legal & Accounting Basics for Startups (full lecture)",
+                "url": "https://startupclass.github.io/lectures/lecture-18/",
+                "channel": "Stanford / YC"
+              },
+              {
+                "title": "How to Raise Money (full lecture)",
+                "url": "https://www.youtube.com/watch?v=0JBOSmRo8js",
+                "channel": "YC / Stanford"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build repeatable demand and an operating system that does not depend on founder heroics",
+        "competencies": [
+          {
+            "title": "Sales, marketing + customer-acquisition economics",
+            "coverage": "Sales / Marketing / Growth / Pricing / Customer Economics",
+            "videos": [
+              {
+                "title": "How to Sell by Tyler Bosmeny (full lecture)",
+                "url": "https://www.youtube.com/watch?v=xZi4kTJG-LE",
+                "channel": "Y Combinator"
+              },
+              {
+                "title": "Growth with Alex Schultz (full lecture)",
+                "url": "https://www.youtube.com/watch?v=vJqlG5ytLDs",
+                "channel": "Y Combinator"
+              }
+            ]
+          },
+          {
+            "title": "Processes, delegation + AI-enabled workflow design",
+            "coverage": "Operations / Process Design / Automation / AI Productivity / Controls",
+            "videos": [
+              {
+                "title": "How to Operate with Keith Rabois (full lecture)",
+                "url": "https://www.youtube.com/watch?v=w19IBxDu2Y4",
+                "channel": "YC / Stanford"
+              },
+              {
+                "title": "Activator Labs 101: Foundations (recording)",
+                "url": "https://academy.openai.com/public/clubs/champions-ecqup/videos/recording-activator-labs-101-foundations-2026-07-23",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Grow from self-employment into a scalable business with leadership, systems and AI leverage",
+        "competencies": [
+          {
+            "title": "People leadership, culture + management systems",
+            "coverage": "People Management / Hiring / Coaching / Culture / Performance",
+            "videos": [
+              {
+                "title": "How to Manage with Ben Horowitz (full lecture)",
+                "url": "https://www.youtube.com/watch?v=j7tr3IlH5Ro",
+                "channel": "Y Combinator"
+              },
+              {
+                "title": "Culture with Brian Chesky & Alfred Lin (full lecture)",
+                "url": "https://startupclass.github.io/lectures/lecture-10/",
+                "channel": "Stanford / YC"
+              }
+            ]
+          },
+          {
+            "title": "Expansion, resilience + AI-native leverage",
+            "coverage": "Scale / Diversification / Strategic Finance / AI Automation / Governance",
+            "videos": [
+              {
+                "title": "From Startup to Scaleup: Sam Altman & Reid Hoffman",
+                "url": "https://www.youtube.com/watch?v=PB64IQrkID8",
+                "channel": "Y Combinator"
+              },
+              {
+                "title": "How to Build AI Agents (production-focused video)",
+                "url": "https://academy.openai.com/public/clubs/india-gkubq/videos/how-to-build-ai-agents-2025-06-04",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 599,
+    "category": "Business Management"
+  },
+  {
+    "name": "Surveyor / Professional Land Surveyor",
+    "benchmark": "Jacobs Professional Land Surveyor - Bellevue + Stantec PLS + WSP infrastructure-survey signals (current 2026), reinforced by NOAA NGS and NSPS/Esri professional-practice standards. Market refresh: boundary retracement and ALTA/NSPS; deeds, records and legal descriptions; GNSS/RTK and control; total-station/leveling workflows; Civil 3D/MicroStation/Trimble TBC; GIS/parcel fabric; LiDAR/UAV reality capture; as-builts; QA/QC; DOT/infrastructure standards; crew leadership and professional licensure.",
+    "capstone": "Complete a simulated professional land-survey project end to end: research deeds, title and prior surveys; define an ALTA/NSPS-style scope; establish a GNSS plus total-station control network; collect boundary and topographic observations; reduce, adjust and quality-check the data; produce field-to-finish CAD deliverables, legal-description/plat and as-built outputs; publish parcel/GIS data; incorporate one LiDAR or UAV point-cloud element; document datum, closure, tolerances, field safety and chain of evidence; then present a client/engineer quality package. Any regulated boundary opinion or certification remains under a licensed PLS where required by law.",
+    "rubric": "Show evidence-first boundary reasoning; defensible records research; control-network design; repeatable GNSS/total-station observations; correct datum/coordinate handling; closure and error checks; consistent CAD/GIS/as-built deliverables; point-cloud accuracy and provenance; field safety and crew direction; documented QA/QC; clear client/engineer communication; and correct recognition of licensure and professional-responsibility boundaries.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Establish defensible boundaries and control before producing geometry",
+        "competencies": [
+          {
+            "title": "Boundary retracement, records + ALTA/NSPS standards",
+            "coverage": "Boundary Survey / Deeds & Title / Legal Descriptions / ALTA-NSPS / Professional Practice",
+            "videos": [
+              {
+                "title": "Understanding the 2026 ALTA/NSPS Land Title Survey Standards (webinar)",
+                "url": "https://www.alta.org/topics/topic-land-survey-standards",
+                "channel": "ALTA"
+              },
+              {
+                "title": "New ALTA/NSPS Standards & Table A Items (recorded webinar)",
+                "url": "https://cretelligent.com/webinar/alta-land-surveyswhat-you-need-to-know/",
+                "channel": "CREtelligent"
+              }
+            ]
+          },
+          {
+            "title": "GNSS, geodesy + survey-control networks",
+            "coverage": "Geodesy / GNSS-RTK / Datums / Control Networks / Error Detection",
+            "videos": [
+              {
+                "title": "GNSS Best Practices (90m recording)",
+                "url": "https://geodesy.noaa.gov/web/science_edu/webinar_series/gnss-best-practices.shtml",
+                "channel": "NOAA NGS"
+              },
+              {
+                "title": "Design of Networks Using NOS NGS 92 (90m recording)",
+                "url": "https://www.ngs.noaa.gov/web/science_edu/webinar_series/design-networks.shtml",
+                "channel": "NOAA NGS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Move accurately from field observations to CAD, GIS and construction deliverables",
+        "competencies": [
+          {
+            "title": "Field-to-finish, Civil 3D/TBC + infrastructure workflows",
+            "coverage": "Civil 3D / Trimble TBC / Field-to-Finish / Topography / As-Builts / QA-QC",
+            "videos": [
+              {
+                "title": "Unlocking Survey Data in GIS with Trimble Business Center (recording)",
+                "url": "https://www.esri.com/en-us/webinars/industry/state-local-government/unlock-survey-data-in-gis",
+                "channel": "Esri/NSPS"
+              },
+              {
+                "title": "Integrating Survey & Reality Capture into Infrastructure Lifecycle",
+                "url": "https://www.autodesk.com/autodesk-university/class/Integrating-Survey-and-Reality-Capture-Infrastructure-Lifecycle-2018",
+                "channel": "Autodesk University"
+              }
+            ]
+          },
+          {
+            "title": "GIS, parcel fabric + high-accuracy field collection",
+            "coverage": "GIS / Parcel Fabric / Field Maps / Crew Coordination / Asset Data",
+            "videos": [
+              {
+                "title": "GIS for Land Surveyors (recorded webinar)",
+                "url": "https://www.esri.com/en-us/webinars/industry/state-local-government/esri-and-nsps-surveyor-gis-webinar-series/gis-for-land-surveyors",
+                "channel": "Esri/NSPS"
+              },
+              {
+                "title": "Field Data Collection for Surveyors (recorded webinar)",
+                "url": "https://www.esri.com/en-us/webinars/industry/state-local-government/esri-and-nsps-surveyor-gis-webinar-series/field-data-collection-for-surveyors",
+                "channel": "Esri/NSPS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Lead digital surveying with reality capture, BIM/GIS integration and licensed judgment",
+        "competencies": [
+          {
+            "title": "LiDAR, laser scanning + survey-grade reality capture",
+            "coverage": "LiDAR / Point Clouds / UAV-Photogrammetry / ReCap / Accuracy / Digital Delivery",
+            "videos": [
+              {
+                "title": "Scan the Road Ahead: Reality Capture in Civil Infrastructure",
+                "url": "https://www.autodesk.com/autodesk-university/class/Scan-the-Road-Ahead-Navigating-Reality-Capture-in-Civil-Infrastructure-2023",
+                "channel": "Autodesk University"
+              },
+              {
+                "title": "Ask the Reality Capture Experts Q&A (60m)",
+                "url": "https://www.youtube.com/watch?v=zgteKAWmm34",
+                "channel": "Leica Geosystems"
+              }
+            ]
+          },
+          {
+            "title": "BIM/GIS, digital twins + professional QA leadership",
+            "coverage": "BIM-GIS / Digital Twins / Survey QA-QC / Standards / Client & Crew Leadership",
+            "videos": [
+              {
+                "title": "What Surveyors Need to Know About BIM and GIS (1h+ recording)",
+                "url": "https://www.esri.com/en-us/webinars/industry/state-local-government/esri-and-nsps-surveyor-gis-webinar-series/what-surveyors-need-to-know-about-bim-and-gis",
+                "channel": "Esri/NSPS"
+              },
+              {
+                "title": "The Role of GIS and Surveying in a Digital Twin (recording)",
+                "url": "https://www.esri.com/en-us/webinars/industry/state-local-government/esri-and-nsps-surveyor-gis-webinar-series/gis-and-surveying-digital-twin",
+                "channel": "Esri/NSPS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 600,
+    "category": "Surveying, Geospatial & Infrastructure"
+  },
+  {
+    "name": "Financial Controller / Comptroller / CFO",
+    "benchmark": "OpenAI technical accounting + strategic finance leadership, Anthropic accounting/controls/treasury, and growth-stage VP Finance/CFO signals (current 2026). Market refresh: close/consolidation and US GAAP; technical accounting and disclosures; SOX/ICFR and audit; integrated planning; treasury/liquidity; tax and risk coordination; valuation/capital allocation; pricing/unit economics; M&A/financing; board/investor narrative; finance systems, automation and AI-first controls.",
+    "capstone": "Run finance for a simulated growth-stage company for one quarter. Execute close and consolidation; issue financial statements; write a technical-accounting memo for one complex transaction; design ICFR/SOX controls and an audit PBC package; build a driver-based budget, rolling forecast and board KPI pack; model cash, liquidity and treasury stress scenarios; evaluate pricing/capital allocation plus one acquisition or strategic investment; document tax/risk assumptions; deliver a board/investor finance narrative; then modernize one finance workflow with governed automation or AI, including source checks, approvals, audit trail, exception handling and rollback. Finish with a CFO decision memo.",
+    "rubric": "Demonstrate books and reporting integrity; defensible GAAP conclusions; effective ICFR/SOX and audit evidence; forecast/scenario discipline; cash and liquidity control; capital-allocation and valuation judgment; transaction/financing logic; board-ready narrative; finance-system and data integrity; AI automation with human approvals and auditability; explicit risk escalation; and executive judgment that connects financial stewardship to sustainable growth.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Own reliable books, reporting and controls before advising the business",
+        "competencies": [
+          {
+            "title": "Close, consolidation + financial-reporting judgment",
+            "coverage": "Financial Reporting / Close / Consolidation / US GAAP / Technical Accounting",
+            "videos": [
+              {
+                "title": "Read and Analyze Financial Statements (masterclass)",
+                "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/read-and-analyze-financial-statements-kathleen-fitzgerald",
+                "channel": "Chicago Booth"
+              },
+              {
+                "title": "Connecting the Financial Close from Record to Report (webinar)",
+                "url": "https://get.floqast.com/webinar/connecting-your-financial-close-process-from-record-to-report",
+                "channel": "FloQast"
+              }
+            ]
+          },
+          {
+            "title": "ICFR, SOX + audit readiness",
+            "coverage": "SOX / COSO / ICFR / External Audit / Control Testing / Governance",
+            "videos": [
+              {
+                "title": "Summer 2025 SOX Update (~1.5h webcast)",
+                "url": "https://kpmg.com/us/en/webcasts/2025/spring-2025-sox-update.html",
+                "channel": "KPMG"
+              },
+              {
+                "title": "2026 SOX Efficiency for Finance & IA Leaders (recording)",
+                "url": "https://www.cbh.com/insights/webinar-recordings/2026-sox-efficiency-for-finance-and-ia-leaders-recording/",
+                "channel": "Cherry Bekaert"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Turn controllership into planning, liquidity and decision support",
+        "competencies": [
+          {
+            "title": "Driver-based planning, forecasting + business partnering",
+            "coverage": "FP&A / Forecasting / Scenario Planning / KPI Management / Business Partnering",
+            "videos": [
+              {
+                "title": "Driver-Based Planning in the Age of AI (2026 recording)",
+                "url": "https://fpa-trends.com/webinars/fpa-trends-webinar-power-driver-based-planning-age-ai",
+                "channel": "FP&A Trends"
+              },
+              {
+                "title": "Analytical Backbone of Integrated FP&A (2026 recording)",
+                "url": "https://fpa-trends.com/webinars/fpa-trends-webinar-analytical-backbone-integrated-fpa",
+                "channel": "FP&A Trends"
+              }
+            ]
+          },
+          {
+            "title": "Treasury, liquidity + capital allocation",
+            "coverage": "Treasury / Cash / Liquidity / Working Capital / Capital Allocation / Risk",
+            "videos": [
+              {
+                "title": "Treasury Transformation with Kyriba & MassMutual (60m)",
+                "url": "https://rsmus.com/events/2025-events/treasury-transformation-navigating-market-trends-with-kyriba.html",
+                "channel": "RSM"
+              },
+              {
+                "title": "Measuring Investment Returns (full lecture)",
+                "url": "https://www.youtube.com/watch?v=ZJX3likXr-I",
+                "channel": "NYU Stern / Damodaran"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate as CFO: shape capital, transactions, board decisions and AI-first finance",
+        "competencies": [
+          {
+            "title": "Strategic finance, valuation + M&A / capital structure",
+            "coverage": "Valuation / Corporate Finance / M&A / Capital Structure / Strategic Transactions",
+            "videos": [
+              {
+                "title": "Growth Through Acquisitions (1h26)",
+                "url": "https://www.youtube.com/watch?v=p0Bx6UtherQ",
+                "channel": "Wharton"
+              },
+              {
+                "title": "Valuation in Four Lessons (1h+)",
+                "url": "https://www.youtube.com/watch?v=Z5chrxMuBoo",
+                "channel": "Aswath Damodaran / Talks at Google"
+              }
+            ]
+          },
+          {
+            "title": "Board leadership + AI-enabled finance transformation",
+            "coverage": "Board & Investor Communication / Finance Operating Model / Automation / AI Governance",
+            "videos": [
+              {
+                "title": "Integrated FP&A in Action: People, Roles & Decisions (recording)",
+                "url": "https://fpa-trends.com/webinars/fpa-trends-webinar-integrated-fpa-action-connecting-people-roles-and-decisions",
+                "channel": "FP&A Trends"
+              },
+              {
+                "title": "Augmenting the Finance Function with AI (2026 recording)",
+                "url": "https://fpa-trends.com/webinars/fpa-trends-webinar-augmenting-finance-function-ai",
+                "channel": "FP&A Trends"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 601,
+    "category": "Business Management"
+  },
+  {
+    "name": "HR Manager / Human Resources Manager",
+    "benchmark": "Amazon HR Business Partner / Sr. HR Business Partner + Stripe People Consultant / People Partner + Apple/Salesforce people-management signals (current Sep 2026). Market refresh: employee lifecycle and HR operations; manager coaching; performance and talent management; employee/labor relations and investigations; employment-law/policy judgment; engagement and employee experience; workforce planning and people analytics; talent cycles; HR technology; organizational effectiveness.",
+    "capstone": "Operate HR for a simulated 300-500 employee business unit. Build the workforce and talent plan; coach managers through performance and development cases; run one structured employee-relations investigation and policy/compliance decision; execute a performance/talent review plus succession and internal-mobility actions; build a people KPI/analytics dashboard and employee-experience action plan; support a reorganization or change initiative; improve one HRIS/service-delivery workflow; then apply AI to one HR process with protected-data boundaries, fairness checks, source validation, documented human approval and escalation. Finish with an executive people review.",
+    "rubric": "Demonstrate trusted manager partnership; consistent employee-lifecycle execution; evidence-based and fair ER/investigation practice; correct policy/legal escalation; defensible talent and succession decisions; useful people analytics tied to business outcomes; workforce-planning judgment; measurable employee-experience improvement; change-management discipline; secure HR data handling; responsible AI with human review; and clear documentation that distinguishes facts, policy, judgment and risk.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Run the employee lifecycle with judgment, compliance and trusted manager partnership",
+        "competencies": [
+          {
+            "title": "HR business partnering, employee lifecycle + manager coaching",
+            "coverage": "HR Business Partnering / Employee Lifecycle / Manager Coaching / HR Operations",
+            "videos": [
+              {
+                "title": "World-Class HRBP Framework: Introduction (30m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K101625/",
+                "channel": "Cornell ILR"
+              },
+              {
+                "title": "Walking the Talk: HR Policy Implementation (60m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K042324/",
+                "channel": "Cornell ILR"
+              }
+            ]
+          },
+          {
+            "title": "Employee relations, investigations + labor/employment judgment",
+            "coverage": "Employee Relations / Investigations / Employment Law / Labor Relations / Policy",
+            "videos": [
+              {
+                "title": "Protesting at Work: Employment Law & Employee Rights (60m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K080124/",
+                "channel": "Cornell ILR"
+              },
+              {
+                "title": "Labor Peace at Risk: Mediation & Labor Relations (60m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K051226/",
+                "channel": "Cornell ILR"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build talent systems and use workforce data to improve performance and retention",
+        "competencies": [
+          {
+            "title": "Performance, talent + succession / mobility",
+            "coverage": "Performance Management / Talent Reviews / Succession / Internal Mobility / Leadership Development",
+            "videos": [
+              {
+                "title": "HRBP Framework: Talent & Leadership Capabilities (30m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K111325/",
+                "channel": "Cornell CAHRS"
+              },
+              {
+                "title": "Future of Leadership Pipelines (60m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K062426/",
+                "channel": "Cornell ILR"
+              }
+            ]
+          },
+          {
+            "title": "People analytics, workforce planning + employee experience",
+            "coverage": "People Analytics / Workforce Planning / Engagement / Retention / HR Metrics",
+            "videos": [
+              {
+                "title": "Elevating HR Analytics (60m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K022125/",
+                "channel": "Cornell ILR"
+              },
+              {
+                "title": "Develop Your Organization's People Analytics Capabilities (58m)",
+                "url": "https://forms.workday.com/en-us/webinars/hci-people-analytics-replay/form.html",
+                "channel": "Workday + HCI"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Lead organizational health, change and AI-enabled HR without losing human judgment",
+        "competencies": [
+          {
+            "title": "Organizational effectiveness, culture + change",
+            "coverage": "Organizational Effectiveness / Culture / Change Management / HR Transformation",
+            "videos": [
+              {
+                "title": "HRBP Framework: Organizational Effectiveness (30m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K120225/",
+                "channel": "Cornell CAHRS"
+              },
+              {
+                "title": "Deliver Strategic Change (60m)",
+                "url": "https://executive.mit.edu/deliver-strategic-change-MCE2B3M7WIFFCDVJ6MVWOTOVMETM.html",
+                "channel": "MIT Sloan"
+              }
+            ]
+          },
+          {
+            "title": "HR technology, AI + responsible people operations",
+            "coverage": "HRIS / Automation / AI in HR / Data Privacy / Responsible AI / Service Delivery",
+            "videos": [
+              {
+                "title": "AI and the Future of Work (60m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K090723/",
+                "channel": "Cornell ILR + IBM CHRO"
+              },
+              {
+                "title": "AI Empowerment for Employee Experience (webinar)",
+                "url": "https://techcommunity.microsoft.com/event/viva-events/ai-empowerment-the-game-changer-for-the-employee-experience/4049558",
+                "channel": "Microsoft Viva People Science"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 602,
+    "category": "Business Management"
+  },
+  {
+    "name": "HR Director / Human Resources Director",
+    "benchmark": "Salesforce Senior Director, Employee Success Business Partner + Stripe People Partner, Technology + Amazon Sr. HR Business Partner and future-of-work transformation signals (current Aug-Sep 2026). Market refresh: enterprise people strategy; executive advising; organizational design and operating models; workforce planning; succession and leadership pipelines; culture and employee value proposition; talent/rewards architecture; people analytics; employee/labor risk; reorganization/change; HR operating model and CoEs/shared services.",
+    "capstone": "Act as HR Director for a simulated 2,000-5,000 employee enterprise or multi-business portfolio. Translate business strategy into a three-year people strategy and workforce model; redesign one organization and decision/role architecture; create leadership, succession, internal-mobility and critical-talent plans; define rewards and employee-value-proposition principles; build an executive people-analytics and organizational-health scorecard; assess employee/labor and policy risks; lead a reorganization or M&A-style change scenario; define the HR operating model across HRBPs, CoEs and shared services; design the HR data/technology architecture; redesign one workflow for human-AI collaboration with privacy, fairness, accountability and escalation controls; then deliver a board-style human-capital memo and annual people-governance calendar.",
+    "rubric": "Show strategic alignment between business and people choices; coherent org/workforce design; credible succession and leadership pipelines; fair, transparent talent architecture; people analytics that change executive decisions; disciplined employee/labor-risk governance; culture and rewards logic; effective transformation sequencing; scalable HR operating model and technology design; responsible human-AI work architecture; measurable productivity/experience outcomes; and executive/board communication that is concise, evidence-backed and explicit about uncertainty and tradeoffs.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Translate business strategy into an enterprise people system and measurable workforce priorities",
+        "competencies": [
+          {
+            "title": "People strategy, business alignment + workforce architecture",
+            "coverage": "Human Capital Strategy / Workforce Planning / HR Operating Model / Org Health / Business Partnership",
+            "videos": [
+              {
+                "title": "HRBP Framework: Strategy, Trends + HR Delivery (30m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K102825/",
+                "channel": "Cornell CAHRS"
+              },
+              {
+                "title": "Leading With People: CHRO, Rewards + Talent (60m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K022725a/",
+                "channel": "Cornell"
+              }
+            ]
+          },
+          {
+            "title": "Talent architecture, succession + culture systems",
+            "coverage": "Succession / Leadership Pipelines / Talent Mobility / Culture / Employee Value Proposition",
+            "videos": [
+              {
+                "title": "Future of Leadership Pipelines (60m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K062426/",
+                "channel": "Cornell ILR"
+              },
+              {
+                "title": "Internal Talent Mobility (60m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K100523/",
+                "channel": "Cornell ILR"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Redesign organizations and use people evidence to steer executive decisions",
+        "competencies": [
+          {
+            "title": "Organizational design, transformation + change",
+            "coverage": "Org Design / Operating Models / Transformation / Change / Future of Work",
+            "videos": [
+              {
+                "title": "Systems Change: Why Fixing People Problems Rarely Fixes Organizations (60m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K092226/",
+                "channel": "Cornell"
+              },
+              {
+                "title": "Deliver Strategic Change (60m)",
+                "url": "https://executive.mit.edu/deliver-strategic-change-MCE2B3M7WIFFCDVJ6MVWOTOVMETM.html",
+                "channel": "MIT Sloan"
+              }
+            ]
+          },
+          {
+            "title": "Executive people analytics + organizational health",
+            "coverage": "People Analytics / Talent Intelligence / Engagement / Inclusion / Board Human Capital Insights",
+            "videos": [
+              {
+                "title": "Elevating HR Analytics (60m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K022125/",
+                "channel": "Cornell ILR"
+              },
+              {
+                "title": "The Next 10 Years of People Analytics (conference session)",
+                "url": "https://www.youtube.com/watch?v=pstJXxFcOaw",
+                "channel": "Wharton"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Act as enterprise people architect for scale, risk, leadership and human-AI transformation",
+        "competencies": [
+          {
+            "title": "Executive/board people leadership + enterprise risk",
+            "coverage": "Executive Advising / Employee & Labor Risk / Culture / Rewards / Governance / Board Communication",
+            "videos": [
+              {
+                "title": "Building Inclusive Workplace Cultures (60m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K100720/",
+                "channel": "Cornell ILR"
+              },
+              {
+                "title": "HRBP Framework: Employee Value Proposition & Culture (30m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K121725/",
+                "channel": "Cornell CAHRS"
+              }
+            ]
+          },
+          {
+            "title": "AI-era workforce design + HR transformation",
+            "coverage": "Human-AI Work Design / HR Technology / AI Governance / Workforce Transformation / Future of Work",
+            "videos": [
+              {
+                "title": "AI and the Future of Work (60m)",
+                "url": "https://ecornell.cornell.edu/keynotes/view/K090723/",
+                "channel": "Cornell ILR + IBM CHRO"
+              },
+              {
+                "title": "No One Works Here: AI-Driven Enterprises & Leadership (30m)",
+                "url": "https://executive.mit.edu/webinar/no-one-works-here-book-talk-with-mits-paul-cheek.html",
+                "channel": "MIT Sloan"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 603,
+    "category": "Business Management"
+  },
+  {
+    "name": "CRM Engineer / Salesforce & Revenue Systems Engineer",
+    "benchmark": "Anthropic Salesforce Developer + Salesforce Developer, Partnerships + Staff Software Engineer, GTM Systems; OpenAI CRM / Salesforce systems and Growth Martech signals (current Sep 2026). Market refresh: CRM workflows; Salesforce platform engineering; customer data models; APIs and event-driven integration; OAuth/identity; DevOps/QA; data quality; agentic CRM; AI evaluation; privacy, controls and production reliability.",
+    "capstone": "Engineer a production-grade CRM operating system for a simulated B2B company. Model accounts, contacts, leads, opportunities, products and service cases; implement lifecycle automation plus Apex/custom logic where justified; integrate at least two adjacent systems through REST/event-driven patterns; enforce OAuth/least privilege and sensitive-data controls; build CI/CD, automated tests and release gates; add a customer-data or semantic layer; implement one AI/agent workflow with explicit permissions and human approval; instrument adoption, failure, latency and business metrics; then run a release, incident and rollback exercise with an architecture decision record and runbook.",
+    "rubric": "Prove correct CRM data and process architecture; maintainable customization; API/event contract quality; authentication and authorization; data quality and reconciliation; automated tests and safe releases; observable integrations; reliable AI/agent behavior with evals and human control; privacy and auditability; incident recovery; measurable adoption or cycle-time impact; and clear reasoning about configure-vs-code, platform-vs-custom, synchronous-vs-event-driven and automation-vs-human tradeoffs.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build a trustworthy CRM platform model and customize it with secure engineering discipline",
+        "competencies": [
+          {
+            "title": "CRM platform architecture, customer lifecycle + data model",
+            "coverage": "CRM Architecture / Sales & Service Workflows / Customer Data / Data Modeling / Salesforce Platform",
+            "videos": [
+              {
+                "title": "Integrating with Salesforce: Overview (~50m)",
+                "url": "https://www.youtube.com/watch?v=DNyEt15VPNw",
+                "channel": "Salesforce Developers"
+              },
+              {
+                "title": "Data Cloud Developer Preview at Dreamforce",
+                "url": "https://www.youtube.com/watch?v=nSjxC-kIEJU",
+                "channel": "Salesforce Developers"
+              }
+            ]
+          },
+          {
+            "title": "Extensibility, automation + identity/security",
+            "coverage": "Apex / Declarative Automation / OAuth-OIDC / Access Control / Secure CRM Engineering",
+            "videos": [
+              {
+                "title": "Advanced Apex Enterprise Patterns",
+                "url": "https://www.youtube.com/watch?v=BLXp0ZP0cF0",
+                "channel": "Salesforce Developers"
+              },
+              {
+                "title": "OAuth with Salesforce: Demystified",
+                "url": "https://www.youtube.com/watch?v=K2_6UAiNwZw",
+                "channel": "Salesforce Developers"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Connect CRM to the enterprise and operate changes safely across data, APIs and releases",
+        "competencies": [
+          {
+            "title": "APIs, event-driven integration + iPaaS patterns",
+            "coverage": "REST APIs / Platform Events / Integration Architecture / MuleSoft / Event-Driven Systems",
+            "videos": [
+              {
+                "title": "Platform Events: Inside and Out",
+                "url": "https://www.youtube.com/watch?v=L6OWyCfQD6U",
+                "channel": "Salesforce Developers"
+              },
+              {
+                "title": "API-Led Connectivity with MuleSoft",
+                "url": "https://www.youtube.com/watch?v=jRYQnF0v7_o",
+                "channel": "Salesforce Apex Hours"
+              }
+            ]
+          },
+          {
+            "title": "Testing, DevOps + governed release engineering",
+            "coverage": "CRM DevOps / Git / CI-CD / QA / Sandboxes / Release Governance / Observability",
+            "videos": [
+              {
+                "title": "DevOps Essentials: Working with DevOps Center",
+                "url": "https://www.youtube.com/watch?v=9bubSyxWz3Y",
+                "channel": "Salesforce Developers"
+              },
+              {
+                "title": "15 DevOps Center Tips for Developers | Dreamforce",
+                "url": "https://www.youtube.com/watch?v=XnnuA3H_fjg",
+                "channel": "Salesforce Developers"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Turn CRM into an AI-native customer operating system with measurable reliability and human control",
+        "competencies": [
+          {
+            "title": "Agentic CRM, tool use + human-in-the-loop workflows",
+            "coverage": "Agentforce / AI Agents / MCP / Workflow Automation / Human Review / Customer Operations",
+            "videos": [
+              {
+                "title": "Agentforce for Developers: Ask Me Anything",
+                "url": "https://www.youtube.com/watch?v=bloFZGpcdgg",
+                "channel": "Salesforce Developers"
+              },
+              {
+                "title": "Building Agents with Model Context Protocol: Full Workshop (1h+)",
+                "url": "https://www.youtube.com/watch?v=kQmXtrmQ5Zg",
+                "channel": "Anthropic"
+              }
+            ]
+          },
+          {
+            "title": "Evaluation, production reliability + business controls",
+            "coverage": "AI Evals / Regression Testing / Monitoring / Privacy / Safety / SLOs / CRM Governance",
+            "videos": [
+              {
+                "title": "Building Practical Evaluation Systems (28m)",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Designing Reliable Agent Architectures (46m)",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-designing-reliable-agent-architectures-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 604,
+    "category": "Revenue Operations, Technical Sales & GTM Systems"
+  },
+  {
+    "name": "GTM Growth Engineer / Revenue AI Engineer",
+    "benchmark": "OpenAI Applied AI Software Engineer + Software Engineer, GTM Growth Engineering; Anthropic Staff Software Engineer, Growth / GTM Systems and DevOps-AgentOps GTM Systems signals (current Sep 2026). Market refresh: AI-native GTM products; customer context; prioritization and routing; full-stack systems; agent behavior; CRM/martech integration; feedback and eval loops; experimentation; human oversight; pipeline, conversion and seller/marketer productivity.",
+    "capstone": "Build an AI-native GTM growth system for a simulated B2B product. Interview sales/marketing operators and identify one high-friction revenue workflow; define customer context, lifecycle states and measurable success metrics; create the required CRM/data model and SQL baseline; ship a full-stack product or service that prioritizes, routes or assists customer engagement; integrate at least one CRM/martech system plus one tool through APIs/MCP; instrument agent traces, human edits, funnel outcomes and cost; build representative evals and regression gates; run an experiment or staged rollout; then quantify changes in qualified pipeline, conversion, response time or operator productivity and document privacy, safety, rollback and human-approval boundaries.",
+    "rubric": "Demonstrate user and operator evidence; clear revenue problem selection; reliable full-stack implementation; trustworthy customer/context data; robust API and tool integration; safe human-supervised agent behavior; eval and regression coverage; telemetry and diagnosable failures; disciplined experimentation; measurable pipeline/conversion/productivity impact; privacy/security controls; cost and latency awareness; and evidence that production feedback changed the system rather than merely confirming the original design.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Find high-leverage GTM workflows and build the data/product foundation for measurable growth",
+        "competencies": [
+          {
+            "title": "Workflow discovery, customer context + growth problem framing",
+            "coverage": "GTM Systems / Customer Discovery / Revenue Operations / Product Discovery / AI Use-Case Scoping",
+            "videos": [
+              {
+                "title": "Use Case Discovery & System Scoping (1h20)",
+                "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "How To Talk To Users | Startup School (~18m)",
+                "url": "https://www.youtube.com/watch?v=z1iF1c8w5Lg",
+                "channel": "Y Combinator"
+              }
+            ]
+          },
+          {
+            "title": "GTM data, SQL + measurable funnel instrumentation",
+            "coverage": "SQL / Customer Data / Funnel Metrics / Attribution / Product Analytics / Data Quality",
+            "videos": [
+              {
+                "title": "Lecture 0: Querying (1h17)",
+                "url": "https://www.youtube.com/watch?v=vHYeChEf2lA",
+                "channel": "Harvard CS50 SQL"
+              },
+              {
+                "title": "Learning Video Library: How to Turn Data into Stories",
+                "url": "https://www.storytellingwithdata.com/videos",
+                "channel": "Storytelling with Data"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build AI-native growth products, integrations and agent workflows that improve conversion and productivity",
+        "competencies": [
+          {
+            "title": "Full-stack GTM products + APIs/integrations",
+            "coverage": "Full-Stack Engineering / APIs / CRM & Martech Integrations / Data Models / Workflow Orchestration",
+            "videos": [
+              {
+                "title": "Integrating with Salesforce: Overview (~50m)",
+                "url": "https://www.youtube.com/watch?v=DNyEt15VPNw",
+                "channel": "Salesforce Developers"
+              },
+              {
+                "title": "Building Agents with Model Context Protocol: Full Workshop (1h+)",
+                "url": "https://www.youtube.com/watch?v=kQmXtrmQ5Zg",
+                "channel": "Anthropic"
+              }
+            ]
+          },
+          {
+            "title": "Agent behavior, tools + human-supervised automation",
+            "coverage": "AI Agents / Tool Use / Context Engineering / Human-in-the-Loop / GTM Automation",
+            "videos": [
+              {
+                "title": "Build Hour: Agents SDK (~48m)",
+                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
+                "channel": "OpenAI"
+              },
+              {
+                "title": "Introduction to Agentic Workflows (37m)",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/unlock-agentic-power-with-the-agents-sdk",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate the growth loop with evals, experiments and verified revenue outcomes",
+        "competencies": [
+          {
+            "title": "Agent evaluation, feedback loops + production improvement",
+            "coverage": "AI Evals / Telemetry / Failure Analysis / Regression Gates / Operator Feedback / Monitoring",
+            "videos": [
+              {
+                "title": "Building Practical Evaluation Systems (28m)",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Designing Reliable Agent Architectures (46m)",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-designing-reliable-agent-architectures-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          },
+          {
+            "title": "Experimentation, rollout + business-impact measurement",
+            "coverage": "Experimentation / A-B Testing / Staged Rollout / Adoption / Pipeline / Conversion / Revenue Productivity",
+            "videos": [
+              {
+                "title": "AI Experimentation: Optimize AI-Powered Features (webinar)",
+                "url": "https://www.youtube.com/watch?v=LzMiAXDkLwY",
+                "channel": "Statsig"
+              },
+              {
+                "title": "Build Hour: AgentKit (~46m)",
+                "url": "https://webinar.openai.com/on-demand/a7f3d9cb-41a2-4e8b-a24c-2bb102112a38",
+                "channel": "OpenAI"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 605,
+    "category": "Revenue Operations, Technical Sales & GTM Systems"
+  },
+  {
+    "name": "Claude AI Engineer / Anthropic Platform Engineer",
+    "benchmark": "Anthropic Applied AI Engineer / Applied AI Architect + Staff Software Engineer, Claude Code / Claude Managed Agents signals (current Sep 2026). Market refresh: Claude API and context engineering; Claude Code; MCP/tool design; Agent SDK and Managed Agents; skills/subagents; evals; memory; sandboxing; context/cost efficiency; production reliability and enterprise safety.",
+    "capstone": "Build a production Claude application for a consequential multi-step workflow. Start with a typed API service and explicit system/context contract; add structured outputs, retrieval or enterprise context, and at least two tools through MCP; implement a Claude Code-assisted development workflow with repository instructions, tests and hooks; add a managed or self-hosted agent path with sandbox/permission boundaries and optional subagent delegation; create a replayable eval suite covering task success, tool correctness, safety and failure recovery; instrument latency, tokens/cost and traces; then run a staged release, failure drill and rollback with a concise architecture/runbook package.",
+    "rubric": "Demonstrate model/context judgment; reliable structured outputs; high-quality tool contracts; correct MCP integration; disciplined Claude Code usage with human review; secure permissions and sandboxing; grounded retrieval where needed; eval-driven development and regression gates; diagnosable traces; context/cost efficiency; safe recovery from partial failures; measurable task success; and clear tradeoffs between prompts, tools, skills, subagents, memory and autonomous execution.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build on Claude deliberately: context, tool contracts and coding-agent workflow",
+        "competencies": [
+          {
+            "title": "Claude platform, context engineering + model behavior",
+            "coverage": "Claude API / Prompt & Context Engineering / Model Selection / Structured Outputs",
+            "videos": [
+              {
+                "title": "Getting More Out of the Claude Platform (30m)",
+                "url": "https://claude.com/code-with-claude/session/sf-getting-more-out-of-the-claude-platform",
+                "channel": "Anthropic"
+              },
+              {
+                "title": "Prompting for Agents | Code w/ Claude (~29m)",
+                "url": "https://www.youtube.com/watch?v=XSZP9GhhuAc",
+                "channel": "Anthropic"
+              }
+            ]
+          },
+          {
+            "title": "Claude Code engineering workflow + repository context",
+            "coverage": "Claude Code / CLAUDE.md / Hooks / Commands / Subagents / Software Engineering",
+            "videos": [
+              {
+                "title": "Claude Code Best Practices | Code w/ Claude",
+                "url": "https://www.youtube.com/watch?v=gv0WHhKelSE",
+                "channel": "Anthropic"
+              },
+              {
+                "title": "How We Claude Code (45m workshop)",
+                "url": "https://claude.com/code-with-claude/session/sf-ext-how-we-claude-code",
+                "channel": "Anthropic"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Connect Claude to tools, data and multi-step work with production-grade agent patterns",
+        "competencies": [
+          {
+            "title": "MCP, tool design + agent-computer interfaces",
+            "coverage": "Model Context Protocol / Tool Use / APIs / Permissions / Agent Skills",
+            "videos": [
+              {
+                "title": "Building Agents with MCP (1h44)",
+                "url": "https://www.youtube.com/watch?v=kQmXtrmQ5Zg",
+                "channel": "Anthropic Applied AI"
+              },
+              {
+                "title": "Tool, Skill, or Subagent? (45m workshop)",
+                "url": "https://claude.com/code-with-claude/session/sf-ext-compose-multi-agent-systems-with-skills-and-mcp",
+                "channel": "Anthropic"
+              }
+            ]
+          },
+          {
+            "title": "Agent architecture, managed execution + long-running workflows",
+            "coverage": "Claude Agent SDK / Managed Agents / Multi-Agent Orchestration / Sandboxing / Memory",
+            "videos": [
+              {
+                "title": "Building More Effective AI Agents",
+                "url": "https://www.youtube.com/watch?v=uhJJgc-0iTQ",
+                "channel": "Anthropic"
+              },
+              {
+                "title": "Build a Production-Ready Managed Agent (40m)",
+                "url": "https://claude.com/code-with-claude/session/sf-build-a-production-ready-agent-with-claude-managed-agents",
+                "channel": "Anthropic"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate Claude systems with eval-driven reliability, memory, cost discipline and secure autonomy",
+        "competencies": [
+          {
+            "title": "Evals, regression + observable agent quality",
+            "coverage": "Agent Evals / Rubrics / Replay / Failure Analysis / Cost-Latency-Quality",
+            "videos": [
+              {
+                "title": "Evals for Taste (45m workshop)",
+                "url": "https://claude.com/code-with-claude/session/sf-ext-eval-driven-agent-development",
+                "channel": "Code w/ Claude"
+              },
+              {
+                "title": "The Expanding Toolkit (30m)",
+                "url": "https://claude.com/code-with-claude/session/sf-the-expanding-toolkit",
+                "channel": "Anthropic"
+              }
+            ]
+          },
+          {
+            "title": "Memory, context efficiency + proactive production operations",
+            "coverage": "Memory / Dreaming / Context Compaction / Prompt Caching / Routines / Reliability",
+            "videos": [
+              {
+                "title": "Memory and Dreaming for Self-Learning Agents (30m)",
+                "url": "https://claude.com/code-with-claude/session/sf-memory-and-dreaming-for-self-learning-agents",
+                "channel": "Anthropic"
+              },
+              {
+                "title": "Build a Proactive Agent Workflow with Claude Code (45m)",
+                "url": "https://claude.com/code-with-claude/session/ldn-build-a-proactive-agent-workflow-with-claude-code",
+                "channel": "Anthropic"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 606,
+    "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "Copilot AI Engineer / Microsoft Agent Engineer",
+    "benchmark": "Microsoft 365 Copilot / CoreAI / IC3 engineering + current Copilot Solution Engineer and Microsoft agent-platform signals (current Sep 2026). Market refresh: Microsoft 365 Copilot extensibility; Copilot Studio; Foundry; Semantic Kernel / Microsoft Agent Framework; Graph and enterprise grounding; MCP; multi-agent orchestration; evals; Responsible AI; cloud-scale reliability.",
+    "capstone": "Engineer an enterprise Copilot solution that spans Microsoft 365 and Azure. Build a declarative or custom agent with clear instructions and enterprise grounding; connect Graph/SharePoint or another governed data source; add actions through Copilot Studio, plugins or APIs; implement a code-first Foundry/Semantic Kernel agent for one complex branch; add MCP or multi-agent collaboration where it improves the workflow; enforce Entra identity, least privilege, data-loss/privacy controls and explicit human approvals; create agent evals and automated regression tests; deploy with telemetry, reliability targets and cost controls; then demonstrate an end-to-end business process with measured task completion and adoption impact.",
+    "rubric": "Prove enterprise grounding and data-access correctness; strong Copilot/Foundry architecture; correct Graph, connector, plugin and tool contracts; robust Semantic Kernel or Agent Framework implementation; secure Entra identity and permission boundaries; responsible autonomous behavior; eval coverage and regression quality gates; observability and incident readiness; scalability and cost awareness; usable Microsoft 365 experience; measurable business-process improvement; and clear reasoning about declarative-vs-custom, low-code-vs-code-first, single-vs-multi-agent and human-vs-autonomous execution.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build Copilot and Foundry agents on secure Microsoft enterprise foundations",
+        "competencies": [
+          {
+            "title": "Microsoft 365 Copilot extensibility + declarative/custom agents",
+            "coverage": "Microsoft 365 Copilot / Copilot Studio / Agent Builder / Microsoft Graph / Enterprise Context",
+            "videos": [
+              {
+                "title": "Build and Extend Agents for Microsoft 365 Copilot (1h)",
+                "url": "https://developer.microsoft.com/en-us/reactor/events/25326/",
+                "channel": "Microsoft Reactor"
+              },
+              {
+                "title": "Extend M365 Copilot with LOB Apps & Data (1h)",
+                "url": "https://developer.microsoft.com/en-us/reactor/events/22018/",
+                "channel": "Microsoft Reactor"
+              }
+            ]
+          },
+          {
+            "title": "Foundry + Semantic Kernel agent fundamentals",
+            "coverage": "Microsoft Foundry / Azure OpenAI / Semantic Kernel / Plugins / Tool Calling",
+            "videos": [
+              {
+                "title": "Develop an AI Agent with Semantic Kernel (1h)",
+                "url": "https://developer.microsoft.com/en-us/reactor/events/25592/",
+                "channel": "Microsoft Reactor"
+              },
+              {
+                "title": "Host Your Agents on Foundry: Microsoft Agent Framework (1h)",
+                "url": "https://developer.microsoft.com/en-us/reactor/events/26932/",
+                "channel": "Microsoft Reactor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Ground, integrate and orchestrate agents across business systems and Microsoft cloud services",
+        "competencies": [
+          {
+            "title": "Copilot Studio autonomous workflows + enterprise actions",
+            "coverage": "Copilot Studio / Power Platform / Connectors / Business Logic / Real-Time Data",
+            "videos": [
+              {
+                "title": "Custom AI Agents with Copilot Studio (1h30)",
+                "url": "https://developer.microsoft.com/en-us/reactor/events/26242/",
+                "channel": "Microsoft Reactor"
+              },
+              {
+                "title": "Real-Time Autonomous AI Agents with Copilot Studio (1h)",
+                "url": "https://developer.microsoft.com/en-us/reactor/events/25721/",
+                "channel": "Microsoft Reactor"
+              }
+            ]
+          },
+          {
+            "title": "Multi-agent orchestration, MCP + interactive experiences",
+            "coverage": "Semantic Kernel / Microsoft Agent Framework / MCP / Multi-Agent / Custom UI",
+            "videos": [
+              {
+                "title": "Orchestrate a Multi-Agent Solution with Semantic Kernel (1h)",
+                "url": "https://developer.microsoft.com/en-us/reactor/events/25444/",
+                "channel": "Microsoft Reactor"
+              },
+              {
+                "title": "MCP Apps in Microsoft 365 Copilot (1h)",
+                "url": "https://developer.microsoft.com/en-us/reactor/events/27451/",
+                "channel": "Microsoft Reactor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Ship enterprise Copilot systems with evaluation, Responsible AI and cloud-scale operational rigor",
+        "competencies": [
+          {
+            "title": "Agent evaluation, quality gates + secure publishing",
+            "coverage": "M365 Agent Evals / Evaluation / Security / Governance / Responsible AI",
+            "videos": [
+              {
+                "title": "Build & Evaluate M365 Copilot Agents (1h)",
+                "url": "https://developer.microsoft.com/en-us/reactor/events/27447/",
+                "channel": "Microsoft Reactor"
+              },
+              {
+                "title": "Best Practices for Building Agents (1h)",
+                "url": "https://developer.microsoft.com/en-us/reactor/events/25320/",
+                "channel": "Microsoft Reactor"
+              }
+            ]
+          },
+          {
+            "title": "Production architecture, business-process automation + reliability",
+            "coverage": "Azure AI / Semantic Kernel Process Framework / Observability / SRE / Distributed Systems",
+            "videos": [
+              {
+                "title": "Transform Business Processes with Multi-Agent AI (1h)",
+                "url": "https://developer.microsoft.com/en-us/reactor/events/25313/",
+                "channel": "Microsoft Reactor"
+              },
+              {
+                "title": "Semantic Kernel & Multi-Agent AI (1h)",
+                "url": "https://developer.microsoft.com/en-us/reactor/events/25885/",
+                "channel": "Microsoft Reactor"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 607,
+    "category": "AI, Agents & Intelligent Automation"
   }
 ]
