@@ -443,7 +443,10 @@
       '<span class="mastery-level">' + escapeHtml(level) + '</span>' +
       '<span class="mastery-count">' + checkedCount + ' / ' + total + ' complete</span>' +
       '</div>' +
-      '<div class="mastery-track"><div class="mastery-fill" style="width:' + pct + '%"></div></div>';
+      '<div class="mastery-track"><div class="mastery-fill" style="width:' + pct + '%"></div></div>' +
+      (pct < 100
+        ? '<p class="mastery-hint">Open a video or resource link, watch it, then check its box to track your progress and unlock what comes next.</p>'
+        : '');
   }
 
   function attachMasteryTracking(mode, slug) {

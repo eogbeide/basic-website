@@ -410,6 +410,13 @@ a {
   transition: width 0.2s ease;
 }
 
+.mastery-hint {
+  color: #8a8a8a;
+  font-size: 12px;
+  margin: 10px 0 0;
+  line-height: 1.5;
+}
+
 .mastery-check {
   flex-shrink: 0;
   width: 16px;
