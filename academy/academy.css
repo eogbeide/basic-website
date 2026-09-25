@@ -367,6 +367,57 @@ a {
   color: #ffc629;
 }
 
+.mastery-badge {
+  background-color: #17181a;
+  border: 1px solid #262626;
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin: 0 0 20px;
+}
+
+.mastery-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.mastery-level {
+  color: #ffc629;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.mastery-count {
+  color: #8a8a8a;
+  font-size: 12px;
+}
+
+.mastery-track {
+  height: 6px;
+  background-color: #2a2a2a;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.mastery-fill {
+  height: 100%;
+  background-color: #ffc629;
+  border-radius: 999px;
+  transition: width 0.2s ease;
+}
+
+.mastery-check {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  accent-color: #ffc629;
+  cursor: pointer;
+}
+
 .detail-description {
   color: #d7d7d7;
   font-size: 14px;
@@ -504,6 +555,14 @@ a {
 .tier-bridges li {
   color: #d7d7d7;
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tier-bridges li a {
+  flex: 1;
+  min-width: 0;
 }
 
 .tier-bridges a {
@@ -607,6 +666,17 @@ a {
   display: flex;
   flex-direction: column;
   gap: 6px;
+}
+
+.video-links li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.video-links li a {
+  flex: 1;
+  min-width: 0;
 }
 
 .video-links a {

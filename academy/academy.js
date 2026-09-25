@@ -371,8 +371,99 @@
       '</div>';
   }
 
+  var MASTERY_LEVELS = [
+    { min: 0, label: 'Not Started' },
+    { min: 1, label: 'Explorer' },
+    { min: 34, label: 'Builder' },
+    { min: 67, label: 'Practitioner' },
+    { min: 100, label: 'Master' },
+  ];
+
+  function masteryLevelFor(pct) {
+    var label = MASTERY_LEVELS[0].label;
+    for (var i = 0; i < MASTERY_LEVELS.length; i++) {
+      if (pct >= MASTERY_LEVELS[i].min) label = MASTERY_LEVELS[i].label;
+    }
+    return label;
+  }
+
+  function masteryStorageKey(mode, slug) {
+    return 'zuyini_mastery_' + mode + '_' + slug;
+  }
+
+  function loadMasteryState(mode, slug, count) {
+    try {
+      var raw = localStorage.getItem(masteryStorageKey(mode, slug));
+      var arr = raw ? JSON.parse(raw) : [];
+      if (!Array.isArray(arr)) arr = [];
+      while (arr.length < count) arr.push(false);
+      return arr;
+    } catch (e) {
+      return new Array(count).fill(false);
+    }
+  }
+
+  function saveMasteryState(mode, slug, arr) {
+    try {
+      localStorage.setItem(masteryStorageKey(mode, slug), JSON.stringify(arr));
+    } catch (e) {
+      // ignore -- worst case progress just doesn't persist this session
+    }
+  }
+
+  function updateMasteryBadge(badgeEl, checkedCount, total) {
+    var pct = total > 0 ? Math.round((checkedCount / total) * 100) : 0;
+    var level = masteryLevelFor(pct);
+    badgeEl.innerHTML =
+      '<div class="mastery-header">' +
+      '<span class="mastery-level">' + escapeHtml(level) + '</span>' +
+      '<span class="mastery-count">' + checkedCount + ' / ' + total + ' complete</span>' +
+      '</div>' +
+      '<div class="mastery-track"><div class="mastery-fill" style="width:' + pct + '%"></div></div>';
+  }
+
+  function attachMasteryTracking(mode, slug) {
+    if (mode !== 'roles' && mode !== 'pathways' && mode !== 'certificates') return;
+    var card = detailEl.querySelector('.detail-card');
+    var h2 = card && card.querySelector('h2');
+    if (!card || !h2) return;
+
+    var items = Array.prototype.filter.call(
+      card.querySelectorAll('.video-links li, .tier-bridges li'),
+      function (li) { return li.querySelector('.play-icon'); }
+    );
+    if (!items.length) return;
+
+    var state = loadMasteryState(mode, slug, items.length);
+
+    var badge = document.createElement('div');
+    badge.className = 'mastery-badge';
+    h2.insertAdjacentElement('afterend', badge);
+
+    function refresh() {
+      updateMasteryBadge(badge, state.filter(Boolean).length, items.length);
+    }
+
+    items.forEach(function (li, i) {
+      var cb = document.createElement('input');
+      cb.type = 'checkbox';
+      cb.className = 'mastery-check';
+      cb.checked = !!state[i];
+      cb.setAttribute('aria-label', 'Mark complete');
+      li.insertBefore(cb, li.firstChild);
+      cb.addEventListener('change', function () {
+        state[i] = cb.checked;
+        saveMasteryState(mode, slug, state);
+        refresh();
+      });
+    });
+
+    refresh();
+  }
+
   function renderItem(item) {
     detailEl.innerHTML = MODES[currentMode].render(item);
+    attachMasteryTracking(currentMode, currentSlug);
 
     document.querySelectorAll('.role-list li[data-slug]').forEach(function (li) {
       li.classList.toggle('active', li.getAttribute('data-slug') === slugify(item.name));
