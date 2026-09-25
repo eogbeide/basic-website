@@ -15387,5 +15387,501 @@
     "bonus": [],
     "page": 580,
     "category": "Actuarial, Insurance & Enterprise Risk"
+  },
+  {
+    "name": "AI Solution Developer",
+    "benchmark": "Stripe AI Solutions Developer / Finance Operational Excellence signal + OpenAI Forward Deployed Engineering + Salesforce Agentforce forward-deployed roles (current Sep 2026) Market refresh: workflow diagnosis; AI opportunity selection; rapid prototyping; SQL and data pipelines; agents and automation; knowledge/RAG; MCP and custom integrations; evals and validation; observability/incident response; user enablement, adoption and reusable playbooks.",
+    "capstone": "Transform a real manual business workflow into a production-ready AI solution. Diagnose the current process and controls; define success and acceptance criteria; query and validate source data in SQL; build an agent with tools, MCP or APIs and a grounded knowledge layer; create evals and regression tests; instrument traces, quality, latency, cost and alerts; run a failure/incident drill; pilot with real users; then deliver SOPs, training, self-service ownership and an adoption/impact readout.",
+    "rubric": "Show a measurable workflow improvement, not an AI demo: traceable requirements; trustworthy SQL/data logic; sound agent/tool boundaries; grounded retrieval; reliable integrations; eval coverage and failure analysis; observability and recovery; security/control awareness; user feedback and adoption evidence; maintainable documentation and handoff; quantify cycle time, quality, cost, error-rate or capacity impact and explain when a simpler non-agent solution is better.",
+    "category": "AI, Agents & Intelligent Automation",
+    "bonus": [],
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Diagnose the workflow, scope the system and build trustworthy data foundations",
+        "competencies": [
+          {
+            "title": "Workflow diagnosis, AI use-case selection + system scoping",
+            "coverage": "AI Use-Case Discovery / Process Management / Solution Architecture",
+            "videos": [
+              {
+                "title": "Use Case Discovery & System Scoping (1h20m)",
+                "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Maximizing ROI with AI-Driven Process Management (webinar)",
+                "url": "https://hbr.org/webinar/2025/04/maximizing-roi-with-ai-driven-process-management",
+                "channel": "Harvard Business Review"
+              }
+            ]
+          },
+          {
+            "title": "SQL, data pipelines + data-quality validation",
+            "coverage": "SQL & Analytics / Data Engineering / Data Quality",
+            "videos": [
+              {
+                "title": "SQL Querying Full Lecture (1h19m)",
+                "url": "https://www.youtube.com/watch?v=vHYeChEf2lA",
+                "channel": "Harvard CS50"
+              },
+              {
+                "title": "Elevating Data Quality Standards with DQX",
+                "url": "https://www.youtube.com/watch?v=e5Qvx_gnxTE",
+                "channel": "Databricks"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build agentic solutions, integrations and grounded knowledge systems",
+        "competencies": [
+          {
+            "title": "Agent architecture, workflow automation + tool execution",
+            "coverage": "AI Agents / Workflow Automation / Software Engineering",
+            "videos": [
+              {
+                "title": "Build Hour: Agents SDK",
+                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
+                "channel": "OpenAI"
+              },
+              {
+                "title": "Build Hour: Agentic Tool Calling (55m)",
+                "url": "https://www.youtube.com/watch?v=7E-qdsVEoB8",
+                "channel": "OpenAI"
+              }
+            ]
+          },
+          {
+            "title": "MCP/integrations, knowledge layers + production RAG",
+            "coverage": "MCP / APIs / RAG / Enterprise Knowledge",
+            "videos": [
+              {
+                "title": "Why We Built and Donated MCP (35m)",
+                "url": "https://www.youtube.com/watch?v=PLyCki2K0Lg",
+                "channel": "Anthropic"
+              },
+              {
+                "title": "Advanced RAG Deep Dive (1h)",
+                "url": "https://www.youtube.com/watch?v=hfx7F7lObdg",
+                "channel": "Microsoft Reactor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate reliable AI workflows and transfer ownership so adoption persists",
+        "competencies": [
+          {
+            "title": "Evals, observability, reliability + incident-ready operation",
+            "coverage": "AI Evals / Observability / LLMOps / Reliability",
+            "videos": [
+              {
+                "title": "Building Practical Evaluation Systems (28m)",
+                "url": "https://academy.openai.com/en/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Designing Reliable Agent Architectures (46m)",
+                "url": "https://academy.openai.com/en/public/clubs/builders-etkn1/videos/ai-techniques-production-designing-reliable-agent-architectures-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          },
+          {
+            "title": "Adoption, enablement, human-AI operating model + handoff",
+            "coverage": "AI Adoption / Change Management / Training / Operating Models",
+            "videos": [
+              {
+                "title": "The AI Adoption Playbook",
+                "url": "https://www.microsoft.com/en-us/research/video/the-ai-adoption-playbook-lessons-from-microsofts-internal-strategy/",
+                "channel": "Microsoft Research"
+              },
+              {
+                "title": "Orchestrating Human + AI Teams (2026 webinar)",
+                "url": "https://hbr.org/webinar/2026/03/orchestrating-human-ai-teams-for-the-future-of-work",
+                "channel": "Harvard Business Review"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Real Estate Manager",
+    "benchmark": "AWS Principal Real Estate Manager + CBRE Real Estate Manager + Disney real estate leasing/business-development signals (current 2026) Market refresh: portfolio strategy; acquisitions, dispositions and lease negotiations; DCF/IRR/NPV/comps/cap rates; market/site intelligence; property operations and vendor/tenant leadership; budgets and NOI; occupancy/space analytics; zoning/environmental and climate risk; portfolio technology, PropTech/AI and executive decision support.",
+    "capstone": "Build a decision-ready corporate real estate plan for a real or simulated multi-site portfolio. Create a property/lease register and market map; underwrite hold, lease, buy, sublease, redevelop and exit options with DCF/IRR/NPV and sensitivity cases; complete site/risk diligence; negotiate a lease term sheet; build an operating budget and NOI bridge; analyze utilization and space needs; define vendor/tenant service KPIs; recommend capital and sustainability actions; then deliver a five-year portfolio strategy, transaction roadmap and executive investment memo.",
+    "rubric": "Demonstrate defensible real estate judgment: auditable assumptions and valuation logic; market/site evidence; lease and transaction fluency; lifecycle and capital-allocation tradeoffs; budget/NOI and vendor controls; occupancy evidence rather than badge-count intuition; zoning, environmental, climate and operational risk awareness; effective negotiation; technology/data use that improves decisions; measurable portfolio value, cost, utilization and service outcomes; clear executive recommendation with downside cases.",
+    "category": "Business Management",
+    "bonus": [],
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Understand markets, sites, risk and the economics behind property decisions",
+        "competencies": [
+          {
+            "title": "Market/site intelligence, due diligence + climate/regulatory risk",
+            "coverage": "Market Research / Site Selection / Risk / Sustainability",
+            "videos": [
+              {
+                "title": "Climate Risk and Real Estate Markets",
+                "url": "https://www.youtube.com/watch?v=QkyiiMUYH2U",
+                "channel": "MIT OCW"
+              },
+              {
+                "title": "U.S. Manufacturing Renaissance: Site Selection & Investment (webinar)",
+                "url": "https://www.jll.com/en-us/webinars/manufacturing-research-webinar",
+                "channel": "JLL"
+              }
+            ]
+          },
+          {
+            "title": "Real estate finance, underwriting + asset economics",
+            "coverage": "Real Estate Finance / DCF / NPV-IRR / Investment Analysis",
+            "videos": [
+              {
+                "title": "Financing Sustainable Real Estate at the Asset Level",
+                "url": "https://www.youtube.com/watch?v=ICdqesajPAk",
+                "channel": "MIT OCW"
+              },
+              {
+                "title": "Economics of Green Buildings, Part 1",
+                "url": "https://ocw.mit.edu/courses/11-350-sustainable-real-estate-spring-2023/resources/ocw_11350_lecture02_2023feb09_mp4/",
+                "channel": "MIT OCW"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Execute transactions and operate properties using financial and utilization evidence",
+        "competencies": [
+          {
+            "title": "Lease/acquisition/disposition negotiation + transaction strategy",
+            "coverage": "Negotiation / Leasing / Transactions / Market Intelligence",
+            "videos": [
+              {
+                "title": "Deepak Malhotra: Negotiation Masterclass",
+                "url": "https://www.youtube.com/watch?v=km2Hd_xgo9Q",
+                "channel": "Harvard Business School"
+              },
+              {
+                "title": "Cost vs. Experience: Elastic Portfolio & Lease Strategy (webinar)",
+                "url": "https://www.jll.com/en-us/webinars/cost-versus-experience",
+                "channel": "JLL"
+              }
+            ]
+          },
+          {
+            "title": "Property operations, NOI, vendors/tenants + space utilization",
+            "coverage": "Property Management / Facilities / Occupancy Planning / Analytics",
+            "videos": [
+              {
+                "title": "AI in Action: Cutting Costs While Keeping Tenants Happy (2026)",
+                "url": "https://www.jll.com/en-us/webinars/ai-in-action-cutting-costs-while-keeping-tenants-happy",
+                "channel": "JLL"
+              },
+              {
+                "title": "Beyond Badge Swipes: Turn Space Data into Savings (60m)",
+                "url": "https://www.jll.com/en-us/webinars/beyond-badge-swipes",
+                "channel": "JLL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Optimize portfolio value, capital allocation and technology-enabled real estate strategy",
+        "competencies": [
+          {
+            "title": "Portfolio strategy, asset lifecycle + capital allocation",
+            "coverage": "Portfolio Management / Asset Management / Real Estate Finance",
+            "videos": [
+              {
+                "title": "Financing Sustainable Real Estate at the Portfolio Level (1h14m)",
+                "url": "https://www.youtube.com/watch?v=l3G--79qy0U",
+                "channel": "MIT OCW"
+              },
+              {
+                "title": "Cost Optimization in Manufacturing Real Estate (webinar)",
+                "url": "https://www.jll.com/en-us/webinars/cost-optimization-in-manufacturing-real-estate-responding-to-global-economic-uncertainty",
+                "channel": "JLL"
+              }
+            ]
+          },
+          {
+            "title": "PropTech, AI-enabled operations + sustainable workplace transformation",
+            "coverage": "PropTech / AI / Workplace Strategy / Sustainability",
+            "videos": [
+              {
+                "title": "425 Park Ave.: Healthy Buildings & Financial Returns",
+                "url": "https://www.ocw.mit.edu/courses/11-350-sustainable-real-estate-spring-2023/resources/ocw_11350_lecture06_2023feb28_v2_mp4/",
+                "channel": "MIT OCW"
+              },
+              {
+                "title": "Beyond Buzzwords: AI Solutions that Deliver CRE Results (45m)",
+                "url": "https://www.jll.com/en-us/webinars/beyond-buzzwords-implementing-ai-solutions",
+                "channel": "JLL"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Business Operations Manager / Strategy & Operations",
+    "benchmark": "Stripe Company Strategy & Operations + OpenAI Business Operations Manager + Apple Business Operations Engineering Program Manager (current Sep 2026) Market refresh: annual and quarterly planning; operating rhythms and leadership forums; budget/resource/investment management; metrics and analytical decision support; process/system design; automation and AI-augmented workflows; root-cause improvement; cross-functional execution and strategy-to-operations translation.",
+    "capstone": "Act as the Business Operations lead for a real or simulated business unit. Write a strategy kernel and explicit priorities; build an annual/quarterly operating plan, budget and headcount/resource scenarios; define a KPI tree and SQL-backed dashboard; establish weekly/monthly operating rhythms and a decision log; map one fragmented cross-functional workflow and redesign it with clear ownership, SLAs and controls; automate one repeatable step only where justified; run an executive review; then produce a decision memo, adoption plan and before/after impact readout.",
+    "rubric": "Demonstrate strategy-to-execution evidence: coherent priorities and stop-doing choices; auditable planning/resource assumptions; trusted metrics and SQL/data logic; useful operating cadence rather than meeting volume; measurable process improvement; explicit decision rights and accountability; scenario sensitivity; safe automation with human controls; stakeholder influence; concise executive synthesis; quantify cycle time, budget, quality, capacity or business-outcome improvement and identify where the operating system still breaks.",
+    "category": "Business Management",
+    "bonus": [],
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Diagnose the business, define choices and build trusted decision evidence",
+        "competencies": [
+          {
+            "title": "Strategy diagnosis, choices + priority architecture",
+            "coverage": "Business Strategy / Systems Thinking / Strategic Communication",
+            "videos": [
+              {
+                "title": "Good Strategy / Bad Strategy (long-form interview)",
+                "url": "https://www.youtube.com/watch?v=4uWKEG0s9Kc",
+                "channel": "Richard Rumelt"
+              },
+              {
+                "title": "Strategic Success: How to Communicate Your Gameplan",
+                "url": "https://www.youtube.com/watch?v=vn1oA5QNDWo",
+                "channel": "Stanford GSB"
+              }
+            ]
+          },
+          {
+            "title": "Business metrics, SQL + decision-ready analytical narratives",
+            "coverage": "SQL & Analytics / Product & Business Metrics / Data Storytelling",
+            "videos": [
+              {
+                "title": "SQL Querying Full Lecture (1h17m)",
+                "url": "https://www.youtube.com/watch?v=vHYeChEf2lA",
+                "channel": "Harvard CS50"
+              },
+              {
+                "title": "From Dashboards to Data Stories (43m)",
+                "url": "https://www.youtube.com/watch?v=hpJ6Y2MJOUQ",
+                "channel": "Storytelling with Data"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Turn strategy into planning systems, resource choices and scalable operating workflows",
+        "competencies": [
+          {
+            "title": "Annual planning, scenario modeling + resource allocation",
+            "coverage": "Financial Modeling / Forecasting / Business Cases / Portfolio Planning",
+            "videos": [
+              {
+                "title": "Driver-Based Planning in the Age of AI (recording)",
+                "url": "https://fpa-trends.com/webinars/fpa-trends-webinar-power-driver-based-planning-age-ai",
+                "channel": "FP&A Trends"
+              },
+              {
+                "title": "Making Investment Decisions (masterclass)",
+                "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/making-investment-decisions-kathleen-fitzgerald",
+                "channel": "Chicago Booth"
+              }
+            ]
+          },
+          {
+            "title": "Process architecture, automation + cross-functional execution",
+            "coverage": "BPMN / Process Improvement / Workflow Automation / Operating Models",
+            "videos": [
+              {
+                "title": "BPMN in Action: Process Modeling Best Practices",
+                "url": "https://www.youtube.com/watch?v=YOgYvzF1DRM",
+                "channel": "Camunda"
+              },
+              {
+                "title": "Use Case Discovery & System Scoping (46m)",
+                "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Run executive operating rhythms and redesign the organization for AI-enabled execution",
+        "competencies": [
+          {
+            "title": "Executive decision forums, influence + stakeholder alignment",
+            "coverage": "Executive Communication / Negotiation / Stakeholder Management",
+            "videos": [
+              {
+                "title": "Overcoming Resistance: The Influence Equation (1h)",
+                "url": "https://www.pon.harvard.edu/free-videos/overcoming-resistance-in-negotiation-the-influence-equation/",
+                "channel": "Harvard PON"
+              },
+              {
+                "title": "Think Fast, Talk Smart (full lecture)",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          },
+          {
+            "title": "AI-enabled operating model, adoption + organizational transformation",
+            "coverage": "AI Adoption / Operating Model Design / Change Management / Governance",
+            "videos": [
+              {
+                "title": "The AI Adoption Playbook (29m)",
+                "url": "https://www.microsoft.com/en-us/research/video/the-ai-adoption-playbook-lessons-from-microsofts-internal-strategy/",
+                "channel": "Microsoft Research"
+              },
+              {
+                "title": "Transformation Labs 101: Executive Buy-In (30m)",
+                "url": "https://academy.openai.com/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Strategic Sourcing & Procurement Manager",
+    "benchmark": "AWS Data Center Sourcing & Procurement + Google Global Category Management / Strategic Sourcing + current Apple strategic-sourcing signals (current Sep 2026) Market refresh: category strategy; spend and supplier-market analysis; TCO/should-cost thinking; RFP/RFQ and complex negotiation; contracts and commercial terms; supplier qualification/performance; capacity, NPI and technical-commercial roadmaps; business continuity and resilience; procurement analytics; finance/legal/engineering partnership; AI-enabled procurement.",
+    "capstone": "Own a strategic sourcing category for a real or simulated AI/data-center/enterprise-spend portfolio. Build the spend baseline, demand forecast and supplier-market map; create category strategy and sourcing waves; issue an RFP/RFQ with weighted evaluation criteria; build TCO/should-cost and scenario models; negotiate pricing, capacity, SLA/quality, risk and change-order terms; create supplier scorecards and QBR governance; map continuity and concentration risk with mitigation/dual-source options; automate one procurement workflow with approval/audit controls; then deliver an award memo and executive sourcing review with savings, value, capacity and risk outcomes.",
+    "rubric": "Show procurement value beyond unit-price savings: defensible category and supplier evidence; auditable TCO/should-cost assumptions; fair and traceable supplier selection; negotiation and contract discipline; supplier scorecards and corrective-action logic; capacity/NPI and resilience planning; finance/engineering/legal alignment; scenario and downside analysis; automation with approval, provenance and exception handling; measurable savings/value, lead-time, quality, capacity and risk impact; explain when partnership, dual sourcing, redesign or no-award is the better decision.",
+    "category": "Business Management",
+    "bonus": [],
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build category intelligence, commercial economics and disciplined sourcing choices",
+        "competencies": [
+          {
+            "title": "Category strategy, supplier-market intelligence + total cost of ownership",
+            "coverage": "Strategic Sourcing / Category Management / TCO / Supplier Markets",
+            "videos": [
+              {
+                "title": "Putting Suppliers at the Core of Business Transformation",
+                "url": "https://hbr.org/webinar/2022/09/transforming-your-business-by-putting-suppliers-at-the-core",
+                "channel": "HBR / BCG"
+              },
+              {
+                "title": "Getting Strategic with Category Sourcing (on-demand)",
+                "url": "https://get.coupa.com/22-03-23_TPVE_NA_Coupa_Nitor-Strategic-Sourcing-Webinar_On-Demand.html",
+                "channel": "Coupa + Nitor"
+              }
+            ]
+          },
+          {
+            "title": "RFP/RFQ design, negotiation + commercial contracting",
+            "coverage": "Procurement / Negotiation / Contracting / Supplier Selection",
+            "videos": [
+              {
+                "title": "Deepak Malhotra Negotiation Masterclass",
+                "url": "https://www.youtube.com/watch?v=km2Hd_xgo9Q",
+                "channel": "Harvard Business School"
+              },
+              {
+                "title": "Overcoming Resistance: The Influence Equation (1h)",
+                "url": "https://www.pon.harvard.edu/free-videos/overcoming-resistance-in-negotiation-the-influence-equation/",
+                "channel": "Harvard PON"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Manage supplier performance, resilience and procurement economics with data",
+        "competencies": [
+          {
+            "title": "Supplier relationship management, scorecards + performance governance",
+            "coverage": "Supplier Management / KPIs / Quality / Business Reviews",
+            "videos": [
+              {
+                "title": "7 Tips for Successful Supplier Relationship Management (31m)",
+                "url": "https://www.youtube.com/watch?v=Kvb_MFw2UQY",
+                "channel": "CIPS"
+              },
+              {
+                "title": "Supplier Relationship Management: Strategic Practice",
+                "url": "https://www.youtube.com/watch?v=_wLz-SaIOgY",
+                "channel": "CIPS"
+              }
+            ]
+          },
+          {
+            "title": "Risk, resilience, analytics + finance partnership",
+            "coverage": "Supply Risk / Scenario Planning / Procurement Analytics / Finance",
+            "videos": [
+              {
+                "title": "When Supply Chains Grapple with AI and Geopolitics",
+                "url": "https://www.youtube.com/watch?v=6MkR16chQOE",
+                "channel": "MIT / Yossi Sheffi"
+              },
+              {
+                "title": "Bridging Finance & Procurement in SAP (45m)",
+                "url": "https://www.esker.com/resources/webinars/asug-bridging-gap-between-finance-procurement-sap/",
+                "channel": "Esker + ASUG"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Shape capacity, innovation and AI-enabled procurement systems at enterprise scale",
+        "competencies": [
+          {
+            "title": "Capacity strategy, supplier ecosystems + technology/NPI roadmaps",
+            "coverage": "Capacity Planning / NPI / Strategic Suppliers / Technical-Commercial Roadmaps",
+            "videos": [
+              {
+                "title": "A Data Revolution in Transportation Procurement",
+                "url": "https://www.dat.com/resources/gartner-webinar-on-demand-data-revolution-chris-caplice",
+                "channel": "DAT / MIT Chris Caplice"
+              },
+              {
+                "title": "Sourcing & Procurement Strategy Recordings",
+                "url": "https://www.sap.com/westbalkans/events/connect/spend-connect.html",
+                "channel": "SAP Spend Connect"
+              }
+            ]
+          },
+          {
+            "title": "AI-first procurement workflows, automation + governed decision support",
+            "coverage": "AI Use Cases / Procurement Automation / Data Governance / Controls",
+            "videos": [
+              {
+                "title": "Use Case Discovery & System Scoping (46m)",
+                "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "The AI Adoption Playbook (29m)",
+                "url": "https://www.microsoft.com/en-us/research/video/the-ai-adoption-playbook-lessons-from-microsofts-internal-strategy/",
+                "channel": "Microsoft Research"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

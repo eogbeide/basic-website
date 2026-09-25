@@ -1444,5 +1444,537 @@
     ],
     "page": 388,
     "category": "Humanities & Communication"
+  },
+  {
+    "name": "Comprehensive Certificate in Finance",
+    "description": "University-benchmarked finance breadth fused with 2026 job-market requirements across corporate finance, FP&A, valuation, capital allocation, markets/risk, finance data and governed AI-enabled decision systems.",
+    "university_benchmark": "Wharton Finance | MIT Sloan Finance | Yale Financial Markets | Chicago Booth Finance",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Accounting & financial reporting",
+            "url": null
+          },
+          {
+            "title": "Financial statement + cash-flow analysis",
+            "url": null
+          },
+          {
+            "title": "Time value, discounting + corporate finance",
+            "url": null
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Financial statements + accounting quality",
+            "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/read-and-analyze-financial-statements-kathleen-fitzgerald"
+          },
+          {
+            "topic": "Time value + capital budgeting",
+            "url": "https://learn.mit.edu/video/11164/part-i-of-present-value-relations?playlist=11162"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "FP&A, driver-based forecasts + scenarios",
+            "url": null
+          },
+          {
+            "title": "Financial Modeling, Business Cases & Unit Economics",
+            "url": null
+          },
+          {
+            "title": "Valuation, cost of capital + capital structure",
+            "url": null
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "FP&A, forecasting + scenario planning",
+            "url": "https://fpa-trends.com/webinars/fpa-trends-webinar-power-driver-based-planning-age-ai"
+          },
+          {
+            "topic": "Valuation + capital allocation",
+            "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/making-investment-decisions-kathleen-fitzgerald"
+          },
+          {
+            "topic": "Portfolio theory + market risk",
+            "url": "https://learn.mit.edu/video/11177/part-i-of-the-capm-and-apt?playlist=11162"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "Portfolio theory, markets + risk",
+            "url": null
+          },
+          {
+            "title": "Strategic finance + capital allocation",
+            "url": null
+          },
+          {
+            "title": "SQL & Analytics",
+            "url": null
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Corporate finance + capital markets",
+            "url": "https://www.youtube.com/watch?v=GgZVuatcuAk"
+          },
+          {
+            "topic": "Finance data, AI + governed automation",
+            "url": "https://academy.openai.com/public/clubs/champions-ecqup/videos/recording-make-work-flow-automation-finance-presentation-updates-with-codex-2026-07-22"
+          }
+        ]
+      }
+    ],
+    "capstone": "Act as finance lead for a real or simulated business unit. Reconcile historical financial statements and operating data; build a 12-18 month driver-based operating forecast with P&L, cash-flow and working-capital logic; complete a month-end variance bridge; model base/upside/downside scenarios; evaluate one investment or strategic choice using NPV/IRR/DCF/returns; assess capital structure and risk where relevant; query and reconcile source data in SQL; publish a finance KPI dashboard; automate one recurring finance workflow with traceability, exception handling and human approval; finish with a CFO memo and board-style recommendation.",
+    "evidence_standard": "Every student-facing resource on the Finance certificate is a full university lecture/masterclass or substantial expert webinar/recording. No syllabus pages, registration-only pages or low-value short explainers are used as learner bridges.",
+    "resource_links": [
+      {
+        "competency": "Financial statements + accounting quality",
+        "coverage": "Chicago Booth",
+        "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/read-and-analyze-financial-statements-kathleen-fitzgerald"
+      },
+      {
+        "competency": "Time value + capital budgeting",
+        "coverage": "MIT",
+        "url": "https://learn.mit.edu/video/11164/part-i-of-present-value-relations?playlist=11162"
+      },
+      {
+        "competency": "FP&A, forecasting + scenario planning",
+        "coverage": "FP&A Trends",
+        "url": "https://fpa-trends.com/webinars/fpa-trends-webinar-power-driver-based-planning-age-ai"
+      },
+      {
+        "competency": "Valuation + capital allocation",
+        "coverage": "Chicago Booth",
+        "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/making-investment-decisions-kathleen-fitzgerald"
+      },
+      {
+        "competency": "Portfolio theory + market risk",
+        "coverage": "MIT",
+        "url": "https://learn.mit.edu/video/11177/part-i-of-the-capm-and-apt?playlist=11162"
+      },
+      {
+        "competency": "Corporate finance + capital markets",
+        "coverage": "Aswath Damodaran",
+        "url": "https://www.youtube.com/watch?v=GgZVuatcuAk"
+      },
+      {
+        "competency": "Finance data, AI + governed automation",
+        "coverage": "OpenAI Academy",
+        "url": "https://academy.openai.com/public/clubs/champions-ecqup/videos/recording-make-work-flow-automation-finance-presentation-updates-with-codex-2026-07-22"
+      }
+    ],
+    "page": 583,
+    "category": "Business & Management"
+  },
+  {
+    "name": "Comprehensive Certificate in Business Administration",
+    "description": "A modern general-management certificate that integrates finance, marketing, analytics, strategy, operations, leadership, negotiation, planning and AI-era business transformation into one execution-oriented management spine.",
+    "university_benchmark": "Harvard Business School | Wharton | Stanford GSB | Chicago Booth | Yale SOM",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Financial + managerial literacy",
+            "url": null
+          },
+          {
+            "title": "Market Research, Competitive Analysis & Market Sizing",
+            "url": null
+          },
+          {
+            "title": "Causal Inference, Forecasting & Decision Science",
+            "url": null
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Financial + managerial literacy",
+            "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/read-and-analyze-financial-statements-kathleen-fitzgerald"
+          },
+          {
+            "topic": "Customers, marketing + pricing",
+            "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/chicago-booth-approach-to-marketing-jean-pierre-dube"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Strategy Development & Goal Setting",
+            "url": null
+          },
+          {
+            "title": "Operations Management & Operating Models",
+            "url": null
+          },
+          {
+            "title": "Go-to-Market & Product Launch",
+            "url": null
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Decision modeling + operations",
+            "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/managerial-decision-modeling-and-operations-management-baris-ata"
+          },
+          {
+            "topic": "Strategy + global business",
+            "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/managing-the-firm-in-the-global-economy-professor-jonathan-dingel"
+          },
+          {
+            "topic": "Leadership + change influence",
+            "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/choosing-leadership-masterclass"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "Organizational Leadership: Decision-Making, Influence & Change",
+            "url": null
+          },
+          {
+            "title": "Operating rhythms, metrics + resource allocation",
+            "url": null
+          },
+          {
+            "title": "AI Adoption & Organizational Change Management",
+            "url": null
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Communication + negotiation",
+            "url": "https://www.youtube.com/watch?v=HAnw168huqA"
+          },
+          {
+            "topic": "AI-enabled business transformation",
+            "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11"
+          }
+        ]
+      }
+    ],
+    "capstone": "Run a simulated business unit through a full operating cycle. Define the market/customer problem and strategic choices; build a simple business and financial model; set 12-month priorities, budget and resource allocation; create a KPI tree plus weekly/monthly/quarterly operating cadence; design a pricing/GTM plan; map and improve one core process; assign cross-functional roles and decision rights; negotiate one contested resource or stakeholder decision; create a people/change plan; redesign one recurring workflow with AI using value, risk, human-control and adoption criteria; then deliver an executive quarterly review that reallocates resources based on evidence.",
+    "evidence_standard": "Every student-facing resource on the Business Administration certificate is a substantial university lecture/masterclass or recorded expert session. Ivy League content is included through Harvard PON, while Booth, MIT, Stanford, OpenAI and recognized strategy experts provide complementary depth. No curriculum pages or quick explainer videos are used as learner bridges.",
+    "resource_links": [
+      {
+        "competency": "Financial + managerial literacy",
+        "coverage": "Chicago Booth",
+        "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/read-and-analyze-financial-statements-kathleen-fitzgerald"
+      },
+      {
+        "competency": "Customers, marketing + pricing",
+        "coverage": "Chicago Booth",
+        "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/chicago-booth-approach-to-marketing-jean-pierre-dube"
+      },
+      {
+        "competency": "Decision modeling + operations",
+        "coverage": "Chicago Booth",
+        "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/managerial-decision-modeling-and-operations-management-baris-ata"
+      },
+      {
+        "competency": "Strategy + global business",
+        "coverage": "Chicago Booth",
+        "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/managing-the-firm-in-the-global-economy-professor-jonathan-dingel"
+      },
+      {
+        "competency": "Leadership + change influence",
+        "coverage": "Chicago Booth",
+        "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/choosing-leadership-masterclass"
+      },
+      {
+        "competency": "Communication + negotiation",
+        "coverage": "Stanford GSB",
+        "url": "https://www.youtube.com/watch?v=HAnw168huqA"
+      },
+      {
+        "competency": "AI-enabled business transformation",
+        "coverage": "OpenAI Academy",
+        "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11"
+      }
+    ],
+    "page": 585,
+    "category": "Business & Management"
+  },
+  {
+    "name": "Comprehensive Certificate - Mini MBA",
+    "description": "A compressed executive-management certificate for professionals who need MBA-level fluency across finance, strategy, marketing, operations, leadership, negotiation, analytics and AI-era business transformation - without reducing the content to superficial overview videos.",
+    "university_benchmark": "Harvard / Wharton | Stanford GSB | Chicago Booth | MIT Sloan",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Financial + accounting fluency",
+            "url": null
+          },
+          {
+            "title": "Product Pricing, Packaging & Monetization",
+            "url": null
+          },
+          {
+            "title": "Strategy Development & Goal Setting",
+            "url": null
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Finance + enterprise value",
+            "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/read-and-analyze-financial-statements-kathleen-fitzgerald"
+          },
+          {
+            "topic": "Strategy + competitive choices",
+            "url": "https://www.lse.ac.uk/lse-player/good-strategy-bad-strategy-the-difference-and-why-it-matters"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Operations Management & Operating Models",
+            "url": null
+          },
+          {
+            "title": "Go-to-Market & Product Launch",
+            "url": null
+          },
+          {
+            "title": "Negotiation & Stakeholder Management",
+            "url": null
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Marketing, pricing + customer value",
+            "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/chicago-booth-approach-to-marketing-jean-pierre-dube"
+          },
+          {
+            "topic": "Operations + analytical execution",
+            "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/managerial-decision-modeling-and-operations-management-baris-ata"
+          },
+          {
+            "topic": "Leadership + organization building",
+            "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/choosing-leadership-masterclass"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "Organizational Leadership: Decision-Making, Influence & Change",
+            "url": null
+          },
+          {
+            "title": "Executive Presence & Speaking to Senior Leaders",
+            "url": null
+          },
+          {
+            "title": "AI Adoption & Organizational Change Management",
+            "url": null
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Negotiation + executive communication",
+            "url": "https://www.pon.harvard.edu/free-videos/overcoming-resistance-in-negotiation-the-influence-equation/"
+          },
+          {
+            "topic": "AI-era management + transformation",
+            "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11"
+          }
+        ]
+      }
+    ],
+    "capstone": "Act as general manager for a real or simulated business. Diagnose the market and customer problem; write a strategy kernel with explicit choices; build a simple P&L/cash-flow and investment model; define pricing and GTM; create a KPI tree and monthly operating review; redesign one process for speed/quality/cost; allocate budget and headcount across competing priorities; negotiate one stakeholder conflict; create a leadership and change plan; identify one AI-enabled workflow, define value/risk/human-control requirements and pilot metrics; then deliver a board-style quarterly review with a resource reallocation decision.",
+    "evidence_standard": "Every Mini MBA learner bridge is a substantial university masterclass, full lecture or recorded expert session. Harvard, Stanford, Chicago Booth, MIT and OpenAI are used for depth; no curriculum pages and no low-value short explainers are included.",
+    "resource_links": [
+      {
+        "competency": "Finance + enterprise value",
+        "coverage": "Chicago Booth",
+        "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/read-and-analyze-financial-statements-kathleen-fitzgerald"
+      },
+      {
+        "competency": "Strategy + competitive choices",
+        "coverage": "LSE / Richard Rumelt",
+        "url": "https://www.lse.ac.uk/lse-player/good-strategy-bad-strategy-the-difference-and-why-it-matters"
+      },
+      {
+        "competency": "Marketing, pricing + customer value",
+        "coverage": "Chicago Booth",
+        "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/chicago-booth-approach-to-marketing-jean-pierre-dube"
+      },
+      {
+        "competency": "Operations + analytical execution",
+        "coverage": "Chicago Booth",
+        "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/managerial-decision-modeling-and-operations-management-baris-ata"
+      },
+      {
+        "competency": "Leadership + organization building",
+        "coverage": "Chicago Booth",
+        "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/choosing-leadership-masterclass"
+      },
+      {
+        "competency": "Negotiation + executive communication",
+        "coverage": "Harvard PON",
+        "url": "https://www.pon.harvard.edu/free-videos/overcoming-resistance-in-negotiation-the-influence-equation/"
+      },
+      {
+        "competency": "AI-era management + transformation",
+        "coverage": "OpenAI Academy",
+        "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11"
+      }
+    ],
+    "page": 587,
+    "category": "Business & Management"
+  },
+  {
+    "name": "Comprehensive Certificate in Entrepreneurship",
+    "description": "A founder-operator certificate for taking a venture from problem discovery through product-market fit, first revenue, financing and scale - with rigorous customer evidence, founder-led selling, unit economics, negotiation, operating systems and AI-native opportunity judgment.",
+    "university_benchmark": "Harvard Innovation Labs / HBS | Stanford STVP / GSB | MIT Sloan | Wharton Entrepreneurship",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Product Discovery & Customer Research",
+            "url": null
+          },
+          {
+            "title": "Value proposition + MVP",
+            "url": null
+          },
+          {
+            "title": "Monetization Strategy & Business Models",
+            "url": null
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Customer problem + value proposition",
+            "url": "https://www.youtube.com/watch?v=q8d9uuO1Cf4"
+          },
+          {
+            "topic": "Business model + MVP / product-market fit",
+            "url": "https://ocw.mit.edu/courses/15-393-nuts-and-bolts-of-new-ventures-january-iap-2025/resources/ocw_15393_session2-part2_mp4/"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Founder-led sales + growth",
+            "url": null
+          },
+          {
+            "title": "Financial Modeling, Business Cases & Unit Economics",
+            "url": null
+          },
+          {
+            "title": "Negotiation & Stakeholder Management",
+            "url": null
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Founder-led sales + growth",
+            "url": "https://www.youtube.com/watch?v=T9ikpoF2GH0"
+          },
+          {
+            "topic": "Startup finance + fundraising",
+            "url": "https://ocw.mit.edu/courses/15-393-nuts-and-bolts-of-new-ventures-january-iap-2025/resources/ocw_15393_session5-part2_mp4/"
+          },
+          {
+            "topic": "Legal, deals + negotiation",
+            "url": "https://ocw.mit.edu/courses/15-393-nuts-and-bolts-of-new-ventures-january-iap-2025/pages/session-3/"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "People Management",
+            "url": null
+          },
+          {
+            "title": "Product Analytics & Growth",
+            "url": null
+          },
+          {
+            "title": "Strategic AI Applications",
+            "url": null
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Team, culture + scaling",
+            "url": "https://stvp.stanford.edu/av/scaling-operations-and-people-entire-talk"
+          },
+          {
+            "topic": "AI-native entrepreneurship + founder judgment",
+            "url": "https://stvp.stanford.edu/av/brendan-foody-mercor-agentic-data-and-future-ai-entire-talk"
+          }
+        ]
+      }
+    ],
+    "capstone": "Launch and operate a venture through an evidence-based founder cycle. Interview at least 15 target customers; define a beachhead segment and value proposition; prototype an MVP and run usability/demand tests; win or simulate a credible path to the first five customers; build pricing, revenue model, unit economics and 18-month cash/runway scenarios; create a founder-led GTM and growth experiment backlog; form the company structure and key founder/partner terms; prepare a financing strategy and investor data room; build hiring/culture/decision mechanisms for the next stage; identify one AI-native product or operating advantage and test its economics, reliability and trust risks; finish with a board/investor update showing traction, learning, risks and the next scale/pivot/stop decision.",
+    "evidence_standard": "Every Entrepreneurship bridge is a full workshop, lecture or complete founder/operator talk from Harvard, MIT, Stanford or Y Combinator. The set intentionally favors 45-90+ minute resources and excludes curriculum pages, registration-only pages and low-value short explainers.",
+    "resource_links": [
+      {
+        "competency": "Customer problem + value proposition",
+        "coverage": "Harvard Innovation Labs",
+        "url": "https://www.youtube.com/watch?v=q8d9uuO1Cf4"
+      },
+      {
+        "competency": "Business model + MVP / product-market fit",
+        "coverage": "MIT",
+        "url": "https://ocw.mit.edu/courses/15-393-nuts-and-bolts-of-new-ventures-january-iap-2025/resources/ocw_15393_session2-part2_mp4/"
+      },
+      {
+        "competency": "Founder-led sales + growth",
+        "coverage": "Y Combinator",
+        "url": "https://www.youtube.com/watch?v=T9ikpoF2GH0"
+      },
+      {
+        "competency": "Startup finance + fundraising",
+        "coverage": "MIT",
+        "url": "https://ocw.mit.edu/courses/15-393-nuts-and-bolts-of-new-ventures-january-iap-2025/resources/ocw_15393_session5-part2_mp4/"
+      },
+      {
+        "competency": "Legal, deals + negotiation",
+        "coverage": "MIT",
+        "url": "https://ocw.mit.edu/courses/15-393-nuts-and-bolts-of-new-ventures-january-iap-2025/pages/session-3/"
+      },
+      {
+        "competency": "Team, culture + scaling",
+        "coverage": "Stanford eCorner",
+        "url": "https://stvp.stanford.edu/av/scaling-operations-and-people-entire-talk"
+      },
+      {
+        "competency": "AI-native entrepreneurship + founder judgment",
+        "coverage": "Stanford eCorner",
+        "url": "https://stvp.stanford.edu/av/brendan-foody-mercor-agentic-data-and-future-ai-entire-talk"
+      }
+    ],
+    "page": 589,
+    "category": "Business & Management"
   }
 ]
