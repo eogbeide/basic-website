@@ -411,6 +411,30 @@
     }
   }
 
+  function clickStorageKey(mode, slug) {
+    return 'zuyini_clicked_' + mode + '_' + slug;
+  }
+
+  function loadClickState(mode, slug, count) {
+    try {
+      var raw = localStorage.getItem(clickStorageKey(mode, slug));
+      var arr = raw ? JSON.parse(raw) : [];
+      if (!Array.isArray(arr)) arr = [];
+      while (arr.length < count) arr.push(false);
+      return arr;
+    } catch (e) {
+      return new Array(count).fill(false);
+    }
+  }
+
+  function saveClickState(mode, slug, arr) {
+    try {
+      localStorage.setItem(clickStorageKey(mode, slug), JSON.stringify(arr));
+    } catch (e) {
+      // ignore
+    }
+  }
+
   function updateMasteryBadge(badgeEl, checkedCount, total) {
     var pct = total > 0 ? Math.round((checkedCount / total) * 100) : 0;
     var level = masteryLevelFor(pct);
@@ -435,6 +459,7 @@
     if (!items.length) return;
 
     var state = loadMasteryState(mode, slug, items.length);
+    var clickState = loadClickState(mode, slug, items.length);
 
     // Roles have an explicit Basic -> Intermediate -> Advanced ladder
     // (role.levels, always in that order); lock a level until every
@@ -444,12 +469,14 @@
       var block = li.closest && li.closest('.level-block');
       return block ? parseInt(block.getAttribute('data-level-index'), 10) : -1;
     });
+    var levelUnlocked = [];
 
     var badge = document.createElement('div');
     badge.className = 'mastery-badge';
     h2.insertAdjacentElement('afterend', badge);
 
-    function refreshLevelLocks() {
+    function computeLevelLocks() {
+      levelUnlocked = [];
       if (!levelBlocks.length) return;
       var priorComplete = true;
       levelBlocks.forEach(function (block, levelIdx) {
@@ -458,6 +485,7 @@
         var checked = indices.filter(function (i) { return state[i]; }).length;
         var thisLevelComplete = indices.length === 0 || checked === indices.length;
         var unlocked = levelIdx === 0 || priorComplete;
+        levelUnlocked[levelIdx] = unlocked;
 
         block.classList.toggle('level-locked', !unlocked);
         var banner = block.querySelector('.level-lock-banner');
@@ -469,21 +497,28 @@
         } else if (unlocked && banner) {
           banner.remove();
         }
-        indices.forEach(function (i) {
-          var cb = items[i].querySelector('.mastery-check');
-          if (cb) cb.disabled = !unlocked;
-        });
-
         priorComplete = priorComplete && thisLevelComplete;
       });
     }
 
+    function isLevelLockedFor(i) {
+      var levelIdx = itemLevelIndex[i];
+      return levelIdx >= 0 && levelUnlocked[levelIdx] === false;
+    }
+
     function refresh() {
+      computeLevelLocks();
       updateMasteryBadge(badge, state.filter(Boolean).length, items.length);
-      refreshLevelLocks();
+      items.forEach(function (li, i) {
+        var cb = li.querySelector('.mastery-check');
+        if (!cb) return;
+        cb.disabled = isLevelLockedFor(i) || !clickState[i];
+        cb.title = clickState[i] ? '' : 'Open the link first to mark this complete';
+      });
     }
 
     items.forEach(function (li, i) {
+      var link = li.querySelector('a');
       var cb = document.createElement('input');
       cb.type = 'checkbox';
       cb.className = 'mastery-check';
@@ -495,6 +530,15 @@
         saveMasteryState(mode, slug, state);
         refresh();
       });
+      if (link) {
+        link.addEventListener('click', function () {
+          if (!clickState[i]) {
+            clickState[i] = true;
+            saveClickState(mode, slug, clickState);
+            refresh();
+          }
+        });
+      }
     });
 
     refresh();
