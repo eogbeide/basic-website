@@ -270,7 +270,8 @@
         "channel": "OpenAI Academy",
         "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11"
       }
-    ]
+    ],
+    "category": "AI & Machine Learning"
   },
   {
     "name": "AI Product, Strategy & Enterprise Transformation",
@@ -555,7 +556,8 @@
         "channel": "NIST",
         "url": "https://www.nist.gov/video/ai-risk-management-framework-playbook"
       }
-    ]
+    ],
+    "category": "AI & Machine Learning"
   },
   {
     "name": "Software & Application Engineering",
@@ -844,7 +846,8 @@
         "channel": "Microsoft",
         "url": "https://learn.microsoft.com/en-us/shows/visual-studio-code/ask-edit-and-agent-in-depth-overview-of-github-copilot-chat-modes"
       }
-    ]
+    ],
+    "category": "Engineering & Infrastructure"
   },
   {
     "name": "Cloud, Platform & Systems Engineering",
@@ -1129,7 +1132,8 @@
         "channel": "MIT",
         "url": "https://www.youtube.com/watch?v=J_y2I09rj_I"
       }
-    ]
+    ],
+    "category": "Engineering & Infrastructure"
   },
   {
     "name": "Data, AI & Machine Learning",
@@ -1375,7 +1379,8 @@
         "channel": "John Savill",
         "url": "https://www.youtube.com/watch?v=GbxVsi94DrE"
       }
-    ]
+    ],
+    "category": "AI & Machine Learning"
   },
   {
     "name": "Design, Communication & Digital Experience",
@@ -1584,7 +1589,8 @@
         "channel": "OpenAI Academy",
         "url": "https://academy.openai.com/public/videos/chatgpt-for-research-web-search-deep-research-and-code-2025-06-04"
       }
-    ]
+    ],
+    "category": "Product, Design & Growth"
   },
   {
     "name": "Leadership, Management & Personal Development",
@@ -1805,7 +1811,8 @@
         "channel": "NIST",
         "url": "https://www.nist.gov/video/introduction-nist-ai-risk-management-framework-ai-rmf-10-explainer-video"
       }
-    ]
+    ],
+    "category": "Leadership & Industry Operations"
   },
   {
     "name": "Creator Economy, Social Media & Digital Growth",
@@ -1889,7 +1896,8 @@
         "channel": "",
         "url": "https://www.youtube.com/watch?v=om2WiDsHLso"
       }
-    ]
+    ],
+    "category": "Product, Design & Growth"
   },
   {
     "name": "Revenue Operations, Technical Sales & GTM Systems",
@@ -2091,7 +2099,8 @@
         "channel": "HubSpot Academy",
         "url": "https://academy.hubspot.com/videos/7496467"
       }
-    ]
+    ],
+    "category": "Product, Design & Growth"
   },
   {
     "name": "Data Center, AI Compute & Infrastructure",
@@ -2173,7 +2182,8 @@
         "channel": "",
         "url": "https://www.nvidia.com/en-us/on-demand/session/gtc25-dlit71603/"
       }
-    ]
+    ],
+    "category": "Engineering & Infrastructure"
   },
   {
     "name": "Healthcare Operations, Digital Health & Interoperability",
@@ -2252,7 +2262,8 @@
         "channel": "",
         "url": "https://community.intersystems.com/post/video-smart-fhir-introduction-fhir-server-setup"
       }
-    ]
+    ],
+    "category": "Leadership & Industry Operations"
   },
   {
     "name": "Data Governance, Privacy & Trust",
@@ -2326,7 +2337,8 @@
         "channel": "",
         "url": "https://www.youtube.com/watch?v=0oeD2Wf25wY"
       }
-    ]
+    ],
+    "category": "Governance, Risk & Compliance"
   },
   {
     "name": "AI Evaluation, Reliability & Safety Engineering",
@@ -2402,7 +2414,8 @@
         "channel": "",
         "url": "https://www.youtube.com/watch?v=E3ReKuJ8ewA"
       }
-    ]
+    ],
+    "category": "AI & Machine Learning"
   },
   {
     "name": "Product Operations & Product Leadership",
@@ -2477,7 +2490,8 @@
         "channel": "",
         "url": "https://www.youtube.com/watch?v=QMhDYkFhErY"
       }
-    ]
+    ],
+    "category": "Product, Design & Growth"
   },
   {
     "name": "Actuarial, Insurance & Enterprise Risk",
@@ -2552,7 +2566,8 @@
         "channel": "",
         "url": "https://www.youtube.com/watch?v=L-PBREuGHbs"
       }
-    ]
+    ],
+    "category": "Governance, Risk & Compliance"
   },
   {
     "name": "AI Adoption, Transformation & Organizational Change",
@@ -2628,6 +2643,7 @@
         "channel": "",
         "url": "https://www.youtube.com/watch?v=ocyFONwoJQg"
       }
-    ]
+    ],
+    "category": "AI & Machine Learning"
   }
 ]

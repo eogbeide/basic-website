@@ -140,7 +140,8 @@
         "url": "https://www.youtube.com/watch?v=58N2N7zJGrQ"
       }
     ],
-    "page": 378
+    "page": 378,
+    "category": "Computing & Software"
   },
   {
     "name": "Comprehensive Certificate in Mathematics",
@@ -263,7 +264,8 @@
         "url": "https://www.youtube.com/watch?v=IP7nW_hKB7I"
       }
     ],
-    "page": 379
+    "page": 379,
+    "category": "Mathematics & Physical Sciences"
   },
   {
     "name": "Comprehensive Certificate in Statistics",
@@ -394,7 +396,8 @@
         "url": "https://www.youtube.com/watch?v=TuTmC8aOQJE"
       }
     ],
-    "page": 380
+    "page": 380,
+    "category": "Mathematics & Physical Sciences"
   },
   {
     "name": "Comprehensive Certificate in Physics",
@@ -521,7 +524,8 @@
         "url": "https://www.youtube.com/watch?v=4Y9OO9AepgU"
       }
     ],
-    "page": 381
+    "page": 381,
+    "category": "Mathematics & Physical Sciences"
   },
   {
     "name": "Comprehensive Certificate in Electrical Engineering",
@@ -648,7 +652,8 @@
         "url": "https://www.youtube.com/watch?v=7jaa1rlW7Ak"
       }
     ],
-    "page": 382
+    "page": 382,
+    "category": "Engineering & Manufacturing"
   },
   {
     "name": "Comprehensive Certificate in Mechanical Engineering",
@@ -775,7 +780,8 @@
         "url": "https://www.youtube.com/watch?v=G7wnGeR_69k"
       }
     ],
-    "page": 383
+    "page": 383,
+    "category": "Engineering & Manufacturing"
   },
   {
     "name": "Comprehensive Certificate in Chemical Engineering",
@@ -897,7 +903,8 @@
         "url": "https://www.youtube.com/watch?v=QT49PASYob0"
       }
     ],
-    "page": 384
+    "page": 384,
+    "category": "Engineering & Manufacturing"
   },
   {
     "name": "Comprehensive Certificate in Industrial Engineering",
@@ -1032,7 +1039,8 @@
         "url": null
       }
     ],
-    "page": 385
+    "page": 385,
+    "category": "Engineering & Manufacturing"
   },
   {
     "name": "Comprehensive Certificate in Computer Engineering",
@@ -1167,7 +1175,8 @@
         "url": "https://www.youtube.com/watch?v=lLg1AgA2Xoo"
       }
     ],
-    "page": 386
+    "page": 386,
+    "category": "Computing & Software"
   },
   {
     "name": "Comprehensive Certificate in Systems Engineering",
@@ -1302,7 +1311,8 @@
         "url": "https://www.youtube.com/watch?v=-63JXElqPaY"
       }
     ],
-    "page": 387
+    "page": 387,
+    "category": "Computing & Software"
   },
   {
     "name": "Comprehensive Certificate in Writing & Reading",
@@ -1432,6 +1442,7 @@
         "url": "https://www.youtube.com/watch?v=vtIzMaLkCaM"
       }
     ],
-    "page": 388
+    "page": 388,
+    "category": "Humanities & Communication"
   }
 ]

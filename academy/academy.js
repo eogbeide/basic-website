@@ -274,15 +274,37 @@
   var searchEl = document.getElementById('search-input');
   var countEl = document.getElementById('role-count-num');
   var countLabelEl = document.getElementById('role-count-label');
+  var categorySelect = document.getElementById('category-select');
   var toggleButtons = document.querySelectorAll('.mode-toggle button[data-mode]');
+  var ALL_CATEGORIES = 'all';
+  var currentCategory = ALL_CATEGORIES;
 
   var currentMode = 'roles';
   var currentSlug = null;
   var currentItemName = '';
 
+  function populateCategorySelect() {
+    if (!categorySelect) return;
+    var mode = MODES[currentMode];
+    var categories = [];
+    mode.data.forEach(function (item) {
+      if (item.category && categories.indexOf(item.category) === -1) {
+        categories.push(item.category);
+      }
+    });
+    categories.sort();
+    categorySelect.innerHTML = '<option value="' + ALL_CATEGORIES + '">All ' + escapeHtml(mode.label) + '</option>' +
+      categories.map(function (c) {
+        var count = mode.data.filter(function (item) { return item.category === c; }).length;
+        return '<option value="' + escapeHtml(c) + '">' + escapeHtml(c) + ' (' + count + ')</option>';
+      }).join('');
+    categorySelect.value = ALL_CATEGORIES;
+  }
+
   function renderList(filterText) {
     var mode = MODES[currentMode];
     var filtered = mode.data.filter(function (item) {
+      if (currentCategory !== ALL_CATEGORIES && item.category !== currentCategory) return false;
       if (!filterText) return true;
       return item.name.toLowerCase().indexOf(filterText.toLowerCase()) !== -1;
     });
@@ -345,6 +367,7 @@
   function setMode(mode, slug, updateHash) {
     if (!MODES[mode]) return;
     currentMode = mode;
+    currentCategory = ALL_CATEGORIES;
 
     toggleButtons.forEach(function (btn) {
       btn.classList.toggle('active', btn.getAttribute('data-mode') === mode);
@@ -353,6 +376,7 @@
       searchEl.value = '';
       searchEl.placeholder = MODES[mode].searchPlaceholder;
     }
+    populateCategorySelect();
 
     renderList('');
 
@@ -404,6 +428,13 @@
   searchEl.addEventListener('input', function () {
     renderList(searchEl.value.trim());
   });
+
+  if (categorySelect) {
+    categorySelect.addEventListener('change', function () {
+      currentCategory = categorySelect.value;
+      renderList(searchEl.value.trim());
+    });
+  }
 
   function routeFromHash() {
     var parts = location.hash.replace('#', '').split('/');
