@@ -278,6 +278,26 @@
   var toggleButtons = document.querySelectorAll('.mode-toggle button[data-mode]');
   var ALL_CATEGORIES = 'all';
   var currentCategory = ALL_CATEGORIES;
+  var heroStatButtons = document.querySelectorAll('.hero-stat[data-hero-mode]');
+
+  var heroStatEl = {
+    roles: document.getElementById('hero-stat-roles'),
+    pathways: document.getElementById('hero-stat-pathways'),
+    certificates: document.getElementById('hero-stat-certificates'),
+  };
+  Object.keys(heroStatEl).forEach(function (key) {
+    if (heroStatEl[key] && MODES[key]) {
+      heroStatEl[key].textContent = MODES[key].data.length;
+    }
+  });
+
+  heroStatButtons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      setMode(btn.getAttribute('data-hero-mode'), null, true);
+      var panel = document.querySelector('.role-panel');
+      if (panel) panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
 
   var currentMode = 'roles';
   var currentSlug = null;
