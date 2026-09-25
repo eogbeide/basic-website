@@ -600,6 +600,29 @@ a {
   border-top: 1px solid #2a2a2a;
 }
 
+.level-block.level-locked .competency {
+  opacity: 0.45;
+}
+
+.level-block.level-locked .video-links a,
+.level-block.level-locked .mastery-check {
+  pointer-events: none;
+}
+
+.level-lock-banner {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #fbbf24;
+  font-size: 12.5px;
+  font-weight: bold;
+  background: rgba(251, 191, 36, 0.08);
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  border-radius: 6px;
+  padding: 6px 12px;
+  margin: 0 0 14px;
+}
+
 .level-block:first-of-type {
   border-top: none;
   padding-top: 0;

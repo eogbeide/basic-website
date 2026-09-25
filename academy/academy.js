@@ -55,9 +55,9 @@
     );
   }
 
-  function renderLevel(lvl) {
+  function renderLevel(lvl, index) {
     return (
-      '<div class="level-block">' +
+      '<div class="level-block" data-level-index="' + index + '">' +
       '<span class="level-badge ' + levelClass(lvl.level) + '">' + escapeHtml(lvl.level) + '</span>' +
       (lvl.intro ? '<p class="level-intro">' + escapeHtml(lvl.intro) + '</p>' : '') +
       lvl.competencies.map(renderCompetency).join('') +
@@ -83,7 +83,7 @@
       '<h2>' + escapeHtml(role.name) + '</h2>' +
       renderShareBar('https://zuyini.com/academy/roles/' + slugify(role.name) + '/', role.name + ' | Zuyini Academy') +
       (role.benchmark ? '<p class="detail-benchmark">Benchmark: ' + escapeHtml(role.benchmark) + '</p>' : '') +
-      role.levels.map(renderLevel).join('') +
+      role.levels.map(function (lvl, i) { return renderLevel(lvl, i); }).join('') +
       (bonus
         ? '<div class="cross-links-block"><h3>Bonus Quick Explainer</h3><ul class="video-links">' + bonus + '</ul></div>'
         : '') +
@@ -436,12 +436,51 @@
 
     var state = loadMasteryState(mode, slug, items.length);
 
+    // Roles have an explicit Basic -> Intermediate -> Advanced ladder
+    // (role.levels, always in that order); lock a level until every
+    // trackable item in the level before it is checked off.
+    var levelBlocks = mode === 'roles' ? Array.prototype.slice.call(card.querySelectorAll('.level-block')) : [];
+    var itemLevelIndex = items.map(function (li) {
+      var block = li.closest && li.closest('.level-block');
+      return block ? parseInt(block.getAttribute('data-level-index'), 10) : -1;
+    });
+
     var badge = document.createElement('div');
     badge.className = 'mastery-badge';
     h2.insertAdjacentElement('afterend', badge);
 
+    function refreshLevelLocks() {
+      if (!levelBlocks.length) return;
+      var priorComplete = true;
+      levelBlocks.forEach(function (block, levelIdx) {
+        var indices = [];
+        itemLevelIndex.forEach(function (li, i) { if (li === levelIdx) indices.push(i); });
+        var checked = indices.filter(function (i) { return state[i]; }).length;
+        var thisLevelComplete = indices.length === 0 || checked === indices.length;
+        var unlocked = levelIdx === 0 || priorComplete;
+
+        block.classList.toggle('level-locked', !unlocked);
+        var banner = block.querySelector('.level-lock-banner');
+        if (!unlocked && !banner) {
+          banner = document.createElement('p');
+          banner.className = 'level-lock-banner';
+          banner.textContent = '🔒 Complete the previous level to unlock';
+          block.insertBefore(banner, block.firstChild);
+        } else if (unlocked && banner) {
+          banner.remove();
+        }
+        indices.forEach(function (i) {
+          var cb = items[i].querySelector('.mastery-check');
+          if (cb) cb.disabled = !unlocked;
+        });
+
+        priorComplete = priorComplete && thisLevelComplete;
+      });
+    }
+
     function refresh() {
       updateMasteryBadge(badge, state.filter(Boolean).length, items.length);
+      refreshLevelLocks();
     }
 
     items.forEach(function (li, i) {
