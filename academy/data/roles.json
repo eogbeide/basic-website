@@ -17383,5 +17383,1255 @@
     "bonus": [],
     "page": 607,
     "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "GCP AI Engineer / Google Cloud Agent Engineer",
+    "benchmark": "Google Cloud Applied AI Agent Engineer + Data Engineering Agent / enterprise agent-platform engineering signals (current Sep 2026). Market refresh: Gemini Enterprise Agent Platform; Vertex AI/Gemini; ADK; MCP/A2A; BigQuery and enterprise grounding; Agent Runtime/Registry; evals/observability; Model Armor/identity; Cloud Run; production reliability.",
+    "capstone": "Engineer a production Google Cloud agent for a real enterprise workflow. Build on Gemini/Vertex AI with a typed API or ADK service; ground it in BigQuery, Cloud Storage, Cloud SQL or Vertex AI Search; add at least two tools through Google-managed MCP or custom APIs; use A2A and Agent Registry for a multi-agent branch where useful; deploy through Agent Runtime or Cloud Run with least-privilege identity, Model Armor/SDP controls, observability, eval/regression gates, latency/cost targets and a rollback/runbook. Demonstrate a measurable business task from data retrieval through action.",
+    "rubric": "Prove correct Gemini/Vertex architecture; grounded outputs and data permissions; clean ADK/tool contracts; working MCP/A2A integration where applicable; eval quality and failure analysis; actionable traces; secure identity and Model Armor boundaries; scalable deployment; latency/cost discipline; recovery from tool/model failures; measurable task success; and clear tradeoffs between managed Agent Platform, Cloud Run, retrieval options, single-vs-multi-agent and speed-vs-control.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build Gemini applications and agents on a production-ready Google Cloud foundation",
+        "competencies": [
+          {
+            "title": "Gemini + Vertex AI application engineering",
+            "coverage": "Gemini / Vertex AI / Model Selection / Structured Outputs / Fine-Tuning / Deployment",
+            "videos": [
+              {
+                "title": "Building AI Agents on Google Cloud (26m)",
+                "url": "https://www.youtube.com/watch?v=8rlNdKywldQ",
+                "channel": "Google Cloud Tech"
+              },
+              {
+                "title": "Tune & Deploy Gemini with Vertex AI (39m)",
+                "url": "https://www.youtube.com/watch?v=2WMPvmbXZvM",
+                "channel": "Google Cloud"
+              }
+            ]
+          },
+          {
+            "title": "ADK, Agent Runtime + developer workflow",
+            "coverage": "Agent Development Kit / Gemini Enterprise Agent Platform / Agent Runtime / Cloud Run / Tool Calling",
+            "videos": [
+              {
+                "title": "Agent Development Kit (ADK) (~9m)",
+                "url": "https://www.youtube.com/watch?v=bLYbL3d5MwQ",
+                "channel": "Google Cloud Tech"
+              },
+              {
+                "title": "Automate the Agent Development Lifecycle (2026)",
+                "url": "https://www.youtube.com/watch?v=81qWbN8Xj_s",
+                "channel": "Google Cloud"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Ground agents in enterprise data and connect interoperable multi-agent systems",
+        "competencies": [
+          {
+            "title": "BigQuery, RAG + enterprise grounding",
+            "coverage": "BigQuery / Vertex AI Search & RAG / Cloud Storage / Cloud SQL / Vector Search / Data Agent Kit",
+            "videos": [
+              {
+                "title": "BigQuery + Gemini Agent Knowledge Base (58m)",
+                "url": "https://www.youtube.com/watch?v=zvmtHZSt8es",
+                "channel": "Google Cloud"
+              },
+              {
+                "title": "Data Agent Kit: BigQuery + Cloud SQL (58m)",
+                "url": "https://www.youtube.com/watch?v=Vs2_Palg1QY",
+                "channel": "Google Cloud"
+              }
+            ]
+          },
+          {
+            "title": "MCP, A2A + Agent Registry orchestration",
+            "coverage": "Managed MCP Servers / Agent2Agent Protocol / Agent Registry / Enterprise APIs / Multi-Agent",
+            "videos": [
+              {
+                "title": "Production Agents with MCP Servers (45m)",
+                "url": "https://www.youtube.com/watch?v=df7ZdrBxlsE",
+                "channel": "Google Cloud Next"
+              },
+              {
+                "title": "A2A + Agent Registry (41m)",
+                "url": "https://www.youtube.com/watch?v=-MME36Ft9Gc",
+                "channel": "Google Cloud Tech"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate governed agents with evals, observability, security and reliability",
+        "competencies": [
+          {
+            "title": "Agent evaluation, observability + performance",
+            "coverage": "GenAI Evaluation / ADK Eval / Tracing / Quality Gates / Cost-Latency / SLOs",
+            "videos": [
+              {
+                "title": "Prototype to Reliable Agent Platform (45m)",
+                "url": "https://www.youtube.com/watch?v=fkCTifAqVGg",
+                "channel": "Google Cloud Next"
+              },
+              {
+                "title": "Optimize Multi-Agent Systems for Production (20m)",
+                "url": "https://www.youtube.com/watch?v=ge5cLd8uics",
+                "channel": "Google Cloud"
+              }
+            ]
+          },
+          {
+            "title": "Model Armor, identity + production security",
+            "coverage": "Model Armor / Sensitive Data Protection / Agent Identity / Policy as Code / Cloud Run / Governance",
+            "videos": [
+              {
+                "title": "Secure Multi-Agent Systems with Model Armor (2026)",
+                "url": "https://www.youtube.com/watch?v=P6cyzDDAhMA",
+                "channel": "Google Cloud"
+              },
+              {
+                "title": "Build AI Agents on Cloud Run (2026)",
+                "url": "https://www.youtube.com/watch?v=zthWHEU3Y7M",
+                "channel": "Google Cloud Next"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 608,
+    "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "AWS AI Engineer / Amazon Bedrock Agent Engineer",
+    "benchmark": "AWS Bedrock AgentCore / AWS Agentic AI engineering + Specialist AI Tooling software-engineering signals (current Sep 2026). Market refresh: Amazon Bedrock foundation models; Strands Agents; AgentCore Runtime/Memory/Gateway/Identity/Observability/Evaluations; Knowledge Bases/RAG; MCP/A2A; Guardrails; IAM; CloudWatch; cloud-scale reliability.",
+    "capstone": "Engineer a production AWS agentic application for a real enterprise workflow. Use Amazon Bedrock with a Strands-based agent; deploy through AgentCore Runtime; ground the workflow with Knowledge Bases, S3 Vectors or enterprise data; add durable AgentCore Memory and at least two tools through Gateway/MCP or AWS APIs; use A2A or multi-agent orchestration only where it improves the task; enforce AgentCore Identity/IAM least privilege and Bedrock Guardrails; add evaluations, CloudWatch traces, reliability and cost targets; run an adversarial/security test plus failure drill; and ship an IaC-backed deployment, runbook and measurable task-success readout.",
+    "rubric": "Prove Bedrock/model judgment; reliable Strands agent behavior; correct Runtime, Memory, Gateway and tool contracts; grounded retrieval; secure AgentCore Identity and IAM boundaries; Guardrails and adversarial-test evidence; eval/regression quality gates; useful observability; resilient deployment and recovery; latency/cost discipline; measurable task success; and clear tradeoffs among managed AgentCore services, serverless/container deployment, single-vs-multi-agent, autonomy-vs-human approval and capability-vs-risk.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build Bedrock applications and Strands agents with cloud-native engineering discipline",
+        "competencies": [
+          {
+            "title": "Amazon Bedrock foundation-model application engineering",
+            "coverage": "Amazon Bedrock / Foundation Models / Structured Outputs / Prompt Engineering / Model Selection / IAM",
+            "videos": [
+              {
+                "title": "Production Agents with Strands TypeScript (49m)",
+                "url": "https://www.youtube.com/watch?v=NzZOm-kaO94",
+                "channel": "AWS re:Invent"
+              },
+              {
+                "title": "Autonomous, Self-Improving Strands Agents (62m)",
+                "url": "https://www.youtube.com/watch?v=RQfW7eQsXqk",
+                "channel": "AWS re:Invent"
+              }
+            ]
+          },
+          {
+            "title": "Strands Agents + AgentCore developer workflow",
+            "coverage": "Strands Agents / AgentCore Runtime / SDKs & CLI / Infrastructure as Code / Tool Calling",
+            "videos": [
+              {
+                "title": "Intro to Amazon Bedrock AgentCore (59m)",
+                "url": "https://www.youtube.com/watch?v=oDjESsByBmM",
+                "channel": "AWS re:Invent"
+              },
+              {
+                "title": "Integrate Agent Frameworks with AgentCore (56m)",
+                "url": "https://www.youtube.com/watch?v=YmXszEVI-x8",
+                "channel": "AWS re:Invent"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Ground, integrate and orchestrate agents across AWS services and enterprise data",
+        "competencies": [
+          {
+            "title": "Knowledge Bases, RAG + memory",
+            "coverage": "Bedrock Knowledge Bases / Agentic RAG / S3 Vectors / AgentCore Memory / Retrieval",
+            "videos": [
+              {
+                "title": "Advanced Agentic RAG with Amazon Bedrock",
+                "url": "https://www.youtube.com/watch?v=bu2cD1pCFTs",
+                "channel": "AWS re:Invent"
+              },
+              {
+                "title": "Multi-Modal Agents + Amazon S3 Vectors (61m)",
+                "url": "https://www.youtube.com/watch?v=r-OhoOfh9Mw",
+                "channel": "AWS re:Invent"
+              }
+            ]
+          },
+          {
+            "title": "MCP, A2A + AgentCore Gateway integration",
+            "coverage": "AgentCore Gateway / MCP / A2A / APIs / Lambda / Multi-Agent / Identity",
+            "videos": [
+              {
+                "title": "Self-Orchestrating Workflows with A2A + MCP (56m)",
+                "url": "https://www.youtube.com/watch?v=9O9zZ1lQWiI",
+                "channel": "AWS re:Invent"
+              },
+              {
+                "title": "AI Agents at the Edge, Scale in Cloud",
+                "url": "https://www.youtube.com/watch?v=Pl2yq7NmjUs",
+                "channel": "AWS re:Invent"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate secure, observable and reliable agent systems at enterprise scale",
+        "competencies": [
+          {
+            "title": "Evaluation, observability + production reliability",
+            "coverage": "AgentCore Evaluations / Observability / CloudWatch / Tracing / SLOs / Cost-Latency",
+            "videos": [
+              {
+                "title": "Responsible AI Observability + CloudWatch (19m)",
+                "url": "https://www.youtube.com/watch?v=KjGAR_WCtWE",
+                "channel": "AWS re:Invent"
+              },
+              {
+                "title": "AgentCore: POC to Production (59m)",
+                "url": "https://www.youtube.com/watch?v=oDjESsByBmM",
+                "channel": "AWS re:Invent"
+              }
+            ]
+          },
+          {
+            "title": "Identity, Guardrails + agent security",
+            "coverage": "AgentCore Identity / IAM / Bedrock Guardrails / Red Teaming / Least Privilege / Zero Trust",
+            "videos": [
+              {
+                "title": "Secure Agent Access with AgentCore Identity",
+                "url": "https://www.youtube.com/watch?v=26gnzQkep2w",
+                "channel": "AWS re:Invent"
+              },
+              {
+                "title": "Red Team vs Blue Team: Securing AI Agents",
+                "url": "https://www.youtube.com/watch?v=RnKZva1DHp4",
+                "channel": "AWS re:Invent"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 609,
+    "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "OpenAI AI Engineer / Applied AI Engineer",
+    "benchmark": "OpenAI Applied AI Engineer + Codex Core Agents / AI Systems engineering signals (current Sep 2026). Market refresh: Responses API; Agents SDK; hosted tools and MCP; Codex; enterprise grounding; evals and tracing; sandboxed long-running agents; reliability, latency, cost, safety and measurable adoption.",
+    "capstone": "Ship a production OpenAI application or agent for a consequential workflow. Start with the Responses API and structured outputs; add at least two tools through hosted tools, functions or MCP; use retrieval and enterprise context where needed; implement an Agents SDK orchestration path with explicit permissions, human approval and safe sandbox boundaries; create an eval dataset with automated graders and regression gates; trace key failure modes; instrument task success, latency, token cost and adoption; use Codex in the engineering workflow with tests and review; then run a staged launch, failure drill and rollback with an architecture/runbook package and measured business outcome.",
+    "rubric": "Demonstrate model and context judgment; reliable structured outputs; clean tool and MCP contracts; grounded retrieval and access control; eval-driven development and regression gates; diagnosable traces; safe permissions and guardrails; resilient long-running execution and recovery; latency/cost discipline; verified Codex-assisted development; staged rollout and rollback; measurable task success and adoption; and clear tradeoffs among prompts, retrieval, tools, fine-tuning, autonomy and human approval.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build production OpenAI applications with Responses API, structured outputs and native tools",
+        "competencies": [
+          {
+            "title": "Responses API, model behavior + built-in tools",
+            "coverage": "OpenAI API / Responses API / Model Selection / Structured Outputs / Prompt & Context Engineering",
+            "videos": [
+              {
+                "title": "Build Hour: Responses API",
+                "url": "https://www.youtube.com/watch?v=hNr5EebepYs",
+                "channel": "OpenAI"
+              },
+              {
+                "title": "Build Hour: Built-In Tools",
+                "url": "https://www.youtube.com/watch?v=8St8elOrRPY",
+                "channel": "OpenAI"
+              }
+            ]
+          },
+          {
+            "title": "Agents SDK, tool use + MCP",
+            "coverage": "Agents SDK / Tool Calling / Hosted Tools / MCP / Sandboxing / Human Approval",
+            "videos": [
+              {
+                "title": "Build Hour: Agents SDK (2026)",
+                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
+                "channel": "OpenAI"
+              },
+              {
+                "title": "Build Hour: Agentic Tool Calling",
+                "url": "https://www.youtube.com/watch?v=7E-qdsVEoB8",
+                "channel": "OpenAI"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Ground and integrate agents, then engineer robust workflows around real user tasks",
+        "competencies": [
+          {
+            "title": "Use-case scoping, grounding + enterprise context",
+            "coverage": "System Scoping / File Search / Web Search / Code Interpreter / Retrieval / Enterprise Context",
+            "videos": [
+              {
+                "title": "Use Case Discovery & System Scoping",
+                "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Introduction to Agentic Workflows",
+                "url": "https://academy.openai.com/en/public/clubs/builders-etkn1/videos/unlock-agentic-power-with-the-agents-sdk",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          },
+          {
+            "title": "Codex + agentic software engineering",
+            "coverage": "Codex / AGENTS.md / Context Engineering / Code Review / Long-Running Tasks / Developer Workflow",
+            "videos": [
+              {
+                "title": "Shipping with Codex | DevDay",
+                "url": "https://www.youtube.com/watch?v=Gr41tYOzE20",
+                "channel": "OpenAI"
+              },
+              {
+                "title": "Context Engineering & Coding Agents with Cursor",
+                "url": "https://www.youtube.com/watch?v=3KAI__5dUn0",
+                "channel": "OpenAI"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate reliable OpenAI systems with evals, tracing, safety, latency/cost and adoption",
+        "competencies": [
+          {
+            "title": "Evals, regression + observable agent quality",
+            "coverage": "OpenAI Evals / Graders / Regression / Tracing / Failure Analysis / Task Success",
+            "videos": [
+              {
+                "title": "Practical Evaluation Systems (28m)",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Reliable Agent Architectures (46m)",
+                "url": "https://academy.openai.com/en/public/clubs/builders-etkn1/videos/ai-techniques-production-designing-reliable-agent-architectures-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          },
+          {
+            "title": "Production optimization, safety + deployment tradeoffs",
+            "coverage": "Guardrails / Permissions / Latency-Cost-Quality / Rollouts / Fine-Tuning Strategy / Monitoring",
+            "videos": [
+              {
+                "title": "Balance Accuracy, Latency & Cost",
+                "url": "https://www.youtube.com/watch?v=Bx6sUDRMx-8",
+                "channel": "OpenAI DevDay"
+              },
+              {
+                "title": "Fine-Tuning Strategy & Tradeoffs (21m)",
+                "url": "https://academy.openai.com/en/public/clubs/builders-etkn1/videos/ai-techniques-production-fine-tuning-strategy-and-tradeoffs-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 610,
+    "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "NVIDIA AI Engineer / Agentic AI Systems Engineer",
+    "benchmark": "NVIDIA Senior AI Systems Engineer + Agentic AI Engagement / Applied AI engineering signals (current Sep 2026). Market refresh: NVIDIA NIM and Nemotron; NeMo Agent Toolkit; RAG and enterprise retrieval; MCP/A2A-style interoperability; evals and observability; NeMo Guardrails; TensorRT-LLM and Dynamo; GPU-aware inference optimization and production reliability.",
+    "capstone": "Build and operate a production NVIDIA agentic system for a real enterprise workflow. Serve a Nemotron or approved open model through NIM; implement the workflow with NeMo Agent Toolkit; ground it with enterprise retrieval and reranking; integrate at least two tools and an MCP path; add a multi-agent branch only where it improves task quality; deploy GPU inference with TensorRT-LLM or Dynamo and profile throughput, latency and cost; add NeMo Guardrails, identity/secrets controls, agent evals, traces and failure analysis; load-test the system, run a security/failure drill and deliver a reproducible containerized deployment, runbook and business-task readout.",
+    "rubric": "Prove correct NIM and model choice; reliable Python and agent implementation; grounded retrieval; clean tool and MCP contracts; useful NeMo Agent Toolkit orchestration; evaluation and profiling evidence; safe guardrail and permission boundaries; TensorRT-LLM or Dynamo inference judgment; GPU utilization, latency, throughput and cost awareness; production observability and recovery; measurable task success; and clear tradeoffs among model size, inference strategy, retrieval, single-vs-multi-agent, open-vs-managed components and quality-vs-performance.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build accelerated NVIDIA AI applications and production-ready agents on NIM and Nemotron",
+        "competencies": [
+          {
+            "title": "NIM, Nemotron + accelerated application engineering",
+            "coverage": "NVIDIA NIM / Nemotron / Python / APIs / Containers / GPU-Aware Model Serving",
+            "videos": [
+              {
+                "title": "Local AI Copilots with NIM + FAISS (19m)",
+                "url": "https://www.youtube.com/watch?v=KmEX-1mS8Ps",
+                "channel": "NVIDIA"
+              },
+              {
+                "title": "Build a RAG Agent with Nemotron (10m)",
+                "url": "https://www.youtube.com/watch?v=Mw9_ZK3tnrQ",
+                "channel": "NVIDIA"
+              }
+            ]
+          },
+          {
+            "title": "NeMo Agent Toolkit + workflow engineering",
+            "coverage": "NeMo Agent Toolkit / Tools / FastAPI / Orchestration / Multi-Agent / Profiling",
+            "videos": [
+              {
+                "title": "Create Your Own AI Agent with NeMo Agent Toolkit (18m)",
+                "url": "https://www.youtube.com/watch?v=NsogD7UhZ4Q",
+                "channel": "NVIDIA"
+              },
+              {
+                "title": "Develop Teams of AI Agents with NeMo Agent Toolkit (23m)",
+                "url": "https://www.youtube.com/watch?v=H65OluZaiZQ",
+                "channel": "NVIDIA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Ground agents in enterprise data and connect interoperable, governed multi-agent systems",
+        "competencies": [
+          {
+            "title": "Enterprise RAG + multimodal retrieval",
+            "coverage": "NeMo Retriever / Embeddings / Reranking / Vector Search / Multimodal RAG / Enterprise Data",
+            "videos": [
+              {
+                "title": "Multimodal Agentic AI Retrieval Systems",
+                "url": "https://www.nvidia.com/en-us/on-demand/session/gtc25-S72208/",
+                "channel": "NVIDIA GTC"
+              },
+              {
+                "title": "NeMo Agent Toolkit: Benchmarking & Optimizing Agents (11m)",
+                "url": "https://www.youtube.com/watch?v=CpuOJwVFmCg",
+                "channel": "NVIDIA"
+              }
+            ]
+          },
+          {
+            "title": "MCP, tool interoperability + secure agent integration",
+            "coverage": "MCP / NIM / NeMo Agent Toolkit / Enterprise APIs / Multi-Agent / Security Boundaries",
+            "videos": [
+              {
+                "title": "NeMo Agent Toolkit + MCP + NIM (50m)",
+                "url": "https://www.youtube.com/watch?v=yYv8lBIyqn0",
+                "channel": "NVIDIA"
+              },
+              {
+                "title": "Securely Deploy Autonomous Agents (40m)",
+                "url": "https://www.youtube.com/watch?v=8TQYkjViaBQ",
+                "channel": "NVIDIA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Optimize inference, evaluate quality and operate safe agent systems at GPU scale",
+        "competencies": [
+          {
+            "title": "TensorRT-LLM, Dynamo + inference performance",
+            "coverage": "TensorRT-LLM / NVIDIA Dynamo / GPU Serving / Throughput / Latency / Distributed Inference",
+            "videos": [
+              {
+                "title": "Distributed AI Inference at Scale on Dynamo",
+                "url": "https://www.youtube.com/watch?v=-bMcP2aFyL0",
+                "channel": "NVIDIA"
+              },
+              {
+                "title": "DeepSeek R1 Throughput Optimization",
+                "url": "https://www.youtube.com/watch?v=5ftMMBj6xj0",
+                "channel": "NVIDIA"
+              }
+            ]
+          },
+          {
+            "title": "Agent evaluation, guardrails + production reliability",
+            "coverage": "NeMo Agent Toolkit Evals / Observability / NeMo Guardrails / Safety / Cost / Failure Analysis",
+            "videos": [
+              {
+                "title": "Test-Time Compute: Optimize AI Agents (11m)",
+                "url": "https://www.youtube.com/watch?v=CpuOJwVFmCg",
+                "channel": "NVIDIA"
+              },
+              {
+                "title": "NeMo Guardrails: Safe, Reliable Agentic AI",
+                "url": "https://developer.nvidia.com/nemo-guardrails/",
+                "channel": "NVIDIA"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 611,
+    "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "Salesforce Agentforce AI Engineer / Agentforce Developer",
+    "benchmark": "Salesforce Agentforce Operations Software Engineering + Agentforce Technical Architect / Data & AI platform signals (current Sep 2026). Market refresh: Agent Script and Agentforce DX; Agentforce Vibes; Data 360 grounding; Headless 360 and React; hosted MCP and A2A interoperability; testing and regression; tracing/optimization; trust, permissions and production rollout.",
+    "capstone": "Engineer and operate an enterprise Agentforce solution for a real business process. Define the use case and subagent boundaries; implement core behavior with Agent Script and Agentforce DX; add Data 360 grounding and at least two actions through Flow, Apex, REST or MCP; expose one headless or React experience; enforce Salesforce identity, sharing, field/data access, trust controls and explicit human approvals; create automated regression tests with Testing Center, Testing API or DX; use traces and Agent Optimization to diagnose failures; deploy through source control and CI, run permission/failure drills, and report task completion, quality, latency, consumption, adoption and business impact.",
+    "rubric": "Prove correct Agent Script and DX implementation; grounded Data 360 context and retrieval; clean action and MCP contracts; secure Salesforce permission boundaries; reliable headless or React integration where used; automated tests and regression gates; traceable agent behavior and incident diagnosis; safe autonomous actions and human handoffs; CI/deployment discipline; measurable task success and business-process improvement; and clear tradeoffs among declarative vs pro-code, Flow/Apex/API/MCP, single vs subagents and human vs autonomous execution.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build pro-code Salesforce agents with Agent Script, Agentforce DX and production-ready app surfaces",
+        "competencies": [
+          {
+            "title": "Agent Script, Agentforce DX + hybrid reasoning",
+            "coverage": "Agent Script / Agentforce DX / Salesforce CLI / VS Code / Agentforce Vibes / Subagents",
+            "videos": [
+              {
+                "title": "Build Next-Gen Agents with Agent Script + DX",
+                "url": "https://www.youtube.com/watch?v=vEdwcldV-Ps",
+                "channel": "Salesforce Developers"
+              },
+              {
+                "title": "Agent Script Custom Logic (2026)",
+                "url": "https://www.youtube.com/watch?v=e8nghkt3pLE",
+                "channel": "Salesforce Developers"
+              }
+            ]
+          },
+          {
+            "title": "Agent actions, APIs + headless application experiences",
+            "coverage": "Agentforce APIs / Apex / Flow / Headless 360 / React / Agentforce Conversation Client",
+            "videos": [
+              {
+                "title": "Build Agentforce-Powered React Apps",
+                "url": "https://www.youtube.com/watch?v=iVOwSnGvjY4",
+                "channel": "Salesforce Developers"
+              },
+              {
+                "title": "React + Salesforce Multi-Framework",
+                "url": "https://www.youtube.com/watch?v=dVUZTLPBDNk",
+                "channel": "Salesforce Developers"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Ground agents in governed enterprise context and connect standardized tools across Salesforce",
+        "competencies": [
+          {
+            "title": "Data 360 grounding + unstructured enterprise context",
+            "coverage": "Data 360 / Data Libraries / Intelligent Context / RAG / Document AI / Enterprise Grounding",
+            "videos": [
+              {
+                "title": "Unlock Unstructured Data with Data 360",
+                "url": "https://www.youtube.com/watch?v=747TEiF0Rgk",
+                "channel": "Salesforce Developers"
+              },
+              {
+                "title": "Build Agentic Data 360 Experiences Headlessly",
+                "url": "https://www.youtube.com/@SalesforceDevs",
+                "channel": "Salesforce Developers"
+              }
+            ]
+          },
+          {
+            "title": "MCP, A2A + secure enterprise tool interoperability",
+            "coverage": "Hosted MCP Servers / MCP Client + Gateway / A2A / MuleSoft / Tool Contracts / OAuth / Trust Boundaries",
+            "videos": [
+              {
+                "title": "Explore Salesforce Hosted MCP Servers",
+                "url": "https://www.youtube.com/watch?v=vIXwpADSTZg",
+                "channel": "Salesforce Developers"
+              },
+              {
+                "title": "Supercharge Agentforce with MCP + A2A",
+                "url": "https://www.youtube.com/watch?v=HlX-2KmTxMw",
+                "channel": "Salesforce Developers"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate and improve enterprise agents with testing, observability, security and deployment discipline",
+        "competencies": [
+          {
+            "title": "Testing, evaluation + regression automation",
+            "coverage": "Agentforce Testing Center / Testing API / Agentforce DX Tests / Scorers / CI / Regression",
+            "videos": [
+              {
+                "title": "Test Agents with Agentforce Testing Center",
+                "url": "https://www.youtube.com/watch?v=QaDRfagYSDk",
+                "channel": "Salesforce Developers"
+              },
+              {
+                "title": "Build/Test Lifecycle with Agentforce DX",
+                "url": "https://www.youtube.com/watch?v=vEdwcldV-Ps",
+                "channel": "Salesforce Developers"
+              }
+            ]
+          },
+          {
+            "title": "Tracing, optimization + production agent quality",
+            "coverage": "Session Tracing / Agent Optimization / Observability / Trust Layer / Permissions / Adoption / Reliability",
+            "videos": [
+              {
+                "title": "Refine & Improve Agents with Agent Optimization",
+                "url": "https://www.youtube.com/watch?v=4PGY8jHiMQw",
+                "channel": "Salesforce Developers"
+              },
+              {
+                "title": "Hosted MCP Security + Operations",
+                "url": "https://www.youtube.com/watch?v=vIXwpADSTZg",
+                "channel": "Salesforce Developers"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 612,
+    "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "Databricks AI Engineer / Agent Bricks Engineer",
+    "benchmark": "Databricks Applied AI Engineer + Agent Bricks / Genie Code / Data + AI platform engineering signals (current Sep 2026). Market refresh: Agent Bricks and custom agents; Databricks Apps; enterprise retrieval and context; MCP and governed tools; MLflow tracing/evals; Unity Catalog and Unity Gateway; state/memory; Genie Code and AI Runtime; production reliability and cost control.",
+    "capstone": "Build a governed production agentic application on Databricks. Start with Agent Bricks or a custom agent and ground it in Unity Catalog data using high-quality retrieval; integrate at least two tools through MCP or governed functions; deploy a user-facing workflow with Databricks Apps and persistent state when needed; add a multi-agent branch only when it improves task quality; trace every critical step in MLflow, build an evaluation dataset with automated judges and regression gates; govern models and tools through Unity Gateway with permissions, budgets, guardrails and routing; profile quality, latency and cost, run a failure/security drill, and publish a runbook plus measured user and business outcomes.",
+    "rubric": "Prove reliable agent implementation; authoritative enterprise context and retrieval quality; clean MCP/tool contracts; correct Unity Catalog permissions and Unity Gateway controls; production Databricks Apps integration; justified use of state and multi-agent orchestration; MLflow traces and reproducible eval results; cost/latency/quality discipline; safe model and tool governance; failure recovery and incident readiness; measurable task success and adoption; and clear tradeoffs among models, harnesses, managed vs custom agents, retrieval strategies, state stores and governance policies.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build enterprise agents on Databricks with Agent Bricks, governed context and production app foundations",
+        "competencies": [
+          {
+            "title": "Agent Bricks + custom agent foundations",
+            "coverage": "Agent Bricks / Custom Agents / Model Choice / Agent Harnesses / Databricks Apps / Python",
+            "videos": [
+              {
+                "title": "Agent Bricks: Choice, Context + Control (2026)",
+                "url": "https://www.youtube.com/watch?v=GezX9a_9bwI",
+                "channel": "Databricks"
+              },
+              {
+                "title": "Building Enterprise-Ready Agents with Agent Bricks",
+                "url": "https://www.youtube.com/watch?v=sjXgUdovOdM",
+                "channel": "Databricks"
+              }
+            ]
+          },
+          {
+            "title": "Enterprise retrieval + AI-ready business context",
+            "coverage": "Mosaic AI Vector Search / RAG / Hybrid Retrieval / Reranking / Unity Catalog / Business Semantics",
+            "videos": [
+              {
+                "title": "Beyond Simple RAG with Mosaic AI Vector Search",
+                "url": "https://www.youtube.com/watch?v=pUKvTs6Eg4k",
+                "channel": "Databricks"
+              },
+              {
+                "title": "Agent Bricks Multi-Agent GenAI System",
+                "url": "https://www.youtube.com/watch?v=AMyeg0wMXwU",
+                "channel": "Databricks"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Connect tools, orchestrate stateful workflows and ship usable agentic applications",
+        "competencies": [
+          {
+            "title": "MCP, governed tools + external system integration",
+            "coverage": "MCP / Unity Catalog Functions / Tool Calling / External APIs / OAuth / Tool Permissions / Governance",
+            "videos": [
+              {
+                "title": "Tool-Calling Agents with Agent Framework + MCP",
+                "url": "https://www.youtube.com/watch?v=0X6kJzX-CgA",
+                "channel": "Databricks"
+              },
+              {
+                "title": "Agent Bricks Choice, Context + Unity Gateway Demo",
+                "url": "https://www.youtube.com/watch?v=GezX9a_9bwI",
+                "channel": "Databricks"
+              }
+            ]
+          },
+          {
+            "title": "Databricks Apps, state + agentic ML workflows",
+            "coverage": "Databricks Apps / Lakebase / Agent Memory / Genie Code / AI Runtime / Deployment / Stateful Agents",
+            "videos": [
+              {
+                "title": "From Agent Prompt to a Live Databricks App",
+                "url": "https://www.youtube.com/watch?v=DsjoPT3cP-g",
+                "channel": "Databricks"
+              },
+              {
+                "title": "Agentic Machine Learning with Genie Code",
+                "url": "https://www.youtube.com/watch?v=C1rEj2VQtwU",
+                "channel": "Databricks"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Evaluate, govern and optimize agent systems across quality, cost, security and operations",
+        "competencies": [
+          {
+            "title": "MLflow tracing, evals + continuous quality improvement",
+            "coverage": "MLflow 3 / Tracing / Agent Evaluation / LLM Judges / Prompt Registry / Production Monitoring",
+            "videos": [
+              {
+                "title": "Trustworthy High-Quality AI Agents with MLflow",
+                "url": "https://www.youtube.com/watch?v=VXOH50y8F7o",
+                "channel": "MLflow / Databricks"
+              },
+              {
+                "title": "Trace Any AI Agent with OTel, MLflow + Unity Catalog",
+                "url": "https://www.youtube.com/watch?v=zWe8IRsTh_g",
+                "channel": "Databricks"
+              }
+            ]
+          },
+          {
+            "title": "Unity Gateway governance + production economics",
+            "coverage": "Unity Gateway / Unity Catalog / Guardrails / Budgets / Routing / Observability / AI Runtime / Cost",
+            "videos": [
+              {
+                "title": "Agent Bricks + Unity AI Gateway Live Demo",
+                "url": "https://www.youtube.com/watch?v=GezX9a_9bwI",
+                "channel": "Databricks"
+              },
+              {
+                "title": "Solving AI Development Bottlenecks with Apps",
+                "url": "https://www.youtube.com/watch?v=xkbu_ix1nWU",
+                "channel": "Databricks"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 613,
+    "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "Snowflake Cortex AI Engineer / Cortex Code & Agents Engineer",
+    "benchmark": "Snowflake AI & ML Engineering + current AI Engineer / Staff AI Engineer - Cortex Code Quality and Cortex Agents signals (current Sep 2026). Market refresh: Cortex Code/CoCo; Cortex Agents; Cortex Analyst and Search; semantic views; Cortex AISQL; managed MCP; Openflow; Snowflake Intelligence; AI observability/evals; Horizon governance; production reliability, cost and access control.",
+    "capstone": "Build and operate a production Snowflake agentic application for a real enterprise workflow. Use Cortex Code to scaffold or refine the implementation; create authoritative semantic views and Cortex Search services over structured and unstructured data; configure a Cortex Agent with at least two governed tools, including a managed MCP or external action where useful; surface the workflow through Snowflake Intelligence or an application/API; ingest or transform one multimodal source with Openflow, AISQL or Document AI; enforce RBAC, masking and least privilege; create golden scenarios and eval/regression runs with traces; profile quality, latency and credits/tokens; run a permission/failure drill and publish a deployment/runbook package plus measured task success and business impact.",
+    "rubric": "Prove correct context and tool design; semantic-view and retrieval quality; accurate MCP/tool contracts; governed execution and least privilege; reproducible evals and regression gates; traceable failures and error analysis; robust structured and unstructured data handling; safe model/tool behavior; reliable deployment and recovery; cost/latency/quality tradeoffs; measurable task success and adoption; and evidence that evaluation or production feedback materially changed the agent rather than merely validating the initial design.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build governed data-aware AI systems with Cortex Code, Analyst, Search and agent foundations",
+        "competencies": [
+          {
+            "title": "Cortex Code + agentic developer workflow",
+            "coverage": "Cortex Code / CoCo / Python / SQL / Prompt & Context Engineering / Tool Schemas / Verification",
+            "videos": [
+              {
+                "title": "Getting Started With Cortex Agents",
+                "url": "https://www.youtube.com/watch?v=SDqyB-yWaAE",
+                "channel": "Snowflake Developers"
+              },
+              {
+                "title": "Building Snowflake Intelligence",
+                "url": "https://www.youtube.com/watch?v=SI_WE21vHj8",
+                "channel": "Snowflake"
+              }
+            ]
+          },
+          {
+            "title": "Cortex Analyst, semantic views + Cortex Search grounding",
+            "coverage": "Cortex Analyst / Semantic Views / Cortex Search / Hybrid Retrieval / RAG / Text-to-SQL",
+            "videos": [
+              {
+                "title": "Cortex Analyst for Business Intelligence",
+                "url": "https://www.youtube.com/watch?v=CXoca9hDdaQ",
+                "channel": "Snowflake"
+              },
+              {
+                "title": "Build a RAG App With Cortex Search | Summit",
+                "url": "https://www.youtube.com/watch?v=yXgFs31MWUw",
+                "channel": "Snowflake"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Orchestrate agents across structured, unstructured and external enterprise systems",
+        "competencies": [
+          {
+            "title": "Cortex Agents, Snowflake Intelligence + governed tool use",
+            "coverage": "Cortex Agents / Snowflake Intelligence / REST APIs / Threads / Tool Use / Secure Code Execution",
+            "videos": [
+              {
+                "title": "Agentic AI: From Query to MCP | BUILD",
+                "url": "https://www.youtube.com/watch?v=zSC_PLAULas",
+                "channel": "Snowflake"
+              },
+              {
+                "title": "Get Work Done With Snowflake Intelligence",
+                "url": "https://www.youtube.com/watch?v=KGq9OXlWC1g",
+                "channel": "Snowflake"
+              }
+            ]
+          },
+          {
+            "title": "Managed MCP, Openflow + multimodal data-to-action pipelines",
+            "coverage": "Managed MCP / Openflow / Cortex AISQL / Document AI / External Actions / Enterprise Integration",
+            "videos": [
+              {
+                "title": "Using Cortex Code with Snowflake Openflow",
+                "url": "https://www.youtube.com/watch?v=xEzX1g_OfUg",
+                "channel": "Snowflake"
+              },
+              {
+                "title": "Cortex AISQL for Multi-Modal Analytics",
+                "url": "https://www.youtube.com/watch?v=1lrQ8r6XxUM",
+                "channel": "Snowflake"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate and improve AI systems with eval-driven quality, governance and cost discipline",
+        "competencies": [
+          {
+            "title": "Evaluation, tracing + quality hill-climbing",
+            "coverage": "AI Observability / Agent Evals / Golden Sets / Regression / Error Mining / Model Optimization / Cost-Latency-Quality",
+            "videos": [
+              {
+                "title": "LLM Serverless Fine-Tuning With Cortex AI",
+                "url": "https://www.youtube.com/watch?v=4RItxPcq4vk",
+                "channel": "Snowflake"
+              },
+              {
+                "title": "FrostyLibrary: Cortex LLM Application Demo",
+                "url": "https://www.youtube.com/watch?v=bVq1I7VwC9s",
+                "channel": "Snowflake"
+              }
+            ]
+          },
+          {
+            "title": "Horizon governance, RBAC + production reliability",
+            "coverage": "Horizon Catalog / RBAC / Masking / Guardrails / Audit / Data Governance / Reliability / Cost Controls",
+            "videos": [
+              {
+                "title": "Supercharge Users With Horizon Catalog",
+                "url": "https://www.youtube.com/watch?v=1hJswQyY674",
+                "channel": "Snowflake"
+              },
+              {
+                "title": "Document AI: Unstructured to Structured Data",
+                "url": "https://www.youtube.com/watch?v=BuVrxMfmVFE",
+                "channel": "Snowflake"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 614,
+    "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "ServiceNow AI Engineer / Agentic AI Platform Engineer",
+    "benchmark": "ServiceNow AI Engineering & Delivery + current Staff/Senior Staff Agentic AI and AI Control Tower engineering signals (current Sep 2026). Market refresh: AI Agent Studio; Now Assist; agentic workflows and orchestration; Skill Kit; AI Search/RAG; Workflow Data Fabric; Integration Hub; MCP/A2A; AI Gateway/Control Tower; evals, guardrails, observability and production reliability.",
+    "capstone": "Design, build and operate a production ServiceNow agentic workflow for a real enterprise process. Use process evidence to select the use case and define measurable outcomes; build the workflow in AI Agent Studio with a clear orchestrator and scoped worker agents; implement prompts plus at least two tools using flows, scripts, Skill Kit, Integration Hub or APIs; ground decisions in governed context through AI Search, Knowledge Graph or Workflow Data Fabric; connect one external capability through MCP or A2A where justified; enforce identity, ACL/data controls, privacy/Guardian controls and human approvals; create ground-truth evals and tool-use tests; route MCP traffic through AI Gateway with governance and observability; run failure, prompt-injection and data-leakage drills; deploy with KPI monitoring and publish a runbook plus measured business impact.",
+    "rubric": "Prove evidence-backed use-case choice; clear agent and orchestrator boundaries; precise prompts and robust tool contracts; grounded retrieval and data-context quality; correct ServiceNow ACL/permission behavior; safe external MCP/A2A connectivity; reproducible evals and ground-truth results; guardrail/privacy effectiveness; human escalation where required; diagnosable traces and gateway observability; reliable workflow recovery; measurable task completion, cycle-time or experience impact; and documented iteration based on test or production evidence.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Design high-value enterprise agent workflows and build them in ServiceNow AI Agent Studio",
+        "competencies": [
+          {
+            "title": "Agentic workflow architecture + use-case design",
+            "coverage": "ServiceNow AI Agents / Agentic Workflows / Orchestrator / Worker Agents / Outcome Design / Process Evidence",
+            "videos": [
+              {
+                "title": "Ask the Experts: Agentic AI Agent Use Cases",
+                "url": "https://www.youtube.com/watch?v=QLucB04QiYg",
+                "channel": "ServiceNow"
+              },
+              {
+                "title": "Driving Business Transformation with AI Agents",
+                "url": "https://www.youtube.com/watch?v=2j6kKALy7lE",
+                "channel": "ServiceNow"
+              }
+            ]
+          },
+          {
+            "title": "AI Agent Studio, prompts + tool construction",
+            "coverage": "AI Agent Studio / Prompt Engineering / Skills / Flows / Scripts / Knowledge / Human Approvals",
+            "videos": [
+              {
+                "title": "Build a Simple AI Agent in AI Agent Studio",
+                "url": "https://www.youtube.com/watch?v=9Woz9RFImKE",
+                "channel": "ServiceNow"
+              },
+              {
+                "title": "Now Assist Skill Kit: Build Your First AI Agent",
+                "url": "https://www.youtube.com/watch?v=wzu8M9nlwsI",
+                "channel": "ServiceNow"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Ground agents in enterprise context and connect actions across systems",
+        "competencies": [
+          {
+            "title": "Now Assist Skill Kit, Integration Hub + reusable tools",
+            "coverage": "Now Assist Skill Kit / Integration Hub / Subflows / APIs / Tool Design / External Actions",
+            "videos": [
+              {
+                "title": "Advanced Now Assist Skill Kit",
+                "url": "https://www.youtube.com/watch?v=d3YfSnbpduY",
+                "channel": "ServiceNow AI Academy"
+              },
+              {
+                "title": "Build Agentic Workflows: Agents + Tools",
+                "url": "https://www.youtube.com/watch?v=WcCMXzcOwlw",
+                "channel": "ServiceNow"
+              }
+            ]
+          },
+          {
+            "title": "Workflow Data Fabric, AI Search + enterprise grounding",
+            "coverage": "Workflow Data Fabric / Zero Copy / AI Search / RAG / Knowledge Graph / Enterprise Context",
+            "videos": [
+              {
+                "title": "Workflow Data Fabric Academy",
+                "url": "https://www.youtube.com/watch?v=kHN3SpA23BY",
+                "channel": "ServiceNow"
+              },
+              {
+                "title": "Platform Analytics with Workflow Data Fabric",
+                "url": "https://www.youtube.com/watch?v=5sseTrdHjaw",
+                "channel": "ServiceNow"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Govern, evaluate and operate production agent ecosystems across ServiceNow and external tools",
+        "competencies": [
+          {
+            "title": "Agent evals, guardrails + production readiness",
+            "coverage": "Now Assist Data Kit / Agent Evals / Ground Truth / Guardian / Privacy / Prompt Injection / Human-in-the-Loop",
+            "videos": [
+              {
+                "title": "AI Agents: From Build to Production",
+                "url": "https://www.youtube.com/watch?v=Sd1B1upIUg8",
+                "channel": "ServiceNow"
+              },
+              {
+                "title": "Evaluate Custom Skills with Data Kit",
+                "url": "https://www.youtube.com/watch?v=UKnIjrs8s7o",
+                "channel": "ServiceNow AI Academy"
+              }
+            ]
+          },
+          {
+            "title": "MCP/A2A governance, AI Gateway + Control Tower observability",
+            "coverage": "AI Gateway / AI Control Tower / MCP / A2A / AI Agent Fabric / Tool Governance / Security / Observability",
+            "videos": [
+              {
+                "title": "AI Gateway: Complete Walkthrough",
+                "url": "https://www.youtube.com/watch?v=uQAnXzCSPbI",
+                "channel": "ServiceNow"
+              },
+              {
+                "title": "AI Gateway Security, Tool Governance + Observability",
+                "url": "https://www.youtube.com/watch?v=IPFaLuuAjTs",
+                "channel": "ServiceNow"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 615,
+    "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "Oracle OCI AI Engineer / Enterprise AI Agent Engineer",
+    "benchmark": "Oracle OCI Generative AI + current Senior Platform Software Engineer, AI and enterprise AI-agent platform signals (current Sep 2026). Market refresh: OCI Generative AI Enterprise AI Agents; Responses API; OpenAI-compatible SDKs; File/SQL Search; Code Interpreter; MCP; Oracle AI Database vector/RAG and Select AI; Oracle Integration; IAM/guardrails; testing, observability, containerized deployment and cloud reliability.",
+    "capstone": "Engineer and operate an OCI enterprise AI agent for a real business workflow. Build a typed Python service against OCI Generative AI using the OpenAI-compatible Responses API; ground it with Oracle AI Database vector search, Select AI or another governed enterprise source; add conversation state plus at least two tools using function calling and remote MCP; integrate one operational action through Oracle Integration or an enterprise API; use Code Interpreter, SQL search or file search where justified; enforce OCI IAM, secrets, network and data-access boundaries; create task-success, retrieval, tool-correctness and safety evals with traces; deploy through OCI-managed or containerized runtime with telemetry, SLOs and cost controls; run prompt-injection, tool-failure and rollback drills; then publish architecture, runbook and measured business impact.",
+    "rubric": "Demonstrate sound OCI/model selection; reliable structured outputs and context management; high-quality vector/RAG or Select AI grounding; precise function/MCP contracts; safe enterprise actions and human approvals; least-privilege IAM and data controls; reproducible evals and regression gates; traceable failures and hallucination analysis; container/cloud reliability; latency and cost discipline; incident/rollback readiness; measurable task completion and adoption; and evidence that test or production findings materially improved the system.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build OCI-native generative AI applications with strong data grounding and tool contracts",
+        "competencies": [
+          {
+            "title": "OCI Generative AI models, APIs + application foundations",
+            "coverage": "OCI Generative AI / OpenAI-Compatible APIs / Python SDK / LangChain / Model Selection / Context Engineering",
+            "videos": [
+              {
+                "title": "OCI Generative AI Product Tour",
+                "url": "https://www.youtube.com/watch?v=kbRl2UHgBLM",
+                "channel": "Oracle Learning"
+              },
+              {
+                "title": "LangChain + OCI Generative AI",
+                "url": "https://www.youtube.com/watch?v=60AQ-Y8pAns",
+                "channel": "Oracle Developers"
+              }
+            ]
+          },
+          {
+            "title": "Enterprise grounding with AI Vector Search + Select AI",
+            "coverage": "Oracle AI Database / AI Vector Search / RAG / Select AI / NL2SQL / Enterprise Context / Retrieval Quality",
+            "videos": [
+              {
+                "title": "AI Vector Search: Chat With Data",
+                "url": "https://www.youtube.com/watch?v=I64jAxfskp0",
+                "channel": "Oracle Developers"
+              },
+              {
+                "title": "Select AI Agent Framework",
+                "url": "https://www.youtube.com/watch?v=lGlxH7EIYVc",
+                "channel": "Oracle Developers"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build and orchestrate agents with Responses API, MCP, integrations and multi-step workflows",
+        "competencies": [
+          {
+            "title": "OCI AI Agent architecture, tools + managed orchestration",
+            "coverage": "OCI Responses API / Enterprise AI Agents / Function Calling / File Search / Code Interpreter / Memory / Tool Choice",
+            "videos": [
+              {
+                "title": "OCI AI Agent Platform: First Principles",
+                "url": "https://www.youtube.com/watch?v=cLcytKayZF8",
+                "channel": "Oracle"
+              },
+              {
+                "title": "Path to Agentic AI + Enterprise Controls",
+                "url": "https://www.youtube.com/watch?v=qpWoQAEHwo4",
+                "channel": "Oracle"
+              }
+            ]
+          },
+          {
+            "title": "MCP, Oracle Integration + enterprise action workflows",
+            "coverage": "MCP Calling / Oracle Integration / APIs / SQL Tools / External Systems / Human Approval / Multi-Agent Workflows",
+            "videos": [
+              {
+                "title": "OCI Agents + Oracle Integration",
+                "url": "https://www.youtube.com/watch?v=Xp-rM89fWJ8",
+                "channel": "Oracle Developers"
+              },
+              {
+                "title": "Agentic AI Workflows in OIC",
+                "url": "https://www.youtube.com/watch?v=xbpspBVgG8s",
+                "channel": "Oracle Developers"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate secure production agents with testing, observability, governance and resilient cloud engineering",
+        "competencies": [
+          {
+            "title": "Agent evaluation, tracing + responsible enterprise AI",
+            "coverage": "Agent Testing / Evals / Tracing / Guardrails / Security / Human-in-the-Loop / Hallucination Controls / Auditability",
+            "videos": [
+              {
+                "title": "Fusion AI: Testing, Tracing + Evals",
+                "url": "https://www.youtube.com/watch?v=Bs2eJplWz14",
+                "channel": "Oracle AI World"
+              },
+              {
+                "title": "Agentic AI Supply Chain With Human Control",
+                "url": "https://www.youtube.com/watch?v=H_LuZIB8KlY",
+                "channel": "Oracle"
+              }
+            ]
+          },
+          {
+            "title": "Production integration, cloud reliability + AI-native engineering",
+            "coverage": "OCI IAM / Containers / Kubernetes / Observability / CI-CD / Reliability / Performance / Cost / Agent-Assisted Testing",
+            "videos": [
+              {
+                "title": "Boost OIC Workflows With OCI Agents",
+                "url": "https://www.youtube.com/watch?v=ujEpM_1cq-c",
+                "channel": "Oracle Developers"
+              },
+              {
+                "title": "OCI AI / Agents Developer News",
+                "url": "https://www.youtube.com/watch?v=x4sZqGAnoVE",
+                "channel": "Oracle Developers"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 616,
+    "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "IBM watsonx AI Engineer / Orchestrate Agent Engineer",
+    "benchmark": "IBM AI & watsonx careers + current Client Engineering / watsonx Orchestrate agent-platform signals (current Sep 2026). Market refresh: watsonx.ai; watsonx Orchestrate ADK; LangGraph import; Python/OpenAPI tools; MCP and A2A; agent memory; Agent Catalog; AgentOps, Trace Inspector and evaluation; watsonx.governance / Agentic Control Plane; OpenTelemetry observability, security and measurable enterprise value.",
+    "capstone": "Build a governed enterprise agent solution using IBM watsonx. Start with a Python/API service or watsonx.ai component grounded in an enterprise knowledge source; implement an agent in watsonx Orchestrate with ADK, explicit instructions and typed tools; add an OpenAPI or Python tool plus a remote MCP toolkit; use collaborator agents or A2A when decomposition improves outcomes; add memory only where it changes task success; create representative test cases and user simulations, inspect traces and use AgentOps-style evaluation to improve prompts, routing and tools; enforce identity, connection secrets, policy, data isolation and human approvals; register/govern the agent portfolio through the control plane or watsonx.governance; deploy with OpenTelemetry-style observability, latency/cost targets and incident procedures; then prove measurable client or business value with a production-readiness package.",
+    "rubric": "Prove end-to-end engineering judgment: appropriate model and retrieval choices; trustworthy grounding; high-quality tool and MCP contracts; correct orchestration and A2A boundaries; disciplined memory use; reproducible test suites and simulated-user evaluation; actionable traces and failure analysis; measurable quality, latency and cost improvement; strong identity, policy, data and human-approval controls; governance visibility across agents and tools; reliable deployment and recovery; and traceable business outcomes showing why the solution should scale beyond a pilot.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build production-minded AI solutions with watsonx, strong retrieval and explicit agent architecture",
+        "competencies": [
+          {
+            "title": "AI engineering foundations + watsonx solution patterns",
+            "coverage": "Python / APIs / watsonx.ai / Granite & Frontier Models / RAG / Embeddings / Deployment / Business Value",
+            "videos": [
+              {
+                "title": "Essential Skills for AI Engineers",
+                "url": "https://www.youtube.com/watch?v=XN3xNJvWXsc",
+                "channel": "IBM Technology"
+              },
+              {
+                "title": "Production-Ready AI Agents",
+                "url": "https://www.youtube.com/watch?v=mtiOK2QG9Q0",
+                "channel": "IBM Technology"
+              }
+            ]
+          },
+          {
+            "title": "RAG, vector grounding + persistent agent memory",
+            "coverage": "watsonx.ai / Retrieval / Vector Databases / Grounding / Agent Memory / Context / Knowledge / Cost-Aware Design",
+            "videos": [
+              {
+                "title": "Optimize RAG With Agents + Vectors",
+                "url": "https://www.youtube.com/watch?v=Yq29bZ8Hlrc",
+                "channel": "IBM Technology"
+              },
+              {
+                "title": "Four Types of AI Agent Memory",
+                "url": "https://www.youtube.com/watch?v=BacJ6sEhqMo",
+                "channel": "IBM Technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Develop and connect governed agents with watsonx Orchestrate ADK, MCP and multi-agent standards",
+        "competencies": [
+          {
+            "title": "watsonx Orchestrate ADK + tool-driven agent development",
+            "coverage": "Orchestrate ADK / Python Tools / OpenAPI / MCP Toolkits / LangGraph Import / Local Testing / Deployment / Observability",
+            "videos": [
+              {
+                "title": "watsonx Orchestrate ADK Workshop",
+                "url": "https://www.youtube.com/watch?v=CMqckejCnQ4",
+                "channel": "IBM Developer"
+              },
+              {
+                "title": "Agent Skills + MCP",
+                "url": "https://www.youtube.com/watch?v=Lg-meK5IU8Q",
+                "channel": "IBM Technology"
+              }
+            ]
+          },
+          {
+            "title": "Orchestration, MCP + multi-agent collaboration",
+            "coverage": "MCP / A2A / Collaborator Agents / Agent Catalog / Orchestration / ReAct / Distributed Workflows / Tool Routing",
+            "videos": [
+              {
+                "title": "Orchestrator Agents + MCP",
+                "url": "https://www.youtube.com/watch?v=Ons1Fv3IE4U",
+                "channel": "IBM Technology"
+              },
+              {
+                "title": "Multi-Agent Systems Explained",
+                "url": "https://www.youtube.com/watch?v=sWH0T4Zez6I",
+                "channel": "IBM Technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Evaluate, govern and operate agent portfolios with observability, security and human oversight",
+        "competencies": [
+          {
+            "title": "AgentOps, evaluation + observability-driven optimization",
+            "coverage": "AgentOps / Trace Inspection / LLM-as-a-Judge / Test Cases / User Simulation / OpenTelemetry / Quality-Cost-Latency",
+            "videos": [
+              {
+                "title": "AI Observability for Autonomous Agents",
+                "url": "https://www.youtube.com/watch?v=UjQBgwTcvng",
+                "channel": "IBM Technology"
+              },
+              {
+                "title": "MCP for AI-Ready IT Architecture",
+                "url": "https://www.youtube.com/watch?v=yKPAwTF1SGY",
+                "channel": "IBM Technology"
+              }
+            ]
+          },
+          {
+            "title": "Governance, security + human-in-the-loop production controls",
+            "coverage": "watsonx.governance / Agentic Control Plane / IAM / Policies / Prompt Injection / HITL / Audit / Safety / Compliance",
+            "videos": [
+              {
+                "title": "Securing & Governing AI Agents",
+                "url": "https://www.youtube.com/watch?v=E_yPUsCpoC8",
+                "channel": "IBM Technology"
+              },
+              {
+                "title": "Human-in-the-Loop AI",
+                "url": "https://www.youtube.com/watch?v=9iS-YYLIXiw",
+                "channel": "IBM Technology"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 617,
+    "category": "AI, Agents & Intelligent Automation"
   }
 ]
