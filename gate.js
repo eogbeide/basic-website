@@ -2,8 +2,8 @@
   // --- Kit (ConvertKit) config -------------------------------------------
   // Fill these in once the Kit account exists: Settings -> Developer for
   // the API Key, and the numeric ID from the target form's URL/settings.
-  var CONVERTKIT_API_KEY = 'REPLACE_WITH_CONVERTKIT_API_KEY';
-  var CONVERTKIT_FORM_ID = 'REPLACE_WITH_CONVERTKIT_FORM_ID';
+  var CONVERTKIT_API_KEY = 'glQonXzF8Kru7mjNUS9uWg';
+  var CONVERTKIT_FORM_ID = '9959739';
   // -------------------------------------------------------------------------
 
   var STORAGE_KEY = 'zuyini_access_granted';
