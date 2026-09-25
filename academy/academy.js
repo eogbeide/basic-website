@@ -456,13 +456,21 @@
     if (!card || !h2) return;
 
     var items = Array.prototype.filter.call(
-      card.querySelectorAll('.video-links li, .tier-bridges li'),
-      function (li) { return li.querySelector('.play-icon'); }
+      card.querySelectorAll('.video-links li, .tier-bridges li, .course-sequence li, .tier-courses li'),
+      function (li) {
+        if (li.querySelector('.play-icon')) return true; // a direct video/resource link
+        return !!li.closest('.course-sequence, .tier-courses'); // a course-sequence entry (cross-link, external link, or plain text)
+      }
     );
     if (!items.length) return;
 
     var state = loadMasteryState(mode, slug, items.length);
     var clickState = loadClickState(mode, slug, items.length);
+    // A course-sequence entry with nothing to click (no matching course
+    // page and no external link) has no "open it first" step to require.
+    items.forEach(function (li, i) {
+      if (!li.querySelector('a, button[data-cross-course]')) clickState[i] = true;
+    });
 
     // Roles have an explicit Basic -> Intermediate -> Advanced ladder
     // (role.levels, always in that order); lock a level until every
@@ -521,7 +529,7 @@
     }
 
     items.forEach(function (li, i) {
-      var link = li.querySelector('a');
+      var trigger = li.querySelector('a, button[data-cross-course]');
       var cb = document.createElement('input');
       cb.type = 'checkbox';
       cb.className = 'mastery-check';
@@ -533,8 +541,8 @@
         saveMasteryState(mode, slug, state);
         refresh();
       });
-      if (link) {
-        link.addEventListener('click', function () {
+      if (trigger) {
+        trigger.addEventListener('click', function () {
           if (!clickState[i]) {
             clickState[i] = true;
             saveClickState(mode, slug, clickState);

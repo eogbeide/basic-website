@@ -490,6 +490,9 @@ a {
 
 .course-sequence li {
   margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .course-sequence a,
@@ -503,6 +506,8 @@ a {
   font: inherit;
   cursor: pointer;
   text-align: left;
+  flex: 1;
+  min-width: 0;
 }
 
 .course-sequence a:hover,
@@ -553,6 +558,13 @@ a {
   padding-left: 22px;
   color: #d7d7d7;
   font-size: 14px;
+}
+
+.tier-courses li {
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .tier-bridges {
