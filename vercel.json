@@ -1,5 +1,9 @@
 {
   "redirects": [
+    { "source": "/:path*", "has": [{ "type": "host", "value": "zuyini.co" }], "destination": "https://zuyini.com/:path*", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "zuyini.net" }], "destination": "https://zuyini.com/:path*", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "zuyini.org" }], "destination": "https://zuyini.com/:path*", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "zuyinihq.com" }], "destination": "https://zuyini.com/:path*", "permanent": true },
     { "source": "/", "destination": "/academy/", "permanent": false },
     { "source": "/index.html", "destination": "/academy/", "permanent": false },
     { "source": "/barkerbox-signup", "destination": "/academy/", "permanent": false },
