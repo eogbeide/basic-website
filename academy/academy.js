@@ -363,28 +363,28 @@
     detailEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  function selectItem(slug, updateHash) {
+  function selectItem(slug, updatePath) {
     var item = MODES[currentMode].bySlug[slug];
     if (!item) return;
     currentSlug = slug;
     currentItemName = item.name;
     renderItem(item);
-    if (updateHash) {
-      history.replaceState(null, '', '#' + currentMode + '/' + slug);
+    if (updatePath) {
+      history.pushState(null, '', '/academy/' + currentMode + '/' + slug + '/');
     }
   }
 
-  function showCourse(slug, backTarget, updateHash) {
+  function showCourse(slug, backTarget, updatePath) {
     var course = coursesBySlug[slug];
     if (!course) return;
     detailEl.innerHTML = renderCourse(course, backTarget);
     detailEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    if (updateHash) {
-      history.replaceState(null, '', '#course/' + slug);
+    if (updatePath) {
+      history.pushState(null, '', '/academy/courses/' + slug + '/');
     }
   }
 
-  function setMode(mode, slug, updateHash) {
+  function setMode(mode, slug, updatePath) {
     if (!MODES[mode]) return;
     currentMode = mode;
     currentCategory = ALL_CATEGORIES;
@@ -408,8 +408,8 @@
       showEmptyState();
     }
 
-    if (updateHash) {
-      history.replaceState(null, '', slug ? '#' + mode + '/' + slug : '#' + mode);
+    if (updatePath) {
+      history.pushState(null, '', slug ? '/academy/' + mode + '/' + slug + '/' : '/academy/');
     }
   }
 
@@ -456,9 +456,9 @@
     });
   }
 
-  function routeFromHash() {
-    var parts = location.hash.replace('#', '').split('/');
-    if (parts[0] === 'course' && parts[1]) {
+  function routeFromPath() {
+    var parts = location.pathname.replace(/^\/academy\/?/, '').split('/').filter(Boolean);
+    if (parts[0] === 'courses' && parts[1]) {
       showCourse(parts[1], null, false);
     } else if (parts[0] && MODES[parts[0]]) {
       setMode(parts[0], parts[1], false);
@@ -467,6 +467,6 @@
     }
   }
 
-  window.addEventListener('hashchange', routeFromHash);
-  routeFromHash();
+  window.addEventListener('popstate', routeFromPath);
+  routeFromPath();
 })();

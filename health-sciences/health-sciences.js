@@ -119,7 +119,7 @@
     detailEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  function selectTopic(page, updateHash) {
+  function selectTopic(page, updatePath) {
     var topic = byPage[page];
     if (!topic) return;
     currentPage = page;
@@ -129,18 +129,15 @@
       renderList(searchEl.value.trim());
     }
     renderTopicView(topic);
-    if (updateHash) {
-      history.replaceState(null, '', '#topic/' + page);
+    if (updatePath) {
+      history.pushState(null, '', '/health-sciences/topics/' + page + '/');
     }
   }
 
-  function setCategory(cat, updateHash) {
+  function setCategory(cat) {
     currentCategory = cat;
     categorySelect.value = cat;
     renderList(searchEl.value.trim());
-    if (updateHash) {
-      history.replaceState(null, '', cat === ALL_CATEGORIES ? '#' : '#category/' + encodeURIComponent(cat));
-    }
   }
 
   listEl.addEventListener('click', function (e) {
@@ -152,17 +149,17 @@
   categorySelect.addEventListener('change', function () {
     currentPage = null;
     showEmptyState();
-    setCategory(categorySelect.value, true);
+    setCategory(categorySelect.value);
+    history.pushState(null, '', '/health-sciences/');
   });
 
   searchEl.addEventListener('input', function () {
     renderList(searchEl.value.trim());
   });
 
-  function routeFromHash() {
-    var hash = location.hash.replace('#', '');
-    var parts = hash.split('/');
-    if (parts[0] === 'topic' && parts[1]) {
+  function routeFromPath() {
+    var parts = location.pathname.replace(/^\/health-sciences\/?/, '').split('/').filter(Boolean);
+    if (parts[0] === 'topics' && parts[1]) {
       var page = parseInt(parts[1], 10);
       var topic = byPage[page];
       if (topic) {
@@ -173,18 +170,10 @@
         return;
       }
     }
-    if (parts[0] === 'category' && parts[1]) {
-      var cat = decodeURIComponent(parts[1]);
-      if (CATEGORIES.indexOf(cat) !== -1) {
-        setCategory(cat, false);
-        showEmptyState();
-        return;
-      }
-    }
-    setCategory(ALL_CATEGORIES, false);
+    setCategory(ALL_CATEGORIES);
     showEmptyState();
   }
 
-  window.addEventListener('hashchange', routeFromHash);
-  routeFromHash();
+  window.addEventListener('popstate', routeFromPath);
+  routeFromPath();
 })();

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agent Context, Memory &amp; State | Zuyini Academy Course</title>
+  <meta name="description" content="Engineer agent context and state: runtime context, short- and long-term memory, checkpoints, persistence, retrieval, compaction, privacy, and tenant scopi…" />
+  <link rel="canonical" href="https://zuyini.com/academy/courses/agent-context-memory-state/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Agent Context, Memory &amp; State | Zuyini Academy Course" />
+  <meta property="og:description" content="Engineer agent context and state: runtime context, short- and long-term memory, checkpoints, persistence, retrieval, compaction, privacy, and tenant scopi…" />
+  <meta property="og:url" content="https://zuyini.com/academy/courses/agent-context-memory-state/" />
+  <link rel="stylesheet" href="../../academy.css" />
+  <link rel="stylesheet" href="../../../gate.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="../../../index.html" class="logo">
+      <span class="logo-mark">Z</span>
+      <span>Zuyini Academy</span>
+    </a>
+    <nav class="nav-links">
+      <a href="../../../index.html">Main Site</a>
+      <a href="../../../health-sciences/index.html">Health Sciences</a>
+      <a href="../../../index.html#about">About Manny</a>
+    </nav>
+  </header>
+
+  <section class="academy-hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <p class="section-label">Role-Driven Mastery System</p>
+      <h1>Master the skills the job market is actually hiring for.</h1>
+      <p class="hero-description">Follow a job-market-audited Role Path, move through a discipline end-to-end with a Learning Pathway, or pursue a university-benchmarked Academic Certificate &mdash; each with a Basic &rarr; Intermediate &rarr; Advanced ladder, direct video learning bridges and a capstone proof-of-work project.</p>
+      <div class="hero-stats">
+        <button type="button" class="hero-stat" data-hero-mode="roles">
+          <span class="hero-stat-num" id="hero-stat-roles">123</span>
+          <span class="hero-stat-label">Job-Benchmarked Roles</span>
+        </button>
+        <button type="button" class="hero-stat" data-hero-mode="pathways">
+          <span class="hero-stat-num" id="hero-stat-pathways">16</span>
+          <span class="hero-stat-label">Learning Pathways</span>
+        </button>
+        <button type="button" class="hero-stat" data-hero-mode="certificates">
+          <span class="hero-stat-num" id="hero-stat-certificates">11</span>
+          <span class="hero-stat-label">Academic Certificates</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <main class="app-shell">
+    <aside class="role-panel">
+      <div class="mode-toggle">
+        <button type="button" data-mode="roles" class="active">Roles</button>
+        <button type="button" data-mode="pathways">Pathways</button>
+        <button type="button" data-mode="certificates">Certificates</button>
+      </div>
+      <select id="category-select" class="category-select"></select>
+      <div class="search-box">
+        <input id="search-input" type="text" placeholder="Search roles, e.g. AI Engineer, UX, Finance..." autocomplete="off" />
+      </div>
+      <p class="role-count"><span id="role-count-num">0</span> <span id="role-count-label">items</span></p>
+      <ul id="role-list" class="role-list"></ul>
+    </aside>
+
+    <section class="role-detail" id="role-detail">
+<div class="detail-card"><h2>Agent Context, Memory &amp; State</h2><p class="detail-description">Engineer agent context and state: runtime context, short- and long-term memory, checkpoints, persistence, retrieval, compaction, privacy, and tenant scoping.</p><div class="level-block"><span class="level-badge basic">BASIC</span><ul class="video-links"><li><a href="https://www.youtube.com/watch?v=4GiqzUHD5AA" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>Context Engineering for Agents — LangChain <span class="video-time">(20 min)</span><br><span class="video-why">Write, select, compress, and isolate the context needed at each step.</span></span></a></li><li><a href="https://www.youtube.com/watch?v=6_BcCthVvb8" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>Context Engineering — LangChain + Manus <span class="video-time">(60 min selected)</span><br><span class="video-why">Production patterns for reduction, offloading, isolation, memory, and sub- agents.</span></span></a></li><li><a href="https://www.youtube.com/watch?v=AAgdMhftj8w" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>Agent Framework: Building Blocks — Microsoft <span class="video-time">(30 min)</span><br><span class="video-why">Connects conversation state and memory to enterprise agent workflows.</span></span></a></li></ul></div><div class="level-block"><span class="level-badge intermediate">INTERMEDIATE</span><ul class="video-links"><li><a href="https://www.youtube.com/watch?v=aHCDrAbH_go" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>Building Effective Agents with LangGraph — LangChain<br><span class="video-why">Apply Agent Context, Memory &amp; State through the adjacent capability: Agent Frameworks &amp; Platforms.</span></span></a></li><li><a href="https://www.youtube.com/watch?v=6mQwHqK1I5w" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>MCP, ADK &amp; A2A — Google for Developers<br><span class="video-why">Apply Agent Context, Memory &amp; State through the adjacent capability: Agent Frameworks &amp; Platforms.</span></span></a></li><li><a href="https://www.youtube.com/watch?v=JppYmctp0a8" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>HAX Toolkit Webinar — Microsoft Research<br><span class="video-why">Apply Agent Context, Memory &amp; State through the adjacent capability: AI Experience Engineering.</span></span></a></li></ul></div><div class="level-block"><span class="level-badge advanced">ADVANCED</span><ul class="video-links"><li><a href="https://www.youtube.com/watch?v=UklCxmEvz2w" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>LangGraph Tutorial: Build Your First AI Agent — DataCamp<br><span class="video-why">Extend Agent Context, Memory &amp; State into senior/production practice through Agent Frameworks &amp; Platforms.</span></span></a></li><li><a href="https://www.youtube.com/watch?v=x6g5JutmHXk" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>Agent Service SDK Demo — Microsoft Azure<br><span class="video-why">Extend Agent Context, Memory &amp; State into senior/production practice through AI Experience Engineering.</span></span></a></li><li><a href="https://www.youtube.com/watch?v=kQmXtrmQ5Zg" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>MCP Workshop — Anthropic<br><span class="video-why">Extend Agent Context, Memory &amp; State into senior/production practice through AI Agents.</span></span></a></li></ul></div><div class="capstone-block"><h3>Hands-On Mastery</h3><ul class="video-links"><li><a href="https://www.youtube.com/watch?v=44C8u0CDtSo" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>Getting Started with ADK — Google</span></a></li></ul></div></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Zuyini Academy. Built by Manny Ogbeide.</p>
+  </footer>
+
+  <script src="../../data/data.js"></script>
+  <script src="../../academy.js"></script>
+  <script src="../../../gate.js"></script>
+</body>
+</html>
