@@ -20,6 +20,20 @@
     return level.toLowerCase();
   }
 
+  function renderShareBar(url, title) {
+    var eu = encodeURIComponent(url);
+    var et = encodeURIComponent(title);
+    return (
+      '<div class="share-bar">' +
+      '<span class="share-label">Share</span>' +
+      '<a class="share-btn" href="https://twitter.com/intent/tweet?url=' + eu + '&text=' + et + '" target="_blank" rel="noopener noreferrer" aria-label="Share on X">X</a>' +
+      '<a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=' + eu + '" target="_blank" rel="noopener noreferrer" aria-label="Share on LinkedIn">in</a>' +
+      '<a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=' + eu + '" target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook">f</a>' +
+      '<button type="button" class="share-btn share-copy" data-copy-url="' + escapeHtml(url) + '" aria-label="Copy link">Copy Link</button>' +
+      '</div>'
+    );
+  }
+
   function renderVideo(v) {
     var title = escapeHtml(v.title || 'Watch');
     var url = v.url ? escapeHtml(v.url) : '#';
@@ -67,6 +81,7 @@
     return (
       '<div class="detail-card">' +
       '<h2>' + escapeHtml(role.name) + '</h2>' +
+      renderShareBar('https://zuyini.com/academy/roles/' + slugify(role.name) + '/', role.name + ' | Zuyini Academy') +
       (role.benchmark ? '<p class="detail-benchmark">Benchmark: ' + escapeHtml(role.benchmark) + '</p>' : '') +
       role.levels.map(renderLevel).join('') +
       (bonus
@@ -136,6 +151,7 @@
       '<div class="detail-card">' +
       back +
       '<h2>' + escapeHtml(course.name) + '</h2>' +
+      renderShareBar('https://zuyini.com/academy/courses/' + courseSlug(course.name) + '/', course.name + ' | Zuyini Academy Course') +
       (course.description ? '<p class="detail-description">' + escapeHtml(course.description) + '</p>' : '') +
       levels +
       handsOn +
@@ -166,6 +182,7 @@
     return (
       '<div class="detail-card">' +
       '<h2>' + escapeHtml(pathway.name) + '</h2>' +
+      renderShareBar('https://zuyini.com/academy/pathways/' + slugify(pathway.name) + '/', pathway.name + ' | Zuyini Academy Learning Pathway') +
       (pathway.description ? '<p class="detail-description">' + escapeHtml(pathway.description) + '</p>' : '') +
       (pathway.market_basis ? '<p class="detail-benchmark">Market Basis: ' + escapeHtml(pathway.market_basis) + '</p>' : '') +
       (roleLinks
@@ -218,6 +235,7 @@
     return (
       '<div class="detail-card">' +
       '<h2>' + escapeHtml(cert.name) + '</h2>' +
+      renderShareBar('https://zuyini.com/academy/certificates/' + slugify(cert.name) + '/', cert.name + ' | Zuyini Academy') +
       (cert.description ? '<p class="detail-description">' + escapeHtml(cert.description) + '</p>' : '') +
       (cert.university_benchmark ? '<p class="detail-benchmark">University Curriculum Benchmark: ' + escapeHtml(cert.university_benchmark) + '</p>' : '') +
       tiers +
@@ -435,6 +453,21 @@
     if (backBtn) {
       var parts = backBtn.getAttribute('data-back-to').split('/');
       setMode(parts[0], parts[1], true);
+      return;
+    }
+    var copyBtn = e.target.closest('[data-copy-url]');
+    if (copyBtn) {
+      var copyUrl = copyBtn.getAttribute('data-copy-url');
+      var done = function () {
+        var original = copyBtn.textContent;
+        copyBtn.textContent = 'Copied!';
+        setTimeout(function () { copyBtn.textContent = original; }, 1500);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(copyUrl).then(done, done);
+      } else {
+        done();
+      }
       return;
     }
   });

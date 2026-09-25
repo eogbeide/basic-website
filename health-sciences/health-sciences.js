@@ -44,10 +44,25 @@
     return '<div class="hsa-section">' + heading + body + '</div>';
   }
 
+  function renderShareBar(url, title) {
+    var eu = encodeURIComponent(url);
+    var et = encodeURIComponent(title);
+    return (
+      '<div class="share-bar">' +
+      '<span class="share-label">Share</span>' +
+      '<a class="share-btn" href="https://twitter.com/intent/tweet?url=' + eu + '&text=' + et + '" target="_blank" rel="noopener noreferrer" aria-label="Share on X">X</a>' +
+      '<a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=' + eu + '" target="_blank" rel="noopener noreferrer" aria-label="Share on LinkedIn">in</a>' +
+      '<a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=' + eu + '" target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook">f</a>' +
+      '<button type="button" class="share-btn share-copy" data-copy-url="' + escapeHtml(url) + '" aria-label="Copy link">Copy Link</button>' +
+      '</div>'
+    );
+  }
+
   function renderTopic(topic) {
     return (
       '<div class="detail-card">' +
       '<h2>' + escapeHtml(topic.name) + '</h2>' +
+      renderShareBar('https://zuyini.com/health-sciences/topics/' + topic.page + '/', topic.name + ' | Zuyini Health Sciences Academy') +
       (topic.phase ? '<p class="topic-phase">' + escapeHtml(topic.phase) + '</p>' : '') +
       topic.sections.map(renderSection).join('') +
       '</div>'
@@ -144,6 +159,22 @@
     var li = e.target.closest('li[data-page]');
     if (!li) return;
     selectTopic(parseInt(li.getAttribute('data-page'), 10), true);
+  });
+
+  detailEl.addEventListener('click', function (e) {
+    var copyBtn = e.target.closest('[data-copy-url]');
+    if (!copyBtn) return;
+    var copyUrl = copyBtn.getAttribute('data-copy-url');
+    var done = function () {
+      var original = copyBtn.textContent;
+      copyBtn.textContent = 'Copied!';
+      setTimeout(function () { copyBtn.textContent = original; }, 1500);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(copyUrl).then(done, done);
+    } else {
+      done();
+    }
   });
 
   categorySelect.addEventListener('change', function () {
