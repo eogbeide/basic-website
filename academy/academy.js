@@ -65,6 +65,47 @@
     );
   }
 
+  var ROLE_GUIDES_BY_NAME = {};
+  (typeof ROLE_GUIDES_DATA !== 'undefined' ? ROLE_GUIDES_DATA : []).forEach(function (g) {
+    ROLE_GUIDES_BY_NAME[g.role] = g;
+  });
+
+  function renderRoleGuide(role) {
+    var guide = ROLE_GUIDES_BY_NAME[role.name];
+    if (!guide) return '';
+    var overview = (guide.overview || []).map(function (p) {
+      return '<p>' + escapeHtml(p) + '</p>';
+    }).join('');
+    var tools = (guide.tools || []).length
+      ? '<div class="guide-block"><h3>Tools of the Trade</h3><ul class="guide-list">' +
+        guide.tools.map(function (t) { return '<li>' + escapeHtml(t) + '</li>'; }).join('') +
+        '</ul></div>'
+      : '';
+    var readiness = (guide.readinessSignals || []).length
+      ? '<div class="guide-block"><h3>How to Know You&rsquo;re Ready</h3><ul class="guide-list">' +
+        guide.readinessSignals.map(function (s) { return '<li>' + escapeHtml(s) + '</li>'; }).join('') +
+        '</ul></div>'
+      : '';
+    var questions = (guide.interviewQuestions || []).length
+      ? '<div class="guide-block"><h3>Typical Interview Questions</h3><ul class="guide-list">' +
+        guide.interviewQuestions.map(function (q) { return '<li>' + escapeHtml(q) + '</li>'; }).join('') +
+        '</ul></div>'
+      : '';
+    var faq = (guide.faqs || []).length
+      ? '<div class="guide-block guide-faq"><h3>FAQ</h3>' +
+        guide.faqs.map(function (f) {
+          return '<div class="guide-faq-item"><p class="guide-faq-q">' + escapeHtml(f.q) + '</p><p class="guide-faq-a">' + escapeHtml(f.a) + '</p></div>';
+        }).join('') +
+        '</div>'
+      : '';
+    return (
+      '<div class="role-guide">' +
+      '<div class="guide-overview">' + overview + '</div>' +
+      tools + questions + readiness + faq +
+      '</div>'
+    );
+  }
+
   function renderRole(role) {
     var bonus = (role.bonus || [])
       .map(function (b) {
@@ -83,6 +124,7 @@
       '<h2>' + escapeHtml(role.name) + '</h2>' +
       renderShareBar('https://zuyini.com/academy/roles/' + slugify(role.name) + '/', role.name + ' | Zuyini Academy') +
       (role.benchmark ? '<p class="detail-benchmark">Benchmark: ' + escapeHtml(role.benchmark) + '</p>' : '') +
+      renderRoleGuide(role) +
       role.levels.map(function (lvl, i) { return renderLevel(lvl, i); }).join('') +
       (bonus
         ? '<div class="cross-links-block"><h3>Bonus Quick Explainer</h3><ul class="video-links">' + bonus + '</ul></div>'

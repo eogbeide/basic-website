@@ -1,0 +1,225 @@
+[
+  {
+    "role": "AI Engineer",
+    "overview": [
+      "“AI Engineer” is one of the fastest-growing titles in software, and also one of the most inconsistently defined — postings under the same name can mean anything from “prompt-tune a Slack bot” to “build and operate production agent systems touching real customers and real money.” At companies actually shipping AI products, the role sits between traditional software engineering and applied ML: you're not training foundation models from scratch, but you own everything from the API call to the user-facing outcome — context design, retrieval, tool and agent orchestration, evaluation, and the unglamorous production work of keeping latency, cost and failure rates in check once real users show up.",
+      "The benchmark behind this path — current Applied AI Engineer postings at OpenAI and Anthropic — reflects that split deliberately. Both companies hire engineers who can build production software and reason about model behavior, not researchers who happen to write code. That's the center of gravity for the title across the industry right now: fewer companies are hiring pure “prompt engineers,” and more are hiring engineers who can take an LLM from a notebook to a system with retries, evals and an on-call rotation.",
+      "What makes the role hard to learn from tutorials alone is that most of its failure modes only show up in production: a RAG pipeline that works great on ten test queries and falls apart at scale, an agent that loops forever because nobody defined a stopping condition, a tool integration that quietly breaks on the 5% of inputs nobody thought to test. The mastery path below is built around that reality — Basic gets you fluent with the primitives, Intermediate has you build the systems, and Advanced is where you learn to keep them alive."
+    ],
+    "tools": [
+      "Python (typed services, e.g. FastAPI)",
+      "OpenAI Responses API / Agents SDK, Anthropic Claude Agent SDK",
+      "Model Context Protocol (MCP) for tool integration",
+      "A vector store (pgvector, Pinecone or similar) for retrieval",
+      "An eval framework or harness (custom, or tools like Braintrust)",
+      "Tracing/observability (OpenTelemetry, LangSmith or equivalent)",
+      "Standard engineering tooling: git, CI/CD, containers"
+    ],
+    "interviewQuestions": [
+      "Walk me through how you'd design context for an agent that needs to reference a 200-page policy document without blowing the context window.",
+      "A user reports the agent gave a confidently wrong answer. How do you debug it, and how do you prevent that failure class from recurring?",
+      "How would you decide between a single well-prompted call, a RAG pipeline, and a fine-tuned model for a given task?",
+      "Describe an eval set you'd build before shipping a customer-facing agent. What does “good enough to ship” look like?",
+      "How do you control cost and latency when an agent might make several tool calls per user turn?",
+      "What's your approach to giving an agent access to a destructive action, like issuing a refund, safely?",
+      "How do you handle a tool or API dependency going down mid-conversation?"
+    ],
+    "readinessSignals": [
+      "You can explain, without hand-waving, when retrieval beats fine-tuning and when it doesn't.",
+      "You've built and broken at least one agent, and can describe exactly why it broke.",
+      "You have an eval set you trust more than your own judgment for a given task.",
+      "You can read a trace from a failed agent run and pinpoint where it went wrong.",
+      "You've had to make a real latency/cost/quality tradeoff and can defend the call you made."
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a machine learning or research background to become an AI Engineer?",
+        "a": "No. Most current postings for this title — including the OpenAI and Anthropic Applied AI roles this path benchmarks against — are software engineering roles first. You need to be a strong engineer who understands how LLMs behave in practice, not someone who can derive backpropagation."
+      },
+      {
+        "q": "Is “AI Engineer” the same as “Machine Learning Engineer”?",
+        "a": "No, though they overlap. ML Engineers typically own the model itself: training, fine-tuning and serving infrastructure. AI Engineers typically build applications and agents on top of existing, often third-party, models — the emphasis is on context, orchestration and product outcomes rather than model training."
+      },
+      {
+        "q": "How long does it realistically take to become job-ready?",
+        "a": "If you already write production code, 3–6 months of focused work — building real agents, breaking them, and fixing them — is a realistic timeline to interview-ready. If you're new to software engineering, budget significantly longer; the AI-specific skills sit on top of engineering fundamentals, not instead of them."
+      },
+      {
+        "q": "What's the biggest gap between tutorial-level AI projects and being job-ready?",
+        "a": "Evaluation and failure handling. Tutorials show the happy path; interviews and real jobs test whether you know what to do when the model is wrong, the tool call fails, or the user does something you didn't anticipate."
+      }
+    ]
+  },
+  {
+    "role": "Data Analyst",
+    "overview": [
+      "A Data Analyst answers questions a company didn't know it needed to ask until the data made it obvious. At Amazon BI/Data Analyst level and comparable roles, the job isn't “make a dashboard” — it's owning a business question end to end: tracking down where the real numbers live (rarely where the ticket says), deciding what a fair comparison actually looks like, writing the SQL to prove it, and then defending the answer to a room of people who disagree with it.",
+      "The skill that separates a junior analyst from a senior one isn't SQL syntax — most job-ready candidates can already write a join. It's judgment: knowing when a metric is misleading because of survivorship bias, seasonality or a broken instrumentation event; knowing when “the data shows X” is really “the data shows X, but only for the 20% of users who did Y first.” Advanced analytics roles increasingly expect comfort with Python or R for anything a spreadsheet or BI tool can't do cleanly — cohort analysis, light statistical testing, or automating a report that used to take a day to rebuild every week.",
+      "This path is built around that judgment gap. Each SQL/analytics skill is paired with an explicit discussion of when not to trust it, and the capstone forces you to defend a “decision-grade” analysis the way you'd have to in a real business review — not just present a chart, but state what decision it should change and what would make you wrong."
+    ],
+    "tools": [
+      "SQL (the real skill, not just the syntax)",
+      "A BI tool: Looker, Tableau, or a QuickSight-style tool",
+      "Python or R for anything beyond spreadsheet reach (pandas, basic stats)",
+      "Excel/Sheets for fast iteration and stakeholder-facing summaries",
+      "A shared metrics layer or semantic model, so numbers don't drift between teams"
+    ],
+    "interviewQuestions": [
+      "A metric went up 20% overnight. Walk me through how you'd figure out if that's real.",
+      "How do you decide whether a change in a metric is signal or noise?",
+      "Write a SQL query to find customers who churned in the month after a price change.",
+      "Tell me about a time your analysis contradicted what a stakeholder wanted to hear. What did you do?",
+      "How do you handle a dataset you don't trust?",
+      "What makes a dashboard actually get used, versus quietly ignored after week one?"
+    ],
+    "readinessSignals": [
+      "You can write a SQL query with multiple joins and window functions without looking up syntax every five minutes.",
+      "You've caught at least one metric that was wrong because of how it was instrumented, not how it was calculated.",
+      "You can explain a confidence interval to someone who doesn't want to hear the word “statistics.”",
+      "You've had an analysis change an actual decision, not just get nodded at in a meeting."
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a degree in statistics or a related field?",
+        "a": "No. Working analysts come from a mix of backgrounds. What matters is fluency with SQL, comfort translating a vague business question into a specific query, and enough statistical literacy to avoid basic mistakes like confusing correlation with causation or ignoring sample size."
+      },
+      {
+        "q": "Data Analyst vs. Data Scientist — what's the real difference?",
+        "a": "In practice, Data Analysts answer defined business questions with existing data and tools; Data Scientists more often build the predictive models, experiments and causal-inference methods analysts then use. The lines blur constantly and titles are used inconsistently across companies — read the actual job description, not just the title."
+      },
+      {
+        "q": "Is SQL enough, or do I need Python?",
+        "a": "SQL is non-negotiable. Python or R is increasingly expected for anything a BI tool can't do cleanly — cohort analysis, forecasting, or automating repetitive reporting. You don't need to be a software engineer, but “I can't do that in Python” is a limiting answer in most current analyst interviews."
+      }
+    ]
+  },
+  {
+    "role": "Data Scientist",
+    "overview": [
+      "Data Science job postings promise a lot — machine learning, experimentation, “business impact” — and deliver a job that's mostly about being right when it's expensive to be wrong. At Amazon Twitch/Prime Video and Airbnb Trust-style roles, a Data Scientist is the person a team trusts to say “this change actually caused the improvement” or “this forecast is reliable enough to plan hiring around,” and to be honest when the answer is “we don't know yet.”",
+      "The center of the job is causal reasoning under uncertainty: designing an A/B test that actually isolates the effect you care about, recognizing when an observational analysis is contaminated by confounders a naive model would miss, and knowing the difference between a model that's accurate and one that's merely fitted to noise. Forecasting, causal ML and predictive modeling all matter, but they're tools in service of that judgment — not the job itself.",
+      "The mastery path pairs each technical skill (experimentation, causal inference, forecasting, applied ML) with the failure modes that make it lie to you, and the capstone requires querying and cleaning real messy data, designing both an A/B test and an observational analysis, and defending which one you'd actually trust for the decision at hand."
+    ],
+    "tools": [
+      "SQL and Python (pandas, scikit-learn or similar)",
+      "Experimentation platforms and A/B test design",
+      "Causal inference methods (diff-in-diff, propensity matching, uplift modeling)",
+      "Forecasting tools and light time-series modeling",
+      "Notebooks for exploration, plus production-quality code for anything that ships"
+    ],
+    "interviewQuestions": [
+      "Design an A/B test for a feature where network effects make users interfere with each other's outcomes.",
+      "Your model's offline accuracy looks great but online performance disappointed. What are the likely explanations?",
+      "How do you tell the difference between a real causal effect and a confound in observational data?",
+      "A stakeholder wants to ship based on a test that hasn't reached significance. How do you handle that conversation?",
+      "Walk me through how you'd forecast a metric that has strong seasonality and a recent structural break.",
+      "How do you decide a model is ready to influence a real decision, versus still exploratory?"
+    ],
+    "readinessSignals": [
+      "You can explain why a randomized experiment beats an observational study for a specific decision, and when it can't.",
+      "You've built a model whose real value was in the analysis and honest caveats, not just the accuracy number.",
+      "You can defend a forecast's uncertainty range as confidently as the forecast itself.",
+      "You've told a stakeholder “we don't have enough evidence yet” and made it land as a rigorous answer, not a non-answer."
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a PhD to become a Data Scientist?",
+        "a": "No, though a strong quantitative background (stats, econ, CS, or a related field) helps. Most current industry roles, including the ones this path benchmarks against, prioritize applied rigor — clean experimentation, honest uncertainty, defensible modeling choices — over academic research credentials."
+      },
+      {
+        "q": "How much machine learning do I actually need to know?",
+        "a": "Enough to build and evaluate standard models (regression, tree ensembles, basic causal ML) and know their failure modes. Deep learning and generative AI expertise matter for some roles but are not the default expectation for most Data Scientist postings — that's closer to a Machine Learning Engineer or AI Research role."
+      },
+      {
+        "q": "What's the biggest mistake candidates make in Data Scientist interviews?",
+        "a": "Jumping straight to a modeling technique before framing the decision the analysis is supposed to inform. Interviewers are usually testing whether you can connect a business question to the right method — not whether you know the most methods."
+      }
+    ]
+  },
+  {
+    "role": "Machine Learning Engineer",
+    "overview": [
+      "A Machine Learning Engineer builds and operates the systems that turn a model into something that actually runs in production, at scale, without falling over. At Google Search Personalization, OpenAI multicloud, and Apple ML-style roles, the job spans the full lifecycle: reproducible training pipelines, offline evaluation that predicts real-world behavior, serving infrastructure that meets latency and cost targets, and the monitoring that tells you when a model has quietly gone stale.",
+      "The distinction that trips up a lot of candidates: an ML Engineer is not primarily a researcher inventing new architectures, and not primarily a data scientist answering one-off business questions. The job is closer to a software engineer who specializes in the parts of the stack that are unique to ML — data pipelines that feed training, feature stores, model versioning, A/B-testing a model change safely, and debugging why a ranking model's live performance diverged from its offline metrics.",
+      "The mastery path treats production readiness as the actual bar, not an afterthought: BASIC covers core ML and reproducible training, INTERMEDIATE covers ranking/retrieval systems and evaluation baselines, and ADVANCED is about serving, monitoring and the operational judgment that keeps a live ML system healthy after launch."
+    ],
+    "tools": [
+      "Python, plus a deep learning framework (PyTorch is the current default)",
+      "Experiment tracking and reproducible training pipelines",
+      "Feature stores and data pipelines feeding training and serving",
+      "Model serving infrastructure (batch and low-latency online serving)",
+      "Offline/online evaluation, plus monitoring for drift and staleness"
+    ],
+    "interviewQuestions": [
+      "A ranking model's offline metrics improved but the online A/B test showed no lift. How do you investigate?",
+      "How do you design a training pipeline so an experiment is fully reproducible six months later?",
+      "Walk me through how you'd detect and respond to feature or label drift in a live model.",
+      "How would you decide between retraining a model on a schedule versus triggering retraining from a monitored signal?",
+      "Describe how you'd safely roll out a new model version to production without risking a bad user experience.",
+      "What's your approach to debugging a training/serving skew — the model behaves differently online than in training?"
+    ],
+    "readinessSignals": [
+      "You've shipped a model change through a real (or realistic) online evaluation, not just an offline notebook metric.",
+      "You can explain training/serving skew and at least one way you've prevented or caught it.",
+      "You have an opinion, backed by a real tradeoff, on batch versus online serving for a given use case.",
+      "You can describe a model that degraded in production and how you detected it before it became a bigger problem."
+    ],
+    "faqs": [
+      {
+        "q": "How is this different from a Data Scientist role?",
+        "a": "Data Scientists typically focus on analysis, experimentation and answering a specific business question. ML Engineers focus on building and operating the production systems — pipelines, serving, monitoring — that keep a model running reliably at scale. Many people move between the two over a career."
+      },
+      {
+        "q": "Do I need deep expertise in model architecture and research papers?",
+        "a": "Less than you'd think for most industry roles. You need to understand the models you're serving well enough to debug them, but the day-to-day differentiator is production engineering discipline — reproducibility, evaluation rigor, and operational judgment — not novel architecture design."
+      },
+      {
+        "q": "What's a realistic path in if I'm coming from software engineering rather than ML?",
+        "a": "Strong software engineers often have an easier path than expected: the production-systems half of the job (pipelines, serving, monitoring, CI/CD) is close to existing skills. The gap to close is ML-specific evaluation and failure-mode literacy — which is exactly what the Intermediate/Advanced levels of this path target."
+      }
+    ]
+  },
+  {
+    "role": "Cloud / Platform Engineer",
+    "overview": [
+      "A Cloud/Platform Engineer builds the infrastructure other engineers build on top of — and is judged less by any single system they ship than by how much friction they remove for everyone else. At companies running large-scale AI/compute infrastructure, like OpenAI's Cloud and Compute Infrastructure roles, the job increasingly means designing a “golden path”: a self-service platform where application teams can provision what they need safely, without filing a ticket and waiting a week.",
+      "That framing matters because it changes what “good” looks like. A platform engineer isn't rewarded for hand-crafting one perfect server; they're rewarded for a Kubernetes cluster, a Terraform module, or an internal developer platform that a hundred other engineers use correctly by default, because the safe path is also the easy path. That means security, cost control and reliability have to be built into the paved road itself — not bolted on after someone misconfigures something.",
+      "The mastery path reflects that shift from single systems to platforms: BASIC covers core cloud/network architecture and infrastructure-as-code, INTERMEDIATE covers Kubernetes and reusable provisioning, and ADVANCED is about the self-service golden path itself — templates, guardrails and the operational model that lets a platform scale to an organization instead of a single team."
+    ],
+    "tools": [
+      "A major cloud provider (AWS, GCP or Azure) and its core compute/network primitives",
+      "Infrastructure as code: Terraform or equivalent",
+      "Kubernetes for container orchestration at scale",
+      "CI/CD pipelines and internal developer platform tooling",
+      "Observability and cost-management tooling"
+    ],
+    "interviewQuestions": [
+      "How would you design a self-service platform so teams provision infrastructure correctly without needing a review every time?",
+      "Walk me through how you'd design network segmentation and access controls for a multi-team cloud environment.",
+      "A service is intermittently timing out under load. How do you diagnose whether it's the application, the network, or the platform?",
+      "How do you balance giving teams autonomy with keeping cost and security under control?",
+      "Describe how you'd roll out a breaking platform change (e.g., a Kubernetes upgrade) across many teams' workloads safely.",
+      "What's your approach to infrastructure drift — when the real environment no longer matches what's in code?"
+    ],
+    "readinessSignals": [
+      "You've built infrastructure as code that someone other than you has used successfully, without your help.",
+      "You can explain a real incident where a platform guardrail (or the lack of one) mattered.",
+      "You have a clear opinion on where to draw the line between platform-provided defaults and team-level flexibility.",
+      "You can reason about cost, security and reliability tradeoffs together, not as three separate conversations."
+    ],
+    "faqs": [
+      {
+        "q": "Is this the same as being a DevOps Engineer or SRE?",
+        "a": "There's real overlap, but Platform Engineering tends to emphasize building the self-service systems other engineers use (the paved road itself), while DevOps/SRE roles often emphasize operating and being on-call for production reliability. Many organizations blend the two, especially outside the largest tech companies."
+      },
+      {
+        "q": "Do I need deep networking knowledge, or is cloud console experience enough?",
+        "a": "Console familiarity isn't enough on its own. You need working knowledge of the underlying networking, security and compute concepts the console is abstracting — because when something breaks (and it will), you're debugging the real system underneath, not the dashboard."
+      },
+      {
+        "q": "How important is Kubernetes specifically?",
+        "a": "Very common at this scale of infrastructure, but the underlying skill — designing systems that are reliable, secure and usable by teams who aren't infrastructure experts — transfers across orchestration tools. Don't over-index on one tool at the expense of that judgment."
+      }
+    ]
+  }
+]
