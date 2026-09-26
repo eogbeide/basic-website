@@ -300,7 +300,7 @@
 
   function renderCertificate(cert) {
     var tiers = (cert.tiers || [])
-      .map(function (t) {
+      .map(function (t, tierIndex) {
         var courses = (t.courses || [])
           .map(function (c) { return renderCourseListItem(c); })
           .join('');
@@ -314,7 +314,7 @@
           })
           .join('');
         return (
-          '<div class="tier-block">' +
+          '<div class="tier-block" data-level-index="' + tierIndex + '">' +
           '<p class="tier-label">' + escapeHtml(t.tier) + '</p>' +
           (courses ? '<ul class="tier-courses">' + courses + '</ul>' : '') +
           (bridges ? '<p class="tier-bridges-label">Bridge Topics</p><ul class="tier-bridges">' + bridges + '</ul>' : '') +
@@ -655,8 +655,21 @@
         : '');
   }
 
+  // Which catalogs get progress tracking, and -- for the ones with a real
+  // Basic/Intermediate/Advanced-style tier structure -- what the tier
+  // wrapper/badge/intro selectors are called in that catalog's markup.
+  // Pathways and Skill Tracks have no tier concept (a flat course
+  // sequence, or a mastery ladder that isn't marked up the same way), so
+  // they get the quick-facts/CTA header but no tier blocks or "Recommended
+  // after ..." hints -- just "Start with: X" / "Continue: Y".
+  var TIER_CONFIG = {
+    roles: { block: '.level-block', badge: '.level-badge', intro: '.level-intro', unit: 'levels' },
+    interview: { block: '.level-block', badge: '.level-badge', intro: '.level-intro', unit: 'levels' },
+    certificates: { block: '.tier-block', badge: '.tier-label', intro: null, unit: 'tiers' },
+  };
+
   function attachMasteryTracking(mode, slug) {
-    if (mode !== 'roles' && mode !== 'pathways' && mode !== 'certificates') return;
+    if (mode !== 'roles' && mode !== 'pathways' && mode !== 'certificates' && mode !== 'interview' && mode !== 'skills') return;
     var card = detailEl.querySelector('.detail-card');
     var h2 = card && card.querySelector('h2');
     if (!card || !h2) return;
@@ -683,15 +696,14 @@
       if (!li.querySelector('a, button[data-cross-course]')) clickState[i] = true;
     });
 
-    // Roles have an explicit Basic -> Intermediate -> Advanced ladder
-    // (role.levels, always in that order). Every tier stays open and
-    // clickable -- an experienced learner can jump straight to Advanced --
-    // but a tier that follows an incomplete one gets a non-blocking
-    // "Recommended after ..." hint rather than a hard lock, so the site's
-    // most advanced content is never hidden from a first-time visitor.
-    var levelBlocks = mode === 'roles' ? Array.prototype.slice.call(scopeEl.querySelectorAll('.level-block')) : [];
+    // Every tier stays open and clickable -- an experienced learner can
+    // jump straight to Advanced -- but a tier that follows an incomplete
+    // one gets a non-blocking "Recommended after ..." hint rather than a
+    // hard lock, so the site's most advanced content is never hidden.
+    var tierConf = TIER_CONFIG[mode];
+    var levelBlocks = tierConf ? Array.prototype.slice.call(scopeEl.querySelectorAll(tierConf.block)) : [];
     var itemLevelIndex = items.map(function (li) {
-      var block = li.closest && li.closest('.level-block');
+      var block = tierConf && li.closest && li.closest(tierConf.block);
       return block ? parseInt(block.getAttribute('data-level-index'), 10) : -1;
     });
 
@@ -699,16 +711,38 @@
     badge.className = 'mastery-badge';
     h2.insertAdjacentElement('afterend', badge);
 
-    var roleHeader = mode === 'roles' ? buildRoleQuickFacts() : null;
+    var progressHeader = buildQuickFacts();
 
-    function buildRoleQuickFacts() {
+    // Finds the specific lesson label for one trackable item: the
+    // competency/skill-block title immediately before its <ul>/<ol> (not
+    // just "the nearest .competency-title", since several video items can
+    // share one wrapping .competency block), falling back to the link's
+    // own visible text with any trailing " — Channel" suffix stripped.
+    function itemDisplayLabel(li) {
+      if (!li) return 'this lesson';
+      var list = li.closest('ul, ol');
+      var sib = list && list.previousElementSibling;
+      while (sib) {
+        if (sib.classList && sib.classList.contains('competency-title')) return sib.textContent;
+        sib = sib.previousElementSibling;
+      }
+      var link = li.querySelector('a, button');
+      if (!link) return 'this lesson';
+      var spans = link.querySelectorAll('span');
+      var raw = spans.length ? spans[spans.length - 1].textContent : link.textContent;
+      raw = (raw.split('—')[0] || raw).trim();
+      return raw || 'this lesson';
+    }
+
+    function buildQuickFacts() {
       var panel = document.createElement('div');
       panel.className = 'role-quickfacts';
 
       var factsRow = document.createElement('div');
       factsRow.className = 'role-quickfacts-row';
       var hasCapstone = !!scopeEl.querySelector('.capstone-block');
-      var factTexts = [items.length + ' lesson' + (items.length === 1 ? '' : 's'), levelBlocks.length + ' levels'];
+      var factTexts = [items.length + ' lesson' + (items.length === 1 ? '' : 's')];
+      if (levelBlocks.length) factTexts.push(levelBlocks.length + ' ' + tierConf.unit);
       if (hasCapstone) factTexts.push('1 capstone project');
       factTexts.forEach(function (t) {
         var span = document.createElement('span');
@@ -718,8 +752,8 @@
       });
       panel.appendChild(factsRow);
 
-      var intros = levelBlocks
-        .map(function (b) { var p = b.querySelector('.level-intro'); return p ? p.textContent : ''; })
+      var intros = (tierConf && tierConf.intro ? levelBlocks : [])
+        .map(function (b) { var p = b.querySelector(tierConf.intro); return p ? p.textContent : ''; })
         .filter(Boolean);
       if (intros.length) {
         var ul = document.createElement('ul');
@@ -751,19 +785,20 @@
       return { cta: cta };
     }
 
-    function updateRoleCta() {
-      if (!roleHeader) return;
+    function updateCta() {
       var checkedCount = state.filter(Boolean).length;
-      var firstLevelLabel = levelBlocks.length ? levelBlocks[0].querySelector('.level-badge').textContent : 'Basic';
-      if (checkedCount === 0) {
-        roleHeader.cta.textContent = 'Start ' + firstLevelLabel + ' → Lesson 1';
-      } else if (checkedCount < items.length) {
-        var nextIndex = state.findIndex(function (v) { return !v; });
-        var nextItem = nextIndex >= 0 ? items[nextIndex] : null;
-        var competencyTitle = nextItem && nextItem.closest('.competency') && nextItem.closest('.competency').querySelector('.competency-title');
-        roleHeader.cta.textContent = 'Continue: ' + (competencyTitle ? competencyTitle.textContent : 'next lesson');
+      if (checkedCount >= items.length) {
+        progressHeader.cta.textContent = scopeEl.querySelector('.capstone-block') ? 'Review your capstone' : 'All lessons complete';
+        return;
+      }
+      var nextIndex = state.findIndex(function (v) { return !v; });
+      if (checkedCount === 0 && levelBlocks.length) {
+        var firstBadge = levelBlocks[0].querySelector(tierConf.badge);
+        progressHeader.cta.textContent = 'Start ' + (firstBadge ? firstBadge.textContent : '') + ' → Lesson 1';
+      } else if (checkedCount === 0) {
+        progressHeader.cta.textContent = 'Start with: ' + itemDisplayLabel(items[0]);
       } else {
-        roleHeader.cta.textContent = scopeEl.querySelector('.capstone-block') ? 'Review your capstone' : 'All lessons complete';
+        progressHeader.cta.textContent = 'Continue: ' + itemDisplayLabel(items[nextIndex]);
       }
     }
 
@@ -781,14 +816,14 @@
         if (!recommended && !banner) {
           banner = document.createElement('p');
           banner.className = 'level-lock-banner';
-          var prevBadge = levelBlocks[levelIdx - 1].querySelector('.level-badge');
+          var prevBadge = levelBlocks[levelIdx - 1].querySelector(tierConf.badge);
           var iconSpan = document.createElement('span');
           iconSpan.className = 'level-lock-icon';
           iconSpan.setAttribute('aria-hidden', 'true');
           iconSpan.textContent = '★';
           banner.appendChild(iconSpan);
           banner.appendChild(document.createTextNode(
-            ' Recommended after ' + (prevBadge ? prevBadge.textContent : 'the previous level') + ' — every lesson below is still open.'
+            ' Recommended after ' + (prevBadge ? prevBadge.textContent : 'the previous tier') + ' — every lesson below is still open.'
           ));
           block.insertBefore(banner, block.firstChild);
         } else if (recommended && banner) {
@@ -801,7 +836,7 @@
     function refresh() {
       computeLevelRecommendations();
       updateMasteryBadge(badge, state.filter(Boolean).length, items.length);
-      updateRoleCta();
+      updateCta();
       items.forEach(function (li, i) {
         var cb = li.querySelector('.mastery-check');
         if (!cb) return;
