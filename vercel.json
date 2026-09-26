@@ -15,6 +15,7 @@
     { "source": "/barkerbox-signup", "destination": "/academy/", "permanent": false },
     { "source": "/barkerbox-signup/:path*", "destination": "/academy/", "permanent": false },
     { "source": "/interactive_event", "destination": "/academy/", "permanent": false },
-    { "source": "/interactive_event/:path*", "destination": "/academy/", "permanent": false }
+    { "source": "/interactive_event/:path*", "destination": "/academy/", "permanent": false },
+    { "source": "/academy/roles/ai-technical-program-manager/", "destination": "/academy/roles/technical-program-manager-ai-ml/", "permanent": true }
   ]
 }

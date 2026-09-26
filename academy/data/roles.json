@@ -1750,44 +1750,44 @@
     "category": "AI Evaluation, Reliability & Safety Engineering"
   },
   {
-    "name": "AI Technical Program Manager",
-    "benchmark": "OpenAI Industrial Compute + Anthropic Infrastructure / Research / Safeguards TPM roles (current Sep 2026) Market refresh: AI infrastructure capacity, compute/network/storage/power, demand forecasting and allocation, integrated critical paths, eval/SLO/safety gates, supplier/NPI/commissioning readiness, source-of-truth dashboards and executive operating cadence.",
-    "capstone": "Run a frontier-AI infrastructure or launch program from demand signal to operational handoff: translate training/inference demand into compute, network, storage, power and site scenarios; define assumptions, confidence and constrained-allocation choices; map architecture and interfaces; build an integrated master plan across engineering, sourcing/NPI, deployment, commissioning and operations; create a source-of-truth dashboard for milestones, dependencies, utilization, headroom, cost and capacity risk; define eval/SLO/safety/security gates, rollback and incident criteria; run a launch-readiness review and one capacity/supply disruption drill; finish with an executive decision memo tied to measurable business outcomes.",
-    "rubric": "Demonstrate credible architecture fluency and scenario assumptions; defend capacity/allocation and critical-path decisions; show a clean source of truth, risk/decision logs and accountable owners; use eval/reliability/safety evidence for launch gates; quantify utilization, headroom, cost, forecast error and delivery risk; cover partner/vendor and operational readiness; show mitigation/rollback logic; communicate uncertainty and recommendations crisply to engineers and executives.",
+    "name": "Technical Program Manager, AI/ML",
+    "benchmark": "Meta Technical Program Manager, AI/ML + OpenAI/Anthropic/Google AI-program signals (current Sep 2026) Current bar: ML lifecycle and architecture fluency; end-to-end AI/ML product programs; model productionization; experimentation/evals; training and inference capacity; roadmap, dependencies and risk; responsible AI; measurable impact and executive communication.",
+    "capstone": "Run an end-to-end AI/ML program from ambiguous opportunity to production launch: define user/business outcomes and ML success metrics; map data, training, inference and serving architecture; write functional requirements and acceptance criteria; create roadmap, milestones, dependencies and resource plan; design offline/online evals and an experiment; plan capacity, SLOs, cost and rollout; maintain RAID/decision logs; complete responsible-AI and security reviews; then lead launch readiness and an executive business review.",
+    "rubric": "Show technical credibility across the ML lifecycle; trace goals to requirements, metrics and milestones; defend experiment/eval design; manage critical paths and cross-team dependencies; quantify capacity, latency, quality, cost and business impact; surface risks early; demonstrate responsible-AI controls and rollback logic; and communicate decisions crisply to engineering, product, data science and executives.",
     "levels": [
       {
         "level": "BASIC",
-        "intro": "Build technical depth and execution control for AI systems",
+        "intro": "Build ML-systems fluency and turn ambiguous goals into an executable program",
         "competencies": [
           {
-            "title": "AI infrastructure + distributed-systems architecture",
-            "coverage": "Systems Architecture & System Design / Distributed Systems",
+            "title": "AI/ML systems architecture + model lifecycle",
+            "coverage": "Models / data / training / inference / MLOps / distributed systems",
             "videos": [
               {
-                "title": "AWS re:Invent 2025",
-                "url": "https://www.youtube.com/watch?v=_RAFKrdTHQQ",
-                "channel": "How Customers Build AI at Scale"
+                "title": "Intro to Large Language Models",
+                "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+                "channel": "Andrej Karpathy"
               },
               {
-                "title": "Lecture 1 - MIT 6.824",
-                "url": "https://www.youtube.com/watch?v=cQP8WApzIQQ",
-                "channel": "Distributed Systems"
+                "title": "Introduction to MLOps",
+                "url": "https://www.youtube.com/watch?v=6gdrwFMaEZ0",
+                "channel": "Google Cloud"
               }
             ]
           },
           {
-            "title": "Requirements, lifecycle + integrated execution plans",
-            "coverage": "Program, Risk, Dependency & Vendor Management",
+            "title": "Requirements, roadmaps + integrated execution",
+            "coverage": "Program framing / functional requirements / milestones / dependencies / critical path",
             "videos": [
               {
-                "title": "NASA S3VI",
+                "title": "Fundamentals of Systems Engineering",
                 "url": "https://www.youtube.com/watch?v=ZGbleM2XyrI",
-                "channel": "Fundamentals of Systems Engineering"
+                "channel": "NASA"
               },
               {
-                "title": "NASA S3VI",
+                "title": "Project Lifecycle Reviews",
                 "url": "https://www.youtube.com/watch?v=fbUStXvPTZE",
-                "channel": "Project Lifecycle Reviews"
+                "channel": "NASA"
               }
             ]
           }
@@ -1795,37 +1795,37 @@
       },
       {
         "level": "INTERMEDIATE",
-        "intro": "Plan constrained capacity and gate launches with evidence",
+        "intro": "Drive model productionization with measurable quality, experiments and resource constraints",
         "competencies": [
           {
-            "title": "Capacity, resource + scenario planning",
-            "coverage": "Forecasting & Decision Science / AI Portfolio Planning",
+            "title": "Experimentation, evals + model quality gates",
+            "coverage": "Offline/online metrics / golden sets / A-B tests / acceptance criteria / regression gates",
             "videos": [
               {
-                "title": "AWS re:Invent",
-                "url": "https://www.youtube.com/watch?v=TyFMsx9PVeM",
-                "channel": "Managing EC2 Capacity & Availability"
+                "title": "Practical Evaluation Systems",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
               },
               {
-                "title": "WEKA / Meta / L...",
-                "url": "https://www.youtube.com/watch?v=sKQdSRmLBGE",
-                "channel": "GPU Capacity & Cost Optimization"
+                "title": "AI Experimentation: Quality, Cost + Latency",
+                "url": "https://www.youtube.com/watch?v=LzMiAXDkLwY",
+                "channel": "Statsig"
               }
             ]
           },
           {
-            "title": "Evals, reliability + launch readiness",
-            "coverage": "AI Evals & Monitoring / Observability & SRE",
+            "title": "Productionization, capacity + reliability planning",
+            "coverage": "Training/inference capacity / pipelines / launch readiness / SLOs / cost and scale",
             "videos": [
               {
-                "title": "OpenAI Aca...",
-                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
-                "channel": "Building Practical Evaluation Systems"
+                "title": "Managing EC2 Capacity & Availabil...",
+                "url": "https://www.youtube.com/watch?v=TyFMsx9PVeM",
+                "channel": "AWS re:Invent"
               },
               {
-                "title": "Google Cloud",
+                "title": "Getting Started with SLOs",
                 "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
-                "channel": "Getting Started with SLOs"
+                "channel": "Google Cloud"
               }
             ]
           }
@@ -1833,46 +1833,46 @@
       },
       {
         "level": "ADVANCED",
-        "intro": "Govern high-stakes AI programs and drive executive decisions",
+        "intro": "Lead high-stakes AI/ML portfolios across governance, risk and executive tradeoffs",
         "competencies": [
           {
-            "title": "Safety, security + operational governance",
-            "coverage": "AI & Agent Governance and Safety / Security",
+            "title": "Responsible AI, safety + technical risk governance",
+            "coverage": "Risk assessments / bias / security / human review / launch controls / incident criteria",
             "videos": [
               {
-                "title": "OWASP",
-                "url": "https://www.youtube.com/watch?v=YM-gC_AIjWQ",
-                "channel": "Agentic AI Security Summit"
+                "title": "AI Risk Management Framework Launch",
+                "url": "https://www.nist.gov/news-events/events/2023/01/nist-ai-risk-management-framework-ai-rmf-10-launch",
+                "channel": "NIST"
               },
               {
-                "title": "IBM AI Academy",
-                "url": "https://www.ibm.com/think/videos/ai-academy/generative-ai-governance",
-                "channel": "Generative AI Governance"
+                "title": "Agentic AI Security Summit",
+                "url": "https://www.youtube.com/watch?v=YM-gC_AIjWQ",
+                "channel": "OWASP"
               }
             ]
           },
           {
-            "title": "Executive decisions, operating cadence + influence",
-            "coverage": "Business Writing & Executive Communication / Stakeholders",
+            "title": "Executive operating cadence + portfolio decisions",
+            "coverage": "KPIs / source of truth / decision logs / resource allocation / stakeholder influence",
             "videos": [
               {
-                "title": "Stanford GSB",
+                "title": "Think Fast, Talk Smart",
                 "url": "https://www.youtube.com/watch?v=g3JRONajB7w",
-                "channel": "Think Fast, Talk Smart"
+                "channel": "Stanford GSB"
               },
               {
-                "title": "Nancy Duarte",
-                "url": "https://www.youtube.com/watch?v=1nYFpuc2Umk",
-                "channel": "Structure of Great Communicators"
+                "title": "Must-Have Metrics for Product Strategy",
+                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
+                "channel": "Reforge"
               }
             ]
           }
         ]
       }
     ],
-    "bonus": [],
     "page": 422,
-    "category": "Leadership, Management & Personal Development"
+    "category": "Data, AI & Machine Learning",
+    "bonus": []
   },
   {
     "name": "Analytics Engineer",
@@ -20507,6 +20507,2381 @@
     ],
     "page": 689,
     "category": "Software & Application Engineering",
+    "bonus": []
+  },
+  {
+    "name": "Search Engineer",
+    "benchmark": "Google Search / Search Ecosystems + Elastic Search Relevance / LTR + OpenSearch / Vespa retrieval engineering (Sep 2026) + CMU 11-642 Search Engines (Fall 2026) + Stanford CS276 Information Retrieval & Web Search Market refresh: search-engine systems + relevance - inverted indexes/BM25, query understanding, autosuggest, judgments, LTR/reranking, vector/hybrid retrieval, distributed indexing, latency/freshness, A/B loops and reliability. Complements Role 80 with deeper search implementation and relevance operations.",
+    "capstone": "Complete a 5-day Search Engineering Lab on a 50k+ document/product corpus: define schema/analyzers; ship a BM25 baseline with filters, facets and autosuggest; create graded judgments; add ANN + hybrid retrieval and an LTR/reranker; measure Recall@K, MRR, NDCG@10 and zero-result rate; load-test latency/throughput/freshness; instrument query/click signals; diagnose 20 failing queries; ship one measured relevance gain with an A/B or interleaving plan, dashboards, SLOs and rollback.",
+    "rubric": "Working search system; reproducible indexing; sound query analysis; measured lexical baseline; judged relevance set; correct offline metrics; defensible hybrid/LTR gains; no train/eval leakage; latency, freshness and availability SLOs; long-tail/zero-result failure analysis; explainable ranking signals/business rules; online experiment design; rollback/runbook; documented tradeoffs across relevance, latency, cost and maintainability.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build the lexical search core, understand queries and measure relevance before adding ML",
+        "competencies": [
+          {
+            "title": "Inverted indexes, analyzers + lexical ranking",
+            "coverage": "Information Retrieval / Text Analysis / BM25 / Indexing",
+            "videos": [
+              {
+                "title": "IR: Inverted Index + Zipf",
+                "url": "https://www.youtube.com/watch?v=QjA7ujQsL0M",
+                "channel": "U. Freiburg"
+              },
+              {
+                "title": "Build BM25 Search with Vespa",
+                "url": "https://www.youtube.com/watch?v=lfoOtjLhKh8",
+                "channel": "Abhishek Thakur"
+              }
+            ]
+          },
+          {
+            "title": "Query processing, evaluation + autosuggest",
+            "coverage": "Query Processing / Relevance Metrics / Autocomplete / Long Tail",
+            "videos": [
+              {
+                "title": "Ranking & Evaluation",
+                "url": "https://www.youtube.com/watch?v=bCVPnnWqY8s",
+                "channel": "U. Freiburg"
+              },
+              {
+                "title": "Autosuggest Infrastructure at Scale",
+                "url": "https://www.youtube.com/watch?v=hZ9sCxj5fEk",
+                "channel": "OTTO"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Combine lexical and neural retrieval, then learn better ranking from judged evidence",
+        "competencies": [
+          {
+            "title": "Hybrid lexical/vector retrieval + candidate generation",
+            "coverage": "BM25 / Embeddings / ANN-HNSW / Hybrid Search / RRF",
+            "videos": [
+              {
+                "title": "Learning to Hybrid Search",
+                "url": "https://www.youtube.com/watch?v=TBGkis0U1bg",
+                "channel": "Vespa"
+              },
+              {
+                "title": "Vectorize Search",
+                "url": "https://www.youtube.com/watch?v=U7PQNyeQrXQ",
+                "channel": "OpenSource Connections"
+              }
+            ]
+          },
+          {
+            "title": "Learning-to-rank, reranking + relevance judgments",
+            "coverage": "LTR / Feature Engineering / Reranking / NDCG / Click Signals",
+            "videos": [
+              {
+                "title": "Boosting Ranking with Minimal Supervision",
+                "url": "https://www.youtube.com/watch?v=GDM4cUsvaWg",
+                "channel": "Vespa"
+              },
+              {
+                "title": "Learning-to-Rank Discussion",
+                "url": "https://www.youtube.com/watch?v=CAPvF9J7HPQ",
+                "channel": "OpenSearch"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate search at scale and build a continuous relevance-improvement loop",
+        "competencies": [
+          {
+            "title": "Search infrastructure, vectors + long-tail reliability",
+            "coverage": "Distributed Search / HNSW / Quantization / Latency / Zero Results",
+            "videos": [
+              {
+                "title": "Vector Search: 3 Engineer Setups",
+                "url": "https://www.youtube.com/watch?v=7TVCa4HVgn8",
+                "channel": "Elastic"
+              },
+              {
+                "title": "The Zero Results Problem, Solved",
+                "url": "https://www.youtube.com/watch?v=6s8x0chwJPk",
+                "channel": "Vespa"
+              }
+            ]
+          },
+          {
+            "title": "Relevance experimentation + online improvement loops",
+            "coverage": "Judgment Sets / NDCG-MRR / UBI / A-B Testing / Observability",
+            "videos": [
+              {
+                "title": "Search Relevance Workbench",
+                "url": "https://www.youtube.com/watch?v=sk0QROv_44c",
+                "channel": "OpenSearch"
+              },
+              {
+                "title": "Optimize Hybrid Search Hands-On",
+                "url": "https://www.youtube.com/watch?v=eU7Ihc61ang",
+                "channel": "OpenSearch"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 690,
+    "category": "Software & Application Engineering",
+    "bonus": []
+  },
+  {
+    "name": "Database Engineer",
+    "benchmark": "OpenAI Database Systems + Anthropic Staff+ Software Engineer, Databases (current Sep 2026) + CMU 15-445/645 Database Systems (Fall 2026) Market refresh: SQL and data modeling, indexes and query plans, database internals, transactions/MVCC, query execution and optimization, distributed storage/replication, migrations, performance, reliability and operability.",
+    "capstone": "Complete a 5-day Database Engineering Lab: design a relational schema and workload; generate 10M+ rows; create and justify indexes; analyze EXPLAIN plans; implement transactions and concurrency tests; benchmark reads/writes; introduce one replication or partitioning strategy; perform a zero/low-downtime schema migration; configure backup/restore, monitoring and SLOs; trigger a failure and document recovery and rollback.",
+    "rubric": "Correct schema and constraints; evidence-based indexing; explainable query plans; concurrency/isolation correctness; reproducible benchmark; quantified latency/throughput/cost; safe migration and rollback; backup/restore proof; observability and incident response; clear tradeoffs across consistency, availability, performance and operational complexity.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build correct schemas and understand how the database actually stores and finds data",
+        "competencies": [
+          {
+            "title": "Relational modeling, SQL + indexes",
+            "coverage": "SQL / Normalization / Query Plans / B+Trees / Index Selectivity",
+            "videos": [
+              {
+                "title": "B+Trees & Index Internals",
+                "url": "https://www.youtube.com/watch?v=u7ii_Lvm9rM",
+                "channel": "CMU"
+              },
+              {
+                "title": "Indexing for Query Performance",
+                "url": "https://planetscale.com/learn/courses/mysql-for-developers/indexes/where-to-add-indexes",
+                "channel": "PlanetScale"
+              }
+            ]
+          },
+          {
+            "title": "Storage engines + transaction foundations",
+            "coverage": "Storage / Buffering / ACID / Isolation / Durability",
+            "videos": [
+              {
+                "title": "Query Execution Part 1",
+                "url": "https://www.youtube.com/watch?v=E-UUd6cB57w",
+                "channel": "CMU"
+              },
+              {
+                "title": "Data-Intensive Applications",
+                "url": "https://www.youtube.com/watch?v=SVOrURyOu_U",
+                "channel": "Martin Kleppmann"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Tune execution and transactions, then reason about replication and distributed tradeoffs",
+        "competencies": [
+          {
+            "title": "Query execution, optimization + performance diagnosis",
+            "coverage": "Query Operators / Cost Models / EXPLAIN / Join Ordering / Statistics",
+            "videos": [
+              {
+                "title": "Database Query Optimizers Part 1",
+                "url": "https://www.youtube.com/watch?v=b53huOGcsZ8",
+                "channel": "CMU"
+              },
+              {
+                "title": "Caching & Load Balancing",
+                "url": "https://www.youtube.com/watch?v=V4Zam6_oZKE",
+                "channel": "System Design"
+              }
+            ]
+          },
+          {
+            "title": "Replication, sharding + distributed transactions",
+            "coverage": "Replication / Consensus / Partitioning / Distributed SQL / Consistency",
+            "videos": [
+              {
+                "title": "Geo-Distributed SQL Architecture",
+                "url": "https://www.youtube.com/watch?v=OJySfiMKXLs",
+                "channel": "CockroachDB"
+              },
+              {
+                "title": "Distributed Databases Pt. 1",
+                "url": "https://www.youtube.com/watch?v=IFLQBWY6dlE",
+                "channel": "CMU"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate high-throughput databases safely with performance, reliability and migration discipline",
+        "competencies": [
+          {
+            "title": "Capacity, benchmarking + production performance",
+            "coverage": "Load Tests / Hotspots / Query Latency / Throughput / Resource Efficiency",
+            "videos": [
+              {
+                "title": "Testing at Scale",
+                "url": "https://www.youtube.com/watch?v=oFO85YFuXjg",
+                "channel": "Beyond Coding"
+              },
+              {
+                "title": "Getting Started with SLOs",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "channel": "Google Cloud"
+              }
+            ]
+          },
+          {
+            "title": "Reliability, migrations + database operations",
+            "coverage": "Backups / Recovery / Schema Migration / Observability / Incident Response",
+            "videos": [
+              {
+                "title": "Incident Management / SRE",
+                "url": "https://www.youtube.com/watch?v=n4y9dwinPBQ",
+                "channel": "Google Cloud"
+              },
+              {
+                "title": "CI/CD + Docker",
+                "url": "https://www.youtube.com/watch?v=UbtB4sMaaNM",
+                "channel": "TechWorld with Nana"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 691,
+    "category": "Software & Application Engineering",
+    "bonus": []
+  },
+  {
+    "name": "Front-End Engineer",
+    "benchmark": "Stripe Frontend Engineer, Data Product Experiences + Vercel Next.js engineering (current Sep 2026) + MDN Front-End Developer Curriculum + Harvard CS50 Web Market refresh: semantic HTML/CSS, modern JavaScript/TypeScript, React/Next.js, browser rendering, responsive UI, accessibility, design systems, testing, performance/Core Web Vitals, observability and cross-functional product craft.",
+    "capstone": "Run a 5-day Front-End Build Studio: implement a responsive React/Next.js + TypeScript product from a Figma-style spec; create reusable components/tokens; integrate real APIs and loading/error states; meet keyboard/screen-reader requirements; add unit and Playwright E2E tests; profile and improve Core Web Vitals; configure CI/CD and telemetry; test multiple browsers and devices; ship with a staged rollout and rollback plan.",
+    "rubric": "Semantic, maintainable UI code; strong TypeScript and component boundaries; accessible keyboard/screen-reader behavior; responsive fidelity; tested data/error states; design-system reuse; measurable performance improvement; cross-browser evidence; CI quality gates; production telemetry; clear UX/performance/maintainability tradeoffs.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Master browser fundamentals, TypeScript and component-based UI engineering",
+        "competencies": [
+          {
+            "title": "HTML/CSS/JavaScript + browser fundamentals",
+            "coverage": "Semantic HTML / CSS Layout / DOM / Events / Browser APIs / Responsive UI",
+            "videos": [
+              {
+                "title": "Web Programming Full Course",
+                "url": "https://www.youtube.com/watch?v=vzGllw18DkA",
+                "channel": "Harvard CS50W"
+              },
+              {
+                "title": "JavaScript Course for Beginners",
+                "url": "https://www.youtube.com/watch?v=Zi-Q0t4gMC8",
+                "channel": "freeCodeCamp"
+              }
+            ]
+          },
+          {
+            "title": "TypeScript, React + modern component architecture",
+            "coverage": "TypeScript / React / State / Hooks / Routing / Server-Client Boundaries",
+            "videos": [
+              {
+                "title": "TypeScript Full Tutorial",
+                "url": "https://www.youtube.com/watch?v=30LWjhZzg50",
+                "channel": "freeCodeCamp"
+              },
+              {
+                "title": "Next.js 15 Project Course",
+                "url": "https://www.youtube.com/watch?v=Q-cPtlYG1cY",
+                "channel": "freeCodeCamp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Ship accessible, responsive interfaces with scalable state, design systems and tests",
+        "competencies": [
+          {
+            "title": "Accessibility, responsive UX + design systems",
+            "coverage": "WCAG / Keyboard / ARIA / Tokens / Components / Design-Code Parity",
+            "videos": [
+              {
+                "title": "Accessibility Video Course",
+                "url": "https://developer.chrome.com/docs/accessibility",
+                "channel": "Chrome for Developers"
+              },
+              {
+                "title": "Design Systems Course",
+                "url": "https://help.figma.com/hc/en-us/articles/14552901442839-Overview-Introduction-to-design-systems",
+                "channel": "Figma Learn"
+              }
+            ]
+          },
+          {
+            "title": "Testing, data flows + collaborative delivery",
+            "coverage": "API Consumption / Forms / Error States / Playwright / Git / Code Review",
+            "videos": [
+              {
+                "title": "Playwright End-to-End Testing",
+                "url": "https://learn.microsoft.com/en-us/shows/getting-started-with-end-to-end-testing-with-playwright/introduction-to-playwright-for-end-to-end-testing",
+                "channel": "Microsoft"
+              },
+              {
+                "title": "Git & GitHub Crash Course",
+                "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+                "channel": "freeCodeCamp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Optimize rendering, performance and production quality across browsers and devices",
+        "competencies": [
+          {
+            "title": "Rendering performance + Core Web Vitals",
+            "coverage": "Browser Rendering / Hydration / Caching / Bundling / Profiling / CWV",
+            "videos": [
+              {
+                "title": "Understanding Core Web Vitals",
+                "url": "https://www.youtube.com/watch?v=F0NYT7DIlDQ",
+                "channel": "Chrome"
+              },
+              {
+                "title": "Runtime Performance Lab",
+                "url": "https://developer.chrome.com/docs/devtools/performance",
+                "channel": "Chrome DevTools"
+              }
+            ]
+          },
+          {
+            "title": "Production delivery + frontend reliability",
+            "coverage": "CI/CD / Cross-Browser / Monitoring / Feature Flags / SLOs / Rollback",
+            "videos": [
+              {
+                "title": "GitHub Actions + Docker",
+                "url": "https://www.youtube.com/watch?v=UbtB4sMaaNM",
+                "channel": "TechWorld with Nana"
+              },
+              {
+                "title": "Getting Started with SLOs",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "channel": "Google Cloud"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 692,
+    "category": "Software & Application Engineering",
+    "bonus": []
+  },
+  {
+    "name": "Back-End Engineer",
+    "benchmark": "Stripe API Platform + Anthropic Staff+ Software Engineer, Backend (current Sep 2026) + distributed-systems and API engineering practices from leading cloud platforms Market refresh: service boundaries, API contracts, SQL/NoSQL persistence, auth, event-driven systems, caching, distributed consistency, testing, observability, security, CI/CD, incident response and scalable reliability.",
+    "capstone": "Complete a 5-day Back-End Systems Lab: build a versioned authenticated API with SQL persistence; add cache and one asynchronous/event workflow with idempotency, retries and DLQ; document contracts; load-test throughput and p95 latency; add rate limits, security tests and failure injection; deploy via CI/CD with logs, metrics, traces and SLOs; run an incident drill and write a postmortem plus rollback plan.",
+    "rubric": "Clear service/API boundaries; correct persistence and transaction logic; secure auth and input handling; idempotent event processing; contract and integration tests; quantified performance; resilience under partial failure; observable SLOs; reliable CI/CD and rollback; incident ownership; justified tradeoffs across latency, consistency, cost and complexity.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build secure APIs and durable persistence with clear service contracts",
+        "competencies": [
+          {
+            "title": "API/service design + backend implementation",
+            "coverage": "REST / RPC / Service Boundaries / Validation / Versioning / Python-Go-Node",
+            "videos": [
+              {
+                "title": "FastAPI Production Course",
+                "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA",
+                "channel": "freeCodeCamp"
+              },
+              {
+                "title": "Designing Quality APIs",
+                "url": "https://www.youtube.com/watch?v=P0a7PwRNLVU",
+                "channel": "Google Cloud"
+              }
+            ]
+          },
+          {
+            "title": "Persistence, data models + system design",
+            "coverage": "SQL / NoSQL / Transactions / Caching / Storage Tradeoffs / Data Models",
+            "videos": [
+              {
+                "title": "From One Server to Scalable System",
+                "url": "https://www.youtube.com/watch?v=FxAom29OEKE",
+                "channel": "System Design"
+              },
+              {
+                "title": "Data-Intensive Applications",
+                "url": "https://www.youtube.com/watch?v=SVOrURyOu_U",
+                "channel": "Martin Kleppmann"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Design distributed, event-driven systems that survive retries, partial failure and scale",
+        "competencies": [
+          {
+            "title": "Events, queues, webhooks + reliable integration",
+            "coverage": "Event-Driven / Kafka-Style Messaging / Idempotency / Retries / DLQ / Contracts",
+            "videos": [
+              {
+                "title": "Event-Driven Integrations",
+                "url": "https://www.youtube.com/watch?v=W3Rh70jG-LM",
+                "channel": "AWS re:Invent"
+              },
+              {
+                "title": "Master API Contract Testing",
+                "url": "https://www.youtube.com/watch?v=INJla2N2iZU",
+                "channel": "Postman"
+              }
+            ]
+          },
+          {
+            "title": "API security + distributed failure modes",
+            "coverage": "OAuth/OIDC / OWASP API / Rate Limits / Consistency / Backpressure / Resilience",
+            "videos": [
+              {
+                "title": "API Security Top 10 Course",
+                "url": "https://www.youtube.com/watch?v=YYe0FdfdgDU",
+                "channel": "OWASP"
+              },
+              {
+                "title": "Distributed SQL Architecture",
+                "url": "https://www.youtube.com/watch?v=OJySfiMKXLs",
+                "channel": "CockroachDB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Own security, performance, reliability and operations for production backend services",
+        "competencies": [
+          {
+            "title": "Performance, scalability + efficiency",
+            "coverage": "Caching / Load Balancing / Profiling / Capacity / Latency / Cost",
+            "videos": [
+              {
+                "title": "Caching & Load Balancing",
+                "url": "https://www.youtube.com/watch?v=V4Zam6_oZKE",
+                "channel": "System Design"
+              },
+              {
+                "title": "Getting Started with SLOs",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "channel": "Google Cloud"
+              }
+            ]
+          },
+          {
+            "title": "Delivery, observability + incident ownership",
+            "coverage": "CI/CD / Containers / Logs-Metrics-Traces / On-Call / Postmortems / Rollback",
+            "videos": [
+              {
+                "title": "GitHub Actions + Docker",
+                "url": "https://www.youtube.com/watch?v=UbtB4sMaaNM",
+                "channel": "TechWorld with Nana"
+              },
+              {
+                "title": "Incident Management / SRE",
+                "url": "https://www.youtube.com/watch?v=n4y9dwinPBQ",
+                "channel": "Google Cloud"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 693,
+    "category": "Software & Application Engineering",
+    "bonus": []
+  },
+  {
+    "name": "Full-Stack Engineer",
+    "benchmark": "OpenAI Software Engineer, Full Stack + Anthropic Senior/Staff Full-Stack engineering (current Sep 2026) + Harvard CS50 Web project-based full-stack curriculum Market refresh: product-minded end-to-end ownership across React/TypeScript, backend services, relational data, auth, APIs, testing, cloud deployment, observability, performance, security and increasingly AI-enabled product workflows.",
+    "capstone": "Run a 7-day Full-Stack Product Sprint: build and deploy a responsive TypeScript/React or Next.js app with a real backend API, Postgres-style data model, authentication and permissions; add background work or webhooks; write unit/integration/E2E tests; configure CI/CD, telemetry and SLOs; profile frontend and backend performance; conduct user testing; optionally add one grounded AI feature with an eval; ship a staged release and post-launch readout.",
+    "rubric": "Working end-to-end product; coherent frontend/backend/data boundaries; secure authentication/authorization; correct schema and migrations; reliable API contracts; meaningful automated tests; production deployment; observable errors/latency; performance evidence across UI and backend; staged rollout/rollback; product judgment and measurable user outcome.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Own a user workflow from browser UI through API and database",
+        "competencies": [
+          {
+            "title": "Modern web UI + full-stack application structure",
+            "coverage": "HTML/CSS / React-Next.js / TypeScript / Routing / Server Components",
+            "videos": [
+              {
+                "title": "Full University Course",
+                "url": "https://www.youtube.com/watch?v=vzGllw18DkA",
+                "channel": "Harvard CS50W"
+              },
+              {
+                "title": "Next.js 15 Full-Stack Project",
+                "url": "https://www.youtube.com/watch?v=Q-cPtlYG1cY",
+                "channel": "freeCodeCamp"
+              }
+            ]
+          },
+          {
+            "title": "Backend APIs + relational data",
+            "coverage": "Python APIs / SQL / ORM / Schema / Migrations / Validation",
+            "videos": [
+              {
+                "title": "FastAPI Production Course",
+                "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA",
+                "channel": "freeCodeCamp"
+              },
+              {
+                "title": "Star Schema / Kimball Tutorial",
+                "url": "https://www.youtube.com/watch?v=gRE3E7VUzRU",
+                "channel": "Data Modeling"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build secure product flows with tests, integrations and maintainable full-stack architecture",
+        "competencies": [
+          {
+            "title": "Type-safe product flows, auth + API design",
+            "coverage": "TypeScript / API Contracts / Auth / Permissions / Error Handling / UX States",
+            "videos": [
+              {
+                "title": "TypeScript Full Tutorial",
+                "url": "https://www.youtube.com/watch?v=30LWjhZzg50",
+                "channel": "freeCodeCamp"
+              },
+              {
+                "title": "Designing Quality APIs",
+                "url": "https://www.youtube.com/watch?v=P0a7PwRNLVU",
+                "channel": "Google Cloud"
+              }
+            ]
+          },
+          {
+            "title": "Testing, Git + quality automation",
+            "coverage": "Git / Unit-Integration-E2E / Playwright / CI Quality Gates",
+            "videos": [
+              {
+                "title": "Git & GitHub Crash Course",
+                "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+                "channel": "freeCodeCamp"
+              },
+              {
+                "title": "Testing at Scale",
+                "url": "https://www.youtube.com/watch?v=oFO85YFuXjg",
+                "channel": "Beyond Coding"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate end-to-end products in production with performance, observability and AI-ready patterns",
+        "competencies": [
+          {
+            "title": "Deployment, CI/CD + end-to-end reliability",
+            "coverage": "Containers / CI/CD / Monitoring / Rollback / Cross-Layer Debugging",
+            "videos": [
+              {
+                "title": "GitHub Actions + Docker",
+                "url": "https://www.youtube.com/watch?v=UbtB4sMaaNM",
+                "channel": "TechWorld with Nana"
+              },
+              {
+                "title": "Playwright End-to-End Testing",
+                "url": "https://learn.microsoft.com/en-us/shows/getting-started-with-end-to-end-testing-with-playwright/introduction-to-playwright-for-end-to-end-testing",
+                "channel": "Microsoft"
+              }
+            ]
+          },
+          {
+            "title": "Performance, SLOs + production product quality",
+            "coverage": "Core Web Vitals / API Latency / SLOs / Cost / Observability / User Impact",
+            "videos": [
+              {
+                "title": "Understanding Core Web Vitals",
+                "url": "https://www.youtube.com/watch?v=F0NYT7DIlDQ",
+                "channel": "Chrome"
+              },
+              {
+                "title": "Getting Started with SLOs",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "channel": "Google Cloud"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 694,
+    "category": "Software & Application Engineering",
+    "bonus": []
+  },
+  {
+    "name": "Web Developer",
+    "benchmark": "MDN Front-End Developer Curriculum + Vercel production web engineering + Harvard CS50 Web; calibrated to modern website/app delivery, accessibility, performance, SEO and deployment expectations (Sep 2026) Market refresh: semantic HTML/CSS, JavaScript, responsive/mobile-first design, forms and content, Git, frameworks/CMS, accessibility, SEO, browser debugging, performance/Core Web Vitals, testing, deployment and maintainable client-ready delivery.",
+    "capstone": "Complete a 5-day Web Developer Bootcamp build: convert a supplied design into a multi-page responsive site; use semantic HTML/CSS/JavaScript, forms and one API/CMS source; pass keyboard and Lighthouse accessibility checks; add SEO metadata, structured data and crawlable routes; write E2E smoke tests; deploy through Git-based CI/CD; optimize Core Web Vitals; document content editing, analytics and a client-ready maintenance handoff.",
+    "rubric": "Pixel-appropriate but semantic implementation; mobile-first responsiveness; clean JavaScript and Git history; accessible navigation/forms; robust API/CMS behavior; SEO crawlability and metadata; measurable performance; cross-browser E2E evidence; reliable deployment; maintainable content workflow; clear documentation and handoff quality.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build standards-based websites with strong HTML, CSS, JavaScript and responsive fundamentals",
+        "competencies": [
+          {
+            "title": "HTML, CSS + standards-based page construction",
+            "coverage": "Semantic HTML / CSS / Flexbox / Grid / Forms / Browser Fundamentals",
+            "videos": [
+              {
+                "title": "HTML & CSS Full Web Course",
+                "url": "https://www.youtube.com/watch?v=dX8396ZmSPk",
+                "channel": "freeCodeCamp"
+              },
+              {
+                "title": "Responsive Web Design Bootcamp",
+                "url": "https://www.youtube.com/watch?v=srvUrASNj0s",
+                "channel": "freeCodeCamp"
+              }
+            ]
+          },
+          {
+            "title": "JavaScript + version-controlled development",
+            "coverage": "JavaScript / DOM / Events / Fetch / Git / GitHub / Debugging",
+            "videos": [
+              {
+                "title": "JavaScript Course for Beginners",
+                "url": "https://www.youtube.com/watch?v=Zi-Q0t4gMC8",
+                "channel": "freeCodeCamp"
+              },
+              {
+                "title": "Git & GitHub Crash Course",
+                "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+                "channel": "freeCodeCamp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Create accessible, data-driven sites with modern tooling, CMS/framework patterns and tests",
+        "competencies": [
+          {
+            "title": "Modern websites, CMS/frameworks + data",
+            "coverage": "Next.js / CMS / Forms / APIs / Routing / Content / Deployment",
+            "videos": [
+              {
+                "title": "Web Programming Full Course",
+                "url": "https://www.youtube.com/watch?v=vzGllw18DkA",
+                "channel": "Harvard CS50W"
+              },
+              {
+                "title": "Next.js 15 + Strapi Project",
+                "url": "https://www.youtube.com/watch?v=Q-cPtlYG1cY",
+                "channel": "freeCodeCamp"
+              }
+            ]
+          },
+          {
+            "title": "Accessibility + browser/E2E quality",
+            "coverage": "WCAG / Keyboard / ARIA / Browser Testing / Forms / Regression Tests",
+            "videos": [
+              {
+                "title": "Accessibility Videos",
+                "url": "https://developer.chrome.com/docs/accessibility",
+                "channel": "Chrome for Developers"
+              },
+              {
+                "title": "Playwright End-to-End Testing",
+                "url": "https://learn.microsoft.com/en-us/shows/getting-started-with-end-to-end-testing-with-playwright/introduction-to-playwright-for-end-to-end-testing",
+                "channel": "Microsoft"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Optimize discoverability, performance, deployment and real-world maintainability",
+        "competencies": [
+          {
+            "title": "SEO, rendering + discoverability",
+            "coverage": "Technical SEO / JavaScript Rendering / Metadata / Structured Data / Crawlability",
+            "videos": [
+              {
+                "title": "JavaScript SEO",
+                "url": "https://www.youtube.com/watch?v=LXF8bM4g-J4",
+                "channel": "Google Search Central"
+              },
+              {
+                "title": "Understanding Core Web Vitals",
+                "url": "https://www.youtube.com/watch?v=F0NYT7DIlDQ",
+                "channel": "Chrome"
+              }
+            ]
+          },
+          {
+            "title": "Performance, audits + production deployment",
+            "coverage": "Lighthouse / Caching / Asset Optimization / CI/CD / Hosting / Monitoring",
+            "videos": [
+              {
+                "title": "Lighthouse Performance Lab",
+                "url": "https://developer.chrome.com/docs/devtools/lighthouse/",
+                "channel": "Chrome DevTools"
+              },
+              {
+                "title": "GitHub Actions + Docker",
+                "url": "https://www.youtube.com/watch?v=UbtB4sMaaNM",
+                "channel": "TechWorld with Nana"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 695,
+    "category": "Software & Application Engineering",
+    "bonus": []
+  },
+  {
+    "name": "AI Agent Developer",
+    "benchmark": "OpenAI Agent Post-Training + Anthropic Claude Managed Agents (current Sep 2026) + Stanford CS329Z Engineering AI Agents and CS224V Agentic AI (Fall 2026) Market refresh: context engineering, retrieval, tool/function calling, MCP, planning and state, memory, agent loops, multi-agent orchestration, evals, trace debugging, sandboxing/permissions, reliability, cost/latency and production operations.",
+    "capstone": "Run a 7-day Agent Developer Lab: define a real workflow and success criteria; build a Python/TypeScript agent with RAG, at least three tools and one MCP integration; implement explicit state/memory and human approval for risky actions; add tracing and a 50+ case eval set; test tool failures, prompt injection and permission boundaries; measure task success, latency and cost; add regression gates, SLOs, fallback/rollback and an incident runbook; demo a multi-step production task.",
+    "rubric": "Useful autonomous behavior, not a scripted demo; grounded context; correct tool schemas and authorization; state/memory discipline; bounded autonomy and human controls; reproducible eval set; trace-based failure analysis; injection/sandbox tests; measurable task success, latency and cost; production observability; safe fallback/rollback; clear engineering tradeoffs.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build grounded LLM workflows and reliable tool-use primitives before adding autonomy",
+        "competencies": [
+          {
+            "title": "LLM behavior + context engineering foundations",
+            "coverage": "Prompt/Context Engineering / Structured Outputs / Reasoning / Task Decomposition",
+            "videos": [
+              {
+                "title": "Intro to Large Language Models",
+                "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+                "channel": "Andrej Karpathy"
+              },
+              {
+                "title": "Context Engineering for AI Agents",
+                "url": "https://www.youtube.com/watch?v=6_BcCthVvb8",
+                "channel": "LangChain"
+              }
+            ]
+          },
+          {
+            "title": "Grounding, RAG + retrieval-backed action",
+            "coverage": "RAG / Retrieval / Citations / Verification / Knowledge Interfaces",
+            "videos": [
+              {
+                "title": "RAG From Scratch: Part 1",
+                "url": "https://www.youtube.com/watch?v=wd7TZ4w1mSw",
+                "channel": "LangChain"
+              },
+              {
+                "title": "Hands-On Introduction to AI Agents (2026)",
+                "url": "https://web.mit.edu/webcast/computing/s26/0926/1.html",
+                "channel": "MIT"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Engineer stateful agents with MCP, planning, memory and multi-agent coordination",
+        "competencies": [
+          {
+            "title": "Tool/function calling + MCP integrations",
+            "coverage": "Agent SDKs / Function Calling / MCP / Permissions / Tool Schemas",
+            "videos": [
+              {
+                "title": "Build Hour: Agents SDK",
+                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
+                "channel": "OpenAI"
+              },
+              {
+                "title": "Model Context Protocol (MCP)",
+                "url": "https://www.youtube.com/watch?v=CQywdSdi5iA",
+                "channel": "Anthropic"
+              }
+            ]
+          },
+          {
+            "title": "State, planning + multi-agent orchestration",
+            "coverage": "Agent Loops / Memory / Planning / Handoffs / Multi-Agent / Human Approval",
+            "videos": [
+              {
+                "title": "Autonomous Multi-Agent Workflows",
+                "url": "https://www.youtube.com/watch?v=UuJpNa_TbiI",
+                "channel": "Microsoft"
+              },
+              {
+                "title": "Agents + Process Automation",
+                "url": "https://www.youtube.com/watch?v=fcaSPE1NJYs",
+                "channel": "Microsoft Build"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Evaluate, secure and operate agent systems with trace-driven reliability and production controls",
+        "competencies": [
+          {
+            "title": "Evals, trace debugging + regression gates",
+            "coverage": "Task-Success Evals / Trajectories / Graders / Failure Analysis / Regression",
+            "videos": [
+              {
+                "title": "Instrumenting & Evaluating LLMs",
+                "url": "https://www.youtube.com/watch?v=SnbGD677_u0",
+                "channel": "Hamel Husain"
+              },
+              {
+                "title": "Practical Evaluation Systems",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          },
+          {
+            "title": "Safety, reliability + production AgentOps",
+            "coverage": "Sandboxing / Least Privilege / Observability / SLOs / Cost-Latency / Rollback",
+            "videos": [
+              {
+                "title": "Reliable Agent Architectures",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-designing-reliable-agent-architectures-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Getting Started with SLOs",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "channel": "Google Cloud"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 696,
+    "category": "AI, Agents & Intelligent Automation",
+    "bonus": []
+  },
+  {
+    "name": "Digital Product Manager",
+    "benchmark": "Starbucks Senior Digital Product Manager, App & Web Ordering + AppleCare Digital Product Operations + Stanford/Harvard product-development practice (current Sep 2026) Market refresh: digital customer journeys, mobile/web product strategy, discovery and UX, roadmap and prioritization, analytics and experimentation, APIs/platform tradeoffs, growth and lifecycle, reliability, accessibility and AI-enabled experiences.",
+    "capstone": "Complete a 5-day Digital Product Lab: select one app/web journey; interview or observe users; map the current funnel and pain points; write a PRD with measurable outcomes and accessibility requirements; prototype and usability-test the flow; define API/data dependencies; instrument analytics; design an A/B test; model rollout, reliability and fallback; add one responsible AI-enabled feature where useful; present a launch decision with roadmap, risks and expected impact.",
+    "rubric": "Evidence-backed problem choice; clear journey and outcome metrics; coherent prioritization; testable prototype; accessibility and usability evidence; credible API/data tradeoffs; instrumentation and experiment design; measurable growth or retention logic; launch reliability and rollback; responsible AI quality gates; concise executive product narrative.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Find the right digital problem, define the journey and turn evidence into a product strategy",
+        "competencies": [
+          {
+            "title": "Customer discovery + digital journey framing",
+            "coverage": "Product Discovery / Customer Research / Journey Mapping / Jobs-to-be-Done",
+            "videos": [
+              {
+                "title": "How to Talk to Users",
+                "url": "https://www.youtube.com/watch?v=MT4Ig2uqjTc",
+                "channel": "Y Combinator"
+              },
+              {
+                "title": "Modern Product Discovery",
+                "url": "https://www.youtube.com/watch?v=l7-5x0ra2tc",
+                "channel": "Teresa Torres"
+              }
+            ]
+          },
+          {
+            "title": "Product strategy, value proposition + roadmap",
+            "coverage": "Product Strategy / Value Proposition / Prioritization / Outcome Roadmaps",
+            "videos": [
+              {
+                "title": "How to Build a Product Roadmap",
+                "url": "https://www.youtube.com/watch?v=x0d_GE_jWGE",
+                "channel": "Product School"
+              },
+              {
+                "title": "Value Propositions",
+                "url": "https://www.youtube.com/watch?v=q8d9uuO1Cf4",
+                "channel": "Harvard Innovation Labs"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Shape usable web/mobile experiences, technical interfaces and measurable experiments",
+        "competencies": [
+          {
+            "title": "UX prototyping, usability + accessibility",
+            "coverage": "Design Sprint / Prototyping / Usability / Accessible Digital Experiences",
+            "videos": [
+              {
+                "title": "Design Sprint",
+                "url": "https://www.youtube.com/watch?v=aWQUSiOZ0x8",
+                "channel": "Google Ventures"
+              },
+              {
+                "title": "Usability Heuristics",
+                "url": "https://www.youtube.com/watch?v=WmmBLgtkjN4",
+                "channel": "Nielsen Norman Group"
+              }
+            ]
+          },
+          {
+            "title": "Web/mobile architecture, APIs + platform tradeoffs",
+            "coverage": "APIs / Systems Architecture / Scalability / Integration Contracts",
+            "videos": [
+              {
+                "title": "Scaling to Your First 10 Million Users",
+                "url": "https://www.youtube.com/watch?v=w95murBkYmU",
+                "channel": "AWS re:Invent"
+              },
+              {
+                "title": "Designing Quality APIs",
+                "url": "https://www.youtube.com/watch?v=P0a7PwRNLVU",
+                "channel": "Google Cloud"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Scale growth, reliability and AI-enabled digital experiences with disciplined launch quality",
+        "competencies": [
+          {
+            "title": "Product metrics, experimentation + growth loops",
+            "coverage": "North Star / Funnel / Retention / A-B Tests / Growth",
+            "videos": [
+              {
+                "title": "Must-Have Metrics for Product Strategy",
+                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
+                "channel": "Reforge"
+              },
+              {
+                "title": "AI Experimentation: Quality, Cost + Latency",
+                "url": "https://www.youtube.com/watch?v=LzMiAXDkLwY",
+                "channel": "Statsig"
+              }
+            ]
+          },
+          {
+            "title": "Reliability, AI quality + launch readiness",
+            "coverage": "SLOs / Rollout / AI Evals / Safety / Accessibility / Incident Learning",
+            "videos": [
+              {
+                "title": "Practical Evaluation Systems",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Getting Started with SLOs",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "channel": "Google Cloud"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 697,
+    "category": "AI Product, Strategy & Enterprise Transformation",
+    "bonus": []
+  },
+  {
+    "name": "Marketing Manager",
+    "benchmark": "Google Digital Marketing Manager / Google Store Marketing Manager + OpenAI Integrated Marketing Manager, Product & Model Launches (current Sep 2026) + Chicago Booth marketing practice Market refresh: audience insight, positioning, customer journey, integrated campaigns, social/email/search, content and creative briefs, lifecycle/GTM, performance analytics, experimentation, agency/stakeholder management and AI-enabled marketing execution.",
+    "capstone": "Run a 5-day Integrated Marketing Campaign Lab: choose a product and audience; synthesize customer/market evidence; define positioning and campaign brief; build a funnel and channel plan across paid/owned/earned touchpoints; create sample content and lifecycle messaging; set budget assumptions and KPIs; configure an analytics dashboard; design one experiment; use AI for one workflow with human review; deliver a campaign readout and next-iteration decision.",
+    "rubric": "Clear audience and positioning; coherent funnel and channel roles; high-quality creative brief; measurable goals; credible channel execution; analytics lineage and attribution limits; experiment quality; lifecycle logic; cross-functional operating plan; responsible AI workflow; budget/resource awareness; evidence-based optimization decision.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Understand the customer, define positioning and build the full-funnel campaign logic",
+        "competencies": [
+          {
+            "title": "Customer journey, segmentation + funnel strategy",
+            "coverage": "Customer Insight / Segmentation / Funnel / Value Creation",
+            "videos": [
+              {
+                "title": "Customer Journey & Marketing Funnel",
+                "url": "https://www.youtube.com/watch?v=iRjXccj4yRo",
+                "channel": "Grow with Google"
+              },
+              {
+                "title": "The Booth Approach to Marketing",
+                "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/chicago-booth-approach-to-marketing-jean-pierre-dube",
+                "channel": "Chicago Booth"
+              }
+            ]
+          },
+          {
+            "title": "Positioning, value proposition + campaign brief",
+            "coverage": "Positioning / Messaging / Creative Brief / Audience Value",
+            "videos": [
+              {
+                "title": "Value Propositions",
+                "url": "https://www.youtube.com/watch?v=q8d9uuO1Cf4",
+                "channel": "Harvard Innovation Labs"
+              },
+              {
+                "title": "Social Media Marketing",
+                "url": "https://www.youtube.com/watch?v=SiUKVbTaI_I",
+                "channel": "Grow with Google"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Execute integrated channel programs and measure performance with disciplined analytics",
+        "competencies": [
+          {
+            "title": "Channel execution: email, search + content",
+            "coverage": "Email / SEO / Content / Owned-Earned-Paid Coordination",
+            "videos": [
+              {
+                "title": "Introduction to Email Marketing",
+                "url": "https://www.youtube.com/watch?v=CF7MCoXT-Ks",
+                "channel": "Grow with Google"
+              },
+              {
+                "title": "Apply Search Engine Optimization",
+                "url": "https://www.youtube.com/watch?v=XQPGKVQMTyI",
+                "channel": "Grow with Google"
+              }
+            ]
+          },
+          {
+            "title": "Measurement, analytics + decision storytelling",
+            "coverage": "Marketing Analytics / Google Analytics / KPIs / Data Storytelling",
+            "videos": [
+              {
+                "title": "Marketing Analytics & Measurement",
+                "url": "https://www.youtube.com/watch?v=C0z3Gj0QzCk",
+                "channel": "Grow with Google"
+              },
+              {
+                "title": "Turn Data Into Stories",
+                "url": "https://www.youtube.com/watch?v=Hfx1X9WSGYQ",
+                "channel": "Storytelling With Data"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Drive lifecycle growth, experimentation and AI-enabled marketing operations",
+        "competencies": [
+          {
+            "title": "GTM, lifecycle + growth experimentation",
+            "coverage": "Launch / Acquisition / Activation / Retention / Experimentation",
+            "videos": [
+              {
+                "title": "Go-to-Market Strategy by Microsoft PM",
+                "url": "https://www.youtube.com/watch?v=yDLErwgajOQ",
+                "channel": "Product School"
+              },
+              {
+                "title": "Must-Have Metrics for Product Strategy",
+                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
+                "channel": "Reforge"
+              }
+            ]
+          },
+          {
+            "title": "AI-enabled marketing workflows + operating discipline",
+            "coverage": "AI Use Cases / Workflow Redesign / Quality Controls / Adoption",
+            "videos": [
+              {
+                "title": "Use Case Discovery & System Scoping",
+                "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Transformation Labs 101",
+                "url": "https://academy.openai.com/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 698,
+    "category": "Creator Economy, Social Media & Digital Growth",
+    "bonus": []
+  },
+  {
+    "name": "Marketing Director",
+    "benchmark": "Apple Director, Marketing Strategy & Planning + Amazon Director of Marketing, Devices (current Sep 2026) + Chicago Booth / Stanford executive-management practice Market refresh: integrated marketing strategy, portfolio narrative, brand and performance, planning and resource allocation, operating models, measurement/ROI, cross-functional leadership, organizational design, executive influence and AI-native marketing transformation.",
+    "capstone": "Complete a Director-level Marketing Operating System exercise: diagnose a portfolio and market; write a one-page strategy with explicit choices; define brand/portfolio narrative; build annual priorities, budget and channel allocation; establish integrated campaign/lifecycle operating rhythms; create a KPI tree and ROI review; redesign one workflow using AI with controls; define team structure and agency model; then deliver a board-style marketing review with a resource reallocation decision.",
+    "rubric": "Strategy contains real choices; portfolio narrative is coherent; customer and market evidence are explicit; investment logic links spend to outcomes; operating model integrates brand, performance, product and lifecycle; metrics drive decisions; team and decision rights are credible; AI use has quality/governance controls; executive communication is concise; tradeoffs and stop-doing choices are explicit.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Set marketing strategy, portfolio narrative and the customer value logic leaders can align around",
+        "competencies": [
+          {
+            "title": "Marketing strategy, market choices + portfolio narrative",
+            "coverage": "Strategy / Customer Value / Portfolio Positioning / Competitive Choices",
+            "videos": [
+              {
+                "title": "Good Strategy, Bad Strategy",
+                "url": "https://www.lse.ac.uk/lse-player/good-strategy-bad-strategy-the-difference-and-why-it-matters",
+                "channel": "LSE / Richard Rumelt"
+              },
+              {
+                "title": "The Booth Approach to Marketing",
+                "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/chicago-booth-approach-to-marketing-jean-pierre-dube",
+                "channel": "Chicago Booth"
+              }
+            ]
+          },
+          {
+            "title": "Brand, positioning + value proposition architecture",
+            "coverage": "Brand / Positioning / Messaging Hierarchy / Customer Promise",
+            "videos": [
+              {
+                "title": "Value Propositions",
+                "url": "https://www.youtube.com/watch?v=q8d9uuO1Cf4",
+                "channel": "Harvard Innovation Labs"
+              },
+              {
+                "title": "Managing the Firm in the Global Economy",
+                "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/managing-the-firm-in-the-global-economy-professor-jonathan-dingel",
+                "channel": "Chicago Booth"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build the integrated operating system, investment model and measurement cadence",
+        "competencies": [
+          {
+            "title": "Integrated planning, budget + resource allocation",
+            "coverage": "Annual Planning / Budget / Portfolio Prioritization / Business Cases",
+            "videos": [
+              {
+                "title": "Managerial Decision Modeling & Operations",
+                "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/managerial-decision-modeling-and-operations-management-baris-ata",
+                "channel": "Chicago Booth"
+              },
+              {
+                "title": "Making Investment Decisions",
+                "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/making-investment-decisions-kathleen-fitzgerald",
+                "channel": "Chicago Booth"
+              }
+            ]
+          },
+          {
+            "title": "Measurement system, ROI + executive insight",
+            "coverage": "Marketing Analytics / Incrementality / KPI Cadence / Data Storytelling",
+            "videos": [
+              {
+                "title": "Marketing Analytics & Measurement",
+                "url": "https://www.youtube.com/watch?v=C0z3Gj0QzCk",
+                "channel": "Grow with Google"
+              },
+              {
+                "title": "Turn Data Into Stories",
+                "url": "https://www.youtube.com/watch?v=Hfx1X9WSGYQ",
+                "channel": "Storytelling With Data"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Lead the organization, executive narrative and AI-era transformation at scale",
+        "competencies": [
+          {
+            "title": "Organization leadership, influence + change",
+            "coverage": "Org Design / Coaching / Decision Rights / Stakeholder Influence / Change",
+            "videos": [
+              {
+                "title": "Choosing Leadership",
+                "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/choosing-leadership-masterclass",
+                "channel": "Chicago Booth"
+              },
+              {
+                "title": "Overcoming Resistance: Influence Equation",
+                "url": "https://www.pon.harvard.edu/free-videos/overcoming-resistance-in-negotiation-the-influence-equation/",
+                "channel": "Harvard PON"
+              }
+            ]
+          },
+          {
+            "title": "AI-native marketing operating model + executive communication",
+            "coverage": "AI Transformation / Workflow Automation / Executive Narrative / Governance",
+            "videos": [
+              {
+                "title": "Transformation Labs 101",
+                "url": "https://academy.openai.com/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 699,
+    "category": "Creator Economy, Social Media & Digital Growth",
+    "bonus": []
+  },
+  {
+    "name": "Communications Director",
+    "benchmark": "OpenAI senior Communications leadership across Monetization, Executive Communications and Government Partnerships + Stanford GSB executive-communication practice (current Sep 2026) Market refresh: enterprise narrative and message architecture, executive communications, media relations, product/corporate launches, issues and crisis readiness, internal communications, stakeholder alignment, editorial judgment, multi-channel strategy, measurement and AI-assisted communications systems.",
+    "capstone": "Run a 5-day Communications Director simulation: create an audience/stakeholder map and message house for a consequential product/company announcement; draft CEO memo, press release, keynote, talking points and Q&A; build media and internal-comms plans; conduct a hostile-question rehearsal; write a crisis holding statement and escalation tree; adapt the story for social/video; use AI on one content workflow with verification; define AMEC-style outcome measures and deliver an executive post-launch readout.",
+    "rubric": "Narrative clarity and factual integrity; audience/message fit; executive voice; strong writing and speech structure; credible media Q&A; issues/crisis readiness; cross-functional legal/policy/product alignment; consistent multi-channel execution; responsible AI-assisted content; measurement beyond vanity metrics; sound judgment under ambiguity; concise counsel to senior leaders.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build clear narratives, message architecture and executive-quality writing for complex audiences",
+        "competencies": [
+          {
+            "title": "Narrative strategy + executive writing",
+            "coverage": "Message House / Audience Map / Executive Memos / Editorial Judgment",
+            "videos": [
+              {
+                "title": "The Secret to Business Writing",
+                "url": "https://www.youtube.com/watch?v=8E-oqahDnb8",
+                "channel": "Crash Course Business"
+              },
+              {
+                "title": "Make Writing Clearer",
+                "url": "https://www.youtube.com/watch?v=prUqCd2R3Zw",
+                "channel": "Harvard Business Review"
+              }
+            ]
+          },
+          {
+            "title": "Speaking, keynote + story architecture",
+            "coverage": "Speeches / Keynotes / Story Structure / Rehearsal / Voice",
+            "videos": [
+              {
+                "title": "TED Secret to Great Public Speaking",
+                "url": "https://www.youtube.com/watch?v=-FOCpMAww28",
+                "channel": "Chris Anderson"
+              },
+              {
+                "title": "The Secret Structure of Great Talks",
+                "url": "https://www.youtube.com/watch?v=1nYFpuc2Umk",
+                "channel": "Nancy Duarte"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Lead media, launches and high-stakes stakeholder communications across channels",
+        "competencies": [
+          {
+            "title": "Evidence, data stories + stakeholder persuasion",
+            "coverage": "Data Storytelling / Rhetoric / Argument / Audience Adaptation",
+            "videos": [
+              {
+                "title": "Turn Data Into Stories",
+                "url": "https://www.youtube.com/watch?v=Hfx1X9WSGYQ",
+                "channel": "Storytelling With Data"
+              },
+              {
+                "title": "10 Years of Data Storytelling",
+                "url": "https://www.youtube.com/watch?v=99zlHv1fNdw",
+                "channel": "Storytelling With Data"
+              }
+            ]
+          },
+          {
+            "title": "Media, issues + high-stakes message defense",
+            "coverage": "Media Q&A / Rhetoric / Issues Framing / Difficult Questions / Reputation",
+            "videos": [
+              {
+                "title": "How to Use Rhetoric to Get What You Want",
+                "url": "https://www.youtube.com/watch?v=3klMM9BkW5o",
+                "channel": "TED-Ed"
+              },
+              {
+                "title": "How to Win an Argument",
+                "url": "https://www.youtube.com/watch?v=VmLMMNhxZMU",
+                "channel": "Neal Katyal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate reputation, crisis readiness, executive counsel and measurable communications systems",
+        "competencies": [
+          {
+            "title": "Executive counsel, presence + leadership communication",
+            "coverage": "C-Suite Counsel / Executive Presence / Leadership Messaging / Alignment",
+            "videos": [
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              },
+              {
+                "title": "Executive Presence",
+                "url": "https://www.youtube.com/watch?v=i2QOAfWLedE",
+                "channel": "Talks at Google"
+              }
+            ]
+          },
+          {
+            "title": "Multi-channel systems, AI-assisted content + measurement",
+            "coverage": "Owned/Earned/Social / AI Writing / Governance / AMEC Measurement",
+            "videos": [
+              {
+                "title": "Copilot in Word: Writing + Design",
+                "url": "https://www.youtube.com/watch?v=zuDkY-hRyts",
+                "channel": "Microsoft 365"
+              },
+              {
+                "title": "Barcelona Principles 4.0",
+                "url": "https://www.youtube.com/watch?v=cCq2aI1D0hQ",
+                "channel": "AMEC"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 700,
+    "category": "Design, Communication & Digital Experience",
+    "bonus": []
+  },
+  {
+    "name": "Project Manager / IT Project Manager",
+    "benchmark": "Apple Engineering Project Manager - Enterprise Technology Services + O*NET IT Project Managers (Bright Outlook 2026) + MIT project/agile management + PMI project-control and GenAI practice (current Sep 2026) Current bar: scope/WBS, schedule and critical path, stakeholder/RACI, budget and earned value, RAID/change/dependencies, Agile/hybrid delivery, Jira/work management, UAT/release/go-live, governance, executive communication, security/compliance and AI-assisted project operations.",
+    "capstone": "Complete a 5-day IT Project Delivery Lab: charter a real or simulated technology initiative; define scope/out-of-scope and WBS; build dependency map, schedule and critical path; baseline budget/resources; create stakeholder map, RACI and communication cadence; maintain RAID and change control; configure an Agile/hybrid delivery board; define UAT, security/compliance, release, cutover and rollback; produce weekly executive dashboard and steering review; use AI on one PM workflow and document verification and governance.",
+    "rubric": "Integrated scope-schedule-cost baseline; realistic dependencies; clear ownership and stakeholder cadence; disciplined RAID/change handling; defensible budget/EVM forecasting; usable delivery tooling; UAT/release readiness; security/compliance and rollback planning; AI-human control; concise executive decisions; postmortem learning and measurable delivery outcomes.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Turn an approved outcome into a credible scope, plan, ownership model and stakeholder cadence",
+        "competencies": [
+          {
+            "title": "Scope, WBS + schedule architecture",
+            "coverage": "Project Charter / Scope / WBS / Dependencies / Critical Path / Milestones",
+            "videos": [
+              {
+                "title": "WBS Masterclass",
+                "url": "https://www.youtube.com/watch?v=PyR2VLP3xnA",
+                "channel": "Mike Clayton"
+              },
+              {
+                "title": "Agile Project Management",
+                "url": "https://www.youtube.com/watch?v=nrfl6GAQy2s",
+                "channel": "MIT OCW"
+              }
+            ]
+          },
+          {
+            "title": "Stakeholders, RACI + decision communication",
+            "coverage": "Stakeholder Mapping / RACI / Communication Plan / Decision Logs / Executive Updates",
+            "videos": [
+              {
+                "title": "Stakeholder Engagement 101",
+                "url": "https://www.youtube.com/watch?v=3251NgEX2M8",
+                "channel": "Mike Clayton"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Control delivery risk, change and execution across Agile/hybrid teams and dependencies",
+        "competencies": [
+          {
+            "title": "RAID, dependencies + change control",
+            "coverage": "Risk / Assumptions / Issues / Dependencies / Change Requests / Impact Analysis",
+            "videos": [
+              {
+                "title": "Risk Management 101",
+                "url": "https://www.youtube.com/watch?v=Nwl7PquhU5U",
+                "channel": "Mike Clayton"
+              },
+              {
+                "title": "Change Control Process",
+                "url": "https://www.youtube.com/watch?v=pTtqmy6gD_M",
+                "channel": "Mike Clayton"
+              }
+            ]
+          },
+          {
+            "title": "Agile/hybrid execution + work-management tooling",
+            "coverage": "Scrum/Kanban / Hybrid Planning / Backlog / Jira / Delivery Cadence",
+            "videos": [
+              {
+                "title": "Agile Project Management",
+                "url": "https://ocw.mit.edu/courses/cms-611j-creating-video-games-fall-2014/resources/lecture-6-agile-project-management/",
+                "channel": "MIT OCW"
+              },
+              {
+                "title": "Jira Tutorial for Beginners",
+                "url": "https://www.youtube.com/watch?v=emidrJeUTaM",
+                "channel": "Atlassian"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate project controls, release governance and AI-assisted execution at enterprise scale",
+        "competencies": [
+          {
+            "title": "Budget, EVM + project-control forecasting",
+            "coverage": "Cost Baseline / EV-PV-AC / CPI-SPI / Forecast / Resource Tradeoffs",
+            "videos": [
+              {
+                "title": "EVM Applied to Large IT Project",
+                "url": "https://www.projectmanagement.com/videos/690277/earned-value-management--evm--applied-to-large-it-project",
+                "channel": "PMI"
+              },
+              {
+                "title": "Mastering the GenAI Shift",
+                "url": "https://www.projectmanagement.com/videos/1016036/mastering-the-genai-shift--pmi-insights-on-leveraging-generative-ai-in-project-management",
+                "channel": "PMI"
+              }
+            ]
+          },
+          {
+            "title": "UAT, release/go-live + enterprise governance",
+            "coverage": "Readiness / UAT / Cutover / Rollback / Security / Compliance / Steering Reviews",
+            "videos": [
+              {
+                "title": "Continuous Deployment & Release Management",
+                "url": "https://learn.microsoft.com/en-us/shows/devops-fundamentals/continuous-deployment-release-management",
+                "channel": "Microsoft"
+              },
+              {
+                "title": "Release Monitoring with Azure DevOps",
+                "url": "https://learn.microsoft.com/en-us/shows/ask-the-expert/ask-the-expert-release-management-monitoring-for-azure-devops-with-datadog",
+                "channel": "Microsoft"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 701,
+    "category": "Product Operations & Product Leadership",
+    "bonus": []
+  },
+  {
+    "name": "QA Automation Engineer / SDET",
+    "benchmark": "Apple Software Development Engineer in Test / Quality Automation + Microsoft Playwright + CMU Software Testing & Operations / Quality Assurance + MIT systematic testing (current Sep 2026) Current bar: systematic test design, unit/component/API/UI automation, Playwright/Cypress, contract testing, fixtures/mocks/test data, CI quality gates, flaky-test control, coverage, performance/load, security/reliability validation, observability and AI/LLM evaluation automation.",
+    "capstone": "Complete a 5-day Quality Engineering Build: choose a small web/API product; write risk-based test strategy; create deterministic fixtures and unit/component coverage; automate API plus consumer contracts; build Playwright/Cypress cross-browser flows; add CI with parallelization, artifacts and flaky-test handling; establish k6 performance thresholds and reliability checks; create a release-quality dashboard; deliberately seed faults and prove detection. If the product uses AI, add a golden eval set and regression gate.",
+    "rubric": "Systematic coverage rather than test volume; maintainable automation; deterministic fixtures; API/contract correctness; resilient browser tests; fast CI feedback; explicit flaky-test controls; meaningful load/performance thresholds; observable failures; security/reliability checks; AI eval quality where relevant; clear defect evidence and defensible release/no-release decisions.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Design tests systematically and automate the highest-value user and service behaviors",
+        "competencies": [
+          {
+            "title": "Test strategy, systematic design + regression",
+            "coverage": "Risk-Based Testing / Unit-Component-E2E / Boundary Cases / Oracles / Regression",
+            "videos": [
+              {
+                "title": "Software Testing Workshop",
+                "url": "https://www.cs.umd.edu/~atif/industrycourses/testingworkshop/index.shtml",
+                "channel": "University of Maryland"
+              },
+              {
+                "title": "Software Testing & Operations",
+                "url": "https://courses.sds.andrew.cmu.edu/18654SV",
+                "channel": "CMU"
+              }
+            ]
+          },
+          {
+            "title": "Browser/UI automation + resilient end-to-end tests",
+            "coverage": "Playwright / Cypress / Selectors / Fixtures / Cross-Browser / Test Resilience",
+            "videos": [
+              {
+                "title": "Test Automation with Playwright",
+                "url": "https://www.youtube.com/watch?v=1yaqKDHhktI",
+                "channel": "Microsoft Build"
+              },
+              {
+                "title": "Cypress Full Course",
+                "url": "https://www.youtube.com/watch?v=u8vMu7viCm8",
+                "channel": "freeCodeCamp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build reliable API, contract and CI test infrastructure with fast deterministic feedback",
+        "competencies": [
+          {
+            "title": "API + consumer-driven contract testing",
+            "coverage": "REST/API Tests / Schema / Mocks / Pact / Service Compatibility / Test Data",
+            "videos": [
+              {
+                "title": "Postman API Testing Course",
+                "url": "https://www.youtube.com/watch?v=VywxIQ2ZXw4",
+                "channel": "freeCodeCamp"
+              },
+              {
+                "title": "Contract Testing Video Series",
+                "url": "https://docs.pact.io/university",
+                "channel": "Pact University"
+              }
+            ]
+          },
+          {
+            "title": "CI quality gates + scalable test infrastructure",
+            "coverage": "GitHub Actions / Parallelism / Artifacts / Coverage / Flaky Test Control / Containers",
+            "videos": [
+              {
+                "title": "GitHub Actions CI/CD",
+                "url": "https://www.youtube.com/watch?v=R8_veQiYBjI",
+                "channel": "TechWorld with Nana"
+              },
+              {
+                "title": "Release Monitoring with Azure DevOps",
+                "url": "https://learn.microsoft.com/en-us/shows/ask-the-expert/ask-the-expert-release-management-monitoring-for-azure-devops-with-datadog",
+                "channel": "Microsoft"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Prove performance, resilience and AI quality with production-grade release gates",
+        "competencies": [
+          {
+            "title": "Performance, load + reliability validation",
+            "coverage": "k6 / Thresholds / Capacity / Latency / Throughput / Failure Signals / Observability",
+            "videos": [
+              {
+                "title": "Load Testing + Grafana Walkthrough",
+                "url": "https://www.youtube.com/watch?v=tFsIgbqXbxM",
+                "channel": "Grafana k6"
+              },
+              {
+                "title": "k6 Performance Testing Journey",
+                "url": "https://grafana.com/docs/learning-hub/k6-performance-testing/",
+                "channel": "Grafana"
+              }
+            ]
+          },
+          {
+            "title": "AI/LLM eval automation + nondeterministic quality",
+            "coverage": "Golden Sets / Model Evals / Regression Gates / Groundedness / Safety / Trace Debugging",
+            "videos": [
+              {
+                "title": "Evals for Production AI Apps",
+                "url": "https://academy.openai.com/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "AI Testing & Browser Automation Videos",
+                "url": "https://playwright.dev/community/conference-videos",
+                "channel": "Playwright"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 702,
+    "category": "Software & Application Engineering",
+    "bonus": []
+  },
+  {
+    "name": "Business Analyst / Business Systems Analyst",
+    "benchmark": "Amazon Business Analyst II + Lam Research / Cognizant Business Systems Analyst + IIBA business-analysis practice + enterprise digital-transformation delivery (current Sep 2026) Current bar: problem framing, stakeholder elicitation, requirements lifecycle, as-is/to-be process modeling, user stories and acceptance criteria, SQL/BI evidence, functional/system specifications, APIs and integrations, UAT, traceability, solution evaluation, change adoption and AI-assisted analysis with human validation.",
+    "capstone": "Complete a 5-day Business Analysis Transformation Lab: choose a real or simulated workflow; build stakeholder map and interview plan; define the problem and measurable outcomes; model as-is/to-be BPMN; create requirements catalogue, user stories, acceptance criteria and traceability; analyze source data in SQL and publish a KPI view; write functional/system specifications covering data, interfaces/APIs and NFRs; create UAT cases, defect workflow and solution-evaluation criteria; use AI to accelerate one artifact and document verification; finish with a business case, change impacts and executive recommendation.",
+    "rubric": "Traceable problem-to-requirement logic; stakeholder evidence; clear as-is/to-be process models; testable requirements and acceptance criteria; reproducible SQL/data evidence; precise functional, interface and NFR specifications; UAT and traceability discipline; quantified value/risk; responsible AI verification; clear tradeoffs and executive-ready recommendation.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Turn ambiguous business problems into validated requirements, process models and measurable outcomes",
+        "competencies": [
+          {
+            "title": "Requirements elicitation + lifecycle management",
+            "coverage": "Problem Definition / Stakeholder Interviews / Workshops / Requirements / Traceability",
+            "videos": [
+              {
+                "title": "How To Elicit Requirements",
+                "url": "https://www.youtube.com/watch?v=rCPNygPxEa0",
+                "channel": "IIBA"
+              },
+              {
+                "title": "What Is Requirements Management?",
+                "url": "https://www.youtube.com/watch?v=88WvKAFXPKo",
+                "channel": "IIBA"
+              }
+            ]
+          },
+          {
+            "title": "Process modeling, user stories + acceptance criteria",
+            "coverage": "As-Is / To-Be / BPMN / Backlog / User Stories / Gherkin / Acceptance Criteria",
+            "videos": [
+              {
+                "title": "BPMN in Action Video Series",
+                "url": "https://page.camunda.com/bpmn-in-action",
+                "channel": "Camunda"
+              },
+              {
+                "title": "User Stories + Acceptance Criteria",
+                "url": "https://www.youtube.com/watch?v=q26147zlcMU",
+                "channel": "Business Analysis Doctor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Bridge business and technology with data evidence, functional specifications and system interfaces",
+        "competencies": [
+          {
+            "title": "SQL, business analytics + decision dashboards",
+            "coverage": "SQL / Data Quality / KPI Design / Power BI / Business Insights / Root Cause",
+            "videos": [
+              {
+                "title": "SQL Full Database Course",
+                "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+                "channel": "freeCodeCamp"
+              },
+              {
+                "title": "Power BI Data Analysis Series",
+                "url": "https://developer.microsoft.com/en-us/reactor/events/15352/",
+                "channel": "Microsoft Reactor"
+              }
+            ]
+          },
+          {
+            "title": "Functional specs, APIs + technical collaboration",
+            "coverage": "Functional Requirements / NFRs / Data / Interfaces / APIs / Integration / Dev Handoff",
+            "videos": [
+              {
+                "title": "Working With Developers / Software Engineers",
+                "url": "https://www.youtube.com/watch?v=ODCAK_-dhwM",
+                "channel": "IIBA"
+              },
+              {
+                "title": "APIs for Beginners 2023 Full Course",
+                "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw",
+                "channel": "freeCodeCamp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Validate solutions, manage traceability and translate evidence into adoption and executive decisions",
+        "competencies": [
+          {
+            "title": "UAT, traceability + solution evaluation",
+            "coverage": "UAT / Test Cases / RTM / Defects / Value Realization / Process Improvement",
+            "videos": [
+              {
+                "title": "User Acceptance Testing with a BA",
+                "url": "https://trailhead.salesforce.com/content/learn/modules/user-acceptance-testing-video/learn-about-user-acceptance-testing",
+                "channel": "Salesforce"
+              },
+              {
+                "title": "What Is Business Data Analytics?",
+                "url": "https://www.youtube.com/watch?v=gjuhWdbinsY",
+                "channel": "IIBA"
+              }
+            ]
+          },
+          {
+            "title": "AI-assisted analysis + stakeholder influence",
+            "coverage": "AI for Elicitation / Requirements Quality / Validation / Facilitation / Decision Communication",
+            "videos": [
+              {
+                "title": "AI for Business Analysis",
+                "url": "https://www.youtube.com/watch?v=0eGX-6DfTnw",
+                "channel": "IIBA"
+              },
+              {
+                "title": "Top 7 Soft Skills for a Business Analyst",
+                "url": "https://www.youtube.com/watch?v=h1RBxJSIopk",
+                "channel": "IIBA"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 703,
+    "category": "Product Operations & Product Leadership",
+    "bonus": []
+  },
+  {
+    "name": "Technology GRC / IT Risk & Compliance Manager",
+    "benchmark": "Current technology-risk/GRC leadership roles + NIST CSF 2.0 / Cyber AI Profile + ISACA risk and IT-audit practice + Microsoft Purview + AWS cloud-control automation (current Sep 2026) Current bar: cyber/technology risk governance, policies and standards, NIST/ISO/SOC 2/PCI/SOX-ITGC mapping, control design and testing, evidence/audit readiness, third-party risk, remediation and exceptions, continuous cloud compliance, GRC tooling/automation, executive risk reporting and AI/agent governance.",
+    "capstone": "Complete a 5-day Technology GRC Operating-System Lab: define technology-risk taxonomy and appetite; build a risk register and CSF 2.0 profile; create a common control library mapped across NIST, ISO 27001, SOC 2 and an ITGC/SOX scenario; design evidence requirements and test operating effectiveness; assess a third party and cloud workload; log findings, exceptions and remediation owners; automate one control/evidence workflow and dashboard; add AI/agent governance controls; run an audit-readiness review and present residual risk, KRIs and treatment decisions to an executive risk committee.",
+    "rubric": "Risk-based prioritization; coherent control mappings; clear policy/control ownership; defensible design and operating-effectiveness tests; high-quality audit evidence; mature TPRM and remediation workflow; measurable KRIs/control health; appropriate exceptions and risk acceptance; automated controls with human oversight; AI/agent risk coverage; concise executive reporting and traceable residual-risk decisions.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Establish a risk-based governance model, policy structure and control-framework language leaders can act on",
+        "competencies": [
+          {
+            "title": "Cyber/technology risk governance + NIST CSF 2.0",
+            "coverage": "Risk Taxonomy / Risk Register / CSF Govern / Profiles / Treatment / Risk Acceptance",
+            "videos": [
+              {
+                "title": "Implementing CSF 2.0: Why, What + How",
+                "url": "https://www.nist.gov/video/csf-20-webinar-series-implementing-csf-20-why-what-and-how",
+                "channel": "NIST"
+              },
+              {
+                "title": "CSF 2.0 Community Profiles Webinar",
+                "url": "https://www.nist.gov/video/nist-csf-20-community-profiles-webinar",
+                "channel": "NIST"
+              }
+            ]
+          },
+          {
+            "title": "Control frameworks, policies + compliance mapping",
+            "coverage": "Control Library / ISO 27001 / SOC 2 / NIST / PCI / Policies / Assessments / Gaps",
+            "videos": [
+              {
+                "title": "The Cybersecurity Framework 2.0",
+                "url": "https://www.nist.gov/video/nist-cybersecurity-framework-csf-20-0",
+                "channel": "NIST"
+              },
+              {
+                "title": "Purview Compliance Manager Video",
+                "url": "https://learn.microsoft.com/en-us/microsoft-365/compliance/compliance-manager-overview",
+                "channel": "Microsoft"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Test controls, manage evidence and third-party/cloud risk through repeatable compliance operations",
+        "competencies": [
+          {
+            "title": "ITGC, control testing + audit evidence",
+            "coverage": "Access / Change / Operations / Backups / Control Design / Operating Effectiveness /",
+            "videos": [
+              {
+                "title": "Automating IT General Control Audits",
+                "url": "https://www.isaca.org/isaca-digital-videos/podcasts/seven-things-to-know-before-automating-it-general-control-audits",
+                "channel": "ISACA"
+              },
+              {
+                "title": "Actionable Governance Controls",
+                "url": "https://www.youtube.com/watch?v=2bJ9F0tr29s",
+                "channel": "AWS re:Invent 2025"
+              }
+            ]
+          },
+          {
+            "title": "Third-party risk + continuous cloud compliance",
+            "coverage": "TPRM / Vendor Lifecycle / Due Diligence / Continuous Monitoring / Cloud Controls /",
+            "videos": [
+              {
+                "title": "Effective Third Party Risk Management",
+                "url": "https://www.isaca.org/isaca-digital-videos/podcasts/effective-third-party-risk-management-in-2024-ais-impact-and-future-trends",
+                "channel": "ISACA"
+              },
+              {
+                "title": "Continuous Compliance at Scale",
+                "url": "https://www.youtube.com/watch?v=h4eClhXPvoc",
+                "channel": "AWS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Scale multi-framework assurance, continuous controls monitoring and AI-era governance to executives",
+        "competencies": [
+          {
+            "title": "GRC automation, metrics + executive assurance",
+            "coverage": "Control Automation / Continuous Monitoring / KRIs / Remediation / Dashboards / Audit",
+            "videos": [
+              {
+                "title": "GenAI Governance in Action",
+                "url": "https://www.youtube.com/watch?v=RDYAAStMqpY",
+                "channel": "AWS re:Inforce"
+              },
+              {
+                "title": "Implementing AI: Capabilities + Risk",
+                "url": "https://www.isaca.org/isaca-digital-videos/podcasts/implementing-artificial-intelligence-capabilities-and-risk",
+                "channel": "ISACA"
+              }
+            ]
+          },
+          {
+            "title": "AI/agent governance + emerging technology risk",
+            "coverage": "AI Risk / Agentic Systems / Identity / Model Supply Chain / Control Overlays / Assurance",
+            "videos": [
+              {
+                "title": "Cyber AI Profile Workshop #2",
+                "url": "https://www.nist.gov/video/nist-cyber-ai-profile-workshop-2",
+                "channel": "NIST"
+              },
+              {
+                "title": "Security + Compliance in Agentic AI Era",
+                "url": "https://www.youtube.com/watch?v=n3M4cVClJls",
+                "channel": "AWS re:Invent"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 704,
+    "category": "Data Governance, Privacy & Trust",
+    "bonus": []
+  },
+  {
+    "name": "Conversational AI Engineer",
+    "benchmark": "Current production Voice / Conversational AI roles + OpenAI Realtime/Agents + LiveKit and Google CCAI patterns (current Sep 2026) Current bar: real-time STT/LLM/TTS; low-latency streaming; dialogue state, turn detection and interruption handling; memory/RAG/tools; WebRTC/SIP/telephony; multilingual voice; evals and observability; safe actions, human escalation and production reliability.",
+    "capstone": "Build a production conversational voice agent for a real workflow. Implement a Python service with streaming audio, STT/LLM/TTS or speech-to-speech, semantic turn detection and barge-in; maintain session state and memory; ground answers with RAG; call at least two tools; connect a telephony or WebRTC channel; add confirmation before consequential actions and human handoff; instrument latency, task success, transcription/tool errors and cost; create a regression eval set; load-test, simulate provider failure and document recovery.",
+    "rubric": "Prove natural interaction rather than a chatbot demo: low and measured latency; clean turn-taking and interruption recovery; accurate context and tool use; safe action boundaries; resilient telephony/streaming behavior; reproducible evals; useful traces and dashboards; multilingual/noisy-environment handling where relevant; reliable human escalation; security/privacy controls; and evidence that failures or user feedback changed the design.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build natural real-time conversations and the software foundations behind them",
+        "competencies": [
+          {
+            "title": "Real-time voice pipeline + speech architecture",
+            "coverage": "VAD / STT-ASR / LLM / TTS / streaming audio / Python async / latency",
+            "videos": [
+              {
+                "title": "Build Hour: Voice Agents",
+                "url": "https://www.youtube.com/watch?v=rpj1m0wYs8M",
+                "channel": "OpenAI"
+              },
+              {
+                "title": "Master Voice AI Agents: Full Course",
+                "url": "https://www.youtube.com/watch?v=n-hCOsVQQgA",
+                "channel": "LiveKit"
+              }
+            ]
+          },
+          {
+            "title": "Conversation design, state + agent orchestration",
+            "coverage": "Dialogue state / turn-taking / barge-in / prompts / handoffs / multi-step workflows",
+            "videos": [
+              {
+                "title": "Building Effective Agents",
+                "url": "https://www.youtube.com/watch?v=uhJJgc-0iTQ",
+                "channel": "Anthropic"
+              },
+              {
+                "title": "Designing Human-Centered AI Products",
+                "url": "https://www.youtube.com/watch?v=rf83vRxLWFQ",
+                "channel": "Google I/O"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Connect conversations to context, tools and telephony without losing responsiveness",
+        "competencies": [
+          {
+            "title": "Context, memory, RAG + tool calling",
+            "coverage": "Context engineering / session memory / retrieval / functions / MCP / backend actions",
+            "videos": [
+              {
+                "title": "Context Engineering for AI Agents",
+                "url": "https://www.youtube.com/watch?v=6_BcCthVvb8",
+                "channel": "LangChain"
+              },
+              {
+                "title": "The Model Context Protocol (MCP)",
+                "url": "https://www.youtube.com/watch?v=CQywdSdi5iA",
+                "channel": "Anthropic"
+              }
+            ]
+          },
+          {
+            "title": "Telephony, WebRTC + production service integration",
+            "coverage": "SIP/PSTN / WebRTC / APIs / retries / provider fallback / observability / escalation",
+            "videos": [
+              {
+                "title": "Build Production-Ready Voice AI Agents",
+                "url": "https://www.youtube.com/watch?v=Axg9TNZ5038",
+                "channel": "LiveKit"
+              },
+              {
+                "title": "Smarter Voice Agents with Conversational AI",
+                "url": "https://www.youtube.com/watch?v=QbnbSEoRIxg",
+                "channel": "Twilio"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Evaluate, secure and operate conversational AI at production scale",
+        "competencies": [
+          {
+            "title": "Voice-agent evals, observability + failure analysis",
+            "coverage": "Task success / WER / latency / interruptions / tool accuracy / traces / regression sets",
+            "videos": [
+              {
+                "title": "Instrumenting & Evaluating LLMs",
+                "url": "https://www.youtube.com/watch?v=SnbGD677_u0",
+                "channel": "Hamel Husain"
+              },
+              {
+                "title": "Practical Evaluation Systems",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          },
+          {
+            "title": "Safety, human escalation + SLO/incident readiness",
+            "coverage": "Guardrails / consent / PII / action confirmation / handoff / SLOs / incident response",
+            "videos": [
+              {
+                "title": "Agentic AI Security Summit",
+                "url": "https://www.youtube.com/watch?v=YM-gC_AIjWQ",
+                "channel": "OWASP"
+              },
+              {
+                "title": "Getting Started with SLOs",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "channel": "Google Cloud"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 705,
+    "category": "AI, Agents & Intelligent Automation",
+    "bonus": []
+  },
+  {
+    "name": "Product Manager, Agentic Commerce",
+    "benchmark": "Stripe Staff Product Manager, Agentic Commerce + VGS / Visa agentic-commerce roles + Google UCP/AP2 ecosystem signals (current Sep 2026) Current bar: agent-initiated discovery and checkout; new API/integration experiences; ACP/UCP/AP2 and adjacent protocols; merchant/product data; tokenization and delegated authorization; identity/fraud/risk; wallets, networks and AI-platform partnerships; observability, experiments, economics and ecosystem strategy.",
+    "capstone": "Take an agentic-commerce concept from ambiguity to a partner-ready launch plan. Interview merchants/builders and map the human, agent, merchant and payment journey; define product thesis, non-goals and success metrics; specify one protocol/API integration with schemas and error states; model product-data/search dependencies; design delegated authorization, tokenization, fraud/risk and dispute controls; prototype agent-driven discovery-to-checkout; define observability and experiment plan; create partner rollout across at least two ecosystem actors; finish with unit economics, trust/safety gates, GTM and executive launch decision.",
+    "rubric": "Show product judgment across user, merchant, technical and financial dimensions: evidence-backed problem choice; protocol/API fluency; safe authorization and payment controls; data/search readiness; clear partner requirements; measurable conversion, approval, fraud, latency and cost metrics; explicit experiments; interoperability and fallback thinking; defensible economics; responsible autonomy; and a roadmap that distinguishes standards exploration from production commitments.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Understand the agent-to-merchant journey and define a credible product thesis",
+        "competencies": [
+          {
+            "title": "Agentic commerce journeys + product discovery",
+            "coverage": "User intent / merchant jobs / shopping agents / search-recommendations / funnel / autonomy",
+            "videos": [
+              {
+                "title": "Agentic Commerce: Shopping Age...",
+                "url": "https://www.youtube.com/watch?v=GNlWClpVtcQ",
+                "channel": "Google Cloud"
+              },
+              {
+                "title": "How to Talk to Users",
+                "url": "https://www.youtube.com/watch?v=z1iF1c8w5Lg",
+                "channel": "Y Combinator"
+              }
+            ]
+          },
+          {
+            "title": "Commerce protocols, APIs + integration shapes",
+            "coverage": "ACP / UCP / AP2 / MCP-A2A / APIs / SDKs / schemas / partner contracts",
+            "videos": [
+              {
+                "title": "Implementing Agentic Commer...",
+                "url": "https://www.youtube.com/watch?v=l7r9jW2nEOI",
+                "channel": "Stripe Developers"
+              },
+              {
+                "title": "Designing Quality APIs",
+                "url": "https://www.youtube.com/watch?v=P0a7PwRNLVU",
+                "channel": "Google Cloud"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Design secure transactions and integrations across merchant, agent and payment ecosystems",
+        "competencies": [
+          {
+            "title": "Catalog, search + product-data readiness",
+            "coverage": "Product feeds / taxonomy / inventory / semantic search / recommendations / merchant data quality",
+            "videos": [
+              {
+                "title": "Retail Search: AI-Driven Product Di...",
+                "url": "https://www.youtube.com/watch?v=b-_WCvhocqo",
+                "channel": "Google Cloud"
+              },
+              {
+                "title": "Get Products into Search",
+                "url": "https://www.youtube.com/watch?v=Zrt46loj-Cc",
+                "channel": "Google Search Central"
+              }
+            ]
+          },
+          {
+            "title": "Machine payments, tokenization + delegated authorization",
+            "coverage": "Payment rails / tokens / identity / consent / spend controls / risk / fraud / auditability",
+            "videos": [
+              {
+                "title": "Machine Payments + Agenti...",
+                "url": "https://www.youtube.com/watch?v=uBGqhGRzkuU",
+                "channel": "Stripe Sessions 2026"
+              },
+              {
+                "title": "AI Risk Management Framework Launch",
+                "url": "https://www.nist.gov/news-events/events/2023/01/nist-ai-risk-management-framework-ai-rmf-10-launch",
+                "channel": "NIST"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Scale ecosystem adoption with measurable economics, trust and partner strategy",
+        "competencies": [
+          {
+            "title": "Partner ecosystem, standards + go-to-market",
+            "coverage": "Networks / wallets / AI platforms / merchants / interoperability / partner roadmap / launch",
+            "videos": [
+              {
+                "title": "The Model Context Protocol (MCP)",
+                "url": "https://www.youtube.com/watch?v=CQywdSdi5iA",
+                "channel": "Anthropic"
+              },
+              {
+                "title": "Go-to-Market Strategy by Microso...",
+                "url": "https://www.youtube.com/watch?v=yDLErwgajOQ",
+                "channel": "Product School"
+              }
+            ]
+          },
+          {
+            "title": "Metrics, experimentation + commerce economics",
+            "coverage": "Conversion / authorization / fraud loss / latency / retention / unit economics / experiments",
+            "videos": [
+              {
+                "title": "Must-Have Metrics for Product Strategy",
+                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
+                "channel": "Reforge"
+              },
+              {
+                "title": "AI Experimentation: Quality, Cost + Latency",
+                "url": "https://www.youtube.com/watch?v=LzMiAXDkLwY",
+                "channel": "Statsig"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 706,
+    "category": "AI Product, Strategy & Enterprise Transformation",
+    "bonus": []
+  },
+  {
+    "name": "ERP Systems Manager / Enterprise Applications Manager",
+    "benchmark": "Current SAP/Oracle/Workday enterprise-applications management roles + SAP Activate / enterprise transformation practice (current Sep 2026) Current bar: end-to-end ERP process ownership; SAP/Oracle/Workday/Dynamics fluency; fit-to-standard; roadmap and demand; requirements; integrations/APIs; master data; migration/testing/cutover; service management; vendor economics; SOX/ITGC; adoption; and AI-enabled ERP modernization.",
+    "capstone": "Run a 5-day ERP operating-system lab: choose one end-to-end enterprise process; map current-state and target-state flow; run a fit-to-standard decision log; build capability/requirements backlog and investment roadmap; design one API/integration and master-data contract; create migration, reconciliation, UAT, regression, cutover, rollback and hypercare plans; define ITIL support, access/change controls and evidence; model vendor/license economics; redesign one workflow with governed AI; then deliver an executive roadmap and go-live decision.",
+    "rubric": "Demonstrate process and configuration judgment; traceable requirements; disciplined standard-vs-custom decisions; credible integration/API architecture; master-data quality and reconciliation; test/UAT/cutover evidence; stable service and SLA model; access/change controls and audit evidence; vendor/cost awareness; adoption plan; measurable AI value with human oversight; and concise executive tradeoffs.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Own enterprise process architecture, fit-to-standard decisions and demand",
+        "competencies": [
+          {
+            "title": "End-to-end business processes + fit-to-standard",
+            "coverage": "Finance / procurement / supply chain / HR / process ownership / standard vs customization",
+            "videos": [
+              {
+                "title": "Fit-to-Standard Detailed Process, PET 2026",
+                "url": "https://learning.sap.com/videos/explaining-the-fit-to-standard-detailed-process-in-sap-activate-pet-2026",
+                "channel": "SAP"
+              },
+              {
+                "title": "Model Company Self-Service for Fit-to-Standa...",
+                "url": "https://learning.sap.com/videos/exploring-the-self-service-option-in-model-company-for-sap-business-suite-pet-2026",
+                "channel": "SAP"
+              }
+            ]
+          },
+          {
+            "title": "Requirements, roadmap + investment prioritization",
+            "coverage": "Stakeholder elicitation / capability gaps / demand intake / value / roadmap / decision rights",
+            "videos": [
+              {
+                "title": "How To Elicit Requirements",
+                "url": "https://www.youtube.com/watch?v=rCPNygPxEa0",
+                "channel": "IIBA"
+              },
+              {
+                "title": "BTP Content in SAP Activate Roadmaps, PET...",
+                "url": "https://learning.sap.com/videos/exploring-sap-btp-content-in-sap-activate-roadmaps-pet-2026",
+                "channel": "SAP"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Deliver clean integrations, data transitions and controlled releases",
+        "competencies": [
+          {
+            "title": "Integrations, APIs + clean-core extensions",
+            "coverage": "Integration contracts / APIs / events / middleware / BTP / non-SAP systems / NFRs",
+            "videos": [
+              {
+                "title": "S/4HANA APIs + Events",
+                "url": "https://youtu.be/EpQTv1vfSfs?list=PLkzo92owKnVxiagp35AcwoxOlX0J4hLyY",
+                "channel": "SAP HANA Academy"
+              },
+              {
+                "title": "Designing Quality APIs",
+                "url": "https://www.youtube.com/watch?v=P0a7PwRNLVU",
+                "channel": "Google Cloud"
+              }
+            ]
+          },
+          {
+            "title": "Data migration, testing + cutover readiness",
+            "coverage": "Master data / reconciliation / UAT / regression / release / cutover / rollback / hypercare",
+            "videos": [
+              {
+                "title": "Migrating Data to SAP S/4HANA Cloud",
+                "url": "https://learning.sap.com/video-playlists/migrating-data-from-sap-business-bydesign-to-sap-s-4hana-cloud",
+                "channel": "SAP"
+              },
+              {
+                "title": "Post-Upgrade & Regression Testing",
+                "url": "https://learning.sap.com/courses/solution-transformation-consultant-sap-cloud-alm-delta/conducting-post-upgrade-and-regression-testing-for-sap-s-4hana-cloud-public-edition_b6d0c843-9235-4b3a-a6b9-f0a5a62f9360",
+                "channel": "SAP Cloud ALM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Run enterprise applications as a governed service and modernize with AI",
+        "competencies": [
+          {
+            "title": "Service operations, controls + continuous compliance",
+            "coverage": "ITIL / incidents / changes / access / SOX-ITGC / evidence / SLA / vendor and license governance",
+            "videos": [
+              {
+                "title": "Automating IT General Control Audits",
+                "url": "https://www.isaca.org/isaca-digital-videos/podcasts/seven-things-to-know-before-automating-it-general-control-audits",
+                "channel": "ISACA"
+              },
+              {
+                "title": "Continuous Compliance at Scale",
+                "url": "https://www.youtube.com/watch?v=h4eClhXPvoc",
+                "channel": "AWS re:Invent"
+              }
+            ]
+          },
+          {
+            "title": "AI-enabled ERP + autonomous enterprise evolution",
+            "coverage": "Business AI / agents / Joule / workflow automation / governance / adoption / measurable value",
+            "videos": [
+              {
+                "title": "Business AI Platform + Autono...",
+                "url": "https://www.youtube.com/watch?v=1uK9k457TWE",
+                "channel": "SAP Sapphire 2026"
+              },
+              {
+                "title": "Getting Started with Joule for Developers, PE...",
+                "url": "https://learning.sap.com/videos/getting-started-with-sap-joule-for-developers-pet-2026?listPosition=1&searchId=f3014bfa-37f1-4e35-bd59-94842cb8af7a",
+                "channel": "SAP"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 707,
+    "category": "Cloud, Platform & Systems Engineering",
+    "bonus": []
+  },
+  {
+    "name": "AIOps Engineer",
+    "benchmark": "Lam Research Observability & AIOps / Senior AI Observability + ServiceNow SRE & AIOps + enterprise zero-touch operations signals (current Sep 2026) Current bar: logs/metrics/traces/events and OpenTelemetry; SRE/SLO fluency; event correlation and noise reduction; anomaly detection and RCA; LLM/RAG operations knowledge; ITSM/runbooks; agentic incident response; safe remediation; hybrid cloud; Python/IaC; observability, governance and measurable MTTD/MTTR/toil improvements.",
+    "capstone": "Build an AIOps layer for a realistic microservice or hybrid environment. Instrument services with OpenTelemetry and define SLOs; build a service/topology map; ingest logs, metrics, traces and events; create correlation, deduplication and anomaly rules/models; implement an incident assistant grounded in runbooks and prior tickets; integrate an ITSM workflow; automate one reversible remediation behind approval and policy gates; inject faults and run an incident drill; prove rollback; then publish dashboards for alert noise, MTTD, MTTR, toil, false positives and reliability impact.",
+    "rubric": "Show complete telemetry and actionable SLOs; measurable signal/noise improvement; reproducible anomaly and root-cause evidence; credible incident and knowledge workflow; safe automation boundaries and approvals; explainable recommendations; rollback and blast-radius controls; ITSM/topology integration; hybrid reliability; measurable MTTD/MTTR/toil gains; human oversight; and a failure-learning loop that changes rules, models or runbooks.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build SRE and observability foundations for AI-assisted operations",
+        "competencies": [
+          {
+            "title": "SRE, service health + observability foundations",
+            "coverage": "SLIs/SLOs / logs / metrics / traces / events / service maps / error budgets / incident signals",
+            "videos": [
+              {
+                "title": "Getting Started with SLOs",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "channel": "Google Cloud"
+              },
+              {
+                "title": "OpenTelemetry: What It Is, How It Works",
+                "url": "https://www.youtube.com/watch?v=d7d6JN0J3SQ",
+                "channel": "CNCF"
+              }
+            ]
+          },
+          {
+            "title": "AIOps architecture + operational intelligence",
+            "coverage": "Telemetry pipelines / topology / ML for operations / prediction / correlation / remediation integration",
+            "videos": [
+              {
+                "title": "Cloud Intelligence / AIOps",
+                "url": "https://www.microsoft.com/en-us/research/video/research-talk-cloud-intelligence-aiops-infusing-ai-into-cloud-computing/",
+                "channel": "Microsoft Research"
+              },
+              {
+                "title": "Build an AIOps Platform at Enterpris...",
+                "url": "https://www.youtube.com/watch?v=UdVaexipP6w",
+                "channel": "Google Cloud"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Turn noisy telemetry into anomaly, root-cause and incident intelligence",
+        "competencies": [
+          {
+            "title": "Event correlation, anomaly detection + root-cause analysis",
+            "coverage": "Deduplication / suppression / anomaly models / topology context / probable cause / false positives",
+            "videos": [
+              {
+                "title": "Intelligent Data-Driven Cloud...",
+                "url": "https://www.microsoft.com/en-us/research/video/research-talk-an-intelligent-data-driven-paradigm-towards-cloud-reliability/",
+                "channel": "Microsoft Research"
+              },
+              {
+                "title": "Using Splunk for AIOps",
+                "url": "https://www.splunk.com/en_us/resources/videos/using-splunk-for-artificial-intelligence-for-it-operations-aiops.html",
+                "channel": "Splunk"
+              }
+            ]
+          },
+          {
+            "title": "Incident automation, knowledge + agentic investigation",
+            "coverage": "ITSM / runbooks / RAG ops knowledge / incident summarization / triage / approvals / escalation",
+            "videos": [
+              {
+                "title": "Automating IT Operations with...",
+                "url": "https://www.microsoft.com/en-us/research/video/research-talk-automating-and-optimizing-it-operations-management-with-ai/",
+                "channel": "Microsoft Research"
+              },
+              {
+                "title": "Agentic AIOps, Serverless Office Hours",
+                "url": "https://www.youtube.com/watch?v=XeazldX0DjM",
+                "channel": "AWS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Design safe autonomous operations and prove measurable reliability value",
+        "competencies": [
+          {
+            "title": "Autonomous remediation + safe change/recovery",
+            "coverage": "Self-healing / policy gates / human approval / blast radius / rollback / change risk / recovery testing",
+            "videos": [
+              {
+                "title": "ITOM AIOps for Autonomous Operatio...",
+                "url": "https://www.youtube.com/watch?v=m2y9w8FxCDo",
+                "channel": "ServiceNow"
+              },
+              {
+                "title": "Agentic AIOps with LogicMonitor",
+                "url": "https://www.youtube.com/watch?v=Zt9xGZkw77Q",
+                "channel": "AWS re:Invent"
+              }
+            ]
+          },
+          {
+            "title": "AIOps platform governance, hybrid scale + value",
+            "coverage": "Hybrid cloud / model-agent governance / observability of AI / MTTD-MTTR / noise / toil / ROI",
+            "videos": [
+              {
+                "title": "Future of AIOps: Agentic AI + IT Resilie...",
+                "url": "https://www.dynatrace.com/info/webinars/the-future-of-aiops-how-agentic-ai-is-transforming-it-resilience/",
+                "channel": "Dynatrace"
+              },
+              {
+                "title": "Exploring AI Observability",
+                "url": "https://www.dynatrace.com/info/webinars/exploring-the-power-of-ai-observability-with-dynatrace-and-aws/",
+                "channel": "Dynatrace + AWS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 708,
+    "category": "Cloud, Platform & Systems Engineering",
     "bonus": []
   }
 ]
