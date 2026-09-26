@@ -20383,5 +20383,130 @@
     "page": 672,
     "category": "Leadership, Management & Personal Development",
     "bonus": []
+  },
+  {
+    "name": "Vibe Coder",
+    "benchmark": "Affirm Reliability Platform (explicit vibe-coding signal) + AI-native product-engineer market patterns + OpenAI Codex / Anthropic Claude Code / GitHub Copilot / Cursor / Replit / Vercel workflows (current Sep 2026) Market refresh: intent-to-software, product taste, agent prompting/context, rapid full-stack build, Git, tests/review, security, deployment and observability. Speed counts only when the result stays understandable, maintainable and safe.",
+    "capstone": "Ship a real product in a 72-hour build sprint: write a one-page spec and acceptance criteria; use an AI coding agent to build a responsive full-stack app with auth/data/API integration; commit through Git; create and run tests; review diffs and dependencies; threat-model secrets/auth/data access; deploy with logs and health checks; run 3-5 user tests; iterate from evidence; publish a build log showing prompts, agent decisions, defects caught, code you overrode, and production tradeoffs.",
+    "rubric": "Working product, not a mockup; crisp spec and scope; strong product taste; high AI leverage without blind acceptance; coherent architecture; Git discipline; tests and regression evidence; secure secrets/auth/dependencies; observable deployment; user feedback changes the product; ability to explain generated code, failures and tradeoffs; measurable time-to-value without sacrificing maintainability.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Turn intent into a crisp spec and direct coding agents without losing product judgment",
+        "competencies": [
+          {
+            "title": "Problem framing, spec decomposition + product taste",
+            "coverage": "Product Discovery / Technical Requirements / UI & UX",
+            "videos": [
+              {
+                "title": "Software Is Changing (Again)",
+                "url": "https://www.youtube.com/watch?v=LCEmiRjPEtQ",
+                "channel": "YC"
+              },
+              {
+                "title": "Designer Built an OS with Cursor",
+                "url": "https://www.youtube.com/watch?v=TQhv6Wol6Ns",
+                "channel": "Cursor"
+              }
+            ]
+          },
+          {
+            "title": "Prompt/context engineering + agent steering",
+            "coverage": "Prompt & Context Engineering / AI Coding / Git",
+            "videos": [
+              {
+                "title": "Codex Bootcamp 101: Agentic Coding",
+                "url": "https://academy.openai.com/public/videos/codex-bootcamp-101-agentic-coding-2026-07-31",
+                "channel": "OpenAI"
+              },
+              {
+                "title": "Claude Code: Foundations",
+                "url": "https://www.anthropic.com/webinars/claude-code-foundations",
+                "channel": "Anthropic"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build full-stack products quickly, then inspect, test and iterate from evidence",
+        "competencies": [
+          {
+            "title": "Full-stack prototyping, data/auth/APIs + deployment",
+            "coverage": "Full-Stack / APIs / Databases / Cloud Deployment",
+            "videos": [
+              {
+                "title": "Full AI Web App Tutorial",
+                "url": "https://lovable.dev/video/build-web-apps-with-aino-coding-required-full-lovable-tutorial",
+                "channel": "Lovable"
+              },
+              {
+                "title": "Build Your Idea (Hands-On)",
+                "url": "https://learn.replit.com/docs/ai-foundations/lesson-7",
+                "channel": "Replit"
+              }
+            ]
+          },
+          {
+            "title": "Debugging, tests, Git + human code review",
+            "coverage": "Testing / Version Control / Code Review / Refactoring",
+            "videos": [
+              {
+                "title": "Claude Code in an Hour",
+                "url": "https://www.anthropic.com/webinars/claude-code-in-an-hour-a-developers-intro",
+                "channel": "Anthropic"
+              },
+              {
+                "title": "Codex & Future of Coding with AI",
+                "url": "https://www.youtube.com/watch?v=OXOypK7_90c",
+                "channel": "OpenAI"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Ship AI-assisted software with security, reliability and scalable agent workflows",
+        "competencies": [
+          {
+            "title": "Secure-by-default hardening + production reliability",
+            "coverage": "AppSec / DevSecOps / Observability / SRE",
+            "videos": [
+              {
+                "title": "Secure Coding Literacy for Vibe Coders",
+                "url": "https://www.youtube.com/watch?v=h043nFYrGyA",
+                "channel": "OWASP"
+              },
+              {
+                "title": "Securing the Vibe Coding Era",
+                "url": "https://developer.microsoft.com/en-us/reactor/events/26275/",
+                "channel": "Microsoft"
+              }
+            ]
+          },
+          {
+            "title": "Multi-agent orchestration, MCP + advanced automation",
+            "coverage": "Agentic Development / MCP / CI-CD / AI Dev Productivity",
+            "videos": [
+              {
+                "title": "Claude Code Advanced Patterns",
+                "url": "https://www.anthropic.com/webinars/claude-code-advanced-patterns",
+                "channel": "Anthropic"
+              },
+              {
+                "title": "Codex Bootcamp 301: Automation",
+                "url": "https://academy.openai.com/public/videos/codex-bootcamp-301-advanced-automation-2026-08-13",
+                "channel": "OpenAI"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 689,
+    "category": "Software & Application Engineering",
+    "bonus": []
   }
 ]
