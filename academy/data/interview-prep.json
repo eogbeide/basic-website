@@ -1,0 +1,2522 @@
+[
+  {
+    "name": "Product Manager",
+    "subtitle": "Product Manager / Growth PM / AI Product Manager",
+    "benchmark": "2026 PM loops across Google, Meta, Amazon, Microsoft and AI-native companies 2026 interview refresh: Product sense, metrics/execution, strategy, behavioral depth and rising AI product fluency.",
+    "capstone": "Run a timed 5-round PM mock: product sense, analytical/execution, strategy, behavioral and technical/AI. Record every answer; score structure, assumptions, metrics, tradeoffs and follow-up depth; rerun weak rounds until the answer becomes clear without sounding memorized.",
+    "rubric": "Clear user/problem choice; measurable success; coherent prioritization; explicit tradeoffs; strategy connected to business model; technically credible AI reasoning; specific leadership evidence; concise communication; adapts under follow-ups.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Frame ambiguous customer problems and choose a defensible product direction",
+        "competencies": [
+          {
+            "title": "Product sense + customer problem framing",
+            "practice": "user segmentation / pain points / MVP / success metrics",
+            "videos": [
+              {
+                "title": "Google Maps PM Mock Interview",
+                "url": "https://www.youtube.com/watch?v=CXdaPETE7iE",
+                "channel": "Aced"
+              },
+              {
+                "title": "How to Talk to Users",
+                "url": "https://www.youtube.com/watch?v=MT4Ig2uqjTc",
+                "channel": "Y Combinator"
+              }
+            ]
+          },
+          {
+            "title": "Metrics + execution under ambiguity",
+            "practice": "north star, guardrails, diagnosis and tradeoffs",
+            "videos": [
+              {
+                "title": "Must-Have Product Metrics",
+                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
+                "channel": "Reforge"
+              },
+              {
+                "title": "North Star, Leading vs Lagging",
+                "url": "https://www.youtube.com/watch?v=hiQKb_0bTMs",
+                "channel": "KPIs"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Defend strategy, technical choices and measurable product decisions",
+        "competencies": [
+          {
+            "title": "Product strategy + competitive choices",
+            "practice": "positioning, business model and explicit tradeoffs",
+            "videos": [
+              {
+                "title": "A Plan Is Not a Strategy",
+                "url": "https://www.youtube.com/watch?v=iuYlGRnC7J8",
+                "channel": "HBR / Roger Martin"
+              },
+              {
+                "title": "Good Strategy / Bad Strategy",
+                "url": "https://www.youtube.com/watch?v=UZrTl16hZdk",
+                "channel": "Richard Rumelt"
+              }
+            ]
+          },
+          {
+            "title": "Technical + AI product fluency",
+            "practice": "RAG, latency, hallucination, evals and risk",
+            "videos": [
+              {
+                "title": "PM Mock: Manage AI Product Risks",
+                "url": "https://www.youtube.com/watch?v=2DoAXRBKbUI",
+                "channel": "Aced"
+              },
+              {
+                "title": "Principal AI PM Mock Interview",
+                "url": "https://www.youtube.com/watch?v=udB8AUO4dvM",
+                "channel": "Aced"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Show senior judgment, influence and deep follow-up resilience",
+        "competencies": [
+          {
+            "title": "Leadership stories + stakeholder influence",
+            "practice": "conflict, failure, decision quality and outcomes",
+            "videos": [
+              {
+                "title": "Influence Stakeholders",
+                "url": "https://www.youtube.com/watch?v=QMhDYkFhErY",
+                "channel": "Product School"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          },
+          {
+            "title": "Executive synthesis + mock loop",
+            "practice": "concise recommendation, risk and next-step logic",
+            "videos": [
+              {
+                "title": "Executive Presence",
+                "url": "https://www.youtube.com/watch?v=i2QOAfWLedE",
+                "channel": "Talks at Google"
+              },
+              {
+                "title": "Google Maps PM Mock Interview",
+                "url": "https://www.youtube.com/watch?v=CXdaPETE7iE",
+                "channel": "Aced"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 650,
+    "trackNumber": 1,
+    "relatedRole": "Software Product Manager"
+  },
+  {
+    "name": "Technical Product Manager",
+    "subtitle": "Technical PM / Platform PM / AI Platform PM",
+    "benchmark": "Technical PM and platform-product loops: product judgment + architecture/APIs + metrics + AI systems 2026 interview refresh: Technical credibility is tested through system boundaries, APIs, scale/reliability tradeoffs and increasingly AI platform quality.",
+    "capstone": "Complete a 60-minute technical PM case from customer problem to PRD, architecture/API map, success metrics, rollout plan and AI quality gates. Finish with a five-minute executive recommendation and hostile follow-up questions.",
+    "rubric": "Problem clarity; usable requirements; architecture/API credibility; measurable product outcomes; scale/reliability awareness; AI evaluation fluency; phased delivery; stakeholder judgment; concise executive defense.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Translate product ambiguity into technical scope and interface decisions",
+        "competencies": [
+          {
+            "title": "Product framing + technical requirements",
+            "practice": "PRD assumptions, constraints, APIs and acceptance criteria",
+            "videos": [
+              {
+                "title": "Google Maps PM Mock Interview",
+                "url": "https://www.youtube.com/watch?v=CXdaPETE7iE",
+                "channel": "Aced"
+              },
+              {
+                "title": "Python API Development / FastAPI",
+                "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA",
+                "channel": "freeCodeCamp"
+              }
+            ]
+          },
+          {
+            "title": "Architecture + API reasoning",
+            "practice": "service boundaries, data flow, contracts and scale",
+            "videos": [
+              {
+                "title": "TPM System Design: Twitter API",
+                "url": "https://www.youtube.com/watch?v=k-E4YdEs8qM",
+                "channel": "Aced"
+              },
+              {
+                "title": "From One Server to Scale",
+                "url": "https://www.youtube.com/watch?v=FxAom29OEKE",
+                "channel": "System Design"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Reason about platform tradeoffs, reliability and measurement",
+        "competencies": [
+          {
+            "title": "System design + scalability",
+            "practice": "caching, storage, failure modes and phased rollout",
+            "videos": [
+              {
+                "title": "System Design: Instagram",
+                "url": "https://www.youtube.com/watch?v=VJpfO6KdyWE",
+                "channel": "Aced"
+              },
+              {
+                "title": "System Design: TikTok",
+                "url": "https://www.youtube.com/watch?v=Z-0g_aJL5Fw",
+                "channel": "Aced"
+              }
+            ]
+          },
+          {
+            "title": "Metrics, experiments + quality gates",
+            "practice": "product KPIs, SLOs and experiment evidence",
+            "videos": [
+              {
+                "title": "Must-Have Product Metrics",
+                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
+                "channel": "Reforge"
+              },
+              {
+                "title": "Getting Started with SLOs",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "channel": "Google Cloud"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Lead AI-native platform choices and executive tradeoffs",
+        "competencies": [
+          {
+            "title": "AI architecture + evaluation",
+            "practice": "RAG/tools/evals, cost/latency and safety",
+            "videos": [
+              {
+                "title": "Principal AI PM Mock Interview",
+                "url": "https://www.youtube.com/watch?v=udB8AUO4dvM",
+                "channel": "Aced"
+              },
+              {
+                "title": "Practical Evaluation Systems",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          },
+          {
+            "title": "Stakeholder / executive influence",
+            "practice": "defend decisions across engineering and business",
+            "videos": [
+              {
+                "title": "Influence Stakeholders",
+                "url": "https://www.youtube.com/watch?v=QMhDYkFhErY",
+                "channel": "Product School"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 651,
+    "trackNumber": 2,
+    "relatedRole": "Technical Product Manager"
+  },
+  {
+    "name": "Program Manager",
+    "subtitle": "Program Manager / Business Program Manager / Operations Program Manager",
+    "benchmark": "Amazon-style PM competencies + cross-company program execution patterns 2026 interview refresh: Program interviews emphasize structured execution, stakeholder alignment, risk, analytics, writing and behavioral evidence.",
+    "capstone": "Prepare 8 STAR stories and run a five-interview simulation. Include one writing exercise: a one-page program update with status, risks, decisions, metrics and next actions. Practice defending a failed milestone and a resource tradeoff.",
+    "rubric": "Specific ownership; measurable impact; planning discipline; risk anticipation; dependency clarity; stakeholder influence; strong writing; data-backed decisions; learning from failure; executive brevity.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build the story bank and show structured program ownership",
+        "competencies": [
+          {
+            "title": "Program framing + execution fundamentals",
+            "practice": "scope, milestones, owners, dependencies and outcomes",
+            "videos": [
+              {
+                "title": "Program Manager Interview",
+                "url": "https://www.youtube.com/watch?v=Uk70uQkPf-I",
+                "channel": "Jeff Sipe"
+              },
+              {
+                "title": "Amazon Program Management Interview Prep",
+                "url": "https://www.youtube.com/watch?v=hE_RSlwy88Y",
+                "channel": ""
+              }
+            ]
+          },
+          {
+            "title": "Behavioral / STAR depth",
+            "practice": "ambiguity, failure, conflict, data-driven decisions",
+            "videos": [
+              {
+                "title": "Program Manager Questions 2026",
+                "url": "https://www.youtube.com/watch?v=7VmI6If1QBk",
+                "channel": "Jeff Sipe"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Manage risk, resources and cross-functional execution",
+        "competencies": [
+          {
+            "title": "Risk + dependency management",
+            "practice": "risk register, escalation, mitigation and recovery",
+            "videos": [
+              {
+                "title": "Program Manager Questions 2026",
+                "url": "https://www.youtube.com/watch?v=7VmI6If1QBk",
+                "channel": "Jeff Sipe"
+              },
+              {
+                "title": "North Star, Leading vs Lagging",
+                "url": "https://www.youtube.com/watch?v=hiQKb_0bTMs",
+                "channel": "KPIs"
+              }
+            ]
+          },
+          {
+            "title": "Stakeholder alignment + influence",
+            "practice": "decision rights, conflict and written updates",
+            "videos": [
+              {
+                "title": "Influence Stakeholders",
+                "url": "https://www.youtube.com/watch?v=QMhDYkFhErY",
+                "channel": "Product School"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate portfolio-level programs and executive reviews",
+        "competencies": [
+          {
+            "title": "Operating cadence + metrics",
+            "practice": "WBR/MBR metrics, benefits and corrective action",
+            "videos": [
+              {
+                "title": "Must-Have Product Metrics",
+                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
+                "channel": "Reforge"
+              },
+              {
+                "title": "North Star, Leading vs Lagging",
+                "url": "https://www.youtube.com/watch?v=hiQKb_0bTMs",
+                "channel": "KPIs"
+              }
+            ]
+          },
+          {
+            "title": "Executive communication + transformation",
+            "practice": "concise narratives and AI-enabled change",
+            "videos": [
+              {
+                "title": "Executive Presence",
+                "url": "https://www.youtube.com/watch?v=i2QOAfWLedE",
+                "channel": "Talks at Google"
+              },
+              {
+                "title": "Leaders Empowering Productivity with AI",
+                "url": "https://www.youtube.com/watch?v=UT-D8A6nsW0",
+                "channel": "Microsoft"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 652,
+    "trackNumber": 3,
+    "relatedRole": null
+  },
+  {
+    "name": "Technical Program Manager (TPM)",
+    "subtitle": "TPM / Engineering Program Manager / Technical Delivery Lead",
+    "benchmark": "2026 TPM loops across Google, Meta, Amazon, Apple and other large technical organizations 2026 interview refresh: Core rounds: system design, program sense, cross-functional collaboration, technical retrospective and behavioral leadership.",
+    "capstone": "Run a complete TPM loop: 45-minute system design, 45-minute program sense, technical retrospective and behavioral round. Produce an architecture diagram plus program plan with milestones, dependencies, risks, SLOs and rollout/rollback.",
+    "rubric": "Technical breadth without over-coding; strong scoping; clear architecture; program structure; risk/dependency foresight; reliability thinking; cross-functional influence; measurable impact; crisp tradeoffs.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Combine technical architecture fluency with program structure",
+        "competencies": [
+          {
+            "title": "TPM behavioral + technical retrospective",
+            "practice": "technical challenge, people challenge and learning",
+            "videos": [
+              {
+                "title": "Google TPM Behavioral Interview",
+                "url": "https://www.youtube.com/watch?v=HhsAo8D5O_Q",
+                "channel": "Aced"
+              },
+              {
+                "title": "Program Manager Interview",
+                "url": "https://www.youtube.com/watch?v=Uk70uQkPf-I",
+                "channel": "Jeff Sipe"
+              }
+            ]
+          },
+          {
+            "title": "Architecture / API fundamentals",
+            "practice": "scope, components, data flow and failure points",
+            "videos": [
+              {
+                "title": "TPM System Design: Twitter API",
+                "url": "https://www.youtube.com/watch?v=k-E4YdEs8qM",
+                "channel": "Aced"
+              },
+              {
+                "title": "From One Server to Scale",
+                "url": "https://www.youtube.com/watch?v=FxAom29OEKE",
+                "channel": "System Design"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Drive complex system design and program sense",
+        "competencies": [
+          {
+            "title": "System design at scale",
+            "practice": "capacity, storage, caching, queues and reliability",
+            "videos": [
+              {
+                "title": "System Design: Instagram",
+                "url": "https://www.youtube.com/watch?v=VJpfO6KdyWE",
+                "channel": "Aced"
+              },
+              {
+                "title": "System Design: TikTok",
+                "url": "https://www.youtube.com/watch?v=Z-0g_aJL5Fw",
+                "channel": "Aced"
+              }
+            ]
+          },
+          {
+            "title": "Program sense + dependency management",
+            "practice": "roadmap, risks, milestones, owners and rollout",
+            "videos": [
+              {
+                "title": "Program Manager Questions 2026",
+                "url": "https://www.youtube.com/watch?v=7VmI6If1QBk",
+                "channel": "Jeff Sipe"
+              },
+              {
+                "title": "Influence Stakeholders",
+                "url": "https://www.youtube.com/watch?v=QMhDYkFhErY",
+                "channel": "Product School"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Lead reliability, incidents and multi-team technical tradeoffs",
+        "competencies": [
+          {
+            "title": "SLOs, launch quality + incident response",
+            "practice": "readiness gates, observability, rollback and RCA",
+            "videos": [
+              {
+                "title": "Getting Started with SLOs",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "channel": "Google Cloud"
+              },
+              {
+                "title": "Incident Management / SRE",
+                "url": "https://www.youtube.com/watch?v=n4y9dwinPBQ",
+                "channel": "Google Cloud"
+              }
+            ]
+          },
+          {
+            "title": "AI/platform program fluency",
+            "practice": "agents, MCP, evals and cross-team interfaces",
+            "videos": [
+              {
+                "title": "Build Hour: Agents SDK",
+                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
+                "channel": "OpenAI"
+              },
+              {
+                "title": "Model Context Protocol (MCP)",
+                "url": "https://www.youtube.com/watch?v=CQywdSdi5iA",
+                "channel": "Anthropic"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 653,
+    "trackNumber": 4,
+    "relatedRole": "AI Technical Program Manager"
+  },
+  {
+    "name": "Software Engineer",
+    "subtitle": "Software Engineer / Backend Engineer / Full-Stack Engineer",
+    "benchmark": "Modern SWE loops: coding + data structures, system design, engineering quality and behavioral/project depth 2026 interview refresh: Senior loops increasingly combine correctness with production reasoning, testing, reliability and communication.",
+    "capstone": "Run two timed coding rounds and one 60-minute system design. Add a project deep-dive where the interviewer repeatedly asks why you chose the architecture, how you tested it, what failed in production and how metrics changed.",
+    "rubric": "Correct code; complexity awareness; test discipline; clear design; scalable architecture; reliability and security awareness; quantified production impact; ownership; communication under challenge.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Solve coding problems clearly and prove correctness",
+        "competencies": [
+          {
+            "title": "Coding + data structures",
+            "practice": "clarify, brute force, optimize, test and narrate",
+            "videos": [
+              {
+                "title": "Example Coding/Engineering Interview",
+                "url": "https://www.youtube.com/watch?v=wwIysnVmAUg",
+                "channel": "Google"
+              },
+              {
+                "title": "Coding Interview: Longest Substring",
+                "url": "https://www.youtube.com/watch?v=IPjHWQTRXa0",
+                "channel": "Aced"
+              }
+            ]
+          },
+          {
+            "title": "Code quality + API fundamentals",
+            "practice": "clean interfaces, error handling and testability",
+            "videos": [
+              {
+                "title": "Python API Development / FastAPI",
+                "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA",
+                "channel": "freeCodeCamp"
+              },
+              {
+                "title": "Testing at Scale",
+                "url": "https://www.youtube.com/watch?v=oFO85YFuXjg",
+                "channel": "Beyond Coding"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Design scalable services and defend implementation tradeoffs",
+        "competencies": [
+          {
+            "title": "System design",
+            "practice": "requirements, scale estimates, data model and components",
+            "videos": [
+              {
+                "title": "System Design: Instagram",
+                "url": "https://www.youtube.com/watch?v=VJpfO6KdyWE",
+                "channel": "Aced"
+              },
+              {
+                "title": "System Design: TikTok",
+                "url": "https://www.youtube.com/watch?v=Z-0g_aJL5Fw",
+                "channel": "Aced"
+              }
+            ]
+          },
+          {
+            "title": "Delivery + CI/CD quality",
+            "practice": "tests, deployment, rollback and secure delivery",
+            "videos": [
+              {
+                "title": "GitHub Actions + Docker",
+                "url": "https://www.youtube.com/watch?v=UbtB4sMaaNM",
+                "channel": "TechWorld with Nana"
+              },
+              {
+                "title": "Testing at Scale",
+                "url": "https://www.youtube.com/watch?v=oFO85YFuXjg",
+                "channel": "Beyond Coding"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Demonstrate production ownership and senior technical judgment",
+        "competencies": [
+          {
+            "title": "Distributed reliability + performance",
+            "practice": "caching, load balancing, SLOs and bottlenecks",
+            "videos": [
+              {
+                "title": "Caching + Load Balancing",
+                "url": "https://www.youtube.com/watch?v=V4Zam6_oZKE",
+                "channel": "System Design"
+              },
+              {
+                "title": "Getting Started with SLOs",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "channel": "Google Cloud"
+              }
+            ]
+          },
+          {
+            "title": "Incident / behavioral project defense",
+            "practice": "live-site failure, RCA, tradeoffs and lessons",
+            "videos": [
+              {
+                "title": "Incident Management / SRE",
+                "url": "https://www.youtube.com/watch?v=n4y9dwinPBQ",
+                "channel": "Google Cloud"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 654,
+    "trackNumber": 5,
+    "relatedRole": "Software Developer"
+  },
+  {
+    "name": "Data Scientist",
+    "subtitle": "Data Scientist / Product Data Scientist / Decision Scientist",
+    "benchmark": "Current DS loops: SQL, statistics, experimentation, modeling, product/business cases and communication 2026 interview refresh: Strong candidates separate descriptive, predictive and causal claims while tying analysis to decisions.",
+    "capstone": "Complete a three-part mock: SQL case, statistics/experiment case and product/business case. Add a modeling deep dive with error analysis and a five-minute executive recommendation that clearly states uncertainty and causal limits.",
+    "rubric": "Correct SQL; statistical coherence; experimental validity; correlation-vs-causation discipline; model evaluation; metric judgment; uncertainty; business relevance; reproducibility; clear communication.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Prove analytical foundations and communicate assumptions",
+        "competencies": [
+          {
+            "title": "Full-loop mock + SQL reasoning",
+            "practice": "SQL, stats and business case under time pressure",
+            "videos": [
+              {
+                "title": "Full Data Science Mock Interview",
+                "url": "https://www.youtube.com/watch?v=cggcQbNC4-k",
+                "channel": "Aced"
+              },
+              {
+                "title": "SQL Full Database Course",
+                "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+                "channel": "freeCodeCamp"
+              }
+            ]
+          },
+          {
+            "title": "Statistics + uncertainty",
+            "practice": "hypothesis tests, confidence and assumptions",
+            "videos": [
+              {
+                "title": "Hypothesis Testing",
+                "url": "https://www.youtube.com/watch?v=0oc49DyA3hU",
+                "channel": "StatQuest"
+              },
+              {
+                "title": "Bias and Variance",
+                "url": "https://www.youtube.com/watch?v=EuBBz3bI-aA",
+                "channel": "StatQuest"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Design experiments and build defensible models",
+        "competencies": [
+          {
+            "title": "Experimentation + causal inference",
+            "practice": "A/B design, bias, identification and validity",
+            "videos": [
+              {
+                "title": "What Is A/B Testing?",
+                "url": "https://www.youtube.com/watch?v=_WuE80AbxjE",
+                "channel": "Statsig"
+              },
+              {
+                "title": "DoWhy + EconML",
+                "url": "https://www.youtube.com/watch?v=7z7jUF4Clok",
+                "channel": "Microsoft Research"
+              }
+            ]
+          },
+          {
+            "title": "Modeling + evaluation",
+            "practice": "features, validation, error analysis and tradeoffs",
+            "videos": [
+              {
+                "title": "ML with Python / scikit-learn",
+                "url": "https://www.youtube.com/watch?v=hDKCxebp88A",
+                "channel": "freeCodeCamp"
+              },
+              {
+                "title": "Bias and Variance",
+                "url": "https://www.youtube.com/watch?v=EuBBz3bI-aA",
+                "channel": "StatQuest"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Turn analysis into product decisions and AI-quality evidence",
+        "competencies": [
+          {
+            "title": "Product metrics + business judgment",
+            "practice": "metric trees, conflicting signals and recommendations",
+            "videos": [
+              {
+                "title": "Must-Have Product Metrics",
+                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
+                "channel": "Reforge"
+              },
+              {
+                "title": "North Star, Leading vs Lagging",
+                "url": "https://www.youtube.com/watch?v=hiQKb_0bTMs",
+                "channel": "KPIs"
+              }
+            ]
+          },
+          {
+            "title": "AI evals + executive storytelling",
+            "practice": "evaluation criteria, uncertainty and concise synthesis",
+            "videos": [
+              {
+                "title": "Practical Evaluation Systems",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 655,
+    "trackNumber": 6,
+    "relatedRole": "Data Scientist"
+  },
+  {
+    "name": "Data Engineer",
+    "subtitle": "Data Engineer / Analytics Engineer / Data Platform Engineer",
+    "benchmark": "Modern DE loops: SQL/coding, data modeling, pipelines, distributed systems, reliability, governance and cost 2026 interview refresh: Interview depth now spans both hands-on pipeline work and architecture-level tradeoffs.",
+    "capstone": "Run a SQL/coding mock, then design an end-to-end data platform for batch + streaming. Include contracts, data model, orchestration, quality checks, lineage, recovery, privacy, SLAs and a cost/performance discussion.",
+    "rubric": "SQL/coding fluency; data-model correctness; replay/idempotency; distributed systems reasoning; SLA/quality evidence; observability; governance; storage tradeoffs; clear architecture communication.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Master the interview loop and data-model fundamentals",
+        "competencies": [
+          {
+            "title": "DE interview process + SQL/coding",
+            "practice": "SQL transformations, Python and debugging",
+            "videos": [
+              {
+                "title": "Data Engineering Interview Prep",
+                "url": "https://www.youtube.com/watch?v=uGbpITJKSfY",
+                "channel": "Aced"
+              },
+              {
+                "title": "FAANG+ DE SQL + Coding Interviews",
+                "url": "https://www.youtube.com/watch?v=_zq70iEZNGA",
+                "channel": "Aced"
+              }
+            ]
+          },
+          {
+            "title": "Dimensional modeling + lakehouse layers",
+            "practice": "grain, keys, facts/dimensions and medallion design",
+            "videos": [
+              {
+                "title": "Star Schema / Kimball",
+                "url": "https://www.youtube.com/watch?v=gRE3E7VUzRU",
+                "channel": "Data Modeling"
+              },
+              {
+                "title": "Medallion Architecture",
+                "url": "https://www.youtube.com/watch?v=QimxOUwHdgo",
+                "channel": "Databricks"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Design reliable batch and streaming pipelines",
+        "competencies": [
+          {
+            "title": "ETL/ELT + orchestration",
+            "practice": "idempotency, schema evolution and recovery",
+            "videos": [
+              {
+                "title": "End-to-End Databricks DE Project",
+                "url": "https://www.youtube.com/watch?v=aEGan35iBbE",
+                "channel": ""
+              },
+              {
+                "title": "Airflow + Kafka Realtime Logs",
+                "url": "https://www.youtube.com/watch?v=xwtR_GdlkZA",
+                "channel": ""
+              }
+            ]
+          },
+          {
+            "title": "Spark / Kafka distributed processing",
+            "practice": "partitions, throughput, lag and backpressure",
+            "videos": [
+              {
+                "title": "GCP + Kafka + PySpark + Airflow",
+                "url": "https://www.youtube.com/watch?v=Cb2BpFoL30g",
+                "channel": ""
+              },
+              {
+                "title": "Apache Kafka Fundamentals",
+                "url": "https://www.youtube.com/watch?v=B5j3uNBH8X4",
+                "channel": "Confluent"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Defend platform reliability, governance and storage economics",
+        "competencies": [
+          {
+            "title": "Observability + lineage",
+            "practice": "SLAs, quality, incident diagnosis and lineage",
+            "videos": [
+              {
+                "title": "Data + AI Observability",
+                "url": "https://www.youtube.com/watch?v=MmvZY1gTAy4",
+                "channel": "Monte Carlo"
+              },
+              {
+                "title": "Unity Catalog + Lineage",
+                "url": "https://www.youtube.com/watch?v=_MJDqcLO79I",
+                "channel": "Databricks"
+              }
+            ]
+          },
+          {
+            "title": "Architecture + open-table tradeoffs",
+            "practice": "scale, Iceberg, cost/performance and consumers",
+            "videos": [
+              {
+                "title": "Data-Intensive Apps",
+                "url": "https://www.youtube.com/watch?v=SVOrURyOu_U",
+                "channel": "Martin Kleppmann"
+              },
+              {
+                "title": "Apache Iceberg",
+                "url": "https://www.youtube.com/watch?v=8ybMtzb6ytQ",
+                "channel": "AWS re:Invent"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 656,
+    "trackNumber": 7,
+    "relatedRole": "Data Engineer"
+  },
+  {
+    "name": "AI / ML Engineer",
+    "subtitle": "AI Engineer / ML Engineer / Applied AI Engineer",
+    "benchmark": "Production AI/ML loops: model evaluation + software engineering + retrieval/agents + serving/reliability 2026 interview refresh: High-demand interviews increasingly test production systems, evaluation, retrieval, latency/cost and failure analysis rather than model trivia alone.",
+    "capstone": "Design and defend a production AI system. Include model choice, RAG/tooling, eval set, regression gates, latency/cost targets, observability, security boundaries, staged rollout and rollback. Expect interviewer-induced failure scenarios.",
+    "rubric": "ML judgment; software rigor; retrieval/agent fluency; measurable evals; failure analysis; latency/cost tradeoffs; security; observability; rollout/recovery; concise system defense.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Demonstrate ML foundations and production-software rigor",
+        "competencies": [
+          {
+            "title": "Model behavior + evaluation",
+            "practice": "validation, error analysis and failure taxonomy",
+            "videos": [
+              {
+                "title": "Intro to Large Language Models",
+                "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+                "channel": "Andrej Karpathy"
+              },
+              {
+                "title": "Evaluating LLMs",
+                "url": "https://www.youtube.com/watch?v=SnbGD677_u0",
+                "channel": "Hamel Husain"
+              }
+            ]
+          },
+          {
+            "title": "Python/API + software quality",
+            "practice": "service boundaries, tests and reproducibility",
+            "videos": [
+              {
+                "title": "Python API Development / FastAPI",
+                "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA",
+                "channel": "freeCodeCamp"
+              },
+              {
+                "title": "Testing at Scale",
+                "url": "https://www.youtube.com/watch?v=oFO85YFuXjg",
+                "channel": "Beyond Coding"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build retrieval and agentic systems that are measurable",
+        "competencies": [
+          {
+            "title": "RAG / grounding",
+            "practice": "retrieval quality, chunking, synthesis and citations",
+            "videos": [
+              {
+                "title": "RAG From Scratch",
+                "url": "https://www.youtube.com/watch?v=wd7TZ4w1mSw",
+                "channel": "LangChain"
+              },
+              {
+                "title": "Context Engineering for AI Agents",
+                "url": "https://www.youtube.com/watch?v=6_BcCthVvb8",
+                "channel": "LangChain"
+              }
+            ]
+          },
+          {
+            "title": "Agents + tool integrations",
+            "practice": "tool schemas, permissions, MCP and failure handling",
+            "videos": [
+              {
+                "title": "Build Hour: Agents SDK",
+                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
+                "channel": "OpenAI"
+              },
+              {
+                "title": "Model Context Protocol (MCP)",
+                "url": "https://www.youtube.com/watch?v=CQywdSdi5iA",
+                "channel": "Anthropic"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate safe, reliable and efficient AI in production",
+        "competencies": [
+          {
+            "title": "Evals + regression gates",
+            "practice": "task success, groundedness, latency and cost",
+            "videos": [
+              {
+                "title": "Practical Evaluation Systems",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Reliable Agent Architectures",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-designing-reliable-agent-architectures-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          },
+          {
+            "title": "Security + adversarial robustness",
+            "practice": "prompt injection, jailbreaks and safe tool use",
+            "videos": [
+              {
+                "title": "AI Red Teaming 101 Full Course",
+                "url": "https://www.youtube.com/watch?v=DwFVhFdD2fs",
+                "channel": "Microsoft"
+              },
+              {
+                "title": "What Is a Prompt Injection Attack?",
+                "url": "https://www.youtube.com/watch?v=jrHRe9lSqqA",
+                "channel": "IBM"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 657,
+    "trackNumber": 8,
+    "relatedRole": "AI Engineer"
+  },
+  {
+    "name": "Prompt Engineer / GenAI",
+    "subtitle": "Prompt Engineer / GenAI Engineer / Conversation Designer",
+    "benchmark": "Current Prompt Engineer work: system instructions, templates, RAG, structured outputs, evaluation/versioning and adversarial testing 2026 interview refresh: Interview readiness now requires treating prompts as production assets with measurable quality, security and cost.",
+    "capstone": "Run a live prompt-design case: turn an ambiguous business task into system/developer/user instructions, structured output, RAG context and one tool. Then create an eval set, compare two prompt versions, analyze failures and red-team the final design.",
+    "rubric": "Clear prompt contract; correct context use; robust structured output; groundedness; reproducible evaluation; measurable task success; version control; prompt security; latency/token-cost awareness; ability to explain model limits.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Explain model behavior and design clear prompt contracts",
+        "competencies": [
+          {
+            "title": "Prompt architecture + structured outputs",
+            "practice": "roles, constraints, examples and output schemas",
+            "videos": [
+              {
+                "title": "Advanced Prompt Engineering",
+                "url": "https://academy.openai.com/en/public/videos/advanced-prompt-engineering-2025-02-13",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Intro to Large Language Models",
+                "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+                "channel": "Andrej Karpathy"
+              }
+            ]
+          },
+          {
+            "title": "Prompt critique + context design",
+            "practice": "failure diagnosis, context windows and instruction hierarchy",
+            "videos": [
+              {
+                "title": "Context Engineering for AI Agents",
+                "url": "https://www.youtube.com/watch?v=6_BcCthVvb8",
+                "channel": "LangChain"
+              },
+              {
+                "title": "What Is a Prompt Injection Attack?",
+                "url": "https://www.youtube.com/watch?v=jrHRe9lSqqA",
+                "channel": "IBM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Ground prompts and control tools/agents",
+        "competencies": [
+          {
+            "title": "RAG-aware prompt design",
+            "practice": "citations, missing context, retrieval errors and synthesis",
+            "videos": [
+              {
+                "title": "RAG From Scratch",
+                "url": "https://www.youtube.com/watch?v=wd7TZ4w1mSw",
+                "channel": "LangChain"
+              },
+              {
+                "title": "Evaluating LLMs",
+                "url": "https://www.youtube.com/watch?v=SnbGD677_u0",
+                "channel": "Hamel Husain"
+              }
+            ]
+          },
+          {
+            "title": "Tool / agent instructions",
+            "practice": "permissions, tool calls, MCP and escalation",
+            "videos": [
+              {
+                "title": "Build Hour: Agents SDK",
+                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
+                "channel": "OpenAI"
+              },
+              {
+                "title": "Model Context Protocol (MCP)",
+                "url": "https://www.youtube.com/watch?v=CQywdSdi5iA",
+                "channel": "Anthropic"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Prove evaluation, safety and production discipline",
+        "competencies": [
+          {
+            "title": "Prompt evals + versioning",
+            "practice": "test sets, A/B, regressions, quality/cost metrics",
+            "videos": [
+              {
+                "title": "Practical Evaluation Systems",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Reliable Agent Architectures",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-designing-reliable-agent-architectures-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          },
+          {
+            "title": "Prompt security + red teaming",
+            "practice": "injection, jailbreak, data leakage and unsafe actions",
+            "videos": [
+              {
+                "title": "AI Red Teaming 101 Full Course",
+                "url": "https://www.youtube.com/watch?v=DwFVhFdD2fs",
+                "channel": "Microsoft"
+              },
+              {
+                "title": "What Is a Prompt Injection Attack?",
+                "url": "https://www.youtube.com/watch?v=jrHRe9lSqqA",
+                "channel": "IBM"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 658,
+    "trackNumber": 9,
+    "relatedRole": "Prompt Engineer"
+  },
+  {
+    "name": "Engineering Manager",
+    "subtitle": "Engineering Manager / Software Development Manager",
+    "benchmark": "EM loops: people leadership + execution + architecture judgment + impact measurement 2026 interview refresh: High-signal rounds probe goal setting, coaching, conflict, technical judgment, hiring and organizational impact.",
+    "capstone": "Prepare 8 management stories: performance turnaround, conflict, missed delivery, hiring, reorg/change, technical disagreement, incident and strategy shift. Add a system-design discussion focused on how the manager drives decisions rather than codes the solution.",
+    "rubric": "People-development evidence; accountability; inclusive leadership; technical credibility; delivery discipline; incident ownership; prioritization; organizational impact; executive influence; self-awareness.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Show credible people leadership and measurable team outcomes",
+        "competencies": [
+          {
+            "title": "Goals, performance + team leadership",
+            "practice": "goals, coaching, accountability and outcomes",
+            "videos": [
+              {
+                "title": "Engineering Manager Mock: Goals",
+                "url": "https://www.youtube.com/watch?v=sOX_Xl1TKic",
+                "channel": "Aced"
+              },
+              {
+                "title": "Engineering Manager Mock: Impact",
+                "url": "https://www.youtube.com/watch?v=MFz5A-fCoRE",
+                "channel": "Aced"
+              }
+            ]
+          },
+          {
+            "title": "Feedback + psychological safety",
+            "practice": "candor, conflict, growth and healthy escalation",
+            "videos": [
+              {
+                "title": "Radical Candor",
+                "url": "https://www.youtube.com/watch?v=vmxHUiiHgNk",
+                "channel": "Kim Scott / TED"
+              },
+              {
+                "title": "Psychological Safety",
+                "url": "https://www.youtube.com/watch?v=OAIlucguNzY",
+                "channel": "Amy Edmondson"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Demonstrate technical judgment and delivery leadership",
+        "competencies": [
+          {
+            "title": "System design judgment",
+            "practice": "architecture tradeoffs without over-owning implementation",
+            "videos": [
+              {
+                "title": "System Design: Instagram",
+                "url": "https://www.youtube.com/watch?v=VJpfO6KdyWE",
+                "channel": "Aced"
+              },
+              {
+                "title": "System Design: TikTok",
+                "url": "https://www.youtube.com/watch?v=Z-0g_aJL5Fw",
+                "channel": "Aced"
+              }
+            ]
+          },
+          {
+            "title": "Reliability + execution",
+            "practice": "quality bar, incidents, SLOs and prioritization",
+            "videos": [
+              {
+                "title": "Getting Started with SLOs",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "channel": "Google Cloud"
+              },
+              {
+                "title": "Incident Management / SRE",
+                "url": "https://www.youtube.com/watch?v=n4y9dwinPBQ",
+                "channel": "Google Cloud"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Lead organizations through strategy and executive influence",
+        "competencies": [
+          {
+            "title": "Strategy + resource allocation",
+            "practice": "priorities, tradeoffs, capacity and stop-doing choices",
+            "videos": [
+              {
+                "title": "How to Be a Strategic Leader",
+                "url": "https://www.youtube.com/watch?v=_wKUEOeAnFI",
+                "channel": "Stanford GSB"
+              },
+              {
+                "title": "A Plan Is Not a Strategy",
+                "url": "https://www.youtube.com/watch?v=iuYlGRnC7J8",
+                "channel": "HBR / Roger Martin"
+              }
+            ]
+          },
+          {
+            "title": "Executive communication + influence",
+            "practice": "concise narrative, disagreement and alignment",
+            "videos": [
+              {
+                "title": "Executive Presence",
+                "url": "https://www.youtube.com/watch?v=i2QOAfWLedE",
+                "channel": "Talks at Google"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 659,
+    "trackNumber": 10,
+    "relatedRole": "Engineering Manager"
+  },
+  {
+    "name": "Senior Manager",
+    "subtitle": "Senior Manager / Group Manager / Head of Function",
+    "benchmark": "Senior-manager loops across tech/business functions: strategy, operating cadence, talent systems, cross-org influence and transformation 2026 interview refresh: The bar moves from individual program wins to repeatable leadership systems and resource choices.",
+    "capstone": "Run a senior-manager case: inherit a struggling organization, choose three priorities, reallocate headcount, define KPIs, address one talent issue and redesign one workflow with AI. Present a 10-minute executive review and handle pushback.",
+    "rubric": "Clear priorities; resource logic; measurable operating system; cross-org influence; talent judgment; change leadership; risk/governance; AI-value discipline; executive presence; decision clarity.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Convert business context into priorities and resource choices",
+        "competencies": [
+          {
+            "title": "Strategy diagnosis + prioritization",
+            "practice": "choices, tradeoffs and stop-doing logic",
+            "videos": [
+              {
+                "title": "A Plan Is Not a Strategy",
+                "url": "https://www.youtube.com/watch?v=iuYlGRnC7J8",
+                "channel": "HBR / Roger Martin"
+              },
+              {
+                "title": "Good Strategy / Bad Strategy",
+                "url": "https://www.youtube.com/watch?v=UZrTl16hZdk",
+                "channel": "Richard Rumelt"
+              }
+            ]
+          },
+          {
+            "title": "Metrics + operating cadence",
+            "practice": "KPI tree, WBR/MBR and corrective action",
+            "videos": [
+              {
+                "title": "Must-Have Product Metrics",
+                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
+                "channel": "Reforge"
+              },
+              {
+                "title": "North Star, Leading vs Lagging",
+                "url": "https://www.youtube.com/watch?v=hiQKb_0bTMs",
+                "channel": "KPIs"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Lead cross-functional execution and people systems",
+        "competencies": [
+          {
+            "title": "Stakeholder influence + conflict",
+            "practice": "disagreement, escalation and decision rights",
+            "videos": [
+              {
+                "title": "Influence Stakeholders",
+                "url": "https://www.youtube.com/watch?v=QMhDYkFhErY",
+                "channel": "Product School"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          },
+          {
+            "title": "Coaching + organizational health",
+            "practice": "performance, succession and psychological safety",
+            "videos": [
+              {
+                "title": "Radical Candor",
+                "url": "https://www.youtube.com/watch?v=vmxHUiiHgNk",
+                "channel": "Kim Scott / TED"
+              },
+              {
+                "title": "Psychological Safety",
+                "url": "https://www.youtube.com/watch?v=OAIlucguNzY",
+                "channel": "Amy Edmondson"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Defend transformation and executive-level decisions",
+        "competencies": [
+          {
+            "title": "AI-era operating-model change",
+            "practice": "workflow redesign, adoption, governance and value",
+            "videos": [
+              {
+                "title": "Leaders Empowering Productivity with AI",
+                "url": "https://www.youtube.com/watch?v=UT-D8A6nsW0",
+                "channel": "Microsoft"
+              },
+              {
+                "title": "Reliable Agent Architectures",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-designing-reliable-agent-architectures-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          },
+          {
+            "title": "Executive presence + strategic narrative",
+            "practice": "concise options, risks and recommendation",
+            "videos": [
+              {
+                "title": "Executive Presence",
+                "url": "https://www.youtube.com/watch?v=i2QOAfWLedE",
+                "channel": "Talks at Google"
+              },
+              {
+                "title": "How to Be a Strategic Leader",
+                "url": "https://www.youtube.com/watch?v=_wKUEOeAnFI",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 660,
+    "trackNumber": 11,
+    "relatedRole": "Senior Manager"
+  },
+  {
+    "name": "Director, Product Management",
+    "subtitle": "Director PM / Head of Product / Group Product Lead",
+    "benchmark": "Director PM loops: portfolio strategy, org leadership, business economics, AI product judgment and executive influence 2026 interview refresh: Director interviews test whether product decisions scale across teams, portfolios and operating rhythms.",
+    "capstone": "Present a 3-product portfolio with constrained headcount. Choose investments, define success metrics, address one underperforming product, set AI quality gates and propose org/decision-right changes. Defend the plan to a simulated executive panel.",
+    "rubric": "Coherent portfolio thesis; resource allocation; economics; customer/market evidence; AI-quality judgment; org leadership; cross-functional influence; measurable outcomes; executive synthesis.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Set portfolio direction and define measurable product outcomes",
+        "competencies": [
+          {
+            "title": "Portfolio strategy + product judgment",
+            "practice": "market choices, sequencing and coherent product thesis",
+            "videos": [
+              {
+                "title": "A Plan Is Not a Strategy",
+                "url": "https://www.youtube.com/watch?v=iuYlGRnC7J8",
+                "channel": "HBR / Roger Martin"
+              },
+              {
+                "title": "Principal AI PM Mock Interview",
+                "url": "https://www.youtube.com/watch?v=udB8AUO4dvM",
+                "channel": "Aced"
+              }
+            ]
+          },
+          {
+            "title": "Metrics + resource allocation",
+            "practice": "north star, portfolio health and investment shifts",
+            "videos": [
+              {
+                "title": "Must-Have Product Metrics",
+                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
+                "channel": "Reforge"
+              },
+              {
+                "title": "North Star, Leading vs Lagging",
+                "url": "https://www.youtube.com/watch?v=hiQKb_0bTMs",
+                "channel": "KPIs"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Lead technical / AI product quality and go-to-market tradeoffs",
+        "competencies": [
+          {
+            "title": "AI product judgment + evaluation",
+            "practice": "quality, trust, latency, cost and safety gates",
+            "videos": [
+              {
+                "title": "PM Mock: Manage AI Product Risks",
+                "url": "https://www.youtube.com/watch?v=2DoAXRBKbUI",
+                "channel": "Aced"
+              },
+              {
+                "title": "Practical Evaluation Systems",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          },
+          {
+            "title": "Stakeholder / executive alignment",
+            "practice": "engineering, sales, finance and leadership conflict",
+            "videos": [
+              {
+                "title": "Influence Stakeholders",
+                "url": "https://www.youtube.com/watch?v=QMhDYkFhErY",
+                "channel": "Product School"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Show organizational leadership and executive narrative",
+        "competencies": [
+          {
+            "title": "People leadership + product organization",
+            "practice": "talent, decision rights and operating model",
+            "videos": [
+              {
+                "title": "Radical Candor",
+                "url": "https://www.youtube.com/watch?v=vmxHUiiHgNk",
+                "channel": "Kim Scott / TED"
+              },
+              {
+                "title": "Psychological Safety",
+                "url": "https://www.youtube.com/watch?v=OAIlucguNzY",
+                "channel": "Amy Edmondson"
+              }
+            ]
+          },
+          {
+            "title": "Executive presence + strategic defense",
+            "practice": "board-level options, risks and recommendation",
+            "videos": [
+              {
+                "title": "Executive Presence",
+                "url": "https://www.youtube.com/watch?v=i2QOAfWLedE",
+                "channel": "Talks at Google"
+              },
+              {
+                "title": "How to Be a Strategic Leader",
+                "url": "https://www.youtube.com/watch?v=_wKUEOeAnFI",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 661,
+    "trackNumber": 12,
+    "relatedRole": "Director, Product Management"
+  },
+  {
+    "name": "Director, Program Management",
+    "subtitle": "Director Program / PMO Director / Portfolio Leader",
+    "benchmark": "Director program loops: portfolio governance, cross-org execution, executive risk management and transformation 2026 interview refresh: The interview bar shifts from managing one program to designing a delivery system across multiple programs and leaders.",
+    "capstone": "Design a governance model for a portfolio of 6 programs. Reallocate resources after one critical dependency slips, prepare an executive decision memo, and present status/risks/benefits plus a recovery plan. Add an AI-enabled process-change initiative.",
+    "rubric": "Portfolio thinking; governance; dependency foresight; resource tradeoffs; risk escalation; cross-org influence; benefits measurement; transformation discipline; executive communication.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build portfolio clarity and operating mechanisms",
+        "competencies": [
+          {
+            "title": "Portfolio / program strategy",
+            "practice": "objectives, sequencing, owners, interlocks and benefits",
+            "videos": [
+              {
+                "title": "Program Manager Questions 2026",
+                "url": "https://www.youtube.com/watch?v=7VmI6If1QBk",
+                "channel": "Jeff Sipe"
+              },
+              {
+                "title": "A Plan Is Not a Strategy",
+                "url": "https://www.youtube.com/watch?v=iuYlGRnC7J8",
+                "channel": "HBR / Roger Martin"
+              }
+            ]
+          },
+          {
+            "title": "Operating cadence + metrics",
+            "practice": "portfolio health, dependencies and escalation signals",
+            "videos": [
+              {
+                "title": "North Star, Leading vs Lagging",
+                "url": "https://www.youtube.com/watch?v=hiQKb_0bTMs",
+                "channel": "KPIs"
+              },
+              {
+                "title": "Must-Have Product Metrics",
+                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
+                "channel": "Reforge"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Manage cross-org risk, conflict and technical dependencies",
+        "competencies": [
+          {
+            "title": "Risk / dependency governance",
+            "practice": "critical path, resource conflict and recovery",
+            "videos": [
+              {
+                "title": "Google TPM Behavioral Interview",
+                "url": "https://www.youtube.com/watch?v=HhsAo8D5O_Q",
+                "channel": "Aced"
+              },
+              {
+                "title": "TPM System Design: Twitter API",
+                "url": "https://www.youtube.com/watch?v=k-E4YdEs8qM",
+                "channel": "Aced"
+              }
+            ]
+          },
+          {
+            "title": "Stakeholder influence + decision rights",
+            "practice": "executive escalation and durable alignment",
+            "videos": [
+              {
+                "title": "Influence Stakeholders",
+                "url": "https://www.youtube.com/watch?v=QMhDYkFhErY",
+                "channel": "Product School"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Lead transformation through executives and managers",
+        "competencies": [
+          {
+            "title": "Organizational change + AI transformation",
+            "practice": "adoption, governance, benefits and controls",
+            "videos": [
+              {
+                "title": "Leaders Empowering Productivity with AI",
+                "url": "https://www.youtube.com/watch?v=UT-D8A6nsW0",
+                "channel": "Microsoft"
+              },
+              {
+                "title": "Reliable Agent Architectures",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-designing-reliable-agent-architectures-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          },
+          {
+            "title": "Executive reviews + presence",
+            "practice": "concise portfolio narrative and hard decisions",
+            "videos": [
+              {
+                "title": "Executive Presence",
+                "url": "https://www.youtube.com/watch?v=i2QOAfWLedE",
+                "channel": "Talks at Google"
+              },
+              {
+                "title": "How to Be a Strategic Leader",
+                "url": "https://www.youtube.com/watch?v=_wKUEOeAnFI",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 662,
+    "trackNumber": 13,
+    "relatedRole": "Director, Program Management"
+  },
+  {
+    "name": "Director, Engineering / Technology",
+    "subtitle": "Director Engineering / Director Technology / VP-track Engineering",
+    "benchmark": "Director engineering loops: architecture strategy, reliability, organizational design, talent and business alignment 2026 interview refresh: Director-level technical interviews evaluate systems and organizations together.",
+    "capstone": "Create a 12-month technology strategy for a scaling organization: architecture priorities, reliability goals, platform investment, headcount, quality mechanisms, talent plan and AI adoption. Present it to a CEO/CFO-style panel and defend cost and risk tradeoffs.",
+    "rubric": "Architecture judgment; reliability; engineering economics; operating mechanisms; manager-of-managers leadership; talent systems; prioritization; AI strategy; executive influence; measurable outcomes.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Set technical direction and connect architecture to business outcomes",
+        "competencies": [
+          {
+            "title": "Architecture / platform strategy",
+            "practice": "boundaries, scale, build-vs-buy and roadmap tradeoffs",
+            "videos": [
+              {
+                "title": "System Design: Instagram",
+                "url": "https://www.youtube.com/watch?v=VJpfO6KdyWE",
+                "channel": "Aced"
+              },
+              {
+                "title": "Data-Intensive Apps",
+                "url": "https://www.youtube.com/watch?v=SVOrURyOu_U",
+                "channel": "Martin Kleppmann"
+              }
+            ]
+          },
+          {
+            "title": "Engineering metrics + reliability",
+            "practice": "SLOs, quality, throughput, incidents and cost",
+            "videos": [
+              {
+                "title": "Getting Started with SLOs",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "channel": "Google Cloud"
+              },
+              {
+                "title": "Incident Management / SRE",
+                "url": "https://www.youtube.com/watch?v=n4y9dwinPBQ",
+                "channel": "Google Cloud"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Lead delivery systems and technical organizations",
+        "competencies": [
+          {
+            "title": "Engineering quality + operating model",
+            "practice": "testing, CI/CD, technical debt and release discipline",
+            "videos": [
+              {
+                "title": "Testing at Scale",
+                "url": "https://www.youtube.com/watch?v=oFO85YFuXjg",
+                "channel": "Beyond Coding"
+              },
+              {
+                "title": "GitHub Actions + Docker",
+                "url": "https://www.youtube.com/watch?v=UbtB4sMaaNM",
+                "channel": "TechWorld with Nana"
+              }
+            ]
+          },
+          {
+            "title": "People leadership + organizational health",
+            "practice": "managers, talent bar, succession and culture",
+            "videos": [
+              {
+                "title": "Engineering Manager Mock: Goals",
+                "url": "https://www.youtube.com/watch?v=sOX_Xl1TKic",
+                "channel": "Aced"
+              },
+              {
+                "title": "Psychological Safety",
+                "url": "https://www.youtube.com/watch?v=OAIlucguNzY",
+                "channel": "Amy Edmondson"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Defend investment choices and transformation at executive level",
+        "competencies": [
+          {
+            "title": "Strategy + resource allocation",
+            "practice": "portfolio choices, capacity and technology bets",
+            "videos": [
+              {
+                "title": "How to Be a Strategic Leader",
+                "url": "https://www.youtube.com/watch?v=_wKUEOeAnFI",
+                "channel": "Stanford GSB"
+              },
+              {
+                "title": "A Plan Is Not a Strategy",
+                "url": "https://www.youtube.com/watch?v=iuYlGRnC7J8",
+                "channel": "HBR / Roger Martin"
+              }
+            ]
+          },
+          {
+            "title": "Executive presence + AI transformation",
+            "practice": "board narrative, AI roadmap, governance and value",
+            "videos": [
+              {
+                "title": "Executive Presence",
+                "url": "https://www.youtube.com/watch?v=i2QOAfWLedE",
+                "channel": "Talks at Google"
+              },
+              {
+                "title": "Leaders Empowering Productivity with AI",
+                "url": "https://www.youtube.com/watch?v=UT-D8A6nsW0",
+                "channel": "Microsoft"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 663,
+    "trackNumber": 14,
+    "relatedRole": "Director, Software Engineering"
+  },
+  {
+    "name": "Finance Manager / FP&A",
+    "subtitle": "Finance Manager / FP&A Manager / Strategic Finance",
+    "benchmark": "Finance-manager loops: financial statements, forecasting, variance, business partnering, modeling and executive narrative 2026 interview refresh: High-signal interviews combine accounting/finance fluency with driver-based planning, scenarios and decision support.",
+    "capstone": "Build and present a mini FP&A case: historical variance, 12-month driver forecast, base/upside/downside scenarios, one investment decision and a CFO memo. Then answer rapid-fire questions about assumptions and cash impact.",
+    "rubric": "Financial statement fluency; auditable model logic; driver-based forecasting; variance diagnosis; valuation consistency; scenario/risk reasoning; business partnering; concise executive story.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Prove finance fundamentals and interview fluency",
+        "competencies": [
+          {
+            "title": "FP&A interview questions + core finance",
+            "practice": "P&L, cash flow, drivers, variance and budgeting",
+            "videos": [
+              {
+                "title": "Full Session",
+                "url": "https://www.youtube.com/watch?v=Lj1hFo8AovQ",
+                "channel": "FP&A Interview Questions"
+              },
+              {
+                "title": "30 Common FP&A Interview Questions + Answers",
+                "url": "https://www.youtube.com/watch?v=vdVDqRbKir8",
+                "channel": ""
+              }
+            ]
+          },
+          {
+            "title": "Financial statements + time value",
+            "practice": "statement links, cash logic and valuation foundations",
+            "videos": [
+              {
+                "title": "Read & Analyze Financial Statements",
+                "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/read-and-analyze-financial-statements-kathleen-fitzgerald",
+                "channel": "Chicago Booth"
+              },
+              {
+                "title": "Present Value Relations",
+                "url": "https://learn.mit.edu/video/11164/part-i-of-present-value-relations?playlist=11162",
+                "channel": "MIT"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Model the business and explain changing outcomes",
+        "competencies": [
+          {
+            "title": "Forecasting + driver-based planning",
+            "practice": "operating drivers, assumptions and forecast updates",
+            "videos": [
+              {
+                "title": "Driver-Based Planning in AI Era",
+                "url": "https://fpa-trends.com/webinars/fpa-trends-webinar-power-driver-based-planning-age-ai",
+                "channel": "FP&A Trends"
+              },
+              {
+                "title": "Real-Time Scenario Planning",
+                "url": "https://fpa-trends.com/webinars/fpa-trends-webinar-reactive-proactive-fpa-real-time-scenario-planning",
+                "channel": "FP&A Trends"
+              }
+            ]
+          },
+          {
+            "title": "Investment / valuation decisions",
+            "practice": "NPV, returns, DCF and scenario sensitivity",
+            "videos": [
+              {
+                "title": "Making Investment Decisions",
+                "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/making-investment-decisions-kathleen-fitzgerald",
+                "channel": "Chicago Booth"
+              },
+              {
+                "title": "Intrinsic / DCF Valuation",
+                "url": "https://www.youtube.com/watch?v=veSXjIzTa3c",
+                "channel": "Aswath Damodaran"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Influence business leaders with concise financial insight",
+        "competencies": [
+          {
+            "title": "Business partnering + stakeholder influence",
+            "practice": "challenge assumptions, tradeoffs and recommendations",
+            "videos": [
+              {
+                "title": "Influence Stakeholders",
+                "url": "https://www.youtube.com/watch?v=QMhDYkFhErY",
+                "channel": "Product School"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          },
+          {
+            "title": "Executive finance narrative",
+            "practice": "CFO-ready risks, options and decision ask",
+            "videos": [
+              {
+                "title": "Executive Presence",
+                "url": "https://www.youtube.com/watch?v=i2QOAfWLedE",
+                "channel": "Talks at Google"
+              },
+              {
+                "title": "How to Be a Strategic Leader",
+                "url": "https://www.youtube.com/watch?v=_wKUEOeAnFI",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 664,
+    "trackNumber": 15,
+    "relatedRole": "Finance Manager"
+  },
+  {
+    "name": "Director, Finance / Controller / CFO",
+    "subtitle": "Director Finance / Controller / CFO-track",
+    "benchmark": "Senior finance loops: controls + financial integrity, capital allocation, planning, risk, business strategy and board communication 2026 interview refresh: Leadership interviews require both technical finance depth and enterprise-level judgment.",
+    "capstone": "Prepare a board-style finance case: assess current performance, identify two strategic risks, reallocate capital, present a downside scenario and propose one AI-enabled finance workflow with controls. Deliver a 10-minute board briefing.",
+    "rubric": "Financial integrity; capital-allocation logic; scenario discipline; risk controls; strategy; cash and value creation; governance; executive presence; concise decision-oriented communication.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Establish financial integrity and capital-allocation judgment",
+        "competencies": [
+          {
+            "title": "Financial statements + controls",
+            "practice": "close, reconciliation, cash, audit and decision integrity",
+            "videos": [
+              {
+                "title": "Read & Analyze Financial Statements",
+                "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/read-and-analyze-financial-statements-kathleen-fitzgerald",
+                "channel": "Chicago Booth"
+              },
+              {
+                "title": "30 Common FP&A Interview Questions + Answers",
+                "url": "https://www.youtube.com/watch?v=vdVDqRbKir8",
+                "channel": ""
+              }
+            ]
+          },
+          {
+            "title": "Capital allocation + valuation",
+            "practice": "returns, DCF, hurdle rates and strategic investment",
+            "videos": [
+              {
+                "title": "Making Investment Decisions",
+                "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/making-investment-decisions-kathleen-fitzgerald",
+                "channel": "Chicago Booth"
+              },
+              {
+                "title": "Intrinsic / DCF Valuation",
+                "url": "https://www.youtube.com/watch?v=veSXjIzTa3c",
+                "channel": "Aswath Damodaran"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Lead planning, risk and enterprise tradeoffs",
+        "competencies": [
+          {
+            "title": "Scenario planning + forecasting",
+            "practice": "sensitivity, downside planning and resource shifts",
+            "videos": [
+              {
+                "title": "Driver-Based Planning in AI Era",
+                "url": "https://fpa-trends.com/webinars/fpa-trends-webinar-power-driver-based-planning-age-ai",
+                "channel": "FP&A Trends"
+              },
+              {
+                "title": "Real-Time Scenario Planning",
+                "url": "https://fpa-trends.com/webinars/fpa-trends-webinar-reactive-proactive-fpa-real-time-scenario-planning",
+                "channel": "FP&A Trends"
+              }
+            ]
+          },
+          {
+            "title": "Strategy + business economics",
+            "practice": "competitive choices, growth and stop-doing decisions",
+            "videos": [
+              {
+                "title": "Good Strategy / Bad Strategy",
+                "url": "https://www.youtube.com/watch?v=UZrTl16hZdk",
+                "channel": "Richard Rumelt"
+              },
+              {
+                "title": "A Plan Is Not a Strategy",
+                "url": "https://www.youtube.com/watch?v=iuYlGRnC7J8",
+                "channel": "HBR / Roger Martin"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Communicate to boards and lead AI-era finance transformation",
+        "competencies": [
+          {
+            "title": "Board / executive communication",
+            "practice": "succinct narrative, risk and decision asks",
+            "videos": [
+              {
+                "title": "Executive Presence",
+                "url": "https://www.youtube.com/watch?v=i2QOAfWLedE",
+                "channel": "Talks at Google"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          },
+          {
+            "title": "AI-enabled finance + governance",
+            "practice": "automation value, controls, validation and human override",
+            "videos": [
+              {
+                "title": "Leaders Empowering Productivity with AI",
+                "url": "https://www.youtube.com/watch?v=UT-D8A6nsW0",
+                "channel": "Microsoft"
+              },
+              {
+                "title": "Reliable Agent Architectures",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-designing-reliable-agent-architectures-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 665,
+    "trackNumber": 16,
+    "relatedRole": null
+  },
+  {
+    "name": "Economist / Decision Scientist",
+    "subtitle": "Economist / Decision Scientist / Economic Consultant",
+    "benchmark": "Economics and decision-science interviews: theory, econometrics, causal inference, strategic behavior and decision communication 2026 interview refresh: Applied roles increasingly test whether candidates can connect identification assumptions and economic mechanisms to real business or policy choices.",
+    "capstone": "Complete an economist case: define a mechanism and hypotheses, specify an empirical design, interpret regression/experiment evidence, address identification threats, add strategic behavior and present a policy/business recommendation with limitations.",
+    "rubric": "Correct economic mechanism; explicit assumptions; econometric validity; causal humility; strategic reasoning; uncertainty; scenario tradeoffs; decision relevance; clear explanation to non-specialists.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Structure economic mechanisms and quantitative assumptions",
+        "competencies": [
+          {
+            "title": "Micro / macro reasoning",
+            "practice": "incentives, equilibrium, growth and policy mechanisms",
+            "videos": [
+              {
+                "title": "Financial Markets Lecture 1",
+                "url": "https://oyc.yale.edu/economics/econ-252-11/lecture-1",
+                "channel": "Yale"
+              },
+              {
+                "title": "Intrinsic / DCF Valuation",
+                "url": "https://www.youtube.com/watch?v=veSXjIzTa3c",
+                "channel": "Aswath Damodaran"
+              }
+            ]
+          },
+          {
+            "title": "Statistics / regression foundations",
+            "practice": "model assumptions, uncertainty and interpretation",
+            "videos": [
+              {
+                "title": "Hypothesis Testing",
+                "url": "https://www.youtube.com/watch?v=0oc49DyA3hU",
+                "channel": "StatQuest"
+              },
+              {
+                "title": "Bias and Variance",
+                "url": "https://www.youtube.com/watch?v=EuBBz3bI-aA",
+                "channel": "StatQuest"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build causal evidence and strategic reasoning",
+        "competencies": [
+          {
+            "title": "Causal inference + experimental design",
+            "practice": "identification, confounding, robustness and limits",
+            "videos": [
+              {
+                "title": "DoWhy + EconML",
+                "url": "https://www.youtube.com/watch?v=7z7jUF4Clok",
+                "channel": "Microsoft Research"
+              },
+              {
+                "title": "What Is A/B Testing?",
+                "url": "https://www.youtube.com/watch?v=_WuE80AbxjE",
+                "channel": "Statsig"
+              }
+            ]
+          },
+          {
+            "title": "Game theory + incentives",
+            "practice": "strategic interaction, bargaining and equilibrium",
+            "videos": [
+              {
+                "title": "Game Theory Lecture 1",
+                "url": "https://oyc.yale.edu/economics/econ-159/lecture-1",
+                "channel": "Yale"
+              },
+              {
+                "title": "Good Strategy / Bad Strategy",
+                "url": "https://www.youtube.com/watch?v=UZrTl16hZdk",
+                "channel": "Richard Rumelt"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Turn analysis into a defensible decision recommendation",
+        "competencies": [
+          {
+            "title": "Decision metrics + scenario tradeoffs",
+            "practice": "welfare/business impact, uncertainty and sensitivities",
+            "videos": [
+              {
+                "title": "North Star, Leading vs Lagging",
+                "url": "https://www.youtube.com/watch?v=hiQKb_0bTMs",
+                "channel": "KPIs"
+              },
+              {
+                "title": "Real-Time Scenario Planning",
+                "url": "https://fpa-trends.com/webinars/fpa-trends-webinar-reactive-proactive-fpa-real-time-scenario-planning",
+                "channel": "FP&A Trends"
+              }
+            ]
+          },
+          {
+            "title": "Executive communication",
+            "practice": "explain evidence, assumptions and what is not known",
+            "videos": [
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              },
+              {
+                "title": "Executive Presence",
+                "url": "https://www.youtube.com/watch?v=i2QOAfWLedE",
+                "channel": "Talks at Google"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 666,
+    "trackNumber": 17,
+    "relatedRole": null
+  },
+  {
+    "name": "Strategy / Management Consultant",
+    "subtitle": "Strategy Consultant / Management Consultant / Corporate Strategy",
+    "benchmark": "Consulting interviews: structured problem solving, case math, market sizing, economics, recommendation and executive communication 2026 interview refresh: The core bar remains hypothesis-led problem solving with crisp synthesis under interviewer pressure.",
+    "capstone": "Run a 40-minute live case with no notes: clarify objective, build issue tree, do quantitative analysis, size a market, test hypotheses and synthesize. Finish with a 60-second CEO recommendation and two risks.",
+    "rubric": "MECE structure; hypothesis discipline; accurate math; economic logic; customer/market evidence; alternative testing; concise synthesis; client communication; ability to revise when evidence changes.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Structure ambiguous client problems and form testable hypotheses",
+        "competencies": [
+          {
+            "title": "Case structure + MECE issue trees",
+            "practice": "clarify objective, build issue tree and prioritize",
+            "videos": [
+              {
+                "title": "How to Be MECE",
+                "url": "https://www.youtube.com/watch?v=GU9JZ4pHFpM",
+                "channel": "Management Consulted"
+              },
+              {
+                "title": "Case Interview Walkthrough",
+                "url": "https://www.youtube.com/watch?v=Fcz5hEKZ3pA",
+                "channel": "Management Consulted"
+              }
+            ]
+          },
+          {
+            "title": "Customer / market evidence",
+            "practice": "segmentation, interviews and market sizing logic",
+            "videos": [
+              {
+                "title": "How to Talk to Users",
+                "url": "https://www.youtube.com/watch?v=MT4Ig2uqjTc",
+                "channel": "Y Combinator"
+              },
+              {
+                "title": "Google Maps PM Mock Interview",
+                "url": "https://www.youtube.com/watch?v=CXdaPETE7iE",
+                "channel": "Aced"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Quantify economics and compare strategic alternatives",
+        "competencies": [
+          {
+            "title": "Financial / valuation analysis",
+            "practice": "model economics, sensitivity and value creation",
+            "videos": [
+              {
+                "title": "Intrinsic / DCF Valuation",
+                "url": "https://www.youtube.com/watch?v=veSXjIzTa3c",
+                "channel": "Aswath Damodaran"
+              },
+              {
+                "title": "Making Investment Decisions",
+                "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/making-investment-decisions-kathleen-fitzgerald",
+                "channel": "Chicago Booth"
+              }
+            ]
+          },
+          {
+            "title": "Strategy + competitive choices",
+            "practice": "diagnose, choose and reject alternatives",
+            "videos": [
+              {
+                "title": "Good Strategy / Bad Strategy",
+                "url": "https://www.youtube.com/watch?v=UZrTl16hZdk",
+                "channel": "Richard Rumelt"
+              },
+              {
+                "title": "A Plan Is Not a Strategy",
+                "url": "https://www.youtube.com/watch?v=iuYlGRnC7J8",
+                "channel": "HBR / Roger Martin"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Synthesize into an executive recommendation",
+        "competencies": [
+          {
+            "title": "Stakeholder influence + Q&A",
+            "practice": "defend recommendation and handle disconfirming evidence",
+            "videos": [
+              {
+                "title": "Influence Stakeholders",
+                "url": "https://www.youtube.com/watch?v=QMhDYkFhErY",
+                "channel": "Product School"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          },
+          {
+            "title": "Executive presence",
+            "practice": "top-down synthesis, risks and next actions",
+            "videos": [
+              {
+                "title": "Executive Presence",
+                "url": "https://www.youtube.com/watch?v=i2QOAfWLedE",
+                "channel": "Talks at Google"
+              },
+              {
+                "title": "How to Be a Strategic Leader",
+                "url": "https://www.youtube.com/watch?v=_wKUEOeAnFI",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 667,
+    "trackNumber": 18,
+    "relatedRole": "Strategy Consultant"
+  },
+  {
+    "name": "Solutions Architect / Sales Engineer",
+    "subtitle": "Solutions Architect / Sales Engineer / Customer Engineer",
+    "benchmark": "Customer-facing technical loops: discovery, architecture, demos, objection handling, security/reliability and business value 2026 interview refresh: High-demand roles require technical depth plus commercial communication and credible customer influence.",
+    "capstone": "Run a customer interview simulation: 15-minute discovery, 15-minute whiteboard architecture, 10-minute demo narrative, objections on security/cost and a five-minute executive close with measurable value and implementation plan.",
+    "rubric": "Discovery depth; architecture correctness; integration realism; security/reliability; AI fluency; objection handling; commercial value; executive communication; trustworthy tradeoffs.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Discover the customer problem and translate it into a solution architecture",
+        "competencies": [
+          {
+            "title": "Discovery + requirements",
+            "practice": "business outcome, users, constraints and success criteria",
+            "videos": [
+              {
+                "title": "How to Talk to Users",
+                "url": "https://www.youtube.com/watch?v=MT4Ig2uqjTc",
+                "channel": "Y Combinator"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          },
+          {
+            "title": "Architecture + APIs",
+            "practice": "high-level design, integration points and data flows",
+            "videos": [
+              {
+                "title": "TPM System Design: Twitter API",
+                "url": "https://www.youtube.com/watch?v=k-E4YdEs8qM",
+                "channel": "Aced"
+              },
+              {
+                "title": "From One Server to Scale",
+                "url": "https://www.youtube.com/watch?v=FxAom29OEKE",
+                "channel": "System Design"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Defend reliability, security and implementation tradeoffs",
+        "competencies": [
+          {
+            "title": "Scalability + reliability",
+            "practice": "SLOs, failure modes, capacity and rollback",
+            "videos": [
+              {
+                "title": "System Design: Instagram",
+                "url": "https://www.youtube.com/watch?v=VJpfO6KdyWE",
+                "channel": "Aced"
+              },
+              {
+                "title": "Getting Started with SLOs",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "channel": "Google Cloud"
+              }
+            ]
+          },
+          {
+            "title": "AI / agent solution fluency",
+            "practice": "RAG, tools, MCP, evals and guardrails",
+            "videos": [
+              {
+                "title": "Build Hour: Agents SDK",
+                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
+                "channel": "OpenAI"
+              },
+              {
+                "title": "Practical Evaluation Systems",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Win technical trust and commercial alignment",
+        "competencies": [
+          {
+            "title": "Objection handling + stakeholder influence",
+            "practice": "constraints, alternatives and decision criteria",
+            "videos": [
+              {
+                "title": "Influence Stakeholders",
+                "url": "https://www.youtube.com/watch?v=QMhDYkFhErY",
+                "channel": "Product School"
+              },
+              {
+                "title": "Executive Presence",
+                "url": "https://www.youtube.com/watch?v=i2QOAfWLedE",
+                "channel": "Talks at Google"
+              }
+            ]
+          },
+          {
+            "title": "Executive value narrative",
+            "practice": "cost, risk, adoption and phased roadmap",
+            "videos": [
+              {
+                "title": "How to Be a Strategic Leader",
+                "url": "https://www.youtube.com/watch?v=_wKUEOeAnFI",
+                "channel": "Stanford GSB"
+              },
+              {
+                "title": "Leaders Empowering Productivity with AI",
+                "url": "https://www.youtube.com/watch?v=UT-D8A6nsW0",
+                "channel": "Microsoft"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 668,
+    "trackNumber": 19,
+    "relatedRole": "Solution Architect"
+  },
+  {
+    "name": "C-Suite / Executive Leadership",
+    "subtitle": "CEO / COO / CTO / CPO / CFO / Business Unit President",
+    "benchmark": "Executive interviews: enterprise strategy, capital/resource allocation, operating model, talent, transformation and board communication 2026 interview refresh: Executive loops test judgment, enterprise breadth, narrative clarity and evidence that leadership systems scale beyond the individual.",
+    "capstone": "Prepare a 15-minute CEO/COO/CFO-style strategy presentation: current diagnosis, three choices, capital/resource shifts, KPI system, talent implications, one AI transformation and top risks. Face a simulated board Q&A with conflicting priorities.",
+    "rubric": "Enterprise perspective; coherent strategy; capital/resource logic; operating metrics; talent and culture judgment; transformation discipline; governance; executive presence; decision clarity under challenge.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Diagnose the enterprise and make explicit strategic choices",
+        "competencies": [
+          {
+            "title": "Strategy + competitive choices",
+            "practice": "diagnosis, guiding policy, priorities and stop-doing list",
+            "videos": [
+              {
+                "title": "Good Strategy / Bad Strategy",
+                "url": "https://www.youtube.com/watch?v=UZrTl16hZdk",
+                "channel": "Richard Rumelt"
+              },
+              {
+                "title": "A Plan Is Not a Strategy",
+                "url": "https://www.youtube.com/watch?v=iuYlGRnC7J8",
+                "channel": "HBR / Roger Martin"
+              }
+            ]
+          },
+          {
+            "title": "Finance + capital allocation",
+            "practice": "value, cash, risk and investment tradeoffs",
+            "videos": [
+              {
+                "title": "Making Investment Decisions",
+                "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/making-investment-decisions-kathleen-fitzgerald",
+                "channel": "Chicago Booth"
+              },
+              {
+                "title": "Intrinsic / DCF Valuation",
+                "url": "https://www.youtube.com/watch?v=veSXjIzTa3c",
+                "channel": "Aswath Damodaran"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Run the business through metrics and leadership systems",
+        "competencies": [
+          {
+            "title": "Operating cadence + KPIs",
+            "practice": "leading/lagging indicators and resource reallocation",
+            "videos": [
+              {
+                "title": "Must-Have Product Metrics",
+                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
+                "channel": "Reforge"
+              },
+              {
+                "title": "North Star, Leading vs Lagging",
+                "url": "https://www.youtube.com/watch?v=hiQKb_0bTMs",
+                "channel": "KPIs"
+              }
+            ]
+          },
+          {
+            "title": "Leadership + culture",
+            "practice": "talent bar, accountability and psychological safety",
+            "videos": [
+              {
+                "title": "Radical Candor",
+                "url": "https://www.youtube.com/watch?v=vmxHUiiHgNk",
+                "channel": "Kim Scott / TED"
+              },
+              {
+                "title": "Psychological Safety",
+                "url": "https://www.youtube.com/watch?v=OAIlucguNzY",
+                "channel": "Amy Edmondson"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Lead transformation and communicate under board-level pressure",
+        "competencies": [
+          {
+            "title": "Executive presence + board communication",
+            "practice": "concise narrative, disagreement and Q&A",
+            "videos": [
+              {
+                "title": "Executive Presence",
+                "url": "https://www.youtube.com/watch?v=i2QOAfWLedE",
+                "channel": "Talks at Google"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          },
+          {
+            "title": "AI-era transformation + governance",
+            "practice": "portfolio value, adoption, controls and operating-model change",
+            "videos": [
+              {
+                "title": "Leaders Empowering Productivity with AI",
+                "url": "https://www.youtube.com/watch?v=UT-D8A6nsW0",
+                "channel": "Microsoft"
+              },
+              {
+                "title": "Reliable Agent Architectures",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-designing-reliable-agent-architectures-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 669,
+    "trackNumber": 20,
+    "relatedRole": null
+  }
+]

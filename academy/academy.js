@@ -45,22 +45,24 @@
     );
   }
 
-  function renderCompetency(c) {
+  function renderCompetency(c, coverageLabel) {
+    var label = coverageLabel || 'Coverage';
+    var text = c.coverage != null ? c.coverage : c.practice;
     return (
       '<div class="competency">' +
       '<p class="competency-title">' + escapeHtml(c.title) + '</p>' +
-      (c.coverage ? '<p class="competency-coverage">Coverage: ' + escapeHtml(c.coverage) + '</p>' : '') +
+      (text ? '<p class="competency-coverage">' + escapeHtml(label) + ': ' + escapeHtml(text) + '</p>' : '') +
       '<ul class="video-links">' + c.videos.map(renderVideo).join('') + '</ul>' +
       '</div>'
     );
   }
 
-  function renderLevel(lvl, index) {
+  function renderLevel(lvl, index, coverageLabel) {
     return (
       '<div class="level-block" data-level-index="' + index + '">' +
       '<span class="level-badge ' + levelClass(lvl.level) + '">' + escapeHtml(lvl.level) + '</span>' +
       (lvl.intro ? '<p class="level-intro">' + escapeHtml(lvl.intro) + '</p>' : '') +
-      lvl.competencies.map(renderCompetency).join('') +
+      lvl.competencies.map(function (c) { return renderCompetency(c, coverageLabel); }).join('') +
       '</div>'
     );
   }
@@ -109,6 +111,47 @@
     );
   }
 
+  var INTERVIEW_TRACKS = (typeof INTERVIEW_PREP_DATA !== 'undefined' ? INTERVIEW_PREP_DATA : []);
+  var INTERVIEW_TRACK_BY_ROLE = {};
+  INTERVIEW_TRACKS.forEach(function (t) {
+    if (t.relatedRole) INTERVIEW_TRACK_BY_ROLE[t.relatedRole] = t;
+  });
+
+  function renderInterviewTrackBody(track) {
+    return (
+      (track.subtitle ? '<p class="detail-description">' + escapeHtml(track.subtitle) + '</p>' : '') +
+      (track.benchmark ? '<p class="detail-benchmark">Benchmark: ' + escapeHtml(track.benchmark) + '</p>' : '') +
+      track.levels.map(function (lvl, i) { return renderLevel(lvl, i, 'Practice'); }).join('') +
+      (track.capstone
+        ? '<div class="capstone-block"><h3>Interview-Readiness Proof / Practice Loop</h3><p>' + escapeHtml(track.capstone) + '</p></div>'
+        : '') +
+      (track.rubric
+        ? '<div class="rubric-block"><h3>Pass Rubric</h3><p>' + escapeHtml(track.rubric) + '</p></div>'
+        : '')
+    );
+  }
+
+  function renderInterviewTrack(track) {
+    return (
+      '<div class="detail-card">' +
+      '<h2>' + escapeHtml(track.name) + '</h2>' +
+      renderShareBar('https://zuyini.com/academy/interview/' + slugify(track.name) + '/', track.name + ' Interview Prep | Zuyini Academy') +
+      renderInterviewTrackBody(track) +
+      '</div>'
+    );
+  }
+
+  function renderInterviewPrepEmbed(role) {
+    var track = INTERVIEW_TRACK_BY_ROLE[role.name];
+    if (!track) return '';
+    return (
+      '<details class="role-guide">' +
+      '<summary class="role-guide-summary">Interview Prep for This Role &mdash; Mock Practice, Videos &amp; Pass Rubric</summary>' +
+      '<div class="role-guide-body">' + renderInterviewTrackBody(track) + '</div>' +
+      '</details>'
+    );
+  }
+
   function renderRole(role) {
     var bonus = (role.bonus || [])
       .map(function (b) {
@@ -128,6 +171,7 @@
       renderShareBar('https://zuyini.com/academy/roles/' + slugify(role.name) + '/', role.name + ' | Zuyini Academy') +
       (role.benchmark ? '<p class="detail-benchmark">Benchmark: ' + escapeHtml(role.benchmark) + '</p>' : '') +
       renderRoleGuide(role) +
+      renderInterviewPrepEmbed(role) +
       role.levels.map(function (lvl, i) { return renderLevel(lvl, i); }).join('') +
       (bonus
         ? '<div class="cross-links-block"><h3>Bonus Quick Explainer</h3><ul class="video-links">' + bonus + '</ul></div>'
@@ -297,6 +341,94 @@
     );
   }
 
+  function renderSkillLadderRung(rung) {
+    var badgeClass = (rung.label || '').toLowerCase().replace(/[^a-z].*$/, '');
+    var items = (rung.items || []).map(function (it) {
+      return '<p class="competency-title">' + escapeHtml(it.title) + '</p>' +
+        '<ul class="video-links">' + renderVideo(it.video) + '</ul>';
+    }).join('');
+    return (
+      '<div class="skill-ladder-rung">' +
+      '<span class="level-badge ' + escapeHtml(badgeClass) + '">' + escapeHtml(rung.label) + '</span>' +
+      (rung.title ? '<p class="competency-title">' + escapeHtml(rung.title) + '</p>' : '') +
+      (rung.body ? '<p class="skill-grid-body">' + escapeHtml(rung.body) + '</p>' : '') +
+      items +
+      '</div>'
+    );
+  }
+
+  function renderSkillBlock(block) {
+    if (block.type === 'grid') {
+      return (
+        '<div class="guide-block"><h3>' + escapeHtml(block.heading) + '</h3>' +
+        (block.note ? '<p class="detail-description">' + escapeHtml(block.note) + '</p>' : '') +
+        '<div class="skill-grid">' +
+        (block.items || []).map(function (it) {
+          return '<div class="skill-grid-item"><p class="skill-grid-title">' + escapeHtml(it.title) + '</p>' +
+            '<p class="skill-grid-body">' + escapeHtml(it.body) + '</p></div>';
+        }).join('') +
+        '</div></div>'
+      );
+    }
+    if (block.type === 'videos') {
+      return (
+        '<div class="guide-block"><h3>' + escapeHtml(block.heading) + '</h3>' +
+        (block.note ? '<p class="detail-description">' + escapeHtml(block.note) + '</p>' : '') +
+        '<div class="competency">' +
+        (block.items || []).map(function (it) {
+          var v = it.video || {};
+          var channel = v.channel || '';
+          if (it.note) channel = channel ? channel + ' &mdash; ' + escapeHtml(it.note) : escapeHtml(it.note);
+          return '<p class="competency-title">' + escapeHtml(it.title) + '</p>' +
+            '<ul class="video-links">' + renderVideo({ title: v.title, url: v.url, channel: channel }) + '</ul>';
+        }).join('') +
+        '</div></div>'
+      );
+    }
+    if (block.type === 'labs') {
+      return (
+        '<div class="guide-block"><h3>' + escapeHtml(block.heading) + '</h3>' +
+        '<ul class="guide-list">' +
+        (block.items || []).map(function (it) {
+          return '<li><strong>' + escapeHtml(it.title) + ':</strong> ' + escapeHtml(it.body) + '</li>';
+        }).join('') +
+        '</ul></div>'
+      );
+    }
+    if (block.type === 'practice') {
+      return '<div class="guide-block"><h3>' + escapeHtml(block.heading) + '</h3><p>' + escapeHtml(block.body) + '</p></div>';
+    }
+    return '';
+  }
+
+  function renderSkillTrackBody(track) {
+    return (
+      (track.tagline ? '<p class="detail-description">' + escapeHtml(track.tagline) + '</p>' : '') +
+      (track.intro ? '<p class="detail-description">' + escapeHtml(track.intro) + '</p>' : '') +
+      (track.benchmark ? '<p class="detail-benchmark">Benchmark: ' + escapeHtml(track.benchmark) + '</p>' : '') +
+      (track.ladder && track.ladder.length
+        ? '<div class="guide-block skill-ladder"><h3>Mastery Ladder</h3>' + track.ladder.map(renderSkillLadderRung).join('') + '</div>'
+        : '') +
+      (track.blocks || []).map(renderSkillBlock).join('') +
+      (track.practiceBody
+        ? '<div class="capstone-block"><h3>' + escapeHtml(track.practiceHeading || 'Hands-On Practice') + '</h3><p>' + escapeHtml(track.practiceBody) + '</p></div>'
+        : '') +
+      (track.rubric
+        ? '<div class="rubric-block"><h3>' + escapeHtml(track.rubricHeading || 'Proof Rubric') + '</h3><p>' + escapeHtml(track.rubric) + '</p></div>'
+        : '')
+    );
+  }
+
+  function renderSkillTrack(track) {
+    return (
+      '<div class="detail-card">' +
+      '<h2>' + escapeHtml(track.name) + '</h2>' +
+      renderShareBar('https://zuyini.com/academy/skills/' + slugify(track.name) + '/', track.name + ' | Zuyini Academy Skill Track') +
+      renderSkillTrackBody(track) +
+      '</div>'
+    );
+  }
+
   var MODES = {
     roles: {
       label: 'roles',
@@ -321,6 +453,22 @@
       emptyTitle: 'Choose an academic certificate',
       emptyBody: 'University-benchmarked, major-inspired curricula spanning foundations, intermediate core and advanced specialization, each with an integrative capstone.',
       render: renderCertificate,
+    },
+    interview: {
+      label: 'interview prep tracks',
+      data: INTERVIEW_TRACKS.slice().sort(function (a, b) { return a.name.localeCompare(b.name); }),
+      searchPlaceholder: 'Search interview tracks, e.g. Product Manager, Engineering...',
+      emptyTitle: 'Choose an interview preparation track',
+      emptyBody: 'Benchmarked role-based interview tracks: Basic → Intermediate → Advanced practice, direct mock-interview videos, a timed practice loop and a pass rubric.',
+      render: renderInterviewTrack,
+    },
+    skills: {
+      label: 'skill tracks',
+      data: (typeof SKILL_TRACKS_DATA !== 'undefined' ? SKILL_TRACKS_DATA : []).slice().sort(function (a, b) { return a.name.localeCompare(b.name); }),
+      searchPlaceholder: 'Search skill tracks, e.g. Spanish, AI Mastery, UX...',
+      emptyTitle: 'Choose a skill track',
+      emptyBody: 'Hands-on mastery routes outside the role catalog: languages, programming languages, AI mastery, UI & UX mastery, personal development and professional development.',
+      render: renderSkillTrack,
     },
   };
 
@@ -347,6 +495,8 @@
     roles: document.getElementById('hero-stat-roles'),
     pathways: document.getElementById('hero-stat-pathways'),
     certificates: document.getElementById('hero-stat-certificates'),
+    interview: document.getElementById('hero-stat-interview'),
+    skills: document.getElementById('hero-stat-skills'),
   };
   Object.keys(heroStatEl).forEach(function (key) {
     if (heroStatEl[key] && MODES[key]) {
@@ -794,6 +944,35 @@
         name: co.name,
         snippet: co.description || '',
         blob: [co.name, co.description].join(' '),
+      });
+    });
+    MODES.interview.data.forEach(function (t) {
+      var compText = [];
+      (t.levels || []).forEach(function (lvl) {
+        (lvl.competencies || []).forEach(function (c) {
+          compText.push(c.title, c.practice);
+        });
+      });
+      index.push({
+        type: 'interview',
+        typeLabel: 'Interview Prep',
+        slug: slugify(t.name),
+        name: t.name,
+        snippet: t.subtitle || t.benchmark || '',
+        blob: [t.name, t.subtitle, t.benchmark, t.capstone, compText.join(' ')].join(' '),
+      });
+    });
+    MODES.skills.data.forEach(function (t) {
+      var blockText = (t.blocks || []).map(function (b) {
+        return [b.heading, (b.items || []).map(function (it) { return it.title + ' ' + (it.body || ''); }).join(' ')].join(' ');
+      }).join(' ');
+      index.push({
+        type: 'skills',
+        typeLabel: 'Skill Track',
+        slug: slugify(t.name),
+        name: t.name,
+        snippet: t.tagline || t.intro || '',
+        blob: [t.name, t.tagline, t.intro, blockText].join(' '),
       });
     });
     return index;

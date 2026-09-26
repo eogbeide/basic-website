@@ -1,0 +1,919 @@
+[
+  {
+    "slug": "language-learning-english",
+    "name": "Language Learning — English",
+    "category": "Language Learning",
+    "tagline": "CEFR-structured, ACTFL-informed, video-first, active-use mastery",
+    "intro": "Global academic, professional and everyday communication. Build listening, speaking, reading and writing together using comprehensible input, deliberate output and spaced retrieval.",
+    "benchmark": "CEFR progression + ACTFL-informed functional practice across listening, speaking, reading and writing. Use real communicative tasks and can-do evidence; this is not an official ACTFL rating.",
+    "ladder": [
+      {
+        "label": "FOUNDATIONS – A1/A2",
+        "title": "Build sounds, core patterns and high-comprehension input",
+        "items": [
+          {
+            "title": "Pronunciation: all 44 English sounds",
+            "video": {
+              "title": "Complete pronunciation guide (75m)",
+              "url": "https://www.youtube.com/watch?v=QxQUapA-2w4",
+              "channel": "BBC Learning English"
+            }
+          },
+          {
+            "title": "Core grammar + vocabulary",
+            "video": {
+              "title": "55 lessons in 55 minutes",
+              "url": "https://www.youtube.com/watch?v=gYq-ilAbxDM",
+              "channel": "BBC Learning English"
+            }
+          }
+        ]
+      },
+      {
+        "label": "INTERMEDIATE – B1/B2",
+        "title": "Sustain listening, conversation and reading in authentic contexts",
+        "items": [
+          {
+            "title": "Listening + vocabulary in context",
+            "video": {
+              "title": "6 Minute English mega-class (1h)",
+              "url": "https://www.youtube.com/watch?v=fcN0BXzK8bg",
+              "channel": "BBC Learning English"
+            }
+          },
+          {
+            "title": "Interactive speaking at B2",
+            "video": {
+              "title": "B2 First Speaking Test",
+              "url": "https://www.youtube.com/watch?v=-tqeI9t4x9E",
+              "channel": "Cambridge English"
+            }
+          }
+        ]
+      },
+      {
+        "label": "ADVANCED – C1+",
+        "title": "Use the language flexibly for complex, professional and cultural communication",
+        "items": [
+          {
+            "title": "Extended speaking at C1",
+            "video": {
+              "title": "C1 Advanced Speaking Test",
+              "url": "https://www.youtube.com/watch?v=5nGESyDgmdw",
+              "channel": "Cambridge English"
+            }
+          },
+          {
+            "title": "Precision vocabulary refresh",
+            "video": {
+              "title": "English in a Minute box set",
+              "url": "https://www.youtube.com/watch?v=Ujfl_c12G8I",
+              "channel": "BBC Learning English"
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "HANDS-ON MASTERY",
+    "practiceBody": "Record a 5-minute explanation, hold a 20-minute conversation, summarize an article and write a 500-word memo. Compare against a CEFR can-do rubric and ACTFL-informed functional lens, log recurring errors, create retrieval cards from those errors, and repeat after two weeks.",
+    "rubricHeading": "PROOF RUBRIC",
+    "rubric": "Comprehension at target difficulty; spontaneous interaction; intelligible pronunciation; vocabulary range; grammatical control; discourse length; reading inference; writing organization; ability to repair misunderstandings; documented improvement from feedback."
+  },
+  {
+    "slug": "language-learning-french",
+    "name": "Language Learning — French",
+    "category": "Language Learning",
+    "tagline": "CEFR-structured, ACTFL-informed, video-first, active-use mastery",
+    "intro": "Francophone everyday, academic and professional communication. Build listening, speaking, reading and writing together using comprehensible input, deliberate output and spaced retrieval.",
+    "benchmark": "CEFR progression + ACTFL-informed functional practice across listening, speaking, reading and writing. Use real communicative tasks and can-do evidence; this is not an official ACTFL rating.",
+    "ladder": [
+      {
+        "label": "FOUNDATIONS – A1/A2",
+        "title": "Build sounds, core patterns and high-comprehension input",
+        "items": [
+          {
+            "title": "Beginner comprehensible input",
+            "video": {
+              "title": "Beginner slow French",
+              "url": "https://www.youtube.com/watch?v=40IAXVvjSDA",
+              "channel": "Easy French"
+            }
+          },
+          {
+            "title": "A1-A2 listening + stories",
+            "video": {
+              "title": "30-minute beginner French",
+              "url": "https://www.youtube.com/watch?v=R6ZQ3jG-Mxk",
+              "channel": "Francais facile"
+            }
+          }
+        ]
+      },
+      {
+        "label": "INTERMEDIATE – B1/B2",
+        "title": "Sustain listening, conversation and reading in authentic contexts",
+        "items": [
+          {
+            "title": "A2-B1 street language",
+            "video": {
+              "title": "Intermediate beginner",
+              "url": "https://www.youtube.com/watch?v=sOAiwNY6Blo",
+              "channel": "Easy French"
+            }
+          },
+          {
+            "title": "B1-B2 authentic listening",
+            "video": {
+              "title": "Intermediate learners",
+              "url": "https://www.youtube.com/watch?v=xTy21_vWZjY",
+              "channel": "Easy French"
+            }
+          }
+        ]
+      },
+      {
+        "label": "ADVANCED – C1+",
+        "title": "Use the language flexibly for complex, professional and cultural communication",
+        "items": [
+          {
+            "title": "B2-C1 authentic speech + culture",
+            "video": {
+              "title": "Advanced learners",
+              "url": "https://www.youtube.com/watch?v=6xrRoIYZ6A0",
+              "channel": "Easy French"
+            }
+          },
+          {
+            "title": "Learning strategy + learner habits",
+            "video": {
+              "title": "Tips from an excellent learner",
+              "url": "https://www.youtube.com/watch?v=K1cloYgNbDI",
+              "channel": "Easy French"
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "HANDS-ON MASTERY",
+    "practiceBody": "Record a 5-minute explanation, hold a 20-minute conversation, summarize a French article/podcast and write a 400-word note. Compare against a CEFR can-do rubric and ACTFL-informed functional lens, log recurring errors, create retrieval cards from those errors, and repeat after two weeks.",
+    "rubricHeading": "PROOF RUBRIC",
+    "rubric": "Comprehension at target difficulty; spontaneous interaction; intelligible pronunciation; vocabulary range; grammatical control; discourse length; reading inference; writing organization; ability to repair misunderstandings; documented improvement from feedback."
+  },
+  {
+    "slug": "language-learning-spanish",
+    "name": "Language Learning — Spanish",
+    "category": "Language Learning",
+    "tagline": "CEFR-structured, ACTFL-informed, video-first, active-use mastery",
+    "intro": "Global Spanish communication across diverse regional varieties. Build listening, speaking, reading and writing together using comprehensible input, deliberate output and spaced retrieval.",
+    "benchmark": "CEFR progression + ACTFL-informed functional practice across listening, speaking, reading and writing. Use real communicative tasks and can-do evidence; this is not an official ACTFL rating.",
+    "ladder": [
+      {
+        "label": "FOUNDATIONS – A1/A2",
+        "title": "Build sounds, core patterns and high-comprehension input",
+        "items": [
+          {
+            "title": "Superbeginner comprehensible input",
+            "video": {
+              "title": "1-hour superbeginner compilation",
+              "url": "https://www.youtube.com/watch?v=AI997gnz-1U",
+              "channel": "Dreaming Spanish"
+            }
+          },
+          {
+            "title": "Pronunciation + spelling",
+            "video": {
+              "title": "Most confusing Spanish sounds",
+              "url": "https://www.youtube.com/watch?v=bJqMsumK6R0",
+              "channel": "Butterfly Spanish"
+            }
+          }
+        ]
+      },
+      {
+        "label": "INTERMEDIATE – B1/B2",
+        "title": "Sustain listening, conversation and reading in authentic contexts",
+        "items": [
+          {
+            "title": "Beginner listening in context",
+            "video": {
+              "title": "Comprehensible input",
+              "url": "https://www.youtube.com/watch?v=Rn-Ln1lVSpA",
+              "channel": "Spanish After Hours"
+            }
+          },
+          {
+            "title": "Beginner-to-intermediate immersion",
+            "video": {
+              "title": "Travel compilation (1h)",
+              "url": "https://www.youtube.com/watch?v=Y9GdBSsllWA",
+              "channel": "Dreaming Spanish"
+            }
+          }
+        ]
+      },
+      {
+        "label": "ADVANCED – C1+",
+        "title": "Use the language flexibly for complex, professional and cultural communication",
+        "items": [
+          {
+            "title": "Intermediate conversation + strategy",
+            "video": {
+              "title": "Learning Spanish",
+              "url": "https://www.youtube.com/watch?v=XhA9VyVcH04",
+              "channel": "Easy Spanish Podcast"
+            }
+          },
+          {
+            "title": "Authentic street conversation",
+            "video": {
+              "title": "Barcelona street interview",
+              "url": "https://www.youtube.com/watch?v=2WGnDrVPG8A",
+              "channel": "Easy Spanish"
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "HANDS-ON MASTERY",
+    "practiceBody": "Record a 5-minute explanation, hold a 20-minute conversation, summarize Spanish media and write a 400-word note. Compare against a CEFR can-do rubric and ACTFL-informed functional lens, log recurring errors, create retrieval cards from those errors, and repeat after two weeks.",
+    "rubricHeading": "PROOF RUBRIC",
+    "rubric": "Comprehension at target difficulty; spontaneous interaction; intelligible pronunciation; vocabulary range; grammatical control; discourse length; reading inference; writing organization; ability to repair misunderstandings; documented improvement from feedback."
+  },
+  {
+    "slug": "programming-languages-mastery",
+    "name": "Programming Languages Mastery",
+    "category": "Programming",
+    "tagline": "Market-audited, bootcamp-first, build-test-ship, multi-language transfer",
+    "intro": "2026 benchmark lens: GitHub Octoverse 2025 put TypeScript at #1 by contributor counts, followed by Python and JavaScript; Java and C# remained major enterprise languages. Stack Overflow 2025 also showed accelerating Python adoption and strong developer interest in Rust and Go. The pathway therefore teaches one primary stack deeply, then adds targeted secondary languages for transfer.",
+    "benchmark": "GitHub Octoverse 2025 + Stack Overflow Developer Survey 2025 (current Sep 2026)",
+    "ladder": [
+      {
+        "label": "FOUNDATIONS",
+        "title": "READ + REASON",
+        "body": "Variables, types, control flow, functions, collections, debugging, Git, tests and command line."
+      },
+      {
+        "label": "INTERMEDIATE",
+        "title": "BUILD APPLICATIONS",
+        "body": "OOP / functional patterns, APIs, databases, async/concurrency, package ecosystems and secure input handling."
+      },
+      {
+        "label": "ADVANCED",
+        "title": "ENGINEER SYSTEMS",
+        "body": "Performance, architecture, observability, CI/CD, containers, profiling, reliability and idiomatic language design."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "grid",
+        "heading": "Language Portfolio — Prioritize by Use Case (Do Not Learn All at Once)",
+        "items": [
+          {
+            "title": "TypeScript + JavaScript",
+            "body": "Web/product default: browser, Node, React/Next, APIs, typed production code."
+          },
+          {
+            "title": "Python",
+            "body": "AI/ML, data, automation, back-end services and rapid prototyping."
+          },
+          {
+            "title": "Java + C#",
+            "body": "Enterprise systems, cloud services, large codebases, strong tooling and typed OOP."
+          },
+          {
+            "title": "SQL",
+            "body": "Universal data fluency: querying, joins, modeling, transactions and performance."
+          },
+          {
+            "title": "Go + C++ + Rust",
+            "body": "Cloud/platform, systems, performance, concurrency and safety tradeoffs."
+          },
+          {
+            "title": "Kotlin + Swift",
+            "body": "Native mobile/application specialization after core programming mastery."
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Core Bootcamps",
+        "note": "Long-form, hands-on learning bridges — code along, then rebuild without the video.",
+        "items": [
+          {
+            "title": "Computer Science",
+            "note": "university foundation",
+            "video": {
+              "title": "CS50x 2025 - Introduction",
+              "url": "https://www.youtube.com/watch?v=h6lqxDwUmJQ",
+              "channel": "Harvard CS50x"
+            }
+          },
+          {
+            "title": "Python",
+            "note": "full course + exercises",
+            "video": {
+              "title": "CS50P - Full University Course",
+              "url": "https://www.youtube.com/watch?v=nLRL_NcnK-4",
+              "channel": "Harvard CS50P (freeCodeCamp)"
+            }
+          },
+          {
+            "title": "TypeScript",
+            "note": "full course",
+            "video": {
+              "title": "TypeScript Full Course",
+              "url": "https://www.youtube.com/watch?v=30LWjhZzg50",
+              "channel": "freeCodeCamp"
+            }
+          },
+          {
+            "title": "JavaScript",
+            "note": "full course",
+            "video": {
+              "title": "JavaScript Full Course for Beginners",
+              "url": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+              "channel": "freeCodeCamp"
+            }
+          },
+          {
+            "title": "Java",
+            "note": "full course",
+            "video": {
+              "title": "Java Programming for Beginners",
+              "url": "https://www.youtube.com/watch?v=GoXwIVyNvX0",
+              "channel": "freeCodeCamp"
+            }
+          },
+          {
+            "title": "C#",
+            "note": "full course",
+            "video": {
+              "title": "C# Tutorial - Full Course",
+              "url": "https://www.youtube.com/watch?v=GhQdlIFylQ8",
+              "channel": "freeCodeCamp"
+            }
+          },
+          {
+            "title": "SQL",
+            "note": "hands-on database course",
+            "video": {
+              "title": "SQL Tutorial - Full Database Course",
+              "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+              "channel": "freeCodeCamp"
+            }
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Core Hands-On Session — 10-Day Build Camp",
+        "body": "Days 1-2: syntax + debugging kata. Days 3-4: data structures + tests. Days 5-6: REST API + SQL. Day 7: authentication/error handling. Day 8: Git + CI. Day 9: containerize and instrument. Day 10: demo, code review, retrospective. Rule: after each code-along, close the video and rebuild the same behavior from a blank repository."
+      },
+      {
+        "type": "videos",
+        "heading": "Systems, Cloud & Mobile — Secondary Specialization",
+        "note": "Performance, concurrency, native applications.",
+        "items": [
+          {
+            "title": "Go",
+            "note": "cloud + concurrency",
+            "video": {
+              "title": "Learn Go Programming",
+              "url": "https://www.youtube.com/watch?v=YS4e4q9oBaU",
+              "channel": "freeCodeCamp"
+            }
+          },
+          {
+            "title": "C++",
+            "note": "modern C++",
+            "video": {
+              "title": "C++ Programming Course - Beginner to Advanced",
+              "url": "https://www.youtube.com/watch?v=8jLOx1hD3_o",
+              "channel": "freeCodeCamp"
+            }
+          },
+          {
+            "title": "Rust",
+            "note": "ownership + safety",
+            "video": {
+              "title": "Rust Programming Course",
+              "url": "https://www.youtube.com/watch?v=MsocPEZBd-M",
+              "channel": "freeCodeCamp"
+            }
+          },
+          {
+            "title": "Kotlin",
+            "note": "Android/JVM",
+            "video": {
+              "title": "Kotlin Course for Beginners",
+              "url": "https://www.youtube.com/watch?v=F9UC9DY-vIU",
+              "channel": "freeCodeCamp"
+            }
+          },
+          {
+            "title": "Swift",
+            "note": "iOS/macOS",
+            "video": {
+              "title": "Swift Programming Tutorial for Beginners",
+              "url": "https://www.youtube.com/watch?v=8Xg7E9shq0U",
+              "channel": "freeCodeCamp"
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Hands-On Transfer Labs",
+        "items": [
+          {
+            "title": "Same Problem, Four Languages",
+            "body": "Implement one validated JSON API in TypeScript, Python, Java/C# and Go. Compare error handling, types, testing, dependencies, throughput and developer friction."
+          },
+          {
+            "title": "Concurrency Lab",
+            "body": "Build producer/consumer workers; instrument queue depth, throughput and failures; compare async/event-loop vs threads/goroutines/tasks."
+          },
+          {
+            "title": "Performance Lab",
+            "body": "Profile a CPU- or memory-heavy workload. Optimize only after measurement; document changes and regressions."
+          },
+          {
+            "title": "Mobile Mini-Ship",
+            "body": "Build a small native feature in Kotlin or Swift with local persistence, network call, loading/error states and accessibility checks."
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Pathway Proof",
+    "practiceBody": "Choose a primary language and ship three artifacts: CLI/data utility, API/service with persistence and tests, and a user-facing or distributed application. Then re-implement one bounded module in a second language and write a tradeoff memo comparing type system, concurrency, ecosystem, performance, testability and maintainability.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "Readable, idiomatic code; tests that catch real failures; correct data/API contracts; secure input and secrets handling; debugging evidence; Git discipline; CI; measurable performance where relevant; clear tradeoffs; and the ability to modify the system under a new requirement without replaying the tutorial."
+  },
+  {
+    "slug": "ai-mastery",
+    "name": "AI Mastery",
+    "category": "Artificial Intelligence",
+    "tagline": "Foundations → Build → Operate → Optimize, model-agnostic, eval-driven",
+    "intro": "The Academy already contains AI courses; this pathway turns them into one end-to-end mastery route. The production benchmark emphasizes system scoping, grounding, tools/agents, evaluation, reliability, security, latency/cost and measurable task success — not prompt tricks alone.",
+    "benchmark": "OpenAI Academy + Microsoft Learn AI Agent curricula (current Sep 2026)",
+    "ladder": [
+      {
+        "label": "FOUNDATIONS",
+        "title": "UNDERSTAND",
+        "body": "LLM behavior, tokens/context, prompting and context engineering, structured outputs, embeddings, model selection, limitations and responsible use."
+      },
+      {
+        "label": "BUILD",
+        "title": "GROUND + ACT",
+        "body": "RAG and retrieval quality, tool/function calling, agents, MCP, memory/state, workflow orchestration, human handoffs and product integration."
+      },
+      {
+        "label": "OPERATE",
+        "title": "EVALUATE + RELY",
+        "body": "Golden datasets, graders, regression gates, traces, prompt/model versioning, observability, prompt injection defenses, permissions, latency and cost."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Foundations & Build — Core Video Bridges",
+        "items": [
+          {
+            "title": "Agent foundations",
+            "note": "37 min",
+            "video": {
+              "title": "Introduction to Agentic Workflows",
+              "url": "https://academy.openai.com/en/public/clubs/builders-etkn1/videos/unlock-agentic-power-with-the-agents-sdk",
+              "channel": "OpenAI Academy"
+            }
+          },
+          {
+            "title": "Evals",
+            "note": "41 min",
+            "video": {
+              "title": "Evaluating LLM Applications",
+              "url": "https://academy.openai.com/en/public/clubs/builders-etkn1/videos/ai-techniques-building-applications-with-evaluations",
+              "channel": "OpenAI Academy"
+            }
+          },
+          {
+            "title": "Agent build",
+            "note": "production tutorial",
+            "video": {
+              "title": "How to Build AI Agents",
+              "url": "https://academy.openai.com/public/clubs/india-gkubq/videos/how-to-build-ai-agents-2025-06-04",
+              "channel": "OpenAI Academy"
+            }
+          },
+          {
+            "title": "Beginner course",
+            "note": "10-part video series",
+            "video": {
+              "title": "AI Agents for Beginners",
+              "url": "https://learn.microsoft.com/en-us/shows/ai-agents-for-beginners/what-are-ai-agents",
+              "channel": "Microsoft Learn"
+            }
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Production Bootcamp — System Scoping, Evals, Reliability, Safety, Cost, Adoption",
+        "items": [
+          {
+            "title": "Scope the system",
+            "note": "80 min",
+            "video": {
+              "title": "Use Case Discovery & System Scoping",
+              "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
+              "channel": "OpenAI Academy"
+            }
+          },
+          {
+            "title": "Evaluation system",
+            "note": "28 min",
+            "video": {
+              "title": "Building Practical Evaluation Systems",
+              "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+              "channel": "OpenAI Academy"
+            }
+          },
+          {
+            "title": "Reliable agents",
+            "note": "46 min",
+            "video": {
+              "title": "Designing Reliable Agent Architectures",
+              "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-designing-reliable-agent-architectures-2025-12-11",
+              "channel": "OpenAI Academy"
+            }
+          },
+          {
+            "title": "Build effective agents",
+            "note": "video + code",
+            "video": {
+              "title": "How to Build Effective AI Agents",
+              "url": "https://learn.microsoft.com/en-us/shows/ai-agents-for-beginners/how-to-build-effective-ai-agents",
+              "channel": "Microsoft Learn"
+            }
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "7-Day AI Builder Bootcamp",
+        "body": "Day 1 – Scope: pick a costly real workflow; define user, task, baseline, non-goals, risks and measurable success. Day 2 – Ground: build retrieval with source metadata and a small relevance test set; inspect failure cases. Day 3 – Act: add one tool/API/MCP integration with explicit permissions, timeout, validation and fallback. Day 4 – Evaluate: create representative cases, rubrics/graders and regression thresholds for quality and safety. Day 5 – Operate: instrument traces, latency, token/cost and tool failures; add retries only where evidence supports them. Day 6 – Red Team: test injection, unsafe tool requests, data leakage, ambiguity and over-authority; tighten boundaries. Day 7 – Ship: stage rollout, human escalation, rollback/runbook, executive demo and measured adoption/task success."
+      }
+    ],
+    "practiceHeading": "AI Mastery Capstone",
+    "practiceBody": "Ship a production-style AI workflow with grounded context, at least one safe tool integration, an inspectable eval set, regression gates, traces, latency/cost metrics, explicit security/safety controls and a runbook. Defend when you would use prompt/context changes, RAG, fine-tuning, deterministic code or no AI at all.",
+    "rubricHeading": null,
+    "rubric": null
+  },
+  {
+    "slug": "ui-ux-mastery",
+    "name": "UI & UX Mastery",
+    "category": "Design",
+    "tagline": "Discover → Define → Design → Prototype → Test → Systematize → Measure",
+    "intro": "The pathway separates UX research/problem understanding from UI craft while training the handoff between them. Core sequence uses long-form design instruction; short NN/g expert videos appear only as bonus micro-bridges when they add unique methodological value.",
+    "benchmark": "Long-form design bootcamps + NN/g research (current Sep 2026)",
+    "ladder": [
+      {
+        "label": "FOUNDATIONS",
+        "title": "DISCOVER + STRUCTURE",
+        "body": "User/problem interviews, jobs/tasks, journey mapping, information architecture, interaction principles, accessibility basics and visual hierarchy."
+      },
+      {
+        "label": "INTERMEDIATE",
+        "title": "DESIGN + PROTOTYPE",
+        "body": "Wireframes, typography, color, spacing, grids, responsive design, components, auto-layout, prototypes, design critique and content design."
+      },
+      {
+        "label": "ADVANCED",
+        "title": "TEST + SYSTEMATIZE",
+        "body": "Usability testing, synthesis, experiment design, design systems/tokens, accessibility review, metrics, enterprise workflows and AI-assisted design with human judgment."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Research & Design — Core Video / Bootcamp Bridges",
+        "items": [
+          {
+            "title": "Figma bootcamp",
+            "note": "9+ hour build course",
+            "video": {
+              "title": "Figma Tutorial for UI Design",
+              "url": "https://www.youtube.com/watch?v=jwCmIBJ8Jtc",
+              "channel": "freeCodeCamp"
+            }
+          },
+          {
+            "title": "Design sprint",
+            "note": "applied sprint",
+            "video": {
+              "title": "Design Sprint 2.0 Process Explained",
+              "url": "https://www.youtube.com/watch?v=Z8MOwcqZuuU",
+              "channel": "AJ&Smart"
+            }
+          },
+          {
+            "title": "Bonus — usability",
+            "note": "expert micro-bridge",
+            "video": {
+              "title": "Usability Testing with 5 Users: Design Process",
+              "url": "https://www.nngroup.com/videos/usability-testing-w-5-users-design-process/",
+              "channel": "NN/g"
+            }
+          },
+          {
+            "title": "Bonus — interviews",
+            "note": "expert micro-bridges",
+            "video": {
+              "title": "Interviewing Users video library",
+              "url": "https://www.nngroup.com/topic/interviewing-users/?asset=videos",
+              "channel": "NN/g"
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Hands-On Design Studio — 10-Session Product Design Bootcamp",
+        "items": [
+          {
+            "title": "01 – Problem framing",
+            "body": "Choose a real user workflow. Write assumptions, risks and research questions; avoid jumping to screens."
+          },
+          {
+            "title": "02 – Interviews",
+            "body": "Run 5 discovery interviews when appropriate; use open questions and record evidence, not conclusions."
+          },
+          {
+            "title": "03 – Synthesis",
+            "body": "Affinity map, jobs/tasks, journey and prioritized pain points. Separate quotes/observations from interpretations."
+          },
+          {
+            "title": "04 – IA + flows",
+            "body": "Create sitemap/navigation and task flows; test labels and states before high-fidelity polish."
+          },
+          {
+            "title": "05 – Wireframe",
+            "body": "Sketch multiple alternatives; critique against user task, constraints and error cases."
+          },
+          {
+            "title": "06 – UI craft",
+            "body": "Apply type, color, spacing, hierarchy, responsive layout and accessible contrast."
+          },
+          {
+            "title": "07 – Components",
+            "body": "Build reusable components/variants, auto-layout and starter design tokens."
+          },
+          {
+            "title": "08 – Prototype",
+            "body": "Create interactive happy path plus empty, loading, error, permission and recovery states."
+          },
+          {
+            "title": "09 – Usability",
+            "body": "Test representative tasks; note breakdowns, severity and evidence. Iterate the design."
+          },
+          {
+            "title": "10 – Portfolio",
+            "body": "Publish problem → evidence → decisions → prototype → testing → changes → outcome/next experiment."
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Portfolio Proof Rubric",
+    "practiceBody": "Problem backed by user evidence; research ethics/consent; coherent IA and task flows; accessible visual craft; component consistency; realistic states; interactive prototype; usability evidence; iteration from observed failures; documented tradeoffs; outcome metric or test plan; and a concise case study that shows judgment rather than decorative screens.",
+    "rubricHeading": null,
+    "rubric": null
+  },
+  {
+    "slug": "personal-development",
+    "name": "Personal Development",
+    "category": "Leadership & Growth",
+    "tagline": "Self-awareness, mindset, habits, focus, resilience, relationships, purpose",
+    "intro": "Selection standard: evidence-informed ideas + high-reach speakers + practical transfer. TED and other widely followed voices are used because they can make difficult ideas memorable, but follower/view counts are never treated as proof that a claim is correct. Learners should test ideas against lived results and credible evidence.",
+    "benchmark": "TED + evidence-informed personal-development research (current Sep 2026)",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "grid",
+        "heading": "Areas of Development",
+        "items": [
+          {
+            "title": "1. Self-Awareness + Values",
+            "body": "Clarify values, strengths, recurring patterns, triggers and the gap between intended and actual behavior."
+          },
+          {
+            "title": "2. Growth Mindset + Learning",
+            "body": "Treat ability as developable where evidence supports it; seek feedback, productive difficulty and reflection."
+          },
+          {
+            "title": "3. Habits + Self-Regulation",
+            "body": "Shape cues, environment, friction, routines and accountability; measure behavior rather than motivation."
+          },
+          {
+            "title": "4. Focus + Time",
+            "body": "Prioritize, protect deep work, reduce distraction and understand procrastination patterns."
+          },
+          {
+            "title": "5. Resilience + Stress Skills",
+            "body": "Reappraise challenge, recover after setbacks, ask for support and build sustainable coping routines."
+          },
+          {
+            "title": "6. Confidence + Courage",
+            "body": "Practice honest self-expression, vulnerability with boundaries, assertiveness and exposure to meaningful discomfort."
+          },
+          {
+            "title": "7. Relationships + Communication",
+            "body": "Listen, repair, set boundaries, invest in high-quality relationships and practice empathy."
+          },
+          {
+            "title": "8. Purpose + Life Design",
+            "body": "Connect daily actions to meaning, contribution and long-term priorities; review tradeoffs intentionally."
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "High-Reach Talks + Practice",
+        "note": "TED-enriched, popular voices, reflection → experiment → behavior change.",
+        "items": [
+          {
+            "title": "Procrastination",
+            "note": "79M+ TED plays",
+            "video": {
+              "title": "Inside the Mind of a Master Procrastinator",
+              "url": "https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator",
+              "channel": "Tim Urban (TED)"
+            }
+          },
+          {
+            "title": "Vulnerability",
+            "note": "71M+ TED plays",
+            "video": {
+              "title": "The Power of Vulnerability",
+              "url": "https://www.ted.com/talks/brene_brown_the_power_of_vulnerability",
+              "channel": "Brené Brown (TED)"
+            }
+          },
+          {
+            "title": "Relationships",
+            "note": "53M+ TED plays",
+            "video": {
+              "title": "What Makes a Good Life?",
+              "url": "https://www.ted.com/talks/robert_waldinger_what_makes_a_good_life_lessons_from_the_longest_study_on_happiness",
+              "channel": "Robert Waldinger (TED)"
+            }
+          },
+          {
+            "title": "Stress",
+            "note": "37M+ TED plays",
+            "video": {
+              "title": "How to Make Stress Your Friend",
+              "url": "https://www.ted.com/talks/kelly_mcgonigal_how_to_make_stress_your_friend",
+              "channel": "Kelly McGonigal (TED)"
+            }
+          },
+          {
+            "title": "Mindset",
+            "note": "18M+ TED plays",
+            "video": {
+              "title": "The Power of Believing You Can Improve",
+              "url": "https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve",
+              "channel": "Carol Dweck (TED)"
+            }
+          },
+          {
+            "title": "Flow + motivation",
+            "note": "evidence-informed talk",
+            "video": {
+              "title": "How to Stop Languishing and Start Finding Flow",
+              "url": "https://www.ted.com/talks/adam_grant_how_to_stop_languishing_and_start_finding_flow",
+              "channel": "Adam Grant (TED)"
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "30-Day Personal Operating System",
+    "practiceBody": "Week 1: values/energy audit + one behavior baseline. Week 2: implement one habit with cue/friction design and daily tracking. Week 3: run five protected focus blocks and a digital-distraction audit. Week 4: invest deliberately in one relationship, practice one difficult conversation, and write a one-page life priorities review. Every week: retrieval-based reflection — what did I predict? What happened? What will I change?",
+    "rubricHeading": "Proof Standard",
+    "rubric": "Evidence of repeated practice, not inspirational consumption: baseline + target behavior; adherence data; an error/trigger log; at least two iterations; feedback from another person where appropriate; a short reflection distinguishing insight from measurable change; and one habit still running after 30 days."
+  },
+  {
+    "slug": "professional-development",
+    "name": "Professional Development",
+    "category": "Leadership & Growth",
+    "tagline": "Communication, influence, leadership, strategy, execution, business fluency, career capital, AI-era work",
+    "intro": "Built for career-long transfer rather than a single job. The pathway combines executive communication, stakeholder influence, leadership, operating judgment, business fluency and visible proof of impact. Learners should adapt depth to level: individual contributor → manager → senior manager → director → executive.",
+    "benchmark": "Stanford GSB + TED + Chicago Booth leadership/negotiation curricula (current Sep 2026)",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "grid",
+        "heading": "Areas of Development",
+        "items": [
+          {
+            "title": "1. Communication + Executive Presence",
+            "body": "Clear writing, spontaneous speaking, presentations, Q&A, listening and decision-ready synthesis."
+          },
+          {
+            "title": "2. Storytelling + Data",
+            "body": "Turn analysis into a narrative with evidence, implications, options and an explicit decision ask."
+          },
+          {
+            "title": "3. Influence + Negotiation",
+            "body": "Stakeholder mapping, interests, tradeoffs, conflict, persuasion, boundary setting and durable agreements."
+          },
+          {
+            "title": "4. Leadership + Feedback",
+            "body": "Direction, coaching, delegation, accountability, candor, recognition and difficult conversations."
+          },
+          {
+            "title": "5. Team Effectiveness",
+            "body": "Psychological safety, decision rights, operating norms, inclusion, conflict repair and high-quality meetings."
+          },
+          {
+            "title": "6. Strategy + Decision Making",
+            "body": "Diagnosis, choices, uncertainty, resource allocation, scenarios, pre-mortems and stop-doing decisions."
+          },
+          {
+            "title": "7. Execution + Operating Rhythm",
+            "body": "Goals, roadmap/program plan, dependencies, risks, KPI reviews, escalation and benefits realization."
+          },
+          {
+            "title": "8. Career Capital + Network",
+            "body": "Skill portfolio, sponsorship, reputation, networking, mentoring, interviewing and visible artifacts of impact."
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Masterclasses + Career Sprint",
+        "note": "High-reach communication, leadership, negotiation, team practice.",
+        "items": [
+          {
+            "title": "Spontaneous communication",
+            "note": "54M+ YouTube views",
+            "video": {
+              "title": "Think Fast, Talk Smart: Communication Techniques",
+              "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+              "channel": "Stanford GSB"
+            }
+          },
+          {
+            "title": "Speaking + listening",
+            "note": "51M+ YouTube views",
+            "video": {
+              "title": "How to Speak So People Want to Listen",
+              "url": "https://www.youtube.com/watch?v=eIho2S0ZahI",
+              "channel": "Julian Treasure (TED)"
+            }
+          },
+          {
+            "title": "Feedback + leadership",
+            "note": "leadership talk",
+            "video": {
+              "title": "How to Lead With Radical Candor",
+              "url": "https://www.youtube.com/watch?v=vmxHUiiHgNk",
+              "channel": "Kim Scott (TED)"
+            }
+          },
+          {
+            "title": "Psychological safety",
+            "note": "team effectiveness",
+            "video": {
+              "title": "Building a Psychologically Safe Workplace",
+              "url": "https://www.youtube.com/watch?v=LhoLuui9gX8",
+              "channel": "Amy Edmondson"
+            }
+          },
+          {
+            "title": "Negotiation",
+            "note": "full masterclass",
+            "video": {
+              "title": "Introduction to Distributive Negotiations",
+              "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/introduction-to-distributive-negotiations",
+              "channel": "Chicago Booth"
+            }
+          },
+          {
+            "title": "Purposeful leadership",
+            "note": "high-reach classic",
+            "video": {
+              "title": "How Great Leaders Inspire Action",
+              "url": "https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action",
+              "channel": "Simon Sinek (TED)"
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "6-Week Professional Development Sprint",
+    "practiceBody": "Week 1 – Communicate: write a one-page executive memo and deliver a 5-minute briefing; record it and revise for clarity. Week 2 – Influence: build a stakeholder map and run a negotiation simulation; document interests, BATNA/tradeoffs and outcome. Week 3 – Lead: practice one coaching/feedback conversation and one delegation contract with observable expectations. Week 4 – Strategize: write a decision memo with diagnosis, options, economics, risks, recommendation and a stop-doing choice. Week 5 – Operate: create a KPI tree, review cadence, risk/dependency log and escalation mechanism for a real initiative. Week 6 – AI + Career Capital: automate or augment one workflow with AI and update your visible portfolio of impact.",
+    "rubricHeading": null,
+    "rubric": null
+  }
+]

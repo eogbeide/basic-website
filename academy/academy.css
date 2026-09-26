@@ -334,6 +334,7 @@ a {
 
 .mode-toggle {
   display: flex;
+  flex-wrap: wrap;
   gap: 6px;
   margin-bottom: 14px;
   background-color: #151617;
@@ -343,7 +344,7 @@ a {
 }
 
 .mode-toggle button {
-  flex: 1;
+  flex: 1 1 30%;
   background: none;
   border: none;
   color: #8a8a8a;
@@ -1002,6 +1003,56 @@ a {
   font-size: 14px;
   line-height: 1.6;
   margin: 0;
+}
+
+.level-badge.foundations {
+  background-color: #274d3d;
+  color: #6ee7b7;
+}
+
+.level-badge.build {
+  background-color: #3d3a1f;
+  color: #fde68a;
+}
+
+.level-badge.operate {
+  background-color: #402226;
+  color: #fca5a5;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.skill-grid-item {
+  padding: 14px 16px;
+  background-color: #17181a;
+  border-radius: 8px;
+  border: 1px solid #262626;
+}
+
+.skill-grid-title {
+  font-weight: bold;
+  margin: 0 0 6px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.skill-grid-body {
+  color: #b9b9b9;
+  font-size: 13.5px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.skill-ladder-rung {
+  margin-bottom: 18px;
+}
+
+.skill-ladder-rung:last-child {
+  margin-bottom: 0;
 }
 
 footer {
