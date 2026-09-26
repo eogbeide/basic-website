@@ -689,6 +689,152 @@
     });
   }
 
+  // Skill finder: an optional, free-text cross-catalog search (roles,
+  // pathways, certificates and individual courses all at once) for
+  // visitors who don't know the catalog structure and just want to say
+  // what they're trying to learn. Pure client-side keyword scoring --
+  // no server, no database, just the data already loaded on the page.
+  var skillFinderForm = document.getElementById('skill-finder-form');
+  var skillFinderInput = document.getElementById('skill-finder-input');
+  var skillIndex = null;
+
+  function buildSkillIndex() {
+    var index = [];
+    MODES.roles.data.forEach(function (r) {
+      var compText = [];
+      (r.levels || []).forEach(function (lvl) {
+        (lvl.competencies || []).forEach(function (c) {
+          compText.push(c.title, c.coverage);
+        });
+      });
+      index.push({
+        type: 'roles',
+        typeLabel: 'Role',
+        slug: slugify(r.name),
+        name: r.name,
+        snippet: r.benchmark || '',
+        blob: [r.name, r.benchmark, r.capstone, compText.join(' ')].join(' '),
+      });
+    });
+    MODES.pathways.data.forEach(function (p) {
+      var seqText = (p.course_sequence || []).map(function (c) { return c.title; }).join(' ');
+      index.push({
+        type: 'pathways',
+        typeLabel: 'Learning Pathway',
+        slug: slugify(p.name),
+        name: p.name,
+        snippet: p.description || '',
+        blob: [p.name, p.description, p.market_basis, (p.representative_roles || []).join(' '), seqText].join(' '),
+      });
+    });
+    MODES.certificates.data.forEach(function (c) {
+      var tierText = (c.tiers || []).map(function (t) {
+        return (t.courses || []).map(function (co) { return co.title; }).join(' ') + ' ' +
+          (t.bridges || []).map(function (b) { return b.topic; }).join(' ');
+      }).join(' ');
+      index.push({
+        type: 'certificates',
+        typeLabel: 'Academic Certificate',
+        slug: slugify(c.name),
+        name: c.name,
+        snippet: c.description || '',
+        blob: [c.name, c.description, c.university_benchmark, tierText].join(' '),
+      });
+    });
+    COURSES_LIST.forEach(function (co) {
+      index.push({
+        type: 'course',
+        typeLabel: 'Course',
+        slug: courseSlug(co.name),
+        name: co.name,
+        snippet: co.description || '',
+        blob: [co.name, co.description].join(' '),
+      });
+    });
+    return index;
+  }
+
+  var SKILL_STOPWORDS = { the: 1, a: 1, an: 1, of: 1, to: 1, in: 1, on: 1, at: 1, is: 1, it: 1, and: 1, or: 1, for: 1, with: 1, no: 1, not: 1, be: 1, as: 1, by: 1, so: 1, my: 1, i: 1, me: 1, you: 1, your: 1, are: 1, do: 1, does: 1 };
+
+  function escapeRegExp(s) {
+    return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function scoreEntry(words, entry) {
+    var nameLower = entry.name.toLowerCase();
+    var blobLower = entry.blob.toLowerCase();
+    var score = 0;
+    words.forEach(function (w) {
+      if (SKILL_STOPWORDS[w]) return;
+      var re = new RegExp('\\b' + escapeRegExp(w) + '\\b', 'g');
+      if (re.test(nameLower)) score += 12;
+      var matches = blobLower.match(re);
+      if (matches) score += Math.min(matches.length, 5) * 2;
+    });
+    return score;
+  }
+
+  function searchSkills(query) {
+    if (!skillIndex) skillIndex = buildSkillIndex();
+    var words = query.toLowerCase().split(/[^a-z0-9+.#]+/).filter(function (w) { return w.length > 1; });
+    if (!words.length) return [];
+    var scored = skillIndex
+      .map(function (entry) { return { entry: entry, score: scoreEntry(words, entry) }; })
+      .filter(function (s) { return s.score > 0; });
+    scored.sort(function (a, b) { return b.score - a.score; });
+    return scored.slice(0, 3).map(function (s) { return s.entry; });
+  }
+
+  function truncateSnippet(str, n) {
+    str = (str || '').replace(/\s+/g, ' ').trim();
+    return str.length > n ? str.slice(0, n - 1).trim() + '…' : str;
+  }
+
+  function renderSkillResults(query, results) {
+    var body;
+    if (!results.length) {
+      body = '<div class="skill-results-empty">No close matches for &ldquo;' + escapeHtml(query) +
+        '&rdquo;. Try a broader term, or browse Roles, Pathways and Certificates on the left.</div>';
+    } else {
+      body = results.map(function (r) {
+        return '<button type="button" class="skill-result-card" data-skill-type="' + r.type +
+          '" data-skill-slug="' + escapeHtml(r.slug) + '">' +
+          '<span class="skill-result-type">' + escapeHtml(r.typeLabel) + '</span>' +
+          '<p class="skill-result-name">' + escapeHtml(r.name) + '</p>' +
+          '<p class="skill-result-snippet">' + escapeHtml(truncateSnippet(r.snippet, 160)) + '</p>' +
+          '</button>';
+      }).join('');
+    }
+    detailEl.innerHTML =
+      '<div class="skill-results"><div class="detail-card">' +
+      '<h2>Best matches for your skill</h2>' +
+      '<p class="skill-results-query">Showing top results for &ldquo;<strong>' + escapeHtml(query) + '</strong>&rdquo;</p>' +
+      body +
+      '</div></div>';
+    detailEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  if (skillFinderForm && skillFinderInput) {
+    skillFinderForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var query = skillFinderInput.value.trim();
+      if (!query) return;
+      renderSkillResults(query, searchSkills(query));
+    });
+
+    detailEl.addEventListener('click', function (e) {
+      var card = e.target.closest('.skill-result-card');
+      if (!card) return;
+      var type = card.getAttribute('data-skill-type');
+      var slug = card.getAttribute('data-skill-slug');
+      if (type === 'course') {
+        showCourse(slug, null, true);
+      } else {
+        setMode(type, slug, true);
+      }
+    });
+  }
+
   function routeFromPath() {
     var parts = location.pathname.replace(/^\/academy\/?/, '').split('/').filter(Boolean);
     if (parts[0] === 'courses' && parts[1]) {

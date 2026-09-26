@@ -88,6 +88,120 @@ a {
   margin: 0;
 }
 
+.skill-finder {
+  display: flex;
+  gap: 10px;
+  max-width: 560px;
+  margin: 24px auto 0;
+}
+
+.skill-finder input {
+  flex: 1;
+  min-width: 0;
+  padding: 13px 16px;
+  background-color: #151617;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+}
+
+.skill-finder input:focus {
+  outline: none;
+  border-color: #ffc629;
+}
+
+.skill-finder button {
+  padding: 13px 20px;
+  background-color: #ffc629;
+  color: #151617;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: inherit;
+}
+
+.skill-finder button:hover {
+  background-color: #ffd35c;
+}
+
+@media (max-width: 480px) {
+  .skill-finder {
+    flex-direction: column;
+  }
+}
+
+.skill-results .detail-card {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.skill-results-query {
+  color: #a8a8a8;
+  font-size: 14px;
+  margin: 0 0 20px;
+}
+
+.skill-results-query strong {
+  color: #ffc629;
+}
+
+.skill-result-card {
+  display: block;
+  text-align: left;
+  width: 100%;
+  background: linear-gradient(180deg, #1c1d1e 0%, #17181a 100%);
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 18px 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.skill-result-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 198, 41, 0.5);
+}
+
+.skill-result-type {
+  display: inline-block;
+  color: #ffc629;
+  text-transform: uppercase;
+  font-size: 10.5px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  margin-bottom: 8px;
+  padding: 3px 10px;
+  border: 1px solid rgba(255, 198, 41, 0.35);
+  border-radius: 999px;
+  background: rgba(255, 198, 41, 0.06);
+}
+
+.skill-result-name {
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+.skill-result-snippet {
+  color: #a8a8a8;
+  font-size: 13.5px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.skill-results-empty {
+  color: #a8a8a8;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
 .app-shell {
   display: flex;
   max-width: 1180px;

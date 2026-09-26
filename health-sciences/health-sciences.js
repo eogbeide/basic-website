@@ -202,6 +202,127 @@
     renderList(searchEl.value.trim());
   });
 
+  // Skill finder: an optional, free-text search across every topic's full
+  // content (not just its title) for visitors who don't know the
+  // curriculum structure and just want to say what they're studying.
+  // Pure client-side keyword scoring -- no server, no database.
+  var skillFinderForm = document.getElementById('skill-finder-form');
+  var skillFinderInput = document.getElementById('skill-finder-input');
+  var skillIndex = null;
+
+  function topicSnippet(topic) {
+    for (var i = 0; i < topic.sections.length; i++) {
+      var s = topic.sections[i];
+      if (s.type === 'paragraph' && s.text) return s.text;
+      if (s.type === 'bullets' && s.items && s.items.length) return s.items.join('. ');
+    }
+    return topic.name + ': mastery checklists and linked learning resources from the Zuyini Health Sciences Academy.';
+  }
+
+  function topicBlob(topic) {
+    var parts = [topic.name, topic.list_label, topic.phase, topic.category];
+    topic.sections.forEach(function (s) {
+      if (s.heading) parts.push(s.heading);
+      if (s.type === 'paragraph') parts.push(s.text);
+      else if (s.type === 'bullets') parts.push((s.items || []).join(' '));
+      else if (s.type === 'table') {
+        parts.push((s.columns || []).join(' '));
+        (s.rows || []).forEach(function (row) {
+          row.forEach(function (cell) {
+            if (cell && !/^https?:\/\//i.test(cell)) parts.push(cell);
+          });
+        });
+      }
+    });
+    return parts.join(' ');
+  }
+
+  function buildSkillIndex() {
+    return TOPICS.map(function (t) {
+      return { page: t.page, name: t.name, snippet: topicSnippet(t), blob: topicBlob(t) };
+    });
+  }
+
+  var SKILL_STOPWORDS = { the: 1, a: 1, an: 1, of: 1, to: 1, in: 1, on: 1, at: 1, is: 1, it: 1, and: 1, or: 1, for: 1, with: 1, no: 1, not: 1, be: 1, as: 1, by: 1, so: 1, my: 1, i: 1, me: 1, you: 1, your: 1, are: 1, do: 1, does: 1 };
+
+  function escapeRegExp(s) {
+    return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function scoreEntry(words, entry) {
+    var nameLower = entry.name.toLowerCase();
+    var blobLower = entry.blob.toLowerCase();
+    var score = 0;
+    words.forEach(function (w) {
+      if (SKILL_STOPWORDS[w]) return;
+      var re = new RegExp('\\b' + escapeRegExp(w) + '\\b', 'g');
+      if (re.test(nameLower)) score += 12;
+      var matches = blobLower.match(re);
+      if (matches) score += Math.min(matches.length, 5) * 2;
+    });
+    return score;
+  }
+
+  function searchSkills(query) {
+    if (!skillIndex) skillIndex = buildSkillIndex();
+    var words = query.toLowerCase().split(/[^a-z0-9+.#]+/).filter(function (w) { return w.length > 1; });
+    if (!words.length) return [];
+    var scored = skillIndex
+      .map(function (entry) { return { entry: entry, score: scoreEntry(words, entry) }; })
+      .filter(function (s) { return s.score > 0; });
+    scored.sort(function (a, b) { return b.score - a.score; });
+    return scored.slice(0, 3).map(function (s) { return s.entry; });
+  }
+
+  function truncateSnippet(str, n) {
+    str = (str || '').replace(/\s+/g, ' ').trim();
+    return str.length > n ? str.slice(0, n - 1).trim() + '…' : str;
+  }
+
+  function renderSkillResults(query, results) {
+    var body;
+    if (!results.length) {
+      body = '<div class="skill-results-empty">No close matches for &ldquo;' + escapeHtml(query) +
+        '&rdquo;. Try a broader term, or browse by curriculum year and review stage on the left.</div>';
+    } else {
+      body = results.map(function (r) {
+        return '<button type="button" class="skill-result-card" data-skill-page="' + r.page + '">' +
+          '<span class="skill-result-type">Topic</span>' +
+          '<p class="skill-result-name">' + escapeHtml(r.name) + '</p>' +
+          '<p class="skill-result-snippet">' + escapeHtml(truncateSnippet(r.snippet, 160)) + '</p>' +
+          '</button>';
+      }).join('');
+    }
+    detailEl.innerHTML =
+      '<div class="skill-results"><div class="detail-card">' +
+      '<h2>Best matches for your topic</h2>' +
+      '<p class="skill-results-query">Showing top results for &ldquo;<strong>' + escapeHtml(query) + '</strong>&rdquo;</p>' +
+      body +
+      '</div></div>';
+    detailEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  if (skillFinderForm && skillFinderInput) {
+    skillFinderForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var query = skillFinderInput.value.trim();
+      if (!query) return;
+      renderSkillResults(query, searchSkills(query));
+    });
+
+    detailEl.addEventListener('click', function (e) {
+      var card = e.target.closest('.skill-result-card');
+      if (!card) return;
+      var page = parseInt(card.getAttribute('data-skill-page'), 10);
+      var topic = byPage[page];
+      if (!topic) return;
+      currentCategory = topic.category;
+      categorySelect.value = currentCategory;
+      renderList('');
+      selectTopic(page, true);
+    });
+  }
+
   function routeFromPath() {
     var parts = location.pathname.replace(/^\/health-sciences\/?/, '').split('/').filter(Boolean);
     if (parts[0] === 'topics' && parts[1]) {
