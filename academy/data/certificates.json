@@ -3618,82 +3618,93 @@
     "university_benchmark": "MIT 2.71 Optics | MIT 2.717J Optical Engineering | University of Arizona Wyant College OPTI 502 / 506",
     "tiers": [
       {
-        "tier": "FOUNDATIONS / INTRODUCTION",
+        "tier": "BASIC - UNDERSTAND",
         "courses": [
           {
-            "title": "Geometrical optics, reflection/refraction, ray tracing and first-order imaging"
+            "title": "MIT 2.71 - Lecture 1: Introduction to Optics — MIT OpenCourseWare",
+            "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-1-course-organization-introduction-to-optics/"
           },
           {
-            "title": "Lenses, mirrors, apertures/stops plus radiometry, detectors and optical SNR"
+            "title": "MIT 2.71 - Lecture 2: Reflection, Refraction, Prisms & Dispersion — MIT OpenCourseWare",
+            "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-2-reflection-and-refraction-prisms-waveguides-and-dispersion/"
           },
           {
-            "title": "Wave foundations: Maxwell, polarization, phase and coherence"
+            "title": "MIT 2.71 - Lecture 3: Focusing, Imaging & Paraxial Approximation — MIT OpenCourseWare",
+            "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-3-focusing-imaging-and-the-paraxial-approximation/"
+          },
+          {
+            "title": "MIT 2.71 - Lecture 6: Apertures, Stops, Pupils & Single-Lens Camera — MIT OpenCourseWare",
+            "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-6-terms-apertures-stops-pupils-and-windows-single-lens-camera/"
           }
         ]
       },
       {
-        "tier": "INTERMEDIATE CORE",
+        "tier": "INTERMEDIATE - APPLY",
         "courses": [
           {
-            "title": "Aberrations, optical design and first-order system optimization"
+            "title": "MIT 2.71 - Lecture 8: Telescopes & Aberrations — MIT OpenCourseWare",
+            "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-8-telescopes-aberrations-chromatic-spherical-and-coma/"
           },
           {
-            "title": "Interference, Fresnel/Fraunhofer diffraction and Fourier optics"
+            "title": "MIT 2.71 - Lecture 9: Optical Design, Aberrations & GRIN — MIT OpenCourseWare",
+            "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-9-more-aberrations-optical-design-gradient-index-grin/"
           },
           {
-            "title": "Lasers, fibers and photonics plus optical metrology, alignment and calibration"
+            "title": "MIT 2.71 - Lecture 14: Maxwell, Polarization & Poynting Vector — MIT OpenCourseWare",
+            "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-14-maxwells-equations-polarization-poyntings-vector/"
+          },
+          {
+            "title": "MIT 2.71 - Lecture 15: Interferometers & Fresnel Diffraction — MIT OpenCourseWare",
+            "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-15-huygens-principle-interferometers-fresnel-diffraction/"
           }
         ]
       },
       {
-        "tier": "ADVANCED / SPECIALIZATION",
+        "tier": "ADVANCED - DESIGN / VERIFY",
         "courses": [
           {
-            "title": "MTF/OTF, resolution, coherent vs incoherent imaging and image quality"
+            "title": "MIT 2.71 - Lecture 17: Fraunhofer Diffraction & Fourier Optics — MIT OpenCourseWare",
+            "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-17-fraunhofer-diffraction-fourier-transforms-and-theorems/"
           },
           {
-            "title": "Optomechanics, tolerancing, thermal/mechanical sensitivity and stray light"
+            "title": "MIT 2.71 - Lecture 18: Spatial Filtering & Lens Transfer Functions — MIT OpenCourseWare",
+            "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-18-spatial-filtering-lens-transfer-functions-transforms/"
           },
           {
-            "title": "Computational imaging and inverse design plus requirements, verification and safety"
+            "title": "MIT 2.71 - Lecture 22: Coherent/Incoherent Imaging, OTF & MTF — MIT OpenCourseWare",
+            "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-22-coherent-and-incoherent-imaging/"
+          },
+          {
+            "title": "MIT 2.71 - Lecture 25: Resolution & Defocused Optical Systems — MIT OpenCourseWare",
+            "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-25-resolution-defocused-optical-systems/"
           }
         ]
       }
     ],
     "resource_links": [
       {
-        "competency": "Lecture 1: Introduction to Optics",
-        "coverage": "MIT 2.71 Optics",
-        "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-1-course-organization-introduction-to-optics/"
+        "competency": "Ansys - Intro to Optical System Design with Zemax OpticStudio, Lesson 1",
+        "coverage": "Ansys Learning",
+        "url": "https://www.youtube.com/watch?v=IXGKtRIBwnM"
       },
       {
-        "competency": "Lecture 3: Focusing, Imaging & Paraxial Approximation",
-        "coverage": "MIT 2.71",
-        "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-3-focusing-imaging-and-the-paraxial-approximation/"
+        "competency": "Ansys - Optical Design Rules of Thumb & OpticStudio Tips",
+        "coverage": "Ansys Learning",
+        "url": "https://www.youtube.com/watch?v=0iRqVAYf27A"
       },
       {
-        "competency": "Lecture 8: Telescopes & Aberrations",
-        "coverage": "MIT 2.71",
-        "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-8-telescopes-aberrations-chromatic-spherical-and-coma/"
+        "competency": "MIT 2.71 - Lecture 23: Imaging with a Single Lens",
+        "coverage": "MIT OpenCourseWare",
+        "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-23-imaging-with-a-single-lens/"
       },
       {
-        "competency": "Lecture 15: Interferometers & Fresnel Diffraction",
-        "coverage": "MIT 2.71",
-        "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-15-huygens-principle-interferometers-fresnel-diffraction/"
-      },
-      {
-        "competency": "Lecture 17: Fraunhofer Diffraction & Fourier Optics",
-        "coverage": "MIT 2.71",
-        "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-17-fraunhofer-diffraction-fourier-transforms-and-theorems/"
-      },
-      {
-        "competency": "Lecture 22: Coherent & Incoherent Imaging",
-        "coverage": "MIT 2.71",
-        "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-22-coherent-and-incoherent-imaging/"
+        "competency": "MIT 2.71 - Lecture 26: Depth of Focus/Field, Polarization & Wave Plates",
+        "coverage": "MIT OpenCourseWare",
+        "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-26-depth-of-focus-and-field-polarization-wave-plates/"
       }
     ],
-    "capstone": "Design and validate an imaging or sensing system from requirements to test: create first-order ray model, aberration and MTF budget, detector/radiometry model, diffraction limit, tolerance/alignment plan, optomechanical concept, simulated performance and a verification report tied to measurable image-quality or sensing requirements. Produce a design-review package: requirements, ray and wave models, component choices, tolerance stack, detector model, alignment procedure, image-quality/MTF evidence, risk register, prototype or simulation results, and a verification matrix explaining what passed, what failed and what you would redesign.",
-    "evidence_standard": "Ray trace an imaging chain and defend focal length, F/#, field, stops and sensor choices; model interference, diffraction and spatial-frequency transfer for the same system; build aberration, alignment and sensitivity budgets with explicit compensators; quantify photon budget, detector noise, dynamic range and SNR; and define MTF/resolution tests, alignment checks and pass/fail criteria.",
+    "capstone": "Day 1 - Pick an imaging or sensing use case; write measurable requirements for field, resolution, wavelength, F/#, detector and environment. Day 2 - Create the paraxial/ray model; choose lens architecture, stops and detector. Calculate diffraction limit and first-order image scale. Day 3 - Model aberrations and MTF/OTF; add tolerances, alignment sensitivities and a basic radiometry/SNR budget. Day 4 - Implement or reproduce the design in OpticStudio (or equivalent); test defocus, misalignment and one realistic manufacturing/thermal perturbation. Day 5 - Produce a verification matrix, plots/screenshots, risk register, failure analysis and redesign recommendation.",
+    "evidence_standard": "Evidence, not claims: linked calculations; ray/wave model; MTF or resolution evidence; detector/radiometry assumptions; tolerance/alignment sensitivity; simulation screenshots or plots; one failure/edge case; explicit tradeoffs; verification criteria; final design review.",
     "page": 751,
     "category": "Engineering & Manufacturing"
   },
@@ -3703,82 +3714,93 @@
     "university_benchmark": "MIT 2.671 Measurement & Instrumentation | MIT 2.132 / 2.133 MICA Projects | IIT Guwahati NPTEL Measurement & Instrumentation | MIT MAS.836 Sensor Technologies",
     "tiers": [
       {
-        "tier": "FOUNDATIONS / INTRODUCTION",
+        "tier": "BASIC - MEASURE",
         "courses": [
           {
-            "title": "Measurement architecture, SI standards, accuracy/precision, error and uncertainty"
+            "title": "NPTEL - Fundamental of Measurement Systems I — IIT Guwahati",
+            "url": "https://www.youtube.com/watch?v=l4PAyQ9k_AY"
           },
           {
-            "title": "Sensors/transducers for force, strain, temperature, pressure, flow and motion"
+            "title": "NPTEL - Fundamental of Measurement Systems II — IIT Guwahati",
+            "url": "https://www.youtube.com/watch?v=epscq8X1p2I"
           },
           {
-            "title": "Bridges, op-amps, signal conditioning, grounding/shielding and bench instruments"
+            "title": "NPTEL - Industrial Instrumentation: Introduction — IIT Kharagpur",
+            "url": "https://www.youtube.com/watch?v=NuQqDFkhIlU"
+          },
+          {
+            "title": "NPTEL - Flow Measurement — IIT Kharagpur",
+            "url": "https://www.youtube.com/watch?v=gByrUkZUnKo"
           }
         ]
       },
       {
-        "tier": "INTERMEDIATE CORE",
+        "tier": "INTERMEDIATE - CONDITION / ACQUIRE",
         "courses": [
           {
-            "title": "Sampling, anti-aliasing, ADC/DAC, DAQ and digital records"
+            "title": "NPTEL - Signal Conditioning Circuits I — IIT Kharagpur",
+            "url": "https://www.youtube.com/watch?v=GMnw9gch7jo"
           },
           {
-            "title": "Calibration, traceability, uncertainty propagation and experimental statistics"
+            "title": "NPTEL - Signal Conditioning Circuits II — IIT Kharagpur",
+            "url": "https://www.youtube.com/watch?v=7-RKGk4jtyQ"
           },
           {
-            "title": "Dynamic response, Fourier/transfer functions plus industrial measurement chains"
+            "title": "NPTEL - Grounding and Shielding — IIT Guwahati",
+            "url": "https://www.youtube.com/watch?v=hmb4xeCZHcE"
+          },
+          {
+            "title": "NPTEL - Introduction to Data Acquisition Systems — IIT Guwahati",
+            "url": "https://www.youtube.com/watch?v=_xxx7fHNAoE"
           }
         ]
       },
       {
-        "tier": "ADVANCED / SPECIALIZATION",
+        "tier": "ADVANCED - CONTROL / INTEGRATE",
         "courses": [
           {
-            "title": "MEMS/microsensors, sensor fusion and intelligent instrumentation"
+            "title": "NPTEL - Signal Generators and Analyzers — IIT Guwahati",
+            "url": "https://www.youtube.com/watch?v=v_uB1zJ4GWc"
           },
           {
-            "title": "Process instrumentation, control loops, PLC/SCADA integration and alarms"
+            "title": "NPTEL - P-I-D Control — IIT Kharagpur",
+            "url": "https://www.youtube.com/watch?v=-To4nPh-N2A"
           },
           {
-            "title": "Reliability, diagnostics, condition monitoring plus automated test and analytics"
+            "title": "NPTEL - PLC Hardware Environment — IIT Kharagpur",
+            "url": "https://www.youtube.com/watch?v=ayg2vt25XiY"
+          },
+          {
+            "title": "NPTEL - The Fieldbus Network I — IIT Kharagpur",
+            "url": "https://www.youtube.com/watch?v=ap27YeBOr_c"
           }
         ]
       }
     ],
     "resource_links": [
       {
-        "competency": "Measurement & Instrumentation (12-week course)",
-        "coverage": "NPTEL / IIT Guwahati",
+        "competency": "NPTEL 2026 - Measurement & Instrumentation Full Video Course",
+        "coverage": "IIT Guwahati",
         "url": "https://nptel.ac.in/courses/108103862"
       },
       {
-        "competency": "Measurement & Instrumentation Intro",
-        "coverage": "NPTEL IIT Guwahati",
-        "url": "https://www.youtube.com/watch?v=o8mDm7-K1uk"
+        "competency": "NPTEL - Industrial Automation & Control Full Video Course",
+        "coverage": "IIT Kharagpur",
+        "url": "https://nptel.ac.in/courses/108105062"
       },
       {
-        "competency": "Instrumentation & Measurement tutorial video collection",
-        "coverage": "MIT 20.309",
-        "url": "https://ocw.mit.edu/courses/20-309-biological-engineering-ii-instrumentation-and-measurement-fall-2006/video_galleries/tools/"
+        "competency": "NPTEL - Industrial Instrumentation Full Video Course",
+        "coverage": "IIT Kharagpur",
+        "url": "https://www.youtube.com/playlist?list=PLC7B26029C4E955FA"
       },
       {
-        "competency": "Tutorial 2: Force Spectroscopy (18 min)",
-        "coverage": "MIT 20.309",
-        "url": "https://ocw.mit.edu/courses/20-309-biological-engineering-ii-instrumentation-and-measurement-fall-2006/resources/tutorial-2/"
-      },
-      {
-        "competency": "Labs: electronics, DAQ, AFM & optical instrumentation",
-        "coverage": "MIT 20.309",
-        "url": "https://www.ocw.mit.edu/courses/20-309-biological-engineering-ii-instrumentation-and-measurement-fall-2006/pages/labs/"
-      },
-      {
-        "competency": "Sensor Technologies for Interactive Environments",
-        "coverage": "MIT Media Lab",
-        "url": "https://ocw.mit.edu/courses/mas-836-sensor-technologies-for-interactive-environments-spring-2011/"
+        "competency": "NPTEL - Op-Amp Practical Applications / Signal Acquisition Labs",
+        "coverage": "IISc Bangalore",
+        "url": "https://nptel.ac.in/courses/108108114"
       }
     ],
-    "capstone": "Build and validate a multi-sensor measurement system: choose sensors and transducers, design conditioning and shielding, implement synchronized DAQ, calibrate against references, propagate uncertainty, characterize bandwidth/noise, create alarms or a control interface, and publish a reproducible test report with raw data, metadata and traceable acceptance criteria. Deliver a complete instrumentation design dossier: measurement requirements, sensor trade study, schematics, calibration plan, DAQ configuration, uncertainty budget, frequency/noise characterization, fault/diagnostic tests, time-series dataset, dashboards or control interface, safety considerations and a technical report that another engineer could reproduce.",
-    "evidence_standard": "Select sensors for multiple physical variables and justify range, bandwidth, loading and environment; design bridge/op-amp/filter chains, grounding and shielding with measured noise evidence; configure sampling, anti-aliasing, ADC range and calibration while propagating uncertainty; measure transfer function, bandwidth, drift, hysteresis and repeatability; and create monitoring/control interfaces, alarms, metadata and diagnostic evidence.",
+    "capstone": "Day 1 - Define 2-3 measurands (for example temperature, pressure/force, flow or motion), range, accuracy, bandwidth and environmental constraints. Day 2 - Select sensors/transducers; design bridge/op-amp/filter conditioning, grounding/shielding and protection. Create the wiring/I/O diagram. Day 3 - Build the DAQ chain: sampling rate, anti-aliasing, ADC resolution, synchronization, metadata and storage. Capture raw and conditioned signals. Day 4 - Calibrate against a reference; estimate uncertainty, noise, drift and dynamic response. Add threshold/alarm logic or a PLC/control interface. Day 5 - Run a fault/noise test, document recovery, and publish plots, calibration curve, uncertainty budget, raw data, acceptance criteria and test report.",
+    "evidence_standard": "Show the actual measurement chain: sensor selection rationale; conditioning schematic; grounding/shielding choices; DAQ settings; calibration evidence; uncertainty/noise analysis; dynamic response; alarm/control logic; raw data; reproducible plots; one injected fault; traceable pass/fail criteria and lessons learned.",
     "page": 753,
     "category": "Engineering & Manufacturing"
   }
