@@ -177,6 +177,20 @@
     }
   });
 
+  // Signup gate: browsing topics is free, but opening an actual resource
+  // link requires a (free) signup. Capture phase so it intercepts before
+  // the browser navigates.
+  detailEl.addEventListener('click', function (e) {
+    if (!window.ZuyiniGate) return;
+    var link = e.target.closest('.hsa-table a, .hsa-bullets a');
+    if (!link || window.ZuyiniGate.hasAccess()) return;
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    window.ZuyiniGate.requireAccess(function () {
+      window.open(link.href, '_blank', 'noopener,noreferrer');
+    });
+  }, true);
+
   categorySelect.addEventListener('change', function () {
     currentPage = null;
     showEmptyState();

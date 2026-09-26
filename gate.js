@@ -29,9 +29,10 @@
     overlay.id = 'signup-gate';
     overlay.innerHTML =
       '<div class="gate-card">' +
+      '<button type="button" class="gate-close" aria-label="Close">&times;</button>' +
       '<span class="logo-mark">Z</span>' +
       '<h2>Get free access</h2>' +
-      '<p class="gate-pitch">Sign up with your name and email to unlock the full Academy and Health Sciences Academy catalogs, plus occasional updates from Zuyini. No spam, unsubscribe anytime.</p>' +
+      '<p class="gate-pitch">Sign up with your name and email to unlock every video, course and mastery tracker in the Academy and Health Sciences Academy catalogs, plus occasional updates from Zuyini. No spam, unsubscribe anytime.</p>' +
       '<form id="gate-form" novalidate>' +
       '<div class="gate-field">' +
       '<label for="gate-name">Name</label>' +
@@ -70,16 +71,42 @@
     });
   }
 
-  function initGate() {
-    if (hasAccess()) return;
+  var activeOverlay = null;
+  var pendingCallbacks = [];
+
+  function closeOverlay() {
+    if (!activeOverlay) return;
+    document.body.style.overflow = '';
+    activeOverlay.remove();
+    activeOverlay = null;
+    pendingCallbacks = [];
+  }
+
+  // Shows the signup modal. `onGranted` (optional) runs once access is
+  // granted from THIS modal instance -- used so a gated click (e.g. opening
+  // a video) can complete automatically right after signup instead of
+  // making the visitor click twice.
+  function showGate(onGranted) {
+    if (activeOverlay) {
+      if (onGranted) pendingCallbacks.push(onGranted);
+      return;
+    }
+    if (onGranted) pendingCallbacks.push(onGranted);
 
     document.body.style.overflow = 'hidden';
     var overlay = buildOverlay();
     document.body.appendChild(overlay);
+    activeOverlay = overlay;
 
     var form = overlay.querySelector('#gate-form');
     var errorEl = overlay.querySelector('#gate-error');
     var submitBtn = overlay.querySelector('.gate-submit');
+    var closeBtn = overlay.querySelector('.gate-close');
+
+    closeBtn.addEventListener('click', closeOverlay);
+    overlay.addEventListener('click', function (e) {
+      if (e.target === overlay) closeOverlay();
+    });
 
     form.addEventListener('submit', function (e) {
       e.preventDefault();
@@ -103,8 +130,11 @@
       subscribe(name, email)
         .then(function () {
           grantAccess();
-          document.body.style.overflow = '';
-          overlay.remove();
+          var callbacks = pendingCallbacks;
+          closeOverlay();
+          callbacks.forEach(function (cb) {
+            try { cb(); } catch (e) { /* ignore */ }
+          });
         })
         .catch(function () {
           submitBtn.disabled = false;
@@ -114,9 +144,19 @@
     });
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initGate);
-  } else {
-    initGate();
-  }
+  // Public API used by academy.js / health-sciences.js to gate a specific
+  // action (opening a video link, ticking a mastery checkbox) rather than
+  // blocking the whole page on load. Browsing roles/topics/pathways stays
+  // free; only "reviewing the content" itself prompts signup.
+  window.ZuyiniGate = {
+    hasAccess: hasAccess,
+    requireAccess: function (onGranted) {
+      if (hasAccess()) {
+        if (onGranted) onGranted();
+        return true;
+      }
+      showGate(onGranted);
+      return false;
+    },
+  };
 })();

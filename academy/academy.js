@@ -657,6 +657,21 @@
     }
   });
 
+  // Signup gate: browsing roles/pathways/certificates/courses is free, but
+  // opening an actual video/course link requires a (free) signup. Runs in
+  // the capture phase so it intercepts before mastery-tracking's own click
+  // listener on the same link and before the browser navigates.
+  detailEl.addEventListener('click', function (e) {
+    if (!window.ZuyiniGate) return;
+    var link = e.target.closest('.video-links a, .tier-bridges a, .course-sequence a, .tier-courses a');
+    if (!link || window.ZuyiniGate.hasAccess()) return;
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    window.ZuyiniGate.requireAccess(function () {
+      window.open(link.href, '_blank', 'noopener,noreferrer');
+    });
+  }, true);
+
   toggleButtons.forEach(function (btn) {
     btn.addEventListener('click', function () {
       setMode(btn.getAttribute('data-mode'), null, true);

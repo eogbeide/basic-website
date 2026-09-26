@@ -18,6 +18,7 @@
 }
 
 .gate-card {
+  position: relative;
   width: 100%;
   max-width: 420px;
   background-color: #1c1d1e;
@@ -27,6 +28,27 @@
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.gate-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: #8a8a8a;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.gate-close:hover {
+  background-color: #2a2a2a;
+  color: white;
 }
 
 .gate-card .logo-mark {
