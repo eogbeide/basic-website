@@ -7751,17 +7751,17 @@
   },
   {
     "name": "Pricing Manager",
-    "benchmark": "ServiceNow, Justworks and Sonar pricing/monetization role descriptions (2026 sample) Mastery ladder: 2 job-market competencies per level; 2 direct VIDEO bridges per competency (12 total).",
-    "capstone": "Redesign pricing for a real product: segment customers, research willingness to pay, choose a value metric, design packages and entitlements, model revenue/margin impact and elasticity, benchmark competitors, define experiments and recommend a monetization roadmap.",
-    "rubric": "Explain the concept clearly; apply it in a realistic scenario; compare tradeoffs; show tests, metrics or decision evidence; quantify customer/business/technical value or risk reduction.",
+    "benchmark": "ServiceNow AI monetization + Infoblox pricing/licensing + Bonterra pricing strategy signals (current Sep 2026) Market refresh: willingness-to-pay, value metrics, packaging/licensing, usage/outcome pricing, AI cost-to-serve, elasticity, price realization, governance and GTM.",
+    "capstone": "Redesign pricing for a real SaaS or AI product: segment customers, quantify willingness to pay, choose a value metric, design packages/entitlements and usage or outcome components, model cost-to-serve and margins, design elasticity/price-realization tests, define migration and discount governance, and present a cross-functional monetization decision.",
+    "rubric": "Show evidence for customer value and willingness to pay; defend value metric and package architecture; quantify unit economics, gross margin and price realization; design valid experiments; model migration risk; distinguish adoption pricing from durable monetization; and show governance across Product, Finance, Sales and RevOps.",
     "levels": [
       {
         "level": "BASIC",
-        "intro": "Discover willingness to pay and design the offer architecture",
+        "intro": "Discover customer value and design the offer architecture",
         "competencies": [
           {
-            "title": "Customer segmentation and willingness-to-pay research",
-            "coverage": "Product Discovery & Customer Research",
+            "title": "Customer segmentation, willingness-to-pay + value metric",
+            "coverage": "Product Discovery / WTP Research / Value Metrics",
             "videos": [
               {
                 "title": "Willingness to Pay",
@@ -7776,8 +7776,8 @@
             ]
           },
           {
-            "title": "Pricing, packaging and monetization design",
-            "coverage": "Product Pricing, Packaging & Monetization",
+            "title": "Packaging, licensing, entitlements + price fences",
+            "coverage": "Pricing, Packaging & Monetization / Licensing",
             "videos": [
               {
                 "title": "AWS Partner Network",
@@ -7798,8 +7798,8 @@
         "intro": "Model economics and learn price response from evidence",
         "competencies": [
           {
-            "title": "Unit economics and margin impact",
-            "coverage": "Financial Modeling, Business Cases & Unit Economics",
+            "title": "Unit economics, cost-to-serve + margin architecture",
+            "coverage": "Financial Modeling / Unit Economics / FinOps",
             "videos": [
               {
                 "title": "Aswath Damodaran",
@@ -7807,24 +7807,24 @@
                 "channel": "Intrinsic and DCF Valuation"
               },
               {
-                "title": "Olly Rosewell",
-                "url": "https://www.youtube.com/watch?v=NzBRa2wps44",
-                "channel": "SaaS Pricing Explained ($1M Strategy)"
+                "title": "Unit Economics: Cloud Cost Metrics that Matter",
+                "url": "https://www.youtube.com/watch?v=Y1ruCJu0xss",
+                "channel": "FinOps X"
               }
             ]
           },
           {
-            "title": "Price experimentation and elasticity learning",
-            "coverage": "Experimentation & A/B Testing",
+            "title": "Price experimentation, elasticity + price realization",
+            "coverage": "Experimentation / Elasticity / Discount Effectiveness",
             "videos": [
               {
-                "title": "Lecture 3: Elasticity (48 min)",
-                "url": "https://www.youtube.com/watch?v=FBWJYH8DZ1g",
+                "title": "Elasticity (48 min)",
+                "url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/unit-1-supply-and-demand/elasticity/",
                 "channel": "MIT OpenCourseWare"
               },
               {
-                "title": "Willingness to Pay",
-                "url": "",
+                "title": "WTP",
+                "url": "https://www.youtube.com/watch?v=FBWJYH8DZ1g",
                 "channel": "How To Price SaaS Products Accurately"
               }
             ]
@@ -7833,27 +7833,27 @@
       },
       {
         "level": "ADVANCED",
-        "intro": "Win in the market and evolve the monetization model",
+        "intro": "Evolve monetization models and govern price at portfolio scale",
         "competencies": [
           {
-            "title": "Competitive pricing and market intelligence",
-            "coverage": "Market Research, Competitive Analysis & Market Sizing",
+            "title": "Usage-, outcome- and hybrid pricing for AI / SaaS",
+            "coverage": "Usage Pricing / Outcome Pricing / AI Cost-to-Serve",
             "videos": [
               {
-                "title": "HBR",
-                "url": "https://www.youtube.com/watch?v=mYF2_FBCvXw",
-                "channel": "Five Competitive Forces That Shape Strategy"
+                "title": "Usage-Based Pricing Deep Dive",
+                "url": "https://www.youtube.com/watch?v=_9FQaNjObS0",
+                "channel": "SaaS Talks"
               },
               {
-                "title": "Strategic Value-Based Pricing for B2B SaaS",
-                "url": "https://www.youtube.com/watch?v=rxH6w9M6PVs",
-                "channel": ""
+                "title": "Adapting FinOps for Generative AI Costs",
+                "url": "https://www.youtube.com/watch?v=5bs11z2Uzt0",
+                "channel": "AWS"
               }
             ]
           },
           {
-            "title": "Business-model and monetization strategy",
-            "coverage": "Monetization Strategy & Business Models",
+            "title": "Pricing governance, commercialization + cross-functional execution",
+            "coverage": "Pricing Governance / GTM / Revenue Operations",
             "videos": [
               {
                 "title": "Business Model Canvas Webinar",
@@ -7861,18 +7861,18 @@
                 "channel": "Strategyzer"
               },
               {
-                "title": "Usage-Based Pricing Deep Dive",
-                "url": "https://www.youtube.com/watch?v=_9FQaNjObS0",
-                "channel": "SaaS Talks"
+                "title": "Go-to-Market Strategy",
+                "url": "https://www.youtube.com/watch?v=yDLErwgajOQ",
+                "channel": "Product School"
               }
             ]
           }
         ]
       }
     ],
-    "bonus": [],
     "page": 344,
-    "category": "Revenue Operations, Technical Sales & GTM Systems"
+    "category": "Business Management",
+    "bonus": []
   },
   {
     "name": "Privacy Engineer",
@@ -23632,6 +23632,631 @@
     ],
     "page": 715,
     "category": "Data Center, AI Compute & Infrastructure",
+    "bonus": []
+  },
+  {
+    "name": "AI Factory Manager / AI Industrialization Lead",
+    "benchmark": "NVIDIA AI Factory / DSX operating model + enterprise AI-factory/MLOps leadership signals (current Sep 2026) Current bar: industrialize AI from intake to production; unify data, compute, MLOps, evals, governance, capacity and economics; optimize time-to-value, utilization, reliability and cost per intelligence unit.",
+    "capstone": "Operate a simulated enterprise AI factory: create intake and stage gates for 8-10 use cases; define data/model/platform architecture; establish CI/CD/CT, model registry, eval and approval gates; forecast accelerator demand; track utilization, tokens/sec, tokens/watt and cost/token; implement observability and incident response; publish an executive factory scorecard and quarterly capacity/value plan.",
+    "rubric": "Prove repeatable flow from idea to production; measurable cycle time and deployment quality; reproducible MLOps; credible capacity/utilization economics; evaluation and rollback evidence; governance proportional to risk; clear ownership and operating cadence; and quantified business value rather than model demos.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Define the AI factory operating model and production intake",
+        "competencies": [
+          {
+            "title": "AI factory operating model + use-case portfolio",
+            "coverage": "AI Strategy / Use-Case Discovery / Portfolio Intake",
+            "videos": [
+              {
+                "title": "Enterprise AI Playbook",
+                "url": "https://www.youtube.com/watch?v=ocyFONwoJQg",
+                "channel": "Google Cloud"
+              },
+              {
+                "title": "Use Case Discovery & System Scoping",
+                "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          },
+          {
+            "title": "Data, model + MLOps production foundation",
+            "coverage": "MLOps / Data Platforms / Model Lifecycle",
+            "videos": [
+              {
+                "title": "MLOps Engineering (54m)",
+                "url": "https://www.youtube.com/watch?v=SS9_DusYvus",
+                "channel": "AWS re:Invent"
+              },
+              {
+                "title": "MLflow 3.0: AI & MLOps (48m)",
+                "url": "https://www.youtube.com/watch?v=UezTglxJC88",
+                "channel": "Databricks"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Industrialize deployment, reliability and AI factory economics",
+        "competencies": [
+          {
+            "title": "Production pipelines, serving + observability",
+            "coverage": "Deployment / Monitoring / SLOs / Incident Learning",
+            "videos": [
+              {
+                "title": "Deployment (57m)",
+                "url": "https://www.youtube.com/watch?v=W3hKjXg7fXM",
+                "channel": "FSDL"
+              },
+              {
+                "title": "Monitoring Lab (31m)",
+                "url": "https://www.youtube.com/watch?v=-mKzxSC0r7w",
+                "channel": "FSDL"
+              }
+            ]
+          },
+          {
+            "title": "Compute capacity, utilization + token economics",
+            "coverage": "AI Infrastructure / Capacity / FinOps / Unit Economics",
+            "videos": [
+              {
+                "title": "Mastering LLM Inference Optimization",
+                "url": "https://www.youtube.com/watch?v=9tvJ_GYJA-o",
+                "channel": "NVIDIA"
+              },
+              {
+                "title": "Token Economics + New Job of FinOps",
+                "url": "https://www.youtube.com/watch?v=W4g8xvduIbs",
+                "channel": "FinOps X 2026"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Govern a scalable AI production system and measurable value engine",
+        "competencies": [
+          {
+            "title": "Evals, security, governance + release gates",
+            "coverage": "AI Evals / Governance / Security / Model Risk",
+            "videos": [
+              {
+                "title": "Practical Evaluation Systems",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "AI Security, Privacy & Governance",
+                "url": "https://www.youtube.com/watch?v=l6ou6hVUJ3k",
+                "channel": "Google Cloud"
+              }
+            ]
+          },
+          {
+            "title": "Operating cadence, teams + enterprise adoption",
+            "coverage": "AI Operating Model / Leadership / Adoption / Value Realization",
+            "videos": [
+              {
+                "title": "ML Teams & Project Management",
+                "url": "https://www.youtube.com/watch?v=a54xH6nT4Sw",
+                "channel": "FSDL"
+              },
+              {
+                "title": "Successful Enterprise AI Adoption",
+                "url": "https://www.youtube.com/watch?v=gjEHaZzHWnM",
+                "channel": "NDC"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 746,
+    "category": "Data Center, AI Compute & Infrastructure",
+    "bonus": []
+  },
+  {
+    "name": "Monetization Manager",
+    "benchmark": "Anthropic New Markets & Monetization + OpenAI Monetization + subscription / platform monetization market signals (current Sep 2026) Current bar: own business-model choices across subscription, usage, ads, marketplace and partner revenue; connect customer value, pricing, lifecycle experiments, unit economics and GTM.",
+    "capstone": "Build a monetization operating plan for a product with at least three potential revenue streams. Segment customers and value pools; choose the business model and value metric; design offers/paywalls; baseline activation, retention, ARPU and LTV; run pricing/funnel experiments; model subscription, usage, ads or partner economics; define GTM, governance, dashboard and quarterly monetization roadmap.",
+    "rubric": "Demonstrate customer-value logic, clean economics and measurable growth loops; quantify conversion, retention, ARPU/LTV and margin; design valid experiments; manage cannibalization and trust; explain why each revenue stream belongs; and connect product decisions to durable revenue rather than short-term extraction.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Choose the business model and build a coherent offer",
+        "competencies": [
+          {
+            "title": "Customer segments, value pools + monetization thesis",
+            "coverage": "Business Models / Segmentation / Value Proposition",
+            "videos": [
+              {
+                "title": "Business Model Canvas Webinar",
+                "url": "https://www.youtube.com/watch?v=SliMK6Z2jlA",
+                "channel": "Strategyzer"
+              },
+              {
+                "title": "Value Proposition Canvas Webinar",
+                "url": "https://www.youtube.com/watch?v=r0mtUQnny94",
+                "channel": "Strategyzer"
+              }
+            ]
+          },
+          {
+            "title": "Pricing, packaging, paywalls + offer architecture",
+            "coverage": "Pricing / Packaging / Subscription / Offer Design",
+            "videos": [
+              {
+                "title": "Willingness to Pay",
+                "url": "https://www.youtube.com/watch?v=cdQzCVUJybY",
+                "channel": "Pricing for B2B SaaS"
+              },
+              {
+                "title": "AWS Partner Network",
+                "url": "https://www.youtube.com/watch?v=G6uV9i8l5z8",
+                "channel": "SaaS Pricing and Packaging"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Optimize revenue through lifecycle evidence and experiments",
+        "competencies": [
+          {
+            "title": "Activation, retention, LTV + unit economics",
+            "coverage": "Funnels / Retention / LTV / Revenue Analytics",
+            "videos": [
+              {
+                "title": "Funnels, Cohorts & Retention",
+                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
+                "channel": "Amplitude"
+              },
+              {
+                "title": "HubSpot",
+                "url": "https://www.youtube.com/watch?v=k204wIknczU",
+                "channel": "RevOps: Science of Revenue Growth"
+              }
+            ]
+          },
+          {
+            "title": "Monetization experiments, elasticity + causal learning",
+            "coverage": "A/B Testing / Pricing Experiments / Causal Inference",
+            "videos": [
+              {
+                "title": "Online Controlled Experiments",
+                "url": "https://www.youtube.com/watch?v=ZfhQ-fIg4EU",
+                "channel": "ACM / Ron Kohavi"
+              },
+              {
+                "title": "Elasticity",
+                "url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/unit-1-supply-and-demand/elasticity/",
+                "channel": "MIT OpenCourseWare"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Scale multiple revenue streams with disciplined commercialization",
+        "competencies": [
+          {
+            "title": "Subscription, usage, ads, marketplace + partner monetization",
+            "coverage": "Multi-Stream Monetization / Usage Pricing / Ads / Partnerships",
+            "videos": [
+              {
+                "title": "Usage-Based Pricing Deep Dive",
+                "url": "https://www.youtube.com/watch?v=_9FQaNjObS0",
+                "channel": "SaaS Talks"
+              },
+              {
+                "title": "Understanding Programmatic Digital Advertising",
+                "url": "https://www.youtube.com/watch?v=86qHw2w0rPc",
+                "channel": "IAB"
+              }
+            ]
+          },
+          {
+            "title": "Revenue governance, GTM + portfolio value capture",
+            "coverage": "GTM / Revenue Operations / Portfolio Monetization",
+            "videos": [
+              {
+                "title": "Go-to-Market Strategy",
+                "url": "https://www.youtube.com/watch?v=yDLErwgajOQ",
+                "channel": "Product School"
+              },
+              {
+                "title": "Must-Have Metrics for Product Strategy",
+                "url": "https://www.youtube.com/watch?v=4_2s9PMSzaE",
+                "channel": "Reforge"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 747,
+    "category": "Business Management",
+    "bonus": []
+  },
+  {
+    "name": "Capacity Planning Manager",
+    "benchmark": "Google Integrated Infrastructure Planning + hyperscale cloud demand/capacity planning signals (current Sep 2026) Current bar: convert rapidly evolving product and AI demand into short-, medium- and long-range infrastructure plans; model constraints, allocation, investment tradeoffs, risks and Plan-of-Record decisions.",
+    "capstone": "Build a 0-10 year capacity plan for a simulated AI/cloud service: create demand forecasts with confidence bands; model compute/network/storage/power requirements and lead times; define constraints and deployment alternatives; run base/up/down and disruption scenarios; allocate scarce capacity; quantify utilization and cost; produce a Plan of Record, risk register and executive investment decision.",
+    "rubric": "Show traceable assumptions and forecast accuracy; separate demand signal from committed capacity; model constraints and lead times explicitly; quantify utilization, headroom, cost and service risk; demonstrate scenario and allocation logic; maintain one source of truth; and communicate investment tradeoffs clearly to Product, Engineering, Supply Chain and Finance.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Translate demand into capacity requirements and planning assumptions",
+        "competencies": [
+          {
+            "title": "Demand forecasting, horizons + planning cadence",
+            "coverage": "Forecasting / S&OP / Demand Planning / Assumptions",
+            "videos": [
+              {
+                "title": "Forecasting: Principles & Practice",
+                "url": "https://www.youtube.com/watch?v=7TglVxNgbKQ",
+                "channel": "Rob Hyndman"
+              },
+              {
+                "title": "Invest Northern Ireland",
+                "url": "https://www.youtube.com/watch?v=xmiPJq9PR6c",
+                "channel": "Sales & Operational Planning"
+              }
+            ]
+          },
+          {
+            "title": "Capacity models, constraints + scenario logic",
+            "coverage": "Operations Research / Constraints / Scenario Planning",
+            "videos": [
+              {
+                "title": "Introduction to Linear Programming",
+                "url": "https://www.youtube.com/watch?v=qKNkP6IfjvY",
+                "channel": "MIT OCW"
+              },
+              {
+                "title": "Monte Carlo Simulation",
+                "url": "https://www.youtube.com/watch?v=OgO1gpXSUzU",
+                "channel": "MIT OCW"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Balance infrastructure supply, deployment and business priorities",
+        "competencies": [
+          {
+            "title": "Infrastructure supply, lead times + deployment alternatives",
+            "coverage": "Infrastructure Planning / Supply Chain / Deployment",
+            "videos": [
+              {
+                "title": "Managing EC2 Capacity & Availability",
+                "url": "https://www.youtube.com/watch?v=TyFMsx9PVeM",
+                "channel": "AWS re:Invent"
+              },
+              {
+                "title": "Advanced Supply Chain Systems Planning",
+                "url": "https://www.youtube.com/watch?v=OAr341BlZUA",
+                "channel": "MIT CTL"
+              }
+            ]
+          },
+          {
+            "title": "Allocation, utilization + cost / service tradeoffs",
+            "coverage": "Allocation / FinOps / Unit Economics / SLOs",
+            "videos": [
+              {
+                "title": "Unit Economics: Cloud Cost Metrics that Matter",
+                "url": "https://www.youtube.com/watch?v=Y1ruCJu0xss",
+                "channel": "FinOps X"
+              },
+              {
+                "title": "Getting Started with SLOs",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "channel": "Google Cloud"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Run integrated planning and executive investment decisions",
+        "competencies": [
+          {
+            "title": "Multi-horizon scenarios, risk + resilience",
+            "coverage": "Scenario Analysis / Risk / Resilience / Portfolio Planning",
+            "videos": [
+              {
+                "title": "Supply Chain Simulation, AI & Digital Twins",
+                "url": "https://www.youtube.com/watch?v=BsMxgpiOGV4",
+                "channel": "MIT CTL"
+              },
+              {
+                "title": "Rethinking Supply Chain Resilience",
+                "url": "https://www.youtube.com/watch?v=sf2lg0vw69Y",
+                "channel": "MIT CTL"
+              }
+            ]
+          },
+          {
+            "title": "Executive decision support + planning automation",
+            "coverage": "Decision Support / Dashboards / Workflow Automation",
+            "videos": [
+              {
+                "title": "Turn Data Into Stories",
+                "url": "https://www.youtube.com/watch?v=Hfx1X9WSGYQ",
+                "channel": "Storytelling With Data"
+              },
+              {
+                "title": "OR-Tools Decision Workflows & Scenario Testing",
+                "url": "https://www.youtube.com/watch?v=mO0-SZWC0dw",
+                "channel": "Nextmv"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 748,
+    "category": "Data Center, AI Compute & Infrastructure",
+    "bonus": []
+  },
+  {
+    "name": "Ad Tech Manager / Advertising Technology Manager",
+    "benchmark": "Amazon Advertising Technology / Publisher Services + OpenAI Ads Manager monetization platform signals (current Sep 2026) Current bar: lead advertiser/publisher technology across programmatic auctions, ad serving, identity, measurement, APIs, ML optimization, privacy, marketplace health and monetization.",
+    "capstone": "Design an ad-tech product operating model for a multi-sided platform: map advertiser/publisher/viewer journeys; specify DSP/SSP/exchange and ad-serving interfaces; define auction/pacing and campaign controls; instrument attribution/incrementality; design privacy and identity controls; create ML optimization metrics, APIs and partner integration plan; finish with marketplace-health, revenue and trust dashboards.",
+    "rubric": "Demonstrate technical fluency in ad serving and programmatic mechanics; measurable advertiser and publisher value; privacy-aware identity and measurement; robust experimentation; latency/reliability awareness; marketplace-health and policy controls; partner/API strategy; and explicit tradeoffs among revenue, relevance, user trust and publisher yield.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Understand the advertising marketplace and customer economics",
+        "competencies": [
+          {
+            "title": "Ad ecosystem, DSP/SSP/exchange + auction mechanics",
+            "coverage": "Programmatic Advertising / RTB / Supply & Demand",
+            "videos": [
+              {
+                "title": "Understanding Programmatic Digital Advertising",
+                "url": "https://www.youtube.com/watch?v=86qHw2w0rPc",
+                "channel": "IAB"
+              },
+              {
+                "title": "Hands-On",
+                "url": "https://www.youtube.com/watch?v=h7xOSw1i7Jw",
+                "channel": "Google Ads Tutorial 2026"
+              }
+            ]
+          },
+          {
+            "title": "Advertiser, publisher + viewer journeys and value",
+            "coverage": "Advertiser UX / Publisher Monetization / Funnel Economics",
+            "videos": [
+              {
+                "title": "Retail Media in 2026",
+                "url": "https://www.youtube.com/watch?v=hRBkGgbQ6Og",
+                "channel": "Walmart Connect"
+              },
+              {
+                "title": "Customer Journey & Marketing Funnel",
+                "url": "https://www.youtube.com/watch?v=iRjXccj4yRo",
+                "channel": "Grow with Google"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build high-scale ad serving, identity and measurement systems",
+        "competencies": [
+          {
+            "title": "Ad serving, pacing, bidding + real-time optimization",
+            "coverage": "Ad Serving / RTB / Campaign Delivery / Performance",
+            "videos": [
+              {
+                "title": "Agentic Programmatic Advertising",
+                "url": "https://www.youtube.com/watch?v=zx8f1tpFnl8",
+                "channel": "IAB Spain / PubMatic"
+              },
+              {
+                "title": "DSP segment",
+                "url": "https://www.youtube.com/watch?v=_xpLby-hkGI",
+                "channel": "Amazon Ads Masterclass 2026"
+              }
+            ]
+          },
+          {
+            "title": "Identity, attribution, privacy + experimentation",
+            "coverage": "Identity / Attribution / Privacy / Incrementality",
+            "videos": [
+              {
+                "title": "Attribution Reporting API Q&A",
+                "url": "https://www.youtube.com/watch?v=hi0zrsH6z0w",
+                "channel": "Google Ads"
+              },
+              {
+                "title": "What Is A/B Testing?",
+                "url": "https://www.youtube.com/watch?v=_WuE80AbxjE",
+                "channel": "Statsig"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Scale ML-driven advertising platforms with trust and marketplace health",
+        "competencies": [
+          {
+            "title": "ML optimization, relevance + marketplace yield",
+            "coverage": "Ranking / Prediction / ROAS / Yield / Marketplace Health",
+            "videos": [
+              {
+                "title": "Reinventing Retail with AI",
+                "url": "https://www.youtube.com/watch?v=pKEmQ1VMxsM",
+                "channel": "Google Cloud"
+              },
+              {
+                "title": "Must-Have Metrics for Product Strategy",
+                "url": "https://www.youtube.com/watch?v=4_2s9PMSzaE",
+                "channel": "Reforge"
+              }
+            ]
+          },
+          {
+            "title": "Platform roadmap, policy, safety + partner ecosystem",
+            "coverage": "Ad Platform Strategy / APIs / Policy / Partner Integrations",
+            "videos": [
+              {
+                "title": "Go-to-Market Strategy",
+                "url": "https://www.youtube.com/watch?v=yDLErwgajOQ",
+                "channel": "Product School"
+              },
+              {
+                "title": "Building the Agentic Enterprise",
+                "url": "https://www.youtube.com/watch?v=lsqPct4NnNs",
+                "channel": "Google Cloud"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 749,
+    "category": "Creator Economy, Social Media & Digital Growth",
+    "bonus": []
+  },
+  {
+    "name": "AI Pricing & Monetization Manager",
+    "benchmark": "ServiceNow AI Monetization (Pricing & Packaging) + AI pricing strategy / platform monetization market signals (current Sep 2026) Current bar: balance customer value, willingness to pay, AI adoption, usage/outcome pricing, token/inference cost, margin, spend controls, migration, experimentation and portfolio governance.",
+    "capstone": "Create an AI monetization blueprint for a model/API/agent product: define customer segments and value pools; estimate token/inference cost-to-serve; compare seat, usage, outcome and hybrid pricing; design packages, quotas/credits and enterprise spend controls; model gross margin and price realization; run elasticity/adoption experiments; define migration, discounts and pricing-committee governance; deliver an executive recommendation.",
+    "rubric": "Defend the value metric with customer evidence; quantify inference economics and margin sensitivity; compare pricing-model tradeoffs; protect adoption without permanently underpricing value; design credible experiments; make commitments/credits/spend controls operable; model migration and discount risk; and align Product, Finance, Sales, RevOps and Engineering on one monetization system.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Connect AI customer value to an economically viable value metric",
+        "competencies": [
+          {
+            "title": "AI value pools, willingness-to-pay + value metric",
+            "coverage": "AI Use Cases / WTP / Value Metrics / Segmentation",
+            "videos": [
+              {
+                "title": "Use Case Discovery & System Scoping",
+                "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Willingness to Pay",
+                "url": "https://www.youtube.com/watch?v=cdQzCVUJybY",
+                "channel": "Pricing for B2B SaaS"
+              }
+            ]
+          },
+          {
+            "title": "Token / inference cost-to-serve + gross-margin baseline",
+            "coverage": "AI Economics / FinOps / Cost per Token / Margin",
+            "videos": [
+              {
+                "title": "Token Economics",
+                "url": "https://www.youtube.com/watch?v=W4g8xvduIbs",
+                "channel": "FinOps X 2026"
+              },
+              {
+                "title": "Maximize Cost Effectiveness of GenAI Workloads",
+                "url": "https://www.youtube.com/watch?v=4Tt4Wx5lHKs",
+                "channel": "AWS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Design pricing and packaging that adapts to AI usage and outcomes",
+        "competencies": [
+          {
+            "title": "Usage, outcome, seat + hybrid pricing architecture",
+            "coverage": "Usage Pricing / Outcome Pricing / Entitlements / Packaging",
+            "videos": [
+              {
+                "title": "Usage-Based Pricing Deep Dive",
+                "url": "https://www.youtube.com/watch?v=_9FQaNjObS0",
+                "channel": "SaaS Talks"
+              },
+              {
+                "title": "AWS Partner Network",
+                "url": "https://www.youtube.com/watch?v=G6uV9i8l5z8",
+                "channel": "SaaS Pricing and Packaging"
+              }
+            ]
+          },
+          {
+            "title": "AI price experimentation, elasticity + adoption tradeoffs",
+            "coverage": "Experimentation / Elasticity / Adoption / Price Realization",
+            "videos": [
+              {
+                "title": "Elasticity",
+                "url": "https://ocw.mit.edu/courses/14-01sc-principles-of-microeconomics-fall-2011/pages/unit-1-supply-and-demand/elasticity/",
+                "channel": "MIT OpenCourseWare"
+              },
+              {
+                "title": "AI Experimentation: Quality, Cost + Latency",
+                "url": "https://www.youtube.com/watch?v=LzMiAXDkLwY",
+                "channel": "Statsig"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Run portfolio monetization and pricing governance for AI products",
+        "competencies": [
+          {
+            "title": "Portfolio migration, credits/commitments + customer controls",
+            "coverage": "Portfolio Monetization / Spend Controls / Migration / Contracts",
+            "videos": [
+              {
+                "title": "Introduction to FOCUS",
+                "url": "https://www.youtube.com/watch?v=dnU3ZedDys4",
+                "channel": "FinOps Foundation"
+              },
+              {
+                "title": "HubSpot",
+                "url": "https://www.youtube.com/watch?v=k204wIknczU",
+                "channel": "RevOps: Science of Revenue Growth"
+              }
+            ]
+          },
+          {
+            "title": "Pricing governance, GTM + executive value narrative",
+            "coverage": "Pricing Committee / CFO-CRO-CPO Alignment / GTM",
+            "videos": [
+              {
+                "title": "Go-to-Market Strategy",
+                "url": "https://www.youtube.com/watch?v=yDLErwgajOQ",
+                "channel": "Product School"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 750,
+    "category": "AI Product, Strategy & Enterprise Transformation",
     "bonus": []
   }
 ]
