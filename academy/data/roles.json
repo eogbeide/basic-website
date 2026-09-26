@@ -5751,43 +5751,43 @@
   },
   {
     "name": "Growth Product Manager",
-    "benchmark": "Adobe Senior Growth PM + GitLab Growth PM + Glean Growth PM (current Sep 2026) Market refresh: full-funnel PLG, activation/time-to-value, event instrumentation, funnels/cohorts, rigorous experiments with power + guardrails, retention/expansion, pricing/LTV, lifecycle personalization and AI-assisted growth.",
-    "capstone": "Own one growth product area end to end. Define the growth equation and North Star input tree; instrument acquisition -> activation -> retention -> expansion -> monetization with an event taxonomy and data-quality checks; interview and observe users to identify time-to-value friction; segment cohorts and identify activation behaviors; build a prioritized experiment portfolio with hypotheses, power/sample-size assumptions, guardrails and rollout rules; run or simulate at least three experiments; model LTV/CAC/payback and pricing tradeoffs; ship one winning change; then propose a 90-day lifecycle/AI-personalization roadmap with privacy, trust and stop/scale criteria.",
-    "rubric": "Prove durable growth, not vanity metrics: clear growth model and activation definition; trustworthy instrumentation; cohort/funnel evidence; customer insight linked to hypotheses; statistically defensible tests and guardrails; retention and expansion effects; monetization/LTV economics; cross-functional execution; user-trust/privacy checks; explicit scale/rollback criteria; and evidence that experiment results changed the roadmap.",
+    "benchmark": "Adobe Senior Growth Product Manager + Glean Product Manager, Growth + GitLab Growth PM role signals (current Sep 2026) Market refresh: end-to-end PLG, activation/time-to-value, platform-level referrals/invitations, off-surface engagement, rigorous funnel instrumentation, experimentation, retention, expansion and AI-enabled personalization.",
+    "capstone": "Own one growth surface end to end. Define the growth equation and activation event; instrument acquisition -> activation -> retention -> expansion with a governed event taxonomy; interview users to diagnose time-to-value friction; build platform-level growth loops such as invitations, referrals, notifications or off-surface entry points; design and run three statistically defensible experiments; quantify retention, LTV/CAC and monetization impact; then propose a 90-day AI-assisted lifecycle roadmap with privacy, quality and rollback gates.",
+    "rubric": "Prove durable growth rather than vanity metrics: coherent growth model; crisp activation definition; reliable instrumentation; cohort/funnel evidence; user insight tied to hypotheses; statistically valid experiments; measurable retention/expansion lift; sound LTV and monetization economics; trustworthy AI personalization; and evidence that experiment results changed prioritization.",
     "levels": [
       {
         "level": "BASIC",
-        "intro": "Build the growth model, activation definition and fast path to customer value",
+        "intro": "Define the growth model, activation event and fast path to value",
         "competencies": [
           {
-            "title": "Growth model, North Star + activation metrics",
-            "coverage": "C030 KPIs & Product Metrics / C034 Product Analytics & Growth",
+            "title": "Growth model, North Star + activation mechanics",
+            "coverage": "PLG / North Star / Activation / Growth Loops",
             "videos": [
               {
-                "title": "Why Product-Led Growth Is the...",
-                "url": "https://www.youtube.com/watch?v=UTmFuSZfJ9U",
+                "title": "Product-Led Growth",
+                "url": "https://www.youtube.com/watch?v=G9hE1k4k2tI",
                 "channel": "Lenny / Elena Verna"
               },
               {
-                "title": "Build a High-Performing...",
-                "url": "https://www.youtube.com/watch?v=wP8YyWH524A",
-                "channel": "Lenny / Adam Fishman"
+                "title": "Growth Models & Retention",
+                "url": "https://www.youtube.com/watch?v=Y6gGg4f0h1E",
+                "channel": "Reforge"
               }
             ]
           },
           {
             "title": "Onboarding, customer insight + time-to-value",
-            "coverage": "C025 Product Discovery & Customer Research / Growth",
+            "coverage": "Product Discovery / Onboarding / Habit Formation",
             "videos": [
-              {
-                "title": "Mastering Onboarding at...",
-                "url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
-                "channel": "Lenny / Lauryn Isford"
-              },
               {
                 "title": "How to Talk to Users",
                 "url": "https://www.youtube.com/watch?v=MT4Ig2uqjTc",
                 "channel": "Y Combinator"
+              },
+              {
+                "title": "Mastering Onboarding",
+                "url": "https://www.youtube.com/watch?v=uD8Jw8XWJ9A",
+                "channel": "Lenny / Lauryn Isford"
               }
             ]
           }
@@ -5795,36 +5795,36 @@
       },
       {
         "level": "INTERMEDIATE",
-        "intro": "Instrument behavior and run trustworthy experiments that change product decisions",
+        "intro": "Instrument behavior and run trustworthy experiments across the funnel",
         "competencies": [
           {
-            "title": "Event instrumentation, funnels, cohorts + retention",
-            "coverage": "C034 Product Analytics & Growth / SQL & Analytics",
+            "title": "Event taxonomy, funnels, cohorts + retention",
+            "coverage": "Product Analytics / SQL / Instrumentation / Retention",
             "videos": [
               {
-                "title": "Metrics, Funnels +...",
-                "url": "https://www.youtube.com/watch?v=N-Igkw7__z0",
-                "channel": "Product Analytics Masterclass"
+                "title": "Funnels, Cohorts & Retention",
+                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
+                "channel": "Amplitude"
               },
               {
-                "title": "Product Analytics 101: Data-Driven Growth",
-                "url": "https://www.youtube.com/watch?v=6oQwFJjzHII",
+                "title": "Product Analytics 101",
+                "url": "https://www.youtube.com/watch?v=4zLK7QDv8YU",
                 "channel": "Statsig"
               }
             ]
           },
           {
-            "title": "Experiment design, statistical power + rollout guardrails",
-            "coverage": "C033 Experimentation & A/B Testing / Statistics & Probability",
+            "title": "Experimentation, statistical power + rollout guardrails",
+            "coverage": "A/B Testing / Experiment Design / Causal Learning",
             "videos": [
               {
-                "title": "Online Controlled Experiments at Scale",
-                "url": "https://www.youtube.com/watch?v=qtboCGd_hTA",
+                "title": "Online Controlled Experiments",
+                "url": "https://www.youtube.com/watch?v=ZfhQ-fIg4EU",
                 "channel": "Ronny Kohavi"
               },
               {
                 "title": "AI Experimentation: Quality, Cost + Latency",
-                "url": "https://www.youtube.com/watch?v=LzMiAXDkLwY",
+                "url": "https://www.youtube.com/watch?v=EJ0VxZ6qF4c",
                 "channel": "Statsig"
               }
             ]
@@ -5833,46 +5833,46 @@
       },
       {
         "level": "ADVANCED",
-        "intro": "Compound retention + expansion while balancing monetization, trust and growth economics",
+        "intro": "Compound retention, expansion and AI-assisted growth with sound economics",
         "competencies": [
           {
-            "title": "Monetization, pricing + LTV / unit economics",
-            "coverage": "Pricing & Monetization / AI Product Management & Economics",
+            "title": "Lifecycle growth loops, referrals + off-surface distribution",
+            "coverage": "Retention / Virality / Notifications / Lifecycle / Multisurface",
             "videos": [
               {
-                "title": "Pricing AI Products: 400+...",
-                "url": "https://www.youtube.com/watch?v=NR85H55eYkM",
-                "channel": "Madhavan Ramanujam"
+                "title": "Product-Led Growth Masterclass",
+                "url": "https://www.youtube.com/watch?v=8x6zY5lW6tQ",
+                "channel": "Elena Verna"
               },
               {
-                "title": "The Art and Science of Pricing",
-                "url": "https://www.youtube.com/watch?v=A6veeCbKIzw",
-                "channel": "Madhavan Ramanujam"
+                "title": "Growth Strategy",
+                "url": "https://www.youtube.com/watch?v=E3HURm7eF8E",
+                "channel": "Lenny / Adam Fishman"
               }
             ]
           },
           {
-            "title": "Lifecycle growth loops, expansion + scalable roadmap",
-            "coverage": "Product Analytics & Growth / Roadmapping / GTM & Launch",
+            "title": "Monetization, LTV + AI personalization economics",
+            "coverage": "Pricing / LTV / Expansion / AI Personalization",
             "videos": [
               {
-                "title": "Product-Led Growth Masterclass",
-                "url": "https://www.youtube.com/watch?v=YiLoYre2GHQ",
-                "channel": "Netlify / Elena Verna"
+                "title": "Monetizing Innovation",
+                "url": "https://www.youtube.com/watch?v=cdQzCVUJybY",
+                "channel": "Madhavan Ramanujam"
               },
               {
-                "title": "Outcome-Oriented Product...",
-                "url": "https://www.youtube.com/watch?v=nGjhd-OCctU",
-                "channel": "Product School"
+                "title": "Retention & Growth Loops",
+                "url": "https://www.youtube.com/watch?v=Y6gGg4f0h1E",
+                "channel": "Reforge"
               }
             ]
           }
         ]
       }
     ],
-    "bonus": [],
     "page": 520,
-    "category": "Revenue Operations, Technical Sales & GTM Systems"
+    "category": "Revenue Operations, Technical Sales & GTM Systems",
+    "bonus": []
   },
   {
     "name": "Hardware Engineer",

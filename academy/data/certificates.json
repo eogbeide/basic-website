@@ -3611,5 +3611,175 @@
     "evidence_standard": "Traceability from clinical question to data and artifact; interoperable and semantically clear data model; reproducible analysis; honest causal/predictive boundaries; calibration and subgroup performance; privacy/security and governance; human workflow fit; deployment/evaluation plan; and evidence that the system would improve a measurable healthcare or research outcome.",
     "page": 722,
     "category": "Health & Life Sciences"
+  },
+  {
+    "name": "Comprehensive Certificate in Optical Engineering",
+    "description": "A rigorous engineering pathway from geometric and wave optics to optical design, detectors, metrology, tolerancing and system verification.",
+    "university_benchmark": "MIT 2.71 Optics | MIT 2.717J Optical Engineering | University of Arizona Wyant College OPTI 502 / 506",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Geometrical optics, reflection/refraction, ray tracing and first-order imaging"
+          },
+          {
+            "title": "Lenses, mirrors, apertures/stops plus radiometry, detectors and optical SNR"
+          },
+          {
+            "title": "Wave foundations: Maxwell, polarization, phase and coherence"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Aberrations, optical design and first-order system optimization"
+          },
+          {
+            "title": "Interference, Fresnel/Fraunhofer diffraction and Fourier optics"
+          },
+          {
+            "title": "Lasers, fibers and photonics plus optical metrology, alignment and calibration"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "MTF/OTF, resolution, coherent vs incoherent imaging and image quality"
+          },
+          {
+            "title": "Optomechanics, tolerancing, thermal/mechanical sensitivity and stray light"
+          },
+          {
+            "title": "Computational imaging and inverse design plus requirements, verification and safety"
+          }
+        ]
+      }
+    ],
+    "resource_links": [
+      {
+        "competency": "Lecture 1: Introduction to Optics",
+        "coverage": "MIT 2.71 Optics",
+        "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-1-course-organization-introduction-to-optics/"
+      },
+      {
+        "competency": "Lecture 3: Focusing, Imaging & Paraxial Approximation",
+        "coverage": "MIT 2.71",
+        "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-3-focusing-imaging-and-the-paraxial-approximation/"
+      },
+      {
+        "competency": "Lecture 8: Telescopes & Aberrations",
+        "coverage": "MIT 2.71",
+        "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-8-telescopes-aberrations-chromatic-spherical-and-coma/"
+      },
+      {
+        "competency": "Lecture 15: Interferometers & Fresnel Diffraction",
+        "coverage": "MIT 2.71",
+        "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-15-huygens-principle-interferometers-fresnel-diffraction/"
+      },
+      {
+        "competency": "Lecture 17: Fraunhofer Diffraction & Fourier Optics",
+        "coverage": "MIT 2.71",
+        "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-17-fraunhofer-diffraction-fourier-transforms-and-theorems/"
+      },
+      {
+        "competency": "Lecture 22: Coherent & Incoherent Imaging",
+        "coverage": "MIT 2.71",
+        "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-22-coherent-and-incoherent-imaging/"
+      }
+    ],
+    "capstone": "Design and validate an imaging or sensing system from requirements to test: create first-order ray model, aberration and MTF budget, detector/radiometry model, diffraction limit, tolerance/alignment plan, optomechanical concept, simulated performance and a verification report tied to measurable image-quality or sensing requirements. Produce a design-review package: requirements, ray and wave models, component choices, tolerance stack, detector model, alignment procedure, image-quality/MTF evidence, risk register, prototype or simulation results, and a verification matrix explaining what passed, what failed and what you would redesign.",
+    "evidence_standard": "Ray trace an imaging chain and defend focal length, F/#, field, stops and sensor choices; model interference, diffraction and spatial-frequency transfer for the same system; build aberration, alignment and sensitivity budgets with explicit compensators; quantify photon budget, detector noise, dynamic range and SNR; and define MTF/resolution tests, alignment checks and pass/fail criteria.",
+    "page": 751,
+    "category": "Engineering & Manufacturing"
+  },
+  {
+    "name": "Comprehensive Certificate in Instrumentation Engineering",
+    "description": "A hands-on measurement-systems curriculum spanning sensors, transducers, signal conditioning, DAQ, uncertainty, industrial instrumentation and intelligent sensing.",
+    "university_benchmark": "MIT 2.671 Measurement & Instrumentation | MIT 2.132 / 2.133 MICA Projects | IIT Guwahati NPTEL Measurement & Instrumentation | MIT MAS.836 Sensor Technologies",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Measurement architecture, SI standards, accuracy/precision, error and uncertainty"
+          },
+          {
+            "title": "Sensors/transducers for force, strain, temperature, pressure, flow and motion"
+          },
+          {
+            "title": "Bridges, op-amps, signal conditioning, grounding/shielding and bench instruments"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Sampling, anti-aliasing, ADC/DAC, DAQ and digital records"
+          },
+          {
+            "title": "Calibration, traceability, uncertainty propagation and experimental statistics"
+          },
+          {
+            "title": "Dynamic response, Fourier/transfer functions plus industrial measurement chains"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "MEMS/microsensors, sensor fusion and intelligent instrumentation"
+          },
+          {
+            "title": "Process instrumentation, control loops, PLC/SCADA integration and alarms"
+          },
+          {
+            "title": "Reliability, diagnostics, condition monitoring plus automated test and analytics"
+          }
+        ]
+      }
+    ],
+    "resource_links": [
+      {
+        "competency": "Measurement & Instrumentation (12-week course)",
+        "coverage": "NPTEL / IIT Guwahati",
+        "url": "https://nptel.ac.in/courses/108103862"
+      },
+      {
+        "competency": "Measurement & Instrumentation Intro",
+        "coverage": "NPTEL IIT Guwahati",
+        "url": "https://www.youtube.com/watch?v=o8mDm7-K1uk"
+      },
+      {
+        "competency": "Instrumentation & Measurement tutorial video collection",
+        "coverage": "MIT 20.309",
+        "url": "https://ocw.mit.edu/courses/20-309-biological-engineering-ii-instrumentation-and-measurement-fall-2006/video_galleries/tools/"
+      },
+      {
+        "competency": "Tutorial 2: Force Spectroscopy (18 min)",
+        "coverage": "MIT 20.309",
+        "url": "https://ocw.mit.edu/courses/20-309-biological-engineering-ii-instrumentation-and-measurement-fall-2006/resources/tutorial-2/"
+      },
+      {
+        "competency": "Labs: electronics, DAQ, AFM & optical instrumentation",
+        "coverage": "MIT 20.309",
+        "url": "https://www.ocw.mit.edu/courses/20-309-biological-engineering-ii-instrumentation-and-measurement-fall-2006/pages/labs/"
+      },
+      {
+        "competency": "Sensor Technologies for Interactive Environments",
+        "coverage": "MIT Media Lab",
+        "url": "https://ocw.mit.edu/courses/mas-836-sensor-technologies-for-interactive-environments-spring-2011/"
+      }
+    ],
+    "capstone": "Build and validate a multi-sensor measurement system: choose sensors and transducers, design conditioning and shielding, implement synchronized DAQ, calibrate against references, propagate uncertainty, characterize bandwidth/noise, create alarms or a control interface, and publish a reproducible test report with raw data, metadata and traceable acceptance criteria. Deliver a complete instrumentation design dossier: measurement requirements, sensor trade study, schematics, calibration plan, DAQ configuration, uncertainty budget, frequency/noise characterization, fault/diagnostic tests, time-series dataset, dashboards or control interface, safety considerations and a technical report that another engineer could reproduce.",
+    "evidence_standard": "Select sensors for multiple physical variables and justify range, bandwidth, loading and environment; design bridge/op-amp/filter chains, grounding and shielding with measured noise evidence; configure sampling, anti-aliasing, ADC range and calibration while propagating uncertainty; measure transfer function, bandwidth, drift, hysteresis and repeatability; and create monitoring/control interfaces, alarms, metadata and diagnostic evidence.",
+    "page": 753,
+    "category": "Engineering & Manufacturing"
   }
 ]
