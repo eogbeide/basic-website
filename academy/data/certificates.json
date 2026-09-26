@@ -3461,5 +3461,155 @@
     "evidence_standard": "Safe prioritization; assessment completeness; pathophysiology and medication reasoning; communication; infection/safety controls; person-centered education; evidence quality; informatics/documentation discipline; teamwork and escalation; quality-improvement logic; ethical boundaries and explicit non-licensure limits.",
     "page": 718,
     "category": "Health & Life Sciences"
+  },
+  {
+    "name": "Comprehensive Certificate in Public Health & Epidemiology",
+    "description": "A university- and agency-benchmarked certificate spanning population health, epidemiologic study design, biostatistics, surveillance, outbreak investigation, health equity, environmental/occupational health, causal inference and evidence-to-policy translation.",
+    "university_benchmark": "Harvard Epidemiology & Biostatistics | Johns Hopkins Bloomberg School | CDC Field Epidemiology Manual",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Public health systems, prevention, determinants of health + health equity"
+          },
+          {
+            "title": "Incidence/prevalence, risk/rate/odds, bias/confounding + study design"
+          },
+          {
+            "title": "Biostatistics, uncertainty, effect measures + reproducible R/Python workflows"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Disease surveillance, case definitions, epi curves, time-place-person"
+          },
+          {
+            "title": "Outbreak investigation, lab collaboration, environmental/occupational/global health"
+          },
+          {
+            "title": "Program evaluation, screening, diagnostic performance + evidence appraisal"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "Causal inference, quasi-experiments + real-world observational evidence"
+          },
+          {
+            "title": "Spatial/temporal analytics, dashboards + risk communication"
+          },
+          {
+            "title": "Intervention design, implementation science, policy analysis + equity impact"
+          }
+        ]
+      }
+    ],
+    "resource_links": [
+      {
+        "competency": "Public Health learning resources / MOOCs",
+        "coverage": "Johns Hopkins",
+        "url": "https://publichealth.jhu.edu/learning-resources"
+      },
+      {
+        "competency": "Field Epidemiology Manual chapters",
+        "coverage": "CDC",
+        "url": "https://www.cdc.gov/field-epi-manual/php/chapters/index.html"
+      },
+      {
+        "competency": "Introduction to Epidemiology & Biostatistics",
+        "coverage": "Harvard",
+        "url": "https://coursebrowser.dce.harvard.edu/course/introduction-to-epidemiology-and-biostatistics/"
+      },
+      {
+        "competency": "Conducting a Field Investigation",
+        "coverage": "CDC",
+        "url": "https://www.cdc.gov/field-epi-manual/php/chapters/field-investigation.html"
+      }
+    ],
+    "capstone": "01: Define a population-health question, causal model and measurable outcome; write a brief protocol with target population and bias/confounding plan. 02: Acquire or simulate a de-identified dataset; create a reproducible R/Python analysis with descriptive epidemiology, effect estimates, uncertainty and sensitivity checks. 03: Construct a surveillance/outbreak scenario with case definition, line list, epidemic curve, hypothesis generation and a control-measure decision. 04: Evaluate one intervention or policy using an appropriate experimental, quasi-experimental or observational design; explicitly discuss equity and unintended effects. 05: Publish a dashboard or evidence figure set plus an executive/public-health brief that separates evidence, assumptions, uncertainty and recommendations.",
+    "evidence_standard": "A defensible epidemiologic question; correct study design and measures; reproducible data lineage; explicit bias/confounding analysis; sensible causal claims; credible outbreak/surveillance logic; equity and ethics; clear risk communication; and a decision-ready intervention/policy recommendation with limitations.",
+    "page": 720,
+    "category": "Health & Life Sciences"
+  },
+  {
+    "name": "Comprehensive Certificate in Health Informatics & Biomedical Data Science",
+    "description": "A graduate-program-benchmarked certificate spanning clinical data/EHR systems, biomedical knowledge representation, FHIR/interoperability, analytics, machine learning, multimodal data, causal evidence, AI evaluation, fairness, reproducibility and deployment into healthcare workflows.",
+    "university_benchmark": "Stanford Biomedical Data Science | Harvard Biomedical Informatics | Stanford BMDS 202",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Healthcare data sources, EHR workflow, coding systems, provenance + data quality"
+          },
+          {
+            "title": "Knowledge representation, ontologies, terminology + FHIR/interoperability"
+          },
+          {
+            "title": "Python/R/SQL, statistics, cohort definition + reproducible biomedical analysis"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Clinical phenotyping, NLP, imaging, omics + multimodal data integration"
+          },
+          {
+            "title": "Predictive modeling, calibration, evaluation + causal/observational study design"
+          },
+          {
+            "title": "Privacy/security, bias/fairness, governance + responsible clinical data use"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "AI in healthcare: robustness, monitoring, human factors + workflow integration"
+          },
+          {
+            "title": "Clinical decision support, implementation, prospective evaluation + value realization"
+          },
+          {
+            "title": "Research methodology, reproducibility, scientific communication + software capstone"
+          }
+        ]
+      }
+    ],
+    "resource_links": [
+      {
+        "competency": "Overview of Biomedical Data Science",
+        "coverage": "Stanford BMDS 202",
+        "url": "https://bulletin.stanford.edu/courses/2247592"
+      },
+      {
+        "competency": "Modeling Biomedical Systems / FHIR",
+        "coverage": "Stanford BMDS 210",
+        "url": "https://bulletin.stanford.edu/courses/1272171"
+      },
+      {
+        "competency": "Data Science for Medicine",
+        "coverage": "Stanford BMDS 215",
+        "url": "https://bulletin.stanford.edu/courses/2122201"
+      },
+      {
+        "competency": "Current course portfolio",
+        "coverage": "Harvard DBMI",
+        "url": "https://dbmi.hms.harvard.edu/education/courses"
+      }
+    ],
+    "capstone": "01: Frame a real clinical or biomedical question and define the target use, users, decision point, data modalities, risks and non-goals. 02: Create a de-identified/synthetic clinical dataset or use an approved public dataset; document provenance, schema, missingness, terminology and quality checks. 03: Build a computable representation using SQL plus a terminology/ontology/FHIR element where appropriate; create an analysis-ready cohort or feature pipeline. 04: Develop and evaluate an analytical/ML component with appropriate baselines, calibration/uncertainty, subgroup/fairness analysis and reproducible code. 05: Prototype workflow integration or decision support; define human oversight, privacy/security controls, prospective evaluation, monitoring and rollback. 06: Deliver repository/notebook, data dictionary, model/analysis card, architecture/FHIR map, evaluation report and executive/clinical presentation.",
+    "evidence_standard": "Traceability from clinical question to data and artifact; interoperable and semantically clear data model; reproducible analysis; honest causal/predictive boundaries; calibration and subgroup performance; privacy/security and governance; human workflow fit; deployment/evaluation plan; and evidence that the system would improve a measurable healthcare or research outcome.",
+    "page": 722,
+    "category": "Health & Life Sciences"
   }
 ]

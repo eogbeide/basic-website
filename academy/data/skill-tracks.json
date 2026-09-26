@@ -1359,5 +1359,1236 @@
     "practiceBody": "Build a functional GCP agentic system with ADK that uses grounded context, calls a remote or custom MCP toolset, composes at least two specialized agents or one remote A2A agent, authenticates through IAM, passes trajectory/task evaluations, emits operational telemetry and is deployed to a cloud runtime with rollback and runbook evidence.",
     "rubricHeading": "Proof Rubric",
     "rubric": "Working ADK architecture; correct session/state behavior; MCP tool discovery; registry/A2A composition; IAM correctness; least privilege; useful evals; diagnosable traces; reliable failure handling; deployability; latency/token/cost evidence; secure secret handling; production readiness and a clear architecture decision record."
+  },
+  {
+    "name": "Transformers & Large Language Models Certificate",
+    "category": "Standalone Mastery Certificate",
+    "tagline": "Standalone Mastery Certificate S01",
+    "intro": "A complete nine-lecture Stanford Online sequence that progresses from transformer mechanics through training/tuning/reasoning, agentic LLMs, evaluation and current trends. Ideal as a focused LLM study sprint.",
+    "benchmark": "Stanford CME 295 - Transformers & Large Language Models, Autumn 2025 -- This is a Zuyini Academy Standalone Mastery Certificate built around Stanford CME 295 public materials. Do not represent it as a Stanford-issued credential. Stanford CME 295 has a newer 2026 offering; the complete public 2025 sequence remains the current finished video spine.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Learning Sequence",
+        "items": [
+          {
+            "title": "01 — Transformers - tokenization, embeddings, attention, architecture",
+            "video": {
+              "title": "Transformers - tokenization, embeddings, attention, architecture",
+              "url": "https://www.youtube.com/watch?v=Ub3GoFaUcds",
+              "channel": ""
+            }
+          },
+          {
+            "title": "02 — Transformer-based models & tricks - RoPE, MHA/MQA/GQA, BERT",
+            "video": {
+              "title": "Transformer-based models & tricks - RoPE, MHA/MQA/GQA, BERT",
+              "url": "https://www.youtube.com/watch?v=yT84Y5zCnaA",
+              "channel": ""
+            }
+          },
+          {
+            "title": "03 — Large Language Models - architecture, MoE, sampling, prompting",
+            "video": {
+              "title": "Large Language Models - architecture, MoE, sampling, prompting",
+              "url": "https://www.youtube.com/watch?v=Q5baLehv5So",
+              "channel": ""
+            }
+          },
+          {
+            "title": "04 — LLM Training - pretraining, quantization, hardware, SFT/LoRA",
+            "video": {
+              "title": "LLM Training - pretraining, quantization, hardware, SFT/LoRA",
+              "url": "https://www.youtube.com/watch?v=VlA_jt_3Qc4",
+              "channel": ""
+            }
+          },
+          {
+            "title": "05 — LLM Tuning - preferences, reward models, RLHF/PPO, DPO",
+            "video": {
+              "title": "LLM Tuning - preferences, reward models, RLHF/PPO, DPO",
+              "url": "https://www.youtube.com/watch?v=PmW_TMQ3l0I",
+              "channel": ""
+            }
+          },
+          {
+            "title": "06 — LLM Reasoning - reasoning models, RL, GRPO, scaling",
+            "video": {
+              "title": "LLM Reasoning - reasoning models, RL, GRPO, scaling",
+              "url": "https://www.youtube.com/watch?v=k5Fh-UgTuCo",
+              "channel": ""
+            }
+          },
+          {
+            "title": "07 — Agentic LLMs - RAG, function calling, agents, ReAct",
+            "video": {
+              "title": "Agentic LLMs - RAG, function calling, agents, ReAct",
+              "url": "https://www.youtube.com/watch?v=h-7S6HNq0Vg",
+              "channel": ""
+            }
+          },
+          {
+            "title": "08 — LLM Evaluation - judges, best practices, biases and pitfalls",
+            "video": {
+              "title": "LLM Evaluation - judges, best practices, biases and pitfalls",
+              "url": "https://www.youtube.com/watch?v=8fNP4N46RRo",
+              "channel": ""
+            }
+          },
+          {
+            "title": "09 — Recap & Current Trends - synthesis and emerging directions",
+            "video": {
+              "title": "Recap & Current Trends - synthesis and emerging directions",
+              "url": "https://www.youtube.com/watch?v=Q86qzJ1K1Ss",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Official Links",
+        "items": [
+          {
+            "title": "Stanford CME 295 - 2025 syllabus + slides + all 9 videos",
+            "video": {
+              "title": "Stanford CME 295 - 2025 syllabus + slides + all 9 videos",
+              "url": "https://cme295.stanford.edu/syllabus/2025/",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Stanford Online - full 2025 YouTube playlist",
+            "video": {
+              "title": "Stanford Online - full 2025 YouTube playlist",
+              "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rOCXd21gf0CF4xr35yINeOy",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Stanford CME 295 - current 2026 syllabus / refresh watchlist",
+            "video": {
+              "title": "Stanford CME 295 - current 2026 syllabus / refresh watchlist",
+              "url": "https://cme295.stanford.edu/syllabus/",
+              "channel": ""
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Proof / Capstone",
+    "practiceBody": "Build a compact LLM system and evidence pack: implement or inspect a transformer component; compare prompting vs retrieval vs tuning; add one agent/tool workflow; create an evaluation set; measure quality/latency/cost; and write a short architecture memo connecting the nine lectures to the system decisions.",
+    "rubricHeading": null,
+    "rubric": null,
+    "page": 725
+  },
+  {
+    "name": "Natural Language Processing with Deep Learning Certificate",
+    "category": "Standalone Mastery Certificate",
+    "tagline": "Standalone Mastery Certificate S02",
+    "intro": "Stanford CS224N combines neural NLP foundations with transformers and modern LLM topics, programming assignments and a final project. The current 2026 course points the public to its complete free 2024 video playlist.",
+    "benchmark": "Stanford CS224N - Natural Language Processing with Deep Learning -- Zuyini certificate path using Stanford public resources. Stanford separately offers XCS224N through its professional program with a Stanford certificate for paying/enrolled learners.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "grid",
+        "heading": "Learning Sequence",
+        "items": [
+          {
+            "title": "01",
+            "body": "Word vectors, neural foundations and dependency parsing"
+          },
+          {
+            "title": "02",
+            "body": "Language models, RNNs/attention and sequence modeling"
+          },
+          {
+            "title": "03",
+            "body": "Self-attention, Transformers and pretrained models"
+          },
+          {
+            "title": "04",
+            "body": "NLP/LLM training, adaptation and evaluation"
+          },
+          {
+            "title": "05",
+            "body": "Advanced NLP/LLM research topics and final project"
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Official Links",
+        "items": [
+          {
+            "title": "Current Stanford CS224N course site (Winter 2026)",
+            "video": {
+              "title": "Current Stanford CS224N course site (Winter 2026)",
+              "url": "https://web.stanford.edu/class/cs224n/",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Stanford CS224N public 2024 YouTube playlist",
+            "video": {
+              "title": "Stanford CS224N public 2024 YouTube playlist",
+              "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rOaMFbaqxPDoLWjDaRAdP9D",
+              "channel": ""
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Proof / Capstone",
+    "practiceBody": "Reproduce selected public assignments or equivalent notebooks, then build one NLP/LLM application with a documented dataset, baseline, model/LLM approach, evaluation and error analysis. Include a concise final-project style report.",
+    "rubricHeading": null,
+    "rubric": null,
+    "page": 726
+  },
+  {
+    "name": "Deep Learning Certificate",
+    "category": "Standalone Mastery Certificate",
+    "tagline": "Standalone Mastery Certificate S03",
+    "intro": "MIT 6.S191 is a high-intensity open program with lectures, slides and software labs spanning neural networks, sequence models, computer vision, generative modeling, reinforcement learning, AI safety/frontiers and large-scale training.",
+    "benchmark": "MIT 6.S191 - Introduction to Deep Learning (2026) -- Zuyini certificate path using MIT open materials. MIT offers the course for credit to registered MIT learners; the publicly open materials do not themselves constitute an MIT credential.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "grid",
+        "heading": "Learning Sequence",
+        "items": [
+          {
+            "title": "01",
+            "body": "Intro to Deep Learning"
+          },
+          {
+            "title": "02",
+            "body": "Deep Sequence Modeling"
+          },
+          {
+            "title": "03",
+            "body": "Software Lab: deep learning in Python / sequence generation"
+          },
+          {
+            "title": "04",
+            "body": "Deep Computer Vision"
+          },
+          {
+            "title": "05",
+            "body": "Deep Generative Modeling"
+          },
+          {
+            "title": "06",
+            "body": "Software Lab: applied vision"
+          },
+          {
+            "title": "07",
+            "body": "Deep Reinforcement Learning"
+          },
+          {
+            "title": "08",
+            "body": "New Frontiers + AI safety themes"
+          },
+          {
+            "title": "09",
+            "body": "LLM fine-tuning lab"
+          },
+          {
+            "title": "10",
+            "body": "AI for Science + massively parallel training"
+          },
+          {
+            "title": "11",
+            "body": "Final project proposal / presentation"
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Official Links",
+        "items": [
+          {
+            "title": "MIT 6.S191 official open course site",
+            "video": {
+              "title": "MIT 6.S191 official open course site",
+              "url": "https://introtodeeplearning.com/",
+              "channel": ""
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Proof / Capstone",
+    "practiceBody": "Complete the public labs, then train/evaluate a deep model for a real task. Provide code, experiment tracking, baseline comparison, failure analysis and a project proposal/presentation in the spirit of the MIT course.",
+    "rubricHeading": null,
+    "rubric": null,
+    "page": 727
+  },
+  {
+    "name": "Artificial Intelligence with Python Certificate",
+    "category": "Standalone Mastery Certificate",
+    "tagline": "Standalone Mastery Certificate S04",
+    "intro": "A project-driven Harvard OpenCourseWare sequence covering search, knowledge, uncertainty, optimization, machine learning, neural networks and language.",
+    "benchmark": "Harvard CS50 AI - Introduction to Artificial Intelligence with Python -- Source certificate available: CS50 states that learners who achieve at least 70% on every required project are eligible for a free CS50 Certificate; a paid verified edX certificate is also available.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "grid",
+        "heading": "Learning Sequence",
+        "items": [
+          {
+            "title": "01",
+            "body": "Search - graph/heuristic/adversarial search"
+          },
+          {
+            "title": "02",
+            "body": "Knowledge - logic, inference and representation"
+          },
+          {
+            "title": "03",
+            "body": "Uncertainty - probability, Bayes and Markov models"
+          },
+          {
+            "title": "04",
+            "body": "Optimization - local search and constraint satisfaction"
+          },
+          {
+            "title": "05",
+            "body": "Learning - classification, regression, clustering and RL"
+          },
+          {
+            "title": "06",
+            "body": "Neural Networks - feed-forward, CNNs and RNNs"
+          },
+          {
+            "title": "07",
+            "body": "Language - n-grams, embeddings, transformers + projects"
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Official Links",
+        "items": [
+          {
+            "title": "Harvard CS50 AI OpenCourseWare",
+            "video": {
+              "title": "Harvard CS50 AI OpenCourseWare",
+              "url": "https://cs50.harvard.edu/ai/",
+              "channel": ""
+            }
+          },
+          {
+            "title": "CS50 AI free certificate requirements",
+            "video": {
+              "title": "CS50 AI free certificate requirements",
+              "url": "https://cs50.harvard.edu/ai/certificate/",
+              "channel": ""
+            }
+          },
+          {
+            "title": "CS50 AI projects",
+            "video": {
+              "title": "CS50 AI projects",
+              "url": "https://cs50.harvard.edu/ai/projects/",
+              "channel": ""
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Proof / Capstone",
+    "practiceBody": "Complete all public projects (or verified equivalents if access changes), preserve source/code/results, and add a final reflection mapping each AI paradigm to when you would or would not use it in a production system.",
+    "rubricHeading": null,
+    "rubric": null,
+    "page": 728
+  },
+  {
+    "name": "Programming with Python Certificate",
+    "category": "Standalone Mastery Certificate",
+    "tagline": "Standalone Mastery Certificate S05",
+    "intro": "A ten-week Harvard OpenCourseWare program from functions and control flow through testing, files, regular expressions, object-oriented programming and a final project.",
+    "benchmark": "Harvard CS50P - Introduction to Programming with Python -- Source certificate available: CS50 offers a free certificate after required problems and final project meet the stated threshold; verified edX options are also available.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "grid",
+        "heading": "Learning Sequence",
+        "items": [
+          {
+            "title": "01",
+            "body": "Functions & variables"
+          },
+          {
+            "title": "02",
+            "body": "Conditionals"
+          },
+          {
+            "title": "03",
+            "body": "Loops"
+          },
+          {
+            "title": "04",
+            "body": "Exceptions"
+          },
+          {
+            "title": "05",
+            "body": "Libraries"
+          },
+          {
+            "title": "06",
+            "body": "Unit tests"
+          },
+          {
+            "title": "07",
+            "body": "File I/O"
+          },
+          {
+            "title": "08",
+            "body": "Regular expressions"
+          },
+          {
+            "title": "09",
+            "body": "Object-oriented programming"
+          },
+          {
+            "title": "10",
+            "body": "Et Cetera"
+          },
+          {
+            "title": "11",
+            "body": "Final project"
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Official Links",
+        "items": [
+          {
+            "title": "Harvard CS50P OpenCourseWare",
+            "video": {
+              "title": "Harvard CS50P OpenCourseWare",
+              "url": "https://cs50.harvard.edu/python/",
+              "channel": ""
+            }
+          },
+          {
+            "title": "CS50P free certificate requirements",
+            "video": {
+              "title": "CS50P free certificate requirements",
+              "url": "https://cs50.harvard.edu/python/certificate/",
+              "channel": ""
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Proof / Capstone",
+    "practiceBody": "Complete the problem sets and final project; publish clean Python code with tests, documentation, error handling and a short design note explaining tradeoffs and lessons learned.",
+    "rubricHeading": null,
+    "rubric": null,
+    "page": 729
+  },
+  {
+    "name": "Computer Science Certificate",
+    "category": "Standalone Mastery Certificate",
+    "tagline": "Standalone Mastery Certificate S06",
+    "intro": "Harvard CS50x develops computational thinking from Scratch/C through algorithms, memory, data structures, Python, SQL, web technologies, Flask and a final project.",
+    "benchmark": "Harvard CS50x - Introduction to Computer Science (2026) -- Source certificate available through CS50/edX pathways. The Zuyini layer adds a portfolio-focused completion rubric but does not replace Harvard/CS50 requirements.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "grid",
+        "heading": "Learning Sequence",
+        "items": [
+          {
+            "title": "01",
+            "body": "Scratch / computational thinking"
+          },
+          {
+            "title": "02",
+            "body": "C and arrays"
+          },
+          {
+            "title": "03",
+            "body": "Algorithms"
+          },
+          {
+            "title": "04",
+            "body": "Memory"
+          },
+          {
+            "title": "05",
+            "body": "Data structures"
+          },
+          {
+            "title": "06",
+            "body": "Python"
+          },
+          {
+            "title": "07",
+            "body": "SQL"
+          },
+          {
+            "title": "08",
+            "body": "Artificial Intelligence module"
+          },
+          {
+            "title": "09",
+            "body": "HTML/CSS/JavaScript"
+          },
+          {
+            "title": "10",
+            "body": "Flask / web applications"
+          },
+          {
+            "title": "11",
+            "body": "Final project"
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Official Links",
+        "items": [
+          {
+            "title": "Harvard CS50x 2026 OpenCourseWare",
+            "video": {
+              "title": "Harvard CS50x 2026 OpenCourseWare",
+              "url": "https://cs50.harvard.edu/x/",
+              "channel": ""
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Proof / Capstone",
+    "practiceBody": "Complete the required problem sets and final project. Produce a portfolio readme explaining algorithms/data structures, data model, testing, security considerations and how the final application evolved through debugging.",
+    "rubricHeading": null,
+    "rubric": null,
+    "page": 730
+  },
+  {
+    "name": "Cybersecurity Certificate",
+    "category": "Standalone Mastery Certificate",
+    "tagline": "Standalone Mastery Certificate S07",
+    "intro": "A five-week Harvard OpenCourseWare program for technical and non-technical learners covering accounts, data, systems, software, privacy, real-world tradeoffs and a final project.",
+    "benchmark": "Harvard CS50 - Introduction to Cybersecurity -- Source certificate available through CS50/edX pathways. Use the source certificate when earned; the Zuyini certificate adds the hands-on evidence standard below.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "grid",
+        "heading": "Learning Sequence",
+        "items": [
+          {
+            "title": "01",
+            "body": "Securing Accounts"
+          },
+          {
+            "title": "02",
+            "body": "Securing Data"
+          },
+          {
+            "title": "03",
+            "body": "Securing Systems"
+          },
+          {
+            "title": "04",
+            "body": "Securing Software"
+          },
+          {
+            "title": "05",
+            "body": "Preserving Privacy"
+          },
+          {
+            "title": "06",
+            "body": "Final project"
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Official Links",
+        "items": [
+          {
+            "title": "Harvard CS50 Cybersecurity OpenCourseWare",
+            "video": {
+              "title": "Harvard CS50 Cybersecurity OpenCourseWare",
+              "url": "https://cs50.harvard.edu/cybersecurity/",
+              "channel": ""
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Proof / Capstone",
+    "practiceBody": "Complete the assignments and final project, then add a threat model, risk register, one defensive implementation/test and a concise incident-response or security-review memo showing practical application.",
+    "rubricHeading": null,
+    "rubric": null,
+    "page": 731
+  },
+  {
+    "name": "Databases with SQL Certificate",
+    "category": "Standalone Mastery Certificate",
+    "tagline": "Standalone Mastery Certificate S08",
+    "intro": "A seven-week Harvard OpenCourseWare course covering querying, relationships, schema design, writes, views, optimization, scaling and a final project across SQLite with introductions to PostgreSQL/MySQL.",
+    "benchmark": "Harvard CS50 SQL - Introduction to Databases with SQL -- Source certificate available through CS50/edX pathways. The Zuyini completion layer emphasizes an inspectable database design and performance proof.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "grid",
+        "heading": "Learning Sequence",
+        "items": [
+          {
+            "title": "01",
+            "body": "Querying"
+          },
+          {
+            "title": "02",
+            "body": "Relating"
+          },
+          {
+            "title": "03",
+            "body": "Designing"
+          },
+          {
+            "title": "04",
+            "body": "Writing"
+          },
+          {
+            "title": "05",
+            "body": "Viewing"
+          },
+          {
+            "title": "06",
+            "body": "Optimizing"
+          },
+          {
+            "title": "07",
+            "body": "Scaling"
+          },
+          {
+            "title": "08",
+            "body": "Final project"
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Official Links",
+        "items": [
+          {
+            "title": "Harvard CS50 SQL OpenCourseWare",
+            "video": {
+              "title": "Harvard CS50 SQL OpenCourseWare",
+              "url": "https://cs50.harvard.edu/sql/",
+              "channel": ""
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Proof / Capstone",
+    "practiceBody": "Build a database-backed application or analytical dataset with normalized schema, constraints, indexes, representative queries, performance evidence, backup/migration considerations and a final design rationale.",
+    "rubricHeading": null,
+    "rubric": null,
+    "page": 732
+  },
+  {
+    "name": "Neural Networks: Zero to Hero Certificate",
+    "category": "Standalone Mastery Certificate",
+    "tagline": "Standalone Mastery Certificate S09",
+    "intro": "A renowned-expert, code-first sequence that starts with backpropagation from scratch and builds through language modeling, MLPs, activation/gradient diagnostics, manual backprop, WaveNet-like networks, GPT and tokenization.",
+    "benchmark": "Andrej Karpathy - Neural Networks: Zero to Hero -- Zuyini certificate only; this expert-created public course does not issue an institutional credential. Its strength is depth, code, notebooks and exercises.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "grid",
+        "heading": "Learning Sequence",
+        "items": [
+          {
+            "title": "01",
+            "body": "Build micrograd - scalar autograd + backprop"
+          },
+          {
+            "title": "02",
+            "body": "Build makemore - bigram language model"
+          },
+          {
+            "title": "03",
+            "body": "MLP language model + training/evaluation"
+          },
+          {
+            "title": "04",
+            "body": "Activations, gradients + BatchNorm"
+          },
+          {
+            "title": "05",
+            "body": "Manual tensor backprop - become a backprop ninja"
+          },
+          {
+            "title": "06",
+            "body": "Deeper hierarchical/WaveNet-style language model"
+          },
+          {
+            "title": "07",
+            "body": "Build GPT from scratch"
+          },
+          {
+            "title": "08",
+            "body": "Build a GPT tokenizer / BPE from scratch"
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Official Links",
+        "items": [
+          {
+            "title": "Karpathy - Zero to Hero official course page",
+            "video": {
+              "title": "Karpathy - Zero to Hero official course page",
+              "url": "https://karpathy.ai/zero-to-hero.html",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Karpathy - official notebooks/repository",
+            "video": {
+              "title": "Karpathy - official notebooks/repository",
+              "url": "https://github.com/karpathy/nn-zero-to-hero",
+              "channel": ""
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Proof / Capstone",
+    "practiceBody": "Rebuild the code yourself rather than only watching. Deliver micrograd + a character language model + a small GPT/tokenizer implementation, with notebooks, experiments, debugging notes and an explanation of gradient flow/training dynamics in your own words.",
+    "rubricHeading": null,
+    "rubric": null,
+    "page": 733
+  },
+  {
+    "name": "Agent Mastery — OpenAI",
+    "category": "Agent Mastery",
+    "tagline": "Build from model/tool primitives into managed durable agents: choose the right runtime boundary, connect MCP/tools and skills, orchestrate specialists, harden execution and prove the system with traces/evals.",
+    "intro": "Learn the shared agent architecture once, then build it independently across Claude, Microsoft Copilot, Google Cloud/GCP, OpenAI and AWS — from tools/MCP and identity to evaluation, security, deployment and a cross-platform production portfolio.",
+    "benchmark": "Official OpenAI Agents API / Agents SDK documentation (current Sep 2026)",
+    "ladder": [
+      {
+        "label": "FOUNDATIONS",
+        "title": "Choose the Agent Runtime",
+        "body": "Agents API: managed Codex harness, durable sessions and OpenAI-managed orchestration; Responses API: own the loop while using model/tool primitives; Agents SDK / Codex SDK: code-first orchestration when you operate the runtime."
+      },
+      {
+        "label": "INTERMEDIATE",
+        "title": "Tools + State + Orchestration",
+        "body": "Function tools, hosted tools, remote MCP servers, tool search and reusable skills; sessions/conversations, context management, sandboxes and artifact-producing execution; agents-as-tools, handoffs/subagents, human-in-the-loop approvals and structured outputs."
+      },
+      {
+        "label": "ADVANCED",
+        "title": "Evaluate + Operate",
+        "body": "Guardrails, sandbox boundaries, least privilege and safe consequential actions; tracing, eval suites, regression gates, latency/cost and failure diagnosis; durable sessions, recovery/rollback, production deployment and adoption evidence."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Official Learning / Build Resources",
+        "items": [
+          {
+            "title": "Agents overview / runtime choices",
+            "video": {
+              "title": "Agents overview / runtime choices",
+              "url": "https://developers.openai.com/api/docs/guides/agents",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Agents API overview",
+            "video": {
+              "title": "Agents API overview",
+              "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Agents API quickstart",
+            "video": {
+              "title": "Agents API quickstart",
+              "url": "https://developers.openai.com/api/docs/guides/agents-api/quickstart",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Using tools + MCP",
+            "video": {
+              "title": "Using tools + MCP",
+              "url": "https://developers.openai.com/api/docs/guides/tools",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Agents SDK guide",
+            "video": {
+              "title": "Agents SDK guide",
+              "url": "https://developers.openai.com/api/docs/guides/agents/sdk",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Hands-On Build Lab — Build Sequence",
+        "items": [
+          {
+            "title": "01 – Agent choice",
+            "body": "Create one working agent with a clearly bounded job, typed inputs/outputs and an explicit runtime choice (Agents API, Responses loop, or SDK) with rationale."
+          },
+          {
+            "title": "02 – Ground + tools",
+            "body": "Add grounded context and at least two tools; connect one remote MCP server or build a local/remote MCP tool integration."
+          },
+          {
+            "title": "03 – State + artifacts",
+            "body": "Add durable state/session behavior and one sandbox/file/code workflow where the agent produces or modifies an artifact."
+          },
+          {
+            "title": "04 – Orchestration",
+            "body": "Add a manager/specialist pattern using subagents, agents-as-tools or handoffs; keep authorization checks outside model judgment."
+          },
+          {
+            "title": "05 – Guardrails",
+            "body": "Implement input/output/tool guardrails plus human approval before one consequential write action; test prompt-injection and malformed-tool inputs."
+          },
+          {
+            "title": "06 – Evaluate + trace",
+            "body": "Create a representative eval set, capture traces, diagnose at least three failures, and demonstrate measurable improvement without hiding regressions."
+          },
+          {
+            "title": "07 – Deploy",
+            "body": "Deploy/stage the agent; document SLOs, cost/latency, rollback, incident handling, cleanup and a user/business success metric."
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Reference Links",
+        "items": [
+          {
+            "title": "Agents API quickstart",
+            "video": {
+              "title": "Agents API quickstart",
+              "url": "https://developers.openai.com/api/docs/guides/agents-api/quickstart",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Agents SDK - tracing",
+            "video": {
+              "title": "Agents SDK - tracing",
+              "url": "https://openai.github.io/openai-agents-python/tracing/",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Agents SDK - guardrails",
+            "video": {
+              "title": "Agents SDK - guardrails",
+              "url": "https://openai.github.io/openai-agents-python/guardrails/",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Agents SDK - handoffs",
+            "video": {
+              "title": "Agents SDK - handoffs",
+              "url": "https://openai.github.io/openai-agents-python/handoffs/",
+              "channel": ""
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": null,
+    "practiceBody": null,
+    "rubricHeading": "Pass / Proof Rubric",
+    "rubric": "Working behavior, not a scripted demo: correct tool use; robust state; safe action boundaries; useful orchestration; reproducible evals; trace-based debugging; prompt-injection/tool abuse resistance; recovery from partial failure; quantified quality/latency/cost; and a runbook another engineer can operate."
+  },
+  {
+    "name": "Agent Mastery — AWS / Bedrock AgentCore",
+    "category": "Agent Mastery",
+    "tagline": "Build cloud-native agents with Bedrock and AgentCore: host agents/tools, expose governed MCP/A2A capabilities through Gateway, give agents workload identity and memory, evaluate behavior and operate safely at scale.",
+    "intro": "Learn the shared agent architecture once, then build it independently across Claude, Microsoft Copilot, Google Cloud/GCP, OpenAI and AWS — from tools/MCP and identity to evaluation, security, deployment and a cross-platform production portfolio.",
+    "benchmark": "Official AWS Bedrock AgentCore documentation (current Sep 2026)",
+    "ladder": [
+      {
+        "label": "FOUNDATIONS",
+        "title": "Bedrock + Runtime",
+        "body": "Bedrock model/tool fundamentals and framework-agnostic agent design; AgentCore Runtime: secure serverless hosting, sessions and isolated execution; memory fundamentals and state boundaries for short- and long-term agent context."
+      },
+      {
+        "label": "INTERMEDIATE",
+        "title": "Gateway + MCP + Identity",
+        "body": "AgentCore Gateway as governed MCP/HTTP/inference entry point and tool registry; deploy stateless/stateful MCP servers; tools, resources, prompts, sampling and elicitation; AgentCore Identity workload identities, inbound/outbound auth, IAM/OAuth and delegated access."
+      },
+      {
+        "label": "ADVANCED",
+        "title": "Evaluate + Operate",
+        "body": "AgentCore Evaluations, observability, policy controls and production tracing; MCP/A2A interoperability, multi-agent routing and governed cross-service access; security, resource policies, failure recovery, cost/scaling and operational runbooks."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Official Learning / Build Resources",
+        "items": [
+          {
+            "title": "AgentCore Runtime",
+            "video": {
+              "title": "AgentCore Runtime",
+              "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agents-tools-runtime.html",
+              "channel": ""
+            }
+          },
+          {
+            "title": "AgentCore Gateway core concepts",
+            "video": {
+              "title": "AgentCore Gateway core concepts",
+              "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway-core-concepts.html",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Deploy MCP servers in AgentCore Runtime",
+            "video": {
+              "title": "Deploy MCP servers in AgentCore Runtime",
+              "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-mcp.html",
+              "channel": ""
+            }
+          },
+          {
+            "title": "AgentCore Identity",
+            "video": {
+              "title": "AgentCore Identity",
+              "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/identity.html",
+              "channel": ""
+            }
+          },
+          {
+            "title": "AgentCore development interfaces + evaluations",
+            "video": {
+              "title": "AgentCore development interfaces + evaluations",
+              "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/develop-agents.html",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Hands-On Build Lab — Build Sequence",
+        "items": [
+          {
+            "title": "01 – Small agent",
+            "body": "Implement a small agent using Bedrock or another supported model/framework; define the user task, data boundaries and success metric."
+          },
+          {
+            "title": "02 – Runtime deploy",
+            "body": "Deploy it to AgentCore Runtime and prove session isolation plus failure/restart behavior."
+          },
+          {
+            "title": "03 – MCP server",
+            "body": "Build or adapt an MCP server with at least two tools and one resource; run locally, deploy to Runtime and expose through AgentCore Gateway."
+          },
+          {
+            "title": "04 – Identity",
+            "body": "Configure inbound authorization and outbound tool authorization; use AgentCore Identity/workload identity rather than embedding long-lived credentials."
+          },
+          {
+            "title": "05 – Memory",
+            "body": "Add Memory only where it improves the task; document retention, user scoping, privacy and deletion behavior."
+          },
+          {
+            "title": "06 – Evaluate",
+            "body": "Create evaluation cases and operational telemetry; test tool failures, permission denial, prompt injection and partial dependency outages."
+          },
+          {
+            "title": "07 – Staged release",
+            "body": "Run a staged release with policy/guardrails, SLOs, cost observations, rollback and a concise architecture/security review."
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Reference Links",
+        "items": [
+          {
+            "title": "AgentCore Runtime",
+            "video": {
+              "title": "AgentCore Runtime",
+              "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agents-tools-runtime.html",
+              "channel": ""
+            }
+          },
+          {
+            "title": "AgentCore Gateway - using MCP",
+            "video": {
+              "title": "AgentCore Gateway - using MCP",
+              "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway-using.html",
+              "channel": ""
+            }
+          },
+          {
+            "title": "AgentCore Identity",
+            "video": {
+              "title": "AgentCore Identity",
+              "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/identity.html",
+              "channel": ""
+            }
+          },
+          {
+            "title": "AgentCore MCP server deployment",
+            "video": {
+              "title": "AgentCore MCP server deployment",
+              "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-mcp.html",
+              "channel": ""
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": null,
+    "practiceBody": null,
+    "rubricHeading": "Pass / Proof Rubric",
+    "rubric": "Demonstrate a secure, observable cloud agent: Runtime deployment; governed Gateway; working MCP discovery/invocation; agent/user identity binding; no exposed secrets; appropriate memory; eval evidence; traceable failures; policy enforcement; recovery/rollback; and measurable task success with cost/reliability tradeoffs."
+  },
+  {
+    "name": "Agent Protocols & Interoperability Mastery",
+    "category": "Agent Mastery",
+    "tagline": "Learn the protocol concepts once, then map them into Claude, Copilot, Google, OpenAI and AWS implementations so agents can discover tools, exchange context, authenticate users and collaborate across vendor boundaries.",
+    "intro": "Part of Agent Mastery 2.0's shared production layer: protocols & interoperability → evaluation/reliability/security → cross-platform portfolio capstone.",
+    "benchmark": "Model Context Protocol specification + Google Agent2Agent (A2A) protocol (current Sep 2026)",
+    "ladder": [
+      {
+        "label": "MCP",
+        "title": "Client / Server Contract — Discover + Invoke + Exchange",
+        "body": "Lifecycle and capability negotiation; tools, resources and prompts; transport/session behavior. Sampling and elicitation; progress/notifications; schemas, versioning and error handling. OAuth / authorization, user consent, secret handling and least-privilege tool scopes."
+      },
+      {
+        "label": "A2A",
+        "title": "Multi-Agent Interop — Agent ↔ Agent",
+        "body": "Agent cards/capability discovery, task delegation, status and artifact exchange. When to use MCP for tools/context vs A2A for peer-agent collaboration. Cross-vendor routing, protocol gateways, registries and portability boundaries."
+      },
+      {
+        "label": "IDENTITY",
+        "title": "Governed Actions — Trust Boundaries",
+        "body": "Agent workload identity, user-to-agent delegation, OAuth/IAM/Entra patterns and audit trails. Read-only vs write tools, approval steps, irreversible actions, rate limits and policy enforcement. Threat model prompt injection, confused-deputy, excessive agency and credential leakage."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Official References",
+        "items": [
+          {
+            "title": "Model Context Protocol - specification",
+            "video": {
+              "title": "Model Context Protocol - specification",
+              "url": "https://modelcontextprotocol.io/specification/",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Google - Agent2Agent (A2A) protocol introduction",
+            "video": {
+              "title": "Google - Agent2Agent (A2A) protocol introduction",
+              "url": "https://developers.googleblog.com/a2a-a-new-era-of-agent-interoperability/",
+              "channel": ""
+            }
+          },
+          {
+            "title": "AWS AgentCore Gateway - MCP / HTTP / inference targets",
+            "video": {
+              "title": "AWS AgentCore Gateway - MCP / HTTP / inference targets",
+              "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway-core-concepts.html",
+              "channel": ""
+            }
+          },
+          {
+            "title": "OpenAI - tools and remote MCP servers",
+            "video": {
+              "title": "OpenAI - tools and remote MCP servers",
+              "url": "https://developers.openai.com/api/docs/guides/tools",
+              "channel": ""
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Proof",
+    "practiceBody": "Expose one real system through an MCP server with at least one resource and two tools; connect two different agent runtimes; add identity/authorization; then demonstrate a cross-agent handoff or A2A task exchange with a traceable audit log.",
+    "rubricHeading": null,
+    "rubric": null
+  },
+  {
+    "name": "Agent Evaluation, Reliability & Security Lab",
+    "category": "Agent Mastery",
+    "tagline": "Turn agent demos into production systems with explicit task suites, regression gates, traces, SLOs, abuse tests, tool authorization, human approval and incident recovery.",
+    "intro": "Part of Agent Mastery 2.0's shared production layer: protocols & interoperability → evaluation/reliability/security → cross-platform portfolio capstone.",
+    "benchmark": "OpenAI Agents SDK + AWS AgentCore production-controls documentation (current Sep 2026)",
+    "ladder": [
+      {
+        "label": "EVALUATION",
+        "title": "Prove Task Quality",
+        "body": "Golden task sets, realistic user simulations, success criteria and failure taxonomies. Tool-use correctness, groundedness, LLM-as-judge calibration and human review samples. Regression gates across prompt/model/tool changes and adversarial test cases."
+      },
+      {
+        "label": "RELIABILITY",
+        "title": "Operate Under Failure",
+        "body": "End-to-end traces, tool spans, handoffs, state transitions, latency/cost and token accounting. Timeout/retry/idempotency, partial failure, fallback, recovery, SLOs and incident drills. Long-running sessions, state cleanup, deployment rollback and change control."
+      },
+      {
+        "label": "SECURITY",
+        "title": "Limit Agent Authority",
+        "body": "Prompt-injection tests, sandboxing, data boundaries, tool input/output validation and secrets. Least privilege, approval gates for consequential actions, policy checks and auditability. Threat-model MCP servers, external content, cross-agent delegation and supply-chain dependencies."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Reference Resources",
+        "items": [
+          {
+            "title": "OpenAI Agents SDK - tracing",
+            "video": {
+              "title": "OpenAI Agents SDK - tracing",
+              "url": "https://openai.github.io/openai-agents-python/tracing/",
+              "channel": ""
+            }
+          },
+          {
+            "title": "OpenAI Agents SDK - guardrails",
+            "video": {
+              "title": "OpenAI Agents SDK - guardrails",
+              "url": "https://openai.github.io/openai-agents-python/guardrails/",
+              "channel": ""
+            }
+          },
+          {
+            "title": "AWS AgentCore - Runtime / Gateway / Identity production controls",
+            "video": {
+              "title": "AWS AgentCore - Runtime / Gateway / Identity production controls",
+              "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agents-tools-runtime.html",
+              "channel": ""
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Minimum Production Gate",
+    "practiceBody": "Pass a representative eval suite; meet latency/cost/error SLOs; block unsafe or unauthorized actions; detect a simulated compromise; recover from tool/model failure; preserve trace/audit evidence; and show that failures changed the design before release.",
+    "rubricHeading": null,
+    "rubric": null
+  },
+  {
+    "name": "Agent Mastery — Cross-Platform Portfolio Capstone",
+    "category": "Agent Mastery",
+    "tagline": "Build the same consequential workflow independently in Claude, Microsoft Copilot, Google Cloud/GCP, OpenAI and AWS; then compare the systems with one evidence-backed architecture and operating review.",
+    "intro": "The final proof for Agent Mastery 2.0: one workflow, five vendor implementations, one side-by-side decision review.",
+    "benchmark": "Cross-platform requirement across Claude, Microsoft Copilot, Google Cloud/GCP, OpenAI and AWS (current Sep 2026)",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "grid",
+        "heading": "Common Workflow Requirements",
+        "items": [
+          {
+            "title": "Every implementation must include",
+            "body": "Grounded enterprise knowledge + at least one MCP server + two external tools + a consequential write action + explicit identity/permission boundaries + human approval + eval set + traces + error handling + deployment/runbook evidence."
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Five Implementations",
+        "items": [
+          {
+            "title": "01 – Claude / Anthropic",
+            "body": "Build → test → trace → secure → deploy → document tradeoffs."
+          },
+          {
+            "title": "02 – Microsoft Copilot",
+            "body": "Build → test → trace → secure → deploy → document tradeoffs."
+          },
+          {
+            "title": "03 – Google Cloud / GCP",
+            "body": "Build → test → trace → secure → deploy → document tradeoffs."
+          },
+          {
+            "title": "04 – OpenAI",
+            "body": "Build → test → trace → secure → deploy → document tradeoffs."
+          },
+          {
+            "title": "05 – AWS / Bedrock AgentCore",
+            "body": "Build → test → trace → secure → deploy → document tradeoffs."
+          }
+        ]
+      },
+      {
+        "type": "grid",
+        "heading": "Side-by-Side Decision Matrix",
+        "items": [
+          {
+            "title": "01",
+            "body": "Agent/runtime abstraction"
+          },
+          {
+            "title": "02",
+            "body": "MCP implementation + portability"
+          },
+          {
+            "title": "03",
+            "body": "Identity / delegated authorization"
+          },
+          {
+            "title": "04",
+            "body": "Memory / state model"
+          },
+          {
+            "title": "05",
+            "body": "Multi-agent orchestration"
+          },
+          {
+            "title": "06",
+            "body": "Eval + observability depth"
+          },
+          {
+            "title": "07",
+            "body": "Security / sandboxing"
+          },
+          {
+            "title": "08",
+            "body": "Latency + cost + operational burden"
+          },
+          {
+            "title": "09",
+            "body": "Deployment + scaling"
+          },
+          {
+            "title": "10",
+            "body": "Best-fit workload and lock-in tradeoffs"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Final Defense",
+    "practiceBody": "Deliver a 10-minute architecture review plus repository/demo bundle. Defend why each vendor implementation differs, where protocols actually improve portability, which security controls are non-negotiable, what the evals exposed, and which platform you would select for the target workload — with evidence rather than brand preference.",
+    "rubricHeading": null,
+    "rubric": null
   }
 ]
