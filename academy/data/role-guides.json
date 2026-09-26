@@ -524,5 +524,311 @@
         "a": "Increasingly important. Excel remains central for modeling, but current postings expect analysts to query and reconcile source data directly rather than depend entirely on someone else's extract — “I can't do that without a data team” is a limiting answer in more interviews than it used to be."
       }
     ]
+  },
+  {
+    "role": "Engineering Manager",
+    "overview": [
+      "The hardest part of becoming an Engineering Manager isn't learning something new — it's giving up the thing you're already good at. Google's and Amazon's current EM postings describe a job that looks, on paper, like a natural next step for a strong senior engineer: own a team, set a technical roadmap, review architecture. In practice, it's a different job with a different success metric. You stop being measured by what you personally ship and start being measured by what your team ships, whether they're growing, and whether the org trusts your judgment when things go wrong.",
+      "That shift trips up more people than any technical gap. A new EM's first instinct under pressure is often to grab the keyboard — to fix the bug themselves because it's faster than coaching someone else through it. That instinct, run for too long, produces a team that never develops the skills to solve the next version of the same problem, and a manager who's secretly still doing an IC's job with a manager's title and none of the actual leverage. The core skill is delegation that actually develops people, not delegation that's really just deferred rework.",
+      "The technical bar hasn't disappeared, though — current EM roles still expect real architecture and code-review judgment, and increasingly, fluency with AI-native engineering workflows well enough to guide a team through them, not just approve budget for tools. The mastery path treats people leadership and technical leadership as equally real skills, culminating in a capstone that requires setting a team charter, a technical roadmap, and the operational systems (priorities, quality, reliability) that make both work together."
+    ],
+    "tools": [
+      "1:1 and feedback frameworks that develop people, not just track status",
+      "Technical roadmapping tied to product strategy",
+      "Architecture and code-review judgment (still expected, even without daily coding)",
+      "Performance management and calibration processes",
+      "Incident/quality operating rhythms (postmortems, reliability reviews)",
+      "AI-native engineering workflow literacy — enough to guide adoption, not just permit it"
+    ],
+    "interviewQuestions": [
+      "Tell me about a time you had to give critical feedback to someone who wasn't ready to hear it.",
+      "How do you decide when to let an engineer struggle with a problem versus stepping in?",
+      "Walk me through how you'd rebuild trust with a team after a missed deadline that was partly your fault.",
+      "How do you balance a strong individual performer who's a poor team fit against team health?",
+      "Describe how you'd set a technical roadmap when the product strategy above you keeps changing.",
+      "How do you evaluate whether your team should adopt an AI-assisted engineering workflow, and how would you roll it out?"
+    ],
+    "readinessSignals": [
+      "You've coached someone through a problem you could have solved faster yourself, and it paid off later.",
+      "You can describe a hard feedback conversation you actually had, not just one you'd hypothetically give.",
+      "You've made a call on technical direction that a strong engineer disagreed with, and can defend the reasoning.",
+      "You think in terms of team outcomes and leverage, not personal output, when describing your own success."
+    ],
+    "faqs": [
+      {
+        "q": "Do I need to stay technical, or does the coding stop mattering?",
+        "a": "It stops being your day job, but it doesn't stop mattering. Current EM roles still expect real architecture and code-review judgment — enough to make good calls and earn credibility with your team — even though you're not shipping features yourself day to day."
+      },
+      {
+        "q": "How do I know if I actually want to manage, versus just want the title?",
+        "a": "A useful test: notice whether you get more satisfaction from solving a hard technical problem yourself, or from watching someone you coached solve it without you. If it's consistently the former, staying an IC (including a senior/staff track) may be the better fit — and that's a legitimate, valuable career path, not a consolation prize."
+      },
+      {
+        "q": "What's the biggest mistake new EMs make?",
+        "a": "Continuing to be the best individual contributor on the team instead of becoming a multiplier for the team. It shows up as micromanaging technical decisions, taking back delegated work under pressure, and measuring your own week by what you personally built rather than what your team accomplished."
+      }
+    ]
+  },
+  {
+    "role": "Solution Architect",
+    "overview": [
+      "A Solutions Architect gets pulled into the room when a business decision (“we're migrating off our data center,” “we need to modernize this legacy system,” “we want to add agentic AI to this product”) needs to become a real, defensible technical plan — one that survives contact with security review, cost constraints, and the team that actually has to build it. AWS's Solutions Architect – Migration/Modernization postings describe exactly that arc: current-state assessment, a target architecture with explicit tradeoffs, and a migration plan that doesn't just describe the destination but the path there.",
+      "What separates this from a purely technical role is the audience split. You're writing architecture decision records (ADRs) and trade studies that other architects and engineers need to trust, and in the same week presenting the cost and risk implications of those same decisions to people who don't care about the technical details — only whether it works, what it costs, and what could go wrong. Losing either audience is a real failure mode: too abstract and engineering ignores you, too hand-wavy and leadership won't fund it.",
+      "The other current shift, reflected in this path's ADR/trade-study emphasis: architecture decisions increasingly need to account for where agentic AI fits, not as a bolt-on, but as a first-class part of the target state — which changes assumptions about data access patterns, integration points, and what “done” looks like for a modernization effort."
+    ],
+    "tools": [
+      "A major cloud platform's architecture patterns and well-architected frameworks",
+      "Architecture decision records (ADRs) and trade-study methodology",
+      "Infrastructure as code for proof-of-concept validation",
+      "API and event-driven integration design",
+      "Cost modeling and migration/modernization planning"
+    ],
+    "interviewQuestions": [
+      "Walk me through a current-state assessment you'd run before proposing a target architecture.",
+      "How do you present a technical tradeoff to a non-technical executive without oversimplifying it into a lie?",
+      "Describe an architecture decision you'd document in an ADR, including the alternatives you rejected and why.",
+      "How do you validate a target architecture before committing an organization to a multi-month migration?",
+      "A stakeholder wants a mainframe rewritten in six months. How do you handle that expectation?",
+      "How would you incorporate agentic AI into a legacy modernization target architecture, rather than bolting it on afterward?"
+    ],
+    "readinessSignals": [
+      "You've written an ADR or trade study that changed a real technical decision, not just documented one after the fact.",
+      "You can present the same architecture decision to an engineer and an executive and have both come away satisfied.",
+      "You've validated an architecture with a working proof-of-concept before committing to it at scale.",
+      "You can explain a migration plan's sequencing — what moves first and why — not just its final destination."
+    ],
+    "faqs": [
+      {
+        "q": "Solutions Architect vs. Enterprise Architect — what's the difference?",
+        "a": "Solutions Architects typically own the target architecture and migration plan for a specific initiative or system. Enterprise Architects usually operate at a broader, cross-system level, setting standards and strategy across an entire organization's technology portfolio. Many people move from Solutions to Enterprise Architect over a career."
+      },
+      {
+        "q": "Do I need deep hands-on coding skill, or is design-level knowledge enough?",
+        "a": "You need enough hands-on skill to validate your own designs — building a proof-of-concept, understanding real constraints — even if you're not writing production code daily. Purely theoretical architecture without hands-on grounding tends to produce designs that don't survive contact with implementation."
+      },
+      {
+        "q": "Which cloud certification actually matters for this role?",
+        "a": "Certifications can help get past an initial resume screen, but interviews for this level almost always probe real design judgment — tradeoffs, failure modes, cost reasoning — that a certification alone doesn't demonstrate. Treat certification as a supplement to real project experience, not a substitute for it."
+      }
+    ]
+  },
+  {
+    "role": "Ethical Hacker / Penetration Tester",
+    "overview": [
+      "Penetration testing has a public image problem: portrayed as glamorous hacking, the actual job — reflected in Google Cloud/Mandiant Offensive Security Consultant postings — is disciplined, scoped, and paperwork-heavy in ways that surprise people who came in through CTFs and hacking tutorials. Before you touch a single system, you're writing rules of engagement: what's in scope, what's explicitly off-limits, what the stop conditions are if something goes wrong. Skip that step and you're not a penetration tester, you're someone committing unauthorized access.",
+      "The technical breadth expected is wide: network, web application, API, mobile, cloud and wireless assessment, plus social engineering, because real attackers don't respect the boundary between “technical” and “human” vulnerabilities. What makes someone job-ready isn't knowing every tool — tools change constantly — it's methodology: a repeatable process for reconnaissance, exploitation, and privilege escalation that produces evidence, not just a story about what you found.",
+      "The other half of the job that tutorials rarely emphasize: reporting. A vulnerability nobody can reproduce or prioritize from your writeup didn't help the client, no matter how clever the exploit was. Current enterprise red-team practice expects clear identity/privilege-focused findings, a defensible risk rating, and remediation guidance specific enough that an engineering team can actually act on it — which is exactly what this path's capstone (an authorized, scoped engagement inside a lab environment, end to end) is built to test."
+    ],
+    "tools": [
+      "Reconnaissance and scanning tools (network and web application)",
+      "Exploitation frameworks and manual exploitation technique",
+      "Cloud security assessment tooling",
+      "Scripting (Python or similar) for custom tooling",
+      "Identity and privilege-escalation assessment methodology",
+      "Report writing: findings, risk rating and remediation guidance"
+    ],
+    "interviewQuestions": [
+      "Walk me through how you'd scope an engagement and write rules of engagement before testing begins.",
+      "Describe your methodology for privilege escalation once you've gained initial access to a system.",
+      "How do you rate the severity of a finding in a way a non-technical client can act on?",
+      "Tell me about a time a test didn't go as planned. What was your stop-condition process?",
+      "How do you keep your skills current given how fast vulnerability classes and defenses change?",
+      "How would you test for social-engineering vulnerabilities responsibly, without crossing into deception the client didn't authorize?"
+    ],
+    "readinessSignals": [
+      "You've run an authorized test (lab, CTF, or real engagement) start to finish, including the paperwork, not just the exploit.",
+      "You can write a finding severe enough to matter but specific enough that engineering knows exactly what to fix.",
+      "You understand why rules of engagement and stop conditions exist, not just what they say.",
+      "You have real methodology for at least two of network, web, API, mobile, cloud or wireless testing, not just familiarity with tool names."
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a certification like OSCP to get hired?",
+        "a": "It can help you get past an initial screen and demonstrates hands-on skill more credibly than most certifications, but employers ultimately care about demonstrated methodology and judgment — a documented lab engagement or CTF history showing real process matters alongside or instead of a certification."
+      },
+      {
+        "q": "Is this legal? How is it different from criminal hacking?",
+        "a": "Authorization is the entire difference. Legitimate penetration testing happens under a signed contract with explicit scope, rules of engagement, and client consent. Testing systems without that authorization — even with good intentions — is illegal in most jurisdictions and is not what this career path teaches or condones."
+      },
+      {
+        "q": "What's the biggest gap between hobbyist hacking and professional pentesting?",
+        "a": "Process and communication. Hobbyists often stop at “I found a way in.” Professionals scope the engagement properly, document reproducible evidence, rate severity defensibly, and write remediation guidance a client's engineering team can actually execute — the exploit is maybe a third of the job."
+      }
+    ]
+  },
+  {
+    "role": "IT Support Specialist / IT Technician",
+    "overview": [
+      "IT Support is often treated as the “easy entry point” into tech, and it can be — but current postings from TextNow, Kong and Axon describe a job that's meaningfully broader than the stereotype of resetting passwords. Modern enterprise IT blends cross-platform troubleshooting (Windows and macOS, not just one), networking fundamentals, identity and access management, SaaS administration, and mobile device management with zero-touch provisioning — so a new employee's laptop is ready before they open the box.",
+      "The skill most postings are actually screening for is triage under ambiguity: a user says “the internet is down,” and that could mean their WiFi, their VPN, a DNS issue, an expired credential, or a SaaS outage that has nothing to do with your network at all. Being fast at this requires a mental model of how the pieces fit together — identity, network, endpoint, application — so you can narrow the possibilities quickly instead of guessing.",
+      "The role has also professionalized around process: ITSM ticketing with SLAs, root-cause analysis instead of just closing tickets, and joiner-mover-leaver access lifecycle management that keeps a growing company's security posture from quietly rotting as people join, change roles, and leave. This path's capstone — running IT for a simulated 50-person company end to end — mirrors that reality: it's not one skill, it's a system you keep running."
+    ],
+    "tools": [
+      "Cross-platform endpoint management: Windows and macOS",
+      "MDM and zero-touch provisioning",
+      "Identity: SSO, MFA, and joiner-mover-leaver access lifecycle",
+      "Core networking fundamentals: DNS, DHCP, VPN troubleshooting",
+      "ITSM ticketing, SLAs, and root-cause analysis (not just ticket closure)",
+      "SaaS administration for common enterprise tools"
+    ],
+    "interviewQuestions": [
+      "A user says “the internet is down.” Walk me through your triage process.",
+      "How do you provision a new employee's laptop and access so it's ready before their first day?",
+      "Describe how you'd handle offboarding an employee's access across multiple systems without missing anything.",
+      "Tell me about a recurring issue you traced to a root cause instead of just resolving each ticket individually.",
+      "How do you prioritize tickets when you have an SLA and a queue longer than your available time?",
+      "How do you explain a technical problem to a frustrated, non-technical user without sounding condescending?"
+    ],
+    "readinessSignals": [
+      "You can name the layer (identity, network, endpoint, SaaS) a problem most likely lives in before you start troubleshooting.",
+      "You've automated or systematized a repetitive task instead of doing it manually every time.",
+      "You've traced a recurring ticket type to a root cause and fixed the underlying issue, not just each instance.",
+      "You can explain MFA, SSO and the joiner-mover-leaver lifecycle well enough to actually administer them, not just define them."
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a degree or certification to start?",
+        "a": "Not usually required for entry-level roles, though certifications like CompTIA A+ or Network+ can help you get past an initial resume screen. Hands-on troubleshooting experience — even from a help-desk job, personal projects, or a home lab — often matters more."
+      },
+      {
+        "q": "Is IT Support a dead-end job, or does it lead somewhere?",
+        "a": "It's a common and legitimate launching point into systems administration, network engineering, security, or cloud infrastructure roles. The identity, networking and endpoint fundamentals you build here transfer directly into more senior infrastructure and security roles."
+      },
+      {
+        "q": "What's the fastest way to stand out for an entry-level IT role?",
+        "a": "Demonstrate systems thinking, not just tool familiarity: describe a problem you diagnosed by narrowing down layers (network vs. identity vs. application) rather than guessing, and show you understand why processes like ticketing SLAs and access lifecycle management exist."
+      }
+    ]
+  },
+  {
+    "role": "Investment Banker",
+    "overview": [
+      "Investment banking has one of the most mythologized public images of any career — and one of the most brutally concrete skill bars underneath it. J.P. Morgan and Goldman Sachs postings for this path describe a job built around a handful of hard technical deliverables: spreading and normalizing historical financials, building a three-statement operating model, valuing a company through multiple methodologies, and packaging all of it into a document that survives scrutiny from clients who have seen a thousand pitch decks.",
+      "The unglamorous truth about the entry-level version of this job: it's a modeling and diligence apprenticeship before it's anything about deal-making. Analysts spend enormous hours ensuring a model ties out, a comp set is genuinely comparable, and a valuation range is defensible — because a client is about to make a decision worth hundreds of millions of dollars partly based on your spreadsheet, and “close enough” isn't a standard anyone accepts.",
+      "What separates candidates who get and keep these roles isn't just modeling speed, it's judgment under scrutiny: can you defend why you chose this discount rate, this comp set, this set of assumptions, when a managing director or client pushes back live in a meeting. This path's capstone — a full case from spreading financials through valuation and recommendation — is built to force exactly that kind of defensible, end-to-end work, not just isolated modeling exercises."
+    ],
+    "tools": [
+      "Excel-based financial modeling: three-statement models, DCF, comps",
+      "Financial statement spreading and normalization",
+      "Valuation methodologies: comparable companies, precedent transactions, DCF",
+      "PowerPoint/deck construction for client-facing materials",
+      "Deal diligence process and documentation"
+    ],
+    "interviewQuestions": [
+      "Walk me through how you'd build a three-statement model from a company's historical financials.",
+      "How do you select a comparable-companies set, and what makes a comp genuinely comparable versus superficially similar?",
+      "Defend a discount rate assumption in a DCF model against a skeptical challenge.",
+      "Tell me about a time you found an error in your own model before it reached a client. What did you change afterward?",
+      "How do you handle a live pushback from a managing director on an assumption you believe is correct?",
+      "Walk me through the full arc of a deal case: what comes first, and why does sequencing matter?"
+    ],
+    "readinessSignals": [
+      "You've built a three-statement model that actually ties out across all three statements without plugs you can't explain.",
+      "You can defend a valuation assumption under real pushback, not just present it.",
+      "You've caught your own modeling error before someone else did, and understand why it happened.",
+      "You can explain why a comp is or isn't genuinely comparable, beyond “same industry.”"
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a finance degree or an MBA to break in?",
+        "a": "A finance/economics/business background helps, especially for the most selective firms, but is not strictly required — strong quantitative and modeling skills from adjacent fields (engineering, math, physics) plus demonstrated financial modeling ability can substitute. Networking and demonstrated technical prep matter enormously either way."
+      },
+      {
+        "q": "How brutal are the hours really?",
+        "a": "At most banks, genuinely demanding — long hours and unpredictable timing driven by live deals and client deadlines are a real and widely acknowledged feature of the entry-level roles, not an exaggeration. It's a legitimate and important factor to weigh before committing to this path."
+      },
+      {
+        "q": "What's the most common reason candidates fail the technical interview?",
+        "a": "Inability to defend an assumption, not inability to build a model. Most candidates can produce a template-driven DCF; far fewer can explain, under real pushback, why their specific assumptions are defensible for this specific company and situation."
+      }
+    ]
+  },
+  {
+    "role": "Digital Marketing",
+    "overview": [
+      "Digital Marketing postings at the level Apple's performance media and enterprise growth teams hire for describe a job that's less about creative taste and more about full-funnel accountability: you own a growth number, and every channel — SEO, paid media, lifecycle email, creative — is a lever you're expected to pull and measure, not a silo you specialize in and forget the rest.",
+      "The skill that separates a marketer who can run a campaign from one who can run a business-relevant growth program is instrumentation and attribution: knowing what actually drove a conversion, not just what happened right before it. Current tooling (GA4-style analytics, multi-touch attribution) makes this more measurable than it used to be, but also easier to get wrong — a channel that looks like it's underperforming might just be undercredited by whatever attribution model you're using.",
+      "The other current-market shift this path weights heavily: AEO — answer engine optimization, being discoverable inside AI-generated search answers, not just traditional SEO rankings — alongside the classic disciplines. A marketer who only thinks in terms of blue-link SEO is increasingly missing where a growing share of discovery actually happens."
+    ],
+    "tools": [
+      "GA4 or equivalent analytics instrumentation",
+      "Paid media platforms and campaign optimization",
+      "SEO and increasingly AEO (answer-engine optimization)",
+      "Lifecycle/email marketing and audience segmentation",
+      "A/B testing methodology for creative and channel decisions",
+      "Attribution modeling — and skepticism about what it's actually telling you"
+    ],
+    "interviewQuestions": [
+      "Walk me through how you'd build a full-funnel campaign from positioning through paid media through lifecycle email.",
+      "How do you decide whether a channel's poor apparent performance is real, or an attribution modeling artifact?",
+      "Describe an A/B test you ran (or would run) on creative, and how you'd interpret an ambiguous result.",
+      "How is optimizing for AI-driven answer engines different from traditional SEO?",
+      "Tell me about a campaign that underperformed. How did you diagnose why?",
+      "How do you allocate budget across channels when leadership wants growth and finance wants efficiency?"
+    ],
+    "readinessSignals": [
+      "You can explain a real campaign's results across the full funnel, not just top-of-funnel metrics like impressions or clicks.",
+      "You've questioned an attribution model's output instead of taking it at face value.",
+      "You've run an A/B test with a result you didn't expect, and adjusted your approach because of it.",
+      "You can speak to both traditional SEO and answer-engine/AI discoverability, not just one."
+    ],
+    "faqs": [
+      {
+        "q": "Do I need to be a specialist in one channel, or a generalist across all of them?",
+        "a": "Most current roles, especially at the level this path benchmarks against, expect full-funnel fluency — you don't need to be the world's best paid-media buyer, but you need to understand how paid, organic, and lifecycle channels interact and be able to reason across all of them."
+      },
+      {
+        "q": "How important is AEO (answer-engine optimization) right now versus traditional SEO?",
+        "a": "It's a genuinely growing share of how people discover things, alongside traditional search — not a replacement for SEO fundamentals, but an increasingly important addition. Marketers who ignore it are optimizing for a shrinking slice of total discovery."
+      },
+      {
+        "q": "What's the biggest mistake junior digital marketers make?",
+        "a": "Optimizing for a metric that's easy to move (impressions, clicks, opens) instead of the one that actually matters to the business (qualified conversions, revenue, retention). It's easy to “win” on a vanity metric while the number leadership cares about doesn't move."
+      }
+    ]
+  },
+  {
+    "role": "Social Media Manager",
+    "overview": [
+      "Social Media Manager postings from brands like Huckleberry, Qonto and Rover describe a job that's shed its “posts memes for a living” stereotype and become a full content-and-community operating system: platform-native strategy (what works on TikTok doesn't work unchanged on LinkedIn), a repeatable content system rather than one-off posts, community management and social listening, paid social, and increasingly, creator and influencer program management.",
+      "The skill that's hardest to fake is platform-native judgment: understanding that each platform has its own culture, format expectations and algorithm behavior, and that content which performs well on one will often flop on another if simply reposted unchanged. A social media manager who treats every platform the same is leaving reach and engagement on the table without realizing it.",
+      "The other current shift this path weights heavily: social search and AI discoverability — a growing share of discovery now happens through people searching directly on social platforms or through AI-summarized results, not just algorithmic feeds, which changes what “optimizing content” actually means. The mastery path builds toward a capstone that runs a full six-week integrated program — goals, baseline metrics, content system, and measurement — not just a portfolio of individual posts."
+    ],
+    "tools": [
+      "Platform-native content strategy across at least 2-3 major platforms",
+      "A content calendar/system for consistent, repeatable output",
+      "Community management and social listening tools",
+      "Paid social campaign management and creative testing",
+      "Creator/influencer program management",
+      "Analytics for engagement, reach, and business-relevant conversion"
+    ],
+    "interviewQuestions": [
+      "How would you adapt the same campaign idea differently for TikTok versus LinkedIn?",
+      "Walk me through how you'd build a content system that doesn't depend on inspiration striking every day.",
+      "How do you handle a brand crisis or negative viral moment playing out in real time?",
+      "Describe how you'd measure whether a creator partnership actually drove business value, not just impressions.",
+      "How is optimizing for social search or AI-summarized discovery different from optimizing for a traditional feed algorithm?",
+      "Tell me about a piece of content that underperformed. How did you diagnose why?"
+    ],
+    "readinessSignals": [
+      "You can explain why the same content idea should be executed differently across platforms, with real examples.",
+      "You've built or run a content system, not just posted reactively.",
+      "You've handled real community management — a critical comment, a small crisis — with a clear-headed response, not a panicked one.",
+      "You can tie a social program's results to a business metric beyond likes and follower count."
+    ],
+    "faqs": [
+      {
+        "q": "Do I need to already have a large personal following to get hired?",
+        "a": "No — that's a common misconception. Employers hire for strategic and content-system skill, community management judgment, and measurable results on a brand's behalf, not personal audience size. A strong portfolio of brand work matters more than personal follower counts."
+      },
+      {
+        "q": "How many platforms do I need to be an expert in?",
+        "a": "Deep expertise in 2-3 platforms relevant to the brand's audience is usually more valuable than shallow familiarity with everything. Understand the platforms your target audience actually uses, and go deep there first."
+      },
+      {
+        "q": "Is this role being replaced by AI content tools?",
+        "a": "AI tools are changing the production side (drafting, editing, some creative variants), but the strategic judgment — platform-native thinking, community management, crisis response, tying content to business outcomes — is exactly what current tools can't do well, and it's what employers are actually hiring for."
+      }
+    ]
   }
 ]

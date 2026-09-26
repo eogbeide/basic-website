@@ -19883,5 +19883,505 @@
     "bonus": [],
     "page": 647,
     "category": "Environmental Health & Safety"
+  },
+  {
+    "name": "Prompt Engineer",
+    "benchmark": "NTT DATA Prompt Engineer + OpenAI Academy + IBM Prompt Engineering (current Sep 2026) Market refresh: system/developer instructions, context engineering, structured outputs, RAG grounding, prompt libraries, versioning, evals, agent/tool instructions, prompt security and latency/token-cost tradeoffs.",
+    "capstone": "Build a production prompt system for a real workflow: define system/developer/user contracts; create structured outputs and few-shot examples; add RAG grounding with citations and one tool/MCP integration; version the prompt library; build a human + automated eval set; compare prompt variants; track task success, groundedness, hallucination, latency and token cost; red-team injection/jailbreaks and document rollback/escalation.",
+    "rubric": "Prove reproducible prompt quality rather than clever wording: clear instruction hierarchy; reliable structured outputs; grounded responses; measurable task success; versioned test cases; error analysis; security boundaries; safe tool behavior; latency/cost awareness; documentation of model limitations and tradeoffs.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Engineer precise instructions and context for repeatable model behavior",
+        "competencies": [
+          {
+            "title": "Prompt architecture, roles + structured outputs",
+            "coverage": "Prompt & Context Engineering / Generative AI",
+            "videos": [
+              {
+                "title": "Advanced Prompt Engineering",
+                "url": "https://academy.openai.com/en/public/videos/advanced-prompt-engineering-2025-02-13",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Intro to Large Language Models",
+                "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+                "channel": "Andrej Karpathy"
+              }
+            ]
+          },
+          {
+            "title": "Context windows, examples + model failure modes",
+            "coverage": "LLM Behavior / Context Engineering / Error Analysis",
+            "videos": [
+              {
+                "title": "Context Engineering for AI Agents",
+                "url": "https://www.youtube.com/watch?v=6_BcCthVvb8",
+                "channel": "LangChain"
+              },
+              {
+                "title": "What Is a Prompt Injection Attack?",
+                "url": "https://www.youtube.com/watch?v=jrHRe9lSqqA",
+                "channel": "IBM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Ground prompts in data and orchestrate tools without losing control",
+        "competencies": [
+          {
+            "title": "RAG grounding, citations + missing-context behavior",
+            "coverage": "RAG / Retrieval Quality / Data Grounding",
+            "videos": [
+              {
+                "title": "RAG From Scratch",
+                "url": "https://www.youtube.com/watch?v=wd7TZ4w1mSw",
+                "channel": "LangChain"
+              },
+              {
+                "title": "Evaluating LLMs",
+                "url": "https://www.youtube.com/watch?v=SnbGD677_u0",
+                "channel": "Hamel Husain"
+              }
+            ]
+          },
+          {
+            "title": "Tool use, agents + MCP instruction design",
+            "coverage": "AI Agents / MCP / Tool Calling",
+            "videos": [
+              {
+                "title": "Build Hour: Agents SDK",
+                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
+                "channel": "OpenAI"
+              },
+              {
+                "title": "Model Context Protocol (MCP)",
+                "url": "https://www.youtube.com/watch?v=CQywdSdi5iA",
+                "channel": "Anthropic"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate prompts as evaluated, secure and versioned production assets",
+        "competencies": [
+          {
+            "title": "Prompt evals, versioning + regression gates",
+            "coverage": "AI Evals / Experimentation / LLMOps",
+            "videos": [
+              {
+                "title": "Practical Evaluation Systems",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Reliable Agent Architectures",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-designing-reliable-agent-architectures-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          },
+          {
+            "title": "Injection resistance, red teaming + guardrails",
+            "coverage": "AI Security / Adversarial Testing / Governance",
+            "videos": [
+              {
+                "title": "AI Red Teaming 101 Full Course",
+                "url": "https://www.youtube.com/watch?v=DwFVhFdD2fs",
+                "channel": "Microsoft"
+              },
+              {
+                "title": "What Is a Prompt Injection Attack?",
+                "url": "https://www.youtube.com/watch?v=jrHRe9lSqqA",
+                "channel": "IBM"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 648,
+    "category": "AI, Agents & Intelligent Automation",
+    "bonus": []
+  },
+  {
+    "name": "Responsible AI Program Manager",
+    "benchmark": "Google Responsible AI Strategic Programs + current Responsible AI program-management signals + NIST AI RMF (current Sep 2026) Market refresh: governance frameworks, risk tiering, pre-launch safety, global regulation/ISO 42001, cross-functional delivery, enterprise trust and auditable operating systems.",
+    "capstone": "Build and run a Responsible AI program for a portfolio of AI products: inventory use cases, define risk tiers and owners, create launch and exception workflows, establish eval/red-team evidence gates, map regulatory obligations, define monitoring/incident escalation, run a governance review and publish an executive risk dashboard with decisions and residual risk.",
+    "rubric": "Clear program charter and RACI; defensible risk tiering; traceable policies-to-controls; measurable safety gates; dependency/risk management; regulatory mapping; evidence register; incident readiness; decision logs; stakeholder influence; executive synthesis; ability to accelerate safe launches rather than add bureaucracy.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Turn AI principles into a governed program with owners, risk tiers and decisions",
+        "competencies": [
+          {
+            "title": "RAI governance, risk taxonomy + accountable ownership",
+            "coverage": "Responsible AI / Governance / Risk",
+            "videos": [
+              {
+                "title": "Good Governance for AI Risk Management",
+                "url": "https://www.nist.gov/video/airmf22-what-does-good-governance-ai-risk-management-look",
+                "channel": "NIST"
+              },
+              {
+                "title": "AI RMF Functions & Discussion",
+                "url": "https://www.nist.gov/video/airmf14-ai-rmf-function-breakdownmoderated-discussion-what-we-heard-and-what-we-hope-hear",
+                "channel": "NIST"
+              }
+            ]
+          },
+          {
+            "title": "Program charter, roadmap + cross-functional operating model",
+            "coverage": "Program Management / Stakeholders",
+            "videos": [
+              {
+                "title": "Project Lifecycle Reviews",
+                "url": "https://www.youtube.com/watch?v=fbUStXvPTZE",
+                "channel": "NASA"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=g3JRONajB7w",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Operationalize launch safety, regulation and evidence across the AI lifecycle",
+        "competencies": [
+          {
+            "title": "Pre-launch safety testing, evals + decision gates",
+            "coverage": "AI Evals / Safety Testing",
+            "videos": [
+              {
+                "title": "AI Red Teaming Approach",
+                "url": "https://www.youtube.com/watch?v=zFRn_RMSPI4",
+                "channel": "Microsoft"
+              },
+              {
+                "title": "Measuring AI Risk Across Lifecycle",
+                "url": "https://www.nist.gov/video/airmf23-how-measure-ai-risk-across-ai-lifecycle",
+                "channel": "NIST"
+              }
+            ]
+          },
+          {
+            "title": "Regulatory controls, monitoring + incident readiness",
+            "coverage": "Compliance / Monitoring / AI Risk",
+            "videos": [
+              {
+                "title": "Managing AI Risks Across Lifecycle",
+                "url": "https://www.nist.gov/video/airmf24-managing-ai-risks",
+                "channel": "NIST"
+              },
+              {
+                "title": "Generative AI Governance",
+                "url": "https://www.ibm.com/think/videos/ai-academy/generative-ai-governance",
+                "channel": "IBM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Scale assurance, portfolio governance and executive trust",
+        "competencies": [
+          {
+            "title": "Enterprise risk profiles + assurance architecture",
+            "coverage": "AI Governance / Assurance",
+            "videos": [
+              {
+                "title": "What Is an AI RMF Profile?",
+                "url": "https://www.nist.gov/video/airmf13-exactly-what-ai-rmf-profile",
+                "channel": "NIST"
+              },
+              {
+                "title": "Mapping Current to Future AI Risk Practice",
+                "url": "https://www.nist.gov/video/airmf21-introduction-and-welcome-mapping-path-current-future-ai-risk-management-practice",
+                "channel": "NIST"
+              }
+            ]
+          },
+          {
+            "title": "Executive decisions, escalations + customer trust",
+            "coverage": "Executive Communication / Change",
+            "videos": [
+              {
+                "title": "AI Red Teaming 101 Full Course",
+                "url": "https://www.youtube.com/watch?v=DwFVhFdD2fs",
+                "channel": "Microsoft"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=g3JRONajB7w",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 670,
+    "category": "AI Evaluation, Reliability & Safety Engineering",
+    "bonus": []
+  },
+  {
+    "name": "Responsible AI Product Manager",
+    "benchmark": "OneTrust Principal PM, AI Runtime Governance + UPS AI Governance Product + Schwab AI Data Strategy & Governance (current Sep 2026) Market refresh: 0-to-1 RAI tooling, risk classification, automated compliance pipelines, model/data governance, developer adoption, AI evals, launch velocity, privacy and policy-to-product translation.",
+    "capstone": "Ship a Responsible AI product capability: interview internal/external users, define the risk/compliance problem, write a PRD, design a risk-classification or approval workflow, automate one policy control, create safety/eval metrics and launch gates, instrument adoption and cycle time, pilot with users, and present roadmap/economics/tradeoffs to an executive review.",
+    "rubric": "Strong customer evidence; product judgment; policy-to-requirement precision; usable workflow design; measurable trust/safety outcomes; eval quality; privacy/data governance; launch velocity; adoption metrics; architecture/API fluency; explicit tradeoffs; ability to make responsible behavior the easiest product path.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Find the trust problem and convert policy/risk into a product people can use",
+        "competencies": [
+          {
+            "title": "Use-case discovery + harm/risk framing",
+            "coverage": "Product Discovery / Responsible AI",
+            "videos": [
+              {
+                "title": "Use Case Discovery & System Scoping",
+                "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Good Governance for AI Risk Management",
+                "url": "https://www.nist.gov/video/airmf22-what-does-good-governance-ai-risk-management-look",
+                "channel": "NIST"
+              }
+            ]
+          },
+          {
+            "title": "Requirements, roadmap + policy-to-product controls",
+            "coverage": "Product Strategy / Roadmapping",
+            "videos": [
+              {
+                "title": "How to Build a Product Roadmap",
+                "url": "https://www.youtube.com/watch?v=x0d_GE_jWGE",
+                "channel": "Product School"
+              },
+              {
+                "title": "Responsible AI Dashboard Deep Dive",
+                "url": "https://www.youtube.com/watch?v=2ZK9X7YSg20",
+                "channel": "Microsoft"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build measurable trust, safety and compliance into the product lifecycle",
+        "competencies": [
+          {
+            "title": "Fairness, transparency + model/data assessment",
+            "coverage": "Fairness / Model Assessment",
+            "videos": [
+              {
+                "title": "Building Fairer AI Systems with Fairlearn",
+                "url": "https://www.youtube.com/watch?v=ZpvEY5BaZ8w",
+                "channel": "Microsoft"
+              },
+              {
+                "title": "Measuring AI Risk Across Lifecycle",
+                "url": "https://www.nist.gov/video/airmf23-how-measure-ai-risk-across-ai-lifecycle",
+                "channel": "NIST"
+              }
+            ]
+          },
+          {
+            "title": "Evals, launch quality + compliance automation",
+            "coverage": "AI Evals / Product Quality",
+            "videos": [
+              {
+                "title": "Practical Evaluation Systems",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Generative AI Governance",
+                "url": "https://www.ibm.com/think/videos/ai-academy/generative-ai-governance",
+                "channel": "IBM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Scale RAI infrastructure without sacrificing developer velocity or adoption",
+        "competencies": [
+          {
+            "title": "Risk classification + scalable governance infrastructure",
+            "coverage": "AI Platform / Compliance Automation",
+            "videos": [
+              {
+                "title": "AI RMF Profiles",
+                "url": "https://www.nist.gov/video/airmf13-exactly-what-ai-rmf-profile",
+                "channel": "NIST"
+              },
+              {
+                "title": "Managing AI Risks Across Lifecycle",
+                "url": "https://www.nist.gov/video/airmf24-managing-ai-risks",
+                "channel": "NIST"
+              }
+            ]
+          },
+          {
+            "title": "Product metrics, adoption + executive tradeoffs",
+            "coverage": "Product Metrics / Stakeholders",
+            "videos": [
+              {
+                "title": "Must-Have Metrics for Product Strategy",
+                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
+                "channel": "Reforge"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=g3JRONajB7w",
+                "channel": "Stanford GSB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 671,
+    "category": "AI Product, Strategy & Enterprise Transformation",
+    "bonus": []
+  },
+  {
+    "name": "Learner / Learning Strategist",
+    "benchmark": "Learning Scientists + Stephen Chew / Samford + evidence-based cognitive science of learning Learning refresh: retrieval practice and spacing first; deep processing, interleaving, elaboration and dual coding; metacognition, self-regulation, deliberate feedback and AI used as a tutor - not a substitute for retrieval or thinking.",
+    "capstone": "Build a 30-day learning operating system for one difficult subject: define performance outcomes, baseline recall, create a spaced retrieval schedule, interleave problem types, use teach-back and concept maps, maintain an error log, run weekly cumulative tests, get feedback, use AI to generate questions/explanations only after first retrieval, and adapt the next cycle from evidence.",
+    "rubric": "Durable recall after delay; transfer to novel problems; accurate calibration of what is/is not known; consistent spacing; productive retrieval difficulty; interleaving; error-driven adaptation; high-quality feedback; time-on-task discipline; evidence of improvement; AI use that strengthens rather than replaces cognition.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Replace passive study with durable retrieval, spacing and accurate metacognition",
+        "competencies": [
+          {
+            "title": "Metacognition + learning myths",
+            "coverage": "Learning Science / Self-Awareness",
+            "videos": [
+              {
+                "title": "Beliefs That Make You Fail...Or Succeed",
+                "url": "https://www.youtube.com/watch?v=RH95h36NChI",
+                "channel": "Stephen Chew"
+              },
+              {
+                "title": "How People Learn",
+                "url": "https://www.youtube.com/watch?v=9O7y7XEC66M",
+                "channel": "Stephen Chew"
+              }
+            ]
+          },
+          {
+            "title": "Active recall + spaced repetition",
+            "coverage": "Retrieval Practice / Spacing",
+            "videos": [
+              {
+                "title": "Retrieval Practice",
+                "url": "https://www.youtube.com/watch?v=Pjrqc6UMDKM",
+                "channel": "Learning Scientists"
+              },
+              {
+                "title": "Spaced Practice",
+                "url": "https://www.youtube.com/watch?v=3WJYp98eys8",
+                "channel": "Learning Scientists"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build deep understanding and transfer across mixed, authentic problems",
+        "competencies": [
+          {
+            "title": "Deep processing, elaboration + teach-back",
+            "coverage": "Learning Science / Concept Mastery",
+            "videos": [
+              {
+                "title": "Cognitive Principles for Learning",
+                "url": "https://www.youtube.com/watch?v=1xeHh5DnCIw",
+                "channel": "Stephen Chew"
+              },
+              {
+                "title": "Put Learning Principles into Practice",
+                "url": "https://www.youtube.com/watch?v=E9GrOxhYZdQ",
+                "channel": "Stephen Chew"
+              }
+            ]
+          },
+          {
+            "title": "Interleaving + discrimination practice",
+            "coverage": "Interleaving / Problem Solving",
+            "videos": [
+              {
+                "title": "Interleaving",
+                "url": "https://www.youtube.com/watch?v=kV64Bu6sec0",
+                "channel": "Learning Scientists"
+              },
+              {
+                "title": "Study Less, Study Smart",
+                "url": "https://www.youtube.com/watch?v=IlU-zDU6aQ0",
+                "channel": "Marty Lobdell"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Run a self-regulated learning system with feedback, error correction and tool leverage",
+        "competencies": [
+          {
+            "title": "Self-regulation, planning + error logs",
+            "coverage": "Self-Regulated Learning / Feedback",
+            "videos": [
+              {
+                "title": "Self-Regulated Learning",
+                "url": "https://www.youtube.com/watch?v=fM7DBBHI7d8",
+                "channel": "Stephen Chew"
+              },
+              {
+                "title": "I Blew the Exam, Now What?",
+                "url": "https://www.youtube.com/watch?v=-QVRiMkdRsU",
+                "channel": "Stephen Chew"
+              }
+            ]
+          },
+          {
+            "title": "AI-assisted learning + deliberate practice boundaries",
+            "coverage": "AI for Learning / Metacognition",
+            "videos": [
+              {
+                "title": "Learning How to Learn",
+                "url": "https://www.youtube.com/watch?v=nT5Afh6V6i4",
+                "channel": "Barbara Oakley"
+              },
+              {
+                "title": "Evidence-Based Strategy Videos",
+                "url": "https://www.learningscientists.org/videos",
+                "channel": "Learning Scientists"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 672,
+    "category": "Leadership, Management & Personal Development",
+    "bonus": []
   }
 ]
