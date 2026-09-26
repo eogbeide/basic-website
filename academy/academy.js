@@ -99,10 +99,13 @@
         '</div>'
       : '';
     return (
-      '<div class="role-guide">' +
+      '<details class="role-guide">' +
+      '<summary class="role-guide-summary">Full Role Guide &mdash; What This Role Actually Does, Tools, Interview Questions &amp; FAQ</summary>' +
+      '<div class="role-guide-body">' +
       '<div class="guide-overview">' + overview + '</div>' +
       tools + questions + readiness + faq +
-      '</div>'
+      '</div>' +
+      '</details>'
     );
   }
 

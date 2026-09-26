@@ -221,5 +221,308 @@
         "a": "Very common at this scale of infrastructure, but the underlying skill — designing systems that are reliable, secure and usable by teams who aren't infrastructure experts — transfers across orchestration tools. Don't over-index on one tool at the expense of that judgment."
       }
     ]
+  },
+  {
+    "role": "Software Product Manager",
+    "overview": [
+      "“Product Manager” is one of the most search-heavy job titles in tech, and also one of the vaguest — the day-to-day varies enormously depending on whether you're managing a consumer app, an internal platform, or the kind of API/agentic product this path benchmarks against (Amazon, Salesforce, Google and Apple platform-PM roles). What's consistent across all of them: a PM is accountable for outcomes they don't fully control. You don't write the code and you don't manage the engineers, but you're the one who has to know why a feature didn't move the metric it was supposed to.",
+      "The job splits roughly into three muscles. Discovery: talking to users, reading data, and figuring out which problem is actually worth solving — most PM failure isn't building the wrong thing badly, it's building the wrong thing well. Definition: turning a fuzzy opportunity into a spec or set of requirements an engineering team can actually build against, with enough technical fluency to have a real conversation about tradeoffs, not just forward a Jira ticket. And delivery: getting a cross-functional group of people who don't report to you to ship something, on a timeline, with the metrics to know if it worked.",
+      "What's changed in the current market — and what this path weights toward Advanced — is that a growing share of PM roles now expect real fluency with AI/agentic product mechanics: what an eval is, why an agent's failure modes are different from a traditional feature's, and how to reason about quality when the output isn't deterministic. A PM who can't have that conversation is increasingly at a disadvantage against one who can."
+    ],
+    "tools": [
+      "A roadmap/prioritization framework (RICE, opportunity-solution trees, or similar)",
+      "SQL and basic product analytics (Amplitude, Mixpanel or an internal equivalent)",
+      "A spec/PRD format your engineering team actually reads",
+      "Experimentation basics: A/B test design and reading results",
+      "For AI/agentic products: eval design and quality metrics beyond accuracy"
+    ],
+    "interviewQuestions": [
+      "Walk me through a product decision you made that you later learned was wrong. What did you do?",
+      "How do you prioritize between a feature a big customer is asking for and one your data says most users need?",
+      "Design a metric to know whether a new AI feature is actually helping users, not just being used.",
+      "Tell me about a time you had to say no to a stakeholder with more organizational power than you.",
+      "How do you scope a technically ambiguous project when engineering says “it depends”?",
+      "What's your process for deciding a feature is done, versus needs another iteration before shipping?"
+    ],
+    "readinessSignals": [
+      "You can write a one-page spec that an engineer could actually build from without five follow-up meetings.",
+      "You've killed a feature idea you personally liked because the evidence didn't support it.",
+      "You can read a SQL query result and know whether it actually answers your question.",
+      "You've navigated a real disagreement with an engineering or design lead and kept the relationship intact."
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a technical or engineering background?",
+        "a": "Not a CS degree specifically, but you need enough technical fluency to reason about tradeoffs — what's expensive to build, what's risky, why a “simple” request touches five systems. PMs who can't have that conversation lose credibility with engineering fast."
+      },
+      {
+        "q": "What's the difference between Product Manager and Product Owner?",
+        "a": "In practice the titles overlap heavily and are used inconsistently. Where they're distinguished, Product Owner often leans more toward backlog/sprint management within an agile team, while Product Manager carries more strategy, discovery and cross-functional ownership — but read the actual job description, not the title."
+      },
+      {
+        "q": "How do I break in without prior PM title experience?",
+        "a": "Most successful transitions come from adjacent roles — engineering, design, analytics, customer-facing roles — where you can point to real ownership of an outcome, not just a task. A concrete project where you drove a decision end to end matters more than the title on your last role."
+      }
+    ]
+  },
+  {
+    "role": "DevOps / Site Reliability Engineer",
+    "overview": [
+      "DevOps and SRE are two names for a closely related job: making sure software that works on someone's laptop also works reliably for real users, at 3am, under load, when a dependency goes down. At Google-style SRE and OpenAI-style security/reliability/delivery roles, the job is equal parts building the automation that prevents incidents and being the person who calmly fixes them when prevention wasn't enough.",
+      "The mental model that separates this from generic “ops” work is treating reliability as an engineering problem with a budget, not a moral virtue to maximize infinitely. Google popularized the error budget for a reason: 100% uptime is usually the wrong target, because the effort to get from 99.9% to 99.99% often isn't worth what it costs in shipping velocity. A good SRE can argue, with data, when to invest in reliability and when to ship faster instead.",
+      "Day to day, that shows up as infrastructure as code so environments are reproducible, CI/CD pipelines with staged or canary rollouts so a bad deploy affects 1% of traffic instead of 100%, and instrumentation good enough that when something breaks, you're reading a dashboard instead of guessing. The mastery path mirrors that arc: automate the infrastructure, build the pipeline, then own the service through a real incident and recovery."
+    ],
+    "tools": [
+      "Infrastructure as code: Terraform or equivalent",
+      "CI/CD systems with staged/canary deployment support",
+      "Kubernetes or another container orchestration platform",
+      "Observability: metrics, logs, traces, and an alerting strategy that doesn't page you for noise",
+      "Incident response process: on-call, postmortems, and blameless root-cause analysis"
+    ],
+    "interviewQuestions": [
+      "Walk me through how you'd design a canary rollout for a risky deployment.",
+      "A service's error rate spikes at 2am. Walk me through your triage process.",
+      "How do you decide when an alert is worth paging someone for, versus a dashboard someone checks in the morning?",
+      "What's an error budget, and how would you use one to make a real prioritization decision?",
+      "Describe a postmortem you've written or would write for a real incident — what makes it blameless and useful?",
+      "How do you approach infrastructure drift, where the real environment stops matching what's in code?"
+    ],
+    "readinessSignals": [
+      "You've written infrastructure as code that survived being re-run by someone else without your help.",
+      "You can explain a canary or staged rollout strategy and why it beats an all-at-once deploy.",
+      "You've been on the other end of a real incident — diagnosed it, or at least understand what good triage looks like under pressure.",
+      "You have an opinion, backed by a tradeoff, on how much reliability is “enough” for a given service."
+    ],
+    "faqs": [
+      {
+        "q": "Is DevOps the same job as SRE?",
+        "a": "Closely related but not identical in emphasis. DevOps traditionally emphasizes the culture and tooling that connects development and operations — CI/CD, automation, collaboration. SRE (a term Google coined) applies software-engineering discipline specifically to reliability, often with concepts like error budgets and formal SLOs. Many job postings use the titles interchangeably."
+      },
+      {
+        "q": "Do I need to know Kubernetes specifically?",
+        "a": "It's extremely common at this scale, but the transferable skill is reasoning about distributed systems reliably — orchestration, service discovery, rollout strategy. Don't over-index on one tool at the expense of the underlying judgment."
+      },
+      {
+        "q": "How much software engineering skill do I need, versus operations skill?",
+        "a": "More than the “ops” stereotype suggests. Modern SRE/DevOps roles expect you to write real code — automation, tooling, sometimes services — not just operate infrastructure through a UI. If you can't write and test code, you'll hit a ceiling quickly."
+      }
+    ]
+  },
+  {
+    "role": "UX Designer",
+    "overview": [
+      "UX Designer postings at Apple, Amazon and Atlassian-style companies describe a job that's less about making things pretty and more about making decisions defensible with evidence. The core loop is research → information architecture and flows → wireframes → high-fidelity design → usability testing → iterate — and the skill that separates a junior designer from a senior one is how honestly they run that loop, especially the testing step that reveals their favorite idea doesn't actually work.",
+      "A lot of self-taught designers can produce a polished Figma file. Far fewer can walk into a room and explain why this flow, backed by which piece of research, solving which specific user problem — and fewer still can do that when the answer requires disagreeing with a stakeholder's strong opinion. That's the muscle current UX roles are actually hiring for: design as an argument you can defend, not just an aesthetic you can produce.",
+      "The other shift worth naming: UX Designers are increasingly expected to be developer-ready and metrics-literate — handing off specs an engineer can actually build without three rounds of clarification, and caring what happens to a product's metrics after launch, not just whether the prototype tested well. The mastery path is built around that full loop, ending in a capstone that goes from research through a shipped, developer-ready, metrics-aware design — not just a portfolio piece that stops at high fidelity."
+    ],
+    "tools": [
+      "A design tool (Figma is the current industry default)",
+      "User research methods: interviews, usability testing, survey design",
+      "Information architecture and user-flow mapping",
+      "Accessibility standards (WCAG) and inclusive design practice",
+      "Enough product-analytics literacy to read what happened after launch"
+    ],
+    "interviewQuestions": [
+      "Walk me through a design decision you made that was based on research, not your own preference.",
+      "Tell me about a usability test that invalidated something you'd already designed. What did you do next?",
+      "How do you make a design accessible without treating it as a checklist added at the end?",
+      "Describe how you'd hand off a complex flow to engineering so it gets built the way you intended.",
+      "How do you know when a design is “done,” versus needs another round of testing?",
+      "Tell me about a time you disagreed with a stakeholder's design opinion. How did you resolve it?"
+    ],
+    "readinessSignals": [
+      "You've run a usability test that changed your design, not just confirmed what you already believed.",
+      "You can defend a design decision with a specific piece of research or data, not just “it felt right.”",
+      "You've handed off a design detailed enough that engineering built it without major reinterpretation.",
+      "You can talk about a design's post-launch metrics, not just how it looked in the prototype."
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a design degree to become a UX Designer?",
+        "a": "No. Many working UX designers come from unrelated backgrounds — psychology, engineering, marketing — and built the specific skills (research, IA, prototyping, testing) through practice and a strong portfolio. What matters most is demonstrable process, not the credential."
+      },
+      {
+        "q": "How important is visual design skill versus research skill?",
+        "a": "Both matter, but research and evidence-based decision-making are what most current interviews probe hardest for. A visually polished portfolio with no visible research process is a common rejection reason — interviewers want to see the thinking, not just the output."
+      },
+      {
+        "q": "UX Designer vs. Product Designer — is there a real difference?",
+        "a": "Usage varies by company. “Product Designer” sometimes implies more ownership of the end-to-end product outcome (including some product-management-adjacent thinking), while “UX Designer” can lean more specifically toward research and interaction design. Read the actual responsibilities in the posting."
+      }
+    ]
+  },
+  {
+    "role": "Software Developer",
+    "overview": [
+      "“Software Developer” (or Software Engineer) is the broadest title in tech, and current postings — Amazon SDE and Microsoft Software Engineering II-style roles — make clear that the bar isn't “can you make code run.” It's can you own a production service: design it, test it, ship it safely, and be the person paged when it breaks at 2am. Writing code that works on your machine is table stakes; the actual job is writing code that keeps working after you've moved on to the next project.",
+      "That shows up in concrete, testable ways: code other engineers can read and modify without you in the room, git history and PR reviews that make changes reviewable rather than mysterious, automated tests that catch regressions before users do, and CI/CD that gets a change to production safely instead of by hand. Distributed systems add another layer — most production services today talk to other services, which means thinking about what happens when a dependency is slow, down, or returns something unexpected.",
+      "The other current-market shift this path weights heavily: AI-assisted development is now a baseline expectation, not a novelty. The bar has moved from “can you write code” to “can you use AI tools to write and review code faster while still being accountable for what ships” — which means knowing when to trust a suggestion and when to catch it before it becomes a live-site incident."
+    ],
+    "tools": [
+      "Git and a real code review workflow",
+      "A cloud platform and its core managed services",
+      "Automated testing: unit and integration tests, not just manual QA",
+      "CI/CD pipelines",
+      "SQL and/or NoSQL persistence, and API design",
+      "AI-assisted development tools, used deliberately rather than blindly"
+    ],
+    "interviewQuestions": [
+      "Walk me through how you'd design a service that depends on a flaky third-party API.",
+      "Tell me about a bug that made it to production. How did you find it, and what changed afterward?",
+      "How do you decide what needs a unit test versus an integration test?",
+      "Describe a code review you gave or received that changed the design, not just the style.",
+      "How do you use AI coding tools, and how do you catch it when a suggestion is wrong?",
+      "Walk me through an architectural decision record (ADR) you've written or would write for a real design choice."
+    ],
+    "readinessSignals": [
+      "You've owned a service through a real incident, not just written code that was later handed to someone else to operate.",
+      "You can explain a design decision's tradeoffs, not just describe what you built.",
+      "You write tests because you've been burned by not having them, not because a checklist told you to.",
+      "You use AI coding assistance productively but can point to a specific time you caught it being wrong."
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a CS degree?",
+        "a": "No, though it can help with certain fundamentals. Most companies hiring at this level care primarily about demonstrated ability: can you design, build, test and ship a real system, and can you explain your reasoning under interview pressure. A strong portfolio or open-source contribution history can substitute for formal credentials."
+      },
+      {
+        "q": "How much system design do I need to know for a mid-level role?",
+        "a": "Enough to reason about a service's failure modes, data model, and scaling limits — not necessarily distributed-systems research depth. Interviewers are usually testing judgment about tradeoffs, not memorized architecture diagrams."
+      },
+      {
+        "q": "Will AI coding tools make this role obsolete?",
+        "a": "The evidence so far points the other way: the bar has shifted toward judgment — knowing what to build, catching what an AI tool gets wrong, and owning the consequences — rather than eliminating the need for engineers. The unglamorous parts of the job (debugging production, system design, code review judgment) are exactly what current tools are worst at replacing."
+      }
+    ]
+  },
+  {
+    "role": "Security Engineer",
+    "overview": [
+      "Security Engineer roles at the level Amazon's CS Security, AppSec and SEALS teams hire for aren't primarily about running a vulnerability scanner and filing tickets. They're about secure-by-design engineering: building systems so entire classes of vulnerability are structurally hard to introduce, then verifying that with real offensive testing rather than trusting the design on paper.",
+      "The job spans a wider range than people expect coming in. Protocol and identity depth (OAuth/OIDC, IAM, least privilege) so authentication and authorization are actually correct, not just present. Application security discipline — the OWASP-style vulnerability classes, and why they keep recurring even though they're well documented. Cloud security controls, since most attack surface today is cloud infrastructure misconfiguration, not a clever zero-day. And offensive testing — threat modeling (STRIDE and similar frameworks) and penetration testing — to find what the defensive design missed.",
+      "What ties it together, and what the Advanced level of this path pushes toward, is incident response and automation: security work doesn't stop at “we fixed the bug,” it includes detecting the next attempt and responding fast enough that a caught vulnerability doesn't become a real breach. A security engineer who can only find problems, but can't help build the systems that prevent or catch them at scale, is doing half the job."
+    ],
+    "tools": [
+      "Threat modeling (STRIDE or equivalent)",
+      "IAM/OIDC/OAuth and least-privilege access design",
+      "OWASP Top 10 and secure code review practice",
+      "Cloud security posture and configuration auditing",
+      "Penetration testing and offensive security basics",
+      "Incident response tooling and automation"
+    ],
+    "interviewQuestions": [
+      "Walk me through a STRIDE threat model for a simple API service.",
+      "How would you design least-privilege access for a multi-team cloud environment?",
+      "Describe a vulnerability class from the OWASP Top 10 and how you'd prevent it by design, not just patch it after the fact.",
+      "A security scan flags a finding your team disagrees is exploitable. How do you resolve that disagreement?",
+      "How do you balance shipping velocity against security review overhead without becoming the team everyone routes around?",
+      "Walk me through how you'd respond to an active incident where you suspect unauthorized access is ongoing."
+    ],
+    "readinessSignals": [
+      "You can build a threat model for a real system, not just recite the STRIDE categories.",
+      "You've found or fixed a vulnerability using a real methodology, not just a scanner's default output.",
+      "You can explain why a specific vulnerability class keeps recurring despite being well documented.",
+      "You have an opinion on where to draw the line between blocking a risky change and enabling the team to ship it safely."
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a background in ethical hacking or CTFs to break in?",
+        "a": "It helps demonstrate offensive skill but isn't required. Many security engineers come from software engineering backgrounds and add security depth on top — arguably an advantage, since secure-by-design work benefits from strong engineering fundamentals as much as attacker mindset."
+      },
+      {
+        "q": "Security Engineer vs. Penetration Tester — what's the difference?",
+        "a": "Penetration testing is one specialized function within security engineering, focused on actively finding exploitable weaknesses. Security Engineer is usually the broader role: secure design, IAM, cloud controls, code review, and incident response, with offensive testing as one tool among several."
+      },
+      {
+        "q": "How do I keep up with new vulnerability classes and attack techniques?",
+        "a": "Ongoing is the honest answer — this field has a real half-life on specific technique knowledge. What transfers is the underlying judgment: threat modeling, least-privilege thinking, and secure-by-design principles stay relevant even as specific exploits and tools change."
+      }
+    ]
+  },
+  {
+    "role": "Data Engineer",
+    "overview": [
+      "Data Engineers build the plumbing everyone else's analysis, dashboards and models depend on — and when that plumbing breaks, it's usually silent until someone downstream notices a number looks wrong. At Amazon AWS Analytics Engineering and Airbnb Data Stewardship-style roles, the job is owning a data domain end to end: converting business requirements into explicit contracts and SLAs, modeling data through bronze/silver/gold-style layers, and building both batch and streaming pipelines that are correct, not just fast.",
+      "The skill that's hardest to fake in an interview is distributed-systems judgment: reasoning about partitioning, ordering, retries and failure recovery in a pipeline that has to run correctly at 2am with nobody watching. A pipeline that works in a demo but silently drops or duplicates records under real load isn't a data engineering solution, it's a bug waiting to be discovered by whoever trusts the numbers it produces.",
+      "The other half of the job, increasingly weighted in current postings, is governance and reliability as first-class concerns — lineage, data quality checks, SLAs/observability, and compliance — not afterthoughts bolted on once something goes wrong. The mastery path mirrors that: model and pipeline first, then distributed processing and streaming, then the production-grade quality, lineage and governance that make a data platform something the rest of the company can actually trust."
+    ],
+    "tools": [
+      "SQL and Python (and often Scala) for pipeline development",
+      "A distributed processing engine (Spark or equivalent)",
+      "Batch and streaming ingestion (e.g. Kafka)",
+      "An open table format and lakehouse architecture (Iceberg or similar)",
+      "Orchestration (Airflow or equivalent) and data quality/observability tooling"
+    ],
+    "interviewQuestions": [
+      "Design a pipeline that ingests both batch and streaming data into the same downstream table without duplicating records.",
+      "How do you make a pipeline idempotent so a retry after a partial failure doesn't corrupt the data?",
+      "Walk me through how you'd detect a silent data-quality issue before a stakeholder finds it in a dashboard.",
+      "How do you design schema evolution so a producer's change doesn't break every downstream consumer?",
+      "Describe how you'd set and enforce an SLA for data freshness on a critical table.",
+      "How do you balance storage/compute cost against query performance in a lakehouse architecture?"
+    ],
+    "readinessSignals": [
+      "You've built a pipeline that's actually idempotent — you can explain what happens if it's re-run after a partial failure.",
+      "You've caught a data-quality issue before a stakeholder did, not after.",
+      "You can reason about partitioning and ordering tradeoffs for a specific real workload, not just in the abstract.",
+      "You've had to explain a data contract or SLA to a non-technical stakeholder and gotten buy-in."
+    ],
+    "faqs": [
+      {
+        "q": "Data Engineer vs. Analytics Engineer — what's the real difference?",
+        "a": "Data Engineers typically build and operate the underlying pipelines and infrastructure (ingestion, storage, orchestration, distributed processing). Analytics Engineers typically work closer to the semantic/modeling layer that feeds BI tools, often using SQL-centric tools rather than distributed systems. Many companies blend the two, especially at smaller scale."
+      },
+      {
+        "q": "How much software engineering skill do I need versus SQL skill?",
+        "a": "More than SQL alone. Modern data engineering expects real software engineering discipline — testing, version control, CI/CD, code review — applied to pipelines, not just query-writing. If pipelines are treated as scripts instead of software, they tend to become unmaintainable fast."
+      },
+      {
+        "q": "Is streaming data engineering a separate specialization?",
+        "a": "It's a meaningful skill add-on rather than a fully separate job in most current roles. Being comfortable with both batch and streaming ingestion — and knowing when each is the right tool — is increasingly the expectation rather than a niche specialization."
+      }
+    ]
+  },
+  {
+    "role": "Financial Analyst / FP&A Analyst",
+    "overview": [
+      "FP&A roles at the level Amazon MGM Studios and Apple Corporate/Services benchmark for aren't spreadsheet-filling jobs — they're the function that turns a company's plans into numbers leadership can actually make decisions from, and then explains, every month, why the numbers moved. The core rhythm is planning cycles and month-end close: building driver-based forecasts (not just extrapolating last year), then reconciling what actually happened against the plan and explaining the gap in terms leadership can act on.",
+      "The skill that separates a strong FP&A analyst from someone who can just build a model is variance and root-cause discipline: when revenue misses plan by 8%, “the number is lower” isn't an answer — was it volume, price, mix, timing, or something structurally different in the business? That distinction determines whether leadership should worry, wait, or act, and getting it wrong erodes trust in finance fast.",
+      "The other current-market shift: SQL and BI fluency are now expected alongside Excel modeling, because the underlying data increasingly lives in systems a spreadsheet can't touch directly, and the finance function is expected to query and reconcile it firsthand rather than wait for a data team. The mastery path builds toward a capstone that mirrors the real job: a driver-based operating model, a variance bridge, and a KPI dashboard built from source data you queried and reconciled yourself."
+    ],
+    "tools": [
+      "Advanced Excel modeling (driver-based forecasting, scenario analysis)",
+      "SQL for querying and reconciling source financial data",
+      "A BI tool for dashboards and recurring reporting",
+      "Core accounting/finance fluency: P&L, balance sheet, cash-flow linkages",
+      "Executive communication: translating variance into a decision-ready narrative"
+    ],
+    "interviewQuestions": [
+      "Walk me through how you'd build a driver-based forecast versus simply extrapolating last year's numbers.",
+      "Revenue missed plan by 8%. How do you structure the investigation to find out why?",
+      "How do you reconcile source data you don't fully trust before building a forecast on top of it?",
+      "Tell me about a time your analysis had to deliver bad news to leadership. How did you frame it?",
+      "How do you decide which variances are worth a deep investigation versus normal noise?",
+      "Walk me through a scenario model you've built (or would build) for a major business decision."
+    ],
+    "readinessSignals": [
+      "You can build a driver-based model, not just a spreadsheet that extrapolates a trend line.",
+      "You've traced a variance to a specific root cause — volume, price, mix, timing — rather than stopping at “it was lower.”",
+      "You're comfortable enough in SQL to reconcile source data yourself rather than waiting on another team.",
+      "You've delivered a finance narrative that changed a real decision, not just confirmed what leadership expected."
+    ],
+    "faqs": [
+      {
+        "q": "Do I need an MBA or accounting degree?",
+        "a": "Not required, though a finance, accounting, economics or related background helps with the fundamentals. What matters most is modeling rigor, SQL/data fluency, and the judgment to turn a number into a decision-ready narrative — skills you can build without a specific credential."
+      },
+      {
+        "q": "FP&A Analyst vs. Financial Analyst — is there a difference?",
+        "a": "Titles vary by company. “FP&A” often signals a planning/forecasting-focused role within a company; “Financial Analyst” can mean anything from FP&A-style work to equity research to corporate development, depending on the industry. Read the actual responsibilities, not just the title."
+      },
+      {
+        "q": "How important is SQL if I'm already strong in Excel?",
+        "a": "Increasingly important. Excel remains central for modeling, but current postings expect analysts to query and reconcile source data directly rather than depend entirely on someone else's extract — “I can't do that without a data team” is a limiting answer in more interviews than it used to be."
+      }
+    ]
   }
 ]

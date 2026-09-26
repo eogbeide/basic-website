@@ -903,10 +903,42 @@ a {
 
 .role-guide {
   margin-top: 20px;
-  padding: 20px 22px;
   border: 1px solid #2a2a2a;
   border-radius: 12px;
   background: linear-gradient(180deg, #1c1d1e 0%, #17181a 100%);
+}
+
+.role-guide-summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 16px 22px;
+  color: #ffc629;
+  font-size: 14px;
+  font-weight: 700;
+  user-select: none;
+}
+
+.role-guide-summary::-webkit-details-marker {
+  display: none;
+}
+
+.role-guide-summary::before {
+  content: '\25b8';
+  display: inline-block;
+  margin-right: 10px;
+  transition: transform 0.15s ease;
+}
+
+.role-guide[open] .role-guide-summary::before {
+  transform: rotate(90deg);
+}
+
+.role-guide-summary:hover {
+  color: #ffd35c;
+}
+
+.role-guide-body {
+  padding: 0 22px 20px;
 }
 
 .guide-overview p {
