@@ -100,7 +100,8 @@ a {
   background: rgba(255, 198, 41, 0.06);
 }
 
-.academy-hero h1 {
+.academy-hero h1,
+.academy-hero .hero-tagline-heading {
   font-size: 40px;
   line-height: 1.15;
   letter-spacing: -0.5px;
@@ -297,7 +298,8 @@ a {
 }
 
 @media (max-width: 620px) {
-  .academy-hero h1 {
+  .academy-hero h1,
+  .academy-hero .hero-tagline-heading {
     font-size: 28px;
   }
 
