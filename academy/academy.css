@@ -759,15 +759,6 @@ a {
   border-top: 1px solid #2a2a2a;
 }
 
-.level-block.level-locked .competency {
-  opacity: 0.45;
-}
-
-.level-block.level-locked .video-links a,
-.level-block.level-locked .mastery-check {
-  pointer-events: none;
-}
-
 .level-lock-banner {
   display: inline-flex;
   align-items: center;
@@ -780,6 +771,98 @@ a {
   border-radius: 6px;
   padding: 6px 12px;
   margin: 0 0 14px;
+}
+
+.level-lock-icon {
+  font-size: 11px;
+}
+
+.role-quickfacts {
+  background-color: #17181a;
+  border: 1px solid #262626;
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin: 0 0 20px;
+}
+
+.role-quickfacts-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.role-quickfact {
+  background-color: #232426;
+  color: #d7d7d7;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.role-outcomes {
+  margin: 0 0 16px;
+  padding-left: 20px;
+  color: #d7d7d7;
+  font-size: 13.5px;
+  line-height: 1.6;
+}
+
+.role-outcomes li {
+  margin-bottom: 6px;
+}
+
+.role-outcomes li:last-child {
+  margin-bottom: 0;
+}
+
+.role-cta {
+  display: inline-block;
+  background-color: #ffc629;
+  color: #111;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 13.5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.role-cta:hover {
+  background-color: #ffd35c;
+}
+
+.role-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 20px;
+  background-color: #151617;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.role-tab {
+  flex: 1;
+  background: none;
+  border: none;
+  color: #8a8a8a;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.role-tab:hover {
+  color: #d7d7d7;
+}
+
+.role-tab.active {
+  background-color: #ffc629;
+  color: #111;
 }
 
 .level-block:first-of-type {

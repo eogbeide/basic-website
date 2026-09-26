@@ -141,17 +141,6 @@
     );
   }
 
-  function renderInterviewPrepEmbed(role) {
-    var track = INTERVIEW_TRACK_BY_ROLE[role.name];
-    if (!track) return '';
-    return (
-      '<details class="role-guide">' +
-      '<summary class="role-guide-summary">Interview Prep for This Role &mdash; Mock Practice, Videos &amp; Pass Rubric</summary>' +
-      '<div class="role-guide-body">' + renderInterviewTrackBody(track) + '</div>' +
-      '</details>'
-    );
-  }
-
   function renderRole(role) {
     var bonus = (role.bonus || [])
       .map(function (b) {
@@ -165,13 +154,9 @@
         );
       })
       .join('');
-    return (
-      '<div class="detail-card">' +
-      '<h2>' + escapeHtml(role.name) + '</h2>' +
-      renderShareBar('https://zuyini.com/academy/roles/' + slugify(role.name) + '/', role.name + ' | Zuyini Academy') +
-      (role.benchmark ? '<p class="detail-benchmark">Benchmark: ' + escapeHtml(role.benchmark) + '</p>' : '') +
+
+    var masteryPanel =
       renderRoleGuide(role) +
-      renderInterviewPrepEmbed(role) +
       role.levels.map(function (lvl, i) { return renderLevel(lvl, i); }).join('') +
       (bonus
         ? '<div class="cross-links-block"><h3>Bonus Quick Explainer</h3><ul class="video-links">' + bonus + '</ul></div>'
@@ -181,7 +166,33 @@
         : '') +
       (role.rubric
         ? '<div class="rubric-block"><h3>Proof Rubric</h3><p>' + escapeHtml(role.rubric) + '</p></div>'
-        : '') +
+        : '');
+
+    // Interview Prep used to render as a collapsed section stacked right
+    // under the Mastery Track, which read as the same content repeated
+    // twice. Roles with a matching track now get a "Learn the Role" /
+    // "Prep for Interviews" tab switch instead, so a visitor sees one
+    // track at a time; roles with no track render exactly as before.
+    var track = INTERVIEW_TRACK_BY_ROLE[role.name];
+    var bodyHtml;
+    if (track) {
+      bodyHtml =
+        '<div class="role-tabs" role="tablist">' +
+        '<button type="button" class="role-tab active" data-role-tab="mastery" role="tab" aria-selected="true">Learn the Role</button>' +
+        '<button type="button" class="role-tab" data-role-tab="interview" role="tab" aria-selected="false">Prep for Interviews</button>' +
+        '</div>' +
+        '<div class="role-tab-panel" data-role-panel="mastery">' + masteryPanel + '</div>' +
+        '<div class="role-tab-panel" data-role-panel="interview" hidden>' + renderInterviewTrackBody(track) + '</div>';
+    } else {
+      bodyHtml = masteryPanel;
+    }
+
+    return (
+      '<div class="detail-card">' +
+      '<h2>' + escapeHtml(role.name) + '</h2>' +
+      renderShareBar('https://zuyini.com/academy/roles/' + slugify(role.name) + '/', role.name + ' | Zuyini Academy') +
+      (role.benchmark ? '<p class="detail-benchmark">Benchmark: ' + escapeHtml(role.benchmark) + '</p>' : '') +
+      bodyHtml +
       '</div>'
     );
   }
@@ -649,9 +660,14 @@
     var card = detailEl.querySelector('.detail-card');
     var h2 = card && card.querySelector('h2');
     if (!card || !h2) return;
+    // Roles with a matching Interview Prep tab render a second, hidden
+    // panel that reuses the same .level-block/.video-links markup -- scope
+    // every query to the Mastery panel alone so its progress tracking
+    // doesn't pick up the (separately tracked-nowhere) interview videos.
+    var scopeEl = card.querySelector('[data-role-panel="mastery"]') || card;
 
     var items = Array.prototype.filter.call(
-      card.querySelectorAll('.video-links li, .tier-bridges li, .course-sequence li, .tier-courses li'),
+      scopeEl.querySelectorAll('.video-links li, .tier-bridges li, .course-sequence li, .tier-courses li'),
       function (li) {
         if (li.querySelector('.play-icon')) return true; // a direct video/resource link
         return !!li.closest('.course-sequence, .tier-courses'); // a course-sequence entry (cross-link, external link, or plain text)
@@ -668,21 +684,90 @@
     });
 
     // Roles have an explicit Basic -> Intermediate -> Advanced ladder
-    // (role.levels, always in that order); lock a level until every
-    // trackable item in the level before it is checked off.
-    var levelBlocks = mode === 'roles' ? Array.prototype.slice.call(card.querySelectorAll('.level-block')) : [];
+    // (role.levels, always in that order). Every tier stays open and
+    // clickable -- an experienced learner can jump straight to Advanced --
+    // but a tier that follows an incomplete one gets a non-blocking
+    // "Recommended after ..." hint rather than a hard lock, so the site's
+    // most advanced content is never hidden from a first-time visitor.
+    var levelBlocks = mode === 'roles' ? Array.prototype.slice.call(scopeEl.querySelectorAll('.level-block')) : [];
     var itemLevelIndex = items.map(function (li) {
       var block = li.closest && li.closest('.level-block');
       return block ? parseInt(block.getAttribute('data-level-index'), 10) : -1;
     });
-    var levelUnlocked = [];
 
     var badge = document.createElement('div');
     badge.className = 'mastery-badge';
     h2.insertAdjacentElement('afterend', badge);
 
-    function computeLevelLocks() {
-      levelUnlocked = [];
+    var roleHeader = mode === 'roles' ? buildRoleQuickFacts() : null;
+
+    function buildRoleQuickFacts() {
+      var panel = document.createElement('div');
+      panel.className = 'role-quickfacts';
+
+      var factsRow = document.createElement('div');
+      factsRow.className = 'role-quickfacts-row';
+      var hasCapstone = !!scopeEl.querySelector('.capstone-block');
+      var factTexts = [items.length + ' lesson' + (items.length === 1 ? '' : 's'), levelBlocks.length + ' levels'];
+      if (hasCapstone) factTexts.push('1 capstone project');
+      factTexts.forEach(function (t) {
+        var span = document.createElement('span');
+        span.className = 'role-quickfact';
+        span.textContent = t;
+        factsRow.appendChild(span);
+      });
+      panel.appendChild(factsRow);
+
+      var intros = levelBlocks
+        .map(function (b) { var p = b.querySelector('.level-intro'); return p ? p.textContent : ''; })
+        .filter(Boolean);
+      if (intros.length) {
+        var ul = document.createElement('ul');
+        ul.className = 'role-outcomes';
+        intros.forEach(function (t) {
+          var li = document.createElement('li');
+          li.textContent = t;
+          ul.appendChild(li);
+        });
+        panel.appendChild(ul);
+      }
+
+      var cta = document.createElement('button');
+      cta.type = 'button';
+      cta.className = 'role-cta';
+      cta.addEventListener('click', function () {
+        var target;
+        if (state.filter(Boolean).length >= items.length) {
+          target = scopeEl.querySelector('.capstone-block') || scopeEl.querySelector('.rubric-block');
+        } else {
+          var nextIndex = state.findIndex(function (v) { return !v; });
+          target = nextIndex >= 0 ? items[nextIndex] : null;
+        }
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+      panel.appendChild(cta);
+
+      badge.insertAdjacentElement('afterend', panel);
+      return { cta: cta };
+    }
+
+    function updateRoleCta() {
+      if (!roleHeader) return;
+      var checkedCount = state.filter(Boolean).length;
+      var firstLevelLabel = levelBlocks.length ? levelBlocks[0].querySelector('.level-badge').textContent : 'Basic';
+      if (checkedCount === 0) {
+        roleHeader.cta.textContent = 'Start ' + firstLevelLabel + ' → Lesson 1';
+      } else if (checkedCount < items.length) {
+        var nextIndex = state.findIndex(function (v) { return !v; });
+        var nextItem = nextIndex >= 0 ? items[nextIndex] : null;
+        var competencyTitle = nextItem && nextItem.closest('.competency') && nextItem.closest('.competency').querySelector('.competency-title');
+        roleHeader.cta.textContent = 'Continue: ' + (competencyTitle ? competencyTitle.textContent : 'next lesson');
+      } else {
+        roleHeader.cta.textContent = scopeEl.querySelector('.capstone-block') ? 'Review your capstone' : 'All lessons complete';
+      }
+    }
+
+    function computeLevelRecommendations() {
       if (!levelBlocks.length) return;
       var priorComplete = true;
       levelBlocks.forEach(function (block, levelIdx) {
@@ -690,35 +775,37 @@
         itemLevelIndex.forEach(function (li, i) { if (li === levelIdx) indices.push(i); });
         var checked = indices.filter(function (i) { return state[i]; }).length;
         var thisLevelComplete = indices.length === 0 || checked === indices.length;
-        var unlocked = levelIdx === 0 || priorComplete;
-        levelUnlocked[levelIdx] = unlocked;
+        var recommended = levelIdx === 0 || priorComplete;
 
-        block.classList.toggle('level-locked', !unlocked);
         var banner = block.querySelector('.level-lock-banner');
-        if (!unlocked && !banner) {
+        if (!recommended && !banner) {
           banner = document.createElement('p');
           banner.className = 'level-lock-banner';
-          banner.textContent = '🔒 Complete the previous level to unlock';
+          var prevBadge = levelBlocks[levelIdx - 1].querySelector('.level-badge');
+          var iconSpan = document.createElement('span');
+          iconSpan.className = 'level-lock-icon';
+          iconSpan.setAttribute('aria-hidden', 'true');
+          iconSpan.textContent = '★';
+          banner.appendChild(iconSpan);
+          banner.appendChild(document.createTextNode(
+            ' Recommended after ' + (prevBadge ? prevBadge.textContent : 'the previous level') + ' — every lesson below is still open.'
+          ));
           block.insertBefore(banner, block.firstChild);
-        } else if (unlocked && banner) {
+        } else if (recommended && banner) {
           banner.remove();
         }
         priorComplete = priorComplete && thisLevelComplete;
       });
     }
 
-    function isLevelLockedFor(i) {
-      var levelIdx = itemLevelIndex[i];
-      return levelIdx >= 0 && levelUnlocked[levelIdx] === false;
-    }
-
     function refresh() {
-      computeLevelLocks();
+      computeLevelRecommendations();
       updateMasteryBadge(badge, state.filter(Boolean).length, items.length);
+      updateRoleCta();
       items.forEach(function (li, i) {
         var cb = li.querySelector('.mastery-check');
         if (!cb) return;
-        cb.disabled = isLevelLockedFor(i) || !clickState[i];
+        cb.disabled = !clickState[i];
         cb.title = clickState[i] ? '' : 'Open the link first to mark this complete';
       });
     }
@@ -818,6 +905,22 @@
   });
 
   detailEl.addEventListener('click', function (e) {
+    var tabBtn = e.target.closest('[data-role-tab]');
+    if (tabBtn) {
+      var tabsContainer = tabBtn.closest('.role-tabs');
+      var card = tabBtn.closest('.detail-card');
+      if (!tabsContainer || !card) return;
+      var targetTab = tabBtn.getAttribute('data-role-tab');
+      Array.prototype.forEach.call(tabsContainer.querySelectorAll('.role-tab'), function (b) {
+        var active = b === tabBtn;
+        b.classList.toggle('active', active);
+        b.setAttribute('aria-selected', active ? 'true' : 'false');
+      });
+      Array.prototype.forEach.call(card.querySelectorAll('.role-tab-panel'), function (p) {
+        p.hidden = p.getAttribute('data-role-panel') !== targetTab;
+      });
+      return;
+    }
     var pill = e.target.closest('[data-cross-role]');
     if (pill) {
       setMode('roles', pill.getAttribute('data-cross-role'), true);
