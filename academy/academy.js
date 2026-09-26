@@ -778,6 +778,18 @@
     return score;
   }
 
+  function toResult(s, maxPossible) {
+    var percent = Math.max(1, Math.min(100, Math.round((s.score / maxPossible) * 100)));
+    return {
+      type: s.entry.type,
+      typeLabel: s.entry.typeLabel,
+      slug: s.entry.slug,
+      name: s.entry.name,
+      snippet: s.entry.snippet,
+      matchPercent: percent,
+    };
+  }
+
   function searchSkills(query) {
     if (!skillIndex) skillIndex = buildSkillIndex();
     var words = query.toLowerCase().split(/[^a-z0-9+.#]+/).filter(function (w) {
@@ -789,17 +801,22 @@
       .map(function (entry) { return { entry: entry, score: scoreEntry(words, entry) }; })
       .filter(function (s) { return s.score > 0; });
     scored.sort(function (a, b) { return b.score - a.score; });
-    return scored.slice(0, 3).map(function (s) {
-      var percent = Math.max(1, Math.min(100, Math.round((s.score / maxPossible) * 100)));
-      return {
-        type: s.entry.type,
-        typeLabel: s.entry.typeLabel,
-        slug: s.entry.slug,
-        name: s.entry.name,
-        snippet: s.entry.snippet,
-        matchPercent: percent,
-      };
-    });
+
+    var top = scored.slice(0, 3);
+
+    // Roles/pathways/certificates carry far more searchable text (a
+    // benchmark, capstone, rubric and a dozen competency tags) than a
+    // standalone course (just a name + one-paragraph description), so a
+    // course can be the most precisely-named match for a skill and still
+    // get outscored on raw keyword volume. Guarantee its best match a slot
+    // whenever one exists, rather than let it get crowded out entirely.
+    var hasCourse = top.some(function (s) { return s.entry.type === 'course'; });
+    if (!hasCourse) {
+      var bestCourse = scored.find(function (s) { return s.entry.type === 'course'; });
+      if (bestCourse) top = top.slice(0, 3).concat([bestCourse]);
+    }
+
+    return top.map(function (s) { return toResult(s, maxPossible); });
   }
 
   function truncateSnippet(str, n) {
