@@ -1976,5 +1976,1335 @@
     ],
     "page": 589,
     "category": "Business & Management"
+  },
+  {
+    "name": "Comprehensive Certificate in Economics",
+    "description": "A quantitative, decision-oriented certificate spanning microeconomics, macroeconomics, econometrics, game theory, behavioral economics, financial markets and policy - with causal reasoning and evidence at its core.",
+    "university_benchmark": "Stanford Economics BA/BS | MIT Economics | Harvard Economics | Yale Financial Markets",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Microeconomic reasoning",
+            "url": "https://www.youtube.com/watch?v=Vss3nofHpZI"
+          },
+          {
+            "title": "Macroeconomic systems",
+            "url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-1-v2_mp4/"
+          },
+          {
+            "title": "Math + statistical thinking",
+            "url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-1_mp4/"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Microeconomic reasoning",
+            "url": "https://www.youtube.com/watch?v=Vss3nofHpZI"
+          },
+          {
+            "topic": "Macroeconomic fluctuations + growth",
+            "url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-1-v2_mp4/"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Econometrics + regression",
+            "url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-14_mp4/"
+          },
+          {
+            "title": "Game theory + strategic behavior",
+            "url": "https://oyc.yale.edu/economics/econ-159/lecture-1"
+          },
+          {
+            "title": "Behavioral + institutional economics",
+            "url": "https://oyc.yale.edu/economics/econ-252-11/lecture-11"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Data + econometric foundations",
+            "url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-1_mp4/"
+          },
+          {
+            "topic": "Causal inference + empirical design",
+            "url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-14_mp4/"
+          },
+          {
+            "topic": "Game theory + strategic behavior",
+            "url": "https://oyc.yale.edu/economics/econ-159/lecture-1"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "Causal inference + policy evaluation",
+            "url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-17-v2_mp4/"
+          },
+          {
+            "title": "Growth, finance + open economy",
+            "url": "https://www.youtube.com/watch?v=Vss3nofHpZI"
+          },
+          {
+            "title": "Applied economic research",
+            "url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-1-v2_mp4/"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Behavioral economics + institutions",
+            "url": "https://oyc.yale.edu/economics/econ-252-11/lecture-11"
+          },
+          {
+            "topic": "Open economy + financial systems",
+            "url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-17-v2_mp4/"
+          }
+        ]
+      }
+    ],
+    "capstone": "Choose a consequential economic decision or policy question. Define the economic mechanism and competing hypotheses; assemble a transparent dataset; produce descriptive analysis and an econometric or causal design; stress-test assumptions and uncertainty; incorporate strategic, behavioral or institutional forces; quantify welfare, business or distributional tradeoffs; and deliver a reproducible notebook plus an executive or policy memo with a decision and limitations.",
+    "evidence_standard": "Explicit assumptions; correct use of micro/macro concepts; reproducible data preparation; statistically coherent estimates; clear distinction between correlation and causation; uncertainty and robustness; strategic and behavioral reasoning where relevant; quantitative tradeoffs; and communication that states what the evidence does and does not support. RELEASE QUALITY STANDARD: long-form academic instruction, reproducible evidence, explicit limitations and a capstone artifact that can be inspected - not just claimed.",
+    "resource_links": [
+      {
+        "competency": "Microeconomic reasoning",
+        "coverage": "MIT OCW",
+        "url": "https://www.youtube.com/watch?v=Vss3nofHpZI"
+      },
+      {
+        "competency": "Macroeconomic fluctuations + growth",
+        "coverage": "MIT OCW",
+        "url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-1-v2_mp4/"
+      },
+      {
+        "competency": "Data + econometric foundations",
+        "coverage": "MIT",
+        "url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-1_mp4/"
+      },
+      {
+        "competency": "Causal inference + empirical design",
+        "coverage": "MIT",
+        "url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-14_mp4/"
+      },
+      {
+        "competency": "Game theory + strategic behavior",
+        "coverage": "Yale",
+        "url": "https://oyc.yale.edu/economics/econ-159/lecture-1"
+      },
+      {
+        "competency": "Behavioral economics + institutions",
+        "coverage": "Yale",
+        "url": "https://oyc.yale.edu/economics/econ-252-11/lecture-11"
+      },
+      {
+        "competency": "Open economy + financial systems",
+        "coverage": "MIT OCW",
+        "url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-17-v2_mp4/"
+      }
+    ],
+    "page": 626,
+    "category": "Social & Behavioral Sciences"
+  },
+  {
+    "name": "Comprehensive Certificate in Psychology",
+    "description": "A scientific, research-centered certificate in mind and behavior spanning brain, cognition, development, learning, emotion, personality, social psychology, research methods and psychopathology. Non-credit and non-clinical; it does not confer clinical licensure.",
+    "university_benchmark": "Stanford Psychology | Yale Psychology | Harvard Psychology",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Scientific psychology + evidence",
+            "url": "https://oyc.yale.edu/psychology/psyc-110/lecture-1"
+          },
+          {
+            "title": "Brain + cognition",
+            "url": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/pages/science-research/"
+          },
+          {
+            "title": "Development + language",
+            "url": "https://oyc.yale.edu/psychology/psyc-110/lecture-2"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Scientific psychology",
+            "url": "https://oyc.yale.edu/psychology/psyc-110/lecture-1"
+          },
+          {
+            "topic": "Research methods + experimental design",
+            "url": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/pages/science-research/"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Learning + memory",
+            "url": "https://oyc.yale.edu/psychology/psyc-110/lecture-5"
+          },
+          {
+            "title": "Emotion + personality",
+            "url": "https://oyc.yale.edu/psychology/psyc-110/lecture-4"
+          },
+          {
+            "title": "Social psychology",
+            "url": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/pages/social-psychology-i/"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Brain + cognition",
+            "url": "https://oyc.yale.edu/psychology/psyc-110/lecture-2"
+          },
+          {
+            "topic": "Development + language",
+            "url": "https://oyc.yale.edu/psychology/psyc-110/lecture-5"
+          },
+          {
+            "topic": "Learning + memory",
+            "url": "https://oyc.yale.edu/psychology/psyc-110/lecture-4"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "Psychopathology + well-being",
+            "url": "https://oyc.yale.edu/psychology/psyc-110/lecture-18"
+          },
+          {
+            "title": "Experimental design + statistics",
+            "url": "https://oyc.yale.edu/psychology/psyc-110/lecture-1"
+          },
+          {
+            "title": "Integrated behavioral research",
+            "url": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/pages/science-research/"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Social + individual differences",
+            "url": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/pages/social-psychology-i/"
+          },
+          {
+            "topic": "Psychopathology + well-being",
+            "url": "https://oyc.yale.edu/psychology/psyc-110/lecture-18"
+          }
+        ]
+      }
+    ],
+    "capstone": "Design a decision-relevant psychology study. State a theory and preregistered-style hypothesis; define constructs and measures; create a sampling and ethics plan; run or simulate an experiment or defensible observational study; analyze the data with uncertainty; critique or attempt to replicate a classic finding; compare alternative explanations; and translate the result into an applied recommendation while explicitly separating research insight from clinical diagnosis or treatment.",
+    "evidence_standard": "Clear theory-to-hypothesis logic; ethical sampling and consent reasoning; valid operationalization; appropriate design and statistics; correlation-versus-causation discipline; replication and reproducibility awareness; alternative explanations; calibrated uncertainty; responsible application; and explicit non-clinical boundaries. RELEASE QUALITY STANDARD: long-form academic instruction, reproducible evidence, explicit limitations and a capstone artifact that can be inspected - not just claimed.",
+    "resource_links": [
+      {
+        "competency": "Scientific psychology",
+        "coverage": "Yale",
+        "url": "https://oyc.yale.edu/psychology/psyc-110/lecture-1"
+      },
+      {
+        "competency": "Research methods + experimental design",
+        "coverage": "MIT OCW",
+        "url": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/pages/science-research/"
+      },
+      {
+        "competency": "Brain + cognition",
+        "coverage": "Yale",
+        "url": "https://oyc.yale.edu/psychology/psyc-110/lecture-2"
+      },
+      {
+        "competency": "Development + language",
+        "coverage": "Yale",
+        "url": "https://oyc.yale.edu/psychology/psyc-110/lecture-5"
+      },
+      {
+        "competency": "Learning + memory",
+        "coverage": "Yale",
+        "url": "https://oyc.yale.edu/psychology/psyc-110/lecture-4"
+      },
+      {
+        "competency": "Social + individual differences",
+        "coverage": "MIT OCW",
+        "url": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/pages/social-psychology-i/"
+      },
+      {
+        "competency": "Psychopathology + well-being",
+        "coverage": "Yale",
+        "url": "https://oyc.yale.edu/psychology/psyc-110/lecture-18"
+      }
+    ],
+    "page": 628,
+    "category": "Social & Behavioral Sciences"
+  },
+  {
+    "name": "Comprehensive Certificate in Sociology",
+    "description": "A theory-and-evidence certificate for understanding how institutions, culture, markets, organizations, networks, inequality and social change shape behavior and outcomes, integrating qualitative and quantitative social research.",
+    "university_benchmark": "Stanford Sociology | Harvard Sociology | UC Berkeley Sociology",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Sociological imagination + theory",
+            "url": "https://oyc.yale.edu/sociology/socy-151/lecture-1"
+          },
+          {
+            "title": "Institutions + culture",
+            "url": "https://oyc.yale.edu/sociology/socy-151/lecture-8"
+          },
+          {
+            "title": "Economy + organizations",
+            "url": "https://oyc.yale.edu/sociology/socy-151/lecture-13"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Sociological imagination + classical theory",
+            "url": "https://oyc.yale.edu/sociology/socy-151/lecture-1"
+          },
+          {
+            "topic": "Class, labor + alienation",
+            "url": "https://oyc.yale.edu/sociology/socy-151/lecture-8"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Inequality + stratification",
+            "url": "https://oyc.yale.edu/sociology/socy-151/lecture-16"
+          },
+          {
+            "title": "Power, authority + networks",
+            "url": "https://oyc.yale.edu/sociology/socy-151/lecture-21"
+          },
+          {
+            "title": "Qualitative + quantitative methods",
+            "url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-1_mp4/"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Institutions, capitalism + authority",
+            "url": "https://oyc.yale.edu/sociology/socy-151/lecture-13"
+          },
+          {
+            "topic": "Social order + anomie",
+            "url": "https://oyc.yale.edu/sociology/socy-151/lecture-16"
+          },
+          {
+            "topic": "Stratification + social facts",
+            "url": "https://oyc.yale.edu/sociology/socy-151/lecture-21"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "Causal social-data analysis",
+            "url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-22_mp4/"
+          },
+          {
+            "title": "Policy + social change",
+            "url": "https://oyc.yale.edu/sociology/socy-151/lecture-1"
+          },
+          {
+            "title": "Independent sociological research",
+            "url": "https://oyc.yale.edu/sociology/socy-151/lecture-8"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Social data + quantitative methods",
+            "url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-1_mp4/"
+          },
+          {
+            "topic": "Causality + experimental design",
+            "url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-22_mp4/"
+          }
+        ]
+      }
+    ],
+    "capstone": "Formulate a sociological question about an organization, market, community or policy. Build a theory and literature map; operationalize the core constructs; collect or curate qualitative and quantitative evidence; document sampling and ethics; code qualitative data transparently and analyze quantitative patterns; confront causal limits and alternative mechanisms; compare groups, institutions or time periods; then produce a research memo plus a public-facing data story or organizational recommendation.",
+    "evidence_standard": "Theory-evidence alignment; construct validity; ethical sampling; transparent qualitative coding; reproducible quantitative analysis; careful subgroup definitions; causal humility; explicit alternative mechanisms; context-aware interpretation of inequality and institutions; mixed-method triangulation; and clear communication without unsupported generalization. RELEASE QUALITY STANDARD: long-form academic instruction, reproducible evidence, explicit limitations and a capstone artifact that can be inspected - not just claimed.",
+    "resource_links": [
+      {
+        "competency": "Sociological imagination + classical theory",
+        "coverage": "Yale",
+        "url": "https://oyc.yale.edu/sociology/socy-151/lecture-1"
+      },
+      {
+        "competency": "Class, labor + alienation",
+        "coverage": "Yale",
+        "url": "https://oyc.yale.edu/sociology/socy-151/lecture-8"
+      },
+      {
+        "competency": "Institutions, capitalism + authority",
+        "coverage": "Yale",
+        "url": "https://oyc.yale.edu/sociology/socy-151/lecture-13"
+      },
+      {
+        "competency": "Social order + anomie",
+        "coverage": "Yale",
+        "url": "https://oyc.yale.edu/sociology/socy-151/lecture-16"
+      },
+      {
+        "competency": "Stratification + social facts",
+        "coverage": "Yale",
+        "url": "https://oyc.yale.edu/sociology/socy-151/lecture-21"
+      },
+      {
+        "competency": "Social data + quantitative methods",
+        "coverage": "MIT",
+        "url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-1_mp4/"
+      },
+      {
+        "competency": "Causality + experimental design",
+        "coverage": "MIT",
+        "url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-22_mp4/"
+      }
+    ],
+    "page": 630,
+    "category": "Social & Behavioral Sciences"
+  },
+  {
+    "name": "Comprehensive Certificate in Pharmacy",
+    "description": "A science-centered, non-licensure pharmacy certificate spanning drug action, medicinal chemistry, pharmaceutics, pharmacokinetics, therapeutics, medication safety, evidence appraisal, precision medicine and pharmacovigilance.",
+    "university_benchmark": "University of Washington PharmD | UCSF PharmD | UT Austin PharmD",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Drug action + receptor biology",
+            "url": "https://www.youtube.com/watch?v=kkUxUBoM-hM"
+          },
+          {
+            "title": "Pharmacokinetics + pharmacodynamics",
+            "url": "https://www.youtube.com/watch?v=JDpg2tdHdq0"
+          },
+          {
+            "title": "Medicinal chemistry + dosage-form science",
+            "url": "https://www.youtube.com/watch?v=lCJke5YtZZo"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Absorption, bioavailability + routes",
+            "url": "https://www.youtube.com/watch?v=kkUxUBoM-hM"
+          },
+          {
+            "topic": "Receptors, dose-response + therapeutic index",
+            "url": "https://www.youtube.com/watch?v=JDpg2tdHdq0"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Evidence-based pharmacotherapy",
+            "url": "https://www.youtube.com/watch?v=GGtwJ-SGXTA"
+          },
+          {
+            "title": "Interactions, toxicity + medication safety",
+            "url": "https://www.fda.gov/drugs/information-consumers-and-patients-drugs/overview-our-role-regulating-and-approving-drugs-video-series"
+          },
+          {
+            "title": "Calculations, dosing + monitoring",
+            "url": "https://www.fda.gov/science-research/fda-grand-rounds/fda-grand-rounds-pharmacovigilance-practice-safety-signals-regulatory-action-05142026"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Autonomic pharmacology",
+            "url": "https://www.youtube.com/watch?v=lCJke5YtZZo"
+          },
+          {
+            "topic": "Antimicrobials + resistance",
+            "url": "https://www.youtube.com/watch?v=GGtwJ-SGXTA"
+          },
+          {
+            "topic": "Drug development + evidence",
+            "url": "https://www.fda.gov/drugs/information-consumers-and-patients-drugs/overview-our-role-regulating-and-approving-drugs-video-series"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "Pharmacogenomics + precision medicine",
+            "url": "https://sop.washington.edu/pharmd/curriculum/"
+          },
+          {
+            "title": "Drug development + regulation",
+            "url": "https://www.youtube.com/watch?v=kkUxUBoM-hM"
+          },
+          {
+            "title": "Pharmacovigilance + medication-use systems",
+            "url": "https://www.youtube.com/watch?v=JDpg2tdHdq0"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Medication safety + pharmacovigilance",
+            "url": "https://www.fda.gov/science-research/fda-grand-rounds/fda-grand-rounds-pharmacovigilance-practice-safety-signals-regulatory-action-05142026"
+          },
+          {
+            "topic": "Integrated pharmacy practice",
+            "url": "https://sop.washington.edu/pharmd/curriculum/"
+          }
+        ]
+      }
+    ],
+    "capstone": "Complete an evidence-based medication-use analysis for a real or simulated clinical scenario. Build a mechanism and PK/PD map; compare candidate therapies; calculate and justify a dosing/monitoring plan; assess interactions, organ function, pharmacogenomic considerations and safety signals; appraise pivotal evidence; design patient- and system-level safeguards; and produce a pharmacist-style medication review plus a post-market risk-monitoring plan. No prescribing or patient-care authority is implied.",
+    "evidence_standard": "Mechanism accuracy; defensible PK/PD reasoning; evidence quality; safe dosing logic; interaction and toxicity awareness; monitoring plan; uncertainty; patient/system context; regulatory and post-market reasoning; explicit non-licensure boundaries. RELEASE QUALITY STANDARD: long-form academic instruction, explicit limitations and an inspectable capstone artifact - not just claimed.",
+    "resource_links": [
+      {
+        "competency": "Absorption, bioavailability + routes",
+        "coverage": "Ninja Nerd",
+        "url": "https://www.youtube.com/watch?v=kkUxUBoM-hM"
+      },
+      {
+        "competency": "Receptors, dose-response + therapeutic index",
+        "coverage": "Ninja Nerd",
+        "url": "https://www.youtube.com/watch?v=JDpg2tdHdq0"
+      },
+      {
+        "competency": "Autonomic pharmacology",
+        "coverage": "Ninja Nerd",
+        "url": "https://www.youtube.com/watch?v=lCJke5YtZZo"
+      },
+      {
+        "competency": "Antimicrobials + resistance",
+        "coverage": "Ninja Nerd",
+        "url": "https://www.youtube.com/watch?v=GGtwJ-SGXTA"
+      },
+      {
+        "competency": "Drug development + evidence",
+        "coverage": "FDA",
+        "url": "https://www.fda.gov/drugs/information-consumers-and-patients-drugs/overview-our-role-regulating-and-approving-drugs-video-series"
+      },
+      {
+        "competency": "Medication safety + pharmacovigilance",
+        "coverage": "FDA Grand Rounds",
+        "url": "https://www.fda.gov/science-research/fda-grand-rounds/fda-grand-rounds-pharmacovigilance-practice-safety-signals-regulatory-action-05142026"
+      },
+      {
+        "competency": "Integrated pharmacy practice",
+        "coverage": "UW PharmD",
+        "url": "https://sop.washington.edu/pharmd/curriculum/"
+      }
+    ],
+    "page": 632,
+    "category": "Health & Life Sciences"
+  },
+  {
+    "name": "Comprehensive Certificate in Laboratory Science",
+    "description": "A diagnostic laboratory science certificate spanning specimen quality, clinical chemistry, hematology, microbiology, immunology, molecular diagnostics, transfusion concepts, instrumentation, quality systems and result interpretation. Non-licensure.",
+    "university_benchmark": "UW Medical Laboratory Science | Mayo Clinic MLS | Indiana University MLS",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Specimens, microscopy + safety",
+            "url": "https://www.cdc.gov/lab-training/php/courses/core-microbiology-skills.html"
+          },
+          {
+            "title": "Measurement, QC + clinical chemistry",
+            "url": "https://www.youtube.com/watch?v=ayFiGn2fYi8"
+          },
+          {
+            "title": "Hematology + immunology foundations",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/video_galleries/lecture-videos/"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Microscopy + specimen fundamentals",
+            "url": "https://www.cdc.gov/lab-training/php/courses/core-microbiology-skills.html"
+          },
+          {
+            "topic": "Microbiology + organism identification",
+            "url": "https://www.youtube.com/watch?v=ayFiGn2fYi8"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Clinical microbiology + identification",
+            "url": "https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/video_galleries/video-lectures/"
+          },
+          {
+            "title": "Coagulation, body fluids + immunohematology",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-videos/"
+          },
+          {
+            "title": "Molecular diagnostics + instrumentation",
+            "url": "https://cdc.gov/lab-training/php/courses/introduction-clinical-laboratory-improvement-amendments-of-1988-clia.html"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Immunology + serologic reasoning",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/video_galleries/lecture-videos/"
+          },
+          {
+            "topic": "Clinical chemistry + measurement systems",
+            "url": "https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/video_galleries/video-lectures/"
+          },
+          {
+            "topic": "Molecular diagnostics + genetics",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-videos/"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "Method validation + uncertainty",
+            "url": "https://cdc.gov/lab-training/php/courses/index.html"
+          },
+          {
+            "title": "QMS, CLIA + laboratory informatics",
+            "url": "https://www.cdc.gov/lab-training/php/courses/core-microbiology-skills.html"
+          },
+          {
+            "title": "Integrated diagnostic correlation",
+            "url": "https://www.youtube.com/watch?v=ayFiGn2fYi8"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Laboratory quality + regulation",
+            "url": "https://cdc.gov/lab-training/php/courses/introduction-clinical-laboratory-improvement-amendments-of-1988-clia.html"
+          },
+          {
+            "topic": "Integrated clinical laboratory practice",
+            "url": "https://cdc.gov/lab-training/php/courses/index.html"
+          }
+        ]
+      }
+    ],
+    "capstone": "Design and defend a simulated diagnostic workup from specimen receipt to final report. Define specimen requirements; select chemistry, hematology, microbiology/immunology and molecular methods; create QC and calibration logic; identify preanalytic and analytic failure modes; interpret discordant results; document reference ranges and uncertainty; build a small laboratory information workflow; and produce a validation/QMS package plus an integrated diagnostic correlation memo.",
+    "evidence_standard": "Specimen control; method appropriateness; QC/calibration reasoning; morphology and diagnostic logic; molecular contamination controls; uncertainty and interferences; traceability; CLIA/QMS awareness; informatics; safe communication; explicit non-licensure boundaries. RELEASE QUALITY STANDARD: long-form academic instruction, explicit limitations and an inspectable capstone artifact - not just claimed.",
+    "resource_links": [
+      {
+        "competency": "Microscopy + specimen fundamentals",
+        "coverage": "CDC",
+        "url": "https://www.cdc.gov/lab-training/php/courses/core-microbiology-skills.html"
+      },
+      {
+        "competency": "Microbiology + organism identification",
+        "coverage": "Ninja Nerd",
+        "url": "https://www.youtube.com/watch?v=ayFiGn2fYi8"
+      },
+      {
+        "competency": "Immunology + serologic reasoning",
+        "coverage": "MIT Biology",
+        "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/video_galleries/lecture-videos/"
+      },
+      {
+        "competency": "Clinical chemistry + measurement systems",
+        "coverage": "MIT Chemistry",
+        "url": "https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/video_galleries/video-lectures/"
+      },
+      {
+        "competency": "Molecular diagnostics + genetics",
+        "coverage": "MIT Biology",
+        "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-videos/"
+      },
+      {
+        "competency": "Laboratory quality + regulation",
+        "coverage": "CDC",
+        "url": "https://cdc.gov/lab-training/php/courses/introduction-clinical-laboratory-improvement-amendments-of-1988-clia.html"
+      },
+      {
+        "competency": "Integrated clinical laboratory practice",
+        "coverage": "CDC",
+        "url": "https://cdc.gov/lab-training/php/courses/index.html"
+      }
+    ],
+    "page": 634,
+    "category": "Health & Life Sciences"
+  },
+  {
+    "name": "Comprehensive Certificate in Data Engineering",
+    "description": "A production-oriented data engineering certificate spanning modeling, ETL/ELT, batch and streaming pipelines, Spark, orchestration, lakehouse architecture, quality, lineage, observability, governance and AI-ready data products.",
+    "university_benchmark": "Amazon/AWS Analytics Engineering | Databricks Lakehouse | Airbnb Data Stewardship",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "SQL + dimensional modeling",
+            "url": "https://www.youtube.com/watch?v=gRE3E7VUzRU"
+          },
+          {
+            "title": "ETL/ELT + orchestration",
+            "url": "https://www.youtube.com/watch?v=aEGan35iBbE"
+          },
+          {
+            "title": "Warehousing + lakehouse foundations",
+            "url": "https://www.youtube.com/watch?v=Cb2BpFoL30g"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Modeling + lakehouse architecture",
+            "url": "https://www.youtube.com/watch?v=gRE3E7VUzRU"
+          },
+          {
+            "topic": "ETL/ELT + orchestration",
+            "url": "https://www.youtube.com/watch?v=aEGan35iBbE"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Spark + distributed processing",
+            "url": "https://www.youtube.com/watch?v=MmvZY1gTAy4"
+          },
+          {
+            "title": "Streaming + event systems",
+            "url": "https://www.youtube.com/watch?v=SVOrURyOu_U"
+          },
+          {
+            "title": "Data quality, SLAs + observability",
+            "url": "https://www.youtube.com/watch?v=gGbGqR49kMQ"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Spark + distributed processing",
+            "url": "https://www.youtube.com/watch?v=Cb2BpFoL30g"
+          },
+          {
+            "topic": "Quality, lineage + observability",
+            "url": "https://www.youtube.com/watch?v=MmvZY1gTAy4"
+          },
+          {
+            "topic": "Distributed architecture + open tables",
+            "url": "https://www.youtube.com/watch?v=SVOrURyOu_U"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "Iceberg/open table formats + performance",
+            "url": "https://www.youtube.com/watch?v=tEylFyxbDLE"
+          },
+          {
+            "title": "Lineage, privacy + governance",
+            "url": "https://www.youtube.com/watch?v=gRE3E7VUzRU"
+          },
+          {
+            "title": "AI-ready self-service data products",
+            "url": "https://www.youtube.com/watch?v=aEGan35iBbE"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Governance + AI-ready data",
+            "url": "https://www.youtube.com/watch?v=gGbGqR49kMQ"
+          },
+          {
+            "topic": "System design + reliability",
+            "url": "https://www.youtube.com/watch?v=tEylFyxbDLE"
+          }
+        ]
+      }
+    ],
+    "capstone": "Own a production data domain end to end. Define contracts and SLAs; model bronze/silver/gold or equivalent layers; ingest batch and streaming structured/unstructured sources; transform with Spark; persist in an open-table format; add quality checks, lineage, observability, IAM/privacy and retention; expose governed datasets to BI/ML/AI consumers; load-test the platform; simulate failure and recovery; and document cost, latency and reliability tradeoffs.",
+    "evidence_standard": "Correct model semantics; replayable/idempotent pipelines; schema evolution; distributed-system reasoning; data quality evidence; lineage; SLOs and incident recovery; privacy/IAM; cost/performance; discoverability; consumer usability; reproducible deployment. RELEASE QUALITY STANDARD: long-form academic instruction, explicit limitations and an inspectable capstone artifact - not just claimed.",
+    "resource_links": [
+      {
+        "competency": "Modeling + lakehouse architecture",
+        "coverage": "Data Modeling",
+        "url": "https://www.youtube.com/watch?v=gRE3E7VUzRU"
+      },
+      {
+        "competency": "ETL/ELT + orchestration",
+        "coverage": "Databricks",
+        "url": "https://www.youtube.com/watch?v=aEGan35iBbE"
+      },
+      {
+        "competency": "Spark + distributed processing",
+        "coverage": "GCP/Kafka/PySpark/Airflow",
+        "url": "https://www.youtube.com/watch?v=Cb2BpFoL30g"
+      },
+      {
+        "competency": "Quality, lineage + observability",
+        "coverage": "Monte Carlo",
+        "url": "https://www.youtube.com/watch?v=MmvZY1gTAy4"
+      },
+      {
+        "competency": "Distributed architecture + open tables",
+        "coverage": "Martin Kleppmann",
+        "url": "https://www.youtube.com/watch?v=SVOrURyOu_U"
+      },
+      {
+        "competency": "Governance + AI-ready data",
+        "coverage": "Databricks",
+        "url": "https://www.youtube.com/watch?v=gGbGqR49kMQ"
+      },
+      {
+        "competency": "System design + reliability",
+        "coverage": "Google Cloud",
+        "url": "https://www.youtube.com/watch?v=tEylFyxbDLE"
+      }
+    ],
+    "page": 636,
+    "category": "Computing & Software"
+  },
+  {
+    "name": "Comprehensive Certificate in Philosophy",
+    "description": "A reasoning-centered philosophy certificate spanning logic, argument, ethics, epistemology, metaphysics, philosophy of mind and science, political philosophy, history of philosophy and independent philosophical writing.",
+    "university_benchmark": "Stanford Philosophy | Yale Philosophy | Harvard Justice / Philosophy",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Logic + argument structure",
+            "url": "https://online.yale.edu/courses/philosophy-and-science-human-nature"
+          },
+          {
+            "title": "Ancient + modern philosophical methods",
+            "url": "https://www.youtube.com/watch?v=kBdfcR-8hEY"
+          },
+          {
+            "title": "Ethics + moral reasoning",
+            "url": "https://www.youtube.com/watch?v=MuiazbyOSqQ"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Philosophical method + argument",
+            "url": "https://online.yale.edu/courses/philosophy-and-science-human-nature"
+          },
+          {
+            "topic": "Ethics + consequentialism",
+            "url": "https://www.youtube.com/watch?v=kBdfcR-8hEY"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Epistemology + skepticism",
+            "url": "https://online.yale.edu/courses/death"
+          },
+          {
+            "title": "Metaphysics + personal identity",
+            "url": "https://ocw.mit.edu/courses/res-9-003-brains-minds-and-machines-summer-course-summer-2015/resources/lecture-0-tomaso-poggio-introduction-to-brains-minds-machines/"
+          },
+          {
+            "title": "Mind, consciousness + language",
+            "url": "https://online.yale.edu/courses/philosophy-and-science-human-nature"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Virtue, justice + political philosophy",
+            "url": "https://www.youtube.com/watch?v=MuiazbyOSqQ"
+          },
+          {
+            "topic": "Metaphysics + personal identity",
+            "url": "https://online.yale.edu/courses/death"
+          },
+          {
+            "topic": "Mind, consciousness + AI",
+            "url": "https://ocw.mit.edu/courses/res-9-003-brains-minds-and-machines-summer-course-summer-2015/resources/lecture-0-tomaso-poggio-introduction-to-brains-minds-machines/"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "Philosophy of science + technology",
+            "url": "https://justiceharvard.org/"
+          },
+          {
+            "title": "Political + social philosophy",
+            "url": "https://online.yale.edu/courses/philosophy-and-science-human-nature"
+          },
+          {
+            "title": "Independent philosophical thesis",
+            "url": "https://www.youtube.com/watch?v=kBdfcR-8hEY"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Knowledge, science + human nature",
+            "url": "https://online.yale.edu/courses/philosophy-and-science-human-nature"
+          },
+          {
+            "topic": "Applied ethics + technology",
+            "url": "https://justiceharvard.org/"
+          }
+        ]
+      }
+    ],
+    "capstone": "Write and defend a substantial philosophical thesis on a consequential question in ethics, knowledge, mind, science, technology or political philosophy. Reconstruct at least two competing positions; formalize the core argument where useful; identify assumptions and counterexamples; develop the strongest objection; reply without straw-manning; distinguish empirical evidence from conceptual claims; and deliver both a research paper and a 10-minute oral defense.",
+    "evidence_standard": "Argument validity; conceptual precision; charitable reconstruction; source use; counterargument quality; distinction between empirical and normative claims; intellectual independence; clear prose; calibrated conclusions; ability to revise under criticism. RELEASE QUALITY STANDARD: long-form academic instruction, explicit limitations and an inspectable capstone artifact - not just claimed.",
+    "resource_links": [
+      {
+        "competency": "Philosophical method + argument",
+        "coverage": "Yale",
+        "url": "https://online.yale.edu/courses/philosophy-and-science-human-nature"
+      },
+      {
+        "competency": "Ethics + consequentialism",
+        "coverage": "Harvard Justice",
+        "url": "https://www.youtube.com/watch?v=kBdfcR-8hEY"
+      },
+      {
+        "competency": "Virtue, justice + political philosophy",
+        "coverage": "Harvard Justice",
+        "url": "https://www.youtube.com/watch?v=MuiazbyOSqQ"
+      },
+      {
+        "competency": "Metaphysics + personal identity",
+        "coverage": "Yale",
+        "url": "https://online.yale.edu/courses/death"
+      },
+      {
+        "competency": "Mind, consciousness + AI",
+        "coverage": "MIT",
+        "url": "https://ocw.mit.edu/courses/res-9-003-brains-minds-and-machines-summer-course-summer-2015/resources/lecture-0-tomaso-poggio-introduction-to-brains-minds-machines/"
+      },
+      {
+        "competency": "Knowledge, science + human nature",
+        "coverage": "Yale",
+        "url": "https://online.yale.edu/courses/philosophy-and-science-human-nature"
+      },
+      {
+        "competency": "Applied ethics + technology",
+        "coverage": "Harvard",
+        "url": "https://justiceharvard.org/"
+      }
+    ],
+    "page": 638,
+    "category": "Humanities & Communication"
+  },
+  {
+    "name": "Comprehensive Certificate in Biochemistry",
+    "description": "A molecular biochemistry certificate spanning biomolecular structure, protein function, enzyme catalysis, membranes, bioenergetics, carbohydrate/lipid/amino-acid metabolism, nucleic acids, signaling and experimental biochemical reasoning.",
+    "university_benchmark": "MIT 7.05 General Biochemistry | MIT 5.07 Biological Chemistry | Harvard MCB",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Proteins, nucleic acids, lipids + carbohydrates",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-videos/"
+          },
+          {
+            "title": "Enzymes, catalysis + kinetics",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-4-enzymes-and-metabolism/"
+          },
+          {
+            "title": "Membranes, transport + bioenergetics",
+            "url": "https://ocw.mit.edu/courses/7-05-general-biochemistry-spring-2020/video_galleries/video-lectures/"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Protein structure + molecular interactions",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-videos/"
+          },
+          {
+            "topic": "Enzymes, catalysis + inhibition",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-4-enzymes-and-metabolism/"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Glycolysis + TCA regulation",
+            "url": "https://ocw.mit.edu/courses/7-05-general-biochemistry-spring-2020/resources/lecture-videos/"
+          },
+          {
+            "title": "Oxidative phosphorylation + redox",
+            "url": "https://ocw.mit.edu/courses/7-05-general-biochemistry-spring-2020/video_galleries/video-lectures/"
+          },
+          {
+            "title": "Lipid + amino-acid metabolism",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-videos/"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Carbohydrates + glycolysis",
+            "url": "https://ocw.mit.edu/courses/7-05-general-biochemistry-spring-2020/video_galleries/video-lectures/"
+          },
+          {
+            "topic": "TCA, redox + oxidative phosphorylation",
+            "url": "https://ocw.mit.edu/courses/7-05-general-biochemistry-spring-2020/resources/lecture-videos/"
+          },
+          {
+            "topic": "Lipids + amino-acid metabolism",
+            "url": "https://ocw.mit.edu/courses/7-05-general-biochemistry-spring-2020/video_galleries/video-lectures/"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "Nucleotide metabolism + gene expression",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-20-cell-signaling-12014overview/"
+          },
+          {
+            "title": "Signaling + metabolic control",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-videos/"
+          },
+          {
+            "title": "Experimental biochemistry + disease mechanisms",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-4-enzymes-and-metabolism/"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Nucleic acids + gene expression",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-videos/"
+          },
+          {
+            "topic": "Signaling + integrated metabolism",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-20-cell-signaling-12014overview/"
+          }
+        ]
+      }
+    ],
+    "capstone": "Investigate a metabolic or molecular mechanism using a reproducible evidence package. Build a pathway and structure-function map; state a mechanistic hypothesis; select biochemical assays and controls; analyze kinetic or metabolic data; trace energy/redox balance; predict effects of a mutation, inhibitor or nutrient perturbation; compare alternative explanations; and produce a research-style report with figures, uncertainty and follow-up experiments.",
+    "evidence_standard": "Molecular accuracy; quantitative enzyme reasoning; pathway integration; bioenergetic bookkeeping; mechanistic causality; appropriate controls; data interpretation; uncertainty; reproducibility; ability to connect molecular perturbation to cellular phenotype. RELEASE QUALITY STANDARD: long-form academic instruction, explicit limitations and an inspectable capstone artifact - not just claimed.",
+    "resource_links": [
+      {
+        "competency": "Protein structure + molecular interactions",
+        "coverage": "MIT 7.016",
+        "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-videos/"
+      },
+      {
+        "competency": "Enzymes, catalysis + inhibition",
+        "coverage": "MIT 7.016",
+        "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-4-enzymes-and-metabolism/"
+      },
+      {
+        "competency": "Carbohydrates + glycolysis",
+        "coverage": "MIT 7.05",
+        "url": "https://ocw.mit.edu/courses/7-05-general-biochemistry-spring-2020/video_galleries/video-lectures/"
+      },
+      {
+        "competency": "TCA, redox + oxidative phosphorylation",
+        "coverage": "MIT 7.05",
+        "url": "https://ocw.mit.edu/courses/7-05-general-biochemistry-spring-2020/resources/lecture-videos/"
+      },
+      {
+        "competency": "Lipids + amino-acid metabolism",
+        "coverage": "MIT 7.05",
+        "url": "https://ocw.mit.edu/courses/7-05-general-biochemistry-spring-2020/video_galleries/video-lectures/"
+      },
+      {
+        "competency": "Nucleic acids + gene expression",
+        "coverage": "MIT 7.016",
+        "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-videos/"
+      },
+      {
+        "competency": "Signaling + integrated metabolism",
+        "coverage": "MIT 7.016",
+        "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-20-cell-signaling-12014overview/"
+      }
+    ],
+    "page": 640,
+    "category": "Health & Life Sciences"
+  },
+  {
+    "name": "Comprehensive Certificate in Chemistry",
+    "description": "A university-benchmarked chemistry certificate spanning atomic and molecular structure, bonding, thermodynamics, equilibrium, acids/bases, electrochemistry, kinetics, inorganic and organic chemistry, spectroscopy, laboratory reasoning and chemical synthesis.",
+    "university_benchmark": "MIT Chemistry | Yale Chemistry | UC Berkeley Chemistry",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Atomic structure + periodicity",
+            "url": "https://ocw.mit.edu/courses/5-111-principles-of-chemical-science-fall-2008/video_galleries/video-lectures/"
+          },
+          {
+            "title": "Bonding, orbitals + molecular geometry",
+            "url": "https://oyc.yale.edu/chemistry/chem-125a/lecture-10"
+          },
+          {
+            "title": "Stoichiometry, energy + thermochemistry",
+            "url": "https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/video_galleries/video-lectures/"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Atomic structure + quantum foundations",
+            "url": "https://ocw.mit.edu/courses/5-111-principles-of-chemical-science-fall-2008/video_galleries/video-lectures/"
+          },
+          {
+            "topic": "Bonding + molecular structure",
+            "url": "https://oyc.yale.edu/chemistry/chem-125a/lecture-10"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Equilibrium, acids/bases + redox",
+            "url": "https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/resources/lecture-15-thermodynamics-bond-and-reaction-enthalpies/"
+          },
+          {
+            "title": "Kinetics + reaction mechanisms",
+            "url": "https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/video_galleries/video-lectures/"
+          },
+          {
+            "title": "Organic structure + stereochemistry",
+            "url": "https://oyc.yale.edu/chemistry/chem-125a"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Thermodynamics + equilibrium",
+            "url": "https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/video_galleries/video-lectures/"
+          },
+          {
+            "topic": "Acid-base + electrochemistry",
+            "url": "https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/resources/lecture-15-thermodynamics-bond-and-reaction-enthalpies/"
+          },
+          {
+            "topic": "Kinetics + mechanisms",
+            "url": "https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/video_galleries/video-lectures/"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "Spectroscopy + structure elucidation",
+            "url": "https://ocw.mit.edu/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/pages/organic-materials/27-introduction-to-organic-chemistry/"
+          },
+          {
+            "title": "Inorganic / materials + coordination chemistry",
+            "url": "https://ocw.mit.edu/courses/5-111-principles-of-chemical-science-fall-2008/video_galleries/video-lectures/"
+          },
+          {
+            "title": "Experimental design + chemical synthesis",
+            "url": "https://oyc.yale.edu/chemistry/chem-125a/lecture-10"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Organic structure + synthesis",
+            "url": "https://oyc.yale.edu/chemistry/chem-125a"
+          },
+          {
+            "topic": "Experimental chemical reasoning",
+            "url": "https://ocw.mit.edu/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/pages/organic-materials/27-introduction-to-organic-chemistry/"
+          }
+        ]
+      }
+    ],
+    "capstone": "Solve an integrated chemistry problem from molecular hypothesis to evidence. Select a compound or reaction system; predict structure, bonding and energetics; model equilibrium and kinetic behavior; propose an organic/inorganic mechanism; design a safe experiment with controls; analyze simulated or public spectroscopy/measurement data; quantify uncertainty; and produce a synthesis or characterization plan plus a research memo that explains what the evidence supports.",
+    "evidence_standard": "Stoichiometric and electronic-structure accuracy; thermodynamic consistency; equilibrium and kinetics; mechanistic evidence; stereochemical reasoning; measurement quality; uncertainty; laboratory safety; reproducibility; clear structure-property-reactivity explanation. RELEASE QUALITY STANDARD: long-form academic instruction, explicit limitations and an inspectable capstone artifact - not just claimed.",
+    "resource_links": [
+      {
+        "competency": "Atomic structure + quantum foundations",
+        "coverage": "MIT 5.111",
+        "url": "https://ocw.mit.edu/courses/5-111-principles-of-chemical-science-fall-2008/video_galleries/video-lectures/"
+      },
+      {
+        "competency": "Bonding + molecular structure",
+        "coverage": "Yale",
+        "url": "https://oyc.yale.edu/chemistry/chem-125a/lecture-10"
+      },
+      {
+        "competency": "Thermodynamics + equilibrium",
+        "coverage": "MIT 5.60",
+        "url": "https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/video_galleries/video-lectures/"
+      },
+      {
+        "competency": "Acid-base + electrochemistry",
+        "coverage": "MIT 5.111",
+        "url": "https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/resources/lecture-15-thermodynamics-bond-and-reaction-enthalpies/"
+      },
+      {
+        "competency": "Kinetics + mechanisms",
+        "coverage": "MIT 5.60",
+        "url": "https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/video_galleries/video-lectures/"
+      },
+      {
+        "competency": "Organic structure + synthesis",
+        "coverage": "Yale",
+        "url": "https://oyc.yale.edu/chemistry/chem-125a"
+      },
+      {
+        "competency": "Experimental chemical reasoning",
+        "coverage": "MIT 3.091",
+        "url": "https://ocw.mit.edu/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/pages/organic-materials/27-introduction-to-organic-chemistry/"
+      }
+    ],
+    "page": 642,
+    "category": "Mathematics & Physical Sciences"
+  },
+  {
+    "name": "Comprehensive Certificate in Biology",
+    "description": "A university-benchmarked biology certificate spanning cells, biochemistry, genetics, molecular biology, evolution, physiology, microbiology, immunology, ecology, experimental methods and modern genomic reasoning.",
+    "university_benchmark": "MIT Biology | Stanford Biology | Harvard Molecular & Cellular Biology",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Biomolecules, cells + membranes",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-videos/"
+          },
+          {
+            "title": "Genetics + information flow",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/video_galleries/lecture-videos/"
+          },
+          {
+            "title": "Evolution + biological diversity",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-videos/"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Cells, membranes + biomolecules",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-videos/"
+          },
+          {
+            "topic": "DNA, replication + gene expression",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/video_galleries/lecture-videos/"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Cell signaling + cell cycle",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-20-cell-signaling-12014overview/"
+          },
+          {
+            "title": "Physiology + homeostasis",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/video_galleries/lecture-videos/"
+          },
+          {
+            "title": "Microbiology + immunology",
+            "url": "https://oyc.yale.edu/ecology-and-evolutionary-biology/eeb-122"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Genetics + inheritance",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-videos/"
+          },
+          {
+            "topic": "Cell signaling + cell cycle",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-20-cell-signaling-12014overview/"
+          },
+          {
+            "topic": "Microbiology + immunity",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/video_galleries/lecture-videos/"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "Genomics + gene editing",
+            "url": "https://ocw.mit.edu/courses/res-7-007-7-06x-cell-biology/"
+          },
+          {
+            "title": "Ecology + systems biology",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-videos/"
+          },
+          {
+            "title": "Experimental design + independent research",
+            "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/video_galleries/lecture-videos/"
+          }
+        ],
+        "bridges": [
+          {
+            "topic": "Evolution + ecology",
+            "url": "https://oyc.yale.edu/ecology-and-evolutionary-biology/eeb-122"
+          },
+          {
+            "topic": "Modern genomics + experimental biology",
+            "url": "https://ocw.mit.edu/courses/res-7-007-7-06x-cell-biology/"
+          }
+        ]
+      }
+    ],
+    "capstone": "Design an integrated biological investigation around a gene, pathway, organism or ecological system. Build a mechanistic model from molecules to phenotype; formulate a falsifiable hypothesis; choose genetic, imaging, biochemical or ecological measurements; specify controls and sampling; analyze simulated or public data; assess alternative explanations; connect findings to evolution or physiology where relevant; and produce a reproducible research report plus a follow-up experiment plan.",
+    "evidence_standard": "Mechanistic coherence; genetic and molecular accuracy; appropriate level of biological organization; experimental controls; sampling and measurement quality; causal restraint; quantitative interpretation; uncertainty; reproducibility; integration across molecular, cellular, organismal and ecological scales. RELEASE QUALITY STANDARD: long-form academic instruction, explicit limitations and an inspectable capstone artifact - not just claimed.",
+    "resource_links": [
+      {
+        "competency": "Cells, membranes + biomolecules",
+        "coverage": "MIT 7.016",
+        "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-videos/"
+      },
+      {
+        "competency": "DNA, replication + gene expression",
+        "coverage": "MIT 7.016",
+        "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/video_galleries/lecture-videos/"
+      },
+      {
+        "competency": "Genetics + inheritance",
+        "coverage": "MIT 7.016",
+        "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-videos/"
+      },
+      {
+        "competency": "Cell signaling + cell cycle",
+        "coverage": "MIT 7.016",
+        "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-20-cell-signaling-12014overview/"
+      },
+      {
+        "competency": "Microbiology + immunity",
+        "coverage": "MIT 7.016",
+        "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/video_galleries/lecture-videos/"
+      },
+      {
+        "competency": "Evolution + ecology",
+        "coverage": "Yale",
+        "url": "https://oyc.yale.edu/ecology-and-evolutionary-biology/eeb-122"
+      },
+      {
+        "competency": "Modern genomics + experimental biology",
+        "coverage": "MIT 7.06x",
+        "url": "https://ocw.mit.edu/courses/res-7-007-7-06x-cell-biology/"
+      }
+    ],
+    "page": 644,
+    "category": "Health & Life Sciences"
   }
 ]

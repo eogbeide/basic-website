@@ -18633,5 +18633,1005 @@
     "bonus": [],
     "page": 617,
     "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "Meta AI Engineer / Muse + PyTorch Engineer",
+    "benchmark": "Meta AI engineering / Superintelligence Labs + current Muse, Meta Model API, Muse Code and PyTorch platform signals (current Sep 2026). Market refresh: Muse Spark 1.3; Meta Model API; long-horizon agentic coding and multimodal reasoning; tool/search grounding; Muse Code; Llama/open-model customization; PyTorch/TorchTitan; distillation; safety protections; production reliability, auditability and cost/latency discipline.",
+    "capstone": "Engineer a production Meta AI system for a consequential multi-step workflow. Build a typed Python service on Meta Model API with Muse Spark using the Responses-compatible surface; implement structured outputs, long-context state and at least two tools, including retrieval/search or another governed source; add a multimodal input path and one agentic action with explicit permission or human approval. Build a parallel open-model path with Llama/PyTorch where deployment flexibility matters; compare prompt-only, retrieval and fine-tuned/distilled approaches using a reproducible eval set; instrument task success, tool correctness, latency, tokens/cost and failure traces; apply Llama Protections or equivalent safeguards; exercise prompt-injection, tool-failure and rollback scenarios; then stage the release and document architecture, runbook, model/deployment tradeoffs and measurable adoption or workflow impact.",
+    "rubric": "Demonstrate current Meta platform judgment; reliable structured and multimodal behavior; strong context and retrieval design; correct tool contracts and safe action boundaries; disciplined fine-tuning, synthetic-data and distillation choices; reproducible evals and regression gates; PyTorch engineering depth and scalable training/inference awareness; effective prompt-injection and unsafe-output defenses; diagnosable traces, latency and cost discipline; recovery and rollback readiness; defensible hosted-versus-open deployment tradeoffs; and evidence that real usage, eval failures or incidents changed the system rather than merely validating the first design.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build on Meta's current model stack while retaining strong open-model and PyTorch fundamentals",
+        "competencies": [
+          {
+            "title": "Muse Spark, Meta Model API + multimodal agent foundations",
+            "coverage": "Muse Spark / Meta Model API / Responses API / OpenAI-Compatible SDK / Reasoning / Tool Use / Multimodal / Long Context",
+            "videos": [
+              {
+                "title": "Muse Spark + Muse Code to Production",
+                "url": "https://developers.meta.com/resources/videos/building-with-muse-spark-and-muse-code/",
+                "channel": "Meta Connect 2026"
+              },
+              {
+                "title": "Multimodal Intelligence of Muse Spark",
+                "url": "https://developers.meta.com/resources/videos/multimodal-intelligence-of-muse-spark/",
+                "channel": "Meta Connect 2026"
+              }
+            ]
+          },
+          {
+            "title": "Open-model architecture, recipes + Llama engineering toolkit",
+            "coverage": "Llama / Llama 4 / Model Selection / Prompt & Context Engineering / Recipes / Open Deployment / Developer Tooling",
+            "videos": [
+              {
+                "title": "LlamaCon 2025 Keynote",
+                "url": "https://dev.meta.ai/llama/resources/videos/llamacon-2025-keynote",
+                "channel": "Meta"
+              },
+              {
+                "title": "The Llama Toolbox: Practical Tools + Recipes",
+                "url": "https://dev.meta.ai/llama/resources/videos/llama-toolbox",
+                "channel": "Meta"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Customize, ground and integrate models into tool-using products with measurable quality",
+        "competencies": [
+          {
+            "title": "Fine-tuning, synthetic data + evaluation-driven model adaptation",
+            "coverage": "Fine-Tuning / Synthetic Data / Distillation / Dataset Quality / Evaluation / Task Adaptation / Model Comparison",
+            "videos": [
+              {
+                "title": "Fine-Tuning Llama Models in the Real World",
+                "url": "https://dev.meta.ai/llama/resources/videos/fine-tuning-llama-models-in-the-real-world",
+                "channel": "Meta"
+              },
+              {
+                "title": "Synthetic Datasets for Fine-Tuning Llama",
+                "url": "https://www.youtube.com/watch?v=Cb8DZraP9n0",
+                "channel": "Meta Developers"
+              }
+            ]
+          },
+          {
+            "title": "Agent workflows, multimodal product integration + business actions",
+            "coverage": "Agents / Tool Calling / Multimodal Apps / RAG / APIs / Messaging / Business Agents / Human Approval / Product Integration",
+            "videos": [
+              {
+                "title": "Multi-Modal WhatsApp Chatbot With Llama 4",
+                "url": "https://www.youtube.com/watch?v=0_tNiJBdJ8k",
+                "channel": "Meta Developers"
+              },
+              {
+                "title": "Build AI Agents With Business Agent Platform",
+                "url": "https://developers.meta.com/resources/videos/build-ai-agents-with-meta-business-agent-platform/",
+                "channel": "Meta Connect 2026"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Scale, optimize and secure Meta AI systems with PyTorch-native infrastructure and production controls",
+        "competencies": [
+          {
+            "title": "Distributed training, distillation + PyTorch performance engineering",
+            "coverage": "PyTorch / TorchTitan / Distributed Training / 3D-4D Parallelism / Checkpointing / Distillation / Float8 / torch.compile / Efficiency",
+            "videos": [
+              {
+                "title": "TorchTitan: Large-Scale LLM Training",
+                "url": "https://www.youtube.com/watch?v=WsNEBxPDljU",
+                "channel": "PyTorch"
+              },
+              {
+                "title": "Knowledge Distillation With Llama 3.1 405B",
+                "url": "https://www.youtube.com/watch?v=kxx6TfpAkEU",
+                "channel": "AI at Meta"
+              }
+            ]
+          },
+          {
+            "title": "Agent security, safeguards + production reliability",
+            "coverage": "Llama Guard / Prompt Guard / Code Shield / Llama Firewall / Prompt Injection / Auditability / Reliability / Safe Autonomy",
+            "videos": [
+              {
+                "title": "Implement Llama Protections",
+                "url": "https://www.youtube.com/watch?v=X00aPRV40d4",
+                "channel": "Meta Developers"
+              },
+              {
+                "title": "Superintelligence Blueprint + What's Next",
+                "url": "https://developers.meta.com/resources/videos/the-road-ahead-superintelligence-blueprint/",
+                "channel": "Meta Connect 2026"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 618,
+    "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "Apple AI/ML Engineer / Foundation Models Engineer",
+    "benchmark": "Apple Foundation Model Services / Inference + current AIML foundation-model, Core AI and evaluation engineering signals (current Sep 2026). Market refresh: Foundation Models framework; on-device + Private Cloud Compute model paths; LanguageModel protocol; Dynamic Profiles and tools; Core AI on Apple silicon; MLX local/distributed inference and training; Evaluations framework and model judges; Instruments; privacy, low latency and production-scale serving.",
+    "capstone": "Build and ship an Apple-platform AI feature that works across model tiers while preserving privacy and measurable quality. Implement the experience in Swift with the Foundation Models framework and typed structured output; use the on-device Apple Foundation Model by default, add tools and Dynamic Profiles for a multi-step workflow, and define a graceful Private Cloud Compute or provider-model handoff when local capability is insufficient. Integrate one custom or open model through Core AI or MLX, profile latency and memory and optimize it for target Apple silicon; create an Evaluations suite with representative and synthetic cases, model-judge metrics and tool-trajectory checks; diagnose failures with Instruments; enforce data minimization, authentication and action-approval boundaries; compare quality, latency, privacy and resource tradeoffs across execution paths; then stage the release and deliver a production-readiness package, runbook and measurable user-impact evidence.",
+    "rubric": "Prove correct Foundation Models and LanguageModel architecture; disciplined on-device-versus-PCC/provider selection; reliable structured output and tool behavior; privacy-preserving context and data flow; strong Core AI or MLX model integration and performance engineering; representative eval datasets and trustworthy judges; agent trajectory and regression coverage; actionable Instruments traces; graceful fallback and error handling; latency, memory and resource awareness; secure action boundaries; release and rollback readiness; and measurable user value with explicit tradeoffs among privacy, quality, speed, capability and operating cost.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build Apple-native foundation-model experiences with Swift, privacy and the right execution path",
+        "competencies": [
+          {
+            "title": "Foundation Models framework + model-selection architecture",
+            "coverage": "Swift / FoundationModels / LanguageModel Protocol / Apple Foundation Models / PCC / Third-Party Models / Structured Output",
+            "videos": [
+              {
+                "title": "What's New in Foundation Models",
+                "url": "https://developer.apple.com/videos/play/wwdc2026/241/",
+                "channel": "Apple WWDC26"
+              },
+              {
+                "title": "Bring an LLM Provider to Foundation Models",
+                "url": "https://developer.apple.com/videos/play/wwdc2026/339/",
+                "channel": "Apple WWDC26"
+              }
+            ]
+          },
+          {
+            "title": "On-device deployment + Apple silicon performance foundations",
+            "coverage": "Core AI / Apple Silicon / CPU-GPU-Neural Engine / Model Conversion / Swift Inference / Memory / Ahead-of-Time Compilation",
+            "videos": [
+              {
+                "title": "Meet Core AI",
+                "url": "https://developer.apple.com/videos/play/wwdc2026/324/",
+                "channel": "Apple WWDC26"
+              },
+              {
+                "title": "Integrate On-Device Models With Core AI",
+                "url": "https://developer.apple.com/videos/play/wwdc2026/326/",
+                "channel": "Apple WWDC26"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Engineer agentic workflows, local/server orchestration and evaluation-driven feature quality",
+        "competencies": [
+          {
+            "title": "Agentic context, tools + local/server orchestration",
+            "coverage": "Dynamic Profiles / Tool Calling / Context Management / Caching / Model Handoffs / Private Cloud Compute / Privacy Boundaries",
+            "videos": [
+              {
+                "title": "Build Agentic App Experiences",
+                "url": "https://developer.apple.com/videos/play/wwdc2026/242/",
+                "channel": "Apple WWDC26"
+              },
+              {
+                "title": "Build With Foundation Model on PCC",
+                "url": "https://developer.apple.com/videos/play/wwdc2026/319/",
+                "channel": "Apple WWDC26"
+              }
+            ]
+          },
+          {
+            "title": "Evaluation-driven development + agent-behavior testing",
+            "coverage": "Evaluations Framework / Model Judges / Synthetic Data / Tool-Call Trajectories / Datasets / Regression / Quality Gates",
+            "videos": [
+              {
+                "title": "Meet the Evaluations Framework",
+                "url": "https://developer.apple.com/videos/play/wwdc2026/298/",
+                "channel": "Apple WWDC26"
+              },
+              {
+                "title": "Robust Evaluations for Agentic Apps",
+                "url": "https://developer.apple.com/videos/play/wwdc2026/299/",
+                "channel": "Apple WWDC26"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Optimize Apple AI for on-device scale, distributed execution and production diagnostics",
+        "competencies": [
+          {
+            "title": "Core AI optimization, profiling + custom model engineering",
+            "coverage": "Core AI Optimization / PyTorch Extensions / Metal Kernels / Instruments / Compilation / Specialization / Memory / Debugging",
+            "videos": [
+              {
+                "title": "Core AI Model Authoring + Optimization",
+                "url": "https://developer.apple.com/videos/play/wwdc2026/325/",
+                "channel": "Apple WWDC26"
+              },
+              {
+                "title": "Debug + Profile Agentic Apps With Instruments",
+                "url": "https://developer.apple.com/videos/play/wwdc2026/243/",
+                "channel": "Apple WWDC26"
+              }
+            ]
+          },
+          {
+            "title": "MLX local agents + distributed inference and training",
+            "coverage": "MLX / MLX-LM / Local Agents / Local Serving / Distributed Inference / Training / Multi-Mac Scaling / Apple Silicon",
+            "videos": [
+              {
+                "title": "Run Local Agentic AI on Mac With MLX",
+                "url": "https://developer.apple.com/videos/play/wwdc2026/232/",
+                "channel": "Apple WWDC26"
+              },
+              {
+                "title": "Distributed Inference + Training With MLX",
+                "url": "https://developer.apple.com/videos/play/wwdc2026/233/",
+                "channel": "Apple WWDC26"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 619,
+    "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "xAI Engineer / Grok Platform & Agent Engineer",
+    "benchmark": "xAI / SpaceXAI Grok Product + API engineering, paired with current Grok 4.7, Grok Build and agent-tools platform signals (current Sep 2026). Market refresh: Grok 4.7 and Responses-compatible APIs; Grok Build; web/X/collections search; code, MCP and custom functions; Rust/Python/TypeScript; scalable APIs and distributed systems; high-throughput inference; multimodal/voice agents; Kubernetes; OpenTelemetry; production reliability, safety and cost/latency discipline.",
+    "capstone": "Build a production Grok service for a real multi-step workflow. Expose a typed Rust or Python API using Grok through the Responses surface; require structured outputs, streaming and robust retry/rate-limit behavior. Combine live web/X search with a private collection or file-retrieval path and at least two custom or MCP tools; add one voice or multimodal interaction and explicit approval on consequential actions. Containerize and deploy, load-test concurrency and partial failure, measure time-to-first-token, p95 latency, throughput and token cost, add OpenTelemetry traces/logs/metrics and SLOs, test prompt-injection, tool-misuse and data-exfiltration cases, then run a failure drill and rollback. Deliver code, architecture, eval set, dashboards and an operator runbook tied to task-success or adoption evidence.",
+    "rubric": "Prove model/context judgment; dependable structured and streaming APIs; strong Rust/Python engineering; correct search/retrieval and citation behavior; high-quality function/MCP contracts; safe multimodal and tool permissions; rate-limit/cache/retry discipline; quantified throughput, latency and cost; useful telemetry and failure diagnosis; resilience under load and partial failure; security/safety regression coverage; reproducible recovery and rollback; and evidence that production feedback changed the design.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build Grok applications and the high-performance software foundations current xAI roles expect",
+        "competencies": [
+          {
+            "title": "Grok API, Responses + agentic coding workflow",
+            "coverage": "Grok 4.7 / Responses API / xAI SDK / OpenAI-Compatible SDK / Structured Outputs / Grok Build / Tool Use",
+            "videos": [
+              {
+                "title": "Grok Build / xAI Coding Agent Walkthrough",
+                "url": "https://www.youtube.com/watch?v=ya35W4R6wU0",
+                "channel": "Fazt Code"
+              },
+              {
+                "title": "Grok Build Terminal Agent (2026)",
+                "url": "https://www.youtube.com/watch?v=8EsUXVAs6ug",
+                "channel": "Onde eu Clico"
+              }
+            ]
+          },
+          {
+            "title": "Rust/Python/TypeScript + scalable API foundations",
+            "coverage": "Rust / Python / TypeScript / Async I/O / APIs / Databases / Distributed Systems / Horizontal Scaling / Rate Limits",
+            "videos": [
+              {
+                "title": "Crust of Rust: Async/Await",
+                "url": "https://www.youtube.com/watch?v=ThjvMReOXYM",
+                "channel": "Jon Gjengset"
+              },
+              {
+                "title": "Designing Data-Intensive Applications",
+                "url": "https://www.youtube.com/watch?v=SVOrURyOu_U",
+                "channel": "Martin Kleppmann"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Ground Grok in live and private data, then compose safe multimodal tool-using agents",
+        "competencies": [
+          {
+            "title": "Live search, enterprise retrieval + context engineering",
+            "coverage": "Web Search / X Search / Collections / Files / Semantic Retrieval / RAG / Citations / Context Compaction / Prompt Caching",
+            "videos": [
+              {
+                "title": "Retrieval-Augmented Language Models",
+                "url": "https://www.youtube.com/watch?v=mE7IDf2SmJg",
+                "channel": "Stanford CS25"
+              },
+              {
+                "title": "Building Agents With MCP",
+                "url": "https://www.youtube.com/watch?v=kQmXtrmQ5Zg",
+                "channel": "Anthropic Applied AI"
+              }
+            ]
+          },
+          {
+            "title": "MCP, function calling + multimodal/voice agent systems",
+            "coverage": "Function Calling / Remote MCP / Custom Tools / Speech-to-Speech / Multimodal / Permissions / Human Approval / Agent UX",
+            "videos": [
+              {
+                "title": "Build a Realtime Voice AI Agent",
+                "url": "https://www.youtube.com/watch?v=cgfcxUQCgQw",
+                "channel": "LiveKit"
+              },
+              {
+                "title": "Software Is Changing (Again)",
+                "url": "https://www.youtube.com/watch?v=LCEmiRjPEtQ",
+                "channel": "Andrej Karpathy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate xAI-scale systems with inference efficiency, observability, reliability and safe autonomy",
+        "competencies": [
+          {
+            "title": "High-throughput inference + GPU-scale systems",
+            "coverage": "Model Serving / Request Routing / Caching / Batching / Throughput-Latency / GPU Networking / Storage / Reliability / Capacity",
+            "videos": [
+              {
+                "title": "Inside xAI Colossus",
+                "url": "https://www.youtube.com/watch?v=Jf8EPSBZU7Y",
+                "channel": "ServeTheHome"
+              },
+              {
+                "title": "Lex Clips",
+                "url": "https://www.youtube.com/watch?v=5XgpESmjBqE",
+                "channel": "Jensen Huang on xAI Colossus"
+              }
+            ]
+          },
+          {
+            "title": "Kubernetes, telemetry + production reliability",
+            "coverage": "Kubernetes / OpenTelemetry / Metrics / Logs / Traces / SLOs / Incident Response / Load Testing / Safety Evals / Rollback",
+            "videos": [
+              {
+                "title": "OpenTelemetry for Cloud + AI",
+                "url": "https://www.youtube.com/watch?v=d7d6JN0J3SQ",
+                "channel": "Linux Foundation"
+              },
+              {
+                "title": "AI, DevOps + Kubernetes",
+                "url": "https://www.youtube.com/watch?v=HdUbTyvrfKo",
+                "channel": "Kelsey Hightower"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 620,
+    "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "Perplexity AI Engineer / Search & Agent Systems Engineer",
+    "benchmark": "Perplexity Agent Capabilities + Applied AI / search-platform engineering, paired with current Agent API, Search and Computer signals (current Sep 2026). Market refresh: Agent API and Search as Code; real-time web retrieval, URL/code/MCP/finance/people tools and citations; multi-model routing; Computer Skills, workflows and artifacts; long-running agents, memory and connectors; SPACE sandboxes; retrieval/ranking; trace replay, evals and production reliability in Python/Go/Rust/TypeScript/AWS.",
+    "capstone": "Build a production search-and-agent application on Perplexity. Use Agent API with an explicit quality/cost preset or model-routing choice, real-time web search and citations; add URL or code execution plus at least one MCP or enterprise connector; persist a bounded memory/context layer and compose a reusable Skill or workflow for a long-running task. Add one governed warehouse/private-data path with identity-aware access and structured artifacts; run code only in an isolated sandbox, keep credentials outside execution, and require approval for sensitive actions. Create offline and online evals for retrieval quality, citation correctness, tool selection, task completion, latency, cost and user satisfaction; capture traces and replay failures; test prompt injection, connector failure and stale data; then ship with monitoring, rollback and a measurable product-impact readout.",
+    "rubric": "Demonstrate grounded and cited answers; retrieval and ranking judgment; correct Agent API, preset and model choices; robust tool, MCP and connector abstractions; permission-aware enterprise context; useful Skills/workflow composition; safe sandbox and credential boundaries; resilient partial-failure and retry behavior; traceable long-running execution; production-faithful evals and replay; quantified quality, latency and cost; effective prompt-injection defenses; measurable task success/user value; and evidence that evals, traces or feedback changed the agent.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build grounded search experiences and understand Perplexity's agent-first application model",
+        "competencies": [
+          {
+            "title": "Search API, citations + retrieval quality",
+            "coverage": "Search API / Agent API / Web Retrieval / URL Fetch / Citations / Ranking / Freshness / Filters / Structured Results",
+            "videos": [
+              {
+                "title": "Perplexity Search API Deep Dive",
+                "url": "https://www.youtube.com/watch?v=T0YdGV1285U",
+                "channel": "Mark Kashef"
+              },
+              {
+                "title": "Finding Alpha With AI Research",
+                "url": "https://www.youtube.com/watch?v=HT7ZEILjs-U",
+                "channel": "Perplexity"
+              }
+            ]
+          },
+          {
+            "title": "Agent API + multi-model orchestration foundations",
+            "coverage": "Agent API / Presets / Model Routing / Reasoning Effort / Search as Code / Tool Use / Python SDK / Responses Compatibility",
+            "videos": [
+              {
+                "title": "Introducing Perplexity Computer",
+                "url": "https://www.youtube.com/watch?v=6rrytiEVQQs",
+                "channel": "Perplexity"
+              },
+              {
+                "title": "Introducing Comet for Work",
+                "url": "https://www.youtube.com/watch?v=LKt39WUR9UM",
+                "channel": "Perplexity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Turn search and frontier-model capabilities into composable tools, context and durable workflows",
+        "competencies": [
+          {
+            "title": "Skills, MCP/connectors + long-running workflow composition",
+            "coverage": "Skills / Workflows / Artifacts / MCP / Connectors / APIs / Scheduled Tasks / Tool Discovery / Human Review",
+            "videos": [
+              {
+                "title": "Accelerated Research for Consultants",
+                "url": "https://www.youtube.com/watch?v=VTE3Ux98n9E",
+                "channel": "Perplexity"
+              },
+              {
+                "title": "Computer for Buyside Professionals",
+                "url": "https://www.youtube.com/watch?v=ioZfp7N0YMY",
+                "channel": "Perplexity"
+              }
+            ]
+          },
+          {
+            "title": "Enterprise retrieval + data-intensive agent products",
+            "coverage": "Deep Research / Data Warehouses / Data Map / SQL / RAG / Governed Context / Finance Search / Structured Artifacts",
+            "videos": [
+              {
+                "title": "Answers From Your Data Warehouse",
+                "url": "https://www.youtube.com/watch?v=AvZL1RutyCU",
+                "channel": "Perplexity"
+              },
+              {
+                "title": "Financial Research and Analysis",
+                "url": "https://www.youtube.com/watch?v=fzwWyyKYA4E",
+                "channel": "Perplexity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Engineer secure, evaluated and observable agents at search scale",
+        "competencies": [
+          {
+            "title": "Sandboxing, permissions + secure agent architecture",
+            "coverage": "SPACE / Ephemeral Sandboxes / Credential Isolation / OAuth / RBAC / Secure Connectors / Prompt Injection / Human Approval",
+            "videos": [
+              {
+                "title": "Securing AI With Perplexity",
+                "url": "https://www.youtube.com/watch?v=3KfgiuA2xwA",
+                "channel": "Perplexity"
+              },
+              {
+                "title": "Computer for Counsel - Secure Workflows",
+                "url": "https://www.youtube.com/watch?v=1ngqqbY-DMo",
+                "channel": "Perplexity"
+              }
+            ]
+          },
+          {
+            "title": "Search-system performance, memory + eval-driven improvement",
+            "coverage": "Retrieval/Ranking / Memory / Agent Evals / Trace Replay / A-B Testing / Quality-Latency-Cost / Failure Analysis / User Signals",
+            "videos": [
+              {
+                "title": "Perplexity's Race to Build Agentic Search",
+                "url": "https://www.youtube.com/watch?v=2jOnoTEk-xA",
+                "channel": "Y Combinator"
+              },
+              {
+                "title": "LLM Evals: Common Mistakes",
+                "url": "https://www.youtube.com/watch?v=GL0XhAj5LPE",
+                "channel": "Hamel Husain"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 621,
+    "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "Mistral AI Engineer / Applied AI & Enterprise Agents Engineer",
+    "benchmark": "Mistral Applied AI Engineer + current Studio / agent-platform engineering signals (current Sep 2026). Market refresh: Python/TypeScript full-stack delivery; Agents & Conversations; Studio connectors + MCP; durable Workflows; Search Toolkit + OCR4; Vibe/Devstral engineering; Forge/custom models; private deployment; evals, observability, security and adoption/ROI.",
+    "capstone": "Build a production Mistral enterprise agent for a consequential cross-system workflow. Ship a typed Python/FastAPI + TypeScript/React application using Agents/Conversations; ground it with OCR4/Search Toolkit over enterprise documents; add at least two governed connectors or MCP tools and one durable Workflow with explicit human approval; use Vibe/Devstral for a verified code change; select or customize the model where useful; deploy through an appropriate cloud/VPC/on-prem path; instrument evals, traces, latency, cost, permissions and failure recovery; then run a staged rollout/rollback and present architecture, runbook, adoption and ROI evidence.",
+    "rubric": "Demonstrate sound model/context choices; maintainable full-stack code and tests; grounded retrieval/OCR quality; correct connector, MCP and workflow contracts; secure permissions and approvals; disciplined AI-assisted coding with human verification; useful customization or model-selection judgment; eval-driven regression gates; observable latency/cost/reliability; safe recovery from partial failures; deployment discipline; measurable adoption/business impact; and evidence that production feedback changed the design.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build production Mistral applications with disciplined full-stack and AI-assisted engineering",
+        "competencies": [
+          {
+            "title": "Agents, conversations + full-stack application engineering",
+            "coverage": "Mistral API / Agents & Conversations / Python / FastAPI / TypeScript / React / Structured Outputs",
+            "videos": [
+              {
+                "title": "Agents API: Tools, Memory + Orchestration",
+                "url": "https://mistral.ai/news/agents-api/",
+                "channel": "Mistral"
+              },
+              {
+                "title": "Mistral Agents API Deep Dive (37m)",
+                "url": "https://www.youtube.com/watch?v=YGYHln7MklM",
+                "channel": "Applied AI"
+              }
+            ]
+          },
+          {
+            "title": "Vibe/Devstral coding workflow + software quality",
+            "coverage": "Mistral Vibe / Devstral / Repo Context / Subagents / Testing / Git / CI-CD / Human Review",
+            "videos": [
+              {
+                "title": "How to Vibe Code: Developer Playbook",
+                "url": "https://learn.mistral.ai/en/public/blogs/how-to-vibe-code-a-developers-playbook-2026-04-15",
+                "channel": "Mistral"
+              },
+              {
+                "title": "Production-ready AI Systems (45m)",
+                "url": "https://learn.mistral.ai/public/events/building-production-ready-ai-systems-fd8oza0w1v",
+                "channel": "Mistral"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Ground agents in enterprise data and compose durable workflows with governed tools",
+        "competencies": [
+          {
+            "title": "Enterprise retrieval, OCR + production search",
+            "coverage": "Search Toolkit / OCR4 / RAG / Document AI / Citations / Multimodal Retrieval / Production Indexing",
+            "videos": [
+              {
+                "title": "OCR4 in Production (59m)",
+                "url": "https://learn.mistral.ai/public/videos/ocr4-in-production-2026-07-07",
+                "channel": "Mistral"
+              },
+              {
+                "title": "Document Processing Workflow (18m)",
+                "url": "https://learn.mistral.ai/public/videos/build-a-document-processing-workflow-in-less-than-30-minutes-2026-06-03",
+                "channel": "Mistral"
+              }
+            ]
+          },
+          {
+            "title": "MCP connectors, Workflows + human-approved actions",
+            "coverage": "MCP / Connectors / Tool Calling / Durable Workflows / Handoffs / Human Approval / Telemetry",
+            "videos": [
+              {
+                "title": "Studio Connectors + Custom MCPs",
+                "url": "https://mistral.ai/news/connectors/",
+                "channel": "Mistral"
+              },
+              {
+                "title": "Durable Agents: MCP + Handoffs",
+                "url": "https://docs.mistral.ai/studio/workflows/building-workflows/durable_agents",
+                "channel": "Mistral"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Customize and operate secure Mistral systems across private and production environments",
+        "competencies": [
+          {
+            "title": "Custom models, sovereignty + private deployment",
+            "coverage": "Forge / Fine-Tuning / Open Weights / VPC / On-Prem / Air-Gapped / Data Governance / Model Selection",
+            "videos": [
+              {
+                "title": "Introducing Forge: Custom Enterprise Models",
+                "url": "https://mistral.ai/news/forge/",
+                "channel": "Mistral"
+              },
+              {
+                "title": "Fine-Tuning Mistral (23m)",
+                "url": "https://www.youtube.com/watch?v=fzT9BbHu3ec",
+                "channel": "Prompt Engineering"
+              }
+            ]
+          },
+          {
+            "title": "Evals, observability + production reliability",
+            "coverage": "Evaluation / Tracing / SLOs / Latency-Cost / Fallbacks / Security / Rollback / Adoption & ROI",
+            "videos": [
+              {
+                "title": "Conversational AI with Voxtral (60m)",
+                "url": "https://learn.mistral.ai/public/events/building-conversation-ai-voxtral",
+                "channel": "Mistral"
+              },
+              {
+                "title": "Mistral Code: Enterprise Controls + Observability",
+                "url": "https://mistral.ai/news/mistral-code/",
+                "channel": "Mistral"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 622,
+    "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "Cohere AI Engineer / Enterprise Agents & Search Engineer",
+    "benchmark": "Cohere Forward Deployed Engineer, Agentic Platform + MTS Search / Agentic Environments signals (current Sep 2026). Market refresh: Command A+ and tool-using agents; North Automations; Embed + Rerank 4; Parse/multimodal RAG; governed enterprise search; MCP/integrations; private and sovereign deployment; Python/PyTorch/JAX; Kubernetes/Ray; eval environments, safety, observability and production adoption.",
+    "capstone": "Build a secure enterprise agent-and-search application with Cohere. Use Command for agentic reasoning and tool use; create a retrieval layer with Embed + Rerank and verifiable citations across mixed enterprise data; add Parse for complex documents where relevant; automate a multi-step business action using governed North-style orchestration, MCP or APIs with explicit human approval; choose API versus private/Model Vault deployment based on data and operating constraints; create offline/online evals for retrieval, tool selection, task success, safety, latency and cost; test prompt-injection and data-access failures; then deploy with telemetry, scaling, rollback and a measurable business-impact readout.",
+    "rubric": "Demonstrate retrieval precision and reranking judgment; grounded answers with verifiable citations; correct agent/tool contracts and enterprise context; governed permissions and human approval; multimodal/document handling where needed; sound private-deployment and serving choices; reproducible evals and verifiers; prompt-injection and data-access defenses; scalable latency/cost behavior; observability and incident recovery; measurable task and business outcomes; and evidence that users, failures and production metrics changed the system.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build secure Cohere applications and high-quality enterprise retrieval systems",
+        "competencies": [
+          {
+            "title": "Command agents, tool use + enterprise application foundations",
+            "coverage": "Command A+ / Chat / Tool Use / Multi-Step Agents / Python SDK / Structured Outputs / Citations",
+            "videos": [
+              {
+                "title": "Command A for Enterprise AI (29m)",
+                "url": "https://events.cohere.com/on-demand/960a3bb6-f639-47e5-8059-84d535dcfd7a",
+                "channel": "Cohere"
+              },
+              {
+                "title": "Multi-Step Tool Use / Agents",
+                "url": "https://docs.cohere.com/v1/docs/multi-step-tool-use",
+                "channel": "Cohere"
+              }
+            ]
+          },
+          {
+            "title": "Embed + Rerank retrieval quality",
+            "coverage": "Embed 4 / Rerank 4 / Semantic Search / RAG / Multilingual + Multimodal Retrieval / Ranking",
+            "videos": [
+              {
+                "title": "AI Search in Action (42m)",
+                "url": "https://events.cohere.com/on-demand/7772f254-fe9a-426e-ab81-aa17808fdaca",
+                "channel": "Cohere + Adobe + AWS"
+              },
+              {
+                "title": "Rerank 4: Accuracy + Speed",
+                "url": "https://cohere.com/blog/rerank-4",
+                "channel": "Cohere"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Compose governed agents across enterprise tools, documents, data and workflows",
+        "competencies": [
+          {
+            "title": "North agents, Automations + enterprise orchestration",
+            "coverage": "North / Automations / Agentic Workflows / MCP / Integrations / Human Review / Roles & Permissions",
+            "videos": [
+              {
+                "title": "North Automations: Governed Workflows",
+                "url": "https://cohere.com/blog/introducing-north-automations-ai-workflows",
+                "channel": "Cohere"
+              },
+              {
+                "title": "DraftWise AI Contracting on Azure (25m)",
+                "url": "https://events.cohere.com/on-demand/48209903-87a2-4e54-a049-85c41abe018e",
+                "channel": "Cohere"
+              }
+            ]
+          },
+          {
+            "title": "Multimodal documents + data-intensive agent context",
+            "coverage": "Parse / Embed 4 / Enterprise Search / Documents / Tables / Charts / RAG / Context + Citations",
+            "videos": [
+              {
+                "title": "Parse: Enterprise Document Intelligence",
+                "url": "https://cohere.com/blog/parse",
+                "channel": "Cohere"
+              },
+              {
+                "title": "LlamaParse/RAG Deep Dive (45m)",
+                "url": "https://www.youtube.com/watch?v=YqtTOdicngY",
+                "channel": "DataStax + Cohere"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate private, evaluated and secure agents at enterprise scale",
+        "competencies": [
+          {
+            "title": "Private/sovereign deployment + inference efficiency",
+            "coverage": "Model Vault / Private Cloud / On-Prem / Open Weights / GPU Serving / Kubernetes / Ray / Cost-Throughput",
+            "videos": [
+              {
+                "title": "Secure, Scalable Private AI (52m)",
+                "url": "https://events.cohere.com/DellxCohere/",
+                "channel": "Cohere + Dell"
+              },
+              {
+                "title": "Embed 4: Multimodal Search for Business",
+                "url": "https://cohere.com/blog/embed-4",
+                "channel": "Cohere"
+              }
+            ]
+          },
+          {
+            "title": "Agent evals, safety + observable production reliability",
+            "coverage": "Agentic Environments / Evals / Verifiers / Guardrails / Prompt Injection / Tracing / Reliability / Recovery",
+            "videos": [
+              {
+                "title": "Guardrail Imperative (33m)",
+                "url": "https://events.cohere.com/on-demand/3e38cdee-1466-4611-94ba-601dc6445a90",
+                "channel": "Cohere + HiddenLayer"
+              },
+              {
+                "title": "Building Enterprise AI Agents Safely",
+                "url": "https://cohere.com/blog/ai-agents",
+                "channel": "Cohere"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 623,
+    "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "Hugging Face AI/ML Engineer / Open-Source Model & Agent Platform Engineer",
+    "benchmark": "Hugging Face Open-Source ML Engineer + ML Developer Tools + optimized-inference / agent-platform signals (current Sep 2026). Market refresh: Transformers/Datasets/Hub; Inference Providers + Endpoints; vLLM/SGLang/TGI/TEI; smolagents; MCP + tools; Gradio/Spaces; PEFT/LoRA + TRL; open-source contribution; agent evals; scalable serving, observability, security and cost/latency optimization.",
+    "capstone": "Build and operate an open-model agent product end to end. Select a model from the Hub and justify model/license/revision choices; expose it through Inference Providers or a dedicated Endpoint; build a smolagents CodeAgent or ToolCallingAgent with at least two governed tools including one MCP integration; add domain data plus a PEFT/LoRA or prompt/context adaptation experiment; publish a usable Gradio/Space interface; create a replayable eval suite for task success, tool correctness, safety and failure recovery; then load-test and tune the serving path for throughput, latency and cost, add logs/metrics, and document rollback, model-card and open-source contribution practices.",
+    "rubric": "Demonstrate reproducible model and dataset choices; clean Python/library engineering; correct tool and MCP contracts; safe code/tool execution; sound adaptation judgment; high-quality open-source documentation and tests; measurable agent task success; eval/regression coverage; diagnosable traces and endpoint telemetry; defensible vLLM/SGLang/TGI serving tradeoffs; autoscaling and cost/latency evidence; security/license/supply-chain awareness; and a clear record of how community feedback or production evidence changed the system.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build confidently on the open-model ecosystem and ship useful agent experiences",
+        "competencies": [
+          {
+            "title": "Open-model application engineering + unified inference",
+            "coverage": "Hub / Transformers / Inference Providers / Python / OpenAI-compatible APIs / Model Selection / Embeddings",
+            "videos": [
+              {
+                "title": "Inference Providers: Open Models (19m)",
+                "url": "https://www.youtube.com/watch?v=oxwsizy1Spw",
+                "channel": "Hugging Face"
+              },
+              {
+                "title": "AI Agents Course Launch / Q&A",
+                "url": "https://www.youtube.com/watch?v=iLVyYDbdSmM",
+                "channel": "Hugging Face"
+              }
+            ]
+          },
+          {
+            "title": "smolagents, code agents + tool-calling foundations",
+            "coverage": "smolagents / CodeAgent / ToolCallingAgent / Tool Design / Sandboxing / Hub + Spaces / Gradio",
+            "videos": [
+              {
+                "title": "Building Agents with Smolagents (19m)",
+                "url": "https://www.youtube.com/watch?v=dSGS6-iGhyo",
+                "channel": "Hugging Face"
+              },
+              {
+                "title": "Hugging Face smolagents Deep Dive",
+                "url": "https://www.youtube.com/watch?v=c8EpB4zmXG0",
+                "channel": "Sam Witteveen"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Connect agents to tools and adapt open models for domain-quality behavior",
+        "competencies": [
+          {
+            "title": "MCP, tools + interoperable agent ecosystems",
+            "coverage": "MCP Client/Server / ToolCollection / Structured Tool Outputs / Permissions / Agent Interoperability",
+            "videos": [
+              {
+                "title": "Model Context Protocol Course",
+                "url": "https://www.youtube.com/watch?v=p4q6LI-2yZ8",
+                "channel": "Hugging Face"
+              },
+              {
+                "title": "Build Your First smolagents Agent",
+                "url": "https://www.youtube.com/watch?v=PQDKcWiuln4",
+                "channel": "Hugging Face"
+              }
+            ]
+          },
+          {
+            "title": "Model adaptation + reproducible open-source workflows",
+            "coverage": "PEFT / LoRA / TRL / Fine-Tuning / Datasets / Revisions / Model Cards / Reproducibility / Community Review",
+            "videos": [
+              {
+                "title": "Fine-Tuning LLMs with PEFT + LoRA",
+                "url": "https://www.youtube.com/watch?v=Us5ZFp16PaU",
+                "channel": "Sam Witteveen"
+              },
+              {
+                "title": "Agents Building Agents on the Hub",
+                "url": "https://www.youtube.com/watch?v=v4mdcYfuW7U",
+                "channel": "Hugging Face"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate high-performance open-model and agent systems with eval-driven rigor",
+        "competencies": [
+          {
+            "title": "Production inference, endpoints + accelerator efficiency",
+            "coverage": "Inference Endpoints / vLLM / SGLang / TGI / TEI / Autoscaling / Private Endpoints / Throughput / GPU Efficiency",
+            "videos": [
+              {
+                "title": "Inference Endpoints Launch + Demo",
+                "url": "https://www.youtube.com/watch?v=2G4kmYeJuyk",
+                "channel": "Hugging Face"
+              },
+              {
+                "title": "Production Inference Endpoints",
+                "url": "https://www.youtube.com/watch?v=ZQPm2-uR9zA",
+                "channel": "Julien Simon"
+              }
+            ]
+          },
+          {
+            "title": "Agent evaluation, observability + trustworthy open systems",
+            "coverage": "Agent Evals / Task Success / Tool Correctness / Tracing / Regression / Safety / Model-Revisions / Cost-Latency-Quality",
+            "videos": [
+              {
+                "title": "Agentic Evaluations Workshop",
+                "url": "https://www.youtube.com/watch?v=UxMZfbWI3LY",
+                "channel": "Hugging Face"
+              },
+              {
+                "title": "smolagents + Open DeepResearch (59m)",
+                "url": "https://www.youtube.com/watch?v=4E2oZSwwxso",
+                "channel": "AI Makerspace"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 624,
+    "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "Palantir Forward Deployed AI Engineer / AIP Engineer",
+    "benchmark": "Palantir Forward Deployed AI Engineer + AIP / Foundry / Ontology agent-platform signals (current Sep 2026). Market refresh: customer GenAI strategy + delivery; Ontology modeling; AIP / AI FDE; pro-code agents; OSDK; semantic search + OAG; AIP Logic; Palantir MCP + Ontology MCP; controlled actions; AIP Evals; automation; production security, auditability, deployment and measurable operational outcomes.",
+    "capstone": "Run a forward-deployed AI engagement for a real or simulated customer. Translate a high-stakes operational problem into an Ontology with explicit objects, links, actions and permissions; ingest and ground enterprise data; build semantic/OAG retrieval; implement an AIP or pro-code agent that uses OSDK plus Palantir MCP or Ontology MCP, including at least one controlled write/action and human approval; encode one decision or automation workflow in AIP Logic; create AIP Evals for quality, tool selection and failure modes; ship a Workshop/OSDK experience, instrument usage and operational KPIs, rehearse an incident/rollback, and present an executive outcome readout plus next-phase roadmap.",
+    "rubric": "Show a traceable customer problem and outcome metric; strong Ontology/domain modeling; governed data and action access; grounded retrieval and citations; correct OSDK/MCP contracts; explicit human-agent control boundaries; reliable AIP Logic and automation; meaningful eval suites and regression evidence; secure permissions and auditability; production telemetry, failure recovery and deployment discipline; measurable operational/adoption impact; crisp stakeholder communication; and evidence that field learnings changed the product, workflow or platform design.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Model the operational domain first, then ground AI in an enterprise source of truth",
+        "competencies": [
+          {
+            "title": "Ontology modeling + operational application foundations",
+            "coverage": "Foundry Ontology / Objects / Links / Actions / Interfaces / Workshop / OSDK / Domain Modeling",
+            "videos": [
+              {
+                "title": "Ontology Overview",
+                "url": "https://www.youtube.com/watch?v=YDAxITCNcko",
+                "channel": "Palantir"
+              },
+              {
+                "title": "Ontology SDK / OSDK (16m)",
+                "url": "https://www.youtube.com/watch?v=vSJ5H00V7Es",
+                "channel": "Palantir"
+              }
+            ]
+          },
+          {
+            "title": "Semantic search, enterprise grounding + OAG",
+            "coverage": "Semantic Search / Embeddings / RAG / Ontology-Augmented Generation / Data Tools / Citations + Grounding",
+            "videos": [
+              {
+                "title": "Semantic Search",
+                "url": "https://www.youtube.com/watch?v=7rRLOTXe60Q",
+                "channel": "Palantir AIP"
+              },
+              {
+                "title": "Data Tools for RAG/OAG (29m)",
+                "url": "https://www.youtube.com/watch?v=CiyLviRs4Ng",
+                "channel": "Palantir AIP"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build agents that safely reason over enterprise logic, tools and operational actions",
+        "competencies": [
+          {
+            "title": "AI FDE, pro-code agents + MCP/OSDK tool architecture",
+            "coverage": "AI FDE / Pro-Code Agents / Palantir MCP / Ontology MCP / OSDK / External Agent SDKs / Scoped Permissions",
+            "videos": [
+              {
+                "title": "Product Launch: AI FDE | DevCon 5",
+                "url": "https://www.youtube.com/watch?v=pyudERNI1Qo",
+                "channel": "Palantir"
+              },
+              {
+                "title": "AIP Agents + Ontology-MCP | DevCon 4",
+                "url": "https://www.youtube.com/watch?v=QMKRMEuCoaU",
+                "channel": "Palantir"
+              }
+            ]
+          },
+          {
+            "title": "Logic, actions + human-agent process orchestration",
+            "coverage": "AIP Logic / Ontology Actions / Tool Use / Human Approval / Automate / Process Mining / Operational Workflows",
+            "videos": [
+              {
+                "title": "Logic Tools for RAG/OAG (22m)",
+                "url": "https://www.youtube.com/watch?v=TOsgyjJuQVc",
+                "channel": "Palantir AIP"
+              },
+              {
+                "title": "AI-Powered Process Mining (38m)",
+                "url": "https://www.youtube.com/watch?v=pLtqjKlYlKw",
+                "channel": "Palantir AIP"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Ship evaluated, governed agent systems and own operational outcomes with customers",
+        "competencies": [
+          {
+            "title": "AIP Evals, safe iteration + production guardrails",
+            "coverage": "AIP Evals / AI FDE Eval Loop / Test Suites / Variance / Permissions / Auditability / Branch-Aware Debugging",
+            "videos": [
+              {
+                "title": "AIP Evals: Feedback to Fix",
+                "url": "https://www.youtube.com/watch?v=hXSx9uG0R4k",
+                "channel": "Palantir"
+              },
+              {
+                "title": "Developer Experience | DevCon 5",
+                "url": "https://www.youtube.com/watch?v=vckWTAbGly4",
+                "channel": "Palantir"
+              }
+            ]
+          },
+          {
+            "title": "Optimization, scale + forward-deployed outcome ownership",
+            "coverage": "Decision Optimization / Human-Agent Teams / Foundry Production / Reliability / Adoption / Mission Outcomes / Executive Delivery",
+            "videos": [
+              {
+                "title": "AI Optimization Agents | AIPCon 7",
+                "url": "https://www.youtube.com/watch?v=38C9IGdCGBc",
+                "channel": "Palantir"
+              },
+              {
+                "title": "End-to-End Foundry Operational Workflow",
+                "url": "https://www.youtube.com/watch?v=bPGnvfyMuxE",
+                "channel": "Palantir"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 625,
+    "category": "AI, Agents & Intelligent Automation"
   }
 ]
