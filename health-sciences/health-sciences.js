@@ -249,29 +249,39 @@
     return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
 
+  var SKILL_NAME_WEIGHT = 12;
+  var SKILL_BLOB_WEIGHT = 2;
+  var SKILL_BLOB_CAP = 5;
+  var SKILL_MAX_PER_WORD = SKILL_NAME_WEIGHT + SKILL_BLOB_WEIGHT * SKILL_BLOB_CAP;
+
   function scoreEntry(words, entry) {
     var nameLower = entry.name.toLowerCase();
     var blobLower = entry.blob.toLowerCase();
     var score = 0;
     words.forEach(function (w) {
-      if (SKILL_STOPWORDS[w]) return;
       var re = new RegExp('\\b' + escapeRegExp(w) + '\\b', 'g');
-      if (re.test(nameLower)) score += 12;
+      if (re.test(nameLower)) score += SKILL_NAME_WEIGHT;
       var matches = blobLower.match(re);
-      if (matches) score += Math.min(matches.length, 5) * 2;
+      if (matches) score += Math.min(matches.length, SKILL_BLOB_CAP) * SKILL_BLOB_WEIGHT;
     });
     return score;
   }
 
   function searchSkills(query) {
     if (!skillIndex) skillIndex = buildSkillIndex();
-    var words = query.toLowerCase().split(/[^a-z0-9+.#]+/).filter(function (w) { return w.length > 1; });
+    var words = query.toLowerCase().split(/[^a-z0-9+.#]+/).filter(function (w) {
+      return w.length > 1 && !SKILL_STOPWORDS[w];
+    });
     if (!words.length) return [];
+    var maxPossible = words.length * SKILL_MAX_PER_WORD;
     var scored = skillIndex
       .map(function (entry) { return { entry: entry, score: scoreEntry(words, entry) }; })
       .filter(function (s) { return s.score > 0; });
     scored.sort(function (a, b) { return b.score - a.score; });
-    return scored.slice(0, 3).map(function (s) { return s.entry; });
+    return scored.slice(0, 3).map(function (s) {
+      var percent = Math.max(1, Math.min(100, Math.round((s.score / maxPossible) * 100)));
+      return { page: s.entry.page, name: s.entry.name, snippet: s.entry.snippet, matchPercent: percent };
+    });
   }
 
   function truncateSnippet(str, n) {
@@ -287,7 +297,10 @@
     } else {
       body = results.map(function (r) {
         return '<button type="button" class="skill-result-card" data-skill-page="' + r.page + '">' +
+          '<span class="skill-result-badges">' +
           '<span class="skill-result-type">Topic</span>' +
+          '<span class="skill-result-match">' + r.matchPercent + '% match</span>' +
+          '</span>' +
           '<p class="skill-result-name">' + escapeHtml(r.name) + '</p>' +
           '<p class="skill-result-snippet">' + escapeHtml(truncateSnippet(r.snippet, 160)) + '</p>' +
           '</button>';
