@@ -3306,5 +3306,160 @@
     ],
     "page": 644,
     "category": "Health & Life Sciences"
+  },
+  {
+    "name": "Comprehensive Certificate in Neuroscience",
+    "description": "A university-benchmarked neuroscience certificate spanning cellular neurobiology, neuroanatomy, electrophysiology, synapses, sensory and motor systems, cognition, behavior, computational neuroscience, methods and experimental reasoning.",
+    "university_benchmark": "MIT Brain & Cognitive Sciences | Harvard Fundamentals of Neuroscience | Stanford Neurosciences",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Neuron structure, membranes + action potentials"
+          },
+          {
+            "title": "Synapses, neurotransmission + plasticity"
+          },
+          {
+            "title": "Neuroanatomy + major CNS/PNS systems"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Sensory and motor systems"
+          },
+          {
+            "title": "Learning, memory, emotion + cognition"
+          },
+          {
+            "title": "Neurodevelopment, neurological and psychiatric mechanisms"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "fMRI/EEG/MEG/TMS + electrophysiology"
+          },
+          {
+            "title": "Neural coding + computational neuroscience"
+          },
+          {
+            "title": "Experimental design, statistics + reproducible inference"
+          }
+        ]
+      }
+    ],
+    "resource_links": [
+      {
+        "competency": "Neural computation",
+        "coverage": "MIT OCW 9.40",
+        "url": "https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/video_galleries/lecture-videos/"
+      },
+      {
+        "competency": "The human brain",
+        "coverage": "MIT OCW 9.13",
+        "url": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/video_galleries/lecture-videos/"
+      },
+      {
+        "competency": "Sensory systems",
+        "coverage": "MIT OCW 9.04",
+        "url": "https://www.ocw.mit.edu/courses/9-04-sensory-systems-fall-2013/resources/lecture-videos/"
+      },
+      {
+        "competency": "Fundamentals of neuroscience",
+        "coverage": "Harvard",
+        "url": "https://pll.harvard.edu/series/fundamentals-neuroscience"
+      },
+      {
+        "competency": "Neuron anatomy & function",
+        "coverage": "Ninja Nerd",
+        "url": "https://www.youtube.com/watch?v=qOmmqu6_g3s"
+      }
+    ],
+    "capstone": "Design a neuroscience investigation around a neural circuit or cognitive function. Build a multi-level model from cells to circuits to behavior; formulate a falsifiable hypothesis; select measurement/manipulation methods; specify controls; analyze a simulated or public neural/behavioral dataset; compare alternative explanations; and produce a research report plus a follow-up experiment and translational implications section.",
+    "evidence_standard": "Mechanistic accuracy; neuroanatomical coherence; appropriate method choice; temporal/spatial resolution awareness; controls; quantitative reasoning; causal restraint; reproducibility; integration across cellular, circuit and behavioral levels; explicit uncertainty and ethical limitations.",
+    "page": 716,
+    "category": "Health & Life Sciences"
+  },
+  {
+    "name": "Comprehensive Certificate in Nursing Foundations",
+    "description": "A non-licensure nursing foundations certificate spanning health assessment, pathophysiology, pharmacology, foundational nursing skills, clinical judgment, adult health, mental health, maternal-child care, population health, informatics, quality/safety and professional practice.",
+    "university_benchmark": "UW School of Nursing BSN | Johns Hopkins Entry Nursing | AACN Essentials",
+    "tiers": [
+      {
+        "tier": "FOUNDATIONS / INTRODUCTION",
+        "courses": [
+          {
+            "title": "Health assessment, vital signs + documentation"
+          },
+          {
+            "title": "Pathophysiology + pharmacology foundations"
+          },
+          {
+            "title": "Foundational nursing skills, infection prevention + safety"
+          }
+        ]
+      },
+      {
+        "tier": "INTERMEDIATE CORE",
+        "courses": [
+          {
+            "title": "Adult medical-surgical nursing + care planning"
+          },
+          {
+            "title": "Mental health, communication + psychosocial care"
+          },
+          {
+            "title": "Maternal/newborn, pediatric + aging care"
+          }
+        ]
+      },
+      {
+        "tier": "ADVANCED / SPECIALIZATION",
+        "courses": [
+          {
+            "title": "Population/community health + health equity"
+          },
+          {
+            "title": "Evidence-based practice, informatics + quality improvement"
+          },
+          {
+            "title": "Care coordination, leadership + transition to practice"
+          }
+        ]
+      }
+    ],
+    "resource_links": [
+      {
+        "competency": "Nursing skills demonstrations",
+        "coverage": "OpenRN",
+        "url": "https://openrn.blogspot.com/2021/11/open-rn-nursing-skills-instructor.html"
+      },
+      {
+        "competency": "BSN clinical competency reference",
+        "coverage": "University of Washington",
+        "url": "https://nursing.uw.edu/academics/bsn/2025-curriculum/"
+      },
+      {
+        "competency": "Integrated practice reference",
+        "coverage": "Johns Hopkins Entry Nursing",
+        "url": "https://nursing.jhu.edu/programs/masters-entry/"
+      },
+      {
+        "competency": "Competency framework + video resources",
+        "coverage": "AACN Essentials",
+        "url": "https://www.aacnnursing.org/essentials"
+      }
+    ],
+    "capstone": "Complete a simulated nursing care-planning case across an admission-to-discharge journey. Produce a focused assessment, cue cluster, prioritized nursing concerns, pathophysiology/medication map, safety and infection-prevention plan, patient education, interprofessional communication, escalation criteria, documentation sample, discharge/care-coordination plan, evidence check and one quality-improvement measure. Use simulation only unless operating within an accredited supervised clinical program.",
+    "evidence_standard": "Safe prioritization; assessment completeness; pathophysiology and medication reasoning; communication; infection/safety controls; person-centered education; evidence quality; informatics/documentation discipline; teamwork and escalation; quality-improvement logic; ethical boundaries and explicit non-licensure limits.",
+    "page": 718,
+    "category": "Health & Life Sciences"
   }
 ]

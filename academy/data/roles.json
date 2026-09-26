@@ -22883,5 +22883,755 @@
     "page": 708,
     "category": "Cloud, Platform & Systems Engineering",
     "bonus": []
+  },
+  {
+    "name": "Systems Administrator / Cloud Operations Engineer",
+    "benchmark": "Koniag Server/Cloud Operations Engineer + current Azure Arc hybrid-operations and cloud-governance practice (current Sep 2026) Current bar: Windows/Linux administration; identity, DNS and networking; AWS/Azure/hybrid operations; fleet inventory; patch/configuration; PowerShell/Bash/Python; Ansible and IaC; monitoring/SLOs; backup/DR; security baselines; ITSM/on-call; capacity, cost and lifecycle modernization.",
+    "capstone": "Complete a 5-day Hybrid Cloud Operations Lab: provision Windows and Linux systems; configure identity/RBAC, DNS and network access; onboard inventory; define patch and maintenance workflows; automate configuration with Ansible and Terraform; add logs/metrics/traces and SLOs; create backup/restore and DR tests; run an incident and rollback drill; apply security/compliance checks; build a capacity/cost view; then publish operator runbooks and an executive reliability readout.",
+    "rubric": "Demonstrate OS/network/identity fluency; repeatable provisioning and configuration; patch and vulnerability evidence; IaC and source-control discipline; useful observability/SLOs; incident diagnosis and recovery; least privilege; verified backup/restore; ITSM/change/runbook discipline; capacity/cost awareness; and measurable availability, risk or toil improvement.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build confident OS, network and identity administration across hybrid environments",
+        "competencies": [
+          {
+            "title": "Operating systems, services + networking fundamentals",
+            "coverage": "Windows/Linux / processes-services / filesystems / permissions / TCP-IP / DNS / troubleshooting",
+            "videos": [
+              {
+                "title": "Linux Hands-On Course",
+                "url": "https://www.youtube.com/watch?v=t3e_CaC4V_k",
+                "channel": "KodeKloud"
+              },
+              {
+                "title": "How Data Moves Through the...",
+                "url": "https://www.youtube.com/watch?v=YJGGYKAV4pA",
+                "channel": "Practical Networking"
+              }
+            ]
+          },
+          {
+            "title": "Identity, access + hybrid server administration",
+            "coverage": "AD/Entra / users-groups / RBAC / MFA / hybrid identity / remote admin / inventory",
+            "videos": [
+              {
+                "title": "Beginner Tutorial",
+                "url": "https://www.youtube.com/watch?v=0qZzcK1mHwA",
+                "channel": "Microsoft Entra ID"
+              },
+              {
+                "title": "Azure Arc for On-Prem + Multi-Cloud Ser...",
+                "url": "https://www.youtube.com/watch?v=JDx8blnt5Aw",
+                "channel": "Microsoft"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Operate fleets consistently with patching, configuration and automation",
+        "competencies": [
+          {
+            "title": "Fleet management, patching + configuration compliance",
+            "coverage": "Systems Manager / inventory / maintenance windows / patch baselines / vulnerability remediation / drift",
+            "videos": [
+              {
+                "title": "Introduction to EC2 Systems Manager",
+                "url": "https://www.youtube.com/watch?v=zwS8lssaY_k",
+                "channel": "AWS"
+              },
+              {
+                "title": "Automated Configuration with Systems Mana...",
+                "url": "https://www.youtube.com/watch?v=Me2xbKzxbq8",
+                "channel": "AWS"
+              }
+            ]
+          },
+          {
+            "title": "Automation, scripting + infrastructure as code",
+            "coverage": "PowerShell/Bash/Python / Ansible / Terraform / Git / reusable provisioning / configuration automation",
+            "videos": [
+              {
+                "title": "Ansible Automation Platform Overview",
+                "url": "https://www.youtube.com/watch?v=7Sw5qzfCSPg",
+                "channel": "Red Hat"
+              },
+              {
+                "title": "Terraform Course + Hands-On Labs",
+                "url": "https://www.youtube.com/watch?v=YcJ9IeukJL8",
+                "channel": "KodeKloud"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Own reliability, resilience and secure hybrid operations at scale",
+        "competencies": [
+          {
+            "title": "Monitoring, SLOs + incident/service operations",
+            "coverage": "metrics-logs-traces / alerts / SLOs / on-call / runbooks / ITSM / postmortems / capacity signals",
+            "videos": [
+              {
+                "title": "SRE, Risk + Error Budgets",
+                "url": "https://www.youtube.com/watch?v=y2ILKr8kCJU",
+                "channel": "Google Cloud"
+              },
+              {
+                "title": "OpenTelemetry: What It Is + How It Works",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "channel": "CNCF"
+              }
+            ]
+          },
+          {
+            "title": "Security, recovery + fleet lifecycle economics",
+            "coverage": "least privilege / baselines / patch-vulnerability / backup-restore / DR / capacity / lifecycle / cloud cost",
+            "videos": [
+              {
+                "title": "Entra Suite: Secure Access End-to-End",
+                "url": "https://www.youtube.com/watch?v=sPtb3dzOdaE",
+                "channel": "Microsoft"
+              },
+              {
+                "title": "Well-Architected Framework Deep Dive",
+                "url": "https://www.youtube.com/watch?v=jtjEWlGkwjQ",
+                "channel": "AWS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 709,
+    "category": "Cloud, Platform & Systems Engineering",
+    "bonus": []
+  },
+  {
+    "name": "Manager, SEO & Digital Growth",
+    "benchmark": "French Florist Manager, SEO & Digital Growth + current Ahrefs/Semrush AI-search, local-search and organic-growth practice (current Sep 2026) Current bar: GEO/AEO plus classic SEO; multi-location/local discovery; technical SEO, indexation, schema and Core Web Vitals; content strategy; CRO/UX experimentation; GA4, Search Console and GTM; dashboards and revenue measurement; AI-search visibility; scalable DTC/franchise growth operations.",
+    "capstone": "Build a 5-day Digital Growth Operating System for a DTC or multi-location brand. Benchmark classic and AI-search visibility; run a technical crawl/indexation audit; create keyword-intent and content maps; specify schema and Core Web Vitals fixes; build a Google Business Profile/local-launch playbook; create an AI citation/brand-mention tracker; define GA4/GTM/Search Console measurement; diagnose a funnel with session/heatmap evidence; design an A/B test; refresh one content asset; then deliver a 90-day roadmap and executive dashboard tied to conversion and revenue.",
+    "rubric": "Show measurable organic and AI-search visibility; technically sound indexation/schema and site health; local profile/listing integrity; strong intent-to-content logic; credible CRO evidence and experiment design; trustworthy analytics instrumentation; conversion/revenue linkage; repeatable multi-location processes; disciplined content refresh; explicit prioritization and tradeoffs; and an executive-ready growth narrative.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build the organic-growth strategy from search intent, technical health and customer value",
+        "competencies": [
+          {
+            "title": "Search intent, market + organic growth strategy",
+            "coverage": "keyword research / intent / competitors / content portfolio / organic roadmap / revenue opportunities",
+            "videos": [
+              {
+                "title": "Complete SEO Course for Beginners",
+                "url": "https://www.youtube.com/watch?v=xsVTqzratPs",
+                "channel": "Ahrefs"
+              },
+              {
+                "title": "SEO in 2026: Rank in Google in the AI Era",
+                "url": "https://www.youtube.com/watch?v=tiW6xRYSXmM",
+                "channel": "Ahrefs"
+              }
+            ]
+          },
+          {
+            "title": "Technical SEO, site health + structured visibility",
+            "coverage": "crawl-indexation / architecture / schema / Core Web Vitals / internal links / technical audits",
+            "videos": [
+              {
+                "title": "Technical SEO Audit: Find + Fix Issues",
+                "url": "https://www.youtube.com/watch?v=G_9-AkZch4k",
+                "channel": "Ahrefs"
+              },
+              {
+                "title": "Core Web Vitals: Optimize Them for SEO",
+                "url": "https://www.youtube.com/watch?v=LCZzLmIp0H0",
+                "channel": "Ahrefs"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Win discovery across AI search and local multi-location experiences",
+        "competencies": [
+          {
+            "title": "GEO/AEO + AI-search visibility",
+            "coverage": "AI Overviews/AI Mode / ChatGPT / Perplexity / citations / brand mentions / freshness / entity-rich content",
+            "videos": [
+              {
+                "title": "Optimize Content for AI Search Engines",
+                "url": "https://www.youtube.com/watch?v=5OccF4g0UKI",
+                "channel": "Ahrefs"
+              },
+              {
+                "title": "AI SEO / Answer Engine Optimization Course",
+                "url": "https://www.youtube.com/watch?v=uza9GX0E2mw",
+                "channel": "Ahrefs"
+              }
+            ]
+          },
+          {
+            "title": "Local SEO + multi-location discovery",
+            "coverage": "Google Business Profiles / listings integrity / reviews / local pages / store-launch playbooks / Maps visibility",
+            "videos": [
+              {
+                "title": "Local SEO Full Course: Outrank on Goog...",
+                "url": "https://www.youtube.com/watch?v=ndJB4J951_k",
+                "channel": "Semrush"
+              },
+              {
+                "title": "Complete Local SEO Checklist",
+                "url": "https://www.youtube.com/watch?v=3qe4lz1439Q",
+                "channel": "Semrush"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Compound conversion, measurement and revenue across the digital journey",
+        "competencies": [
+          {
+            "title": "CRO, UX + disciplined experimentation",
+            "coverage": "session replay / heatmaps / funnels / hypotheses / A-B + multivariate tests / landing pages / checkout",
+            "videos": [
+              {
+                "title": "Controlled Experiments and A/B/n T...",
+                "url": "https://www.youtube.com/watch?v=qtboCGd_hTA",
+                "channel": "Ronny Kohavi"
+              },
+              {
+                "title": "How to Run a Conversion Rate Optimization P...",
+                "url": "https://www.youtube.com/watch?v=wiiTviFOaDQ",
+                "channel": "CXL"
+              }
+            ]
+          },
+          {
+            "title": "Analytics, content operations + executive growth measurement",
+            "coverage": "GA4 / GTM / Search Console / dashboards / organic revenue / AI visibility / content refresh / multi-location ops",
+            "videos": [
+              {
+                "title": "Search Console Performan...",
+                "url": "https://www.youtube.com/watch?v=wTwnFcWUM3k",
+                "channel": "Google Search Central"
+              },
+              {
+                "title": "GA4 with Google Tag Manager",
+                "url": "https://www.youtube.com/watch?v=UuE37-MM1ws",
+                "channel": "Analytics Mania"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 710,
+    "category": "Creator Economy, Social Media & Digital Growth",
+    "bonus": []
+  },
+  {
+    "name": "Product Manager, AI Platform",
+    "benchmark": "Google Cloud Vertex AI platform product leadership + Microsoft CoreAI / AI Platform + Capital Group enterprise AI platform PM + Ridgeline AI quality-platform PM signals (current Sep 2026) Current bar: platform strategy and segmentation; developer journeys; APIs/SDKs and self-service; model, RAG, agent and inference primitives; evals/observability; enterprise governance; multi-tenancy, quotas and SLOs; unit economics; ecosystem/GTM; adoption and measurable developer/customer outcomes.",
+    "capstone": "Complete a 5-day AI Platform PM Lab: interview three builder personas; define platform boundaries and a golden path; write the platform strategy and API/SDK requirements; map model, RAG, agent, MCP, identity and data primitives; prototype the developer journey; define eval, observability and SLO dashboards; model quotas, capacity and per-task economics; specify governance and tenant controls; prioritize a roadmap; then deliver pricing/packaging, adoption/GTM and an executive investment memo.",
+    "rubric": "Show platform rather than feature thinking: clear internal/external customers; reusable primitives and explicit platform boundaries; credible API/SDK and DX judgment; measurable eval/reliability evidence; security and governance by design; defensible model/capacity/cost economics; multi-tenant and failure-mode awareness; adoption and ecosystem metrics; roadmap tradeoffs; and evidence that the platform reduces builder time-to-value while improving quality, safety and operating leverage.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Define the platform customer, value proposition and golden path",
+        "competencies": [
+          {
+            "title": "Platform strategy, personas + jobs-to-be-done",
+            "coverage": "Developer / data scientist / enterprise-builder personas / use-case portfolio / platform boundaries / roadmap",
+            "videos": [
+              {
+                "title": "Use Case Discovery & System Sc...",
+                "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "How to Talk to Users",
+                "url": "https://www.youtube.com/watch?v=z1iF1c8w5Lg",
+                "channel": "Y Combinator"
+              }
+            ]
+          },
+          {
+            "title": "AI platform primitives + architecture fluency",
+            "coverage": "Models / inference / RAG / embeddings / agents / tools / MCP / APIs / data and identity boundaries",
+            "videos": [
+              {
+                "title": "Intro to Large Language Models",
+                "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+                "channel": "Andrej Karpathy"
+              },
+              {
+                "title": "The Model Context Protocol (MCP)",
+                "url": "https://www.youtube.com/watch?v=CQywdSdi5iA",
+                "channel": "Anthropic"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Turn primitives into a usable, measurable developer platform",
+        "competencies": [
+          {
+            "title": "Developer experience, APIs/SDKs + self-service",
+            "coverage": "API contracts / SDKs / console / docs / templates / model catalog / playground / onboarding / platform adoption",
+            "videos": [
+              {
+                "title": "Azure AI Foundry + MCP Toolchain",
+                "url": "https://www.youtube.com/watch?v=AAe_8eIvra0",
+                "channel": "Microsoft Reactor"
+              },
+              {
+                "title": "Engineering with Backstage",
+                "url": "https://www.youtube.com/watch?v=lCgDiusuixM",
+                "channel": "CNCF / Spotify"
+              }
+            ]
+          },
+          {
+            "title": "Evals, observability + quality feedback loops",
+            "coverage": "Offline-online evals / traces / regression gates / experiments / latency / cost / quality dashboards",
+            "videos": [
+              {
+                "title": "Practical Evaluation Systems",
+                "url": "https://academy.openai.com/en/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Evaluating Agents",
+                "url": "https://reactor.microsoft.com/en-us/reactor/events/25369/",
+                "channel": "Microsoft Reactor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Scale a governed platform with reliable economics and ecosystem leverage",
+        "competencies": [
+          {
+            "title": "Reliability, multi-tenancy + platform economics",
+            "coverage": "SLOs / quotas / rate limits / capacity / routing / caching / model mix / chargeback / unit cost / FinOps",
+            "videos": [
+              {
+                "title": "Getting Started with SLOs",
+                "url": "https://www.youtube.com/watch?v=_2th8LDnvQk",
+                "channel": "Google Cloud"
+              },
+              {
+                "title": "Fine-Tuning Strategy & Tradeoffs",
+                "url": "https://academy.openai.com/en/public/clubs/builders-etkn1/videos/ai-techniques-production-fine-tuning-strategy-and-tradeoffs-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          },
+          {
+            "title": "Governance, ecosystem + GTM/adoption",
+            "coverage": "IAM / tenant isolation / data policy / safety / marketplace-connectors / partners / pricing-packaging / enablement",
+            "videos": [
+              {
+                "title": "Responsible AI in Practice",
+                "url": "https://www.microsoft.com/en-us/research/video/in-pursuit-of-responsible-ai-bringing-principles-to-practice/",
+                "channel": "Microsoft Research"
+              },
+              {
+                "title": "Go-to-Market Strategy by Microsoft...",
+                "url": "https://www.youtube.com/watch?v=Q6cB3k8O3oA",
+                "channel": "Product School"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 711,
+    "category": "AI Product, Strategy & Enterprise Transformation",
+    "bonus": []
+  },
+  {
+    "name": "Platform Engineer",
+    "benchmark": "Current Platform Engineer / Internal Developer Platform roles + CNCF / Platform Engineering standards (current Sep 2026) Market refresh: reusable platform services; Kubernetes; Terraform/IaC and GitOps; CI/CD; Backstage/developer portals; platform APIs; golden paths; policy/security; observability/SLOs; multi-tenancy; platform-as-product; developer productivity metrics; AI/agent-ready platform evolution.",
+    "capstone": "Build an Internal Developer Platform: two golden paths, Kubernetes + Terraform, GitOps deployment, service catalog/scaffold, IAM/secrets, policy-as-code, logs/metrics/traces, SLOs, rollback and one AI/agent workload path.",
+    "rubric": "Reusable abstractions; self-service guardrails; secure defaults; SLO evidence; tenant boundaries; recovery; developer experience; measurable time-to-value/adoption; explicit tradeoffs across flexibility, reliability, security and cost.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build the substrate",
+        "competencies": [
+          {
+            "title": "Kubernetes, IaC + GitOps",
+            "coverage": "Linux / cloud / containers / Kubernetes / Terraform / GitOps",
+            "videos": [
+              {
+                "title": "Kubernetes 101",
+                "url": "https://www.youtube.com/watch?v=RZLqsBXRSk8",
+                "channel": "CNCF"
+              },
+              {
+                "title": "GitOps with Argo",
+                "url": "https://www.youtube.com/watch?v=nu6bLhuvlWM",
+                "channel": "CNCF"
+              }
+            ]
+          },
+          {
+            "title": "Developer users + golden paths",
+            "coverage": "Platform-as-product / developer journeys / templates / adoption",
+            "videos": [
+              {
+                "title": "Platform as a Product",
+                "url": "https://www.youtube.com/watch?v=g8n1hYFO1OE",
+                "channel": ""
+              },
+              {
+                "title": "Golden Paths Interactive Labs",
+                "url": "https://2025.platformcon.com/sessions/your-guide-to-golden-paths-3-interactive-labs-to-get-started",
+                "channel": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build the IDP",
+        "competencies": [
+          {
+            "title": "Portal, catalog + platform APIs",
+            "coverage": "Backstage / service catalog / scaffolding / APIs",
+            "videos": [
+              {
+                "title": "Backstage",
+                "url": "https://www.youtube.com/watch?v=lCgDiusuixM",
+                "channel": "CNCF / Spotify"
+              },
+              {
+                "title": "Backstage + Crossplane + ArgoCD",
+                "url": "https://2025.platformcon.com/sessions/building-an-internal-developer-platform-with-backstage-crossplane-argocd-and-vcluster",
+                "channel": ""
+              }
+            ]
+          },
+          {
+            "title": "Policy + observability",
+            "coverage": "OPA/Kyverno / IAM / secrets / telemetry / SLOs",
+            "videos": [
+              {
+                "title": "Open Policy Agent",
+                "url": "https://www.youtube.com/watch?v=hENwFyrtm1g",
+                "channel": "CNCF"
+              },
+              {
+                "title": "SLOs",
+                "url": "https://www.youtube.com/watch?v=_2th8LDnvQk",
+                "channel": "Google Cloud"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Scale the platform",
+        "competencies": [
+          {
+            "title": "Multi-tenancy + economics",
+            "coverage": "Quotas / isolation / capacity / resilience / FinOps",
+            "videos": [
+              {
+                "title": "Sovereign IDP",
+                "url": "https://2026.platformcon.com/sessions/building-the-sovereign-internal-developer-platform-idp",
+                "channel": ""
+              },
+              {
+                "title": "Intelligent Delivery",
+                "url": "https://www.youtube.com/watch?v=zB7VGF-GhMg",
+                "channel": ""
+              }
+            ]
+          },
+          {
+            "title": "DevEx metrics + agentic platform",
+            "coverage": "DORA/SPACE / satisfaction / AI workloads / agents as users",
+            "videos": [
+              {
+                "title": "Backstage to Business Value",
+                "url": "https://2026.platformcon.com/sessions/from-backstage-to-business-value-nexa-and-the-standardized-developer-experience",
+                "channel": ""
+              },
+              {
+                "title": "Future of Platform Engineering",
+                "url": "https://2026.platformcon.com/sessions/closing-panel-the-future-of-platform-engineering-and-what-to-build-next-nyc",
+                "channel": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 713,
+    "category": "Cloud, Platform & Systems Engineering",
+    "bonus": []
+  },
+  {
+    "name": "Technical Program Manager, AI Inference",
+    "benchmark": "Anthropic Technical Program Manager, Cloud Inference + OpenAI compute/inference program signals (current Sep 2026) Market refresh: inference/model-serving architecture; model onboarding/release pipelines; cloud partner execution; accelerator/capacity readiness; latency-throughput-cost SLOs; dependency/roadmap management; launch readiness; incidents/rollback; engineering coordination and executive cadence.",
+    "capstone": "Run a managed-inference program from model onboarding to launch: architecture/dependency map, TTFT/ITL/throughput/cost SLOs, capacity scenarios, integrated roadmap, launch review, simulated shortfall/incident, dashboard and executive decision memo.",
+    "rubric": "Inference fluency; dependency-complete plan; measurable gates; cloud/model readiness; RAID discipline; incident/rollback; quantified latency, throughput, utilization, headroom and cost; crisp executive communication.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Architecture + execution",
+        "competencies": [
+          {
+            "title": "Inference architecture + serving",
+            "coverage": "Prefill/decode / GPU memory / model servers / routing / autoscaling",
+            "videos": [
+              {
+                "title": "LLM Inference Optimization",
+                "url": "https://www.youtube.com/watch?v=9tvJ_GYJA-o",
+                "channel": "NVIDIA"
+              },
+              {
+                "title": "Triton Inference Server",
+                "url": "https://www.youtube.com/watch?v=NQDtfSi5QF4",
+                "channel": "NVIDIA"
+              }
+            ]
+          },
+          {
+            "title": "Program plan + model onboarding",
+            "coverage": "Critical path / dependencies / RACI / release criteria",
+            "videos": [
+              {
+                "title": "WBS Masterclass",
+                "url": "https://www.youtube.com/watch?v=PyR2VLP3xnA",
+                "channel": ""
+              },
+              {
+                "title": "Agile Project Management",
+                "url": "https://www.youtube.com/watch?v=nrfl6GAQy2s",
+                "channel": "MIT"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Capacity + launch",
+        "competencies": [
+          {
+            "title": "Performance + capacity program",
+            "coverage": "TTFT / ITL / throughput / GPU utilization / cost / headroom",
+            "videos": [
+              {
+                "title": "TensorRT-LLM Performance Optimization",
+                "url": "https://www.youtube.com/watch?v=c8_hnLSXSCs",
+                "channel": ""
+              },
+              {
+                "title": "SLOs",
+                "url": "https://www.youtube.com/watch?v=_2th8LDnvQk",
+                "channel": "Google Cloud"
+              }
+            ]
+          },
+          {
+            "title": "Cloud deployment + partner coordination",
+            "coverage": "KServe / deployment automation / compatibility / blockers",
+            "videos": [
+              {
+                "title": "KServe GenAI Inference",
+                "url": "https://www.youtube.com/watch?v=n4y9dwinPBQ",
+                "channel": "CNCF"
+              },
+              {
+                "title": "Release Management",
+                "url": "https://learn.microsoft.com/en-us/shows/devops-fundamentals/continuous-deployment-release-management",
+                "channel": "Microsoft"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Operate + scale",
+        "competencies": [
+          {
+            "title": "Readiness + incidents",
+            "coverage": "Go/no-go / load tests / rollback / incident response",
+            "videos": [
+              {
+                "title": "Incident Management",
+                "url": "https://www.youtube.com/watch?v=cQP8WApzIQQ",
+                "channel": "Google Cloud"
+              },
+              {
+                "title": "Distributed Inference 101",
+                "url": "https://www.youtube.com/watch?v=SeImiPDVMCw",
+                "channel": "NVIDIA"
+              }
+            ]
+          },
+          {
+            "title": "Executive risk + roadmap",
+            "coverage": "RAID / capacity scenarios / source-of-truth dashboards",
+            "videos": [
+              {
+                "title": "Think Fast Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              },
+              {
+                "title": "GenAI Shift",
+                "url": "https://www.projectmanagement.com/videos/1016036/mastering-the-genai-shift--pmi-insights-on-leveraging-generative-ai-in-project-management",
+                "channel": "PMI"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 714,
+    "category": "Data Center, AI Compute & Infrastructure",
+    "bonus": []
+  },
+  {
+    "name": "Product Manager, AI Inference",
+    "benchmark": "NVIDIA Senior Product Manager, AI Platform Inference + current AI inference/model-serving product roles (current Sep 2026) Market refresh: deeply technical developer product management across inference runtimes, tools, SDKs and libraries; vLLM/SGLang/TensorRT-LLM/Triton/Dynamo; latency-throughput-cost and quality tradeoffs; GPU/HW-SW co-design; OSS discovery; roadmaps; packaging/GTM and developer adoption.",
+    "capstone": "Run an AI Inference Product Lab: interview three users, segment workloads, benchmark one model across two serving configurations, define TTFT/ITL/throughput/availability/utilization/cost metrics, compare runtimes, write API/SDK requirements, prioritize roadmap, model capacity/pricing and deliver OSS/ecosystem + GTM plan.",
+    "rubric": "Customer problem clarity; credible serving architecture; benchmark evidence; latency-throughput-quality-cost tradeoffs; useful APIs/SDKs; reliability requirements; capacity/pricing economics; ecosystem judgment; adoption metrics and explicit non-goals.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Customer + performance",
+        "competencies": [
+          {
+            "title": "Inference use-case segmentation",
+            "coverage": "Interactive/batch / agentic/classic / latency / throughput / developer pain",
+            "videos": [
+              {
+                "title": "LLM Inference Optimization",
+                "url": "https://www.youtube.com/watch?v=9tvJ_GYJA-o",
+                "channel": "NVIDIA"
+              },
+              {
+                "title": "Triton",
+                "url": "https://www.youtube.com/watch?v=NQDtfSi5QF4",
+                "channel": "NVIDIA"
+              }
+            ]
+          },
+          {
+            "title": "Benchmark + metric tree",
+            "coverage": "TTFT / ITL / tokens/sec / utilization / cost/token / quality",
+            "videos": [
+              {
+                "title": "SGLang Optimizations",
+                "url": "https://www.youtube.com/watch?v=CLzz7ZalYD8",
+                "channel": ""
+              },
+              {
+                "title": "Low-Precision Inference",
+                "url": "https://www.youtube.com/watch?v=9_v-HBLHfFk",
+                "channel": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Productize serving",
+        "competencies": [
+          {
+            "title": "Inference runtimes + APIs",
+            "coverage": "vLLM/SGLang/TensorRT-LLM/Triton/Dynamo / model endpoints",
+            "videos": [
+              {
+                "title": "KServe Complete Guide",
+                "url": "https://www.youtube.com/watch?v=qSIhO0EDsoA",
+                "channel": ""
+              },
+              {
+                "title": "NVIDIA Dynamo",
+                "url": "https://www.nvidia.com/en-us/on-demand/session/other25-dynamoday02/",
+                "channel": ""
+              }
+            ]
+          },
+          {
+            "title": "Developer workflow + reliability",
+            "coverage": "SDKs / versioning / observability / autoscaling / rollback",
+            "videos": [
+              {
+                "title": "KServe Complete Guide",
+                "url": "https://www.youtube.com/watch?v=qSIhO0EDsoA",
+                "channel": ""
+              },
+              {
+                "title": "SLOs",
+                "url": "https://www.youtube.com/watch?v=_2th8LDnvQk",
+                "channel": "Google Cloud"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Economics + ecosystem",
+        "competencies": [
+          {
+            "title": "Capacity + product economics",
+            "coverage": "Multi-tenant capacity / routing / cache / pricing / TCO",
+            "videos": [
+              {
+                "title": "Frontier AI Inference",
+                "url": "https://www.youtube.com/watch?v=iTcVCqpLsbU",
+                "channel": "AWS + Baseten"
+              },
+              {
+                "title": "Inference Optimization",
+                "url": "https://www.youtube.com/watch?v=CAuJ__sglwY",
+                "channel": "Baseten"
+              }
+            ]
+          },
+          {
+            "title": "OSS ecosystem + GTM",
+            "coverage": "GitHub feedback / partners / roadmap / packaging / launch",
+            "videos": [
+              {
+                "title": "NVIDIA Dynamo",
+                "url": "https://www.nvidia.com/en-us/on-demand/session/other25-dynamoday02/",
+                "channel": ""
+              },
+              {
+                "title": "GTM Strategy",
+                "url": "https://www.youtube.com/watch?v=Q6cB3k8O3oA",
+                "channel": "Product School"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 715,
+    "category": "Data Center, AI Compute & Infrastructure",
+    "bonus": []
   }
 ]

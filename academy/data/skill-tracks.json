@@ -915,5 +915,449 @@
     "practiceBody": "Week 1 – Communicate: write a one-page executive memo and deliver a 5-minute briefing; record it and revise for clarity. Week 2 – Influence: build a stakeholder map and run a negotiation simulation; document interests, BATNA/tradeoffs and outcome. Week 3 – Lead: practice one coaching/feedback conversation and one delegation contract with observable expectations. Week 4 – Strategize: write a decision memo with diagnosis, options, economics, risks, recommendation and a stop-doing choice. Week 5 – Operate: create a KPI tree, review cadence, risk/dependency log and escalation mechanism for a real initiative. Week 6 – AI + Career Capital: automate or augment one workflow with AI and update your visible portfolio of impact.",
     "rubricHeading": null,
     "rubric": null
+  },
+  {
+    "name": "Agent Mastery — Claude / Anthropic",
+    "category": "Agent Mastery",
+    "tagline": "Build from first principles with Claude agents and Claude Code, then connect external systems through MCP and harden the system for real work.",
+    "intro": "Learn the shared agent architecture once, then build independently in Claude, Microsoft Copilot and Google Cloud/GCP — including tools, MCP servers/resources, memory, orchestration, evaluation, security, deployment and a working application/system.",
+    "benchmark": "Official vendor agent-building documentation and workshops (current Sep 2026)",
+    "ladder": [
+      {
+        "label": "FOUNDATIONS",
+        "title": "Understand the Agent Loop",
+        "body": "Claude model behavior, instructions and context management; Claude Code agentic loop, project instructions and plan/act/observe; tools, resources, prompts, skills and sub-agents."
+      },
+      {
+        "label": "INTERMEDIATE",
+        "title": "Connect + Orchestrate",
+        "body": "MCP clients/servers, local and remote servers, resources and tool schemas; Agent Skills, tool discovery, code execution and multi-agent patterns; memory/state, retrieval, permissions and human approvals."
+      },
+      {
+        "label": "ADVANCED",
+        "title": "Evaluate + Operate",
+        "body": "Task suites, tool-use evals, tracing and regression gates; sandboxing, least privilege, prompt-injection defenses and containment; long-running/managed agents, reliability, cost and production rollout."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Official Learning / Build Resources",
+        "items": [
+          {
+            "title": "Claude Code: Foundations recorded workshop",
+            "video": {
+              "title": "Claude Code: Foundations recorded workshop",
+              "url": "https://www.anthropic.com/webinars/claude-code-foundations",
+              "channel": "Anthropic"
+            }
+          },
+          {
+            "title": "Model Context Protocol documentation",
+            "video": {
+              "title": "Model Context Protocol documentation",
+              "url": "https://docs.anthropic.com/en/docs/mcp",
+              "channel": "Anthropic"
+            }
+          },
+          {
+            "title": "Agent Skills engineering guide",
+            "video": {
+              "title": "Agent Skills engineering guide",
+              "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+              "channel": "Anthropic"
+            }
+          },
+          {
+            "title": "Writing effective tools for agents",
+            "video": {
+              "title": "Writing effective tools for agents",
+              "url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+              "channel": "Anthropic"
+            }
+          },
+          {
+            "title": "Code execution with MCP",
+            "video": {
+              "title": "Code execution with MCP",
+              "url": "https://www.anthropic.com/engineering/code-execution-with-mcp",
+              "channel": "Anthropic"
+            }
+          },
+          {
+            "title": "Managed Agents architecture",
+            "video": {
+              "title": "Managed Agents architecture",
+              "url": "https://www.anthropic.com/engineering/managed-agents",
+              "channel": "Anthropic"
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Hands-On Build Lab — Build Sequence",
+        "items": [
+          {
+            "title": "01 – Agent shell",
+            "body": "Install/configure Claude Code or Claude API/Agent SDK environment; define a real workflow, system prompt/project instructions and success criteria."
+          },
+          {
+            "title": "02 – Knowledge + context",
+            "body": "Add repository/files or retrieval context; establish explicit context boundaries and failure behavior."
+          },
+          {
+            "title": "03 – Build an MCP server",
+            "body": "Expose at least two typed tools and one useful resource; write precise descriptions, validation, auth and error handling."
+          },
+          {
+            "title": "04 – Connect + act",
+            "body": "Attach the MCP server; make Claude invoke tools on representative tasks; add one consequential write/action behind approval."
+          },
+          {
+            "title": "05 – Skills + orchestration",
+            "body": "Package one repeatable domain procedure as a Skill; optionally add sub-agents/parallel work where evidence supports it."
+          },
+          {
+            "title": "06 – Evaluate + red team",
+            "body": "Create representative tasks and assertions; test wrong-tool choice, injection, over-authority, secrets leakage and malformed tool responses."
+          },
+          {
+            "title": "07 – Operate",
+            "body": "Add logs/traces, retries/timeouts, cost/latency measures, sandbox/permission boundaries, runbook and rollback plan."
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Build Lab Resources",
+        "items": [
+          {
+            "title": "Anthropic MCP docs",
+            "video": {
+              "title": "Anthropic MCP docs",
+              "url": "https://docs.anthropic.com/en/docs/mcp",
+              "channel": "Anthropic"
+            }
+          },
+          {
+            "title": "Claude Code CLI / MCP configuration",
+            "video": {
+              "title": "Claude Code CLI / MCP configuration",
+              "url": "https://docs.anthropic.com/en/docs/claude-code/cli-usage",
+              "channel": "Anthropic"
+            }
+          },
+          {
+            "title": "Anthropic containment and sandboxing",
+            "video": {
+              "title": "Anthropic containment and sandboxing",
+              "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+              "channel": "Anthropic"
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Functional System Capstone",
+    "practiceBody": "Build a functional Claude-powered operations or knowledge-work application that reads trusted context, discovers and calls your MCP tools, performs at least one real external action with human approval, uses a reusable Skill, passes a documented eval suite, records traces, handles tool failure safely and can be demonstrated end-to-end from user request to verified outcome.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "Working behavior; correct MCP tool/resource discovery; schema quality; safe authentication; least privilege; meaningful approval boundaries; task-success evidence; adversarial testing; useful traces; failure recovery; latency/cost awareness; reproducible setup; and a concise architecture/decision record."
+  },
+  {
+    "name": "Agent Mastery — Microsoft Copilot",
+    "category": "Agent Mastery",
+    "tagline": "Build enterprise agents in Copilot Studio, extend them with knowledge, connectors, workflows and MCP, then publish with identity, evaluation, analytics and governance.",
+    "intro": "Learn the shared agent architecture once, then build independently in Claude, Microsoft Copilot and Google Cloud/GCP — including tools, MCP servers/resources, memory, orchestration, evaluation, security, deployment and a working application/system.",
+    "benchmark": "Official vendor agent-building documentation and workshops (current Sep 2026)",
+    "ladder": [
+      {
+        "label": "FOUNDATIONS",
+        "title": "Build the Agent",
+        "body": "Copilot Studio agent anatomy, instructions and generative orchestration; knowledge sources, connectors/tools and deterministic workflows; authentication, environments, testing and conversation tracing."
+      },
+      {
+        "label": "INTERMEDIATE",
+        "title": "MCP + Enterprise Integration",
+        "body": "Connect existing MCP servers; inspect tools/resources and selectively enable capabilities; create custom MCP servers with API key or OAuth 2.0 authentication; compose connected agents and integrate published Copilot Studio agents with Agent Framework."
+      },
+      {
+        "label": "ADVANCED",
+        "title": "Publish + Govern",
+        "body": "Evaluation test sets, quality measures and activity traces; Entra Agent ID, data policies, permissions, security and governance; publish to Teams/Microsoft 365/web; analytics, monitoring, adoption and cost controls."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Official Learning / Build Resources",
+        "items": [
+          {
+            "title": "Copilot Studio documentation",
+            "video": {
+              "title": "Copilot Studio documentation",
+              "url": "https://learn.microsoft.com/microsoft-copilot-studio",
+              "channel": "Microsoft"
+            }
+          },
+          {
+            "title": "Add MCP tools/resources to a Copilot Studio agent",
+            "video": {
+              "title": "Add MCP tools/resources to a Copilot Studio agent",
+              "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/mcp-add-components-to-agent",
+              "channel": "Microsoft"
+            }
+          },
+          {
+            "title": "Create an MCP server for Copilot Studio",
+            "video": {
+              "title": "Create an MCP server for Copilot Studio",
+              "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/mcp-create-new-server",
+              "channel": "Microsoft"
+            }
+          },
+          {
+            "title": "Agent tools: MCP, prompts and computer use",
+            "video": {
+              "title": "Agent tools: MCP, prompts and computer use",
+              "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/agent-tools",
+              "channel": "Microsoft"
+            }
+          },
+          {
+            "title": "Copilot Studio in Agent Framework",
+            "video": {
+              "title": "Copilot Studio in Agent Framework",
+              "url": "https://learn.microsoft.com/en-us/agent-framework/agents/providers/copilot-studio",
+              "channel": "Microsoft"
+            }
+          },
+          {
+            "title": "Learn MCP Server quickstart in Copilot Studio",
+            "video": {
+              "title": "Learn MCP Server quickstart in Copilot Studio",
+              "url": "https://learn.microsoft.com/en-us/training/support/mcp-get-started-copilot-studio",
+              "channel": "Microsoft"
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Hands-On Build Lab — Build Sequence",
+        "items": [
+          {
+            "title": "01 – Agent + scenario",
+            "body": "Create a Copilot Studio agent for a real business workflow; define instructions, user groups, success measures and non-goals."
+          },
+          {
+            "title": "02 – Ground + connect",
+            "body": "Add approved knowledge and at least one connector/tool; separate knowledge lookups from actions."
+          },
+          {
+            "title": "03 – MCP integration",
+            "body": "Connect an MCP server or build one; inspect its tools/resources, disable irrelevant tools and configure authentication."
+          },
+          {
+            "title": "04 – Workflow",
+            "body": "Add a deterministic workflow/agent flow for one multi-step process and compare when workflow vs MCP vs connector is appropriate."
+          },
+          {
+            "title": "05 – Identity + policy",
+            "body": "Configure agent identity/authentication, least-privilege access and Power Platform data-policy boundaries."
+          },
+          {
+            "title": "06 – Evaluate",
+            "body": "Build a representative test set; inspect activity traces, tool arguments/results and failure paths; fix instructions/tool descriptions."
+          },
+          {
+            "title": "07 – Publish + operate",
+            "body": "Publish to an appropriate channel; configure monitoring/analytics, usage/cost awareness, change control and an incident/runbook path."
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Build Lab Resources",
+        "items": [
+          {
+            "title": "Copilot Studio documentation",
+            "video": {
+              "title": "Copilot Studio documentation",
+              "url": "https://learn.microsoft.com/microsoft-copilot-studio",
+              "channel": "Microsoft"
+            }
+          },
+          {
+            "title": "MCP in Copilot Studio",
+            "video": {
+              "title": "MCP in Copilot Studio",
+              "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/mcp-add-components-to-agent",
+              "channel": "Microsoft"
+            }
+          },
+          {
+            "title": "Available tools for agents",
+            "video": {
+              "title": "Available tools for agents",
+              "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/agents-experience/tools-available",
+              "channel": "Microsoft"
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Functional System Capstone",
+    "practiceBody": "Build a functional Copilot Studio enterprise agent that answers from governed knowledge, calls an MCP tool, invokes a deterministic workflow, performs one permissioned action, authenticates correctly, passes a test set, exposes trace evidence and is published to a usable channel with analytics and governance controls.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "Correct orchestration among knowledge, connectors, workflows and MCP; clean MCP descriptions/resources; identity and access correctness; traceable tool use; evaluation evidence; safe actions; policy compliance; usable channel experience; monitoring and operational ownership; cost awareness; and documented deployment/change controls."
+  },
+  {
+    "name": "Agent Mastery — Google Cloud / GCP",
+    "category": "Agent Mastery",
+    "tagline": "Build agents with Google ADK and Gemini Enterprise Agent Platform, connect governed MCP tools, compose multi-agent systems and deploy with IAM, evaluation and observability.",
+    "intro": "Learn the shared agent architecture once, then build independently in Claude, Microsoft Copilot and Google Cloud/GCP — including tools, MCP servers/resources, memory, orchestration, evaluation, security, deployment and a working application/system.",
+    "benchmark": "Official vendor agent-building documentation and workshops (current Sep 2026)",
+    "ladder": [
+      {
+        "label": "FOUNDATIONS",
+        "title": "Build with ADK",
+        "body": "ADK agents, instructions, tools, sessions/state and local development; workflow agents vs dynamic orchestration; multi-agent composition; Gemini models, retrieval/grounding and deployment choices."
+      },
+      {
+        "label": "INTERMEDIATE",
+        "title": "MCP + Registry + A2A",
+        "body": "Google Cloud remote MCP servers and custom MCP publishing; Agent Registry for agents, skills and MCP toolsets; dynamic discovery; A2A/remote agents, authentication and Agent Gateway policy mediation."
+      },
+      {
+        "label": "ADVANCED",
+        "title": "Deploy + Govern",
+        "body": "Agent Engine/Runtime, Cloud Run/GKE deployment and scaling; evaluation of task trajectories, tracing, latency, errors and token spend; IAM, VPC/service perimeters, content filtering, secrets, monitoring and cost controls."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Official Learning / Build Resources",
+        "items": [
+          {
+            "title": "Vertex AI Agent Builder / Gemini Enterprise Agent Platform docs",
+            "video": {
+              "title": "Vertex AI Agent Builder / Gemini Enterprise Agent Platform docs",
+              "url": "https://docs.cloud.google.com/agent-builder",
+              "channel": "Google Cloud"
+            }
+          },
+          {
+            "title": "Agent Development Kit overview",
+            "video": {
+              "title": "Agent Development Kit overview",
+              "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/adk",
+              "channel": "Google Cloud"
+            }
+          },
+          {
+            "title": "MCP servers overview",
+            "video": {
+              "title": "MCP servers overview",
+              "url": "https://docs.cloud.google.com/mcp/overview",
+              "channel": "Google Cloud"
+            }
+          },
+          {
+            "title": "Agent Registry client libraries and ADK",
+            "video": {
+              "title": "Agent Registry client libraries and ADK",
+              "url": "https://docs.cloud.google.com/agent-registry/reference/libraries",
+              "channel": "Google Cloud"
+            }
+          },
+          {
+            "title": "Resolve agents and MCP toolsets with ADK",
+            "video": {
+              "title": "Resolve agents and MCP toolsets with ADK",
+              "url": "https://docs.cloud.google.com/agent-registry/resolve-endpoints-and-build-orchestrators",
+              "channel": "Google Cloud"
+            }
+          },
+          {
+            "title": "Authenticate Agent Registry tools/resources",
+            "video": {
+              "title": "Authenticate Agent Registry tools/resources",
+              "url": "https://docs.cloud.google.com/agent-registry/authenticate-toolsets",
+              "channel": "Google Cloud"
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Hands-On Build Lab — Build Sequence",
+        "items": [
+          {
+            "title": "01 – ADK starter",
+            "body": "Create a Python/TypeScript ADK agent with clear instructions, session/state handling and one local function tool."
+          },
+          {
+            "title": "02 – Grounding + memory",
+            "body": "Add approved enterprise/public context; define session memory behavior and source/uncertainty handling."
+          },
+          {
+            "title": "03 – MCP",
+            "body": "Connect a Google Cloud remote MCP server or publish/connect your own; authenticate and inspect tool schemas/behavior."
+          },
+          {
+            "title": "04 – Registry + multi-agent",
+            "body": "Register/discover an agent or MCP toolset; compose a parent orchestrator with a specialized remote/sub-agent using ADK/A2A patterns."
+          },
+          {
+            "title": "05 – Security",
+            "body": "Use IAM/service accounts/ADC, least privilege, secrets and gateway/policy controls; test denied and malformed requests."
+          },
+          {
+            "title": "06 – Evaluate + observe",
+            "body": "Create task/trajectory evals; inspect traces, latency, errors, token spend and tool-selection failures."
+          },
+          {
+            "title": "07 – Deploy",
+            "body": "Deploy through the appropriate managed runtime/Cloud Run/GKE path; add autoscaling, monitoring, release/rollback and cost guardrails."
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Build Lab Resources",
+        "items": [
+          {
+            "title": "Google ADK documentation",
+            "video": {
+              "title": "Google ADK documentation",
+              "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/adk",
+              "channel": "Google Cloud"
+            }
+          },
+          {
+            "title": "Google Cloud MCP overview",
+            "video": {
+              "title": "Google Cloud MCP overview",
+              "url": "https://docs.cloud.google.com/mcp/overview",
+              "channel": "Google Cloud"
+            }
+          },
+          {
+            "title": "Agent Registry orchestration guide",
+            "video": {
+              "title": "Agent Registry orchestration guide",
+              "url": "https://docs.cloud.google.com/agent-registry/resolve-endpoints-and-build-orchestrators",
+              "channel": "Google Cloud"
+            }
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Functional System Capstone",
+    "practiceBody": "Build a functional GCP agentic system with ADK that uses grounded context, calls a remote or custom MCP toolset, composes at least two specialized agents or one remote A2A agent, authenticates through IAM, passes trajectory/task evaluations, emits operational telemetry and is deployed to a cloud runtime with rollback and runbook evidence.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "Working ADK architecture; correct session/state behavior; MCP tool discovery; registry/A2A composition; IAM correctness; least privilege; useful evals; diagnosable traces; reliable failure handling; deployability; latency/token/cost evidence; secure secret handling; production readiness and a clear architecture decision record."
   }
 ]
