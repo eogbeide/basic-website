@@ -19633,5 +19633,255 @@
     "bonus": [],
     "page": 625,
     "category": "AI, Agents & Intelligent Automation"
+  },
+  {
+    "name": "Safety Engineer",
+    "benchmark": "Amazon Robotics Safety Engineering + Amazon Global Process Safety + Apple EHS Engineering (current Sep 2026) Market refresh: PtD, machine/electrical/functional safety, PHA/MOC, commissioning, incident learning, assurance + safety management.",
+    "capstone": "Design a safety-assurance package for a real or simulated automated equipment/process launch: hazard register and task/JHA; standards/code matrix; preliminary risk assessment; machine/electrical and LOTO safeguards; PHA/MOC where relevant; FMEA/FTA or equivalent system-safety analysis; FAT/SAT and commissioning checks; incident/root-cause simulation; leading/lagging metrics; emergency controls; residual-risk acceptance; and an executive readiness memo.",
+    "rubric": "Prove design-out-first judgment and traceable hazard-to-control logic; standards/code reasoning; machine, electrical and process safeguards; verification and commissioning evidence; MOC discipline; incident learning and corrective-action quality; quantified risk reduction; explicit residual risk; lifecycle governance; and concise communication to engineering, operations and leadership.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Design out hazards and translate standards into engineering controls",
+        "competencies": [
+          {
+            "title": "Prevention through Design + engineering risk analysis",
+            "coverage": "Engineering Design / Systems Engineering / Risk",
+            "videos": [
+              {
+                "title": "Fall Prevention Through Design (2026)",
+                "url": "https://www.youtube.com/watch?v=GM_Box5Joj4",
+                "channel": "NIOSH/CPWR"
+              },
+              {
+                "title": "Personal Fall Arrest Systems (1h)",
+                "url": "https://www.youtube.com/watch?v=Ka9UKa_xYNU",
+                "channel": "OSHA"
+              }
+            ]
+          },
+          {
+            "title": "Machine safety, guarding + hazardous-energy control",
+            "coverage": "Hardware Engineering / Systems Engineering / Operational Risk",
+            "videos": [
+              {
+                "title": "Machine Safety: Interlocks & Safety Devices",
+                "url": "https://www.pilz.com/en-US/company/news/articles/237228",
+                "channel": "Pilz"
+              },
+              {
+                "title": "Lockout/Tagout Safety Training (50m)",
+                "url": "https://www.youtube.com/watch?v=aTOOegjstG0",
+                "channel": "OSHA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Apply process, machinery and lifecycle safety controls to complex operations",
+        "competencies": [
+          {
+            "title": "PHA / HAZOP, process safety + management of change",
+            "coverage": "Systems Thinking / Chemical Engineering Safety / Risk",
+            "videos": [
+              {
+                "title": "Process Safety Hazard Assessment",
+                "url": "https://ili.aiche.org/academy/webinars/introduction-methods-process-safety-hazard-assessment",
+                "channel": "AIChE/CCPS"
+              },
+              {
+                "title": "Manage Change, or It Will Manage You",
+                "url": "https://www.icheme.org/knowledge-networks/knowledge-resources/safety-centre/webinars/manage-change-or-it-will-manage-you/",
+                "channel": "IChemE"
+              }
+            ]
+          },
+          {
+            "title": "Commissioning, incident investigation + corrective action",
+            "coverage": "Operational Excellence / Reliability / Incident Response",
+            "videos": [
+              {
+                "title": "Anatomy of a Disaster",
+                "url": "https://www.csb.gov/videos/anatomy-of-a-disaster/",
+                "channel": "CSB"
+              },
+              {
+                "title": "Dangers of Hot Work",
+                "url": "https://www.csb.gov/videos/dangers-of-hot-work/",
+                "channel": "CSB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Architect scalable system safety, assurance and governance",
+        "competencies": [
+          {
+            "title": "System safety, layered safeguards + risk-based mitigation",
+            "coverage": "Systems Engineering / Reliability / Safety-Critical Design",
+            "videos": [
+              {
+                "title": "Risk-Based Process Safety Beyond Chemical",
+                "url": "https://www.aiche.org/conferences/videos/conference-presentations/risk-based-process-safety-providing-safety-reliability-beyond-chemical-industry",
+                "channel": "AIChE/CCPS"
+              },
+              {
+                "title": "RBPS: Mitigation",
+                "url": "https://www.icheme.org/knowledge-networks/knowledge-resources/safety-centre/webinars/risk-based-process-safety-mitigation/",
+                "channel": "IChemE"
+              }
+            ]
+          },
+          {
+            "title": "Safety management systems + continuous improvement",
+            "coverage": "Leadership / KPIs / Governance / Change Management",
+            "videos": [
+              {
+                "title": "Three Core Elements of Effective Safety Programs",
+                "url": "https://www.youtube.com/watch?v=gxKZrq3N3Zg",
+                "channel": "OSHA"
+              },
+              {
+                "title": "Total Worker Health Webinar Series",
+                "url": "https://www.cdc.gov/niosh/twh/php/training/webinar-series.html",
+                "channel": "NIOSH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 646,
+    "category": "Environmental Health & Safety"
+  },
+  {
+    "name": "Industrial & Occupational Hygienist",
+    "benchmark": "Tesla Terafab/R&D Industrial Hygiene + Amazon Global Health & Safety Sciences (current Sep 2026) Market refresh: chemical/physical/biological/ergonomic hazards, exposure strategy, sensors, controls, respiratory/hearing programs + IH data.",
+    "capstone": "Run an industrial-hygiene program for a real or simulated high-risk operation: qualitative exposure assessment and similar-exposure groups; SDS/chemistry/toxicology review; air/noise/heat/direct-read sampling plan; calibration and QA/QC; statistical exposure analysis and OEL comparison; ventilation/engineering-control design; respirator/PPE decision; medical/hearing/respiratory program triggers; control verification; exposure-data dashboard; worker/engineering risk communication; and a reassessment schedule.",
+    "rubric": "Demonstrate anticipation and recognition of hazards; valid sampling, calibration and QA/QC; defensible OEL and uncertainty reasoning; appropriate exposure statistics; direct-read interpretation; hierarchy-of-controls judgment; control-effectiveness evidence; multi-hazard integration; traceable exposure records; appropriate medical-surveillance boundaries; clear risk communication; and evidence-based follow-up.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Anticipate hazards and build defensible exposure-assessment plans",
+        "competencies": [
+          {
+            "title": "Exposure pathways, toxicology + health-risk characterization",
+            "coverage": "Chemistry / Biology / Statistics & Probability / Risk",
+            "videos": [
+              {
+                "title": "Basic Principles of Occupational Hygiene",
+                "url": "https://www.aiha.org/education/elearning/online-courses",
+                "channel": "AIHA"
+              },
+              {
+                "title": "Biomonitoring & Risk Assessment",
+                "url": "https://www.coeh.berkeley.edu/20ihw1110",
+                "channel": "UC Berkeley COEH"
+              }
+            ]
+          },
+          {
+            "title": "Sampling strategy, direct-reading instruments + data quality",
+            "coverage": "Statistics / Data Analysis / Measurement / Laboratory Science",
+            "videos": [
+              {
+                "title": "Creative Use of Direct Reading Instruments",
+                "url": "https://www.coeh.berkeley.edu/20ihw0407",
+                "channel": "UC Berkeley COEH"
+              },
+              {
+                "title": "Making Practical Sense of Enormous Data Logs",
+                "url": "https://www.aiha.org/events/aiha-university-webinar-making-practical-sense-of-enormous-data-logs",
+                "channel": "AIHA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Measure exposures and drive controls from evidence",
+        "competencies": [
+          {
+            "title": "Air sampling, exposure statistics + decision analysis",
+            "coverage": "Statistics & Probability / Data Analysis / Exposure Modeling",
+            "videos": [
+              {
+                "title": "Exposure Assessment Conference Recordings",
+                "url": "https://www.aiha.org/education/elearning/online-courses/exposure-assessment-virtual-conference-recordings-2019",
+                "channel": "AIHA"
+              },
+              {
+                "title": "Making Accurate Exposure Risk Decisions",
+                "url": "https://www.aiha.org/public-resources/aiha-academic-portal/making-accurate-exposure-risk-decisions-webinar",
+                "channel": "AIHA"
+              }
+            ]
+          },
+          {
+            "title": "Engineering controls, ventilation + PPE / respirator programs",
+            "coverage": "Mechanical Engineering / Systems Engineering / Safety",
+            "videos": [
+              {
+                "title": "PPE Risk Assessments: Practical IH Considerations",
+                "url": "https://www.aiha.org/events/aiha-university-webinar-ppe-risk-assessments-practical-considerations-for-industrial-hygiene-exposures",
+                "channel": "AIHA"
+              },
+              {
+                "title": "Respiratory Protection in General Industry",
+                "url": "https://www.youtube.com/watch?v=p1yYmABesZE",
+                "channel": "OSHA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Lead multi-hazard occupational-health programs at scale",
+        "competencies": [
+          {
+            "title": "Noise, ergonomics, heat + physical-hazard programs",
+            "coverage": "Ergonomics / Human Factors / Data / Operational Excellence",
+            "videos": [
+              {
+                "title": "Ergonomic Programs That Work",
+                "url": "https://www.youtube.com/watch?v=zepnlRFiSMQ",
+                "channel": "OSHA"
+              },
+              {
+                "title": "Emerging Technologies for Ergonomics Webinars",
+                "url": "https://www.cdc.gov/niosh/bulletin/2022/msd-webinairs.html",
+                "channel": "NIOSH"
+              }
+            ]
+          },
+          {
+            "title": "Surveillance, exposure records + IH program governance",
+            "coverage": "Health & Safety Governance / Data Quality / Communication",
+            "videos": [
+              {
+                "title": "Respirator Fit Testing",
+                "url": "https://www.youtube.com/watch?v=D38BjgUdL5U",
+                "channel": "OSHA"
+              },
+              {
+                "title": "Respiratory Protection Videos & Webinars",
+                "url": "https://www.cdc.gov/niosh/ppe/videos.html",
+                "channel": "NIOSH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 647,
+    "category": "Environmental Health & Safety"
   }
 ]
