@@ -4,6 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Zuyini Health Sciences Academy</title>
+  <meta name="description" content="A 4-year, case-based, board-aligned medical school mastery system covering 340 topics across MD/DO coursework and licensing exam prep, with direct video bridges throughout." />
+  <link rel="canonical" href="https://zuyini.com/health-sciences/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Zuyini Health Sciences Academy" />
+  <meta property="og:description" content="A 4-year, case-based, board-aligned medical school mastery system covering 340 topics across MD/DO coursework and licensing exam prep." />
+  <meta property="og:url" content="https://zuyini.com/health-sciences/" />
   <link rel="stylesheet" href="health-sciences.css" />
   <link rel="stylesheet" href="../gate.css" />
 </head>
@@ -27,6 +33,23 @@
       <input id="skill-finder-input" type="text" placeholder="What are you studying? e.g. cardiology, Step 1, pharmacology..." autocomplete="off" />
       <button type="submit">Find My Topic</button>
     </form>
+    <div class="inline-signup">
+      <p class="inline-signup-heading">Get free access</p>
+      <p class="inline-signup-pitch">Sign up with your name and email to unlock every video, course and mastery tracker across the Health Sciences Academy and the Academy. No spam, unsubscribe anytime.</p>
+      <form class="zuyini-inline-signup" novalidate>
+        <div class="gate-field">
+          <label for="hero-signup-name">Name</label>
+          <input id="hero-signup-name" name="first_name" type="text" autocomplete="given-name" required />
+        </div>
+        <div class="gate-field">
+          <label for="hero-signup-email">Email</label>
+          <input id="hero-signup-email" name="email" type="email" autocomplete="email" required />
+        </div>
+        <button type="submit" class="gate-submit">Get Access</button>
+        <p class="gate-error" hidden></p>
+      </form>
+      <p class="gate-success" hidden>You're in &mdash; every video, course and tracker is unlocked. Thanks for joining Zuyini!</p>
+    </div>
   </section>
 
   <main class="app-shell">

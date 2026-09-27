@@ -16,6 +16,21 @@
     return slugify(name.replace(/^C\d{2,3}\s+/i, ''));
   }
 
+  // Rubrics arrive as one semicolon-separated sentence; render each clause
+  // as its own checklist item instead of one dense paragraph, so a learner
+  // can self-assess criterion by criterion. Falls back to a plain
+  // paragraph for anything that doesn't actually split into multiple
+  // clauses (e.g. a one-sentence standard).
+  function renderRubricBody(text) {
+    if (!text) return '';
+    var parts = text
+      .split(/;\s+/)
+      .map(function (s) { return s.replace(/\.\s*$/, '').trim(); })
+      .filter(Boolean);
+    if (parts.length < 2) return '<p>' + escapeHtml(text) + '</p>';
+    return '<ul class="rubric-list">' + parts.map(function (p) { return '<li>' + escapeHtml(p) + '</li>'; }).join('') + '</ul>';
+  }
+
   function levelClass(level) {
     return level.toLowerCase();
   }
@@ -126,7 +141,7 @@
         ? '<div class="capstone-block"><h3>Interview-Readiness Proof / Practice Loop</h3><p>' + escapeHtml(track.capstone) + '</p></div>'
         : '') +
       (track.rubric
-        ? '<div class="rubric-block"><h3>Pass Rubric</h3><p>' + escapeHtml(track.rubric) + '</p></div>'
+        ? '<div class="rubric-block"><h3>Pass Rubric</h3>' + renderRubricBody(track.rubric) + '</div>'
         : '')
     );
   }
@@ -138,6 +153,24 @@
       renderShareBar('https://zuyini.com/academy/interview/' + slugify(track.name) + '/', track.name + ' Interview Prep | Zuyini Academy') +
       renderInterviewTrackBody(track) +
       '</div>'
+    );
+  }
+
+  // A same-category sample rather than the full 194-role list every page
+  // already links to via the sidebar -- keeps that sidebar for crawlable
+  // full-catalog navigation while giving readers a short, scannable "see
+  // also" set without repeating the whole directory in the main content.
+  function renderRelatedRoles(role) {
+    var siblings = MODES.roles.data.filter(function (r) { return r.category === role.category && r.name !== role.name; });
+    if (!siblings.length) return '';
+    var picks = siblings.slice(0, 6);
+    var pills = picks
+      .map(function (r) {
+        return '<button type="button" class="role-pill" data-cross-role="' + escapeHtml(slugify(r.name)) + '">' + escapeHtml(r.name) + '</button>';
+      })
+      .join('');
+    return (
+      '<div class="cross-links-block"><h3>Related Roles</h3><div class="role-pills">' + pills + '</div></div>'
     );
   }
 
@@ -165,8 +198,9 @@
         ? '<div class="capstone-block"><h3>Role-Readiness Proof / Capstone</h3><p>' + escapeHtml(role.capstone) + '</p></div>'
         : '') +
       (role.rubric
-        ? '<div class="rubric-block"><h3>Proof Rubric</h3><p>' + escapeHtml(role.rubric) + '</p></div>'
-        : '');
+        ? '<div class="rubric-block"><h3>Proof Rubric</h3>' + renderRubricBody(role.rubric) + '</div>'
+        : '') +
+      renderRelatedRoles(role);
 
     // Interview Prep used to render as a collapsed section stacked right
     // under the Mastery Track, which read as the same content repeated
@@ -346,7 +380,7 @@
         ? '<div class="capstone-block"><h3>Integrative Capstone</h3><p>' + escapeHtml(cert.capstone) + '</p></div>'
         : '') +
       (cert.evidence_standard
-        ? '<div class="rubric-block"><h3>Evidence Standard</h3><p>' + escapeHtml(cert.evidence_standard) + '</p></div>'
+        ? '<div class="rubric-block"><h3>Evidence Standard</h3>' + renderRubricBody(cert.evidence_standard) + '</div>'
         : '') +
       '</div>'
     );
@@ -425,7 +459,7 @@
         ? '<div class="capstone-block"><h3>' + escapeHtml(track.practiceHeading || 'Hands-On Practice') + '</h3><p>' + escapeHtml(track.practiceBody) + '</p></div>'
         : '') +
       (track.rubric
-        ? '<div class="rubric-block"><h3>' + escapeHtml(track.rubricHeading || 'Proof Rubric') + '</h3><p>' + escapeHtml(track.rubric) + '</p></div>'
+        ? '<div class="rubric-block"><h3>' + escapeHtml(track.rubricHeading || 'Proof Rubric') + '</h3>' + renderRubricBody(track.rubric) + '</div>'
         : '')
     );
   }

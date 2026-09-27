@@ -142,3 +142,77 @@
   margin: 16px 0 0;
   line-height: 1.5;
 }
+
+/* Static, always-visible inline signup block (e.g. the landing hero) --
+   distinct from the modal above, but reuses its field/button styling. */
+.inline-signup {
+  background-color: #17181a;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 20px 22px;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.inline-signup[hidden] {
+  display: none;
+}
+
+.inline-signup-heading {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 4px;
+}
+
+.inline-signup-pitch {
+  color: #b9b9b9;
+  font-size: 13px;
+  margin: 0 0 14px;
+  line-height: 1.5;
+}
+
+.zuyini-inline-signup {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.zuyini-inline-signup .gate-field {
+  margin-bottom: 0;
+  flex: 1 1 160px;
+  min-width: 0;
+}
+
+.zuyini-inline-signup .gate-submit {
+  flex: 0 0 auto;
+  width: auto;
+  margin-top: 20px;
+  padding: 12px 22px;
+  white-space: nowrap;
+}
+
+.zuyini-inline-signup .gate-error {
+  flex-basis: 100%;
+  margin-top: 4px;
+}
+
+.gate-success {
+  color: #6ee7b7;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.gate-success[hidden] {
+  display: none;
+}
+
+@media (max-width: 620px) {
+  .zuyini-inline-signup .gate-submit {
+    flex: 1 1 100%;
+    width: 100%;
+    margin-top: 4px;
+  }
+}

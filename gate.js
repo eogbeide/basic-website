@@ -71,6 +71,60 @@
     });
   }
 
+  // Shared submit-handling for ANY signup form on the page -- the modal's
+  // internal form and a static, always-visible inline form both use this,
+  // so there is one signup code path (validation, the ConvertKit call,
+  // granting access) rather than two copies to keep in sync. Looks fields
+  // up by `name` (not `id`) so multiple form instances can coexist in the
+  // DOM without id collisions.
+  function attachSignupForm(form, opts) {
+    opts = opts || {};
+    // .gate-success sits as a sibling after the <form>, not inside it (so
+    // it can replace the whole form visually rather than nest inside a
+    // hidden element), so look for it in the wrapping container too.
+    var scope = form.closest('.inline-signup') || form.parentElement || form;
+    var errorEl = form.querySelector('.gate-error');
+    var submitBtn = form.querySelector('button[type="submit"]');
+    var successEl = scope.querySelector('.gate-success');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (errorEl) errorEl.hidden = true;
+
+      var name = form.querySelector('[name="first_name"]').value.trim();
+      var email = form.querySelector('[name="email"]').value.trim();
+
+      if (!name) {
+        if (errorEl) showError(errorEl, 'Please enter your name.');
+        return;
+      }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        if (errorEl) showError(errorEl, 'Please enter a valid email address.');
+        return;
+      }
+
+      var originalText = submitBtn.textContent;
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Please wait...';
+
+      subscribe(name, email)
+        .then(function () {
+          grantAccess();
+          if (opts.onSuccess) {
+            opts.onSuccess();
+          } else {
+            form.hidden = true;
+            if (successEl) successEl.hidden = false;
+          }
+        })
+        .catch(function () {
+          submitBtn.disabled = false;
+          submitBtn.textContent = originalText;
+          if (errorEl) showError(errorEl, 'Something went wrong. Please try again in a moment.');
+        });
+    });
+  }
+
   var activeOverlay = null;
   var pendingCallbacks = [];
 
@@ -99,8 +153,6 @@
     activeOverlay = overlay;
 
     var form = overlay.querySelector('#gate-form');
-    var errorEl = overlay.querySelector('#gate-error');
-    var submitBtn = overlay.querySelector('.gate-submit');
     var closeBtn = overlay.querySelector('.gate-close');
 
     closeBtn.addEventListener('click', closeOverlay);
@@ -108,39 +160,14 @@
       if (e.target === overlay) closeOverlay();
     });
 
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      errorEl.hidden = true;
-
-      var name = overlay.querySelector('#gate-name').value.trim();
-      var email = overlay.querySelector('#gate-email').value.trim();
-
-      if (!name) {
-        showError(errorEl, 'Please enter your name.');
-        return;
-      }
-      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-        showError(errorEl, 'Please enter a valid email address.');
-        return;
-      }
-
-      submitBtn.disabled = true;
-      submitBtn.textContent = 'Please wait...';
-
-      subscribe(name, email)
-        .then(function () {
-          grantAccess();
-          var callbacks = pendingCallbacks;
-          closeOverlay();
-          callbacks.forEach(function (cb) {
-            try { cb(); } catch (e) { /* ignore */ }
-          });
-        })
-        .catch(function () {
-          submitBtn.disabled = false;
-          submitBtn.textContent = 'Get Access';
-          showError(errorEl, 'Something went wrong. Please try again in a moment.');
+    attachSignupForm(form, {
+      onSuccess: function () {
+        var callbacks = pendingCallbacks;
+        closeOverlay();
+        callbacks.forEach(function (cb) {
+          try { cb(); } catch (e) { /* ignore */ }
         });
+      },
     });
   }
 
@@ -159,4 +186,29 @@
       return false;
     },
   };
+
+  // Any static, always-visible signup form on the page (e.g. the landing
+  // hero's "Get free access" block) gets the same submit handling as the
+  // modal, with no per-page JS needed beyond loading gate.js. A visitor who
+  // already has access never sees it -- there is nothing left to sign up
+  // for -- and a crawler or text-only reader sees the real form markup
+  // (name/email fields, a submit button) directly in the page source,
+  // unlike the modal, which only exists in the DOM after a gated click.
+  function wireStaticForms() {
+    var forms = document.querySelectorAll('.zuyini-inline-signup');
+    for (var i = 0; i < forms.length; i++) {
+      var form = forms[i];
+      var wrapper = form.closest('.inline-signup') || form;
+      if (hasAccess()) {
+        wrapper.hidden = true;
+        continue;
+      }
+      attachSignupForm(form);
+    }
+  }
+
+  // gate.js loads last in the document (same as academy.js/health-sciences.js),
+  // so the static markup it wires up already exists -- no need to wait for
+  // DOMContentLoaded.
+  wireStaticForms();
 })();
