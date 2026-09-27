@@ -3316,13 +3316,16 @@
         "tier": "FOUNDATIONS / INTRODUCTION",
         "courses": [
           {
-            "title": "Neuron structure, membranes + action potentials"
+            "title": "Neuron structure, membranes + action potentials",
+            "url": "https://www.youtube.com/watch?v=qOmmqu6_g3s"
           },
           {
-            "title": "Synapses, neurotransmission + plasticity"
+            "title": "Synapses, neurotransmission + plasticity",
+            "url": "https://pll.harvard.edu/series/fundamentals-neuroscience"
           },
           {
-            "title": "Neuroanatomy + major CNS/PNS systems"
+            "title": "Neuroanatomy + major CNS/PNS systems",
+            "url": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/video_galleries/lecture-videos/"
           }
         ]
       },
@@ -3330,13 +3333,16 @@
         "tier": "INTERMEDIATE CORE",
         "courses": [
           {
-            "title": "Sensory and motor systems"
+            "title": "Sensory and motor systems",
+            "url": "https://www.ocw.mit.edu/courses/9-04-sensory-systems-fall-2013/resources/lecture-videos/"
           },
           {
-            "title": "Learning, memory, emotion + cognition"
+            "title": "Learning, memory, emotion + cognition",
+            "url": "https://pll.harvard.edu/series/fundamentals-neuroscience"
           },
           {
-            "title": "Neurodevelopment, neurological and psychiatric mechanisms"
+            "title": "Neurodevelopment, neurological and psychiatric mechanisms",
+            "url": "https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/video_galleries/lecture-videos/"
           }
         ]
       },
@@ -3344,13 +3350,16 @@
         "tier": "ADVANCED / SPECIALIZATION",
         "courses": [
           {
-            "title": "fMRI/EEG/MEG/TMS + electrophysiology"
+            "title": "fMRI/EEG/MEG/TMS + electrophysiology",
+            "url": "https://pll.harvard.edu/series/fundamentals-neuroscience"
           },
           {
-            "title": "Neural coding + computational neuroscience"
+            "title": "Neural coding + computational neuroscience",
+            "url": "https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/video_galleries/lecture-videos/"
           },
           {
-            "title": "Experimental design, statistics + reproducible inference"
+            "title": "Experimental design, statistics + reproducible inference",
+            "url": "https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/video_galleries/lecture-videos/"
           }
         ]
       }
@@ -3396,13 +3405,16 @@
         "tier": "FOUNDATIONS / INTRODUCTION",
         "courses": [
           {
-            "title": "Health assessment, vital signs + documentation"
+            "title": "Health assessment, vital signs + documentation",
+            "url": "https://openrn.blogspot.com/2021/11/open-rn-nursing-skills-instructor.html"
           },
           {
-            "title": "Pathophysiology + pharmacology foundations"
+            "title": "Pathophysiology + pharmacology foundations",
+            "url": "https://nursing.uw.edu/academics/bsn/2025-curriculum/"
           },
           {
-            "title": "Foundational nursing skills, infection prevention + safety"
+            "title": "Foundational nursing skills, infection prevention + safety",
+            "url": "https://openrn.blogspot.com/2021/11/open-rn-nursing-skills-instructor.html"
           }
         ]
       },
@@ -3410,13 +3422,16 @@
         "tier": "INTERMEDIATE CORE",
         "courses": [
           {
-            "title": "Adult medical-surgical nursing + care planning"
+            "title": "Adult medical-surgical nursing + care planning",
+            "url": "https://nursing.uw.edu/academics/bsn/2025-curriculum/"
           },
           {
-            "title": "Mental health, communication + psychosocial care"
+            "title": "Mental health, communication + psychosocial care",
+            "url": "https://nursing.jhu.edu/programs/masters-entry/"
           },
           {
-            "title": "Maternal/newborn, pediatric + aging care"
+            "title": "Maternal/newborn, pediatric + aging care",
+            "url": "https://nursing.jhu.edu/programs/masters-entry/"
           }
         ]
       },
@@ -3424,13 +3439,16 @@
         "tier": "ADVANCED / SPECIALIZATION",
         "courses": [
           {
-            "title": "Population/community health + health equity"
+            "title": "Population/community health + health equity",
+            "url": "https://www.aacnnursing.org/essentials"
           },
           {
-            "title": "Evidence-based practice, informatics + quality improvement"
+            "title": "Evidence-based practice, informatics + quality improvement",
+            "url": "https://www.aacnnursing.org/essentials"
           },
           {
-            "title": "Care coordination, leadership + transition to practice"
+            "title": "Care coordination, leadership + transition to practice",
+            "url": "https://www.aacnnursing.org/essentials"
           }
         ]
       }
@@ -3471,13 +3489,16 @@
         "tier": "FOUNDATIONS / INTRODUCTION",
         "courses": [
           {
-            "title": "Public health systems, prevention, determinants of health + health equity"
+            "title": "Public health systems, prevention, determinants of health + health equity",
+            "url": "https://publichealth.jhu.edu/learning-resources"
           },
           {
-            "title": "Incidence/prevalence, risk/rate/odds, bias/confounding + study design"
+            "title": "Incidence/prevalence, risk/rate/odds, bias/confounding + study design",
+            "url": "https://coursebrowser.dce.harvard.edu/course/introduction-to-epidemiology-and-biostatistics/"
           },
           {
-            "title": "Biostatistics, uncertainty, effect measures + reproducible R/Python workflows"
+            "title": "Biostatistics, uncertainty, effect measures + reproducible R/Python workflows",
+            "url": "https://coursebrowser.dce.harvard.edu/course/introduction-to-epidemiology-and-biostatistics/"
           }
         ]
       },
@@ -3485,13 +3506,16 @@
         "tier": "INTERMEDIATE CORE",
         "courses": [
           {
-            "title": "Disease surveillance, case definitions, epi curves, time-place-person"
+            "title": "Disease surveillance, case definitions, epi curves, time-place-person",
+            "url": "https://www.cdc.gov/field-epi-manual/php/chapters/index.html"
           },
           {
-            "title": "Outbreak investigation, lab collaboration, environmental/occupational/global health"
+            "title": "Outbreak investigation, lab collaboration, environmental/occupational/global health",
+            "url": "https://www.cdc.gov/field-epi-manual/php/chapters/field-investigation.html"
           },
           {
-            "title": "Program evaluation, screening, diagnostic performance + evidence appraisal"
+            "title": "Program evaluation, screening, diagnostic performance + evidence appraisal",
+            "url": "https://coursebrowser.dce.harvard.edu/course/introduction-to-epidemiology-and-biostatistics/"
           }
         ]
       },
@@ -3499,13 +3523,16 @@
         "tier": "ADVANCED / SPECIALIZATION",
         "courses": [
           {
-            "title": "Causal inference, quasi-experiments + real-world observational evidence"
+            "title": "Causal inference, quasi-experiments + real-world observational evidence",
+            "url": "https://coursebrowser.dce.harvard.edu/course/introduction-to-epidemiology-and-biostatistics/"
           },
           {
-            "title": "Spatial/temporal analytics, dashboards + risk communication"
+            "title": "Spatial/temporal analytics, dashboards + risk communication",
+            "url": "https://www.cdc.gov/field-epi-manual/php/chapters/index.html"
           },
           {
-            "title": "Intervention design, implementation science, policy analysis + equity impact"
+            "title": "Intervention design, implementation science, policy analysis + equity impact",
+            "url": "https://publichealth.jhu.edu/learning-resources"
           }
         ]
       }
@@ -3546,13 +3573,16 @@
         "tier": "FOUNDATIONS / INTRODUCTION",
         "courses": [
           {
-            "title": "Healthcare data sources, EHR workflow, coding systems, provenance + data quality"
+            "title": "Healthcare data sources, EHR workflow, coding systems, provenance + data quality",
+            "url": "https://bulletin.stanford.edu/courses/2247592"
           },
           {
-            "title": "Knowledge representation, ontologies, terminology + FHIR/interoperability"
+            "title": "Knowledge representation, ontologies, terminology + FHIR/interoperability",
+            "url": "https://bulletin.stanford.edu/courses/1272171"
           },
           {
-            "title": "Python/R/SQL, statistics, cohort definition + reproducible biomedical analysis"
+            "title": "Python/R/SQL, statistics, cohort definition + reproducible biomedical analysis",
+            "url": "https://bulletin.stanford.edu/courses/2122201"
           }
         ]
       },
@@ -3560,13 +3590,16 @@
         "tier": "INTERMEDIATE CORE",
         "courses": [
           {
-            "title": "Clinical phenotyping, NLP, imaging, omics + multimodal data integration"
+            "title": "Clinical phenotyping, NLP, imaging, omics + multimodal data integration",
+            "url": "https://bulletin.stanford.edu/courses/2122201"
           },
           {
-            "title": "Predictive modeling, calibration, evaluation + causal/observational study design"
+            "title": "Predictive modeling, calibration, evaluation + causal/observational study design",
+            "url": "https://bulletin.stanford.edu/courses/2122201"
           },
           {
-            "title": "Privacy/security, bias/fairness, governance + responsible clinical data use"
+            "title": "Privacy/security, bias/fairness, governance + responsible clinical data use",
+            "url": "https://dbmi.hms.harvard.edu/education/courses"
           }
         ]
       },
@@ -3574,13 +3607,16 @@
         "tier": "ADVANCED / SPECIALIZATION",
         "courses": [
           {
-            "title": "AI in healthcare: robustness, monitoring, human factors + workflow integration"
+            "title": "AI in healthcare: robustness, monitoring, human factors + workflow integration",
+            "url": "https://dbmi.hms.harvard.edu/education/courses"
           },
           {
-            "title": "Clinical decision support, implementation, prospective evaluation + value realization"
+            "title": "Clinical decision support, implementation, prospective evaluation + value realization",
+            "url": "https://bulletin.stanford.edu/courses/1272171"
           },
           {
-            "title": "Research methodology, reproducibility, scientific communication + software capstone"
+            "title": "Research methodology, reproducibility, scientific communication + software capstone",
+            "url": "https://bulletin.stanford.edu/courses/2247592"
           }
         ]
       }
