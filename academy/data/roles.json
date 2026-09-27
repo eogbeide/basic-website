@@ -24258,5 +24258,255 @@
     "page": 750,
     "category": "AI Product, Strategy & Enterprise Transformation",
     "bonus": []
+  },
+  {
+    "name": "Supply Chain & Procurement Planner",
+    "benchmark": "Amazon Supply Chain Planner + Microsoft Cloud / Senior Supply Chain Planner signals (current Sep 2026) Market refresh: demand and supply planning; S&OP; inventory and ATP; rough-cut capacity; BOM/material readiness; supplier commits; procurement release; NPI ramps; what-if scenarios; forecast accuracy; excess/obsolescence; ERP/BI; resilience and AI-enabled planning.",
+    "capstone": "Build a 13-week and 12-month supply/procurement plan for a real or simulated AI-hardware or technology product. Create the demand baseline and forecast-error view; translate demand into a constrained Supply Plan of Record; map BOM/material readiness, supplier capacity and procurement releases; set inventory/buffer logic; plan an NPI ramp and product transition; run shortage, upside/downside and supplier-failure scenarios; then publish an executive dashboard and decision memo with service, cost, inventory and risk tradeoffs.",
+    "rubric": "Show traceable demand and supply assumptions; forecast accuracy and scenario sensitivity; supplier-capacity and material evidence; executable procurement timing; defensible inventory/service tradeoffs; NPI and transition readiness; exception ownership and mitigation; supplier-performance logic; ERP/BI-quality evidence; clear Plan-of-Record decisions; and human-verified use of automation/AI.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Translate demand into an executable supply and procurement plan",
+        "competencies": [
+          {
+            "title": "Demand forecasting, S&OP + Supply Plan of Record",
+            "coverage": "Demand Planning / S&OP / Forecasting / Service Levels",
+            "videos": [
+              {
+                "title": "Invest Northern Ireland",
+                "url": "https://www.youtube.com/watch?v=xmiPJq9PR6c",
+                "channel": "Sales & Operational Planning"
+              },
+              {
+                "title": "MIT CTL",
+                "url": "https://www.youtube.com/watch?v=AjL-yNCQ118",
+                "channel": "Inside Supply Chain Analytics & Fundamentals"
+              }
+            ]
+          },
+          {
+            "title": "Inventory, capacity + material readiness",
+            "coverage": "Inventory / Rough-Cut Capacity / BOM / Available-to-Promise",
+            "videos": [
+              {
+                "title": "MIT CTL",
+                "url": "https://www.youtube.com/watch?v=sfogXfX_LSo",
+                "channel": "Network Design & Inventory Management"
+              },
+              {
+                "title": "MIT CTL",
+                "url": "https://www.youtube.com/watch?v=OAr341BlZUA",
+                "channel": "Advanced Supply Chain Systems Planning"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Coordinate suppliers, procurement and constrained execution",
+        "competencies": [
+          {
+            "title": "Supplier planning, SRM + production commitments",
+            "coverage": "Supplier Collaboration / Procurement Planning / Scorecards / Commitments",
+            "videos": [
+              {
+                "title": "7 Tips for Successful Supplier Relationship Management",
+                "url": "https://www.youtube.com/watch?v=Kvb_MFw2UQY",
+                "channel": "CIPS"
+              },
+              {
+                "title": "Supplier Relationship Management: Strategic Practice",
+                "url": "https://www.youtube.com/watch?v=_wLz-SaIOgY",
+                "channel": "CIPS"
+              }
+            ]
+          },
+          {
+            "title": "Constraints, sourcing risk + commercial tradeoffs",
+            "coverage": "Constraint Management / Negotiation / Supplier Risk / Scenario Planning",
+            "videos": [
+              {
+                "title": "Deepak Malhotra Negotiation Masterclass",
+                "url": "https://www.youtube.com/watch?v=km2Hd_xgo9Q",
+                "channel": "Harvard Business School"
+              },
+              {
+                "title": "Supply Chains, AI & Geopolitics",
+                "url": "https://www.youtube.com/watch?v=6MkR16chQOE",
+                "channel": "MIT / Yossi Sheffi"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Run analytics-driven planning under uncertainty",
+        "competencies": [
+          {
+            "title": "Simulation, analytics + AI-assisted planning",
+            "coverage": "Optimization / Simulation / Supply Analytics / Decision Support",
+            "videos": [
+              {
+                "title": "MIT CTL",
+                "url": "https://www.youtube.com/watch?v=BsMxgpiOGV4",
+                "channel": "Supply Chain Simulation, AI & Digital Twins"
+              },
+              {
+                "title": "MIT CTL",
+                "url": "https://www.youtube.com/watch?v=xAMBTReUkUA",
+                "channel": "Supply Chain Analytics in Action at UPS"
+              }
+            ]
+          },
+          {
+            "title": "Resilience, exceptions + executive Plan-of-Record",
+            "coverage": "Resilience / Exception Management / Continuity / Executive Planning",
+            "videos": [
+              {
+                "title": "MIT CTL",
+                "url": "https://www.youtube.com/watch?v=sf2lg0vw69Y",
+                "channel": "Rethinking Supply Chain Resilience"
+              },
+              {
+                "title": "MIT CTL",
+                "url": "https://www.youtube.com/watch?v=9_cqKnqUqKA",
+                "channel": "Supply Chain Viability: Surviving Systemic Shocks"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 751,
+    "category": "Business Management",
+    "bonus": []
+  },
+  {
+    "name": "Business Planner",
+    "benchmark": "Microsoft Senior Business Planner + AWS Sr ASP Planning Lead + Amazon Leo Business Planning Lead (current Sep 2026) Market refresh: multi-year strategy; annual operating plans; quarterly guidance and monthly outlooks; market/category intelligence; business models and licensing; bookings/revenue forecasting; target setting; pricing/packaging; investment/resource choices; KPI/variance cadences; executive narratives and AI-enabled planning mechanisms.",
+    "capstone": "Own a multi-year business plan for a real or simulated technology business. Define market/category position, customer segments and explicit strategic choices; build a revenue/bookings forecast and driver tree; design business-model, licensing and packaging assumptions; create annual operating plan, quarterly guidance and monthly outlook scenarios; evaluate investments and resource allocation; define KPI/WBR-MBR-QBR mechanisms; add one AI-assisted forecasting or variance workflow with controls; then present an executive planning memo with risks, sensitivities and recommended actions.",
+    "rubric": "Demonstrate coherent strategy-to-plan logic; auditable forecast assumptions and error measures; market and competitive evidence; credible business-model and licensing choices; quantified unit economics and investment tradeoffs; scenario sensitivity; targets tied to controllable drivers; a useful operating cadence; responsible AI-assisted planning with human validation; and concise executive recommendations that change decisions rather than merely report results.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Translate market and customer signals into strategy and business architecture",
+        "competencies": [
+          {
+            "title": "Strategy choices, market/category position + priorities",
+            "coverage": "Market Intelligence / Strategy / Competitive Positioning / Prioritization",
+            "videos": [
+              {
+                "title": "A Plan Is Not a Strategy",
+                "url": "https://www.youtube.com/watch?v=iuYlGRnC7J8",
+                "channel": "HBR / Roger Martin"
+              },
+              {
+                "title": "Good Strategy / Bad Strategy",
+                "url": "https://www.youtube.com/watch?v=UZrTl16hZdk",
+                "channel": "Richard Rumelt"
+              }
+            ]
+          },
+          {
+            "title": "Business model, licensing + packaging logic",
+            "coverage": "Business Models / Licensing / Packaging / Customer Value",
+            "videos": [
+              {
+                "title": "Business Model Canvas Webinar",
+                "url": "https://www.youtube.com/watch?v=SliMK6Z2jlA",
+                "channel": "Strategyzer"
+              },
+              {
+                "title": "SaaS Pricing and Packaging",
+                "url": "https://www.youtube.com/watch?v=G6uV9i8l5z8",
+                "channel": "AWS Partner Network"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build forecasts, scenarios and resource plans that management can operate",
+        "competencies": [
+          {
+            "title": "Driver-based forecasts, scenarios + target setting",
+            "coverage": "Forecasting / Annual Planning / Quarterly Guidance / Scenario Modeling",
+            "videos": [
+              {
+                "title": "Driver-Based Planning + AI",
+                "url": "https://www.youtube.com/watch?v=OQBDJfUJoO0",
+                "channel": "FP&A Trends"
+              },
+              {
+                "title": "Real-Time Scenario Planning",
+                "url": "https://www.youtube.com/watch?v=GZ-mNsn_P1U",
+                "channel": "FP&A Trends"
+              }
+            ]
+          },
+          {
+            "title": "Investment cases, resources + unit economics",
+            "coverage": "Business Cases / Capital Allocation / Unit Economics / Resource Planning",
+            "videos": [
+              {
+                "title": "Investment Returns / Capital Allocation",
+                "url": "https://www.youtube.com/watch?v=X0MFx1DU1uk",
+                "channel": "Aswath Damodaran"
+              },
+              {
+                "title": "Intrinsic and DCF Valuation",
+                "url": "https://www.youtube.com/watch?v=veSXjIzTa3c",
+                "channel": "Aswath Damodaran"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Run the business rhythm and evolve monetization with evidence",
+        "competencies": [
+          {
+            "title": "KPI tree, operating reviews + executive decisions",
+            "coverage": "KPIs / WBR-MBR-QBR / Variance / Executive Communication",
+            "videos": [
+              {
+                "title": "Must-Have Metrics for Product Strategy",
+                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
+                "channel": "Reforge"
+              },
+              {
+                "title": "Think Fast, Talk Smart",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "channel": "Stanford GSB"
+              }
+            ]
+          },
+          {
+            "title": "Monetization, AI planning + adaptive governance",
+            "coverage": "Pricing / Usage Models / AI-Assisted Planning / Governance",
+            "videos": [
+              {
+                "title": "Usage-Based Pricing Deep Dive",
+                "url": "https://www.youtube.com/watch?v=_9FQaNjObS0",
+                "channel": "SaaS Talks"
+              },
+              {
+                "title": "Augmenting Finance With AI",
+                "url": "https://www.youtube.com/watch?v=wP7Ei_EpVB0",
+                "channel": "FP&A Trends"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "page": 752,
+    "category": "Business Management",
+    "bonus": []
   }
 ]
