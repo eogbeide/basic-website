@@ -268,10 +268,10 @@
       ? '<button type="button" class="back-link" data-back-to="' + escapeHtml(backTarget.mode) + '/' + escapeHtml(backTarget.slug) + '">&larr; Back to ' + escapeHtml(backTarget.label) + '</button>'
       : '';
     var levels = (course.levels || [])
-      .map(function (lvl) {
-        if (!lvl.videos || !lvl.videos.length) return '';
+      .filter(function (lvl) { return lvl.videos && lvl.videos.length; })
+      .map(function (lvl, index) {
         return (
-          '<div class="level-block">' +
+          '<div class="level-block" data-level-index="' + index + '">' +
           '<span class="level-badge ' + levelClass(lvl.level) + '">' + escapeHtml(lvl.level) + '</span>' +
           '<ul class="video-links">' + lvl.videos.map(renderCourseVideo).join('') + '</ul>' +
           '</div>'
@@ -700,10 +700,11 @@
     roles: { block: '.level-block', badge: '.level-badge', intro: '.level-intro', unit: 'levels' },
     interview: { block: '.level-block', badge: '.level-badge', intro: '.level-intro', unit: 'levels' },
     certificates: { block: '.tier-block', badge: '.tier-label', intro: null, unit: 'tiers' },
+    courses: { block: '.level-block', badge: '.level-badge', intro: null, unit: 'levels' },
   };
 
   function attachMasteryTracking(mode, slug) {
-    if (mode !== 'roles' && mode !== 'pathways' && mode !== 'certificates' && mode !== 'interview' && mode !== 'skills') return;
+    if (mode !== 'roles' && mode !== 'pathways' && mode !== 'certificates' && mode !== 'interview' && mode !== 'skills' && mode !== 'courses') return;
     var card = detailEl.querySelector('.detail-card');
     var h2 = card && card.querySelector('h2');
     if (!card || !h2) return;
@@ -932,6 +933,7 @@
     var course = coursesBySlug[slug];
     if (!course) return;
     detailEl.innerHTML = renderCourse(course, backTarget);
+    attachMasteryTracking('courses', slug);
     detailEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
     if (updatePath) {
       history.pushState(null, '', '/academy/courses/' + slug + '/');
