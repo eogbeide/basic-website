@@ -1,0 +1,119 @@
+.newsletter-main {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 56px 24px 40px;
+}
+
+.newsletter-section {
+  margin-bottom: 56px;
+}
+
+.newsletter-section h2 {
+  font-size: 26px;
+  line-height: 1.2;
+  margin: 0 0 12px;
+  color: #ffffff;
+}
+
+.newsletter-section-intro {
+  color: #b9b9b9;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0 0 28px;
+  max-width: 640px;
+}
+
+.column-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.column-card {
+  background-color: #17181a;
+  border: 1px solid #262626;
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+
+.column-card h3 {
+  color: #ffc629;
+  font-size: 15px;
+  margin: 0 0 8px;
+}
+
+.column-card p {
+  color: #d7d7d7;
+  font-size: 13.5px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.topic-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.topic-list li {
+  background-color: #17181a;
+  border: 1px solid #262626;
+  border-radius: 8px;
+  padding: 14px 16px;
+  color: #d7d7d7;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.topic-column {
+  display: inline-block;
+  color: #ffc629;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  background: rgba(255, 198, 41, 0.08);
+  border: 1px solid rgba(255, 198, 41, 0.3);
+  border-radius: 999px;
+  padding: 3px 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.newsletter-faq {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.newsletter-faq-item {
+  border-top: 1px solid #2a2a2a;
+  padding-top: 14px;
+}
+
+.newsletter-faq-q {
+  color: #ffffff;
+  font-size: 14.5px;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+.newsletter-faq-a {
+  color: #d7d7d7;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 620px) {
+  .newsletter-main {
+    padding: 40px 18px 32px;
+  }
+
+  .newsletter-section {
+    margin-bottom: 40px;
+  }
+}
