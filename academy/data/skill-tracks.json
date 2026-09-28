@@ -2590,5 +2590,657 @@
     "practiceBody": "Deliver a 10-minute architecture review plus repository/demo bundle. Defend why each vendor implementation differs, where protocols actually improve portability, which security controls are non-negotiable, what the evals exposed, and which platform you would select for the target workload — with evidence rather than brand preference.",
     "rubricHeading": null,
     "rubric": null
+  },
+  {
+    "name": "Full-Stack Web Development Bootcamp Certificate",
+    "category": "Bootcamp Mastery Certificate",
+    "tagline": "Bootcamp Mastery Certificate B01",
+    "intro": "Primary spine: Harvard CS50W. A project-driven progression from browser fundamentals to Django/SQL backends, interactive JavaScript interfaces, automated testing, CI/CD, scalability and security.",
+    "benchmark": "Harvard CS50W - Web Programming with Python and JavaScript -- Harvard CS50 states that learners who earn at least 70% on each CS50W project, including the final project, are eligible for a free CS50 Certificate; a verified edX option is separate. This is a Zuyini Bootcamp Mastery Certificate built around free CS50W video materials, not a Harvard-issued credential.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Video Sequence",
+        "items": [
+          {
+            "title": "01 — HTML, CSS, responsive design, Bootstrap & Sass",
+            "video": {
+              "title": "Harvard CS50W - Lecture 0",
+              "url": "https://www.youtube.com/watch?v=zFZrkCIc2Oc",
+              "channel": "Harvard CS50W"
+            }
+          },
+          {
+            "title": "02 — Git, GitHub, commits, merge conflicts & branching",
+            "video": {
+              "title": "Harvard CS50W - Lecture 1",
+              "url": "https://www.youtube.com/watch?v=NcoBAfJ6l2Q",
+              "channel": "Harvard CS50W"
+            }
+          },
+          {
+            "title": "03 — Python for web application development",
+            "video": {
+              "title": "Harvard CS50W - Lecture 2",
+              "url": "https://www.youtube.com/watch?v=EOLPQdVj5Ac",
+              "channel": "Harvard CS50W"
+            }
+          },
+          {
+            "title": "04 — Django: routes, templates, forms & sessions",
+            "video": {
+              "title": "Harvard CS50W - Lecture 3",
+              "url": "https://www.youtube.com/watch?v=w8q0C-C1js4",
+              "channel": "Harvard CS50W"
+            }
+          },
+          {
+            "title": "05 — SQL, Django models, relationships & migrations",
+            "video": {
+              "title": "Harvard CS50W - Lecture 4",
+              "url": "https://www.youtube.com/watch?v=YzP164YANAU",
+              "channel": "Harvard CS50W"
+            }
+          },
+          {
+            "title": "06 — JavaScript, DOM, events, local storage & APIs",
+            "video": {
+              "title": "Harvard CS50W - Lecture 5",
+              "url": "https://www.youtube.com/watch?v=x5trgvmktdy",
+              "channel": "Harvard CS50W"
+            }
+          },
+          {
+            "title": "07 — SPAs, animation, infinite scroll & React",
+            "video": {
+              "title": "Harvard CS50W - Lecture 6",
+              "url": "https://www.youtube.com/watch?v=jrBhi8wbzPw",
+              "channel": "Harvard CS50W"
+            }
+          },
+          {
+            "title": "08 — Testing, Selenium, GitHub Actions, CI/CD & Docker",
+            "video": {
+              "title": "Harvard CS50W - Lecture 7",
+              "url": "https://www.youtube.com/watch?v=WbRDkJ4lPdY",
+              "channel": "Harvard CS50W"
+            }
+          },
+          {
+            "title": "09 — Scalability, load balancing, caching, HTTPS & security",
+            "video": {
+              "title": "Harvard CS50W - Lecture 8",
+              "url": "https://www.youtube.com/watch?v=6PWTxRGh_dk",
+              "channel": "Harvard CS50W"
+            }
+          },
+          {
+            "title": "10 — Complete CS50W video playlist",
+            "video": {
+              "title": "Harvard CS50 - full video sequence",
+              "url": "https://www.youtube.com/playlist?list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu",
+              "channel": "Harvard CS50"
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Build-Along Checkpoints",
+        "items": [
+          {
+            "title": "Checkpoint 1 – Frontend foundation",
+            "body": "Responsive HTML/CSS interface, semantic structure, accessibility basics and Git history."
+          },
+          {
+            "title": "Checkpoint 2 – Backend foundation",
+            "body": "Django routes/views/templates, forms, sessions/authentication and clean project structure."
+          },
+          {
+            "title": "Checkpoint 3 – Data layer",
+            "body": "Relational schema, migrations, queries, relationships, validation and admin/operational workflows."
+          },
+          {
+            "title": "Checkpoint 4 – Interactive client",
+            "body": "JavaScript DOM/events, asynchronous API calls, state/local storage and one SPA-style flow."
+          },
+          {
+            "title": "Checkpoint 5 – Engineering quality",
+            "body": "Unit/integration/UI tests, GitHub Actions or equivalent CI, Docker/reproducible environment."
+          },
+          {
+            "title": "Checkpoint 6 – Production reasoning",
+            "body": "Caching, load balancing, database scaling, HTTPS, XSS/CSRF/SQL-injection defenses."
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "5-Day Independent Capstone",
+        "items": [
+          {
+            "title": "Day 1",
+            "body": "Define a real user problem, user stories, architecture, data model, routes/API surface and acceptance criteria."
+          },
+          {
+            "title": "Day 2",
+            "body": "Build the authenticated Django backend and relational data model; expose at least one API endpoint."
+          },
+          {
+            "title": "Day 3",
+            "body": "Build an interactive JavaScript/React-capable interface with asynchronous data exchange and responsive UX."
+          },
+          {
+            "title": "Day 4",
+            "body": "Add automated tests, CI, container/reproducible setup, secure configuration and one performance/scalability improvement."
+          },
+          {
+            "title": "Day 5",
+            "body": "Deploy or run in a production-like environment; record a demo; document architecture, failures, security decisions and next scaling step."
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Functional System Capstone",
+    "practiceBody": "Build along the CS50W video sequence, then ship an independent full-stack web application (not a clone of the instructor's project) that demonstrates a working user flow, a Django backend with authentication and at least one API endpoint, a relational data model, an interactive JavaScript/React-capable frontend, automated tests with CI, a container/reproducible environment, and deliberate security and scalability choices, deployed or run in a production-like environment with a recorded demo.",
+    "rubricHeading": "Proof Rubric — What Must Be Shown",
+    "rubric": "FUNCTIONAL: a working app with meaningful user flow; BACKEND: Django routes, auth/session behavior, API; DATA: schema, migrations, relationships, validation; FRONTEND: interactive JS/UI behavior and responsive UX; QUALITY: tests + CI + reproducible run instructions; SECURITY: threats considered and controls demonstrated; OPERATIONS: deployment/runtime evidence and logs; COMMUNICATION: README, architecture diagram + demo video.",
+    "page": 758
+  },
+  {
+    "name": "Machine Learning Engineering Bootcamp Certificate",
+    "category": "Bootcamp Mastery Certificate",
+    "tagline": "Bootcamp Mastery Certificate B02",
+    "intro": "Primary spine: DataTalksClub Machine Learning Zoomcamp. A practical ML engineering path from problem framing and classical models through evaluation, deployment, deep learning and scalable serving.",
+    "benchmark": "DataTalksClub Machine Learning Zoomcamp -- DataTalksClub certification is cohort-dependent and project/peer-review based; self-paced video study remains available outside an eligible cohort. This is a Zuyini Bootcamp Mastery Certificate built around free ML Zoomcamp video materials, not a DataTalksClub-issued credential.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Video Sequence",
+        "items": [
+          {
+            "title": "01 — Course orientation: what machine learning is and how projects flow",
+            "video": {
+              "title": "DataTalksClub ML Zoomcamp 1.1",
+              "url": "https://www.youtube.com/watch?v=Crm_5n4mvmg",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "02 — Supervised learning: regression, classification & ranking",
+            "video": {
+              "title": "DataTalksClub ML Zoomcamp 1.3",
+              "url": "https://www.youtube.com/watch?v=j9kcEuGcC2Y",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "03 — Regression build: car-price prediction project",
+            "video": {
+              "title": "DataTalksClub ML Zoomcamp 2.1",
+              "url": "https://www.youtube.com/watch?v=vM3SqPNlStE",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "04 — Classification build: churn prediction + feature importance",
+            "video": {
+              "title": "DataTalksClub ML Zoomcamp - Module 3",
+              "url": "https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "05 — Evaluation: accuracy, confusion matrix, precision/recall, ROC AUC & more",
+            "video": {
+              "title": "DataTalksClub ML Zoomcamp - Module 4",
+              "url": "https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "06 — Deployment: model serialization, API serving, FastAPI/Docker workshop",
+            "video": {
+              "title": "DataTalksClub ML Zoomcamp - Module 5 / updated workshop",
+              "url": "https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "07 — Trees, random forests, gradient boosting & XGBoost",
+            "video": {
+              "title": "DataTalksClub ML Zoomcamp - Module 6",
+              "url": "https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "08 — Neural networks & deep learning; current implementation add-ons",
+            "video": {
+              "title": "DataTalksClub ML Zoomcamp - Module 8",
+              "url": "https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "09 — Serverless inference and production-serving patterns",
+            "video": {
+              "title": "DataTalksClub ML Zoomcamp - Module 9",
+              "url": "https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "10 — Kubernetes / scalable model serving + full course playlist",
+            "video": {
+              "title": "DataTalksClub ML Zoomcamp - Module 10",
+              "url": "https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR",
+              "channel": "DataTalksClub"
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Build-Along Checkpoints",
+        "items": [
+          {
+            "title": "Checkpoint 1",
+            "body": "Frame an ML problem; define target, leakage risks, train/validation/test strategy and a reproducible baseline."
+          },
+          {
+            "title": "Checkpoint 2",
+            "body": "Regression/classification pipeline with feature engineering, regularization, metric selection and error analysis."
+          },
+          {
+            "title": "Checkpoint 3",
+            "body": "Compare tree-based models, random forest and gradient boosting/XGBoost; tune without leaking validation information."
+          },
+          {
+            "title": "Checkpoint 4",
+            "body": "Package a prediction service behind an API; create an isolated environment and Docker image; test requests end to end."
+          },
+          {
+            "title": "Checkpoint 5",
+            "body": "Complete one deep-learning build and understand when neural networks are justified versus classical ML."
+          },
+          {
+            "title": "Checkpoint 6",
+            "body": "Demonstrate one scalable serving pattern such as serverless inference or Kubernetes-based service deployment."
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "7-Day ML Engineering Capstone",
+        "items": [
+          {
+            "title": "Day 1",
+            "body": "Choose a real problem and dataset; define business/technical objective, baseline and success metric."
+          },
+          {
+            "title": "Day 2",
+            "body": "Clean/split data; build baseline; document leakage, missing-data and reproducibility decisions."
+          },
+          {
+            "title": "Day 3",
+            "body": "Train at least three model families; tune and compare using appropriate validation and error analysis."
+          },
+          {
+            "title": "Day 4",
+            "body": "Select the final model; package preprocessing + inference consistently; persist the artifact."
+          },
+          {
+            "title": "Day 5",
+            "body": "Expose inference through FastAPI or equivalent; containerize; add request validation and failure handling."
+          },
+          {
+            "title": "Day 6",
+            "body": "Deploy locally/cloud/serverless/Kubernetes; capture latency, memory/CPU and representative prediction behavior."
+          },
+          {
+            "title": "Day 7",
+            "body": "Publish repository, model card, demo video, evaluation report and a short production-readiness decision memo."
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Functional Model Service Capstone",
+    "practiceBody": "Choose a real problem and dataset, train and compare at least three model families with correct validation and error analysis, select and package a final model behind a consistent preprocessing + inference pipeline, expose it through an API, containerize it, deploy locally/cloud/serverless/Kubernetes, and publish a repository, model card, evaluation report, demo video and production-readiness memo.",
+    "rubricHeading": "Proof Rubric — What Must Be Shown",
+    "rubric": "PROBLEM: clear target, users/use case and success metric; DATA: split logic, preprocessing, leakage controls; MODELS: baseline + multiple candidates + tuning; EVALUATION: correct metrics, CV/holdout, error analysis; SERVING: working API with consistent preprocessing; PACKAGING: reproducible environment + container; DEPLOYMENT: running endpoint and runtime evidence; COMMUNICATION: model card, README, report + demo video.",
+    "page": 760
+  },
+  {
+    "name": "MLOps Engineering Bootcamp Certificate",
+    "category": "Bootcamp Mastery Certificate",
+    "tagline": "Bootcamp Mastery Certificate B03",
+    "intro": "Productionize machine learning from experiment tracking and orchestration through deployment, monitoring, testing, infrastructure-as-code and CI/CD. The official video playlist remains the canonical spine; focused direct videos deepen production practice.",
+    "benchmark": "DataTalksClub MLOps Zoomcamp -- DataTalksClub currently makes the complete MLOps Zoomcamp available for self-paced study; provider certification is cohort-dependent and self-paced completion alone does not imply a DataTalksClub certificate. This is a Zuyini Bootcamp Mastery Certificate built around free MLOps Zoomcamp video materials, using the independent proof rubric below.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Video Sequence",
+        "items": [
+          {
+            "title": "01 — Why MLOps, lifecycle & production thinking",
+            "video": {
+              "title": "DataTalksClub MLOps Zoomcamp 1.1",
+              "url": "https://www.youtube.com/watch?v=s0uaFZSzwfI",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "02 — Canonical sequence: MLflow, pipelines, deployment & monitoring",
+            "video": {
+              "title": "MLOps Zoomcamp - full video playlist",
+              "url": "https://www.youtube.com/playlist?list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "03 — Deploy a model service with Flask/Docker",
+            "video": {
+              "title": "DataTalksClub - Dockerized model service",
+              "url": "https://www.youtube.com/watch?v=D7wfMAdgdF8",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "04 — Monitoring metrics & drift with Evidently",
+            "video": {
+              "title": "MLOps Zoomcamp 5.4 - Evidently metrics",
+              "url": "https://www.youtube.com/watch?v=kP3lzh_HfWY",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "05 — Integration tests for containerized ML services",
+            "video": {
+              "title": "MLOps Zoomcamp - integration testing",
+              "url": "https://www.youtube.com/watch?v=lBX0Gl7Z1ck",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "06 — Infrastructure as Code foundations",
+            "video": {
+              "title": "MLOps Zoomcamp 6B.1 - Terraform intro",
+              "url": "https://www.youtube.com/watch?v=zRcLgT7Qnio",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "07 — Terraform modules, outputs & reusable infra",
+            "video": {
+              "title": "MLOps Zoomcamp 6B.2 - modules/outputs",
+              "url": "https://www.youtube.com/watch?v=-6scXrFcPNk",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "08 — End-to-end infrastructure for ride predictions",
+            "video": {
+              "title": "MLOps Zoomcamp 6B.3 - E2E Terraform",
+              "url": "https://www.youtube.com/watch?v=JVydd1K6R7M",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "09 — CI/CD architecture with GitHub Actions",
+            "video": {
+              "title": "MLOps Zoomcamp 6B.5 - CI/CD intro",
+              "url": "https://www.youtube.com/watch?v=OMwwZ0Z_cdk",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "10 — Continuous delivery to production",
+            "video": {
+              "title": "MLOps Zoomcamp 6B.7 - continuous deployment",
+              "url": "https://www.youtube.com/watch?v=jCNxqXCKh2s",
+              "channel": "DataTalksClub"
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Build-Along Checkpoints",
+        "items": [
+          {
+            "title": "Checkpoint 1",
+            "body": "Track experiments, parameters, metrics and model artifacts; make a reproducible model-selection decision."
+          },
+          {
+            "title": "Checkpoint 2",
+            "body": "Convert notebook work into an orchestrated training/scoring pipeline with explicit inputs, outputs and failure behavior."
+          },
+          {
+            "title": "Checkpoint 3",
+            "body": "Package online or batch inference behind a repeatable deployment path with Docker and environment isolation."
+          },
+          {
+            "title": "Checkpoint 4",
+            "body": "Instrument model/data health, service behavior and drift; build at least one monitoring dashboard or alert path."
+          },
+          {
+            "title": "Checkpoint 5",
+            "body": "Add unit + integration tests and a reproducible local test environment for the ML service."
+          },
+          {
+            "title": "Checkpoint 6",
+            "body": "Provision representative infrastructure with Terraform and automate CI/CD from commit to deployed service."
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "7-Day Independent Capstone",
+        "items": [
+          {
+            "title": "Day 1",
+            "body": "Choose a real ML use case; define SLOs, retraining triggers, deployment mode, operational risks and evidence plan."
+          },
+          {
+            "title": "Day 2",
+            "body": "Train candidate models with experiment tracking; register/select the winning artifact with clear lineage."
+          },
+          {
+            "title": "Day 3",
+            "body": "Build an orchestrated training or batch-scoring pipeline; make runs reproducible and parameterized."
+          },
+          {
+            "title": "Day 4",
+            "body": "Package the model service or scoring job; containerize and deploy in a production-like environment."
+          },
+          {
+            "title": "Day 5",
+            "body": "Add model/data/service monitoring with stored metrics, dashboarding and a simulated drift/failure scenario."
+          },
+          {
+            "title": "Day 6",
+            "body": "Add tests, Terraform and CI; exercise a safe release path and record one rollback or recovery procedure."
+          },
+          {
+            "title": "Day 7",
+            "body": "Publish architecture, runbook, demo video, operational evidence and a postmortem-style reflection on failure modes."
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "End-to-End MLOps Capstone",
+    "practiceBody": "Choose a real ML use case and define SLOs and retraining triggers, track experiments and register a model with clear lineage, build an orchestrated training or batch-scoring pipeline, containerize and deploy the service in a production-like environment, add model/data/service monitoring with a simulated drift or failure scenario, wire tests plus Terraform plus CI/CD with a safe release path, and publish an architecture doc, runbook, demo video and postmortem-style reflection.",
+    "rubricHeading": "Proof Rubric — What Must Be Shown",
+    "rubric": "LINEAGE: experiments + artifacts + reproducibility; PIPELINES: orchestration with repeatable runs; SERVING: online/batch path runs end to end; MONITORING: metrics + drift + dashboard/alerts; QUALITY: unit/integration tests and validation; INFRA: IaC for representative resources; DELIVERY: CI/CD with release evidence; OPERATIONS: runbook, rollback, demo + postmortem.",
+    "page": 762
+  },
+  {
+    "name": "LLM & RAG Engineering Bootcamp Certificate",
+    "category": "Bootcamp Mastery Certificate",
+    "tagline": "Bootcamp Mastery Certificate B04",
+    "intro": "Build production-style LLM applications rather than train foundation models: agentic RAG, vector search, orchestration, systematic evaluation, monitoring and a complete knowledge-grounded application. The 2026 video sequence is the current implementation spine.",
+    "benchmark": "DataTalksClub LLM Zoomcamp -- DataTalksClub LLM Zoomcamp is a free video-led course and uses project-based certificate rules during eligible cohorts; provider certificate availability depends on the active cohort, deadlines and peer-review requirements. This is a Zuyini Bootcamp Mastery Certificate built around free LLM Zoomcamp video materials, using the independent build-and-proof rubric below.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Video Sequence",
+        "items": [
+          {
+            "title": "01 — Current canonical lecture sequence",
+            "video": {
+              "title": "LLM Zoomcamp - main video playlist",
+              "url": "https://www.youtube.com/playlist?list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "02 — 2026 cohort recordings & current implementation",
+            "video": {
+              "title": "LLM Zoomcamp 2026 video playlist",
+              "url": "https://www.youtube.com/playlist?list=PL3MmuxUbc_hJAmLLf2x1LSKRKbZwKXoHd",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "03 — Environment, uv, dependencies & API setup",
+            "video": {
+              "title": "LLM Zoomcamp 1.2 - Environment",
+              "url": "https://www.youtube.com/watch?v=3U4gBrmkZyM",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "04 — RAG architecture: retrieval + context + generation",
+            "video": {
+              "title": "LLM Zoomcamp 1.3 - What is RAG",
+              "url": "https://www.youtube.com/watch?v=JktYwBIDErk",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "05 — Knowledge-base ingestion & FAQ dataset",
+            "video": {
+              "title": "LLM Zoomcamp 1.4 - Course FAQ Dataset",
+              "url": "https://www.youtube.com/watch?v=Mx6EqvzVDz0",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "06 — Keyword retrieval, filtering & boosting",
+            "video": {
+              "title": "LLM Zoomcamp 1.5 - Search",
+              "url": "https://www.youtube.com/watch?v=GYgpNKiuCJU",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "07 — Context construction & prompt assembly",
+            "video": {
+              "title": "LLM Zoomcamp 1.6 - Building a Prompt",
+              "url": "https://www.youtube.com/watch?v=DV4e2n-dIv0",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "08 — Reusable RAG pipeline / application structure",
+            "video": {
+              "title": "LLM Zoomcamp 1.8 - RAG Helper",
+              "url": "https://www.youtube.com/watch?v=JxaC6Hrym6c",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "09 — Foundational LLM + RAG walkthrough",
+            "video": {
+              "title": "LLM Zoomcamp - Intro to LLM and RAG",
+              "url": "https://www.youtube.com/watch?v=Q75JgLEXMsM",
+              "channel": "DataTalksClub"
+            }
+          },
+          {
+            "title": "10 — Vector search, orchestration, evals & monitoring",
+            "video": {
+              "title": "Continue in the official 2026 playlist",
+              "url": "https://www.youtube.com/playlist?list=PL3MmuxUbc_hJAmLLf2x1LSKRKbZwKXoHd",
+              "channel": "DataTalksClub"
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Build-Along Checkpoints",
+        "items": [
+          {
+            "title": "Checkpoint 1",
+            "body": "Build a RAG pipeline from a real knowledge base: ingest, index, retrieve, construct context and call an LLM."
+          },
+          {
+            "title": "Checkpoint 2",
+            "body": "Implement vector search with embeddings and compare it with keyword retrieval using measurable retrieval metrics."
+          },
+          {
+            "title": "Checkpoint 3",
+            "body": "Add an orchestration or agentic workflow where model/tool decisions are explicit and inspectable."
+          },
+          {
+            "title": "Checkpoint 4",
+            "body": "Create ground-truth questions and run offline retrieval + answer evaluation, including LLM-as-a-judge where appropriate."
+          },
+          {
+            "title": "Checkpoint 5",
+            "body": "Capture latency, token/cost and quality/feedback signals; persist conversations and expose monitoring dashboards."
+          },
+          {
+            "title": "Checkpoint 6",
+            "body": "Package a user-facing app and run the full system with a reproducible local/containerized environment."
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "7-Day Independent Capstone",
+        "items": [
+          {
+            "title": "Day 1",
+            "body": "Choose a domain and knowledge base; define users, failure risks, answer policy, target metrics and architecture."
+          },
+          {
+            "title": "Day 2",
+            "body": "Build ingestion + retrieval; compare keyword and vector search; capture a reproducible evaluation dataset."
+          },
+          {
+            "title": "Day 3",
+            "body": "Build the RAG application with prompt/context assembly, citations/grounding and one agent/tool workflow."
+          },
+          {
+            "title": "Day 4",
+            "body": "Evaluate retrieval and answers; tune search/chunking/prompts using metrics rather than anecdotal examples."
+          },
+          {
+            "title": "Day 5",
+            "body": "Add UI/API plus persistence, feedback capture, latency/token/cost logging and a quality-monitoring view."
+          },
+          {
+            "title": "Day 6",
+            "body": "Containerize/run end to end; simulate one bad retrieval, hallucination or dependency failure and document mitigation."
+          },
+          {
+            "title": "Day 7",
+            "body": "Publish repository, architecture, evaluation report, demo video, runbook and a short production-readiness memo."
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Grounded LLM Application Capstone",
+    "practiceBody": "Choose a domain and knowledge base, build ingestion and retrieval comparing keyword and vector search with a reproducible evaluation dataset, build a RAG application with prompt/context assembly, citations and one agent/tool workflow, run offline retrieval and answer evaluation, add UI/API with persistence and latency/token/cost monitoring, simulate and mitigate one failure mode, and publish a repository, architecture, evaluation report, demo video, runbook and production-readiness memo.",
+    "rubricHeading": "Proof Rubric — What Must Be Shown",
+    "rubric": "GROUNDING: knowledge base + traceable context; RETRIEVAL: keyword/vector search + metrics; AGENTIC FLOW: tool/workflow decisions are inspectable; EVALUATION: ground truth + retrieval/answer evals; OBSERVABILITY: latency, token/cost, quality signals; APP: usable interface/API + persistence; RELIABILITY: failure test + mitigation evidence; COMMUNICATION: repo, report, runbook + demo video.",
+    "page": 764
   }
 ]

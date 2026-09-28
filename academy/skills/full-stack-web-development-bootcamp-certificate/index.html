@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full-Stack Web Development Bootcamp Certificate | Zuyini Academy Skill Track</title>
+  <meta name="description" content="Bootcamp Mastery Certificate B01" />
+  <link rel="canonical" href="https://zuyini.com/academy/skills/full-stack-web-development-bootcamp-certificate/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Full-Stack Web Development Bootcamp Certificate | Zuyini Academy Skill Track" />
+  <meta property="og:description" content="Bootcamp Mastery Certificate B01" />
+  <meta property="og:url" content="https://zuyini.com/academy/skills/full-stack-web-development-bootcamp-certificate/" />
+  <link rel="stylesheet" href="../../academy.css" />
+  <link rel="stylesheet" href="../../../gate.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="/index.html" class="logo">
+      <span class="logo-mark">Z</span>
+      <span>Zuyini Academy</span>
+    </a>
+    <nav class="nav-links">
+      <a href="/index.html">Main Site</a>
+      <a href="/health-sciences/index.html">Health Sciences</a>
+      <a href="/newsletter/index.html">Newsletter</a>
+      <a href="/index.html#about">About Manny</a>
+    </nav>
+  </header>
+
+  <section class="academy-hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <p class="section-label">Role-Driven Mastery System</p>
+      <p class="hero-tagline-heading">Master the skills the job market is actually hiring for.</p>
+      <p class="hero-description">Follow a job-market-audited Role Path, move through a discipline end-to-end with a Learning Pathway, or pursue a university-benchmarked Academic Certificate &mdash; each with a Basic &rarr; Intermediate &rarr; Advanced ladder, direct video learning bridges and a capstone proof-of-work project.</p>
+      <form id="skill-finder-form" class="skill-finder" novalidate>
+        <input id="skill-finder-input" type="text" placeholder="What skill are you looking for? e.g. negotiation, Python, AI agents..." autocomplete="off" />
+        <button type="submit">Find My Path</button>
+      </form>
+      <div class="hero-stats">
+        <button type="button" class="hero-stat" data-hero-mode="roles">
+          <span class="hero-stat-num" id="hero-stat-roles">196</span>
+          <span class="hero-stat-label">Job-Benchmarked Roles</span>
+        </button>
+        <button type="button" class="hero-stat" data-hero-mode="pathways">
+          <span class="hero-stat-num" id="hero-stat-pathways">18</span>
+          <span class="hero-stat-label">Learning Pathways</span>
+        </button>
+        <button type="button" class="hero-stat" data-hero-mode="certificates">
+          <span class="hero-stat-num" id="hero-stat-certificates">31</span>
+          <span class="hero-stat-label">Academic Certificates</span>
+        </button>
+        <button type="button" class="hero-stat" data-hero-mode="interview">
+          <span class="hero-stat-num" id="hero-stat-interview">20</span>
+          <span class="hero-stat-label">Interview Prep Tracks</span>
+        </button>
+        <button type="button" class="hero-stat" data-hero-mode="skills">
+          <span class="hero-stat-num" id="hero-stat-skills">29</span>
+          <span class="hero-stat-label">Skill Tracks</span>
+        </button>
+      </div>
+      <div class="inline-signup">
+        <p class="inline-signup-heading">Get free access</p>
+        <p class="inline-signup-pitch">Sign up with your name and email to unlock every video, course and mastery tracker across the Academy and Health Sciences Academy. No spam, unsubscribe anytime.</p>
+        <form class="zuyini-inline-signup" novalidate>
+          <div class="gate-field">
+            <label for="hero-signup-name">Name</label>
+            <input id="hero-signup-name" name="first_name" type="text" autocomplete="given-name" required />
+          </div>
+          <div class="gate-field">
+            <label for="hero-signup-email">Email</label>
+            <input id="hero-signup-email" name="email" type="email" autocomplete="email" required />
+          </div>
+          <button type="submit" class="gate-submit">Get Access</button>
+          <p class="gate-error" hidden></p>
+        </form>
+        <p class="gate-success" hidden>You're in &mdash; every video, course and tracker is unlocked. Thanks for joining Zuyini!</p>
+      </div>
+    </div>
+  </section>
+
+  <main class="app-shell">
+    <aside class="role-panel">
+      <div class="mode-toggle">
+        <button type="button" data-mode="roles">Roles</button>
+        <button type="button" data-mode="pathways">Pathways</button>
+        <button type="button" data-mode="certificates">Certificates</button>
+        <button type="button" data-mode="interview">Interview Prep</button>
+        <button type="button" data-mode="skills" class="active">Skill Tracks</button>
+      </div>
+      <select id="category-select" class="category-select"></select>
+      <div class="search-box">
+        <input id="search-input" type="text" placeholder="Search roles, e.g. AI Engineer, UX, Finance..." autocomplete="off" />
+      </div>
+      <p class="role-count"><span id="role-count-num">0</span> <span id="role-count-label">items</span></p>
+      <ul id="role-list" class="role-list"><li data-slug="agent-evaluation-reliability-security-lab"><a href="/academy/skills/agent-evaluation-reliability-security-lab/">Agent Evaluation, Reliability &amp; Security Lab</a></li><li data-slug="agent-mastery-aws-bedrock-agentcore"><a href="/academy/skills/agent-mastery-aws-bedrock-agentcore/">Agent Mastery — AWS / Bedrock AgentCore</a></li><li data-slug="agent-mastery-claude-anthropic"><a href="/academy/skills/agent-mastery-claude-anthropic/">Agent Mastery — Claude / Anthropic</a></li><li data-slug="agent-mastery-cross-platform-portfolio-capstone"><a href="/academy/skills/agent-mastery-cross-platform-portfolio-capstone/">Agent Mastery — Cross-Platform Portfolio Capstone</a></li><li data-slug="agent-mastery-google-cloud-gcp"><a href="/academy/skills/agent-mastery-google-cloud-gcp/">Agent Mastery — Google Cloud / GCP</a></li><li data-slug="agent-mastery-microsoft-copilot"><a href="/academy/skills/agent-mastery-microsoft-copilot/">Agent Mastery — Microsoft Copilot</a></li><li data-slug="agent-mastery-openai"><a href="/academy/skills/agent-mastery-openai/">Agent Mastery — OpenAI</a></li><li data-slug="agent-protocols-interoperability-mastery"><a href="/academy/skills/agent-protocols-interoperability-mastery/">Agent Protocols &amp; Interoperability Mastery</a></li><li data-slug="ai-mastery"><a href="/academy/skills/ai-mastery/">AI Mastery</a></li><li data-slug="artificial-intelligence-with-python-certificate"><a href="/academy/skills/artificial-intelligence-with-python-certificate/">Artificial Intelligence with Python Certificate</a></li><li data-slug="computer-science-certificate"><a href="/academy/skills/computer-science-certificate/">Computer Science Certificate</a></li><li data-slug="cybersecurity-certificate"><a href="/academy/skills/cybersecurity-certificate/">Cybersecurity Certificate</a></li><li data-slug="databases-with-sql-certificate"><a href="/academy/skills/databases-with-sql-certificate/">Databases with SQL Certificate</a></li><li data-slug="deep-learning-certificate"><a href="/academy/skills/deep-learning-certificate/">Deep Learning Certificate</a></li><li data-slug="full-stack-web-development-bootcamp-certificate"><a href="/academy/skills/full-stack-web-development-bootcamp-certificate/">Full-Stack Web Development Bootcamp Certificate</a></li><li data-slug="language-learning-english"><a href="/academy/skills/language-learning-english/">Language Learning — English</a></li><li data-slug="language-learning-french"><a href="/academy/skills/language-learning-french/">Language Learning — French</a></li><li data-slug="language-learning-spanish"><a href="/academy/skills/language-learning-spanish/">Language Learning — Spanish</a></li><li data-slug="llm-rag-engineering-bootcamp-certificate"><a href="/academy/skills/llm-rag-engineering-bootcamp-certificate/">LLM &amp; RAG Engineering Bootcamp Certificate</a></li><li data-slug="machine-learning-engineering-bootcamp-certificate"><a href="/academy/skills/machine-learning-engineering-bootcamp-certificate/">Machine Learning Engineering Bootcamp Certificate</a></li><li data-slug="mlops-engineering-bootcamp-certificate"><a href="/academy/skills/mlops-engineering-bootcamp-certificate/">MLOps Engineering Bootcamp Certificate</a></li><li data-slug="natural-language-processing-with-deep-learning-certificate"><a href="/academy/skills/natural-language-processing-with-deep-learning-certificate/">Natural Language Processing with Deep Learning Certificate</a></li><li data-slug="neural-networks-zero-to-hero-certificate"><a href="/academy/skills/neural-networks-zero-to-hero-certificate/">Neural Networks: Zero to Hero Certificate</a></li><li data-slug="personal-development"><a href="/academy/skills/personal-development/">Personal Development</a></li><li data-slug="professional-development"><a href="/academy/skills/professional-development/">Professional Development</a></li><li data-slug="programming-languages-mastery"><a href="/academy/skills/programming-languages-mastery/">Programming Languages Mastery</a></li><li data-slug="programming-with-python-certificate"><a href="/academy/skills/programming-with-python-certificate/">Programming with Python Certificate</a></li><li data-slug="transformers-large-language-models-certificate"><a href="/academy/skills/transformers-large-language-models-certificate/">Transformers &amp; Large Language Models Certificate</a></li><li data-slug="ui-ux-mastery"><a href="/academy/skills/ui-ux-mastery/">UI &amp; UX Mastery</a></li></ul>
+    </aside>
+
+    <section class="role-detail" id="role-detail">
+<div class="detail-card"><h1>Full-Stack Web Development Bootcamp Certificate</h1><div class="mastery-badge"><div class="mastery-header"><span class="mastery-level">Not Started</span><span class="mastery-count">0 / 10 complete</span></div><div class="mastery-track"><div class="mastery-fill" style="width:0%"></div></div><p class="mastery-hint">Open a video or resource link, watch it, then check its box to track your progress and unlock what comes next.</p></div><div class="role-quickfacts"><div class="role-quickfacts-row"><span class="role-quickfact">10 lessons</span><span class="role-quickfact">1 capstone project</span></div><button type="button" class="role-cta">Start with: 01 — HTML, CSS, responsive design, Bootstrap &amp; Sass</button></div><div class="share-bar"><span class="share-label">Share</span><a class="share-btn" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fzuyini.com%2Facademy%2Fskills%2Ffull-stack-web-development-bootcamp-certificate%2F&amp;text=Full-Stack%20Web%20Development%20Bootcamp%20Certificate%20%7C%20Zuyini%20Academy%20Skill%20Track" target="_blank" rel="noopener noreferrer" aria-label="Share on X">X</a><a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fzuyini.com%2Facademy%2Fskills%2Ffull-stack-web-development-bootcamp-certificate%2F" target="_blank" rel="noopener noreferrer" aria-label="Share on LinkedIn">in</a><a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fzuyini.com%2Facademy%2Fskills%2Ffull-stack-web-development-bootcamp-certificate%2F" target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook">f</a><button type="button" class="share-btn share-copy" data-copy-url="https://zuyini.com/academy/skills/full-stack-web-development-bootcamp-certificate/" aria-label="Copy link">Copy Link</button></div><p class="detail-description">Bootcamp Mastery Certificate B01</p><p class="detail-description">Primary spine: Harvard CS50W. A project-driven progression from browser fundamentals to Django/SQL backends, interactive JavaScript interfaces, automated testing, CI/CD, scalability and security.</p><p class="detail-benchmark">Benchmark: Harvard CS50W - Web Programming with Python and JavaScript -- Harvard CS50 states that learners who earn at least 70% on each CS50W project, including the final project, are eligible for a free CS50 Certificate; a verified edX option is separate. This is a Zuyini Bootcamp Mastery Certificate built around free CS50W video materials, not a Harvard-issued credential.</p><div class="guide-block"><h3>Core Video Sequence</h3><div class="competency"><p class="competency-title">01 — HTML, CSS, responsive design, Bootstrap &amp; Sass</p><ul class="video-links"><li><input type="checkbox" class="mastery-check" aria-label="Mark complete" disabled="" title="Open the link first to mark this complete"><a href="https://www.youtube.com/watch?v=zFZrkCIc2Oc" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>Harvard CS50W - Lecture 0 — Harvard CS50W</span></a></li></ul><p class="competency-title">02 — Git, GitHub, commits, merge conflicts &amp; branching</p><ul class="video-links"><li><input type="checkbox" class="mastery-check" aria-label="Mark complete" disabled="" title="Open the link first to mark this complete"><a href="https://www.youtube.com/watch?v=NcoBAfJ6l2Q" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>Harvard CS50W - Lecture 1 — Harvard CS50W</span></a></li></ul><p class="competency-title">03 — Python for web application development</p><ul class="video-links"><li><input type="checkbox" class="mastery-check" aria-label="Mark complete" disabled="" title="Open the link first to mark this complete"><a href="https://www.youtube.com/watch?v=EOLPQdVj5Ac" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>Harvard CS50W - Lecture 2 — Harvard CS50W</span></a></li></ul><p class="competency-title">04 — Django: routes, templates, forms &amp; sessions</p><ul class="video-links"><li><input type="checkbox" class="mastery-check" aria-label="Mark complete" disabled="" title="Open the link first to mark this complete"><a href="https://www.youtube.com/watch?v=w8q0C-C1js4" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>Harvard CS50W - Lecture 3 — Harvard CS50W</span></a></li></ul><p class="competency-title">05 — SQL, Django models, relationships &amp; migrations</p><ul class="video-links"><li><input type="checkbox" class="mastery-check" aria-label="Mark complete" disabled="" title="Open the link first to mark this complete"><a href="https://www.youtube.com/watch?v=YzP164YANAU" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>Harvard CS50W - Lecture 4 — Harvard CS50W</span></a></li></ul><p class="competency-title">06 — JavaScript, DOM, events, local storage &amp; APIs</p><ul class="video-links"><li><input type="checkbox" class="mastery-check" aria-label="Mark complete" disabled="" title="Open the link first to mark this complete"><a href="https://www.youtube.com/watch?v=x5trgvmktdy" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>Harvard CS50W - Lecture 5 — Harvard CS50W</span></a></li></ul><p class="competency-title">07 — SPAs, animation, infinite scroll &amp; React</p><ul class="video-links"><li><input type="checkbox" class="mastery-check" aria-label="Mark complete" disabled="" title="Open the link first to mark this complete"><a href="https://www.youtube.com/watch?v=jrBhi8wbzPw" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>Harvard CS50W - Lecture 6 — Harvard CS50W</span></a></li></ul><p class="competency-title">08 — Testing, Selenium, GitHub Actions, CI/CD &amp; Docker</p><ul class="video-links"><li><input type="checkbox" class="mastery-check" aria-label="Mark complete" disabled="" title="Open the link first to mark this complete"><a href="https://www.youtube.com/watch?v=WbRDkJ4lPdY" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>Harvard CS50W - Lecture 7 — Harvard CS50W</span></a></li></ul><p class="competency-title">09 — Scalability, load balancing, caching, HTTPS &amp; security</p><ul class="video-links"><li><input type="checkbox" class="mastery-check" aria-label="Mark complete" disabled="" title="Open the link first to mark this complete"><a href="https://www.youtube.com/watch?v=6PWTxRGh_dk" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>Harvard CS50W - Lecture 8 — Harvard CS50W</span></a></li></ul><p class="competency-title">10 — Complete CS50W video playlist</p><ul class="video-links"><li><input type="checkbox" class="mastery-check" aria-label="Mark complete" disabled="" title="Open the link first to mark this complete"><a href="https://www.youtube.com/playlist?list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu" target="_blank" rel="noopener noreferrer"><span class="play-icon">▶</span><span>Harvard CS50 - full video sequence — Harvard CS50</span></a></li></ul></div></div><div class="guide-block"><h3>Build-Along Checkpoints</h3><ul class="guide-list"><li><strong>Checkpoint 1 – Frontend foundation:</strong> Responsive HTML/CSS interface, semantic structure, accessibility basics and Git history.</li><li><strong>Checkpoint 2 – Backend foundation:</strong> Django routes/views/templates, forms, sessions/authentication and clean project structure.</li><li><strong>Checkpoint 3 – Data layer:</strong> Relational schema, migrations, queries, relationships, validation and admin/operational workflows.</li><li><strong>Checkpoint 4 – Interactive client:</strong> JavaScript DOM/events, asynchronous API calls, state/local storage and one SPA-style flow.</li><li><strong>Checkpoint 5 – Engineering quality:</strong> Unit/integration/UI tests, GitHub Actions or equivalent CI, Docker/reproducible environment.</li><li><strong>Checkpoint 6 – Production reasoning:</strong> Caching, load balancing, database scaling, HTTPS, XSS/CSRF/SQL-injection defenses.</li></ul></div><div class="guide-block"><h3>5-Day Independent Capstone</h3><ul class="guide-list"><li><strong>Day 1:</strong> Define a real user problem, user stories, architecture, data model, routes/API surface and acceptance criteria.</li><li><strong>Day 2:</strong> Build the authenticated Django backend and relational data model; expose at least one API endpoint.</li><li><strong>Day 3:</strong> Build an interactive JavaScript/React-capable interface with asynchronous data exchange and responsive UX.</li><li><strong>Day 4:</strong> Add automated tests, CI, container/reproducible setup, secure configuration and one performance/scalability improvement.</li><li><strong>Day 5:</strong> Deploy or run in a production-like environment; record a demo; document architecture, failures, security decisions and next scaling step.</li></ul></div><div class="capstone-block"><h3>Functional System Capstone</h3><p>Build along the CS50W video sequence, then ship an independent full-stack web application (not a clone of the instructor's project) that demonstrates a working user flow, a Django backend with authentication and at least one API endpoint, a relational data model, an interactive JavaScript/React-capable frontend, automated tests with CI, a container/reproducible environment, and deliberate security and scalability choices, deployed or run in a production-like environment with a recorded demo.</p></div><div class="rubric-block"><h3>Proof Rubric — What Must Be Shown</h3><ul class="rubric-list"><li>FUNCTIONAL: a working app with meaningful user flow</li><li>BACKEND: Django routes, auth/session behavior, API</li><li>DATA: schema, migrations, relationships, validation</li><li>FRONTEND: interactive JS/UI behavior and responsive UX</li><li>QUALITY: tests + CI + reproducible run instructions</li><li>SECURITY: threats considered and controls demonstrated</li><li>OPERATIONS: deployment/runtime evidence and logs</li><li>COMMUNICATION: README, architecture diagram + demo video</li></ul></div></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Zuyini Academy. Built by Manny Ogbeide.</p>
+  </footer>
+
+  <script src="../../data/data.js"></script>
+  <script src="../../academy.js"></script>
+  <script src="../../../gate.js"></script>
+</body>
+</html>
