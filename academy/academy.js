@@ -508,11 +508,11 @@
       render: renderInterviewTrack,
     },
     skills: {
-      label: 'skill tracks',
+      label: 'bootcamps & skill tracks',
       data: (typeof SKILL_TRACKS_DATA !== 'undefined' ? SKILL_TRACKS_DATA : []).slice().sort(function (a, b) { return a.name.localeCompare(b.name); }),
-      searchPlaceholder: 'Search skill tracks, e.g. Spanish, AI Mastery, UX...',
-      emptyTitle: 'Choose a skill track',
-      emptyBody: 'Hands-on mastery routes outside the role catalog: languages, programming languages, AI mastery, UI & UX mastery, personal development and professional development.',
+      searchPlaceholder: 'Search bootcamps & skill tracks, e.g. Spanish, Full-Stack, AI Mastery...',
+      emptyTitle: 'Choose a bootcamp or skill track',
+      emptyBody: 'Hands-on mastery routes outside the role catalog: video-first bootcamp certificates, languages, programming languages, AI mastery, UI & UX mastery, personal development and professional development.',
       render: renderSkillTrack,
     },
   };

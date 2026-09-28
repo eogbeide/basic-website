@@ -334,8 +334,8 @@ a {
 
 .mode-toggle {
   display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
+  flex-wrap: nowrap;
+  gap: 3px;
   margin-bottom: 14px;
   background-color: #151617;
   border: 1px solid #2a2a2a;
@@ -344,16 +344,19 @@ a {
 }
 
 .mode-toggle button {
-  flex: 1 1 30%;
+  flex: 1 1 0;
+  min-width: 0;
   background: none;
   border: none;
   color: #8a8a8a;
-  font-size: 12px;
+  font-size: 10.5px;
   font-weight: bold;
-  padding: 8px 6px;
+  line-height: 1.25;
+  padding: 8px 2px;
   border-radius: 6px;
   cursor: pointer;
   text-align: center;
+  word-break: break-word;
 }
 
 .mode-toggle button:hover {
