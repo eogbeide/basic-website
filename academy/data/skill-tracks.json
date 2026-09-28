@@ -7372,7 +7372,7 @@
     "name": "Network Engineering & CCNA Bootcamp Certificate",
     "category": "Bootcamp Mastery Certificate",
     "tagline": "Bootcamp Mastery Certificate B30",
-    "intro": "Primary spine: Jeremy's IT Lab Free CCNA v1.1 200-301 Complete Course 2026 - a 126-video lecture, quiz and Packet Tracer lab sequence. Move from Ethernet and IP addressing through VLAN/STP, OSPF, ACL/NAT, wireless and modern network automation. CCNA v1.1",
+    "intro": "Primary spine: Jeremy's IT Lab Free CCNA v1.1 200-301 Complete Course 2026 - a 126-video lecture, quiz and Packet Tracer lab sequence. Move from Ethernet and IP addressing through VLAN/STP, OSPF, ACL/NAT, wireless and modern network automation.",
     "benchmark": "Jeremy's IT Lab publishes the Free CCNA v1.1 200-301 Complete Course and associated Packet Tracer learning sequence publicly on YouTube. Zuyini curates the free learning videos and adds its own independent configuration, troubleshooting, automation and proof rubric; this is not a Cisco- or Jeremy's IT Lab-issued certification.",
     "ladder": [],
     "blocks": [
@@ -9182,5 +9182,665 @@
     "rubricHeading": "Proof Rubric — What Must Be Shown",
     "rubric": "MODELING: Layered marts + explicit grain; TESTING: Quality gates + failing-case proof; HISTORY: Incremental/snapshot correctness; MACROS: Reusable transformation logic; LINEAGE: Docs, owners + downstream map; METRICS: Semantic definitions + consistency; CI/CD: Selective build/test promotion; PERFORMANCE: Runtime/cost optimization",
     "page": 836
+  },
+  {
+    "name": "Apache Airflow & Data Orchestration Engineering Bootcamp Certificate",
+    "category": "Bootcamp Mastery Certificate",
+    "tagline": "Bootcamp Mastery Certificate B41",
+    "intro": "Build production workflow orchestration with Airflow 3: architecture, TaskFlow DAGs, operators/sensors, scheduling, dynamic mapping, assets, backfills, versioning, security and operational recovery.",
+    "benchmark": "Public learning videos are provided by Data with Jay, Ansh Lamba, Astronomer, Apache Airflow and Databricks. Zuyini independently curates them and applies its own build-and-proof completion rubric; this is not an Apache Airflow, Astronomer or Databricks-issued certification.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Video Sequence",
+        "items": [
+          {
+            "title": "01 — Complete 5+ hour Airflow 2026 masterclass",
+            "video": {
+              "title": "Data with Jay - Apache Airflow Full Course 2026",
+              "url": "https://www.youtube.com/watch?v=iYQVhVYtO50",
+              "channel": ""
+            }
+          },
+          {
+            "title": "02 — Architecture, scheduler + executors",
+            "video": {
+              "title": "Data with Jay - architecture and executor deep dive",
+              "url": "https://www.youtube.com/watch?v=iYQVhVYtO50&t=1278s",
+              "channel": ""
+            }
+          },
+          {
+            "title": "03 — DAG authoring + modern TaskFlow API",
+            "video": {
+              "title": "Data with Jay - first DAG through TaskFlow patterns",
+              "url": "https://www.youtube.com/watch?v=iYQVhVYtO50&t=6550s",
+              "channel": ""
+            }
+          },
+          {
+            "title": "04 — Operators, sensors + XCom boundaries",
+            "video": {
+              "title": "Data with Jay - operators, sensors and cross-task data",
+              "url": "https://www.youtube.com/watch?v=iYQVhVYtO50&t=9999s",
+              "channel": ""
+            }
+          },
+          {
+            "title": "05 — Scheduling, catchup + backfill",
+            "video": {
+              "title": "Data with Jay - scheduling syntax, catchup and backfill",
+              "url": "https://www.youtube.com/watch?v=iYQVhVYtO50&t=15188s",
+              "channel": ""
+            }
+          },
+          {
+            "title": "06 — Task groups + dynamic task mapping",
+            "video": {
+              "title": "Data with Jay - runtime mapping and grouped workflows",
+              "url": "https://www.youtube.com/watch?v=iYQVhVYtO50&t=16968s",
+              "channel": ""
+            }
+          },
+          {
+            "title": "07 — Airflow 3 full-course reinforcement",
+            "video": {
+              "title": "Ansh Lamba - Airflow Tutorial for Beginners 2026",
+              "url": "https://www.youtube.com/watch?v=IiczxlbQb8s",
+              "channel": ""
+            }
+          },
+          {
+            "title": "08 — Official bridge: asset-oriented workflows",
+            "video": {
+              "title": "Astronomer - Introducing Airflow 3: Assets",
+              "url": "https://www.youtube.com/watch?v=gZhmMUDFUDA",
+              "channel": ""
+            }
+          },
+          {
+            "title": "09 — Official bridge: DAG versioning",
+            "video": {
+              "title": "Apache Airflow - Airflow Summit 2025: DAG Versioning",
+              "url": "https://www.youtube.com/watch?v=DmhDMJ-d_eI",
+              "channel": ""
+            }
+          },
+          {
+            "title": "10 — Current bridge: Airflow 3 architecture + security",
+            "video": {
+              "title": "Databricks + Astronomer - Introducing Apache Airflow 3",
+              "url": "https://www.youtube.com/watch?v=2La0OfXE_TY",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Build-Along Checkpoints",
+        "items": [
+          {
+            "title": "Checkpoint 1",
+            "body": "Run Airflow locally with Docker or Astro CLI; map scheduler, API/UI, executor/workers, metadata database and triggerer responsibilities."
+          },
+          {
+            "title": "Checkpoint 2",
+            "body": "Build a TaskFlow DAG with typed inputs/outputs, explicit dependencies, retries/timeouts and trigger rules; prove repeatable task behavior."
+          },
+          {
+            "title": "Checkpoint 3",
+            "body": "Add Connections/Secrets, a sensor or deferrable wait, XCom only for small metadata, plus dynamic task mapping driven by runtime input."
+          },
+          {
+            "title": "Checkpoint 4",
+            "body": "Implement scheduling plus a safe backfill/reprocessing path; add one asset/data-aware dependency and show idempotency across reruns."
+          },
+          {
+            "title": "Checkpoint 5",
+            "body": "Add pools/concurrency controls, structured logs and operational metrics/alerts; define a failure taxonomy and runbook escalation path."
+          },
+          {
+            "title": "Checkpoint 6",
+            "body": "Version/deploy the DAG, inject an upstream or task failure, diagnose it from evidence, recover without duplicate side effects and document rollback."
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "7-Day Independent Capstone",
+        "items": [
+          {
+            "title": "Day 1",
+            "body": "Choose a real workflow; define data contracts, dependencies, schedule/freshness target, SLO, trust boundaries and idempotency strategy."
+          },
+          {
+            "title": "Day 2",
+            "body": "Build ingestion and transformation tasks with TaskFlow; add connections/secrets, validation, retries and deterministic outputs."
+          },
+          {
+            "title": "Day 3",
+            "body": "Add a sensor/deferrable wait, dynamic task mapping and one asset/data-aware trigger; capture execution evidence in the UI/logs."
+          },
+          {
+            "title": "Day 4",
+            "body": "Implement catchup/backfill and replay logic; deliberately rerun historical intervals and prove no duplicate or corrupted downstream state."
+          },
+          {
+            "title": "Day 5",
+            "body": "Add pools/concurrency limits, monitoring/alerts and a test suite for DAG structure plus one task-level failure mode."
+          },
+          {
+            "title": "Day 6",
+            "body": "Deploy/version the workflow; inject dependency/task failure, diagnose from telemetry, recover and quantify runtime/operational tradeoffs."
+          },
+          {
+            "title": "Day 7",
+            "body": "Publish DAG code, architecture, run history, backfill/recovery proof, monitoring evidence, demo video and production runbook."
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Airflow - Orchestrate, Observe & Recover Workflows",
+    "practiceBody": "Ship an idempotent Airflow 3 workflow that coordinates real data work, handles retries and backfills safely, uses asset/data-aware dependencies where appropriate, and produces observable recovery evidence.",
+    "rubricHeading": "Proof Rubric — What Must Be Shown",
+    "rubric": "ARCHITECTURE: components + executor rationale; DAG DESIGN: TaskFlow + explicit dependencies; ORCHESTRATION schedule/assets + backfill: ; SAFETY: idempotency + secrets; DYNAMISM: runtime mapping + sensors; OBSERVABILITY: logs, metrics + alerts; RECOVERY: failure drill + safe rerun; OPERATIONS: versioning + runbook",
+    "page": 838
+  },
+  {
+    "name": "Elasticsearch & Search Relevance Engineering Bootcamp Certificate",
+    "category": "Bootcamp Mastery Certificate",
+    "tagline": "Bootcamp Mastery Certificate B42",
+    "intro": "Build modern search from lexical relevance to semantic and hybrid retrieval: index design, mappings, analyzers, Query DSL, BM25, ingest pipelines, dense vectors, kNN, pagination, relevance evaluation and production search UX.",
+    "benchmark": "The core Elasticsearch course is publicly available from freeCodeCamp / 3CodeCampers and the current search bridges are public videos from Elastic. Zuyini independently curates these resources and applies its own build-and-proof rubric; this is not an Elastic-issued certification or endorsement.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Video Sequence",
+        "items": [
+          {
+            "title": "01 — Complete ~5 hour Elasticsearch course",
+            "video": {
+              "title": "freeCodeCamp / 3CodeCampers - Elasticsearch Course for Beginners",
+              "url": "https://www.youtube.com/watch?v=a4HBKEda_F8",
+              "channel": ""
+            }
+          },
+          {
+            "title": "02 — Indices, mappings + document lifecycle",
+            "video": {
+              "title": "freeCodeCamp - index creation, field types and CRUD",
+              "url": "https://www.youtube.com/watch?v=a4HBKEda_F8&t=356s",
+              "channel": ""
+            }
+          },
+          {
+            "title": "03 — Query DSL + Search API fundamentals",
+            "video": {
+              "title": "freeCodeCamp - search API and query construction",
+              "url": "https://www.youtube.com/watch?v=a4HBKEda_F8&t=3860s",
+              "channel": ""
+            }
+          },
+          {
+            "title": "04 — Dense vectors, embeddings + kNN search",
+            "video": {
+              "title": "freeCodeCamp - semantic vector retrieval",
+              "url": "https://www.youtube.com/watch?v=a4HBKEda_F8&t=5314s",
+              "channel": ""
+            }
+          },
+          {
+            "title": "05 — Deep pagination + ingest pipelines",
+            "video": {
+              "title": "freeCodeCamp - pagination, processors and ingest design",
+              "url": "https://www.youtube.com/watch?v=a4HBKEda_F8&t=6755s",
+              "channel": ""
+            }
+          },
+          {
+            "title": "06 — Filters, SQL + data-stream patterns",
+            "video": {
+              "title": "freeCodeCamp - filtering, SQL API and time-series streams",
+              "url": "https://www.youtube.com/watch?v=a4HBKEda_F8&t=8582s",
+              "channel": ""
+            }
+          },
+          {
+            "title": "07 — Analyzers, tokenization + synonyms",
+            "video": {
+              "title": "freeCodeCamp - analyzers and synonym management",
+              "url": "https://www.youtube.com/watch?v=a4HBKEda_F8&t=11308s",
+              "channel": ""
+            }
+          },
+          {
+            "title": "08 — End-to-end search application project",
+            "video": {
+              "title": "freeCodeCamp - build a production-style search website",
+              "url": "https://www.youtube.com/watch?v=a4HBKEda_F8&t=13696s",
+              "channel": ""
+            }
+          },
+          {
+            "title": "09 — BONUS current bridge: semantic intent",
+            "video": {
+              "title": "Elastic - Semantic Search Explained",
+              "url": "https://www.youtube.com/watch?v=eZNV_jkbdW0",
+              "channel": ""
+            }
+          },
+          {
+            "title": "10 — BONUS current bridge: hybrid search + RRF",
+            "video": {
+              "title": "Official Elastic Community - Hybrid Search in Elasticsearch",
+              "url": "https://www.youtube.com/watch?v=IPGIU2QmZjw",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Build-Along Checkpoints",
+        "items": [
+          {
+            "title": "Checkpoint 1",
+            "body": "Create an index with explicit mappings for text, keyword, numeric/date and vector fields; bulk-load a real corpus and document shard/replica choices."
+          },
+          {
+            "title": "Checkpoint 2",
+            "body": "Build a lexical BM25 baseline with match/multi-match, bool filters, boosts and aggregations; create judged queries with expected relevant results."
+          },
+          {
+            "title": "Checkpoint 3",
+            "body": "Add analyzer/tokenization and synonym changes; show how they alter matching and ranking, then protect changes with repeatable relevance tests."
+          },
+          {
+            "title": "Checkpoint 4",
+            "body": "Generate/store embeddings and implement kNN or semantic retrieval; compare recall, latency and failure cases against the lexical baseline."
+          },
+          {
+            "title": "Checkpoint 5",
+            "body": "Build hybrid retrieval with reciprocal rank fusion or equivalent; evaluate lexical vs semantic vs hybrid using MRR/nDCG/Precision@K or a justified metric."
+          },
+          {
+            "title": "Checkpoint 6",
+            "body": "Add ingest pipeline, pagination, query profiling and operational monitoring; inject an index/node/query failure and demonstrate recovery plus rollback."
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "7-Day Independent Capstone",
+        "items": [
+          {
+            "title": "Day 1",
+            "body": "Choose a search domain and corpus; define personas, query types, relevance judgments, latency target and explicit success metrics."
+          },
+          {
+            "title": "Day 2",
+            "body": "Design mappings/analyzers and ingest the corpus; build lexical BM25 queries with filters/boosts and establish a measured baseline."
+          },
+          {
+            "title": "Day 3",
+            "body": "Add synonyms and query/index-time analysis changes; run an offline relevance set and record wins, regressions and edge cases."
+          },
+          {
+            "title": "Day 4",
+            "body": "Add embeddings plus vector/semantic search; tune k/num_candidates or equivalent and compare relevance, recall, latency and resource cost."
+          },
+          {
+            "title": "Day 5",
+            "body": "Combine lexical and semantic retrieval with hybrid ranking; evaluate against the same judged set and explain where each strategy wins."
+          },
+          {
+            "title": "Day 6",
+            "body": "Expose search behind an API/UI with pagination, profiles and telemetry; run load/failure tests and document shard/replica or scaling tradeoffs."
+          },
+          {
+            "title": "Day 7",
+            "body": "Publish code/config, relevance judgments, metric report, latency profile, failure/recovery proof, demo and search-operations runbook."
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Elasticsearch - Index, Rank, Evaluate & Operate Search",
+    "practiceBody": "Ship a measurable search experience: design mappings and analyzers, establish a lexical baseline, add vector/semantic retrieval, combine them with hybrid ranking, evaluate relevance and prove performance plus operational recovery.",
+    "rubricHeading": "Proof Rubric — What Must Be Shown",
+    "rubric": "SCHEMA: mappings + analyzer rationale; LEXICAL: BM25 baseline + judged queries; SEMANTIC: vectors/kNN + recall evidence; HYBRID: fusion + ranking comparison; EVALUATION: MRR/nDCG/P@K evidence; PERFORMANCE: latency + query profile; OPERATIONS: health, recovery + rollback; PRODUCT: usable search UX + demo",
+    "page": 840
+  },
+  {
+    "name": "NVIDIA CUDA & GPU Performance Engineering Bootcamp Certificate",
+    "category": "Bootcamp Mastery Certificate",
+    "tagline": "Bootcamp Mastery Certificate B43",
+    "intro": "Turn CPU-bound numerical work into measured GPU acceleration: CUDA execution and memory models, kernels, tiling, Triton/PyTorch extensions, Nsight profiling and performance validation.",
+    "benchmark": "The core CUDA course is publicly available from freeCodeCamp / Elliot Arledge, with additional public video instruction from Stanford, NVIDIA Developer and Computerphile. Zuyini independently curates these resources and applies its own build-and-proof rubric; this is not an NVIDIA, Stanford or freeCodeCamp-issued certification.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Video Sequence",
+        "items": [
+          {
+            "title": "01 — Complete ~12-hour CUDA programming course",
+            "video": {
+              "title": "freeCodeCamp / Elliot Arledge - CUDA Programming Course",
+              "url": "https://www.youtube.com/watch?v=86FAWCzIe_4",
+              "channel": ""
+            }
+          },
+          {
+            "title": "02 — Parallel GPU mental model + execution hierarchy",
+            "video": {
+              "title": "NVIDIA GTC 2025 - Getting Started with CUDA and Parallel Programming",
+              "url": "https://www.youtube.com/watch?v=GmNkYayuaA4",
+              "channel": ""
+            }
+          },
+          {
+            "title": "03 — GPU architecture, grids/blocks + first kernels",
+            "video": {
+              "title": "freeCodeCamp - CUDA course: GPU and kernel chapters",
+              "url": "https://www.youtube.com/watch?v=86FAWCzIe_4&t=5747s",
+              "channel": ""
+            }
+          },
+          {
+            "title": "04 — CUDA API, memory movement + optimized matrix multiply",
+            "video": {
+              "title": "freeCodeCamp - allocations, transfers, shared-memory tiling",
+              "url": "https://www.youtube.com/watch?v=86FAWCzIe_4&t=20122s",
+              "channel": ""
+            }
+          },
+          {
+            "title": "05 — Kernels, Triton + XLA from language-model systems",
+            "video": {
+              "title": "Stanford CS336 - Kernels, Triton, XLA",
+              "url": "https://www.youtube.com/watch?v=xnDHaNUvHBg",
+              "channel": ""
+            }
+          },
+          {
+            "title": "06 — Triton kernels + PyTorch CUDA extensions",
+            "video": {
+              "title": "freeCodeCamp - Triton and PyTorch extension chapters",
+              "url": "https://www.youtube.com/watch?v=86FAWCzIe_4&t=30156s",
+              "channel": ""
+            }
+          },
+          {
+            "title": "07 — Profile GPU workloads with Nsight Systems",
+            "video": {
+              "title": "NVIDIA Developer - Intro to NVIDIA Nsight Systems",
+              "url": "https://www.youtube.com/watch?v=dUDGO66IadU",
+              "channel": ""
+            }
+          },
+          {
+            "title": "08 — Timeline, NVTX, async work + latency hiding",
+            "video": {
+              "title": "NVIDIA Developer - Performance Analysis with Nsight Systems Timeline",
+              "url": "https://www.youtube.com/watch?v=TGChXcFm-Yo",
+              "channel": ""
+            }
+          },
+          {
+            "title": "09 — Current bridge: CUDA platform and new features",
+            "video": {
+              "title": "NVIDIA GTC 2026 - CUDA: New Features and Beyond",
+              "url": "https://www.youtube.com/watch?v=VdIVQcMn0CA",
+              "channel": ""
+            }
+          },
+          {
+            "title": "10 — BONUS conceptual bridge: what CUDA is and why it matters",
+            "video": {
+              "title": "Computerphile with CUDA architect Stephen Jones",
+              "url": "https://www.youtube.com/watch?v=K9anz4aB0S0",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Build-Along Checkpoints",
+        "items": [
+          {
+            "title": "Checkpoint 1",
+            "body": "Create a reproducible CPU baseline and GPU timing harness with warm-up, synchronization, correctness tolerances and p50/p95 runtime evidence."
+          },
+          {
+            "title": "Checkpoint 2",
+            "body": "Implement a CUDA kernel with explicit grid/block sizing, bounds checks and deterministic correctness tests; explain the execution hierarchy."
+          },
+          {
+            "title": "Checkpoint 3",
+            "body": "Optimize host-device movement, coalescing and shared-memory use; implement tiling on a bandwidth-heavy operation such as matrix multiplication or stencil."
+          },
+          {
+            "title": "Checkpoint 4",
+            "body": "Measure occupancy, achieved bandwidth and kernel timing across problem sizes; identify whether the workload is compute-, memory- or launch-bound."
+          },
+          {
+            "title": "Checkpoint 5",
+            "body": "Implement one equivalent kernel in Triton or as a PyTorch CUDA extension; compare developer complexity, portability and measured performance."
+          },
+          {
+            "title": "Checkpoint 6",
+            "body": "Profile with Nsight Systems, annotate with NVTX where useful, remove one verified bottleneck and add a regression benchmark that catches future slowdown."
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "7-Day Independent Capstone",
+        "items": [
+          {
+            "title": "Day 1",
+            "body": "Select a real numerical or ML workload; define correctness, latency/throughput target, hardware and a CPU/framework baseline."
+          },
+          {
+            "title": "Day 2",
+            "body": "Build the first CUDA kernel and test harness; validate results against the reference implementation across edge cases and shapes."
+          },
+          {
+            "title": "Day 3",
+            "body": "Optimize memory access, transfers and shared-memory/tiling behavior; record before/after profiler and benchmark evidence."
+          },
+          {
+            "title": "Day 4",
+            "body": "Build a Triton or PyTorch-extension variant; compare speed, readability, integration effort and failure modes on the same workload."
+          },
+          {
+            "title": "Day 5",
+            "body": "Use Nsight to locate stalls or under-utilization; apply one evidence-driven optimization and quantify the effect across multiple sizes."
+          },
+          {
+            "title": "Day 6",
+            "body": "Stress precision, shapes and concurrency/streams where relevant; identify the crossover point where GPU acceleration stops paying off."
+          },
+          {
+            "title": "Day 7",
+            "body": "Publish source, benchmark harness, profiler captures, architecture/optimization notes, demo and a concise performance decision memo."
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "CUDA - Build, Profile & Optimize GPU Workloads",
+    "practiceBody": "Ship a correct and measurable GPU acceleration project: establish a CPU baseline, implement kernels, optimize memory behavior, compare CUDA/Triton approaches and prove the speedup with profiler evidence.",
+    "rubricHeading": "Proof Rubric — What Must Be Shown",
+    "rubric": "CORRECTNESS: reference parity + edge cases; KERNELS: CUDA + Triton/extension comparison; PARALLELISM: grid/block + execution rationale; BENCHMARKS: repeatable speedup + scaling; MEMORY: coalescing, transfers + tiling; INTEGRATION: usable application or ML path; PROFILE: Nsight evidence + diagnosis; ENGINEERING: tradeoffs + regression guard",
+    "page": 842
+  },
+  {
+    "name": "LLM Inference & Model Serving Engineering Bootcamp Certificate",
+    "category": "Bootcamp Mastery Certificate",
+    "tagline": "Bootcamp Mastery Certificate B44",
+    "intro": "Engineer the serving layer behind production LLMs: GPU memory and KV cache, vLLM, continuous batching, PagedAttention, prefix caching, quantization, Triton/TensorRT-LLM, Ray Serve, benchmarking, autoscaling and observability.",
+    "benchmark": "Public learning videos are provided by DevOps & AI Toolkit, vLLM/PyTorch and UC Berkeley contributors, DigitalOcean, NVIDIA Developer, and Anyscale/Apple. Zuyini independently curates them and applies its own build-and-proof completion rubric; this is not a provider-issued certification or endorsement.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Video Sequence",
+        "items": [
+          {
+            "title": "01 — Current inference mental model: 12 concepts that matter",
+            "video": {
+              "title": "DevOps & AI Toolkit - LLM Inference Explained",
+              "url": "https://www.youtube.com/watch?v=MVo3P-D7eSc",
+              "channel": ""
+            }
+          },
+          {
+            "title": "02 — VRAM, KV cache, quantization + real concurrency limits",
+            "video": {
+              "title": "DevOps & AI Toolkit - Why Your GPU Fails at 3 Users",
+              "url": "https://www.youtube.com/watch?v=g_5g1hBmAzA",
+              "channel": ""
+            }
+          },
+          {
+            "title": "03 — vLLM 2025: architecture, optimizations + roadmap",
+            "video": {
+              "title": "PyTorch - Simon Mo / vLLM",
+              "url": "https://www.youtube.com/watch?v=Tv71-g75OgU",
+              "channel": ""
+            }
+          },
+          {
+            "title": "04 — vLLM technical foundation: PagedAttention + serving",
+            "video": {
+              "title": "PyTorch - UC Berkeley vLLM deep dive",
+              "url": "https://www.youtube.com/watch?v=9ih0EmcXRHE",
+              "channel": ""
+            }
+          },
+          {
+            "title": "05 — Deploy an OpenAI-compatible vLLM server",
+            "video": {
+              "title": "DigitalOcean - vLLM introduction and deployment",
+              "url": "https://www.youtube.com/watch?v=p1n4tgQta2U",
+              "channel": ""
+            }
+          },
+          {
+            "title": "06 — Model serving foundation with NVIDIA Triton",
+            "video": {
+              "title": "NVIDIA Developer - Getting Started with Triton Inference Server",
+              "url": "https://www.youtube.com/watch?v=NQDtfSi5QF4",
+              "channel": ""
+            }
+          },
+          {
+            "title": "07 — Tune latency/throughput with Triton Model Analyzer",
+            "video": {
+              "title": "NVIDIA Developer - Optimizing Model Deployments",
+              "url": "https://www.youtube.com/watch?v=UU9Rh00yZMY",
+              "channel": ""
+            }
+          },
+          {
+            "title": "08 — TensorRT-LLM optimization + open-development workflow",
+            "video": {
+              "title": "NVIDIA Developer - TensorRT-LLM Goes GitHub First",
+              "url": "https://www.youtube.com/watch?v=l5Yqnf5rhD8",
+              "channel": ""
+            }
+          },
+          {
+            "title": "09 — Enterprise serving platform: Ray Serve + vLLM at Apple",
+            "video": {
+              "title": "Anyscale / Apple - Ray Summit 2025 deep dive",
+              "url": "https://www.youtube.com/watch?v=QcmA5zsIvjU",
+              "channel": ""
+            }
+          },
+          {
+            "title": "10 — Multi-tenancy, autoscaling, metering + observability",
+            "video": {
+              "title": "Anyscale / Apple - production vLLM platform patterns",
+              "url": "https://www.youtube.com/watch?v=QcmA5zsIvjU",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Build-Along Checkpoints",
+        "items": [
+          {
+            "title": "Checkpoint 1",
+            "body": "Serve an open model with vLLM behind an OpenAI-compatible API; capture baseline TTFT, inter-token latency, output tokens/sec, request throughput and GPU memory."
+          },
+          {
+            "title": "Checkpoint 2",
+            "body": "Calculate weight plus KV-cache memory, then load-test increasing context and concurrency until queueing appears; reconcile measured capacity with the engine startup/runtime evidence."
+          },
+          {
+            "title": "Checkpoint 3",
+            "body": "Tune continuous batching, max sequences/batched tokens, prefix caching and one quantization option; compare quality, TTFT, throughput, VRAM and cost tradeoffs."
+          },
+          {
+            "title": "Checkpoint 4",
+            "body": "Deploy the model or a second model through Triton; configure model repository/instances and dynamic batching, then compare serving behavior with the vLLM baseline."
+          },
+          {
+            "title": "Checkpoint 5",
+            "body": "Benchmark with engine/Triton tooling and a reproducible load generator; report p50/p95 latency, TTFT, TPOT, throughput, GPU utilization and cost per useful token/request."
+          },
+          {
+            "title": "Checkpoint 6",
+            "body": "Add Ray Serve or equivalent orchestration for replicas/autoscaling, metrics/traces and routing; inject an engine/replica failure or cold start and demonstrate controlled recovery."
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "7-Day Independent Capstone",
+        "items": [
+          {
+            "title": "Day 1",
+            "body": "Choose model, hardware budget and workload distribution; define latency, throughput, availability and cost SLOs plus acceptance thresholds."
+          },
+          {
+            "title": "Day 2",
+            "body": "Deploy vLLM and build a load generator; establish single-user and concurrent baselines with TTFT/TPOT, throughput, VRAM and queue-depth evidence."
+          },
+          {
+            "title": "Day 3",
+            "body": "Tune batching, KV-cache/prefix-cache and quantization; measure at least three configurations and preserve an explicit quality/capacity tradeoff table."
+          },
+          {
+            "title": "Day 4",
+            "body": "Add Triton or TensorRT-LLM serving for one path; measure dynamic batching/instance configuration and identify where each serving stack fits best."
+          },
+          {
+            "title": "Day 5",
+            "body": "Add Ray Serve or equivalent routing/autoscaling; test scale-out, multi-replica behavior, warm/cold starts and one multi-tenant or rate-limit boundary."
+          },
+          {
+            "title": "Day 6",
+            "body": "Instrument dashboards and alerts; inject replica/engine failure or overload, recover, and document rollback/fallback behavior plus SLO impact."
+          },
+          {
+            "title": "Day 7",
+            "body": "Publish architecture, configs, load generator, benchmark report, dashboards, cost model, failure proof, demo and a production operations runbook."
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "LLM Serving - Benchmark, Tune, Scale & Operate",
+    "practiceBody": "Ship a production-style LLM endpoint and prove its economics: establish serving SLOs, model GPU memory, tune batching/cache/quantization, benchmark vLLM and Triton, scale with orchestration and recover from failure.",
+    "rubricHeading": "Proof Rubric — What Must Be Shown",
+    "rubric": "LATENCY: TTFT/TPOT + p50/p95; SERVING: vLLM + Triton comparison; THROUGHPUT: tokens/sec + req/sec; SCALING: replicas, routing + autoscale; MEMORY: weights/KV cache + VRAM math; ECONOMICS: cost per request/token; TUNING: batch/cache/quant evidence; OPERATIONS: telemetry, failure + recovery",
+    "page": 844
   }
 ]
