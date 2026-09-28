@@ -79,15 +79,18 @@
     </div>
   </section>
 
+  <div class="mode-toggle-bar">
+    <div class="mode-toggle">
+      <button type="button" data-mode="roles" class="active">Roles</button>
+      <button type="button" data-mode="pathways">Pathways</button>
+      <button type="button" data-mode="certificates">Certificates</button>
+      <button type="button" data-mode="interview">Interview Prep</button>
+      <button type="button" data-mode="skills">Bootcamp &amp; Skills Track</button>
+    </div>
+  </div>
+
   <main class="app-shell">
     <aside class="role-panel">
-      <div class="mode-toggle">
-        <button type="button" data-mode="roles" class="active">Roles</button>
-        <button type="button" data-mode="pathways">Pathways</button>
-        <button type="button" data-mode="certificates">Certificates</button>
-        <button type="button" data-mode="interview">Interview Prep</button>
-        <button type="button" data-mode="skills">Bootcamp &amp; Skills Track</button>
-      </div>
       <select id="category-select" class="category-select"></select>
       <div class="search-box">
         <input id="search-input" type="text" placeholder="Search roles, e.g. AI Engineer, UX, Finance..." autocomplete="off" />
