@@ -480,6 +480,43 @@ a {
   margin-top: 0;
 }
 
+.empty-state-picks {
+  margin-top: 32px;
+  text-align: left;
+}
+
+.empty-state-picks-label {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #8a8a8a;
+  margin: 0 0 12px;
+  text-align: center;
+}
+
+.empty-state-picks-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.featured-pick {
+  background-color: #17181a;
+  border: 1px solid #333;
+  color: #d7d7d7;
+  border-radius: 999px;
+  padding: 8px 18px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.featured-pick:hover {
+  border-color: #ffc629;
+  color: #ffc629;
+}
+
 .detail-card {
   background-color: #1c1d1e;
   border: 1px solid #2a2a2a;

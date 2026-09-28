@@ -481,6 +481,7 @@
       searchPlaceholder: 'Search roles, e.g. AI Engineer, UX, Finance...',
       emptyTitle: 'Choose a role to open its mastery path',
       emptyBody: 'Search by title or scroll the list on the left. Every role includes 6 core competencies, 12 direct video bridges and a hands-on capstone.',
+      featured: ['AI Engineer', 'Data Scientist', 'Digital Product Manager', 'UX Designer', 'Engineering Manager'],
       render: renderRole,
     },
     pathways: {
@@ -489,6 +490,7 @@
       searchPlaceholder: 'Search pathways, e.g. AI, Cloud, Design...',
       emptyTitle: 'Choose a learning pathway',
       emptyBody: 'Pathways move through one discipline end-to-end: foundations, build, operate, optimize and lead, with a curated course sequence and representative roles.',
+      featured: ['Data, AI & Machine Learning', 'Software & Application Engineering', 'AI, Agents & Intelligent Automation', 'Business Management', 'Product Operations & Product Leadership'],
       render: renderPathway,
     },
     certificates: {
@@ -497,6 +499,7 @@
       searchPlaceholder: 'Search certificates, e.g. Computer Science, Physics...',
       emptyTitle: 'Choose an academic certificate',
       emptyBody: 'University-benchmarked, major-inspired curricula spanning foundations, intermediate core and advanced specialization, each with an integrative capstone.',
+      featured: ['Comprehensive Certificate in Computer Science', 'Comprehensive Certificate in Data Engineering', 'Comprehensive Certificate - Mini MBA', 'Comprehensive Certificate in Finance', 'Comprehensive Certificate in Neuroscience'],
       render: renderCertificate,
     },
     interview: {
@@ -505,6 +508,7 @@
       searchPlaceholder: 'Search interview tracks, e.g. Product Manager, Engineering...',
       emptyTitle: 'Choose an interview preparation track',
       emptyBody: 'Benchmarked role-based interview tracks: Basic → Intermediate → Advanced practice, direct mock-interview videos, a timed practice loop and a pass rubric.',
+      featured: ['Software Engineer', 'Product Manager', 'Data Scientist', 'AI / ML Engineer', 'Engineering Manager'],
       render: renderInterviewTrack,
     },
     skills: {
@@ -513,6 +517,7 @@
       searchPlaceholder: 'Search bootcamps & skill tracks, e.g. Spanish, Full-Stack, AI Mastery...',
       emptyTitle: 'Choose a bootcamp or skill track',
       emptyBody: 'Hands-on mastery routes outside the role catalog: video-first bootcamp certificates, languages, programming languages, AI mastery, UI & UX mastery, personal development and professional development.',
+      featured: ['Full-Stack Web Development Bootcamp Certificate', 'AI Mastery', 'Agent Mastery — Claude / Anthropic', 'Python Software Engineering Bootcamp Certificate', 'UI & UX Mastery'],
       render: renderSkillTrack,
     },
   };
@@ -602,12 +607,33 @@
       .join('');
   }
 
+  function renderFeaturedPicks(mode) {
+    var names = mode.featured || [];
+    var picks = names
+      .map(function (n) { return mode.bySlug[slugify(n)]; })
+      .filter(Boolean);
+    if (!picks.length) return '';
+    return (
+      '<div class="empty-state-picks">' +
+      '<p class="empty-state-picks-label">Popular picks</p>' +
+      '<div class="empty-state-picks-grid">' +
+      picks
+        .map(function (p) {
+          return '<button type="button" class="featured-pick" data-featured="' + escapeHtml(slugify(p.name)) + '">' + escapeHtml(p.name) + '</button>';
+        })
+        .join('') +
+      '</div>' +
+      '</div>'
+    );
+  }
+
   function showEmptyState() {
     var mode = MODES[currentMode];
     detailEl.innerHTML =
       '<div class="empty-state">' +
       '<h2>' + escapeHtml(mode.emptyTitle) + '</h2>' +
       '<p>' + escapeHtml(mode.emptyBody) + '</p>' +
+      renderFeaturedPicks(mode) +
       '</div>';
   }
 
@@ -976,6 +1002,11 @@
   });
 
   detailEl.addEventListener('click', function (e) {
+    var featuredBtn = e.target.closest('[data-featured]');
+    if (featuredBtn) {
+      selectItem(featuredBtn.getAttribute('data-featured'), true);
+      return;
+    }
     var tabBtn = e.target.closest('[data-role-tab]');
     if (tabBtn) {
       var tabsContainer = tabBtn.closest('.role-tabs');
