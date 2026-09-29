@@ -10474,5 +10474,156 @@
     "rubricHeading": "Proof Rubric",
     "rubric": "Show preparation discipline; BATNA/ZOPA accuracy; value creation and claiming; ethical influence; listening and information discovery; boundary quality; conflict de-escalation; measurable outcomes; relationship impact; and a candid post-mortem that separates luck from repeatable skill.",
     "page": 743
+  },
+  {
+    "name": "British English Communications Certificate",
+    "category": "Standalone Mastery Certificate",
+    "tagline": "Standalone Mastery Certificate S12",
+    "intro": "Modern RP | Accent Awareness | Advanced Speaking & Writing | Rhetoric & Poetry",
+    "benchmark": "Curated source set: English with Lucy + Dr Geoff Lindsey + BBC Learning English + Cambridge English + University of Oxford -- Target: polished, natural British communication. Modern RP is taught as one useful pronunciation model; regional British accents are equally valid. The goal is clarity, precision, rhetorical control and an authentic literary ear - not caricature or affectation.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Modern British Pronunciation + Accent",
+        "items": [
+          {
+            "title": "English with Lucy / Modern RP - Complete British Accent Training Masterclass (~1 hr)",
+            "video": {
+              "title": "English with Lucy / Modern RP - Complete British Accent Training Masterclass",
+              "url": "https://www.youtube.com/watch?v=e5tF-_ssSQg",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Dr Geoff Lindsey / Phonetics - WEAK FORMS: Why natives and non-natives sound different (phonetics lesson)",
+            "video": {
+              "title": "Dr Geoff Lindsey / Phonetics - WEAK FORMS: Why natives and non-natives sound different",
+              "url": "https://www.youtube.com/watch?v=EaXYas58_kc",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Accents + Natural British Speech",
+        "items": [
+          {
+            "title": "Learn English with Gill / engVid - British Accents & Dialects: Cockney, RP, Northern & More (24 min)",
+            "video": {
+              "title": "Learn English with Gill / engVid - British Accents & Dialects: Cockney, RP, Northern & More",
+              "url": "https://www.youtube.com/watch?v=nDdRHWHzwR4",
+              "channel": ""
+            }
+          },
+          {
+            "title": "BBC Learning English - 10 Idiomatic British English Expressions (25 min)",
+            "video": {
+              "title": "BBC Learning English - 10 Idiomatic British English Expressions",
+              "url": "https://www.youtube.com/watch?v=WHCsOQvDkeQ",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Advanced Speaking + Writing",
+        "items": [
+          {
+            "title": "Cambridge English - C1 Advanced Speaking Test - Raphael and Maude (full test)",
+            "video": {
+              "title": "Cambridge English - C1 Advanced Speaking Test - Raphael and Maude",
+              "url": "https://www.youtube.com/watch?v=5nGESyDgmdw",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Cambridge English - C1 Advanced Top Tips for Writing (writing masterclass)",
+            "video": {
+              "title": "Cambridge English - C1 Advanced Top Tips for Writing",
+              "url": "https://www.youtube.com/watch?v=3axICTrrejo",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Rhetoric + Poetry",
+        "items": [
+          {
+            "title": "University of Oxford / Mark Thompson - Is Plato Winning the Argument? - Policy, Rhetoric & Public Language (60 min)",
+            "video": {
+              "title": "University of Oxford / Mark Thompson - Is Plato Winning the Argument? - Policy, Rhetoric & Public Language",
+              "url": "https://podcasts.ox.ac.uk/mark-thompson-inaugural-lecture-plato-winning-argument",
+              "channel": ""
+            }
+          },
+          {
+            "title": "University of Oxford / Alice Oswald - Professor of Poetry: On Behalf of a Pebble (full lecture)",
+            "video": {
+              "title": "University of Oxford / Alice Oswald - Professor of Poetry: On Behalf of a Pebble",
+              "url": "https://www.youtube.com/watch?v=ZIFUyBaFnZM",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Domain Practices",
+        "items": [
+          {
+            "title": "Pronunciation + Modern British Accent",
+            "body": "Record a two-minute baseline, then train vowels, consonants, schwa, weak forms, linking, stress, rhythm, intonation and non-rhotic /r/ using Modern RP as the reference model. Compare with regional accents so imitation does not become caricature. Proof: before/after recordings + annotated transcript + pronunciation error log."
+          },
+          {
+            "title": "Speaking + British Register",
+            "body": "Shadow high-quality British speakers, then complete spontaneous C1-style conversations. Practise precise vocabulary, collocations, understatement, hedging, disagreement, humour and idiom with context-sensitive register rather than forced slang. Proof: 5-minute recorded interview/debate + vocabulary/register audit + feedback."
+          },
+          {
+            "title": "Writing + Rhetoric",
+            "body": "Produce a polished British-English essay, briefing note or review using UK spelling and punctuation conventions. Build a clear claim, logical progression and deliberate rhetorical devices: ethos, logos, pathos, parallelism, antithesis and memorable phrasing. Proof: first draft + edit trail + rhetorical map + final 500-word piece."
+          },
+          {
+            "title": "Poetry + Eloquence",
+            "body": "Scan and perform a poem or excerpt for stress, metre, pauses, imagery and meaning. Then write a short poem or persuasive speech using cadence, alliteration, metaphor, contrast and controlled repetition; perform it aloud with natural emphasis. Proof: annotated text + recorded recitation + original composition/speech + commentary."
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "30-Day Independent Capstone - British Communication Operating System",
+        "items": [
+          {
+            "title": "Week 1",
+            "body": "Calibrate pronunciation; shadow daily; build an error log and a 100-word high-frequency sound list."
+          },
+          {
+            "title": "Week 2",
+            "body": "Train accent comprehension and register; complete three C1-style discussions and one five-minute recorded talk."
+          },
+          {
+            "title": "Week 3",
+            "body": "Write and revise two British-English pieces; mark rhetorical choices and remove vague, inflated or American-default phrasing where unsuitable."
+          },
+          {
+            "title": "Week 4",
+            "body": "Study metre and cadence; perform one poem and deliver a five-minute persuasive speech with controlled rhythm and intonation."
+          },
+          {
+            "title": "Day 30",
+            "body": "Present a portfolio: before/after audio, speaking sample, two writing pieces, poetry performance, rhetorical analysis and next 30-day plan."
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "British Communication Practice, Evidence & Presence",
+    "practiceBody": "Turn the video sequence into observable communication skill. Build a contemporary British pronunciation model, broaden accent comprehension, write with British conventions, practise rhetoric and use poetry to sharpen rhythm, cadence, imagery and vocal control.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "Reward intelligibility, natural contemporary British pronunciation, stress/rhythm/intonation, accent comprehension, appropriate register, lexical range, British writing conventions, clarity and argument, rhetorical control, poetic/prosodic sensitivity and measurable improvement. Do not reward affectation: credible naturalness and precise thought come first.",
+    "page": 745
   }
 ]
