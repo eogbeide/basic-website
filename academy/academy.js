@@ -522,6 +522,29 @@
     },
   };
 
+  // Certificates & Skill Tracks: a combined browsing tab over the two
+  // "structured mastery credential" catalogs (university-benchmarked
+  // Academic Certificates and video-first Bootcamp/Standalone/Agent
+  // Mastery Skill Tracks), which otherwise read as two separate but very
+  // similar tabs. This mode exists only for browsing/search/filtering --
+  // selecting an item hands off to its real underlying mode (certificates
+  // or skills) via _credSrcMode, so the real URL, localStorage progress
+  // keys and tier rendering are all completely unchanged.
+  MODES.credentials = {
+    label: 'certificates & skill tracks',
+    data: MODES.certificates.data
+      .map(function (c) { return Object.assign({}, c, { _credSrcMode: 'certificates' }); })
+      .concat(MODES.skills.data.map(function (s) { return Object.assign({}, s, { _credSrcMode: 'skills' }); }))
+      .sort(function (a, b) { return a.name.localeCompare(b.name); }),
+    searchPlaceholder: 'Search certificates & skill tracks, e.g. Computer Science, AI Mastery, Bootcamp...',
+    emptyTitle: 'Choose a certificate or skill track',
+    emptyBody: 'University-benchmarked Academic Certificates and hands-on Bootcamp, Standalone and Agent Mastery Skill Tracks, side by side. Pick a category on the left to narrow the list.',
+    featured: ['Comprehensive Certificate in Computer Science', 'Full-Stack Web Development Bootcamp Certificate', 'Comprehensive Certificate - Mini MBA', 'AI Mastery', 'Agent Mastery — Claude / Anthropic'],
+    render: function (item) {
+      return item._credSrcMode === 'certificates' ? renderCertificate(item) : renderSkillTrack(item);
+    },
+  };
+
   Object.keys(MODES).forEach(function (key) {
     var bySlug = {};
     MODES[key].data.forEach(function (item) {
@@ -545,9 +568,8 @@
   var heroStatEl = {
     roles: document.getElementById('hero-stat-roles'),
     pathways: document.getElementById('hero-stat-pathways'),
-    certificates: document.getElementById('hero-stat-certificates'),
+    credentials: document.getElementById('hero-stat-credentials'),
     interview: document.getElementById('hero-stat-interview'),
-    skills: document.getElementById('hero-stat-skills'),
   };
   Object.keys(heroStatEl).forEach(function (key) {
     if (heroStatEl[key] && MODES[key]) {
@@ -1160,6 +1182,15 @@
   function selectItem(slug, updatePath) {
     var item = MODES[currentMode].bySlug[slug];
     if (!item) return;
+    // Certificates & Skill Tracks is a browsing-only combined view -- hand
+    // off to the item's real mode/URL/storage rather than rendering it as
+    // a "credentials" item, so nothing about the underlying catalogs
+    // changes for anyone linking directly to /academy/certificates/... or
+    // /academy/skills/...
+    if (currentMode === 'credentials') {
+      setMode(item._credSrcMode, slug, updatePath);
+      return;
+    }
     currentSlug = slug;
     currentItemName = item.name;
     renderItem(item);
@@ -1186,7 +1217,11 @@
     currentCategory = ALL_CATEGORIES;
 
     toggleButtons.forEach(function (btn) {
-      btn.classList.toggle('active', btn.getAttribute('data-mode') === mode);
+      var btnMode = btn.getAttribute('data-mode');
+      // Certificates and Skill Tracks share one combined tab button, so
+      // opening either underlying mode should still highlight it
+      var active = btnMode === mode || (btnMode === 'credentials' && (mode === 'certificates' || mode === 'skills'));
+      btn.classList.toggle('active', active);
     });
 
     if (mode === 'mypathway') {
@@ -1212,6 +1247,13 @@
     populateCategorySelect();
 
     renderList('');
+
+    if (mode === 'credentials' && slug && MODES[mode].bySlug[slug]) {
+      // hand off entirely to the item's real mode/URL -- don't also push
+      // a /academy/credentials/<slug>/ history entry after it
+      selectItem(slug, updatePath);
+      return;
+    }
 
     if (slug && MODES[mode].bySlug[slug]) {
       selectItem(slug, false);
