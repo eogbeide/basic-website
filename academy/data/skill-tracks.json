@@ -10625,5 +10625,218 @@
     "rubricHeading": "Proof Rubric",
     "rubric": "Reward intelligibility, natural contemporary British pronunciation, stress/rhythm/intonation, accent comprehension, appropriate register, lexical range, British writing conventions, clarity and argument, rhetorical control, poetic/prosodic sensitivity and measurable improvement. Do not reward affectation: credible naturalness and precise thought come first.",
     "page": 745
+  },
+  {
+    "name": "Communications Certificate",
+    "category": "Standalone Mastery Certificate",
+    "tagline": "Standalone Mastery Certificate S13",
+    "intro": "Frameworks | Executive Presence | Speeches | Storytelling | Voice | Q&A Includes a 13-framework executive communication toolkit.",
+    "benchmark": "Curated source set: Stanford GSB + Stanford Alumni + MIT OpenCourseWare + TED/TEDx + renowned communication experts -- Target: develop a repeatable executive communication system - not just confidence. Learners should be able to structure ideas rapidly, speak with authority and warmth, design speeches, tell persuasive stories, handle Q&A, listen well, and coach others using evidence-based frameworks.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Message Architecture + Frameworks",
+        "items": [
+          {
+            "title": "Stanford GSB / Matt Abrahams - How to Make Your Communication Memorable (52 min)",
+            "video": {
+              "title": "Stanford GSB / Matt Abrahams - How to Make Your Communication Memorable",
+              "url": "https://www.youtube.com/watch?v=Fsr4yrSAIAQ",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Stanford GSB / Matt Abrahams - Think Fast, Talk Smart: Communication Techniques (~58 min)",
+            "video": {
+              "title": "Stanford GSB / Matt Abrahams - Think Fast, Talk Smart: Communication Techniques",
+              "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Speechcraft + Persuasive Presentations",
+        "items": [
+          {
+            "title": "MIT OpenCourseWare / Patrick Winston - How to Speak (1h 03m)",
+            "video": {
+              "title": "MIT OpenCourseWare / Patrick Winston - How to Speak",
+              "url": "https://www.youtube.com/watch?v=Unzc731iCUY",
+              "channel": ""
+            }
+          },
+          {
+            "title": "TEDx / Nancy Duarte - The Secret Structure of Great Talks (18 min)",
+            "video": {
+              "title": "TEDx / Nancy Duarte - The Secret Structure of Great Talks",
+              "url": "https://www.youtube.com/watch?v=1nYFpuc2Umk",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Storytelling + Executive Presence",
+        "items": [
+          {
+            "title": "Stanford GSB / Jennifer Aaker - The Power of Story (keynote)",
+            "video": {
+              "title": "Stanford GSB / Jennifer Aaker - The Power of Story",
+              "url": "https://www.youtube.com/watch?v=CdO9a41WUss",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Stanford GSB / Richard Cox - Creating Authentic Power - nonverbal presence (focused clinic)",
+            "video": {
+              "title": "Stanford GSB / Richard Cox - Creating Authentic Power - nonverbal presence",
+              "url": "https://www.youtube.com/watch?v=IVaOP-r_yH8",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Spontaneous Speaking + Vocal Delivery",
+        "items": [
+          {
+            "title": "Stanford Alumni / Matt Abrahams - Think Faster, Talk Smarter (masterclass)",
+            "video": {
+              "title": "Stanford Alumni / Matt Abrahams - Think Faster, Talk Smarter",
+              "url": "https://www.youtube.com/watch?v=x6TsR3y5Qfg",
+              "channel": ""
+            }
+          },
+          {
+            "title": "TED / Julian Treasure - BONUS clinic: How to Speak So That People Want to Listen (10 min)",
+            "video": {
+              "title": "TED / Julian Treasure - BONUS clinic: How to Speak So That People Want to Listen",
+              "url": "https://www.youtube.com/watch?v=eIho2S0ZahI",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Executive Communication Framework Toolkit",
+        "items": [
+          {
+            "title": "BLUF / Answer-First",
+            "body": "Lead with the decision, recommendation or conclusion. Follow with 2-3 reasons, evidence and the ask. Best for executives and time-constrained meetings."
+          },
+          {
+            "title": "What? -> So What? -> Now What?",
+            "body": "State the idea or fact; explain relevance and implications; end with action or next step. Strong for updates, impromptu answers and recommendations."
+          },
+          {
+            "title": "Problem -> Solution -> Benefit",
+            "body": "Define the pain or opportunity; propose the response; quantify why it matters. Strong for persuasion, proposals and product/business pitches."
+          },
+          {
+            "title": "PREP",
+            "body": "Point -> Reason -> Example/Evidence -> Point. A fast structure for interviews, panels, debates and concise responses when you need logic plus an example."
+          },
+          {
+            "title": "Past -> Present -> Future",
+            "body": "Establish context, explain the current state and point to the destination. Useful for transformations, change narratives and strategic updates."
+          },
+          {
+            "title": "SCQA + Pyramid Logic",
+            "body": "Situation -> Complication -> Question -> Answer, then group supporting arguments beneath the answer. Use for executive narratives and complex recommendations."
+          },
+          {
+            "title": "Know -> Feel -> Do",
+            "body": "Before writing, define what the audience should know, feel and do. Use this outcome contract to cut material that does not move the intended audience."
+          },
+          {
+            "title": "Story Arc",
+            "body": "Context -> character/goal -> tension -> choice -> result -> insight. Keep a bank of signature stories that demonstrate judgment, values and lessons."
+          },
+          {
+            "title": "Duarte Sparkline",
+            "body": "Move between What Is and What Could Be; widen the contrast, then finish with the new reality and call to action. Useful for transformational speeches."
+          },
+          {
+            "title": "Executive Q&A",
+            "body": "Answer first -> rationale -> evidence/example -> bridge to the decision or next step. Acknowledge uncertainty directly; do not bury the answer."
+          },
+          {
+            "title": "Speech Architecture",
+            "body": "Hook -> promise -> map -> 3 major ideas -> synthesis -> call to action. Use signposts, transitions and a deliberate close rather than a fading ending."
+          },
+          {
+            "title": "Rhetorical Control",
+            "body": "Combine ethos, logos and pathos with contrast, tricolon, anaphora, antithesis, metaphor and purposeful repetition. Use devices to sharpen meaning, not decorate weak ideas."
+          },
+          {
+            "title": "What \"Sounds Executive\" in Practice",
+            "body": "Clarity before cleverness. Bottom line early. Specific nouns and active verbs. Fewer hedges and filler words. Calm pace, intentional pauses and vocal variety. Warmth + competence. Strong claims are matched with evidence, uncertainty is named plainly, and jargon is used only when the audience needs it."
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Domain Practices",
+        "items": [
+          {
+            "title": "Executive Message Architecture",
+            "body": "Take one complex topic and create 15-second, 60-second and 3-minute versions using BLUF, What/So What/Now What and SCQA/Pyramid logic. Proof: one-page executive brief + three recordings + framework-choice rationale."
+          },
+          {
+            "title": "Speech + Persuasion",
+            "body": "Write and deliver a 7-minute persuasive speech. Use a strong opening, Duarte-style contrast, 3-point body, evidence, rhetorical devices and a specific call to action. Proof: script + rhetorical map + video + audience recall/action feedback."
+          },
+          {
+            "title": "Storytelling + Data",
+            "body": "Build a five-story leadership bank: origin, failure, customer, change and values. Pair one story with data so emotion and evidence reinforce rather than compete. Proof: story bank + 3-minute story + data/story version + feedback."
+          },
+          {
+            "title": "Executive Presence + Voice",
+            "body": "Practise posture, eye contact, gesture economy, stillness, pace, pause, pitch, projection and prosody. Remove filler, vague hedges and rushed endings without becoming robotic. Proof: before/after video + delivery scorecard + vocal/nonverbal self-audit."
+          },
+          {
+            "title": "Spontaneous Q&A + Coaching",
+            "body": "Complete a hostile-Q&A simulation and five impromptu prompts. Then coach another speaker: diagnose structure, audience fit, presence and delivery; prescribe one measurable change. Proof: recorded Q&A + response map + peer coaching memo + before/after evidence."
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "30-Day Independent Capstone - Communications Operating System",
+        "items": [
+          {
+            "title": "Week 1",
+            "body": "Framework fluency: rewrite and deliver one message daily using different structures; build 15/60/180-second versions."
+          },
+          {
+            "title": "Week 2",
+            "body": "Speechcraft: deliver two structured talks; build story bank; deliberately practise rhetoric, visuals, voice and closing."
+          },
+          {
+            "title": "Week 3",
+            "body": "Executive situations: run meeting update, recommendation, difficult Q&A, panel/interview and spontaneous-response drills."
+          },
+          {
+            "title": "Week 4",
+            "body": "Expert transfer: coach two speakers, revise from feedback, then deliver a final 8-10 minute executive keynote + Q&A."
+          },
+          {
+            "title": "Day 30",
+            "body": "Present portfolio: executive brief, speech, story bank, Q&A, before/after presence clips, coaching evidence and next 30-day plan."
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Communication Practice, Evidence & Executive Presence",
+    "practiceBody": "Turn framework fluency into observable performance. Every exercise must produce a recording, written artifact, decision outcome, audience feedback or coaching evidence - not just course completion.",
+    "rubricHeading": "Proof Rubric - Communication Expert Standard",
+    "rubric": "Audience diagnosis; framework selection; answer-first clarity; concision; logical support; story + data integration; persuasive speech architecture; rhetorical control; vocal and nonverbal presence; listening; Q&A judgment; adaptability under pressure; ethical influence; ability to diagnose, coach and improve another communicator; measurable audience comprehension, recall or action.",
+    "page": 747
   }
 ]
