@@ -9842,5 +9842,637 @@
     "rubricHeading": "Proof Rubric — What Must Be Shown",
     "rubric": "LATENCY: TTFT/TPOT + p50/p95; SERVING: vLLM + Triton comparison; THROUGHPUT: tokens/sec + req/sec; SCALING: replicas, routing + autoscale; MEMORY: weights/KV cache + VRAM math; ECONOMICS: cost per request/token; TUNING: batch/cache/quant evidence; OPERATIONS: telemetry, failure + recovery",
     "page": 844
+  },
+  {
+    "name": "AI Evaluation, Safety & Reliability Engineering Bootcamp Certificate",
+    "category": "Bootcamp Mastery Certificate",
+    "tagline": "Bootcamp Mastery Certificate B45",
+    "intro": "Build eval-driven AI systems: datasets, graders, regression gates, RAG/agent evaluation, adversarial testing, monitoring and launch criteria.",
+    "benchmark": "OpenAI Academy, Microsoft, DeepLearning.AI / Weights & Biases, Arize AI and LangChain publish the referenced public learning videos. Zuyini independently curates the sequence and applies its own build-and-proof completion rubric; this is not a provider-issued certification or endorsement.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Video Sequence",
+        "items": [
+          {
+            "title": "01 — Evaluation lifecycle, test cases + scoring",
+            "video": {
+              "title": "OpenAI Academy - Evaluating LLM Applications",
+              "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-building-applications-with-evaluations",
+              "channel": ""
+            }
+          },
+          {
+            "title": "02 — Production eval harness + regression testing",
+            "video": {
+              "title": "OpenAI Academy - Building Practical Evaluation Systems",
+              "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+              "channel": ""
+            }
+          },
+          {
+            "title": "03 — Trustworthy launch workflows + real deployment lessons",
+            "video": {
+              "title": "OpenAI Academy - Evals: Key to Production-Ready AI Apps",
+              "url": "https://academy.openai.com/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24",
+              "channel": ""
+            }
+          },
+          {
+            "title": "04 — Agent evaluation, failure modes + guardrails",
+            "video": {
+              "title": "OpenAI Academy - Designing Reliable Agent Architectures",
+              "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-designing-reliable-agent-architectures-2025-12-11",
+              "channel": ""
+            }
+          },
+          {
+            "title": "05 — LLM-as-judge, supervised evals + RAG quality",
+            "video": {
+              "title": "DeepLearning.AI / W&B - Deep Dive into LLM Evaluation",
+              "url": "https://www.youtube.com/watch?v=7EcznH0-of8",
+              "channel": ""
+            }
+          },
+          {
+            "title": "06 — Tracing + correctness / hallucination evaluators",
+            "video": {
+              "title": "Arize AI - LLM Evaluation: Getting Started",
+              "url": "https://www.youtube.com/watch?v=5yjcbQDLLnw",
+              "channel": ""
+            }
+          },
+          {
+            "title": "07 — RAG answer correctness + dataset-based evaluation",
+            "video": {
+              "title": "LangChain - LangSmith RAG Evaluation",
+              "url": "https://www.youtube.com/watch?v=lTfhw_9cJqc",
+              "channel": ""
+            }
+          },
+          {
+            "title": "08 — AI red teaming: injections, jailbreaks + defenses",
+            "video": {
+              "title": "Microsoft Developer - AI Red Teaming 101 Full Course",
+              "url": "https://www.youtube.com/watch?v=DwFVhFdD2fs",
+              "channel": ""
+            }
+          },
+          {
+            "title": "09 — Automated adversarial testing with PyRIT",
+            "video": {
+              "title": "Microsoft Security Response Center - PyRIT Workshop",
+              "url": "https://www.youtube.com/watch?v=jq9DcEL3cHE",
+              "channel": ""
+            }
+          },
+          {
+            "title": "10 — Evaluation-driven tuning + quality/cost tradeoffs",
+            "video": {
+              "title": "OpenAI Academy - Fine-Tuning Strategy & Tradeoffs",
+              "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-fine-tuning-strategy-and-tradeoffs-2025-12-11",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Build-Along Checkpoints",
+        "items": [
+          {
+            "title": "Checkpoint 1",
+            "body": "Define the system success contract, explicit acceptance criteria, failure taxonomy and a representative gold-set dataset before changing prompts or models."
+          },
+          {
+            "title": "Checkpoint 2",
+            "body": "Implement deterministic assertions plus model-based graders; calibrate automated scoring against a human-labeled sample and document disagreement cases."
+          },
+          {
+            "title": "Checkpoint 3",
+            "body": "Evaluate retrieval separately from generation; add groundedness, answer-quality, segment and edge-case analysis with traces that locate the failure stage."
+          },
+          {
+            "title": "Checkpoint 4",
+            "body": "Evaluate agent plans, handoffs and tool calls; add adversarial cases for prompt injection, excessive authority and unsafe actions with explicit approval boundaries."
+          },
+          {
+            "title": "Checkpoint 5",
+            "body": "Build a regression suite comparing model/prompt/tool configurations on quality, safety, latency and cost; define pass/fail thresholds and launch gates."
+          },
+          {
+            "title": "Checkpoint 6",
+            "body": "Instrument production traces and online quality signals; simulate a regression, investigate it, roll back safely and capture the incident plus improvement loop."
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "7-Day Independent Capstone",
+        "items": [
+          {
+            "title": "Day 1",
+            "body": "Choose a real AI workflow; define users, task-success criteria, safety boundaries, prohibited behavior, uncertainty and the decision the evaluation must support."
+          },
+          {
+            "title": "Day 2",
+            "body": "Create a versioned eval dataset with normal, edge, ambiguous and adversarial cases; manually label a calibration subset and document dataset limitations."
+          },
+          {
+            "title": "Day 3",
+            "body": "Build deterministic checks and model graders; measure grader agreement, false positives/negatives and explain where human review remains necessary."
+          },
+          {
+            "title": "Day 4",
+            "body": "Add RAG or agent/tool evaluation: trace retrieval, reasoning and actions separately; create a failure taxonomy and diagnose representative failures."
+          },
+          {
+            "title": "Day 5",
+            "body": "Run red-team and robustness tests including injection/jailbreak/tool-abuse cases; implement mitigations and re-run the same benchmark to prove improvement."
+          },
+          {
+            "title": "Day 6",
+            "body": "Wire evals into CI/release gates; compare two configurations on quality, safety, latency and cost and trigger a simulated rollback from a failed regression."
+          },
+          {
+            "title": "Day 7",
+            "body": "Publish repo, eval dataset/sample labels, grader design, regression report, red-team evidence, dashboard, demo, safety/reliability case and operations runbook."
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "AI Evals - Measure, Break, Gate & Improve",
+    "practiceBody": "Ship an AI system whose quality and safety can be defended with reproducible evidence: design representative evals, calibrate graders, test RAG/agents, red-team failure modes and operate regression gates.",
+    "rubricHeading": "Proof Rubric — What Must Be Shown",
+    "rubric": "DATASET: representative cases + versioning; GRADERS: calibration + human agreement; RAG / AGENTS: stage-level task evidence; ADVERSARIAL: red-team tests + mitigations; REGRESSION: repeatable gates + comparisons; RELIABILITY: traces, rollback + incident proof; ECONOMICS: quality / latency / cost tradeoffs; OPERATIONS: monitoring + review loop",
+    "page": 850
+  },
+  {
+    "name": "FinOps & AI Technology Economics Bootcamp Certificate",
+    "category": "Bootcamp Mastery Certificate",
+    "tagline": "Bootcamp Mastery Certificate B46",
+    "intro": "Manage technology spend as an engineering system: allocation, unit economics, FOCUS, forecasting, AI/LLM spend and cost-quality-latency tradeoffs tied to business value.",
+    "benchmark": "The FinOps Foundation publishes the referenced FinOps X and practitioner videos. Zuyini independently curates the sequence and applies its own build-and-proof completion rubric; this is not a FinOps Foundation-issued certification or endorsement.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Video Sequence",
+        "items": [
+          {
+            "title": "01 — FinOps operating model, Cloud+ scopes + FOCUS",
+            "video": {
+              "title": "FinOps Foundation - FinOps X 2025 Day 1 Keynote",
+              "url": "https://www.youtube.com/watch?v=8_a5l11Vlo4",
+              "channel": ""
+            }
+          },
+          {
+            "title": "02 — Unit economics: cost metrics tied to business value",
+            "video": {
+              "title": "FinOps Foundation - Unit Economics That Matter",
+              "url": "https://www.youtube.com/watch?v=Y1ruCJu0xss",
+              "channel": ""
+            }
+          },
+          {
+            "title": "03 — FOCUS, tagging, allocation + chargeback discipline",
+            "video": {
+              "title": "FinOps X - Azure FOCUS, Tagging & Cost Allocation",
+              "url": "https://www.youtube.com/watch?v=_tHwvTmdnVc",
+              "channel": ""
+            }
+          },
+          {
+            "title": "04 — Cost data pipelines, normalization + analytics",
+            "video": {
+              "title": "FinOps X - Splunking into the World of Cloud Cost Data",
+              "url": "https://www.youtube.com/watch?v=5ADeRBGbOds",
+              "channel": ""
+            }
+          },
+          {
+            "title": "05 — Define FinOps for AI scope + ownership",
+            "video": {
+              "title": "FinOps Foundation - Creating Your FinOps for AI Scope",
+              "url": "https://www.youtube.com/watch?v=bGt7I9UjmJs",
+              "channel": ""
+            }
+          },
+          {
+            "title": "06 — GenAI cost levers: tokens, routing, caching + quality",
+            "video": {
+              "title": "FinOps X - Adapting FinOps for GenAI Costs",
+              "url": "https://www.youtube.com/watch?v=5bs11z2Uzt0",
+              "channel": ""
+            }
+          },
+          {
+            "title": "07 — AI usage governance + cloud-provider optimization",
+            "video": {
+              "title": "FinOps X 2025 Day 2 - FinOps for AI + AI for FinOps",
+              "url": "https://www.youtube.com/watch?v=aQ1PAaQ8D9c",
+              "channel": ""
+            }
+          },
+          {
+            "title": "08 — Real-time cloud economics + AI unit economics",
+            "video": {
+              "title": "FinOps Foundation - Real-Time AI & Unit Economics",
+              "url": "https://www.youtube.com/watch?v=_Z5S-BH3e6Y",
+              "channel": ""
+            }
+          },
+          {
+            "title": "09 — 2026 bridge: token economics + measurable AI value",
+            "video": {
+              "title": "FinOps X 2026 Day 1 - Token Economics / New Job of FinOps",
+              "url": "https://www.youtube.com/watch?v=W4g8xvduIbs",
+              "channel": ""
+            }
+          },
+          {
+            "title": "10 — Operationalize accountability with a FinOps-first mindset",
+            "video": {
+              "title": "FinOps Foundation - CloudOps with a FinOps-first Mindset",
+              "url": "https://www.youtube.com/watch?v=6TqRNFI3O8g",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Build-Along Checkpoints",
+        "items": [
+          {
+            "title": "Checkpoint 1",
+            "body": "Ingest a realistic multi-account/cloud cost dataset; normalize dimensions, define ownership and create a reconciled baseline that ties engineering resources to spend."
+          },
+          {
+            "title": "Checkpoint 2",
+            "body": "Implement allocation rules for tags, shared services and unallocated spend; reconcile totals, document rule ownership and produce showback/chargeback-ready views."
+          },
+          {
+            "title": "Checkpoint 3",
+            "body": "Define at least two unit-economic metrics such as cost per customer, request, feature or transaction; build a dashboard that connects spend to usage and business output."
+          },
+          {
+            "title": "Checkpoint 4",
+            "body": "Model optimization levers for commitments, rightsizing, storage/data and workload scheduling; distinguish realized savings from theoretical recommendations."
+          },
+          {
+            "title": "Checkpoint 5",
+            "body": "Build an AI economics model covering tokens or GPU/inference consumption, model choice/routing, caching and quality/latency tradeoffs; compute cost per successful task."
+          },
+          {
+            "title": "Checkpoint 6",
+            "body": "Forecast spend and variance, add anomaly detection and governance thresholds; inject a cost spike, investigate root cause and produce an engineering/finance decision memo."
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "7-Day Independent Capstone",
+        "items": [
+          {
+            "title": "Day 1",
+            "body": "Define technology scopes, stakeholders and decision cadence; create a cost taxonomy covering cloud, data/platform and AI spend with explicit ownership and value questions."
+          },
+          {
+            "title": "Day 2",
+            "body": "Normalize the billing dataset, map accounts/projects/products and allocate shared costs; prove monthly reconciliation and quantify the remaining unallocated percentage."
+          },
+          {
+            "title": "Day 3",
+            "body": "Build unit-cost metrics and a decision dashboard; connect infrastructure/AI consumption to product usage, business volume and at least one outcome metric."
+          },
+          {
+            "title": "Day 4",
+            "body": "Create optimization scenarios for rates and workloads; model savings, implementation effort, risk and forecast impact and separate recommendations from realized outcomes."
+          },
+          {
+            "title": "Day 5",
+            "body": "Build an AI/token economics simulator comparing at least two model or serving configurations on cost, task quality, latency and capacity; identify the efficient frontier."
+          },
+          {
+            "title": "Day 6",
+            "body": "Add forecast/budget variance, anomaly controls and an incident workflow; simulate runaway spend or demand change and document containment plus stakeholder communication."
+          },
+          {
+            "title": "Day 7",
+            "body": "Publish cost model, normalized dataset sample, allocation logic, unit-economics dashboard, AI economics analysis, forecast, incident evidence and executive decision memo."
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "FinOps - Allocate, Forecast & Optimize AI Economics",
+    "practiceBody": "Build a decision-ready technology economics system rather than a savings spreadsheet: normalize cost data, allocate spend, calculate unit economics, model AI token/GPU costs, forecast variance and prove optimization outcomes.",
+    "rubricHeading": "Proof Rubric — What Must Be Shown",
+    "rubric": "COST DATA: normalized + reconciled source; ALLOCATION: shared cost + ownership rules; UNIT ECONOMICS: cost linked to demand/value; FORECASTING: variance + scenario evidence; OPTIMIZATION: realized vs theoretical savings; AI ECONOMICS: token/GPU + model tradeoffs; VALUE: quality / latency / cost decisions; GOVERNANCE: thresholds, incident + accountability",
+    "page": 852
+  },
+  {
+    "name": "Leadership Certificate",
+    "category": "Standalone Mastery Certificate",
+    "tagline": "Standalone Mastery Certificate S10",
+    "intro": "Self-Awareness | Emotional Intelligence | Influence | Delivering Results",
+    "benchmark": "Curated source set: Stanford GSB + Yale experts + Talks at Google + Aspen Institute + renowned leadership practitioners -- Credential note: this is a Zuyini mastery certificate built from the cited public videos. It is not issued, sponsored or endorsed by the source institutions or speakers.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Self-Awareness",
+        "items": [
+          {
+            "title": "Stanford GSB / Collins Dobbs - Masterclass on Stanford's Most Popular Leadership Course (32 min)",
+            "video": {
+              "title": "Stanford GSB / Collins Dobbs - Masterclass on Stanford's Most Popular Leadership Course",
+              "url": "https://www.youtube.com/watch?v=FGG2ulTyPLA",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Tasha Eurich / TEDx - Increase Your Self-Awareness with One Simple Fix (17 min)",
+            "video": {
+              "title": "Tasha Eurich / TEDx - Increase Your Self-Awareness with One Simple Fix",
+              "url": "https://www.youtube.com/watch?v=tGdsOXZpyWE",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Emotional Intelligence",
+        "items": [
+          {
+            "title": "Yale / Marc Brackett - How to Increase Your Emotional Intelligence (2h 32m)",
+            "video": {
+              "title": "Yale / Marc Brackett - How to Increase Your Emotional Intelligence",
+              "url": "https://www.youtube.com/watch?v=kG5Qb9sr0YQ",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Daniel Goleman / Talks at Google - Focus: The Hidden Driver of Excellence (~1 hr)",
+            "video": {
+              "title": "Daniel Goleman / Talks at Google - Focus: The Hidden Driver of Excellence",
+              "url": "https://www.youtube.com/watch?v=b9yRmpcXKjY",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Influence",
+        "items": [
+          {
+            "title": "Jeffrey Pfeffer (Stanford) / Lenny's Podcast - The Paths to Power: Grow Your Influence & Advance Your Career (1h 17m)",
+            "video": {
+              "title": "Jeffrey Pfeffer (Stanford) / Lenny's Podcast - The Paths to Power: Grow Your Influence & Advance Your Career",
+              "url": "https://www.youtube.com/watch?v=etVCBDRXUH8",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Stanford GSB / Deborah Gruenfeld - Power & Influence (21 min)",
+            "video": {
+              "title": "Stanford GSB / Deborah Gruenfeld - Power & Influence",
+              "url": "https://www.youtube.com/watch?v=KdQHAeAnHmw",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Delivering Results",
+        "items": [
+          {
+            "title": "The Aspen Institute / John Doerr - Leading Organizations: What Really Matters? (50 min)",
+            "video": {
+              "title": "The Aspen Institute / John Doerr - Leading Organizations: What Really Matters?",
+              "url": "https://www.youtube.com/watch?v=j0SiVcid-uw",
+              "channel": ""
+            }
+          },
+          {
+            "title": "David Allen at Google - Getting Things Done: Sustaining a Healthy Life & Work Style (~45 min)",
+            "video": {
+              "title": "David Allen at Google - Getting Things Done: Sustaining a Healthy Life & Work Style",
+              "url": "https://www.youtube.com/watch?v=Qo7vUdKTlhk",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Domain Practices",
+        "items": [
+          {
+            "title": "Self-Awareness",
+            "body": "Build a leadership baseline: strengths, derailers, values, triggers and intention-versus-impact. Request structured feedback from 3-5 people and identify one recurring blind spot. Proof: feedback synthesis + one behavior hypothesis + weekly reflection log."
+          },
+          {
+            "title": "Emotional Intelligence",
+            "body": "Use an emotion vocabulary / mood log for two weeks. Practice recognizing, understanding, labeling, expressing and regulating emotions during one consequential interaction. Proof: trigger map + regulation plan + before/after conversation reflection."
+          },
+          {
+            "title": "Influence",
+            "body": "Map a real stakeholder system: formal authority, informal power, interests, currencies, allies, blockers and trust. Run one influence-without-authority experiment using a deliberate ask and coalition strategy. Proof: stakeholder map + influence plan + evidence of movement / learning."
+          },
+          {
+            "title": "Delivering Results",
+            "body": "Translate one meaningful objective into measurable outcomes, leading indicators, weekly priorities and an operating cadence. Protect focus, expose blockers early and close accountability loops. Proof: objective + KRs / measures + weekly scorecard + final outcome review."
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "30-Day Independent Capstone - Leadership Operating System",
+        "items": [
+          {
+            "title": "Week 1",
+            "body": "Baseline self-awareness; gather feedback; choose one leadership behavior to change."
+          },
+          {
+            "title": "Week 2",
+            "body": "Practice emotional regulation and one difficult / high-stakes conversation; record impact."
+          },
+          {
+            "title": "Week 3",
+            "body": "Run the stakeholder influence experiment; adjust based on resistance and relationship signals."
+          },
+          {
+            "title": "Week 4",
+            "body": "Operate the results cadence: priorities, measures, blockers, commitments and review."
+          },
+          {
+            "title": "Day 30",
+            "body": "Present a concise leadership readout: what changed, what did not, evidence, tradeoffs and next 30-day commitment."
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Leadership Practice, Evidence & Results",
+    "practiceBody": "Turn the video sequence into observable leadership behavior. Complete the four domain practices, then run a 30-day leadership experiment with evidence from feedback, stakeholder movement and measurable outcomes.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "Show behavioral evidence, not just completion: honest self-assessment; specific feedback; emotion recognition and regulation; ethical influence without manipulation; stakeholder movement; clear priorities and measures; accountability cadence; documented results; reflection on unintended impact and what you will change next.",
+    "page": 741
+  },
+  {
+    "name": "Negotiation & Conflict Resolution Certificate",
+    "category": "Standalone Mastery Certificate",
+    "tagline": "Standalone Mastery Certificate S11",
+    "intro": "Preparation | Value Creation | Tactical Empathy | Difficult Conversations",
+    "benchmark": "Curated source set: Stanford GSB + Chicago Booth + Harvard Program on Negotiation + Talks at Google + Microsoft Research -- Credential note: this is a Zuyini mastery certificate built from the cited public videos. It is not issued, sponsored or endorsed by the source institutions or speakers.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Preparation + Bargaining Foundations",
+        "items": [
+          {
+            "title": "Stanford Online / Margaret Neale - Negotiation: How to Get (More of) What You Want (54 min)",
+            "video": {
+              "title": "Stanford Online / Margaret Neale - Negotiation: How to Get (More of) What You Want",
+              "url": "https://www.youtube.com/watch?v=7XTlcCvgijI",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Chicago Booth / Emma Levine - Introduction to Distributive Negotiations (masterclass)",
+            "video": {
+              "title": "Chicago Booth / Emma Levine - Introduction to Distributive Negotiations",
+              "url": "https://www.chicagobooth.edu/mba/academics/lecture-series/videos/introduction-to-distributive-negotiations",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Principled Negotiation + Value Creation",
+        "items": [
+          {
+            "title": "Harvard PON / William Ury - Getting to Yes in Challenging Times (full lecture)",
+            "video": {
+              "title": "Harvard PON / William Ury - Getting to Yes in Challenging Times",
+              "url": "https://www.pon.harvard.edu/free-videos/getting-to-yes-in-challenging-times/",
+              "channel": ""
+            }
+          },
+          {
+            "title": "William Ury / Talks at Google - Getting to Yes with Yourself (53 min)",
+            "video": {
+              "title": "William Ury / Talks at Google - Getting to Yes with Yourself",
+              "url": "https://www.youtube.com/watch?v=GrtccgWxrU8",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Tactical Empathy + Boundaries",
+        "items": [
+          {
+            "title": "Chris Voss / Talks at Google - Never Split the Difference (51 min)",
+            "video": {
+              "title": "Chris Voss / Talks at Google - Never Split the Difference",
+              "url": "https://www.youtube.com/watch?v=guZa7mQV1l0",
+              "channel": ""
+            }
+          },
+          {
+            "title": "William Ury / Microsoft Research - The Power of a Positive No (full talk)",
+            "video": {
+              "title": "William Ury / Microsoft Research - The Power of a Positive No",
+              "url": "https://www.youtube.com/watch?v=1IcnRJsAOIU",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "videos",
+        "heading": "Conflict + Difficult Conversations",
+        "items": [
+          {
+            "title": "Harvard PON / Sheila Heen + Douglas Stone - Difficult Conversations: How to Discuss What Matters Most (60 min)",
+            "video": {
+              "title": "Harvard PON / Sheila Heen + Douglas Stone - Difficult Conversations: How to Discuss What Matters Most",
+              "url": "https://www.youtube.com/watch?v=ICiuyW-qoVI",
+              "channel": ""
+            }
+          },
+          {
+            "title": "Daniel Shapiro / Talks at Google - Negotiating the Nonnegotiable (55 min)",
+            "video": {
+              "title": "Daniel Shapiro / Talks at Google - Negotiating the Nonnegotiable",
+              "url": "https://www.youtube.com/watch?v=xBu9aSR3q7A",
+              "channel": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "Domain Practices",
+        "items": [
+          {
+            "title": "Negotiation Preparation",
+            "body": "Prepare one real negotiation using interests, positions, BATNA, reservation point, ZOPA, objective criteria, first-offer logic and a concession plan. Proof: one-page prep sheet + walk-away logic + post-negotiation variance review."
+          },
+          {
+            "title": "Value Creation + Claiming",
+            "body": "Run a multi-issue negotiation. Rank priorities, uncover differences, create packages, trade across issues and protect value without defaulting to premature compromise. Proof: issue matrix + three packages + concession log + joint-gain analysis."
+          },
+          {
+            "title": "Tactical Empathy + Boundaries",
+            "body": "Practice labels, summaries, calibrated questions, silence and a respectful Positive No. Use the tools to surface information and hold a boundary without manipulation. Proof: recorded role-play or transcript + self-critique + revised script."
+          },
+          {
+            "title": "Difficult Conversation + Conflict",
+            "body": "Open from a neutral 'third story'; separate intent from impact; surface contributions, emotions and identity concerns; move toward a specific request, repair or agreement. Proof: conversation plan + outcome evidence + after-action reflection."
+          }
+        ]
+      },
+      {
+        "type": "labs",
+        "heading": "30-Day Independent Capstone - Negotiation Operating System",
+        "items": [
+          {
+            "title": "Week 1",
+            "body": "Prepare and run two low-stakes negotiations; compare planned versus actual BATNA, ZOPA, anchors and concessions."
+          },
+          {
+            "title": "Week 2",
+            "body": "Run one multi-issue negotiation; test value-creation packages and document the tradeoffs that moved the deal."
+          },
+          {
+            "title": "Week 3",
+            "body": "Hold one difficult conversation; use tactical empathy plus a clear boundary or Positive No; record relationship impact."
+          },
+          {
+            "title": "Week 4",
+            "body": "Run one higher-stakes negotiation; use a written strategy, decision points and disciplined post-mortem."
+          },
+          {
+            "title": "Day 30",
+            "body": "Present a concise negotiation portfolio: four artifacts, outcomes, ethics, what worked, what failed and the next 30-day commitment."
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Negotiation Practice, Evidence & Outcomes",
+    "practiceBody": "Turn the video sequence into repeatable negotiation behavior. Complete the four domain practices, then run a 30-day negotiation operating system using real or simulated negotiations, written preparation and post-mortem evidence.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "Show preparation discipline; BATNA/ZOPA accuracy; value creation and claiming; ethical influence; listening and information discovery; boundary quality; conflict de-escalation; measurable outcomes; relationship impact; and a candid post-mortem that separates luck from repeatable skill.",
+    "page": 743
   }
 ]
