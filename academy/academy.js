@@ -536,6 +536,7 @@
   var countEl = document.getElementById('role-count-num');
   var countLabelEl = document.getElementById('role-count-label');
   var categorySelect = document.getElementById('category-select');
+  var searchBoxEl = document.querySelector('.search-box');
   var toggleButtons = document.querySelectorAll('.mode-toggle button[data-mode]');
   var ALL_CATEGORIES = 'all';
   var currentCategory = ALL_CATEGORIES;
@@ -605,6 +606,192 @@
         return '<li data-slug="' + slugify(item.name) + '">' + escapeHtml(item.name) + '</li>';
       })
       .join('');
+  }
+
+  // --- My Pathway: a user-built custom path, stored locally in this
+  // browser only (same localStorage-only model as mastery progress --
+  // no server, no cross-device sync). Items can come from any of the 6
+  // trackable catalogs (roles, pathways, certificates, interview prep,
+  // bootcamp & skill tracks, courses).
+  var MY_PATHWAY_KEY = 'zuyini_my_pathway';
+  var MODE_META = {
+    roles: 'Role',
+    pathways: 'Pathway',
+    certificates: 'Certificate',
+    interview: 'Interview Prep',
+    skills: 'Bootcamp / Skill Track',
+    courses: 'Course',
+  };
+
+  function loadMyPathway() {
+    try {
+      var raw = JSON.parse(localStorage.getItem(MY_PATHWAY_KEY) || '[]');
+      return Array.isArray(raw) ? raw : [];
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function saveMyPathway(items) {
+    try {
+      localStorage.setItem(MY_PATHWAY_KEY, JSON.stringify(items));
+    } catch (e) {
+      // localStorage unavailable (private mode, quota) -- fail silently,
+      // same tradeoff already accepted for mastery-progress storage
+    }
+  }
+
+  function isInMyPathway(mode, slug) {
+    return loadMyPathway().some(function (i) { return i.mode === mode && i.slug === slug; });
+  }
+
+  function addToMyPathway(mode, slug, name) {
+    var items = loadMyPathway();
+    if (items.some(function (i) { return i.mode === mode && i.slug === slug; })) return;
+    items.push({ mode: mode, slug: slug, name: name });
+    saveMyPathway(items);
+  }
+
+  function removeFromMyPathway(mode, slug) {
+    saveMyPathway(loadMyPathway().filter(function (i) { return !(i.mode === mode && i.slug === slug); }));
+  }
+
+  function moveMyPathwayItem(index, delta) {
+    var items = loadMyPathway();
+    var target = index + delta;
+    if (target < 0 || target >= items.length) return;
+    var tmp = items[index];
+    items[index] = items[target];
+    items[target] = tmp;
+    saveMyPathway(items);
+  }
+
+  // --- Recently Viewed: every item detail page opened, most-recent first,
+  // capped and deduplicated. Same localStorage-only model as My Pathway.
+  var RECENTLY_VIEWED_KEY = 'zuyini_recently_viewed';
+  var RECENTLY_VIEWED_MAX = 30;
+
+  function loadRecentlyViewed() {
+    try {
+      var raw = JSON.parse(localStorage.getItem(RECENTLY_VIEWED_KEY) || '[]');
+      return Array.isArray(raw) ? raw : [];
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function saveRecentlyViewed(items) {
+    try {
+      localStorage.setItem(RECENTLY_VIEWED_KEY, JSON.stringify(items));
+    } catch (e) {
+      // ignore -- same private-mode/quota tradeoff as My Pathway
+    }
+  }
+
+  function recordView(mode, slug, name) {
+    var items = loadRecentlyViewed().filter(function (i) { return !(i.mode === mode && i.slug === slug); });
+    items.unshift({ mode: mode, slug: slug, name: name, viewedAt: Date.now() });
+    saveRecentlyViewed(items.slice(0, RECENTLY_VIEWED_MAX));
+  }
+
+  function removeRecentlyViewed(mode, slug) {
+    saveRecentlyViewed(loadRecentlyViewed().filter(function (i) { return !(i.mode === mode && i.slug === slug); }));
+  }
+
+  function openMyPathwayItem(item) {
+    if (item.mode === 'courses') {
+      showCourse(item.slug, null, true);
+    } else {
+      setMode(item.mode, item.slug, true);
+    }
+  }
+
+  function relativeTime(ts) {
+    var diffMs = Date.now() - ts;
+    var mins = Math.round(diffMs / 60000);
+    if (mins < 1) return 'just now';
+    if (mins < 60) return mins + ' min' + (mins === 1 ? '' : 's') + ' ago';
+    var hours = Math.round(mins / 60);
+    if (hours < 24) return hours + ' hour' + (hours === 1 ? '' : 's') + ' ago';
+    var days = Math.round(hours / 24);
+    if (days < 30) return days + ' day' + (days === 1 ? '' : 's') + ' ago';
+    var months = Math.round(days / 30);
+    return months + ' month' + (months === 1 ? '' : 's') + ' ago';
+  }
+
+  function renderMyPathwaySection() {
+    var items = loadMyPathway();
+    if (!items.length) {
+      return (
+        '<div class="detail-card my-pathway-card">' +
+        '<h2>My Pathway</h2>' +
+        '<p class="detail-description">Open any Role, Pathway, Certificate, Interview Prep track, Bootcamp &amp; Skill Track or Course and click &ldquo;+ Add to My Pathway&rdquo; to start building a custom path through the catalog. Saved locally in this browser &mdash; reorder or remove items anytime.</p>' +
+        '</div>'
+      );
+    }
+    return (
+      '<div class="detail-card my-pathway-card">' +
+      '<h2>My Pathway</h2>' +
+      '<p class="detail-description">' + items.length + ' item' + (items.length === 1 ? '' : 's') + ' saved in this browser. Reorder, remove, or jump back into any of them.</p>' +
+      '<ul class="my-pathway-list">' +
+      items
+        .map(function (it, i) {
+          return (
+            '<li class="my-pathway-item">' +
+            '<span class="my-pathway-type">' + escapeHtml(MODE_META[it.mode] || it.mode) + '</span>' +
+            '<button type="button" class="my-pathway-name" data-mypathway-open="' + i + '">' + escapeHtml(it.name) + '</button>' +
+            '<span class="my-pathway-controls">' +
+            '<button type="button" class="my-pathway-move" data-mypathway-up="' + i + '"' + (i === 0 ? ' disabled' : '') + ' aria-label="Move up">&uarr;</button>' +
+            '<button type="button" class="my-pathway-move" data-mypathway-down="' + i + '"' + (i === items.length - 1 ? ' disabled' : '') + ' aria-label="Move down">&darr;</button>' +
+            '<button type="button" class="my-pathway-remove" data-mypathway-remove="' + i + '" aria-label="Remove from My Pathway">&times;</button>' +
+            '</span>' +
+            '</li>'
+          );
+        })
+        .join('') +
+      '</ul>' +
+      '</div>'
+    );
+  }
+
+  function renderRecentlyViewedSection() {
+    var items = loadRecentlyViewed();
+    if (!items.length) {
+      return (
+        '<div class="detail-card recently-viewed-card">' +
+        '<h2>Recently Viewed</h2>' +
+        '<p class="detail-description">Every Role, Pathway, Certificate, Interview Prep track, Bootcamp &amp; Skill Track and Course you open gets tracked here, most recent first, so you can pick up where you left off.</p>' +
+        '</div>'
+      );
+    }
+    return (
+      '<div class="detail-card recently-viewed-card">' +
+      '<div class="recently-viewed-header">' +
+      '<h2>Recently Viewed</h2>' +
+      '<button type="button" class="recently-viewed-clear" data-recent-clear>Clear history</button>' +
+      '</div>' +
+      '<ul class="my-pathway-list">' +
+      items
+        .map(function (it, i) {
+          return (
+            '<li class="my-pathway-item">' +
+            '<span class="my-pathway-type">' + escapeHtml(MODE_META[it.mode] || it.mode) + '</span>' +
+            '<button type="button" class="my-pathway-name" data-recent-open="' + i + '">' + escapeHtml(it.name) + '</button>' +
+            '<span class="recently-viewed-time">' + relativeTime(it.viewedAt) + '</span>' +
+            '<span class="my-pathway-controls">' +
+            '<button type="button" class="my-pathway-remove" data-recent-remove="' + i + '" aria-label="Remove from history">&times;</button>' +
+            '</span>' +
+            '</li>'
+          );
+        })
+        .join('') +
+      '</ul>' +
+      '</div>'
+    );
+  }
+
+  function renderMyPathwayPage() {
+    detailEl.innerHTML = renderMyPathwaySection() + renderRecentlyViewedSection();
   }
 
   function renderFeaturedPicks(mode) {
@@ -842,6 +1029,28 @@
       });
       panel.appendChild(cta);
 
+      if (mode !== 'mypathway') {
+        var pathwayBtn = document.createElement('button');
+        pathwayBtn.type = 'button';
+        pathwayBtn.className = 'pathway-add-btn';
+        var itemName = h2.textContent;
+        function refreshPathwayBtn() {
+          var saved = isInMyPathway(mode, slug);
+          pathwayBtn.textContent = saved ? '✓ In My Pathway' : '+ Add to My Pathway';
+          pathwayBtn.classList.toggle('active', saved);
+        }
+        pathwayBtn.addEventListener('click', function () {
+          if (isInMyPathway(mode, slug)) {
+            removeFromMyPathway(mode, slug);
+          } else {
+            addToMyPathway(mode, slug, itemName);
+          }
+          refreshPathwayBtn();
+        });
+        refreshPathwayBtn();
+        panel.appendChild(pathwayBtn);
+      }
+
       badge.insertAdjacentElement('afterend', panel);
       return { cta: cta };
     }
@@ -936,6 +1145,7 @@
   function renderItem(item) {
     detailEl.innerHTML = MODES[currentMode].render(item);
     attachMasteryTracking(currentMode, currentSlug);
+    recordView(currentMode, currentSlug, item.name);
 
     document.querySelectorAll('.role-list li[data-slug]').forEach(function (li) {
       li.classList.toggle('active', li.getAttribute('data-slug') === slugify(item.name));
@@ -960,6 +1170,7 @@
     if (!course) return;
     detailEl.innerHTML = renderCourse(course, backTarget);
     attachMasteryTracking('courses', slug);
+    recordView('courses', slug, course.name);
     detailEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
     if (updatePath) {
       history.pushState(null, '', '/academy/courses/' + slug + '/');
@@ -967,13 +1178,30 @@
   }
 
   function setMode(mode, slug, updatePath) {
-    if (!MODES[mode]) return;
+    if (mode !== 'mypathway' && !MODES[mode]) return;
     currentMode = mode;
     currentCategory = ALL_CATEGORIES;
 
     toggleButtons.forEach(function (btn) {
       btn.classList.toggle('active', btn.getAttribute('data-mode') === mode);
     });
+
+    if (mode === 'mypathway') {
+      if (categorySelect) categorySelect.hidden = true;
+      if (searchBoxEl) searchBoxEl.hidden = true;
+      if (searchEl) searchEl.value = '';
+      currentSlug = null;
+      currentItemName = 'My Pathway';
+      listEl.innerHTML = '<li class="no-match">Your saved items are shown on the right &mdash; use the sidebar again to keep browsing.</li>';
+      if (countEl) countEl.textContent = loadMyPathway().length;
+      if (countLabelEl) countLabelEl.textContent = 'saved items';
+      renderMyPathwayPage();
+      if (updatePath) history.pushState(null, '', '/academy/mypathway/');
+      return;
+    }
+    if (categorySelect) categorySelect.hidden = false;
+    if (searchBoxEl) searchBoxEl.hidden = false;
+
     if (searchEl) {
       searchEl.value = '';
       searchEl.placeholder = MODES[mode].searchPlaceholder;
@@ -1005,6 +1233,55 @@
     var featuredBtn = e.target.closest('[data-featured]');
     if (featuredBtn) {
       selectItem(featuredBtn.getAttribute('data-featured'), true);
+      return;
+    }
+    var openBtn = e.target.closest('[data-mypathway-open]');
+    if (openBtn) {
+      var openItem = loadMyPathway()[parseInt(openBtn.getAttribute('data-mypathway-open'), 10)];
+      if (openItem) openMyPathwayItem(openItem);
+      return;
+    }
+    var upBtn = e.target.closest('[data-mypathway-up]');
+    if (upBtn) {
+      moveMyPathwayItem(parseInt(upBtn.getAttribute('data-mypathway-up'), 10), -1);
+      renderMyPathwayPage();
+      return;
+    }
+    var downBtn = e.target.closest('[data-mypathway-down]');
+    if (downBtn) {
+      moveMyPathwayItem(parseInt(downBtn.getAttribute('data-mypathway-down'), 10), 1);
+      renderMyPathwayPage();
+      return;
+    }
+    var removeBtn = e.target.closest('[data-mypathway-remove]');
+    if (removeBtn) {
+      var items = loadMyPathway();
+      var idx = parseInt(removeBtn.getAttribute('data-mypathway-remove'), 10);
+      var it = items[idx];
+      if (it) removeFromMyPathway(it.mode, it.slug);
+      renderMyPathwayPage();
+      if (countEl && currentMode === 'mypathway') countEl.textContent = loadMyPathway().length;
+      return;
+    }
+    var recentOpenBtn = e.target.closest('[data-recent-open]');
+    if (recentOpenBtn) {
+      var recentItem = loadRecentlyViewed()[parseInt(recentOpenBtn.getAttribute('data-recent-open'), 10)];
+      if (recentItem) openMyPathwayItem(recentItem);
+      return;
+    }
+    var recentRemoveBtn = e.target.closest('[data-recent-remove]');
+    if (recentRemoveBtn) {
+      var recentItems = loadRecentlyViewed();
+      var recentIdx = parseInt(recentRemoveBtn.getAttribute('data-recent-remove'), 10);
+      var recentTarget = recentItems[recentIdx];
+      if (recentTarget) removeRecentlyViewed(recentTarget.mode, recentTarget.slug);
+      renderMyPathwayPage();
+      return;
+    }
+    var recentClearBtn = e.target.closest('[data-recent-clear]');
+    if (recentClearBtn) {
+      saveRecentlyViewed([]);
+      renderMyPathwayPage();
       return;
     }
     var tabBtn = e.target.closest('[data-role-tab]');
@@ -1305,6 +1582,8 @@
     var parts = location.pathname.replace(/^\/academy\/?/, '').split('/').filter(Boolean);
     if (parts[0] === 'courses' && parts[1]) {
       showCourse(parts[1], null, false);
+    } else if (parts[0] === 'mypathway') {
+      setMode('mypathway', null, false);
     } else if (parts[0] && MODES[parts[0]]) {
       setMode(parts[0], parts[1], false);
     } else {
