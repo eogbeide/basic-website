@@ -724,14 +724,14 @@
     if (!items.length) {
       return (
         '<div class="detail-card my-pathway-card">' +
-        '<h2>My Pathway</h2>' +
-        '<p class="detail-description">Open any Role, Pathway, Certificate, Interview Prep track, Bootcamp &amp; Skill Track or Course and click &ldquo;+ Add to My Pathway&rdquo; to start building a custom path through the catalog. Saved locally in this browser &mdash; reorder or remove items anytime.</p>' +
+        '<h2>My Learning</h2>' +
+        '<p class="detail-description">Open any Role, Pathway, Certificate, Interview Prep track, Bootcamp &amp; Skill Track or Course and click &ldquo;+ Add to My Learning&rdquo; to start building a custom path through the catalog. Saved locally in this browser &mdash; reorder or remove items anytime.</p>' +
         '</div>'
       );
     }
     return (
       '<div class="detail-card my-pathway-card">' +
-      '<h2>My Pathway</h2>' +
+      '<h2>My Learning</h2>' +
       '<p class="detail-description">' + items.length + ' item' + (items.length === 1 ? '' : 's') + ' saved in this browser. Reorder, remove, or jump back into any of them.</p>' +
       '<ul class="my-pathway-list">' +
       items
@@ -743,7 +743,7 @@
             '<span class="my-pathway-controls">' +
             '<button type="button" class="my-pathway-move" data-mypathway-up="' + i + '"' + (i === 0 ? ' disabled' : '') + ' aria-label="Move up">&uarr;</button>' +
             '<button type="button" class="my-pathway-move" data-mypathway-down="' + i + '"' + (i === items.length - 1 ? ' disabled' : '') + ' aria-label="Move down">&darr;</button>' +
-            '<button type="button" class="my-pathway-remove" data-mypathway-remove="' + i + '" aria-label="Remove from My Pathway">&times;</button>' +
+            '<button type="button" class="my-pathway-remove" data-mypathway-remove="' + i + '" aria-label="Remove from My Learning">&times;</button>' +
             '</span>' +
             '</li>'
           );
@@ -1036,7 +1036,7 @@
         var itemName = h2.textContent;
         function refreshPathwayBtn() {
           var saved = isInMyPathway(mode, slug);
-          pathwayBtn.textContent = saved ? '✓ In My Pathway' : '+ Add to My Pathway';
+          pathwayBtn.textContent = saved ? '✓ In My Learning' : '+ Add to My Learning';
           pathwayBtn.classList.toggle('active', saved);
         }
         pathwayBtn.addEventListener('click', function () {
@@ -1191,7 +1191,7 @@
       if (searchBoxEl) searchBoxEl.hidden = true;
       if (searchEl) searchEl.value = '';
       currentSlug = null;
-      currentItemName = 'My Pathway';
+      currentItemName = 'My Learning';
       listEl.innerHTML = '<li class="no-match">Your saved items are shown on the right &mdash; use the sidebar again to keep browsing.</li>';
       if (countEl) countEl.textContent = loadMyPathway().length;
       if (countLabelEl) countLabelEl.textContent = 'saved items';
