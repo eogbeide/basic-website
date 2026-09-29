@@ -316,7 +316,7 @@
     return (
       '<div class="detail-card">' +
       '<h2>' + escapeHtml(pathway.name) + '</h2>' +
-      renderShareBar('https://zuyini.com/academy/pathways/' + slugify(pathway.name) + '/', pathway.name + ' | Zuyini Academy Learning Pathway') +
+      renderShareBar('https://zuyini.com/academy/pathways/' + slugify(pathway.name) + '/', pathway.name + ' | Zuyini Academy Career Pathway') +
       (pathway.description ? '<p class="detail-description">' + escapeHtml(pathway.description) + '</p>' : '') +
       (pathway.market_basis ? '<p class="detail-benchmark">Market Basis: ' + escapeHtml(pathway.market_basis) + '</p>' : '') +
       (roleLinks
@@ -485,11 +485,11 @@
       render: renderRole,
     },
     pathways: {
-      label: 'learning pathways',
+      label: 'career pathways',
       data: (typeof PATHWAYS_DATA !== 'undefined' ? PATHWAYS_DATA : []).slice().sort(function (a, b) { return a.name.localeCompare(b.name); }),
-      searchPlaceholder: 'Search pathways, e.g. AI, Cloud, Design...',
-      emptyTitle: 'Choose a learning pathway',
-      emptyBody: 'Pathways move through one discipline end-to-end: foundations, build, operate, optimize and lead, with a curated course sequence and representative roles.',
+      searchPlaceholder: 'Search career pathways, e.g. AI, Cloud, Design...',
+      emptyTitle: 'Choose a career pathway',
+      emptyBody: 'Career Pathways move through one discipline end-to-end: foundations, build, operate, optimize and lead, with a curated course sequence and representative roles.',
       featured: ['Data, AI & Machine Learning', 'Software & Application Engineering', 'AI, Agents & Intelligent Automation', 'Business Management', 'Product Operations & Product Leadership'],
       render: renderPathway,
     },
@@ -616,7 +616,7 @@
   var MY_PATHWAY_KEY = 'zuyini_my_pathway';
   var MODE_META = {
     roles: 'Role',
-    pathways: 'Pathway',
+    pathways: 'Career Pathway',
     certificates: 'Certificate',
     interview: 'Interview Prep',
     skills: 'Bootcamp / Skill Track',
@@ -725,7 +725,7 @@
       return (
         '<div class="detail-card my-pathway-card">' +
         '<h2>My Learning</h2>' +
-        '<p class="detail-description">Open any Role, Pathway, Certificate, Interview Prep track, Bootcamp &amp; Skill Track or Course and click &ldquo;+ Add to My Learning&rdquo; to start building a custom path through the catalog. Saved locally in this browser &mdash; reorder or remove items anytime.</p>' +
+        '<p class="detail-description">Open any Role, Career Pathway, Certificate, Interview Prep track, Bootcamp &amp; Skill Track or Course and click &ldquo;+ Add to My Learning&rdquo; to start building a custom path through the catalog. Saved locally in this browser &mdash; reorder or remove items anytime.</p>' +
         '</div>'
       );
     }
@@ -760,7 +760,7 @@
       return (
         '<div class="detail-card recently-viewed-card">' +
         '<h2>Recently Viewed</h2>' +
-        '<p class="detail-description">Every Role, Pathway, Certificate, Interview Prep track, Bootcamp &amp; Skill Track and Course you open gets tracked here, most recent first, so you can pick up where you left off.</p>' +
+        '<p class="detail-description">Every Role, Career Pathway, Certificate, Interview Prep track, Bootcamp &amp; Skill Track and Course you open gets tracked here, most recent first, so you can pick up where you left off.</p>' +
         '</div>'
       );
     }
@@ -1397,7 +1397,7 @@
       var seqText = (p.course_sequence || []).map(function (c) { return c.title; }).join(' ');
       index.push({
         type: 'pathways',
-        typeLabel: 'Learning Pathway',
+        typeLabel: 'Career Pathway',
         slug: slugify(p.name),
         name: p.name,
         snippet: p.description || '',
@@ -1534,7 +1534,7 @@
     var body;
     if (!results.length) {
       body = '<div class="skill-results-empty">No close matches for &ldquo;' + escapeHtml(query) +
-        '&rdquo;. Try a broader term, or browse Roles, Pathways and Certificates on the left.</div>';
+        '&rdquo;. Try a broader term, or browse Roles, Career Pathways and Certificates on the left.</div>';
     } else {
       body = results.map(function (r) {
         return '<button type="button" class="skill-result-card" data-skill-type="' + r.type +
