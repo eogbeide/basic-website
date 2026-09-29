@@ -779,6 +779,9 @@
             '<button type="button" class="my-pathway-name" data-recent-open="' + i + '">' + escapeHtml(it.name) + '</button>' +
             '<span class="recently-viewed-time">' + relativeTime(it.viewedAt) + '</span>' +
             '<span class="my-pathway-controls">' +
+            (isInMyPathway(it.mode, it.slug)
+              ? '<button type="button" class="my-pathway-add active" data-recent-add="' + i + '" aria-label="Remove from My Pathway" title="In My Pathway — click to remove">&check;</button>'
+              : '<button type="button" class="my-pathway-add" data-recent-add="' + i + '" aria-label="Add to My Pathway" title="Add to My Pathway">+</button>') +
             '<button type="button" class="my-pathway-remove" data-recent-remove="' + i + '" aria-label="Remove from history">&times;</button>' +
             '</span>' +
             '</li>'
@@ -1267,6 +1270,19 @@
     if (recentOpenBtn) {
       var recentItem = loadRecentlyViewed()[parseInt(recentOpenBtn.getAttribute('data-recent-open'), 10)];
       if (recentItem) openMyPathwayItem(recentItem);
+      return;
+    }
+    var recentAddBtn = e.target.closest('[data-recent-add]');
+    if (recentAddBtn) {
+      var recentAddItem = loadRecentlyViewed()[parseInt(recentAddBtn.getAttribute('data-recent-add'), 10)];
+      if (recentAddItem) {
+        if (isInMyPathway(recentAddItem.mode, recentAddItem.slug)) {
+          removeFromMyPathway(recentAddItem.mode, recentAddItem.slug);
+        } else {
+          addToMyPathway(recentAddItem.mode, recentAddItem.slug, recentAddItem.name);
+        }
+      }
+      renderMyPathwayPage();
       return;
     }
     var recentRemoveBtn = e.target.closest('[data-recent-remove]');
