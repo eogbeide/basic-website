@@ -22,6 +22,15 @@
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439804008",
 "postedDate": "2026-09-30",
 "isNew": false
+},
+{
+"title": "Applied AI Delivery Lead",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/afebc24f-c6b8-4c66-a344-b1661fc77570",
+"postedDate": "2026-09-29",
+"isNew": false
 }
 ],
 "asOf": "2026-10-02"
@@ -33,7 +42,7 @@
 ],
 "jobs": [
 {
-"title": "Applied AI Engineer, Digital Natives",
+"title": "Applied AI Engineer, API Platform, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
 "state": "NY",
@@ -69,7 +78,7 @@
 "isNew": false
 },
 {
-"title": "Applied AI Engineer, Digital Natives",
+"title": "Applied AI Engineer, API Platform, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
 "state": "NY",
@@ -123,7 +132,7 @@
 "isNew": false
 },
 {
-"title": "Applied AI Engineer, Digital Natives",
+"title": "Applied AI Engineer, API Platform, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
 "state": "NY",
@@ -150,21 +159,21 @@
 ],
 "jobs": [
 {
+"title": "Applied AI Engineer, API Platform, Digital Natives",
+"company": "OpenAI",
+"location": "New York City",
+"state": "NY",
+"url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
+"postedDate": "2026-09-29",
+"isNew": false
+},
+{
 "title": "Full Stack Software Engineer, Sales Platform",
 "company": "OpenAI",
 "location": "San Francisco",
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/1f7c6071-ad3a-4903-9b05-4684f5c1a7c8",
 "postedDate": "2026-10-01",
-"isNew": true
-},
-{
-"title": "Applied AI Engineer, Digital Natives",
-"company": "OpenAI",
-"location": "New York City",
-"state": "NY",
-"url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
-"postedDate": "2026-09-29",
 "isNew": false
 },
 {
@@ -247,7 +256,7 @@
 "isNew": false
 },
 {
-"title": "Applied AI Engineer, Digital Natives",
+"title": "Applied AI Engineer, API Platform, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
 "state": "NY",
@@ -283,7 +292,7 @@
 "isNew": false
 },
 {
-"title": "Applied AI Engineer, Digital Natives",
+"title": "Applied AI Engineer, API Platform, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
 "state": "NY",
@@ -319,7 +328,7 @@
 ],
 "jobs": [
 {
-"title": "Applied AI Engineer, Digital Natives",
+"title": "Applied AI Engineer, API Platform, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
 "state": "NY",
@@ -355,7 +364,7 @@
 "isNew": false
 },
 {
-"title": "Applied AI Engineer, Digital Natives",
+"title": "Applied AI Engineer, API Platform, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
 "state": "NY",
@@ -467,7 +476,16 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/1f7c6071-ad3a-4903-9b05-4684f5c1a7c8",
 "postedDate": "2026-10-01",
-"isNew": true
+"isNew": false
+},
+{
+"title": "Applied AI Engineer, API Platform, Digital Natives",
+"company": "OpenAI",
+"location": "New York City",
+"state": "NY",
+"url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
+"postedDate": "2026-09-29",
+"isNew": false
 }
 ],
 "asOf": "2026-10-02"
@@ -496,7 +514,7 @@
 "isNew": false
 },
 {
-"title": "Applied AI Engineer, Digital Natives",
+"title": "Applied AI Engineer, API Platform, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
 "state": "NY",
@@ -807,7 +825,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/1f7c6071-ad3a-4903-9b05-4684f5c1a7c8",
 "postedDate": "2026-10-01",
-"isNew": true
+"isNew": false
 }
 ],
 "asOf": "2026-10-02"
@@ -824,7 +842,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/1f7c6071-ad3a-4903-9b05-4684f5c1a7c8",
 "postedDate": "2026-10-01",
-"isNew": true
+"isNew": false
 }
 ],
 "asOf": "2026-10-02"
@@ -923,11 +941,20 @@
 "isNew": false
 },
 {
-"title": "Applied AI Engineer, Digital Natives",
+"title": "Applied AI Engineer, API Platform, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
 "state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
+"postedDate": "2026-09-29",
+"isNew": false
+},
+{
+"title": "Applied AI Delivery Lead",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/afebc24f-c6b8-4c66-a344-b1661fc77570",
 "postedDate": "2026-09-29",
 "isNew": false
 },
@@ -956,15 +983,6 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/756d8c20-649a-47f2-8012-553b5f6cb0c5",
 "postedDate": "2026-09-30",
-"isNew": false
-},
-{
-"title": "Research Lead, Policy Communications",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/0320cd25-ede1-4d25-8a61-65d801f1726e",
-"postedDate": "2026-09-28",
 "isNew": false
 }
 ],
@@ -1046,7 +1064,7 @@
 "isNew": false
 },
 {
-"title": "Applied AI Engineer, Digital Natives",
+"title": "Applied AI Engineer, API Platform, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
 "state": "NY",
@@ -1063,13 +1081,30 @@
 ],
 "jobs": [
 {
-"title": "Applied AI Engineer, Digital Natives",
+"title": "Applied AI Engineer, API Platform, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
 "state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
 "postedDate": "2026-09-29",
 "isNew": false
+}
+],
+"asOf": "2026-10-02"
+},
+"it-support-specialist-it-technician": {
+"companies": [
+"Axon"
+],
+"jobs": [
+{
+"title": "Firmware Validation Technician II (Onsite)",
+"company": "Axon",
+"location": "Scottsdale, Arizona, United States",
+"state": null,
+"url": "https://job-boards.greenhouse.io/axon/jobs/7908744003",
+"postedDate": "2026-10-02",
+"isNew": true
 }
 ],
 "asOf": "2026-10-02"
@@ -1130,7 +1165,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/1f7c6071-ad3a-4903-9b05-4684f5c1a7c8",
 "postedDate": "2026-10-01",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Account Associate - SF",
@@ -1267,7 +1302,7 @@
 "isNew": false
 },
 {
-"title": "Applied AI Engineer, Digital Natives",
+"title": "Applied AI Engineer, API Platform, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
 "state": "NY",
@@ -1337,7 +1372,7 @@
 ],
 "jobs": [
 {
-"title": "Applied AI Engineer, Digital Natives",
+"title": "Applied AI Engineer, API Platform, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
 "state": "NY",
@@ -1352,6 +1387,15 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/ab463045-cd9b-4100-a037-f1135ace1464",
 "postedDate": "2026-10-01",
+"isNew": false
+},
+{
+"title": "Applied AI Delivery Lead",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/afebc24f-c6b8-4c66-a344-b1661fc77570",
+"postedDate": "2026-09-29",
 "isNew": false
 },
 {
@@ -1407,7 +1451,7 @@
 ],
 "jobs": [
 {
-"title": "Applied AI Engineer, Digital Natives",
+"title": "Applied AI Engineer, API Platform, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
 "state": "NY",
@@ -1447,7 +1491,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/1f7c6071-ad3a-4903-9b05-4684f5c1a7c8",
 "postedDate": "2026-10-01",
-"isNew": true
+"isNew": false
 }
 ],
 "asOf": "2026-10-02"
@@ -1527,7 +1571,7 @@
 ],
 "jobs": [
 {
-"title": "Applied AI Engineer, Digital Natives",
+"title": "Applied AI Engineer, API Platform, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
 "state": "NY",
