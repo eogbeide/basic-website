@@ -1532,6 +1532,59 @@ footer {
   margin: 10px 0 0;
 }
 
+/* Collapsible section pattern: a <details> whose <summary> carries the
+   .section-collapse-summary class. Used wherever a section benefits from
+   being minimizable (How It Works, Real Credentials directory sections). */
+.section-collapse-summary {
+  cursor: pointer;
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  user-select: none;
+}
+
+.section-collapse-summary::-webkit-details-marker {
+  display: none;
+}
+
+.section-collapse-summary::marker {
+  content: '';
+}
+
+.section-collapse-summary:focus-visible {
+  outline: 2px solid #ffc629;
+  outline-offset: 4px;
+  border-radius: 8px;
+}
+
+.section-collapse-chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px solid #333;
+  color: #8a8a8a;
+  font-size: 11px;
+  transition: transform 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.section-collapse-summary:hover .section-collapse-chevron {
+  color: #ffc629;
+  border-color: rgba(255, 198, 41, 0.45);
+}
+
+details[open] > .section-collapse-summary .section-collapse-chevron {
+  transform: rotate(180deg);
+}
+
+.section-collapse-summary h2 {
+  margin: 0;
+}
+
 .featured-this-week-card {
   display: flex;
   align-items: center;
