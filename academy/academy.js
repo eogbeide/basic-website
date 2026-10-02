@@ -18,31 +18,48 @@
 
   // Real, live openings pulled directly from each role's actual benchmark
   // companies' own public job-board APIs (see build_jobs_data.py) -- never
-  // scraped or invented. Most roles have no entry here, since most
-  // benchmark employers (Amazon, Google, big consultancies, insurers...)
-  // don't expose a public job-board API; that's expected, not a bug, so
-  // the block is simply omitted rather than showing an empty state.
+  // scraped or invented. Refreshed daily and filtered to postings from the
+  // last 7 days, with anything from the last 24h flagged "New today"; most
+  // roles have no entry here, since most benchmark employers (Amazon,
+  // Google, big consultancies, insurers...) don't expose a public
+  // job-board API, or simply haven't posted anything that recently -- both
+  // expected, not a bug, so the block is simply omitted rather than
+  // showing an empty state.
   var JOBS_BY_ROLE = (typeof JOBS_DATA !== 'undefined' ? JOBS_DATA : {});
+
+  function relativeDay(dateStr) {
+    if (!dateStr) return '';
+    var posted = new Date(dateStr + 'T00:00:00Z');
+    var today = new Date();
+    var todayUtc = new Date(Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate()));
+    var days = Math.round((todayUtc - posted) / 86400000);
+    if (days <= 0) return 'today';
+    if (days === 1) return 'yesterday';
+    return days + ' days ago';
+  }
+
+  function renderJobItem(j) {
+    return (
+      '<li class="hiring-job' + (j.isNew ? ' hiring-job-new' : '') + '">' +
+      '<a href="' + escapeHtml(j.url) + '" target="_blank" rel="noopener noreferrer">' +
+      '<span class="hiring-job-title">' +
+      (j.isNew ? '<span class="hiring-job-badge">New Today</span>' : '') +
+      escapeHtml(j.title) + '</span>' +
+      '<span class="hiring-job-meta">' + escapeHtml(j.company) + (j.location ? ' &middot; ' + escapeHtml(j.location) : '') +
+      ' &middot; posted ' + relativeDay(j.postedDate) + '</span>' +
+      '</a></li>'
+    );
+  }
 
   function renderHiringBlock(slug) {
     var entry = JOBS_BY_ROLE[slug];
     if (!entry || !entry.jobs || !entry.jobs.length) return '';
-    var items = entry.jobs
-      .map(function (j) {
-        return (
-          '<li class="hiring-job">' +
-          '<a href="' + escapeHtml(j.url) + '" target="_blank" rel="noopener noreferrer">' +
-          '<span class="hiring-job-title">' + escapeHtml(j.title) + '</span>' +
-          '<span class="hiring-job-meta">' + escapeHtml(j.company) + (j.location ? ' &middot; ' + escapeHtml(j.location) : '') + '</span>' +
-          '</a></li>'
-        );
-      })
-      .join('');
+    var items = entry.jobs.map(renderJobItem).join('');
     return (
       '<div class="hiring-block">' +
       '<h3>Who&rsquo;s Hiring Right Now</h3>' +
-      '<p class="hiring-block-note">Live openings at ' + escapeHtml(entry.companies.join(', ')) +
-      ' &mdash; this role&rsquo;s own benchmark employers &mdash; as of ' + escapeHtml(entry.asOf) +
+      '<p class="hiring-block-note">Live openings posted in the last 7 days at ' + escapeHtml(entry.companies.join(', ')) +
+      ' &mdash; this role&rsquo;s own benchmark employers &mdash; refreshed daily, as of ' + escapeHtml(entry.asOf) +
       '. Pulled directly from each company&rsquo;s public job board; not exhaustive, and postings close fast, so always confirm on the employer&rsquo;s own site before applying.</p>' +
       '<ul class="hiring-job-list">' + items + '</ul>' +
       '</div>'
@@ -68,22 +85,12 @@
     });
     if (!jobs.length) return '';
     jobs = jobs.slice(0, 8);
-    var items = jobs
-      .map(function (j) {
-        return (
-          '<li class="hiring-job">' +
-          '<a href="' + escapeHtml(j.url) + '" target="_blank" rel="noopener noreferrer">' +
-          '<span class="hiring-job-title">' + escapeHtml(j.title) + '</span>' +
-          '<span class="hiring-job-meta">' + escapeHtml(j.company) + (j.location ? ' &middot; ' + escapeHtml(j.location) : '') + '</span>' +
-          '</a></li>'
-        );
-      })
-      .join('');
+    var items = jobs.map(renderJobItem).join('');
     return (
       '<div class="hiring-block">' +
       '<h3>Who&rsquo;s Hiring Right Now</h3>' +
-      '<p class="hiring-block-note">Live openings at ' + escapeHtml(Object.keys(companies).join(', ')) +
-      ' across this pathway&rsquo;s representative roles. Pulled directly from each company&rsquo;s public job board; not exhaustive, and postings close fast, so always confirm on the employer&rsquo;s own site before applying.</p>' +
+      '<p class="hiring-block-note">Live openings posted in the last 7 days at ' + escapeHtml(Object.keys(companies).join(', ')) +
+      ' across this pathway&rsquo;s representative roles, refreshed daily. Pulled directly from each company&rsquo;s public job board; not exhaustive, and postings close fast, so always confirm on the employer&rsquo;s own site before applying.</p>' +
       '<ul class="hiring-job-list">' + items + '</ul>' +
       '</div>'
     );
@@ -1723,6 +1730,67 @@
       setMode('roles', null, false);
     }
   }
+
+  // Homepage "Featured Jobs": a sample of real, live, recently-posted
+  // openings pulled from JOBS_DATA (see build_jobs_data.py), favoring the
+  // freshest postings. Only present on academy/index.html, which has the
+  // #featured-jobs-grid placeholder; a no-op everywhere else, including
+  // every generated role/pathway/certificate page.
+  function initFeaturedJobsHome() {
+    var grid = document.getElementById('featured-jobs-grid');
+    var section = document.getElementById('featured-jobs-section');
+    if (!grid || !section) return;
+
+    var pool = [];
+    Object.keys(JOBS_BY_ROLE).forEach(function (slug) {
+      var entry = JOBS_BY_ROLE[slug];
+      entry.jobs.forEach(function (j) {
+        pool.push({
+          title: j.title,
+          company: j.company,
+          location: j.location,
+          url: j.url,
+          postedDate: j.postedDate,
+          isNew: j.isNew,
+          roleSlug: slug,
+        });
+      });
+    });
+    if (!pool.length) return;
+
+    var seen = {};
+    pool = pool.filter(function (j) {
+      if (seen[j.url]) return false;
+      seen[j.url] = true;
+      return true;
+    });
+    pool.sort(function (a, b) {
+      if (a.isNew !== b.isNew) return a.isNew ? -1 : 1;
+      return a.postedDate < b.postedDate ? 1 : (a.postedDate > b.postedDate ? -1 : 0);
+    });
+    var picks = pool.slice(0, 6);
+
+    grid.innerHTML = picks
+      .map(function (j) {
+        var role = MODES.roles.bySlug[j.roleSlug];
+        var roleLink = role
+          ? '<a class="featured-job-role-link" href="/academy/roles/' + escapeHtml(j.roleSlug) + '/">See the ' + escapeHtml(role.name) + ' path &rarr;</a>'
+          : '';
+        return (
+          '<div class="featured-job-card' + (j.isNew ? ' featured-job-new' : '') + '">' +
+          (j.isNew ? '<span class="hiring-job-badge">New Today</span>' : '') +
+          '<p class="featured-job-title">' + escapeHtml(j.title) + '</p>' +
+          '<p class="featured-job-meta">' + escapeHtml(j.company) + (j.location ? ' &middot; ' + escapeHtml(j.location) : '') + ' &middot; posted ' + relativeDay(j.postedDate) + '</p>' +
+          '<a class="featured-job-apply" href="' + escapeHtml(j.url) + '" target="_blank" rel="noopener noreferrer">Apply on ' + escapeHtml(j.company) + '&rsquo;s site &rarr;</a>' +
+          roleLink +
+          '</div>'
+        );
+      })
+      .join('');
+    section.hidden = false;
+  }
+
+  initFeaturedJobsHome();
 
   window.addEventListener('popstate', routeFromPath);
   routeFromPath();

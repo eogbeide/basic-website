@@ -1,0 +1,12 @@
+{
+  "name": "zuyini-academy-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Build/data scripts for zuyini.com (static site). See scripts/ for the jobs-refresh, static-page-generation and sitemap pipeline.",
+  "scripts": {
+    "refresh-jobs": "python3 scripts/build_jobs_data.py && node scripts/generate_static_academy.js && python3 scripts/generate_sitemap.py"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.0"
+  }
+}
