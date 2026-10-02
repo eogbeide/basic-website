@@ -354,3 +354,9 @@ console.log('skill tracks generated:', skillTracks.length);
 
 fs.writeFileSync(`${ROOT}/.static-academy-urls.json`, JSON.stringify(urls, null, 2));
 console.log('total URLs:', urls.length);
+
+// academy.js's homepage carousel (initFeaturedJobsHome) starts a real
+// setInterval when evaluated into this script's jsdom window, which would
+// otherwise keep the Node event loop alive forever since nothing here
+// ever navigates away from that page/clears it.
+process.exit(0);

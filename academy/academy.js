@@ -51,9 +51,33 @@
     );
   }
 
-  function renderHiringBlock(slug) {
+  // Most roles/pathways/certificates/skill-tracks/interview-prep tracks
+  // have no tier-1 (live, matched) job data -- most named benchmark
+  // employers (Amazon, Google, big consultancies, insurers...) don't
+  // expose a public job-board API, or just haven't posted anything
+  // recently. Rather than showing nothing there, every page falls back to
+  // a tier-2 block: real, live LinkedIn/Indeed search links for that
+  // subject, clearly labeled as a search shortcut rather than a curated
+  // match, so nothing here is ever invented or exaggerated.
+  function renderHiringFallback(subjectName) {
+    var q = encodeURIComponent(subjectName + ' jobs');
+    return (
+      '<div class="hiring-block hiring-block-fallback">' +
+      '<h3>Search Live Openings</h3>' +
+      '<p class="hiring-block-note">We don&rsquo;t have a direct job-board feed matched to this one yet, so here are real, live US job searches for &ldquo;' + escapeHtml(subjectName) + '&rdquo; instead.</p>' +
+      '<div class="hiring-fallback-links">' +
+      '<a href="https://www.linkedin.com/jobs/search/?keywords=' + q + '&location=United%20States" target="_blank" rel="noopener noreferrer">Search on LinkedIn &rarr;</a>' +
+      '<a href="https://www.indeed.com/jobs?q=' + q + '&l=United+States" target="_blank" rel="noopener noreferrer">Search on Indeed &rarr;</a>' +
+      '</div>' +
+      '</div>'
+    );
+  }
+
+  function renderHiringBlock(slug, fallbackName) {
     var entry = JOBS_BY_ROLE[slug];
-    if (!entry || !entry.jobs || !entry.jobs.length) return '';
+    if (!entry || !entry.jobs || !entry.jobs.length) {
+      return fallbackName ? renderHiringFallback(fallbackName) : '';
+    }
     var items = entry.jobs.map(renderJobItem).join('');
     return (
       '<div class="hiring-block">' +
@@ -69,7 +93,7 @@
   // A pathway has no benchmark companies of its own -- it aggregates the
   // already-matched openings from its representative roles instead, so
   // there's no separate fetch/match step for pathways at all.
-  function renderHiringBlockForPathway(representativeRoles) {
+  function renderHiringBlockForPathway(representativeRoles, pathwayName) {
     var seenUrls = {};
     var jobs = [];
     var companies = {};
@@ -83,7 +107,7 @@
         companies[j.company] = true;
       });
     });
-    if (!jobs.length) return '';
+    if (!jobs.length) return renderHiringFallback(pathwayName);
     jobs = jobs.slice(0, 8);
     var items = jobs.map(renderJobItem).join('');
     return (
@@ -94,6 +118,17 @@
       '<ul class="hiring-job-list">' + items + '</ul>' +
       '</div>'
     );
+  }
+
+  // Interview-prep tracks reuse their related role's tier-1 data when
+  // available (no separate fetch/match step), falling back to a tier-2
+  // search for the track's own name otherwise.
+  function renderHiringBlockForInterview(track) {
+    if (track.relatedRole) {
+      var tier1 = renderHiringBlock(slugify(track.relatedRole), null);
+      if (tier1) return tier1;
+    }
+    return renderHiringFallback(track.name);
   }
 
   // Rubrics arrive as one semicolon-separated sentence; render each clause
@@ -231,6 +266,7 @@
       '<div class="detail-card">' +
       '<h2>' + escapeHtml(track.name) + '</h2>' +
       renderShareBar('https://zuyini.com/academy/interview/' + slugify(track.name) + '/', track.name + ' Interview Prep | Zuyini Academy') +
+      renderHiringBlockForInterview(track) +
       renderInterviewTrackBody(track) +
       '</div>'
     );
@@ -306,7 +342,7 @@
       '<h2>' + escapeHtml(role.name) + '</h2>' +
       renderShareBar('https://zuyini.com/academy/roles/' + slugify(role.name) + '/', role.name + ' | Zuyini Academy') +
       (role.benchmark ? '<p class="detail-benchmark">Benchmark: ' + escapeHtml(role.benchmark) + '</p>' : '') +
-      renderHiringBlock(slugify(role.name)) +
+      renderHiringBlock(slugify(role.name), role.name) +
       bodyHtml +
       '</div>'
     );
@@ -400,7 +436,7 @@
       renderShareBar('https://zuyini.com/academy/pathways/' + slugify(pathway.name) + '/', pathway.name + ' | Zuyini Academy Career Pathway') +
       (pathway.description ? '<p class="detail-description">' + escapeHtml(pathway.description) + '</p>' : '') +
       (pathway.market_basis ? '<p class="detail-benchmark">Market Basis: ' + escapeHtml(pathway.market_basis) + '</p>' : '') +
-      renderHiringBlockForPathway(pathway.representative_roles) +
+      renderHiringBlockForPathway(pathway.representative_roles, pathway.name) +
       (roleLinks
         ? '<div class="cross-links-block"><h3>Representative Roles</h3><div class="role-pills">' + roleLinks + '</div></div>'
         : '') +
@@ -454,6 +490,7 @@
       renderShareBar('https://zuyini.com/academy/certificates/' + slugify(cert.name) + '/', cert.name + ' | Zuyini Academy') +
       (cert.description ? '<p class="detail-description">' + escapeHtml(cert.description) + '</p>' : '') +
       (cert.university_benchmark ? '<p class="detail-benchmark">University Curriculum Benchmark: ' + escapeHtml(cert.university_benchmark) + '</p>' : '') +
+      renderHiringFallback(cert.name) +
       tiers +
       (resourceLinks
         ? '<div class="cross-links-block"><h3>Direct Learning Bridges</h3><ul class="video-links">' + resourceLinks + '</ul></div>'
@@ -551,6 +588,7 @@
       '<div class="detail-card">' +
       '<h2>' + escapeHtml(track.name) + '</h2>' +
       renderShareBar('https://zuyini.com/academy/skills/' + slugify(track.name) + '/', track.name + ' | Zuyini Academy Skill Track') +
+      renderHiringFallback(track.name) +
       renderSkillTrackBody(track) +
       '</div>'
     );
@@ -1803,41 +1841,88 @@
         }).join('');
     }
 
+    var SLOT_COUNT = 6;
+    var ROTATE_MS = 3500;
+    var prefersReducedMotion = (typeof window.matchMedia === 'function') &&
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    function cardHtml(j) {
+      var role = MODES.roles.bySlug[j.roleSlug];
+      var roleLink = role
+        ? '<a class="featured-job-role-link" href="/academy/roles/' + escapeHtml(j.roleSlug) + '/">See the ' + escapeHtml(role.name) + ' path &rarr;</a>'
+        : '';
+      return (
+        (j.isNew ? '<span class="hiring-job-badge">New Today</span>' : '') +
+        '<p class="featured-job-title">' + escapeHtml(j.title) + '</p>' +
+        '<p class="featured-job-meta">' + escapeHtml(j.company) + (j.location ? ' &middot; ' + escapeHtml(j.location) : '') + ' &middot; posted ' + relativeDay(j.postedDate) + '</p>' +
+        '<a class="featured-job-apply" href="' + escapeHtml(j.url) + '" target="_blank" rel="noopener noreferrer">Apply on ' + escapeHtml(j.company) + '&rsquo;s site &rarr;</a>' +
+        roleLink
+      );
+    }
+
+    var rotateTimer = null;
+    var currentPool = [];
+    var nextPullIndex = 0;
+    var slotCursor = 0;
+
+    function stopRotation() {
+      if (rotateTimer) { clearInterval(rotateTimer); rotateTimer = null; }
+    }
+
+    function startRotation() {
+      stopRotation();
+      if (prefersReducedMotion || currentPool.length <= SLOT_COUNT) return;
+      rotateTimer = setInterval(function () {
+        var slots = grid.children;
+        if (!slots.length) return;
+        var slotEl = slots[slotCursor % slots.length];
+        slotCursor++;
+        nextPullIndex = (nextPullIndex + 1) % currentPool.length;
+        var nextJob = currentPool[nextPullIndex];
+        slotEl.classList.add('featured-job-card-out');
+        setTimeout(function () {
+          slotEl.className = 'featured-job-card' + (nextJob.isNew ? ' featured-job-new' : '') + ' featured-job-card-in';
+          slotEl.innerHTML = cardHtml(nextJob);
+          // force a reflow so the browser registers the "just swapped in,
+          // start transparent" state before removing it, or the fade-in
+          // never visibly runs.
+          void slotEl.offsetWidth;
+          slotEl.classList.remove('featured-job-card-in');
+        }, 320);
+      }, ROTATE_MS);
+    }
+
     function render(stateFilter) {
-      var filtered = (!stateFilter || stateFilter === 'all')
+      stopRotation();
+      currentPool = (!stateFilter || stateFilter === 'all')
         ? pool
         : pool.filter(function (j) { return j.state === stateFilter; });
-      var picks = filtered.slice(0, 6);
 
-      if (!picks.length) {
+      if (!currentPool.length) {
         grid.innerHTML = '';
         if (emptyNote) emptyNote.hidden = false;
         return;
       }
       if (emptyNote) emptyNote.hidden = true;
 
+      var picks = currentPool.slice(0, SLOT_COUNT);
+      nextPullIndex = picks.length - 1;
+      slotCursor = 0;
       grid.innerHTML = picks
-        .map(function (j) {
-          var role = MODES.roles.bySlug[j.roleSlug];
-          var roleLink = role
-            ? '<a class="featured-job-role-link" href="/academy/roles/' + escapeHtml(j.roleSlug) + '/">See the ' + escapeHtml(role.name) + ' path &rarr;</a>'
-            : '';
-          return (
-            '<div class="featured-job-card' + (j.isNew ? ' featured-job-new' : '') + '">' +
-            (j.isNew ? '<span class="hiring-job-badge">New Today</span>' : '') +
-            '<p class="featured-job-title">' + escapeHtml(j.title) + '</p>' +
-            '<p class="featured-job-meta">' + escapeHtml(j.company) + (j.location ? ' &middot; ' + escapeHtml(j.location) : '') + ' &middot; posted ' + relativeDay(j.postedDate) + '</p>' +
-            '<a class="featured-job-apply" href="' + escapeHtml(j.url) + '" target="_blank" rel="noopener noreferrer">Apply on ' + escapeHtml(j.company) + '&rsquo;s site &rarr;</a>' +
-            roleLink +
-            '</div>'
-          );
-        })
+        .map(function (j) { return '<div class="featured-job-card' + (j.isNew ? ' featured-job-new' : '') + '">' + cardHtml(j) + '</div>'; })
         .join('');
+      startRotation();
     }
 
     if (select) {
       select.addEventListener('change', function () { render(select.value); });
     }
+    grid.addEventListener('mouseenter', stopRotation);
+    grid.addEventListener('mouseleave', function () { startRotation(); });
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden) stopRotation(); else startRotation();
+    });
+
     render('all');
     section.hidden = false;
   }

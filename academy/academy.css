@@ -763,6 +763,33 @@ a {
   border-color: rgba(255, 198, 41, 0.45);
 }
 
+.hiring-block-fallback {
+  background: none;
+  border-color: #2a2a2a;
+}
+
+.hiring-fallback-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hiring-fallback-links a {
+  display: inline-block;
+  background-color: #17181a;
+  border: 1px solid #333;
+  color: #ffc629;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.hiring-fallback-links a:hover {
+  border-color: rgba(255, 198, 41, 0.5);
+}
+
 .cross-links-block,
 .course-sequence-block,
 .tier-block {
@@ -2232,10 +2259,27 @@ body.landing-font {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.32s ease, transform 0.32s ease, border-color 0.2s ease;
 }
 
 .featured-job-new {
   border-color: rgba(255, 198, 41, 0.45);
+}
+
+/* Rotating carousel: a slot fades/slides out, its content is swapped, then
+   it fades/slides back in -- see startRotation() in academy.js. Disabled
+   entirely (static grid, no interval started) when the visitor's system
+   has prefers-reduced-motion set. */
+.featured-job-card-out {
+  opacity: 0;
+  transform: translateY(8px);
+}
+
+.featured-job-card-in {
+  opacity: 0;
+  transform: translateY(-8px);
 }
 
 .featured-job-title {
