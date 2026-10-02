@@ -481,6 +481,25 @@ footer p {
   margin: 0;
 }
 
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 20px;
+  margin-bottom: 14px;
+}
+
+.footer-links a {
+  color: #a8a8a8;
+  font-size: 12.5px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #ffc629;
+}
+
 @media (max-width: 850px) {
   .site-header {
     /* Stacks the logo and navigation on smaller screens. */
