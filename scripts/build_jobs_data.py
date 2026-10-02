@@ -21,6 +21,141 @@ import concurrent.futures
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TODAY = datetime.date.today().isoformat()
 
+# --- US-only location filtering -------------------------------------------
+# Job-board location fields are free text in wildly different formats
+# ("San Francisco, CA", "US-CA-Menlo Park", "Dublin, IE", "Remote, United
+# States", pipe/semicolon-separated multi-location strings...). classify_
+# location() below returns (is_us, state_or_none) so non-US postings can be
+# excluded entirely and the rest can be filtered/labeled by US state.
+US_STATE_ABBR = set("""
+AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO
+MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY DC
+""".split())
+
+US_STATE_NAME_TO_ABBR = {
+    "alabama": "AL", "alaska": "AK", "arizona": "AZ", "arkansas": "AR",
+    "california": "CA", "colorado": "CO", "connecticut": "CT", "delaware": "DE",
+    "florida": "FL", "georgia": "GA", "hawaii": "HI", "idaho": "ID",
+    "illinois": "IL", "indiana": "IN", "iowa": "IA", "kansas": "KS",
+    "kentucky": "KY", "louisiana": "LA", "maine": "ME", "maryland": "MD",
+    "massachusetts": "MA", "michigan": "MI", "minnesota": "MN",
+    "mississippi": "MS", "missouri": "MO", "montana": "MT", "nebraska": "NE",
+    "nevada": "NV", "new hampshire": "NH", "new jersey": "NJ",
+    "new mexico": "NM", "new york": "NY", "north carolina": "NC",
+    "north dakota": "ND", "ohio": "OH", "oklahoma": "OK", "oregon": "OR",
+    "pennsylvania": "PA", "rhode island": "RI", "south carolina": "SC",
+    "south dakota": "SD", "tennessee": "TN", "texas": "TX", "utah": "UT",
+    "vermont": "VT", "virginia": "VA", "washington": "WA",
+    "west virginia": "WV", "wisconsin": "WI", "wyoming": "WY",
+    "district of columbia": "DC",
+}
+
+US_CITY_TO_STATE = {
+    "new york city": "NY", "nyc": "NY", "new york": "NY",
+    "san francisco": "CA", "sf": "CA", "menlo park": "CA",
+    "los angeles": "CA", "san diego": "CA", "palo alto": "CA",
+    "mountain view": "CA", "sunnyvale": "CA", "santa clara": "CA",
+    "seattle": "WA", "bellevue": "WA",
+    "boston": "MA", "cambridge": "MA",
+    "chicago": "IL",
+    "austin": "TX", "dallas": "TX", "houston": "TX",
+    "denver": "CO", "boulder": "CO",
+    "atlanta": "GA",
+    "miami": "FL",
+    "washington": "DC", "washington dc": "DC",
+    "portland": "OR",
+    "philadelphia": "PA",
+    "phoenix": "AZ",
+    "detroit": "MI",
+    "minneapolis": "MN",
+    "salt lake city": "UT",
+    "raleigh": "NC", "durham": "NC",
+    "nashville": "TN",
+}
+
+NON_US_SIGNALS = set("""
+india ireland uk united kingdom germany japan australia canada singapore
+switzerland poland france spain italy netherlands sweden norway denmark
+finland brazil mexico argentina china korea south korea philippines
+vietnam thailand indonesia malaysia israel uae united arab emirates
+egypt nigeria kenya south africa portugal austria belgium czech
+czech republic romania hungary greece ukraine russia new zealand
+ie ch pl de fr es it nl se no dk fi br mx ar cn kr ph vn th id my il ae
+eg ng ke za pt at be cz ro hu gr ua ru nz au in jp sg ca gb
+bangalore bengaluru mumbai delhi hyderabad pune chennai
+dublin london munich berlin paris madrid barcelona tokyo osaka
+sydney melbourne toronto vancouver montreal ontario quebec
+singapore seoul zurich zürich geneva amsterdam warsaw
+""".split())
+
+
+def classify_location(raw):
+    """Returns (is_us: bool, state: str|None). state is a 2-letter code,
+    "Remote" for US-remote-no-state-given, or None if US but unspecified."""
+    if not raw or not raw.strip():
+        return (False, None)
+    segments = re.split(r"[;|]|(?:\s+OR\s+)", raw)
+    found_us_state = None
+    found_us_remote = False
+    found_non_us = False
+    found_any_us_signal = False
+
+    for seg in segments:
+        seg = seg.strip()
+        if not seg:
+            continue
+        seg_l = seg.lower()
+        is_remote = "remote" in seg_l
+
+        if "united states" in seg_l or re.search(r"\busa\b", seg_l) or re.search(r"^us-", seg, re.I):
+            found_any_us_signal = True
+            if is_remote:
+                found_us_remote = True
+            m = re.search(r"\bUS-([A-Z]{2})\b", seg)
+            if m and m.group(1) in US_STATE_ABBR:
+                found_us_state = found_us_state or m.group(1)
+            continue
+
+        parts = [p.strip() for p in seg.split(",")]
+        matched_state_here = None
+        for p in parts:
+            p_clean = p.strip()
+            if p_clean.upper() in US_STATE_ABBR and len(p_clean) == 2:
+                matched_state_here = p_clean.upper()
+            elif p_clean.lower() in US_STATE_NAME_TO_ABBR:
+                matched_state_here = US_STATE_NAME_TO_ABBR[p_clean.lower()]
+        if matched_state_here:
+            found_any_us_signal = True
+            found_us_state = found_us_state or matched_state_here
+            continue
+
+        city_key = seg_l.replace("remote", "").replace("-", " ").strip(" ,")
+        city_hit = None
+        for city, st in US_CITY_TO_STATE.items():
+            if city in city_key:
+                city_hit = st
+                break
+
+        non_us_hit = any(sig in seg_l for sig in NON_US_SIGNALS)
+
+        if non_us_hit and not city_hit:
+            found_non_us = True
+            continue
+        if city_hit:
+            found_any_us_signal = True
+            found_us_state = found_us_state or city_hit
+            continue
+        if is_remote and not non_us_hit:
+            found_us_remote = found_us_remote or False
+
+    if found_us_state:
+        return (True, found_us_state)
+    if found_us_remote:
+        return (True, "Remote")
+    if found_any_us_signal:
+        return (True, None)
+    return (False, None)
+
 # Verified via live probe on 2026-10-02: each of these companies has a
 # public, unauthenticated job-board API. Display name -> (ats, token).
 # Only companies that actually resolved with jobs > 0 are kept.
@@ -190,8 +325,14 @@ def main():
     with concurrent.futures.ThreadPoolExecutor(max_workers=10) as ex:
         for name, jobs in ex.map(fetch_one, COMPANY_REGISTRY.items()):
             recent = [j for j in jobs if j["posted"] and j["posted"] >= cutoff]
-            company_jobs[name] = recent
-            print(f"  {name}: {len(jobs)} total postings, {len(recent)} within {RECENCY_WINDOW_DAYS}d")
+            us_recent = []
+            for j in recent:
+                is_us, state = classify_location(j["location"])
+                if is_us:
+                    j["state"] = state
+                    us_recent.append(j)
+            company_jobs[name] = us_recent
+            print(f"  {name}: {len(jobs)} total postings, {len(recent)} within {RECENCY_WINDOW_DAYS}d, {len(us_recent)} US")
 
     print()
     print("Matching roles to companies and relevant, recent openings...")
@@ -219,6 +360,7 @@ def main():
                         "title": job["title"],
                         "company": co,
                         "location": job["location"],
+                        "state": job.get("state"),
                         "url": job["url"],
                         "postedDate": job["posted"].date().isoformat(),
                         "isNew": age_hours <= NEW_TODAY_HOURS,

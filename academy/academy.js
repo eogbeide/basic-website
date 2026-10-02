@@ -58,7 +58,7 @@
     return (
       '<div class="hiring-block">' +
       '<h3>Who&rsquo;s Hiring Right Now</h3>' +
-      '<p class="hiring-block-note">Live openings posted in the last 7 days at ' + escapeHtml(entry.companies.join(', ')) +
+      '<p class="hiring-block-note">US openings posted in the last 7 days at ' + escapeHtml(entry.companies.join(', ')) +
       ' &mdash; this role&rsquo;s own benchmark employers &mdash; refreshed daily, as of ' + escapeHtml(entry.asOf) +
       '. Pulled directly from each company&rsquo;s public job board; not exhaustive, and postings close fast, so always confirm on the employer&rsquo;s own site before applying.</p>' +
       '<ul class="hiring-job-list">' + items + '</ul>' +
@@ -89,7 +89,7 @@
     return (
       '<div class="hiring-block">' +
       '<h3>Who&rsquo;s Hiring Right Now</h3>' +
-      '<p class="hiring-block-note">Live openings posted in the last 7 days at ' + escapeHtml(Object.keys(companies).join(', ')) +
+      '<p class="hiring-block-note">US openings posted in the last 7 days at ' + escapeHtml(Object.keys(companies).join(', ')) +
       ' across this pathway&rsquo;s representative roles, refreshed daily. Pulled directly from each company&rsquo;s public job board; not exhaustive, and postings close fast, so always confirm on the employer&rsquo;s own site before applying.</p>' +
       '<ul class="hiring-job-list">' + items + '</ul>' +
       '</div>'
@@ -1736,9 +1736,28 @@
   // freshest postings. Only present on academy/index.html, which has the
   // #featured-jobs-grid placeholder; a no-op everywhere else, including
   // every generated role/pathway/certificate page.
+  // US state full names for the filter dropdown's labels (the data itself
+  // stores 2-letter codes, plus the synthetic bucket "Remote").
+  var US_STATE_LABELS = {
+    AL: 'Alabama', AK: 'Alaska', AZ: 'Arizona', AR: 'Arkansas', CA: 'California',
+    CO: 'Colorado', CT: 'Connecticut', DE: 'Delaware', FL: 'Florida', GA: 'Georgia',
+    HI: 'Hawaii', ID: 'Idaho', IL: 'Illinois', IN: 'Indiana', IA: 'Iowa',
+    KS: 'Kansas', KY: 'Kentucky', LA: 'Louisiana', ME: 'Maine', MD: 'Maryland',
+    MA: 'Massachusetts', MI: 'Michigan', MN: 'Minnesota', MS: 'Mississippi',
+    MO: 'Missouri', MT: 'Montana', NE: 'Nebraska', NV: 'Nevada', NH: 'New Hampshire',
+    NJ: 'New Jersey', NM: 'New Mexico', NY: 'New York', NC: 'North Carolina',
+    ND: 'North Dakota', OH: 'Ohio', OK: 'Oklahoma', OR: 'Oregon', PA: 'Pennsylvania',
+    RI: 'Rhode Island', SC: 'South Carolina', SD: 'South Dakota', TN: 'Tennessee',
+    TX: 'Texas', UT: 'Utah', VT: 'Vermont', VA: 'Virginia', WA: 'Washington',
+    WV: 'West Virginia', WI: 'Wisconsin', WY: 'Wyoming', DC: 'Washington, DC',
+    Remote: 'Remote (US)',
+  };
+
   function initFeaturedJobsHome() {
     var grid = document.getElementById('featured-jobs-grid');
     var section = document.getElementById('featured-jobs-section');
+    var select = document.getElementById('featured-jobs-state-select');
+    var emptyNote = document.getElementById('featured-jobs-empty');
     if (!grid || !section) return;
 
     var pool = [];
@@ -1749,6 +1768,7 @@
           title: j.title,
           company: j.company,
           location: j.location,
+          state: j.state,
           url: j.url,
           postedDate: j.postedDate,
           isNew: j.isNew,
@@ -1768,25 +1788,57 @@
       if (a.isNew !== b.isNew) return a.isNew ? -1 : 1;
       return a.postedDate < b.postedDate ? 1 : (a.postedDate > b.postedDate ? -1 : 0);
     });
-    var picks = pool.slice(0, 6);
 
-    grid.innerHTML = picks
-      .map(function (j) {
-        var role = MODES.roles.bySlug[j.roleSlug];
-        var roleLink = role
-          ? '<a class="featured-job-role-link" href="/academy/roles/' + escapeHtml(j.roleSlug) + '/">See the ' + escapeHtml(role.name) + ' path &rarr;</a>'
-          : '';
-        return (
-          '<div class="featured-job-card' + (j.isNew ? ' featured-job-new' : '') + '">' +
-          (j.isNew ? '<span class="hiring-job-badge">New Today</span>' : '') +
-          '<p class="featured-job-title">' + escapeHtml(j.title) + '</p>' +
-          '<p class="featured-job-meta">' + escapeHtml(j.company) + (j.location ? ' &middot; ' + escapeHtml(j.location) : '') + ' &middot; posted ' + relativeDay(j.postedDate) + '</p>' +
-          '<a class="featured-job-apply" href="' + escapeHtml(j.url) + '" target="_blank" rel="noopener noreferrer">Apply on ' + escapeHtml(j.company) + '&rsquo;s site &rarr;</a>' +
-          roleLink +
-          '</div>'
-        );
-      })
-      .join('');
+    if (select) {
+      var statesPresent = {};
+      pool.forEach(function (j) { if (j.state) statesPresent[j.state] = true; });
+      var orderedStates = Object.keys(statesPresent).sort(function (a, b) {
+        if (a === 'Remote') return -1;
+        if (b === 'Remote') return 1;
+        return (US_STATE_LABELS[a] || a).localeCompare(US_STATE_LABELS[b] || b);
+      });
+      select.innerHTML = '<option value="all">All States</option>' +
+        orderedStates.map(function (st) {
+          return '<option value="' + escapeHtml(st) + '">' + escapeHtml(US_STATE_LABELS[st] || st) + '</option>';
+        }).join('');
+    }
+
+    function render(stateFilter) {
+      var filtered = (!stateFilter || stateFilter === 'all')
+        ? pool
+        : pool.filter(function (j) { return j.state === stateFilter; });
+      var picks = filtered.slice(0, 6);
+
+      if (!picks.length) {
+        grid.innerHTML = '';
+        if (emptyNote) emptyNote.hidden = false;
+        return;
+      }
+      if (emptyNote) emptyNote.hidden = true;
+
+      grid.innerHTML = picks
+        .map(function (j) {
+          var role = MODES.roles.bySlug[j.roleSlug];
+          var roleLink = role
+            ? '<a class="featured-job-role-link" href="/academy/roles/' + escapeHtml(j.roleSlug) + '/">See the ' + escapeHtml(role.name) + ' path &rarr;</a>'
+            : '';
+          return (
+            '<div class="featured-job-card' + (j.isNew ? ' featured-job-new' : '') + '">' +
+            (j.isNew ? '<span class="hiring-job-badge">New Today</span>' : '') +
+            '<p class="featured-job-title">' + escapeHtml(j.title) + '</p>' +
+            '<p class="featured-job-meta">' + escapeHtml(j.company) + (j.location ? ' &middot; ' + escapeHtml(j.location) : '') + ' &middot; posted ' + relativeDay(j.postedDate) + '</p>' +
+            '<a class="featured-job-apply" href="' + escapeHtml(j.url) + '" target="_blank" rel="noopener noreferrer">Apply on ' + escapeHtml(j.company) + '&rsquo;s site &rarr;</a>' +
+            roleLink +
+            '</div>'
+          );
+        })
+        .join('');
+    }
+
+    if (select) {
+      select.addEventListener('change', function () { render(select.value); });
+    }
+    render('all');
     section.hidden = false;
   }
 

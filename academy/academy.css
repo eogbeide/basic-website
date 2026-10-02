@@ -2179,7 +2179,43 @@ body.landing-font {
   font-size: 13.5px;
   line-height: 1.6;
   max-width: 680px;
-  margin: 0 0 28px;
+  margin: 0 0 20px;
+}
+
+.featured-jobs-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 20px;
+}
+
+.featured-jobs-controls label {
+  color: #a8a8a8;
+  font-size: 12.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.featured-jobs-controls select {
+  background-color: #1c1d1e;
+  border: 1px solid #333;
+  color: #ffffff;
+  font-size: 13.5px;
+  font-family: inherit;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.featured-jobs-controls select:focus {
+  outline: none;
+  border-color: #ffc629;
+}
+
+.featured-jobs-empty {
+  color: #a8a8a8;
+  font-size: 13.5px;
 }
 
 .featured-jobs-grid {

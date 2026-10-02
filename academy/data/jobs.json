@@ -9,6 +9,7 @@
 "title": "Strategic Sourcing Lead, Professional Services \u2013 Human Data",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/ba36fd95-2474-4986-98a6-5280c4e41bd3",
 "postedDate": "2026-10-02",
 "isNew": true
@@ -17,6 +18,7 @@
 "title": "Network Deployment and Maintenance Lead - Data Center Operations",
 "company": "Anthropic",
 "location": "Remote-Friendly, United States",
+"state": "Remote",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439804008",
 "postedDate": "2026-09-30",
 "isNew": false
@@ -31,34 +33,11 @@
 ],
 "jobs": [
 {
-"title": "Applied AI Engineer, Codex",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
-"postedDate": "2026-09-30",
-"isNew": false
-},
-{
 "title": "Applied AI Engineer, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
+"state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Singapore (Weekend Shift)",
-"company": "OpenAI",
-"location": "Singapore",
-"url": "https://jobs.ashbyhq.com/openai/bfd83255-8491-4c92-be4d-04dd0911cbe6",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Tokyo (Weekend Shift)",
-"company": "OpenAI",
-"location": "Tokyo, Japan",
-"url": "https://jobs.ashbyhq.com/openai/2535d647-d4f6-4745-9b97-90dfda3007f7",
 "postedDate": "2026-09-29",
 "isNew": false
 },
@@ -66,15 +45,8 @@
 "title": "Applied AI Engineer, Beneficial Deployments (Life Sciences)",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5437172008",
-"postedDate": "2026-09-28",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Toronto (Weekend Shift)",
-"company": "OpenAI",
-"location": "Ontario - Remote",
-"url": "https://jobs.ashbyhq.com/openai/186bf7d1-0531-47fc-8e81-4429cbd3b5cb",
 "postedDate": "2026-09-28",
 "isNew": false
 }
@@ -91,39 +63,17 @@
 "title": "Data Center Hardware Quality & Reliability Engineer",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/e7594296-a38b-43a1-b4f8-01253a3b7732",
 "postedDate": "2026-09-28",
-"isNew": false
-},
-{
-"title": "Applied AI Engineer, Codex",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
-"postedDate": "2026-09-30",
 "isNew": false
 },
 {
 "title": "Applied AI Engineer, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
+"state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Singapore (Weekend Shift)",
-"company": "OpenAI",
-"location": "Singapore",
-"url": "https://jobs.ashbyhq.com/openai/bfd83255-8491-4c92-be4d-04dd0911cbe6",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Tokyo (Weekend Shift)",
-"company": "OpenAI",
-"location": "Tokyo, Japan",
-"url": "https://jobs.ashbyhq.com/openai/2535d647-d4f6-4745-9b97-90dfda3007f7",
 "postedDate": "2026-09-29",
 "isNew": false
 },
@@ -131,6 +81,7 @@
 "title": "Applied AI Engineer, Beneficial Deployments (Life Sciences)",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5437172008",
 "postedDate": "2026-09-28",
 "isNew": false
@@ -148,6 +99,7 @@
 "title": "Research Engineer / Performance Engineer, RL Distributed Systems",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5438030008",
 "postedDate": "2026-09-29",
 "isNew": false
@@ -156,6 +108,7 @@
 "title": "Staff + Sr. Software Engineer, Cloud Inference",
 "company": "Anthropic",
 "location": "San Francisco, CA | Seattle, WA",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5436684008",
 "postedDate": "2026-09-28",
 "isNew": false
@@ -164,32 +117,27 @@
 "title": "Staff + Sr. Software Engineer, Cloud Inference Launch Engineering",
 "company": "Anthropic",
 "location": "San Francisco, CA | Seattle, WA",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5436697008",
 "postedDate": "2026-09-28",
-"isNew": false
-},
-{
-"title": "Applied AI Engineer, Codex",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
-"postedDate": "2026-09-30",
 "isNew": false
 },
 {
 "title": "Applied AI Engineer, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
+"state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
 "postedDate": "2026-09-29",
 "isNew": false
 },
 {
-"title": "AI Support Engineer - Singapore (Weekend Shift)",
-"company": "OpenAI",
-"location": "Singapore",
-"url": "https://jobs.ashbyhq.com/openai/bfd83255-8491-4c92-be4d-04dd0911cbe6",
-"postedDate": "2026-09-29",
+"title": "Applied AI Engineer, Beneficial Deployments (Life Sciences)",
+"company": "Anthropic",
+"location": "San Francisco, CA | New York City, NY",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5437172008",
+"postedDate": "2026-09-28",
 "isNew": false
 }
 ],
@@ -205,39 +153,17 @@
 "title": "Full Stack Software Engineer, Sales Platform",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/1f7c6071-ad3a-4903-9b05-4684f5c1a7c8",
 "postedDate": "2026-10-01",
 "isNew": true
 },
 {
-"title": "Applied AI Engineer, Codex",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
-"postedDate": "2026-09-30",
-"isNew": false
-},
-{
 "title": "Applied AI Engineer, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
+"state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Singapore (Weekend Shift)",
-"company": "OpenAI",
-"location": "Singapore",
-"url": "https://jobs.ashbyhq.com/openai/bfd83255-8491-4c92-be4d-04dd0911cbe6",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Tokyo (Weekend Shift)",
-"company": "OpenAI",
-"location": "Tokyo, Japan",
-"url": "https://jobs.ashbyhq.com/openai/2535d647-d4f6-4745-9b97-90dfda3007f7",
 "postedDate": "2026-09-29",
 "isNew": false
 },
@@ -245,8 +171,18 @@
 "title": "Staff / Senior Software Engineer, Security Fusion Platform",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5434559008",
 "postedDate": "2026-09-29",
+"isNew": false
+},
+{
+"title": "Applied AI Engineer, Beneficial Deployments (Life Sciences)",
+"company": "Anthropic",
+"location": "San Francisco, CA | New York City, NY",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5437172008",
+"postedDate": "2026-09-28",
 "isNew": false
 }
 ],
@@ -261,15 +197,8 @@
 "title": "Manager, Applied AI Architect",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/ab463045-cd9b-4100-a037-f1135ace1464",
-"postedDate": "2026-10-01",
-"isNew": false
-},
-{
-"title": "Manager, Applied AI Architect (India)",
-"company": "OpenAI",
-"location": "Bangalore - Remote",
-"url": "https://jobs.ashbyhq.com/openai/2aae72af-8c35-42bc-86f6-9d5634391245",
 "postedDate": "2026-10-01",
 "isNew": false
 },
@@ -277,6 +206,7 @@
 "title": "Integrated Marketing Manager, AI Impact",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/1d8596f7-a81f-432f-9828-cfa915726b3f",
 "postedDate": "2026-09-30",
 "isNew": false
@@ -285,6 +215,7 @@
 "title": "Product Marketing Manager",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/d1a1ab49-399f-42a4-b12c-bb7047b7cdd9",
 "postedDate": "2026-09-29",
 "isNew": false
@@ -293,6 +224,7 @@
 "title": "Technical Program Manager, Global Programs \u2014 Applied AI Engineering",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/cd3c9c99-9527-4ba2-bea7-9f8f4892bc62",
 "postedDate": "2026-09-28",
 "isNew": false
@@ -309,47 +241,26 @@
 "title": "Technical Sourcer, Research SWE",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/2d1785b0-8bfa-485e-97d2-a19ff3e15570",
 "postedDate": "2026-10-01",
-"isNew": false
-},
-{
-"title": "Applied AI Engineer, Codex",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
-"postedDate": "2026-09-30",
 "isNew": false
 },
 {
 "title": "Applied AI Engineer, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
+"state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
 "postedDate": "2026-09-29",
 "isNew": false
 },
 {
-"title": "AI Support Engineer - Singapore (Weekend Shift)",
+"title": "Research Lead, Policy Communications",
 "company": "OpenAI",
-"location": "Singapore",
-"url": "https://jobs.ashbyhq.com/openai/bfd83255-8491-4c92-be4d-04dd0911cbe6",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Tokyo (Weekend Shift)",
-"company": "OpenAI",
-"location": "Tokyo, Japan",
-"url": "https://jobs.ashbyhq.com/openai/2535d647-d4f6-4745-9b97-90dfda3007f7",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Toronto (Weekend Shift)",
-"company": "OpenAI",
-"location": "Ontario - Remote",
-"url": "https://jobs.ashbyhq.com/openai/186bf7d1-0531-47fc-8e81-4429cbd3b5cb",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/0320cd25-ede1-4d25-8a61-65d801f1726e",
 "postedDate": "2026-09-28",
 "isNew": false
 }
@@ -363,17 +274,10 @@
 ],
 "jobs": [
 {
-"title": "Applied AI Engineer, Codex",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
-"postedDate": "2026-09-30",
-"isNew": false
-},
-{
 "title": "Staff / Senior Physical Security Systems Engineer",
 "company": "Anthropic",
 "location": "Remote-Friendly (Travel Required) | San Francisco, CA",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5434691008",
 "postedDate": "2026-09-29",
 "isNew": false
@@ -382,23 +286,8 @@
 "title": "Applied AI Engineer, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
+"state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Singapore (Weekend Shift)",
-"company": "OpenAI",
-"location": "Singapore",
-"url": "https://jobs.ashbyhq.com/openai/bfd83255-8491-4c92-be4d-04dd0911cbe6",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Tokyo (Weekend Shift)",
-"company": "OpenAI",
-"location": "Tokyo, Japan",
-"url": "https://jobs.ashbyhq.com/openai/2535d647-d4f6-4745-9b97-90dfda3007f7",
 "postedDate": "2026-09-29",
 "isNew": false
 },
@@ -406,8 +295,18 @@
 "title": "Staff / Senior Software Engineer, Security Fusion Platform",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5434559008",
 "postedDate": "2026-09-29",
+"isNew": false
+},
+{
+"title": "Applied AI Engineer, Beneficial Deployments (Life Sciences)",
+"company": "Anthropic",
+"location": "San Francisco, CA | New York City, NY",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5437172008",
+"postedDate": "2026-09-28",
 "isNew": false
 }
 ],
@@ -420,34 +319,11 @@
 ],
 "jobs": [
 {
-"title": "Applied AI Engineer, Codex",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
-"postedDate": "2026-09-30",
-"isNew": false
-},
-{
 "title": "Applied AI Engineer, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
+"state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Singapore (Weekend Shift)",
-"company": "OpenAI",
-"location": "Singapore",
-"url": "https://jobs.ashbyhq.com/openai/bfd83255-8491-4c92-be4d-04dd0911cbe6",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Tokyo (Weekend Shift)",
-"company": "OpenAI",
-"location": "Tokyo, Japan",
-"url": "https://jobs.ashbyhq.com/openai/2535d647-d4f6-4745-9b97-90dfda3007f7",
 "postedDate": "2026-09-29",
 "isNew": false
 },
@@ -455,15 +331,8 @@
 "title": "Applied AI Engineer, Beneficial Deployments (Life Sciences)",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5437172008",
-"postedDate": "2026-09-28",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Toronto (Weekend Shift)",
-"company": "OpenAI",
-"location": "Ontario - Remote",
-"url": "https://jobs.ashbyhq.com/openai/186bf7d1-0531-47fc-8e81-4429cbd3b5cb",
 "postedDate": "2026-09-28",
 "isNew": false
 }
@@ -477,51 +346,30 @@
 ],
 "jobs": [
 {
-"title": "AI Support Engineer - Singapore (Weekend Shift)",
-"company": "OpenAI",
-"location": "Singapore",
-"url": "https://jobs.ashbyhq.com/openai/bfd83255-8491-4c92-be4d-04dd0911cbe6",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Tokyo (Weekend Shift)",
-"company": "OpenAI",
-"location": "Tokyo, Japan",
-"url": "https://jobs.ashbyhq.com/openai/2535d647-d4f6-4745-9b97-90dfda3007f7",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Toronto (Weekend Shift)",
-"company": "OpenAI",
-"location": "Ontario - Remote",
-"url": "https://jobs.ashbyhq.com/openai/186bf7d1-0531-47fc-8e81-4429cbd3b5cb",
-"postedDate": "2026-09-28",
-"isNew": false
-},
-{
 "title": "Data Center Global Repairs Program Support",
 "company": "Anthropic",
 "location": "Remote-Friendly, United States",
+"state": "Remote",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439369008",
 "postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "Applied AI Engineer, Codex",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
-"postedDate": "2026-09-30",
 "isNew": false
 },
 {
 "title": "Applied AI Engineer, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
+"state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
 "postedDate": "2026-09-29",
+"isNew": false
+},
+{
+"title": "Applied AI Engineer, Beneficial Deployments (Life Sciences)",
+"company": "Anthropic",
+"location": "San Francisco, CA | New York City, NY",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5437172008",
+"postedDate": "2026-09-28",
 "isNew": false
 }
 ],
@@ -537,22 +385,16 @@
 "title": "Technical Program Manager, Global Programs \u2014 Applied AI Engineering",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/cd3c9c99-9527-4ba2-bea7-9f8f4892bc62",
 "postedDate": "2026-09-28",
 "isNew": false
 },
 {
-"title": "Vendor Security Technical Program Manager",
-"company": "OpenAI",
-"location": "US - Remote",
-"url": "https://jobs.ashbyhq.com/openai/3ae71c21-60dd-42b2-a913-58df05988976",
-"postedDate": "2026-10-02",
-"isNew": true
-},
-{
 "title": "Technical Program Manager, Robotics",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/fe7039ce-51e2-4cfa-9ea5-507eb7a0eee1",
 "postedDate": "2026-10-02",
 "isNew": true
@@ -561,6 +403,7 @@
 "title": "Technical Program Manager, Life Sciences",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439391008",
 "postedDate": "2026-10-01",
 "isNew": true
@@ -569,6 +412,7 @@
 "title": "Technical Program Manager, People Innovation Labs",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/87ef8476-e930-47ed-abc2-a1bedcc074fb",
 "postedDate": "2026-09-30",
 "isNew": false
@@ -577,9 +421,19 @@
 "title": "Program Manager, Brand",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5442157008",
 "postedDate": "2026-10-02",
 "isNew": true
+},
+{
+"title": "Manager, Applied AI Architect",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/ab463045-cd9b-4100-a037-f1135ace1464",
+"postedDate": "2026-10-01",
+"isNew": false
 }
 ],
 "asOf": "2026-10-02"
@@ -593,6 +447,7 @@
 "title": "M&A/Integration Accounting Lead",
 "company": "Stripe",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://stripe.com/jobs/search?gh_jid=8237505",
 "postedDate": "2026-09-29",
 "isNew": false
@@ -609,49 +464,10 @@
 "title": "Full Stack Software Engineer, Sales Platform",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/1f7c6071-ad3a-4903-9b05-4684f5c1a7c8",
 "postedDate": "2026-10-01",
 "isNew": true
-}
-],
-"asOf": "2026-10-02"
-},
-"customer-support-service-ai-consultant": {
-"companies": [
-"OpenAI"
-],
-"jobs": [
-{
-"title": "AI Support Engineer - Singapore (Weekend Shift)",
-"company": "OpenAI",
-"location": "Singapore",
-"url": "https://jobs.ashbyhq.com/openai/bfd83255-8491-4c92-be4d-04dd0911cbe6",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Tokyo (Weekend Shift)",
-"company": "OpenAI",
-"location": "Tokyo, Japan",
-"url": "https://jobs.ashbyhq.com/openai/2535d647-d4f6-4745-9b97-90dfda3007f7",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Toronto (Weekend Shift)",
-"company": "OpenAI",
-"location": "Ontario - Remote",
-"url": "https://jobs.ashbyhq.com/openai/186bf7d1-0531-47fc-8e81-4429cbd3b5cb",
-"postedDate": "2026-09-28",
-"isNew": false
-},
-{
-"title": "Customer Success Manager, Ads Solutions (Los Angeles)",
-"company": "OpenAI",
-"location": "US - Remote",
-"url": "https://jobs.ashbyhq.com/openai/aa17f5f2-0443-404d-9717-96cf06873150",
-"postedDate": "2026-09-30",
-"isNew": false
 }
 ],
 "asOf": "2026-10-02"
@@ -665,6 +481,7 @@
 "title": "Data Center Hardware Quality & Reliability Engineer",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/e7594296-a38b-43a1-b4f8-01253a3b7732",
 "postedDate": "2026-09-28",
 "isNew": false
@@ -673,39 +490,17 @@
 "title": "Data Engineer, Hardware & Consumer Devices",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/c25fd30e-056e-4a26-af80-7ea1074fc56e",
 "postedDate": "2026-10-01",
-"isNew": false
-},
-{
-"title": "Applied AI Engineer, Codex",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
-"postedDate": "2026-09-30",
 "isNew": false
 },
 {
 "title": "Applied AI Engineer, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
+"state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Singapore (Weekend Shift)",
-"company": "OpenAI",
-"location": "Singapore",
-"url": "https://jobs.ashbyhq.com/openai/bfd83255-8491-4c92-be4d-04dd0911cbe6",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Tokyo (Weekend Shift)",
-"company": "OpenAI",
-"location": "Tokyo, Japan",
-"url": "https://jobs.ashbyhq.com/openai/2535d647-d4f6-4745-9b97-90dfda3007f7",
 "postedDate": "2026-09-29",
 "isNew": false
 }
@@ -721,6 +516,7 @@
 "title": "Strategic Sourcing Lead, Professional Services \u2013 Human Data",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/ba36fd95-2474-4986-98a6-5280c4e41bd3",
 "postedDate": "2026-10-02",
 "isNew": true
@@ -738,6 +534,7 @@
 "title": "Product Designer, Claude Developer Platform",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5397654008",
 "postedDate": "2026-09-28",
 "isNew": false
@@ -746,6 +543,7 @@
 "title": "Senior Web Experience Strategist",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/67eb66cd-d89e-4312-a2cf-59e9a0a5e43f",
 "postedDate": "2026-09-28",
 "isNew": false
@@ -762,6 +560,7 @@
 "title": "Software Engineer, DevOps",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/a5dd77a2-9ab1-4165-98aa-c7bb0260985b",
 "postedDate": "2026-10-01",
 "isNew": false
@@ -770,6 +569,7 @@
 "title": "Data Center Hardware Quality & Reliability Engineer",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/e7594296-a38b-43a1-b4f8-01253a3b7732",
 "postedDate": "2026-09-28",
 "isNew": false
@@ -786,6 +586,7 @@
 "title": "Head of Data Science, Strategic Finance",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/961d2951-ff59-494f-971e-fe25414c234c",
 "postedDate": "2026-09-30",
 "isNew": false
@@ -799,17 +600,10 @@
 ],
 "jobs": [
 {
-"title": "Forward Deployed Engineer - Singapore (Korean Speaking)",
-"company": "OpenAI",
-"location": "Singapore",
-"url": "https://jobs.ashbyhq.com/openai/15ff9f15-c986-4ac3-ac2e-cd0f029afbd5",
-"postedDate": "2026-10-01",
-"isNew": false
-},
-{
 "title": "Platform Engineering Manager, Forward Deployed Engineering (FDE)",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/b073abb1-cf6c-4fd9-a318-732fdd2f1408",
 "postedDate": "2026-09-28",
 "isNew": false
@@ -826,6 +620,7 @@
 "title": "Senior Product Manager, CRM & GTM Systems",
 "company": "GitLab",
 "location": "Remote, United States",
+"state": "Remote",
 "url": "https://job-boards.greenhouse.io/gitlab/jobs/8855883002",
 "postedDate": "2026-10-02",
 "isNew": true
@@ -834,6 +629,7 @@
 "title": "Principal Product Marketing Manager, Competitive",
 "company": "GitLab",
 "location": "Remote, Canada; Remote, United States",
+"state": "Remote",
 "url": "https://job-boards.greenhouse.io/gitlab/jobs/8859224002",
 "postedDate": "2026-10-01",
 "isNew": false
@@ -842,6 +638,7 @@
 "title": "Senior Product Manager, Billing Engine & Platforms Monetization",
 "company": "GitLab",
 "location": "Remote, United Kingdom; Remote, United States",
+"state": "Remote",
 "url": "https://job-boards.greenhouse.io/gitlab/jobs/8845483002",
 "postedDate": "2026-09-30",
 "isNew": false
@@ -855,17 +652,10 @@
 ],
 "jobs": [
 {
-"title": "Legal Engineer, EMEA (Arabic speaking)",
-"company": "Harvey",
-"location": "London",
-"url": "https://jobs.ashbyhq.com/harvey/4154ddf4-99e3-4863-9509-826a6faddeea",
-"postedDate": "2026-10-01",
-"isNew": false
-},
-{
 "title": "Legal Engineer (In-House)",
 "company": "Harvey",
 "location": "Boston",
+"state": "MA",
 "url": "https://jobs.ashbyhq.com/harvey/4a22c1e2-5550-415f-898d-da8d8914d1ee",
 "postedDate": "2026-10-01",
 "isNew": false
@@ -874,6 +664,7 @@
 "title": "Legal Engineer (Law Firm, Corporate)",
 "company": "Harvey",
 "location": "Boston",
+"state": "MA",
 "url": "https://jobs.ashbyhq.com/harvey/15ded4d6-3cc1-4f27-b849-3ad686bd3b28",
 "postedDate": "2026-10-01",
 "isNew": false
@@ -882,6 +673,7 @@
 "title": "Legal Engineering Manager (Law Firm, Litigation/Regulatory)",
 "company": "Harvey",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/harvey/977e6184-2dc4-422b-8ab3-bc26bb73f778",
 "postedDate": "2026-09-29",
 "isNew": false
@@ -898,6 +690,7 @@
 "title": "Product Marketing Manager",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/d1a1ab49-399f-42a4-b12c-bb7047b7cdd9",
 "postedDate": "2026-09-29",
 "isNew": false
@@ -906,16 +699,9 @@
 "title": "Integrated Marketing Manager, AI Impact",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/1d8596f7-a81f-432f-9828-cfa915726b3f",
 "postedDate": "2026-09-30",
-"isNew": false
-},
-{
-"title": "Integrated Marketing Manager, EMEA",
-"company": "OpenAI",
-"location": "Dublin, Ireland",
-"url": "https://jobs.ashbyhq.com/openai/74be2291-5744-40fd-9c65-7a4a516ebd48",
-"postedDate": "2026-09-28",
 "isNew": false
 }
 ],
@@ -931,6 +717,7 @@
 "title": "Staff / Senior Physical Security Systems Engineer",
 "company": "Anthropic",
 "location": "Remote-Friendly (Travel Required) | San Francisco, CA",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5434691008",
 "postedDate": "2026-09-29",
 "isNew": false
@@ -939,6 +726,7 @@
 "title": "Staff / Senior Software Engineer, Security Fusion Platform",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5434559008",
 "postedDate": "2026-09-29",
 "isNew": false
@@ -947,15 +735,8 @@
 "title": "Software Engineer, Product Velocity",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/9909555b-3dc4-4ba2-859e-43eae7c97a34",
-"postedDate": "2026-09-28",
-"isNew": false
-},
-{
-"title": "Staff Security Engineer, Detection & Response",
-"company": "Anthropic",
-"location": "Z\u00fcrich, CH",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5432626008",
 "postedDate": "2026-09-28",
 "isNew": false
 }
@@ -971,6 +752,7 @@
 "title": "Finance & Strategy, Corporate Finance Analyst",
 "company": "Stripe",
 "location": "New York, NY",
+"state": "NY",
 "url": "https://stripe.com/jobs/search?gh_jid=8249865",
 "postedDate": "2026-10-02",
 "isNew": true
@@ -987,15 +769,8 @@
 "title": "Manager, Applied AI Architect",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/ab463045-cd9b-4100-a037-f1135ace1464",
-"postedDate": "2026-10-01",
-"isNew": false
-},
-{
-"title": "Manager, Applied AI Architect (India)",
-"company": "OpenAI",
-"location": "Bangalore - Remote",
-"url": "https://jobs.ashbyhq.com/openai/2aae72af-8c35-42bc-86f6-9d5634391245",
 "postedDate": "2026-10-01",
 "isNew": false
 },
@@ -1003,6 +778,7 @@
 "title": "Integrated Marketing Manager, AI Impact",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/1d8596f7-a81f-432f-9828-cfa915726b3f",
 "postedDate": "2026-09-30",
 "isNew": false
@@ -1011,24 +787,9 @@
 "title": "Technical Program Manager, Global Programs \u2014 Applied AI Engineering",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/cd3c9c99-9527-4ba2-bea7-9f8f4892bc62",
 "postedDate": "2026-09-28",
-"isNew": false
-}
-],
-"asOf": "2026-10-02"
-},
-"revenue-operations-manager": {
-"companies": [
-"Anthropic"
-],
-"jobs": [
-{
-"title": "Revenue Strategy & Operations",
-"company": "Anthropic",
-"location": "Singapore",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5439844008",
-"postedDate": "2026-10-01",
 "isNew": false
 }
 ],
@@ -1043,6 +804,7 @@
 "title": "Full Stack Software Engineer, Sales Platform",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/1f7c6071-ad3a-4903-9b05-4684f5c1a7c8",
 "postedDate": "2026-10-01",
 "isNew": true
@@ -1059,6 +821,7 @@
 "title": "Full Stack Software Engineer, Sales Platform",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/1f7c6071-ad3a-4903-9b05-4684f5c1a7c8",
 "postedDate": "2026-10-01",
 "isNew": true
@@ -1075,6 +838,7 @@
 "title": "Senior Manager, Accounts Payable - Compute",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/dceb6d3d-65a7-4676-8d24-f0cf45776ef0",
 "postedDate": "2026-10-01",
 "isNew": false
@@ -1091,6 +855,7 @@
 "title": "Engineering Manager, ChatGPT Space",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/d9b730a4-ee24-4d18-bb46-d8111591c6d2",
 "postedDate": "2026-10-01",
 "isNew": false
@@ -1099,6 +864,7 @@
 "title": "Platform Engineering Manager, Forward Deployed Engineering (FDE)",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/b073abb1-cf6c-4fd9-a318-732fdd2f1408",
 "postedDate": "2026-09-28",
 "isNew": false
@@ -1107,6 +873,7 @@
 "title": "Technical Program Manager, Global Programs \u2014 Applied AI Engineering",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/cd3c9c99-9527-4ba2-bea7-9f8f4892bc62",
 "postedDate": "2026-09-28",
 "isNew": false
@@ -1115,6 +882,7 @@
 "title": "Senior Manager, Accounts Payable - Compute",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/dceb6d3d-65a7-4676-8d24-f0cf45776ef0",
 "postedDate": "2026-10-01",
 "isNew": false
@@ -1123,6 +891,7 @@
 "title": "Engineering Technician, Actuators",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/2986efa0-6d1c-4a1f-a629-13ad86559e24",
 "postedDate": "2026-09-30",
 "isNew": false
@@ -1131,6 +900,7 @@
 "title": "Physical Engineering Business Lead (Special Situations)",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/8dcf85ee-563d-40de-bc78-cf829404d212",
 "postedDate": "2026-09-30",
 "isNew": false
@@ -1147,38 +917,16 @@
 "title": "Manager, Applied AI Architect",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/ab463045-cd9b-4100-a037-f1135ace1464",
 "postedDate": "2026-10-01",
-"isNew": false
-},
-{
-"title": "Manager, Applied AI Architect (India)",
-"company": "OpenAI",
-"location": "Bangalore - Remote",
-"url": "https://jobs.ashbyhq.com/openai/2aae72af-8c35-42bc-86f6-9d5634391245",
-"postedDate": "2026-10-01",
-"isNew": false
-},
-{
-"title": "Applied AI Architect",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/b47aae11-78e1-4321-947a-94a2fa3e83b4",
-"postedDate": "2026-10-01",
-"isNew": false
-},
-{
-"title": "Applied AI Engineer, Codex",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
-"postedDate": "2026-09-30",
 "isNew": false
 },
 {
 "title": "Applied AI Engineer, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
+"state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
 "postedDate": "2026-09-29",
 "isNew": false
@@ -1187,7 +935,35 @@
 "title": "Technical Program Manager, Global Programs \u2014 Applied AI Engineering",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/cd3c9c99-9527-4ba2-bea7-9f8f4892bc62",
+"postedDate": "2026-09-28",
+"isNew": false
+},
+{
+"title": "Technical Sourcer, Research SWE",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/2d1785b0-8bfa-485e-97d2-a19ff3e15570",
+"postedDate": "2026-10-01",
+"isNew": false
+},
+{
+"title": "Data Scientist, B2B Generalist",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/756d8c20-649a-47f2-8012-553b5f6cb0c5",
+"postedDate": "2026-09-30",
+"isNew": false
+},
+{
+"title": "Research Lead, Policy Communications",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/0320cd25-ede1-4d25-8a61-65d801f1726e",
 "postedDate": "2026-09-28",
 "isNew": false
 }
@@ -1200,25 +976,10 @@
 ],
 "jobs": [
 {
-"title": "Staff Software Engineer, Lifecycle Management",
-"company": "Okta",
-"location": "Bengaluru, India",
-"url": "https://www.okta.com/company/careers/opportunity/8236530?gh_jid=8236530",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "Senior Software Engineer in Test (SET) \u2014 Access Essentials",
-"company": "Okta",
-"location": "Bengaluru, India",
-"url": "https://www.okta.com/company/careers/opportunity/8236753?gh_jid=8236753",
-"postedDate": "2026-09-28",
-"isNew": false
-},
-{
 "title": "Senior Product Manager - Okta Identity Governance",
 "company": "Okta",
 "location": "Bellevue, Washington; Chicago, Illinois; New York, New York; San Francisco, California; Seattle, Washington; Washington, DC",
+"state": "WA",
 "url": "https://www.okta.com/company/careers/opportunity/8213755?gh_jid=8213755",
 "postedDate": "2026-10-01",
 "isNew": true
@@ -1227,24 +988,9 @@
 "title": "Staff Product Designer - Okta Identity Governance",
 "company": "Okta",
 "location": "Bellevue, Washington; Chicago, Illinois; New York, New York; Washington, DC",
+"state": "WA",
 "url": "https://www.okta.com/company/careers/opportunity/8247059?gh_jid=8247059",
 "postedDate": "2026-10-01",
-"isNew": false
-},
-{
-"title": "Senior Software Engineer, Security Engineering (Auth0)",
-"company": "Okta",
-"location": "Toronto, Ontario, Canada",
-"url": "https://www.okta.com/company/careers/opportunity/8241679?gh_jid=8241679",
-"postedDate": "2026-09-30",
-"isNew": false
-},
-{
-"title": "Senior Product Designer - Okta Privileged Access",
-"company": "Okta",
-"location": "Toronto, Ontario, Canada",
-"url": "https://www.okta.com/company/careers/opportunity/8241866?gh_jid=8241866",
-"postedDate": "2026-09-29",
 "isNew": false
 }
 ],
@@ -1259,6 +1005,7 @@
 "title": "Product Designer, Consumer Verticals",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/2ee19240-419a-479a-a00e-72436ae2b27a",
 "postedDate": "2026-10-01",
 "isNew": false
@@ -1267,6 +1014,7 @@
 "title": "Senior Web Experience Strategist",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/67eb66cd-d89e-4312-a2cf-59e9a0a5e43f",
 "postedDate": "2026-09-28",
 "isNew": false
@@ -1283,6 +1031,7 @@
 "title": "Data Engineer, Hardware & Consumer Devices",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/c25fd30e-056e-4a26-af80-7ea1074fc56e",
 "postedDate": "2026-10-01",
 "isNew": false
@@ -1291,39 +1040,17 @@
 "title": "Data Center Hardware Quality & Reliability Engineer",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/e7594296-a38b-43a1-b4f8-01253a3b7732",
 "postedDate": "2026-09-28",
-"isNew": false
-},
-{
-"title": "Applied AI Engineer, Codex",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
-"postedDate": "2026-09-30",
 "isNew": false
 },
 {
 "title": "Applied AI Engineer, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
+"state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Singapore (Weekend Shift)",
-"company": "OpenAI",
-"location": "Singapore",
-"url": "https://jobs.ashbyhq.com/openai/bfd83255-8491-4c92-be4d-04dd0911cbe6",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Tokyo (Weekend Shift)",
-"company": "OpenAI",
-"location": "Tokyo, Japan",
-"url": "https://jobs.ashbyhq.com/openai/2535d647-d4f6-4745-9b97-90dfda3007f7",
 "postedDate": "2026-09-29",
 "isNew": false
 }
@@ -1336,43 +1063,12 @@
 ],
 "jobs": [
 {
-"title": "Applied AI Engineer, Codex",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
-"postedDate": "2026-09-30",
-"isNew": false
-},
-{
 "title": "Applied AI Engineer, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
+"state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
 "postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Singapore (Weekend Shift)",
-"company": "OpenAI",
-"location": "Singapore",
-"url": "https://jobs.ashbyhq.com/openai/bfd83255-8491-4c92-be4d-04dd0911cbe6",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Tokyo (Weekend Shift)",
-"company": "OpenAI",
-"location": "Tokyo, Japan",
-"url": "https://jobs.ashbyhq.com/openai/2535d647-d4f6-4745-9b97-90dfda3007f7",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Toronto (Weekend Shift)",
-"company": "OpenAI",
-"location": "Ontario - Remote",
-"url": "https://jobs.ashbyhq.com/openai/186bf7d1-0531-47fc-8e81-4429cbd3b5cb",
-"postedDate": "2026-09-28",
 "isNew": false
 }
 ],
@@ -1387,6 +1083,7 @@
 "title": "Strategy & Operations Business Partner, Solution Architecture",
 "company": "Stripe",
 "location": "NYC, SF, Chicago, Seattle, US",
+"state": "NY",
 "url": "https://stripe.com/jobs/search?gh_jid=8214620",
 "postedDate": "2026-09-29",
 "isNew": false
@@ -1403,6 +1100,7 @@
 "title": "Strategy & Operations Business Partner, Solution Architecture",
 "company": "Stripe",
 "location": "NYC, SF, Chicago, Seattle, US",
+"state": "NY",
 "url": "https://stripe.com/jobs/search?gh_jid=8214620",
 "postedDate": "2026-09-29",
 "isNew": false
@@ -1411,17 +1109,10 @@
 "title": "Comms Strategy & Operations Associate",
 "company": "Stripe",
 "location": "NYC, SF",
+"state": "NY",
 "url": "https://stripe.com/jobs/search?gh_jid=8241857",
 "postedDate": "2026-10-02",
 "isNew": true
-},
-{
-"title": "Strategy and Operations Analyst, Customer Success",
-"company": "Stripe",
-"location": "London",
-"url": "https://stripe.com/jobs/search?gh_jid=8230276",
-"postedDate": "2026-09-30",
-"isNew": false
 }
 ],
 "asOf": "2026-10-02"
@@ -1433,33 +1124,10 @@
 ],
 "jobs": [
 {
-"title": "Enterprise Account Executive, Industries - BFSI",
-"company": "Anthropic",
-"location": "Mumbai, India",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5426651008",
-"postedDate": "2026-09-28",
-"isNew": false
-},
-{
-"title": "Growth Account Executive, Startups",
-"company": "Anthropic",
-"location": "Dublin, IE",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5440799008",
-"postedDate": "2026-10-01",
-"isNew": false
-},
-{
-"title": "Partner Account Manager - DACH",
-"company": "Anthropic",
-"location": "Munich, Germany",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5440817008",
-"postedDate": "2026-10-02",
-"isNew": true
-},
-{
 "title": "Full Stack Software Engineer, Sales Platform",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/1f7c6071-ad3a-4903-9b05-4684f5c1a7c8",
 "postedDate": "2026-10-01",
 "isNew": true
@@ -1468,6 +1136,7 @@
 "title": "Account Associate - SF",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/55f36629-8351-41d9-b2f5-3d63c5e26bf7",
 "postedDate": "2026-09-30",
 "isNew": false
@@ -1476,8 +1145,18 @@
 "title": "Field Executive Architect",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5277776008",
 "postedDate": "2026-09-29",
+"isNew": false
+},
+{
+"title": "Staff+ Software Engineer, Account Abuse (Machine Learning)",
+"company": "Anthropic",
+"location": "San Francisco, CA | New York City, NY",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5436293008",
+"postedDate": "2026-09-28",
 "isNew": false
 }
 ],
@@ -1493,6 +1172,7 @@
 "title": "Strategic Sourcing Leader, Professional Services",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/5b334d54-fc7f-4de7-a37f-5c759c79beb6",
 "postedDate": "2026-10-02",
 "isNew": true
@@ -1501,6 +1181,7 @@
 "title": "Strategic Business Development Lead",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5441832008",
 "postedDate": "2026-10-02",
 "isNew": true
@@ -1509,6 +1190,7 @@
 "title": "Strategic Sourcing Lead, Professional Services \u2013 Human Data",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/ba36fd95-2474-4986-98a6-5280c4e41bd3",
 "postedDate": "2026-10-02",
 "isNew": true
@@ -1517,6 +1199,7 @@
 "title": "Head of Data Science, Strategic Finance",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/961d2951-ff59-494f-971e-fe25414c234c",
 "postedDate": "2026-09-30",
 "isNew": false
@@ -1525,6 +1208,7 @@
 "title": "Strategic Delivery Lead, Department of Energy & Science",
 "company": "OpenAI",
 "location": "Washington, DC",
+"state": "DC",
 "url": "https://jobs.ashbyhq.com/openai/2475c6c9-97c1-461b-8c73-0b9ce993860a",
 "postedDate": "2026-09-29",
 "isNew": false
@@ -1533,6 +1217,7 @@
 "title": "Strategic Delivery Lead, Cyber",
 "company": "OpenAI",
 "location": "Washington, DC",
+"state": "DC",
 "url": "https://jobs.ashbyhq.com/openai/125db0ea-d5e1-4c49-bc1a-e6ffc8ea71ff",
 "postedDate": "2026-09-28",
 "isNew": false
@@ -1546,17 +1231,10 @@
 ],
 "jobs": [
 {
-"title": "Revenue Strategy & Operations",
-"company": "Anthropic",
-"location": "Singapore",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5439844008",
-"postedDate": "2026-10-01",
-"isNew": false
-},
-{
 "title": "Research Engineer / Performance Engineer, RL Distributed Systems",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5438030008",
 "postedDate": "2026-09-29",
 "isNew": false
@@ -1565,6 +1243,7 @@
 "title": "Staff / Senior Physical Security Systems Engineer",
 "company": "Anthropic",
 "location": "Remote-Friendly (Travel Required) | San Francisco, CA",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5434691008",
 "postedDate": "2026-09-29",
 "isNew": false
@@ -1579,26 +1258,11 @@
 ],
 "jobs": [
 {
-"title": "Revenue Strategy & Operations",
-"company": "Anthropic",
-"location": "Singapore",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5439844008",
-"postedDate": "2026-10-01",
-"isNew": false
-},
-{
 "title": "GTM Strategy & Operations, FDE",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5427938008",
-"postedDate": "2026-09-30",
-"isNew": false
-},
-{
-"title": "Applied AI Engineer, Codex",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
 "postedDate": "2026-09-30",
 "isNew": false
 },
@@ -1606,24 +1270,27 @@
 "title": "Applied AI Engineer, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
+"state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
 "postedDate": "2026-09-29",
 "isNew": false
 },
 {
-"title": "AI Support Engineer - Singapore (Weekend Shift)",
-"company": "OpenAI",
-"location": "Singapore",
-"url": "https://jobs.ashbyhq.com/openai/bfd83255-8491-4c92-be4d-04dd0911cbe6",
+"title": "Business Systems Analyst, GTM Systems",
+"company": "Anthropic",
+"location": "San Francisco, CA | New York City, NY",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5436196008",
 "postedDate": "2026-09-29",
 "isNew": false
 },
 {
-"title": "AI Support Engineer - Tokyo (Weekend Shift)",
-"company": "OpenAI",
-"location": "Tokyo, Japan",
-"url": "https://jobs.ashbyhq.com/openai/2535d647-d4f6-4745-9b97-90dfda3007f7",
-"postedDate": "2026-09-29",
+"title": "Applied AI Engineer, Beneficial Deployments (Life Sciences)",
+"company": "Anthropic",
+"location": "San Francisco, CA | New York City, NY",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5437172008",
+"postedDate": "2026-09-28",
 "isNew": false
 }
 ],
@@ -1638,6 +1305,7 @@
 "title": "Product Designer, Claude Developer Platform",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5397654008",
 "postedDate": "2026-09-28",
 "isNew": false
@@ -1646,6 +1314,7 @@
 "title": "Staff / Senior Software Engineer, Security Fusion Platform",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5434559008",
 "postedDate": "2026-09-29",
 "isNew": false
@@ -1654,15 +1323,8 @@
 "title": "Applied AI Engineer, Beneficial Deployments (Life Sciences)",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5437172008",
-"postedDate": "2026-09-28",
-"isNew": false
-},
-{
-"title": "Applied AI Engineer, Enterprise",
-"company": "Anthropic",
-"location": "London, UK",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5354765008",
 "postedDate": "2026-09-28",
 "isNew": false
 }
@@ -1675,17 +1337,10 @@
 ],
 "jobs": [
 {
-"title": "Applied AI Engineer, Codex",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
-"postedDate": "2026-09-30",
-"isNew": false
-},
-{
 "title": "Applied AI Engineer, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
+"state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
 "postedDate": "2026-09-29",
 "isNew": false
@@ -1694,23 +1349,8 @@
 "title": "Manager, Applied AI Architect",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/ab463045-cd9b-4100-a037-f1135ace1464",
-"postedDate": "2026-10-01",
-"isNew": false
-},
-{
-"title": "Manager, Applied AI Architect (India)",
-"company": "OpenAI",
-"location": "Bangalore - Remote",
-"url": "https://jobs.ashbyhq.com/openai/2aae72af-8c35-42bc-86f6-9d5634391245",
-"postedDate": "2026-10-01",
-"isNew": false
-},
-{
-"title": "Applied AI Architect",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/b47aae11-78e1-4321-947a-94a2fa3e83b4",
 "postedDate": "2026-10-01",
 "isNew": false
 },
@@ -1718,6 +1358,7 @@
 "title": "Technical Program Manager, Global Programs \u2014 Applied AI Engineering",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/cd3c9c99-9527-4ba2-bea7-9f8f4892bc62",
 "postedDate": "2026-09-28",
 "isNew": false
@@ -1734,31 +1375,17 @@
 "title": "Frontend Software Engineer\u2013 Cortex AI Apps",
 "company": "Snowflake",
 "location": "US-CA-Menlo Park",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/snowflake/b3fab313-f31f-44b6-8c32-222084f93259",
 "postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "Senior Technical Support Engineer, Observe by Snowflake",
-"company": "Snowflake",
-"location": "Fins Only-AU-Sydney",
-"url": "https://jobs.ashbyhq.com/snowflake/9da775b9-2bdf-4ef2-a59a-ffc49381459d",
-"postedDate": "2026-09-30",
 "isNew": false
 },
 {
 "title": "Senior AI Engineer, Enterprise",
 "company": "Snowflake",
 "location": "US-CA-Menlo Park",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/snowflake/c055c3da-4924-4e63-bcd2-bef2b2710db8",
-"postedDate": "2026-10-01",
-"isNew": false
-},
-{
-"title": "Software Engineer AI Team",
-"company": "Snowflake",
-"location": "PL-Warsaw-Lixa C",
-"url": "https://jobs.ashbyhq.com/snowflake/9003f845-850a-4786-a422-ec9632fe0141",
 "postedDate": "2026-10-01",
 "isNew": false
 },
@@ -1766,6 +1393,7 @@
 "title": "Software Engineer - SnowConvert AI",
 "company": "Snowflake",
 "location": "US-CA-Menlo Park",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/snowflake/2a928b93-a5d4-4285-a92c-032fb389faa2",
 "postedDate": "2026-09-29",
 "isNew": false
@@ -1779,43 +1407,12 @@
 ],
 "jobs": [
 {
-"title": "Applied AI Engineer, Codex",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
-"postedDate": "2026-09-30",
-"isNew": false
-},
-{
 "title": "Applied AI Engineer, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
+"state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
 "postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Singapore (Weekend Shift)",
-"company": "OpenAI",
-"location": "Singapore",
-"url": "https://jobs.ashbyhq.com/openai/bfd83255-8491-4c92-be4d-04dd0911cbe6",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Tokyo (Weekend Shift)",
-"company": "OpenAI",
-"location": "Tokyo, Japan",
-"url": "https://jobs.ashbyhq.com/openai/2535d647-d4f6-4745-9b97-90dfda3007f7",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Toronto (Weekend Shift)",
-"company": "OpenAI",
-"location": "Ontario - Remote",
-"url": "https://jobs.ashbyhq.com/openai/186bf7d1-0531-47fc-8e81-4429cbd3b5cb",
-"postedDate": "2026-09-28",
 "isNew": false
 }
 ],
@@ -1830,6 +1427,7 @@
 "title": "Staff Product Manager - AI Detection & Discovery",
 "company": "OneTrust",
 "location": "Atlanta, Georgia",
+"state": "GA",
 "url": "https://job-boards.greenhouse.io/onetrust/jobs/8222894",
 "postedDate": "2026-09-30",
 "isNew": false
@@ -1846,6 +1444,7 @@
 "title": "Full Stack Software Engineer, Sales Platform",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/1f7c6071-ad3a-4903-9b05-4684f5c1a7c8",
 "postedDate": "2026-10-01",
 "isNew": true
@@ -1862,6 +1461,7 @@
 "title": "Staff Research Engineer, Multi-Agent Scaling",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5442680008",
 "postedDate": "2026-10-02",
 "isNew": true
@@ -1870,6 +1470,7 @@
 "title": "Product Designer, Claude Developer Platform",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5397654008",
 "postedDate": "2026-09-28",
 "isNew": false
@@ -1886,6 +1487,7 @@
 "title": "Integrated Marketing Manager, AI Impact",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/1d8596f7-a81f-432f-9828-cfa915726b3f",
 "postedDate": "2026-09-30",
 "isNew": false
@@ -1894,16 +1496,9 @@
 "title": "Product Marketing Manager",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/d1a1ab49-399f-42a4-b12c-bb7047b7cdd9",
 "postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "Integrated Marketing Manager, EMEA",
-"company": "OpenAI",
-"location": "Dublin, Ireland",
-"url": "https://jobs.ashbyhq.com/openai/74be2291-5744-40fd-9c65-7a4a516ebd48",
-"postedDate": "2026-09-28",
 "isNew": false
 }
 ],
@@ -1918,6 +1513,7 @@
 "title": "Research Lead, Policy Communications",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/0320cd25-ede1-4d25-8a61-65d801f1726e",
 "postedDate": "2026-09-28",
 "isNew": false
@@ -1931,58 +1527,11 @@
 ],
 "jobs": [
 {
-"title": "Applied AI Engineer, Codex",
-"company": "OpenAI",
-"location": "Sydney, Australia",
-"url": "https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac",
-"postedDate": "2026-09-30",
-"isNew": false
-},
-{
 "title": "Applied AI Engineer, Digital Natives",
 "company": "OpenAI",
 "location": "New York City",
+"state": "NY",
 "url": "https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Singapore (Weekend Shift)",
-"company": "OpenAI",
-"location": "Singapore",
-"url": "https://jobs.ashbyhq.com/openai/bfd83255-8491-4c92-be4d-04dd0911cbe6",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Tokyo (Weekend Shift)",
-"company": "OpenAI",
-"location": "Tokyo, Japan",
-"url": "https://jobs.ashbyhq.com/openai/2535d647-d4f6-4745-9b97-90dfda3007f7",
-"postedDate": "2026-09-29",
-"isNew": false
-},
-{
-"title": "AI Support Engineer - Toronto (Weekend Shift)",
-"company": "OpenAI",
-"location": "Ontario - Remote",
-"url": "https://jobs.ashbyhq.com/openai/186bf7d1-0531-47fc-8e81-4429cbd3b5cb",
-"postedDate": "2026-09-28",
-"isNew": false
-}
-],
-"asOf": "2026-10-02"
-},
-"product-manager-agentic-commerce": {
-"companies": [
-"Stripe"
-],
-"jobs": [
-{
-"title": "Product Support Manager",
-"company": "Stripe",
-"location": "Singapore ",
-"url": "https://stripe.com/jobs/search?gh_jid=8221774",
 "postedDate": "2026-09-29",
 "isNew": false
 }
@@ -1999,22 +1548,16 @@
 "title": "Technical Program Manager, Global Programs \u2014 Applied AI Engineering",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/cd3c9c99-9527-4ba2-bea7-9f8f4892bc62",
 "postedDate": "2026-09-28",
 "isNew": false
 },
 {
-"title": "Vendor Security Technical Program Manager",
-"company": "OpenAI",
-"location": "US - Remote",
-"url": "https://jobs.ashbyhq.com/openai/3ae71c21-60dd-42b2-a913-58df05988976",
-"postedDate": "2026-10-02",
-"isNew": true
-},
-{
 "title": "Technical Program Manager, Robotics",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/fe7039ce-51e2-4cfa-9ea5-507eb7a0eee1",
 "postedDate": "2026-10-02",
 "isNew": true
@@ -2023,6 +1566,7 @@
 "title": "Technical Program Manager, Life Sciences",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439391008",
 "postedDate": "2026-10-01",
 "isNew": true
@@ -2031,6 +1575,7 @@
 "title": "Technical Program Manager, People Innovation Labs",
 "company": "OpenAI",
 "location": "San Francisco",
+"state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/87ef8476-e930-47ed-abc2-a1bedcc074fb",
 "postedDate": "2026-09-30",
 "isNew": false
@@ -2039,9 +1584,19 @@
 "title": "Program Manager, Brand",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5442157008",
 "postedDate": "2026-10-02",
 "isNew": true
+},
+{
+"title": "Manager, Applied AI Architect",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/ab463045-cd9b-4100-a037-f1135ace1464",
+"postedDate": "2026-10-01",
+"isNew": false
 }
 ],
 "asOf": "2026-10-02"
@@ -2055,25 +1610,10 @@
 "title": "Product Finance & Strategy, Monetization",
 "company": "Anthropic",
 "location": "San Francisco, CA",
+"state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5435710008",
 "postedDate": "2026-09-27",
 "isNew": false
-}
-],
-"asOf": "2026-10-02"
-},
-"ad-tech-manager-advertising-technology-manager": {
-"companies": [
-"OpenAI"
-],
-"jobs": [
-{
-"title": "People Technology Analyst, Workday PATT & Benefits",
-"company": "OpenAI",
-"location": "US - Remote",
-"url": "https://jobs.ashbyhq.com/openai/bb28a39e-eb1f-41ef-96de-98adf58a8c3c",
-"postedDate": "2026-10-02",
-"isNew": true
 }
 ],
 "asOf": "2026-10-02"
