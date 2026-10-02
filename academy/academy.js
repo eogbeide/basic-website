@@ -16,6 +16,79 @@
     return slugify(name.replace(/^C\d{2,3}\s+/i, ''));
   }
 
+  // Real, live openings pulled directly from each role's actual benchmark
+  // companies' own public job-board APIs (see build_jobs_data.py) -- never
+  // scraped or invented. Most roles have no entry here, since most
+  // benchmark employers (Amazon, Google, big consultancies, insurers...)
+  // don't expose a public job-board API; that's expected, not a bug, so
+  // the block is simply omitted rather than showing an empty state.
+  var JOBS_BY_ROLE = (typeof JOBS_DATA !== 'undefined' ? JOBS_DATA : {});
+
+  function renderHiringBlock(slug) {
+    var entry = JOBS_BY_ROLE[slug];
+    if (!entry || !entry.jobs || !entry.jobs.length) return '';
+    var items = entry.jobs
+      .map(function (j) {
+        return (
+          '<li class="hiring-job">' +
+          '<a href="' + escapeHtml(j.url) + '" target="_blank" rel="noopener noreferrer">' +
+          '<span class="hiring-job-title">' + escapeHtml(j.title) + '</span>' +
+          '<span class="hiring-job-meta">' + escapeHtml(j.company) + (j.location ? ' &middot; ' + escapeHtml(j.location) : '') + '</span>' +
+          '</a></li>'
+        );
+      })
+      .join('');
+    return (
+      '<div class="hiring-block">' +
+      '<h3>Who&rsquo;s Hiring Right Now</h3>' +
+      '<p class="hiring-block-note">Live openings at ' + escapeHtml(entry.companies.join(', ')) +
+      ' &mdash; this role&rsquo;s own benchmark employers &mdash; as of ' + escapeHtml(entry.asOf) +
+      '. Pulled directly from each company&rsquo;s public job board; not exhaustive, and postings close fast, so always confirm on the employer&rsquo;s own site before applying.</p>' +
+      '<ul class="hiring-job-list">' + items + '</ul>' +
+      '</div>'
+    );
+  }
+
+  // A pathway has no benchmark companies of its own -- it aggregates the
+  // already-matched openings from its representative roles instead, so
+  // there's no separate fetch/match step for pathways at all.
+  function renderHiringBlockForPathway(representativeRoles) {
+    var seenUrls = {};
+    var jobs = [];
+    var companies = {};
+    (representativeRoles || []).forEach(function (roleName) {
+      var entry = JOBS_BY_ROLE[slugify(roleName)];
+      if (!entry) return;
+      entry.jobs.forEach(function (j) {
+        if (seenUrls[j.url]) return;
+        seenUrls[j.url] = true;
+        jobs.push(j);
+        companies[j.company] = true;
+      });
+    });
+    if (!jobs.length) return '';
+    jobs = jobs.slice(0, 8);
+    var items = jobs
+      .map(function (j) {
+        return (
+          '<li class="hiring-job">' +
+          '<a href="' + escapeHtml(j.url) + '" target="_blank" rel="noopener noreferrer">' +
+          '<span class="hiring-job-title">' + escapeHtml(j.title) + '</span>' +
+          '<span class="hiring-job-meta">' + escapeHtml(j.company) + (j.location ? ' &middot; ' + escapeHtml(j.location) : '') + '</span>' +
+          '</a></li>'
+        );
+      })
+      .join('');
+    return (
+      '<div class="hiring-block">' +
+      '<h3>Who&rsquo;s Hiring Right Now</h3>' +
+      '<p class="hiring-block-note">Live openings at ' + escapeHtml(Object.keys(companies).join(', ')) +
+      ' across this pathway&rsquo;s representative roles. Pulled directly from each company&rsquo;s public job board; not exhaustive, and postings close fast, so always confirm on the employer&rsquo;s own site before applying.</p>' +
+      '<ul class="hiring-job-list">' + items + '</ul>' +
+      '</div>'
+    );
+  }
+
   // Rubrics arrive as one semicolon-separated sentence; render each clause
   // as its own checklist item instead of one dense paragraph, so a learner
   // can self-assess criterion by criterion. Falls back to a plain
@@ -226,6 +299,7 @@
       '<h2>' + escapeHtml(role.name) + '</h2>' +
       renderShareBar('https://zuyini.com/academy/roles/' + slugify(role.name) + '/', role.name + ' | Zuyini Academy') +
       (role.benchmark ? '<p class="detail-benchmark">Benchmark: ' + escapeHtml(role.benchmark) + '</p>' : '') +
+      renderHiringBlock(slugify(role.name)) +
       bodyHtml +
       '</div>'
     );
@@ -319,6 +393,7 @@
       renderShareBar('https://zuyini.com/academy/pathways/' + slugify(pathway.name) + '/', pathway.name + ' | Zuyini Academy Career Pathway') +
       (pathway.description ? '<p class="detail-description">' + escapeHtml(pathway.description) + '</p>' : '') +
       (pathway.market_basis ? '<p class="detail-benchmark">Market Basis: ' + escapeHtml(pathway.market_basis) + '</p>' : '') +
+      renderHiringBlockForPathway(pathway.representative_roles) +
       (roleLinks
         ? '<div class="cross-links-block"><h3>Representative Roles</h3><div class="role-pills">' + roleLinks + '</div></div>'
         : '') +
