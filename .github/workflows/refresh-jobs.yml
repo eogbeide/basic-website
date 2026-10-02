@@ -30,7 +30,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24' # jsdom 30's bundled undici needs Node ^22.22.2 / ^24.15.0 / >=26 -- Node 20 fails with "markAsUncloneable is not a function"
 
       - name: Set up Python
         uses: actions/setup-python@v5
