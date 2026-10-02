@@ -13,8 +13,11 @@
   <meta property="og:url" content="https://zuyini.com/academy/" />
   <link rel="stylesheet" href="academy.css" />
   <link rel="stylesheet" href="../gate.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&amp;display=swap" />
 </head>
-<body>
+<body class="landing-font">
   <header class="site-header">
     <a href="/index.html" class="logo">
       <span class="logo-mark">Z</span>
@@ -31,49 +34,92 @@
 
   <section class="academy-hero">
     <div class="hero-glow" aria-hidden="true"></div>
-    <div class="hero-inner">
-      <p class="section-label">Role-Driven Mastery System</p>
-      <h1>Master the skills the job market is actually hiring for.</h1>
-      <p class="hero-description">Free, structured learning paths built from the best free videos online, each ending in a capstone project you can show an employer. Follow a job-market-audited Role Path, move through a discipline end-to-end with a Career Pathway, or pursue a university-benchmarked Academic Certificate &mdash; each with a Basic &rarr; Intermediate &rarr; Advanced ladder and direct video learning bridges.</p>
-      <form id="skill-finder-form" class="skill-finder" novalidate>
-        <input id="skill-finder-input" type="text" placeholder="What skill are you looking for? e.g. negotiation, Python, AI agents..." autocomplete="off" />
-        <button type="submit">Find My Path</button>
-      </form>
-      <div class="hero-stats">
-        <button type="button" class="hero-stat" data-hero-mode="roles">
-          <span class="hero-stat-num" id="hero-stat-roles">196</span>
-          <span class="hero-stat-label">Job-Benchmarked Roles</span>
-        </button>
-        <button type="button" class="hero-stat" data-hero-mode="pathways">
-          <span class="hero-stat-num" id="hero-stat-pathways">18</span>
-          <span class="hero-stat-label">Career Pathways</span>
-        </button>
-        <button type="button" class="hero-stat hero-stat-tooltip" data-hero-mode="credentials" data-tooltip="31 Academic Certificates + 75 Bootcamp &amp; Skill Tracks">
-          <span class="hero-stat-num" id="hero-stat-credentials">106</span>
-          <span class="hero-stat-label">Certificates &amp; Skill Tracks</span>
-        </button>
-        <button type="button" class="hero-stat" data-hero-mode="interview">
-          <span class="hero-stat-num" id="hero-stat-interview">20</span>
-          <span class="hero-stat-label">Interview Prep Tracks</span>
-        </button>
-      </div>
-      <div class="inline-signup">
-        <p class="inline-signup-heading">Get free access</p>
-        <p class="inline-signup-pitch">Browsing every role, pathway and certificate is already free &mdash; no signup required. Sign up with your name and email (also free) to unlock every video, track your progress and save your own learning path. No spam, unsubscribe anytime.</p>
-        <form class="zuyini-inline-signup" novalidate>
-          <div class="gate-field">
-            <label for="hero-signup-name">Name</label>
-            <input id="hero-signup-name" name="first_name" type="text" autocomplete="given-name" required />
-          </div>
-          <div class="gate-field">
-            <label for="hero-signup-email">Email</label>
-            <input id="hero-signup-email" name="email" type="email" autocomplete="email" required />
-          </div>
-          <button type="submit" class="gate-submit">Get Access</button>
-          <p class="gate-error" hidden></p>
+    <div class="hero-inner hero-inner-split">
+      <div class="hero-text-col">
+        <p class="section-label hero-badge">Free to browse &middot; no credit card</p>
+        <h1>Master the skills the job market is <span class="hero-accent">actually hiring for.</span></h1>
+        <p class="hero-description">Pick a real job title. Follow a clear Basic &rarr; Intermediate &rarr; Advanced path built from the best free videos online. Finish with a capstone project you can show an employer.</p>
+        <form id="skill-finder-form" class="skill-finder" novalidate>
+          <input id="skill-finder-input" type="text" placeholder="What skill are you looking for? e.g. negotiation, Python, AI agents..." autocomplete="off" />
+          <button type="submit">Find My Path</button>
         </form>
-        <p class="gate-success" hidden>You're in &mdash; every video, course and tracker is unlocked. Thanks for joining Zuyini!</p>
+        <p class="hero-secondary-cta"><a href="/newsletter/index.html">Get the free weekly pick &rarr;</a></p>
+        <p class="hero-fineprint">Free sign-up unlocks every video and your progress tracker. No spam, unsubscribe anytime.</p>
       </div>
+      <div class="hero-card-col">
+        <div class="role-preview-card">
+          <div class="role-preview-head">
+            <span class="role-preview-kicker">Role Path</span>
+            <span class="role-preview-tag">Featured</span>
+          </div>
+          <h2 class="role-preview-title">Finance AI Consultant</h2>
+          <p class="role-preview-meta">12 video lessons &middot; 3 levels &middot; 1 capstone project</p>
+          <div class="role-preview-progress">
+            <div class="role-preview-progress-track"><div class="role-preview-progress-fill" style="width: 33%"></div></div>
+            <span class="role-preview-progress-label">Example progress: 4 of 12 lessons complete</span>
+          </div>
+          <div class="role-preview-steps">
+            <div class="role-preview-step is-complete">
+              <span class="role-preview-step-icon" aria-hidden="true">&#10003;</span>
+              <div><span class="role-preview-step-label">Basic</span><p>Model unit economics, forecasts and trusted finance decision systems</p></div>
+            </div>
+            <div class="role-preview-step">
+              <span class="role-preview-step-icon" aria-hidden="true">2</span>
+              <div><span class="role-preview-step-label">Intermediate</span><p>Automate close, reconciliation and recurring finance decisions with AI</p></div>
+            </div>
+            <div class="role-preview-step">
+              <span class="role-preview-step-icon" aria-hidden="true">3</span>
+              <div><span class="role-preview-step-label">Advanced</span><p>Govern financial AI and translate outputs into executive decisions</p></div>
+            </div>
+            <div class="role-preview-step role-preview-capstone">
+              <span class="role-preview-step-icon" aria-hidden="true">&#127942;</span>
+              <div><span class="role-preview-step-label">Capstone</span><p>Design an AI-native finance operating system, with controls and an adoption roadmap</p></div>
+            </div>
+          </div>
+          <a class="role-preview-link" href="/academy/roles/finance-ai-consultant/">Open this role path &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="glance-band" aria-label="Academy at a glance">
+    <div class="glance-band-inner hero-stats">
+      <button type="button" class="hero-stat" data-hero-mode="roles">
+        <span class="hero-stat-num" id="hero-stat-roles">196</span>
+        <span class="hero-stat-label">Job-Benchmarked Roles</span>
+      </button>
+      <button type="button" class="hero-stat" data-hero-mode="pathways">
+        <span class="hero-stat-num" id="hero-stat-pathways">18</span>
+        <span class="hero-stat-label">Career Pathways</span>
+      </button>
+      <button type="button" class="hero-stat hero-stat-tooltip" data-hero-mode="credentials" data-tooltip="31 Academic Certificates + 75 Bootcamp &amp; Skill Tracks">
+        <span class="hero-stat-num" id="hero-stat-credentials">106</span>
+        <span class="hero-stat-label">Certificates &amp; Skill Tracks</span>
+      </button>
+      <button type="button" class="hero-stat" data-hero-mode="interview">
+        <span class="hero-stat-num" id="hero-stat-interview">20</span>
+        <span class="hero-stat-label">Interview Prep Tracks</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="signup-band">
+    <div class="inline-signup">
+      <p class="inline-signup-heading">Get free access</p>
+      <p class="inline-signup-pitch">Browsing every role, pathway and certificate is already free &mdash; no signup required. Sign up with your name and email (also free) to unlock every video, track your progress and save your own learning path. No spam, unsubscribe anytime.</p>
+      <form class="zuyini-inline-signup" novalidate>
+        <div class="gate-field">
+          <label for="hero-signup-name">Name</label>
+          <input id="hero-signup-name" name="first_name" type="text" autocomplete="given-name" required />
+        </div>
+        <div class="gate-field">
+          <label for="hero-signup-email">Email</label>
+          <input id="hero-signup-email" name="email" type="email" autocomplete="email" required />
+        </div>
+        <button type="submit" class="gate-submit">Get Access</button>
+        <p class="gate-error" hidden></p>
+      </form>
+      <p class="gate-success" hidden>You're in &mdash; every video, course and tracker is unlocked. Thanks for joining Zuyini!</p>
     </div>
   </section>
 
@@ -104,10 +150,93 @@
     </details>
   </section>
 
+  <section class="category-grid-section" id="career-paths">
+    <div class="category-grid-inner">
+      <div class="category-grid-head">
+        <p class="section-label">Career Paths</p>
+        <h2>Whatever you do next, there&rsquo;s a path for it.</h2>
+        <a class="category-grid-browse-all" href="#browse">Browse all 196 roles &rarr;</a>
+      </div>
+      <div class="category-grid">
+        <div class="category-card">
+          <h3>AI, Agents &amp; Intelligent Automation</h3>
+          <a href="/academy/roles/ai-engineer/">AI Engineer</a>
+          <a href="/academy/roles/ai-agent-developer/">AI Agent Developer</a>
+          <a href="/academy/roles/prompt-engineer/">Prompt Engineer</a>
+        </div>
+        <div class="category-card">
+          <h3>Software &amp; Application Engineering</h3>
+          <a href="/academy/roles/full-stack-engineer/">Full-Stack Engineer</a>
+          <a href="/academy/roles/front-end-engineer/">Front-End Engineer</a>
+          <a href="/academy/roles/software-developer/">Software Developer</a>
+        </div>
+        <div class="category-card">
+          <h3>Revenue, Sales &amp; GTM Systems</h3>
+          <a href="/academy/roles/customer-success-manager/">Customer Success Manager</a>
+          <a href="/academy/roles/sales-engineer-solutions-consultant/">Sales Engineer</a>
+          <a href="/academy/roles/product-marketing-manager/">Product Marketing Manager</a>
+        </div>
+        <div class="category-card">
+          <h3>Data Center, AI Compute &amp; Infrastructure</h3>
+          <a href="/academy/roles/cloud-platform-engineer/">Cloud / Platform Engineer</a>
+          <a href="/academy/roles/ai-platform-engineer/">AI Platform Engineer</a>
+          <a href="/academy/roles/network-engineer/">Network Engineer</a>
+        </div>
+        <div class="category-card">
+          <h3>Leadership &amp; Management</h3>
+          <a href="/academy/roles/engineering-manager/">Engineering Manager</a>
+          <a href="/academy/roles/senior-manager/">Senior Manager</a>
+          <a href="/academy/roles/operations-consultant/">Operations Consultant</a>
+        </div>
+        <div class="category-card">
+          <h3>Data, AI &amp; Machine Learning</h3>
+          <a href="/academy/roles/data-scientist/">Data Scientist</a>
+          <a href="/academy/roles/data-engineer/">Data Engineer</a>
+          <a href="/academy/roles/data-analyst/">Data Analyst</a>
+        </div>
+        <div class="category-card">
+          <h3>Business Management</h3>
+          <a href="/academy/roles/entrepreneur-business-owner/">Entrepreneur / Business Owner</a>
+          <a href="/academy/roles/startup-founder-venture-founder/">Startup Founder</a>
+          <a href="/academy/roles/hr-manager-human-resources-manager/">HR Manager</a>
+        </div>
+        <div class="category-card">
+          <h3>AI Adoption &amp; Organizational Change</h3>
+          <a href="/academy/roles/ai-product-manager/">AI Product Manager</a>
+          <a href="/academy/roles/responsible-ai-manager/">Responsible AI Manager</a>
+          <a href="/academy/roles/legal-ai-consultant/">Legal AI Consultant</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="why-section">
-    <div class="why-section-inner">
-      <p class="section-label">Why This Exists</p>
-      <p class="why-section-body">Most "free" course catalogs paywall you after lesson two, or string together recycled filler just to pad a syllabus. Zuyini Academy is built the other way: every role, pathway and certificate is benchmarked against what companies are actually hiring for, assembled entirely from the best free videos already online, and ends in a capstone you can point to &mdash; not a certificate claim with nothing behind it.</p>
+    <div class="why-section-inner why-section-split">
+      <div class="why-text-col">
+        <p class="section-label">Why This Exists</p>
+        <h2>Built by a practitioner, for people who want results.</h2>
+        <p class="why-section-body">Most "free" course catalogs paywall you after lesson two, or string together recycled filler just to pad a syllabus. Zuyini Academy is built the other way: every role, pathway and certificate is benchmarked against what companies are actually hiring for, assembled entirely from the best free videos already online, and ends in a capstone you can point to &mdash; not a certificate claim with nothing behind it.</p>
+        <p class="why-bio">Zuyini Academy was built by Manny Ogbeide, a product and program leader with 10+ years across Microsoft, Amazon, AWS and BHP. He built it to answer one question: what does someone actually need to learn to get hired into this role?</p>
+        <a class="why-about-link" href="/index.html#about">About Manny &rarr;</a>
+      </div>
+      <div class="why-feature-grid">
+        <div class="why-feature-card">
+          <h3>Benchmarked to real jobs</h3>
+          <p>Each path maps to the skills employers list for that role today.</p>
+        </div>
+        <div class="why-feature-card">
+          <h3>Curated, not cluttered</h3>
+          <p>Only the best free videos, in the order you need them.</p>
+        </div>
+        <div class="why-feature-card">
+          <h3>Proof of work</h3>
+          <p>Every path ends in a capstone with a clear rubric.</p>
+        </div>
+        <div class="why-feature-card">
+          <h3>Free to start</h3>
+          <p>Browse everything free. Sign up free to unlock videos and tracking.</p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -125,6 +254,16 @@
     </div>
   </section>
 
+  <section class="newsletter-cta">
+    <div class="newsletter-cta-inner">
+      <span class="newsletter-cta-mark" aria-hidden="true">Z</span>
+      <h2>One great pick. Every week. Free.</h2>
+      <p>Zuyini Weekly sends you one hand-picked course or path, plus practical insight on the AI skills reshaping work.</p>
+      <a class="newsletter-cta-button" href="/newsletter/index.html">Subscribe to Zuyini Weekly</a>
+      <span class="newsletter-cta-fineprint">No spam. Unsubscribe anytime.</span>
+    </div>
+  </section>
+
   <div class="mode-toggle-bar">
     <div class="mode-toggle">
       <button type="button" data-mode="roles" class="active">Roles</button>
@@ -135,7 +274,7 @@
     </div>
   </div>
 
-  <main class="app-shell">
+  <main class="app-shell" id="browse">
     <aside class="role-panel">
       <select id="category-select" class="category-select"></select>
       <div class="search-box">
