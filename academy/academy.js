@@ -16,6 +16,37 @@
     return slugify(name.replace(/^C\d{2,3}\s+/i, ''));
   }
 
+  // Round-robins across companies (each company's own sub-list already
+  // ordered newest/best-first) instead of just slicing a globally-sorted
+  // list -- otherwise whichever company posted the most that week (OpenAI,
+  // usually) dominates every slot shown, even when several companies
+  // actually have real, relevant openings.
+  function diversifyByCompany(items, limit) {
+    var order = [];
+    var byCompany = {};
+    items.forEach(function (j) {
+      if (!byCompany[j.company]) { byCompany[j.company] = []; order.push(j.company); }
+      byCompany[j.company].push(j);
+    });
+    var cursor = {};
+    order.forEach(function (c) { cursor[c] = 0; });
+    var result = [];
+    while (result.length < limit) {
+      var added = false;
+      for (var i = 0; i < order.length; i++) {
+        var co = order[i];
+        if (cursor[co] < byCompany[co].length) {
+          result.push(byCompany[co][cursor[co]]);
+          cursor[co]++;
+          added = true;
+          if (result.length >= limit) break;
+        }
+      }
+      if (!added) break;
+    }
+    return result;
+  }
+
   // Real, live openings pulled directly from each role's actual benchmark
   // companies' own public job-board APIs (see build_jobs_data.py) -- never
   // scraped or invented. Refreshed daily and filtered to postings from the
@@ -108,7 +139,7 @@
       });
     });
     if (!jobs.length) return renderHiringFallback(pathwayName);
-    jobs = jobs.slice(0, 8);
+    jobs = diversifyByCompany(jobs, 8);
     var items = jobs.map(renderJobItem).join('');
     return (
       '<div class="hiring-block">' +
@@ -1888,7 +1919,7 @@
       }
       if (emptyNote) emptyNote.hidden = true;
 
-      var picks = currentPool.slice(0, MAX_CARDS);
+      var picks = diversifyByCompany(currentPool, MAX_CARDS);
       grid.innerHTML = picks
         .map(function (j) { return '<div class="featured-job-card' + (j.isNew ? ' featured-job-new' : '') + '">' + cardHtml(j) + '</div>'; })
         .join('');

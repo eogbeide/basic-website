@@ -297,6 +297,34 @@ def company_mentioned(name, benchmark_text):
     return re.search(r"\b" + re.escape(name) + r"\b", benchmark_text) is not None
 
 
+def diversify(candidates, limit):
+    """Round-robins across companies (each company's own sub-list already
+    sorted best-first) instead of just slicing the globally-sorted list --
+    otherwise whichever company posted the most this week (OpenAI, usually)
+    dominates every slot, even when a role matched several companies."""
+    order = []
+    by_company = {}
+    for c in candidates:
+        if c["company"] not in by_company:
+            by_company[c["company"]] = []
+            order.append(c["company"])
+        by_company[c["company"]].append(c)
+    cursor = {co: 0 for co in order}
+    result = []
+    while len(result) < limit:
+        added = False
+        for co in order:
+            if cursor[co] < len(by_company[co]):
+                result.append(by_company[co][cursor[co]])
+                cursor[co] += 1
+                added = True
+                if len(result) >= limit:
+                    break
+        if not added:
+            break
+    return result
+
+
 # Only show jobs posted recently -- a stale 2-year-old listing isn't a
 # useful signal of what's "hiring right now". 7 days is wide enough that
 # most matched roles still have real candidates (a 24h-only window leaves
@@ -373,7 +401,7 @@ def main():
 
         candidates.sort(key=lambda j: j["_posted"], reverse=True)
         candidates.sort(key=lambda j: -j["_score"])
-        top = candidates[:6]
+        top = diversify(candidates, 6)
         for j in top:
             del j["_score"]
             del j["_posted"]
