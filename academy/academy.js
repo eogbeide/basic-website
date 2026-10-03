@@ -1796,6 +1796,8 @@
     var section = document.getElementById('featured-jobs-section');
     var select = document.getElementById('featured-jobs-state-select');
     var emptyNote = document.getElementById('featured-jobs-empty');
+    var prevBtn = document.getElementById('featured-jobs-prev');
+    var nextBtn = document.getElementById('featured-jobs-next');
     if (!grid || !section) return;
 
     var pool = [];
@@ -1841,10 +1843,7 @@
         }).join('');
     }
 
-    var SLOT_COUNT = 6;
-    var ROTATE_MS = 3500;
-    var prefersReducedMotion = (typeof window.matchMedia === 'function') &&
-      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var MAX_CARDS = 20;
 
     function cardHtml(j) {
       var role = MODES.roles.bySlug[j.roleSlug];
@@ -1860,68 +1859,54 @@
       );
     }
 
-    var rotateTimer = null;
-    var currentPool = [];
-    var nextPullIndex = 0;
-    var slotCursor = 0;
-
-    function stopRotation() {
-      if (rotateTimer) { clearInterval(rotateTimer); rotateTimer = null; }
+    // How far one arrow click scrolls: one card's width (incl. gap), read
+    // from the first real card once rendered, with a sane fallback before
+    // that.
+    function scrollStep() {
+      var first = grid.querySelector('.featured-job-card');
+      return first ? first.getBoundingClientRect().width + 18 : 298;
     }
 
-    function startRotation() {
-      stopRotation();
-      if (prefersReducedMotion || currentPool.length <= SLOT_COUNT) return;
-      rotateTimer = setInterval(function () {
-        var slots = grid.children;
-        if (!slots.length) return;
-        var slotEl = slots[slotCursor % slots.length];
-        slotCursor++;
-        nextPullIndex = (nextPullIndex + 1) % currentPool.length;
-        var nextJob = currentPool[nextPullIndex];
-        slotEl.classList.add('featured-job-card-out');
-        setTimeout(function () {
-          slotEl.className = 'featured-job-card' + (nextJob.isNew ? ' featured-job-new' : '') + ' featured-job-card-in';
-          slotEl.innerHTML = cardHtml(nextJob);
-          // force a reflow so the browser registers the "just swapped in,
-          // start transparent" state before removing it, or the fade-in
-          // never visibly runs.
-          void slotEl.offsetWidth;
-          slotEl.classList.remove('featured-job-card-in');
-        }, 320);
-      }, ROTATE_MS);
+    function updateArrowState() {
+      if (!prevBtn || !nextBtn) return;
+      var maxScroll = grid.scrollWidth - grid.clientWidth;
+      prevBtn.disabled = grid.scrollLeft <= 2;
+      nextBtn.disabled = grid.scrollLeft >= maxScroll - 2;
     }
 
     function render(stateFilter) {
-      stopRotation();
-      currentPool = (!stateFilter || stateFilter === 'all')
+      var currentPool = (!stateFilter || stateFilter === 'all')
         ? pool
         : pool.filter(function (j) { return j.state === stateFilter; });
 
       if (!currentPool.length) {
         grid.innerHTML = '';
         if (emptyNote) emptyNote.hidden = false;
+        if (prevBtn) prevBtn.disabled = true;
+        if (nextBtn) nextBtn.disabled = true;
         return;
       }
       if (emptyNote) emptyNote.hidden = true;
 
-      var picks = currentPool.slice(0, SLOT_COUNT);
-      nextPullIndex = picks.length - 1;
-      slotCursor = 0;
+      var picks = currentPool.slice(0, MAX_CARDS);
       grid.innerHTML = picks
         .map(function (j) { return '<div class="featured-job-card' + (j.isNew ? ' featured-job-new' : '') + '">' + cardHtml(j) + '</div>'; })
         .join('');
-      startRotation();
+      grid.scrollLeft = 0;
+      updateArrowState();
     }
 
     if (select) {
       select.addEventListener('change', function () { render(select.value); });
     }
-    grid.addEventListener('mouseenter', stopRotation);
-    grid.addEventListener('mouseleave', function () { startRotation(); });
-    document.addEventListener('visibilitychange', function () {
-      if (document.hidden) stopRotation(); else startRotation();
-    });
+    if (prevBtn) {
+      prevBtn.addEventListener('click', function () { grid.scrollBy({ left: -scrollStep(), behavior: 'smooth' }); });
+    }
+    if (nextBtn) {
+      nextBtn.addEventListener('click', function () { grid.scrollBy({ left: scrollStep(), behavior: 'smooth' }); });
+    }
+    grid.addEventListener('scroll', updateArrowState);
+    window.addEventListener('resize', updateArrowState);
 
     render('all');
     section.hidden = false;

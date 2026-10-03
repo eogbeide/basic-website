@@ -219,7 +219,11 @@
         <label for="featured-jobs-state-select">State</label>
         <select id="featured-jobs-state-select"><option value="all">All States</option></select>
       </div>
-      <div class="featured-jobs-grid" id="featured-jobs-grid"></div>
+      <div class="featured-jobs-carousel">
+        <button type="button" class="featured-jobs-arrow featured-jobs-arrow-prev" id="featured-jobs-prev" aria-label="Scroll to previous jobs">&#8249;</button>
+        <div class="featured-jobs-grid" id="featured-jobs-grid"></div>
+        <button type="button" class="featured-jobs-arrow featured-jobs-arrow-next" id="featured-jobs-next" aria-label="Scroll to next jobs">&#8250;</button>
+      </div>
       <p class="featured-jobs-empty" id="featured-jobs-empty" hidden>No live openings for that state in the last 7 days &mdash; try &ldquo;All States&rdquo; or check back tomorrow.</p>
     </div>
   </section>
