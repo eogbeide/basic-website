@@ -1573,13 +1573,7 @@ footer {
   padding: 56px 24px;
 }
 
-.featured-this-week {
-  border-top: 1px solid #262626;
-  padding: 44px 24px;
-}
-
-.how-it-works-inner,
-.featured-this-week-inner {
+.how-it-works-inner {
   max-width: 980px;
   margin: 0 auto;
 }
@@ -1598,18 +1592,24 @@ footer {
   padding: 26px 22px;
 }
 
-.how-it-works-num {
-  display: inline-flex;
+.how-it-works-icon {
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  background-color: rgba(138, 100, 16, 0.12);
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background-color: #16171a;
+  margin-bottom: 14px;
+}
+
+.how-it-works-step-label {
+  display: block;
   color: #8a6410;
-  font-size: 13px;
+  font-size: 12.5px;
   font-weight: 800;
-  margin-bottom: 12px;
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
 }
 
 .how-it-works-step h3 {
@@ -1724,66 +1724,6 @@ details[open] > .section-collapse-summary .section-collapse-chevron {
 
 .section-collapse-summary h2 {
   margin: 0;
-}
-
-.featured-this-week-card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 24px;
-  background-color: #ffc629;
-  border-radius: 20px;
-  padding: 36px 40px;
-  margin-top: 16px;
-}
-
-.featured-this-week-kicker {
-  color: #151617;
-  font-size: 12px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin: 0 0 10px;
-}
-
-.featured-this-week-body h3 {
-  margin: 0 0 10px;
-  font-size: 26px;
-  line-height: 1.15;
-}
-
-.featured-this-week-body h3 a {
-  color: #151617;
-  text-decoration: none;
-}
-
-.featured-this-week-body h3 a:hover {
-  text-decoration: underline;
-}
-
-.featured-this-week-body p {
-  color: #3d3418;
-  font-size: 15px;
-  line-height: 1.6;
-  margin: 0;
-  max-width: 560px;
-}
-
-.featured-this-week-cta {
-  flex: 0 0 auto;
-  background-color: #16171a;
-  color: #ffffff;
-  border-radius: 10px;
-  padding: 16px 24px;
-  font-size: 15px;
-  font-weight: 800;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.featured-this-week-cta:hover {
-  background-color: #2a2c31;
 }
 
 @media (max-width: 860px) {
