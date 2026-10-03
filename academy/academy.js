@@ -111,7 +111,7 @@
     }
     var items = entry.jobs.map(renderJobItem).join('');
     return (
-      '<div class="hiring-block">' +
+      '<div class="hiring-block" id="role-hiring-block">' +
       '<h3>Who&rsquo;s Hiring Right Now</h3>' +
       '<p class="hiring-block-note">US openings posted in the last 7 days at ' + escapeHtml(entry.companies.join(', ')) +
       ' &mdash; this role&rsquo;s own benchmark employers &mdash; refreshed daily, as of ' + escapeHtml(entry.asOf) +
@@ -1964,25 +1964,22 @@
     return pool[Math.floor(Math.random() * pool.length)];
   }
 
-  // Each company name links out to that company's own first matching
-  // posting (same outbound-apply pattern used by the full "Who's Hiring
-  // Right Now" block elsewhere) instead of being plain, unclickable text.
+  // Links the whole line to that role's own "Who's Hiring Right Now"
+  // section (#role-hiring-block, baked into every matched role page) --
+  // not to one arbitrarily-picked job's outbound URL. A company here
+  // often has more open jobs than the line can name individually (e.g.
+  // "3 live openings ... at Harvey" can mean 3 different Harvey postings),
+  // so one click through to the real list is how every one of them stays
+  // reachable, not just whichever one got picked first.
   function renderHeroRolePreviewJobs(slug) {
     var el = document.getElementById('hero-role-preview-jobs');
     if (!el) return;
     var entry = JOBS_BY_ROLE[slug];
     if (!entry || !entry.jobs || !entry.jobs.length) { el.hidden = true; return; }
     var n = entry.jobs.length;
-    var label = n === 1 ? '1 live opening this week at ' : n + ' live openings this week at ';
-    var urlByCompany = {};
-    entry.jobs.forEach(function (j) { if (!urlByCompany[j.company]) urlByCompany[j.company] = j.url; });
-    var companyLinks = entry.companies.map(function (c) {
-      var url = urlByCompany[c];
-      return url ?
-        '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(c) + '</a>' :
-        escapeHtml(c);
-    }).join(', ');
-    el.innerHTML = '<span class="role-preview-jobs-dot" aria-hidden="true"></span>' + escapeHtml(label) + companyLinks;
+    var label = (n === 1 ? '1 live opening this week at ' : n + ' live openings this week at ') + entry.companies.join(', ');
+    var href = '/academy/roles/' + slug + '/#role-hiring-block';
+    el.innerHTML = '<span class="role-preview-jobs-dot" aria-hidden="true"></span><a href="' + escapeHtml(href) + '">' + escapeHtml(label) + '</a>';
     el.hidden = false;
   }
 
