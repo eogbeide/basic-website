@@ -1955,6 +1955,25 @@ body.landing-font {
   font-size: 15px;
 }
 
+.role-preview-jobs {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: -4px 0 2px;
+  color: #c9cbd2;
+  font-size: 12.5px;
+  font-weight: 600;
+}
+
+.role-preview-jobs-dot {
+  flex: none;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #ffc629;
+  box-shadow: 0 0 0 3px rgba(255, 198, 41, 0.18);
+}
+
 .role-preview-link {
   color: #ffc629;
   font-weight: 700;

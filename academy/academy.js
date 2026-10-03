@@ -1943,6 +1943,25 @@
     section.hidden = false;
   }
 
+  // The hero's role-preview card is a hand-written illustrative example
+  // (Finance AI Consultant), not dynamically rendered -- but it can still
+  // honestly reflect that role's real live-jobs count instead of saying
+  // nothing about jobs at all. Pulled from the same JOBS_DATA as every
+  // other hiring block; hidden entirely on a day with no real match,
+  // never a hardcoded or stale number.
+  function initHeroRolePreviewJobs() {
+    var el = document.getElementById('hero-role-preview-jobs');
+    if (!el) return;
+    var entry = JOBS_BY_ROLE['finance-ai-consultant'];
+    if (!entry || !entry.jobs || !entry.jobs.length) return;
+    var n = entry.jobs.length;
+    var label = n === 1 ? '1 live opening this week' : n + ' live openings this week';
+    var companies = entry.companies.join(', ');
+    el.innerHTML = '<span class="role-preview-jobs-dot" aria-hidden="true"></span>' + escapeHtml(label) + ' at ' + escapeHtml(companies);
+    el.hidden = false;
+  }
+
+  initHeroRolePreviewJobs();
   initFeaturedJobsHome();
 
   window.addEventListener('popstate', routeFromPath);
