@@ -1943,25 +1943,85 @@
     section.hidden = false;
   }
 
-  // The hero's role-preview card is a hand-written illustrative example
-  // (Finance AI Consultant), not dynamically rendered -- but it can still
-  // honestly reflect that role's real live-jobs count instead of saying
-  // nothing about jobs at all. Pulled from the same JOBS_DATA as every
-  // other hiring block; hidden entirely on a day with no real match,
-  // never a hardcoded or stale number.
-  function initHeroRolePreviewJobs() {
+  // The hero's role-preview card rotates to a different real role each
+  // day -- deterministic by UTC date, so every visitor that day sees the
+  // same pick and it's genuinely different tomorrow, rather than one
+  // role hardcoded forever (or reshuffling on every reload, which would
+  // look broken/flickery and complicate caching for no real benefit).
+  // Picked from roles with clean, complete level data, preferring ones
+  // that also have a real live-jobs match today so the jobs line below
+  // usually has something to show. The static Finance AI Consultant
+  // markup already in the page is the fallback if this never runs (no
+  // JS) or a role lookup comes back empty -- the hero is never left
+  // blank.
+  var LEVEL_LABELS = { BASIC: 'Basic', INTERMEDIATE: 'Intermediate', ADVANCED: 'Advanced' };
+
+  function simpleHash(str) {
+    var h = 0;
+    for (var i = 0; i < str.length; i++) {
+      h = ((h << 5) - h + str.charCodeAt(i)) | 0;
+    }
+    return Math.abs(h);
+  }
+
+  function pickFeaturedRole() {
+    var todayKey = new Date().toISOString().slice(0, 10);
+    var roles = (typeof ROLES_DATA !== 'undefined' ? ROLES_DATA : []);
+    var clean = roles.filter(function (r) {
+      return r.levels && r.levels.length === 3 && r.capstone &&
+        r.levels.every(function (lvl) { return lvl.intro && lvl.intro.trim(); });
+    });
+    if (!clean.length) return null;
+    var withJobs = clean.filter(function (r) { return !!JOBS_BY_ROLE[slugify(r.name)]; });
+    var pool = withJobs.length ? withJobs : clean;
+    return pool[simpleHash(todayKey) % pool.length];
+  }
+
+  function renderHeroRolePreviewJobs(slug) {
     var el = document.getElementById('hero-role-preview-jobs');
     if (!el) return;
-    var entry = JOBS_BY_ROLE['finance-ai-consultant'];
-    if (!entry || !entry.jobs || !entry.jobs.length) return;
+    var entry = JOBS_BY_ROLE[slug];
+    if (!entry || !entry.jobs || !entry.jobs.length) { el.hidden = true; return; }
     var n = entry.jobs.length;
     var label = n === 1 ? '1 live opening this week' : n + ' live openings this week';
-    var companies = entry.companies.join(', ');
-    el.innerHTML = '<span class="role-preview-jobs-dot" aria-hidden="true"></span>' + escapeHtml(label) + ' at ' + escapeHtml(companies);
+    el.innerHTML = '<span class="role-preview-jobs-dot" aria-hidden="true"></span>' + escapeHtml(label) + ' at ' + escapeHtml(entry.companies.join(', '));
     el.hidden = false;
   }
 
-  initHeroRolePreviewJobs();
+  function renderHeroRolePreview() {
+    var titleEl = document.getElementById('hero-role-title');
+    var stepsEl = document.getElementById('hero-role-steps');
+    var linkEl = document.getElementById('hero-role-link');
+    if (!titleEl || !stepsEl || !linkEl) return;
+
+    var role = pickFeaturedRole();
+    if (!role) return;
+
+    var slug = slugify(role.name);
+    titleEl.textContent = role.name;
+    linkEl.href = '/academy/roles/' + slug + '/';
+
+    var rows = role.levels.map(function (lvl, i) {
+      return (
+        '<div class="role-preview-step' + (i === 0 ? ' is-complete' : '') + '">' +
+        '<span class="role-preview-step-icon" aria-hidden="true">' + (i === 0 ? '&#10003;' : String(i + 1)) + '</span>' +
+        '<div><span class="role-preview-step-label">' + escapeHtml(LEVEL_LABELS[lvl.level] || lvl.level) + '</span>' +
+        '<p>' + escapeHtml(truncateSnippet(lvl.intro, 92)) + '</p></div>' +
+        '</div>'
+      );
+    }).join('') + (
+      '<div class="role-preview-step role-preview-capstone">' +
+      '<span class="role-preview-step-icon" aria-hidden="true">&#127942;</span>' +
+      '<div><span class="role-preview-step-label">Capstone</span>' +
+      '<p>' + escapeHtml(truncateSnippet(role.capstone, 110)) + '</p></div>' +
+      '</div>'
+    );
+    stepsEl.innerHTML = rows;
+
+    renderHeroRolePreviewJobs(slug);
+  }
+
+  renderHeroRolePreview();
   initFeaturedJobsHome();
 
   window.addEventListener('popstate', routeFromPath);
