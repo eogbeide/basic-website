@@ -393,6 +393,45 @@ a {
   flex-direction: column;
 }
 
+.role-panel-toggle {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 10px 14px;
+  background-color: #151617;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #d7d7d7;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: left;
+}
+
+.role-panel-toggle:hover {
+  border-color: rgba(255, 198, 41, 0.5);
+  color: #ffffff;
+}
+
+/* Once a role/pathway/etc. is open, the list collapses down to just this
+   toggle so the detail content isn't competing with a full sidebar --
+   clicking it re-expands the list to browse something else. */
+.role-panel.collapsed {
+  width: auto;
+  padding: 10px;
+  max-height: none;
+}
+
+.role-panel.collapsed .role-panel-toggle {
+  display: inline-flex;
+  width: auto;
+}
+
+.role-panel.collapsed > *:not(.role-panel-toggle) {
+  display: none;
+}
+
 .mode-toggle-bar {
   max-width: 1180px;
   margin: 0 auto 22px;

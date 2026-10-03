@@ -712,6 +712,28 @@
   var categorySelect = document.getElementById('category-select');
   var searchBoxEl = document.querySelector('.search-box');
   var toggleButtons = document.querySelectorAll('.mode-toggle button[data-mode]');
+  var panelEl = document.getElementById('role-panel');
+  var panelToggleBtn = document.getElementById('role-panel-toggle');
+
+  // The list panel collapses to just this toggle once an item is open, so
+  // the detail content isn't competing with a full sidebar -- expanding
+  // it again (to browse something else) is one click away, and it
+  // re-collapses automatically the moment a new item is opened.
+  function collapsePanel() {
+    if (!panelEl) return;
+    panelEl.classList.add('collapsed');
+    if (panelToggleBtn) panelToggleBtn.setAttribute('aria-expanded', 'false');
+  }
+
+  function expandPanel() {
+    if (!panelEl) return;
+    panelEl.classList.remove('collapsed');
+    if (panelToggleBtn) panelToggleBtn.setAttribute('aria-expanded', 'true');
+  }
+
+  if (panelToggleBtn) {
+    panelToggleBtn.addEventListener('click', expandPanel);
+  }
   var ALL_CATEGORIES = 'all';
   var currentCategory = ALL_CATEGORIES;
   var heroStatButtons = document.querySelectorAll('.hero-stat[data-hero-mode]');
@@ -998,6 +1020,7 @@
       '<p>' + escapeHtml(mode.emptyBody) + '</p>' +
       renderFeaturedPicks(mode) +
       '</div>';
+    expandPanel();
   }
 
   var MASTERY_LEVELS = [
@@ -1327,6 +1350,7 @@
       li.classList.toggle('active', li.getAttribute('data-slug') === slugify(item.name));
     });
 
+    collapsePanel();
     detailEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
@@ -1356,6 +1380,7 @@
     detailEl.innerHTML = renderCourse(course, backTarget);
     attachMasteryTracking('courses', slug);
     recordView('courses', slug, course.name);
+    collapsePanel();
     detailEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
     if (updatePath) {
       history.pushState(null, '', '/academy/courses/' + slug + '/');
@@ -1381,6 +1406,7 @@
       if (searchEl) searchEl.value = '';
       currentSlug = null;
       currentItemName = 'My Learning';
+      expandPanel();
       listEl.innerHTML = '<li class="no-match">Your saved items are shown on the right &mdash; use the sidebar again to keep browsing.</li>';
       if (countEl) countEl.textContent = loadMyPathway().length;
       if (countLabelEl) countLabelEl.textContent = 'saved items';
