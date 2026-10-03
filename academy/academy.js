@@ -115,7 +115,7 @@
       '<h3>Who&rsquo;s Hiring Right Now</h3>' +
       '<p class="hiring-block-note">US openings posted in the last 7 days at ' + escapeHtml(entry.companies.join(', ')) +
       ' &mdash; this role&rsquo;s own benchmark employers &mdash; refreshed daily, as of ' + escapeHtml(entry.asOf) +
-      '. Pulled directly from each company&rsquo;s public job board; not exhaustive, and postings close fast, so always confirm on the employer&rsquo;s own site before applying.</p>' +
+      '. Pulled directly from each company&rsquo;s public job board; not exhaustive, and postings close fast &mdash; worth confirming the details on the employer&rsquo;s own site before applying.</p>' +
       '<ul class="hiring-job-list">' + items + '</ul>' +
       '</div>'
     );
@@ -145,7 +145,7 @@
       '<div class="hiring-block">' +
       '<h3>Who&rsquo;s Hiring Right Now</h3>' +
       '<p class="hiring-block-note">US openings posted in the last 7 days at ' + escapeHtml(Object.keys(companies).join(', ')) +
-      ' across this pathway&rsquo;s representative roles, refreshed daily. Pulled directly from each company&rsquo;s public job board; not exhaustive, and postings close fast, so always confirm on the employer&rsquo;s own site before applying.</p>' +
+      ' across this pathway&rsquo;s representative roles, refreshed daily. Pulled directly from each company&rsquo;s public job board; not exhaustive, and postings close fast &mdash; worth confirming the details on the employer&rsquo;s own site before applying.</p>' +
       '<ul class="hiring-job-list">' + items + '</ul>' +
       '</div>'
     );

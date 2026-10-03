@@ -159,7 +159,7 @@ page = '''<!DOCTYPE html>
     <div class="hero-inner">
       <p class="section-label">Verified Directory &mdash; Updated ''' + esc(d['verifiedDate']) + '''</p>
       <h1>''' + esc(d['title']) + '''</h1>
-      <p class="hero-description">''' + esc(d['subtitle']) + ''' &mdash; every credential here is awarded by the named provider under that provider's own rules. Zuyini curates, verifies and maps the opportunity; it never re-labels its own certificates as a provider's credential.</p>
+      <p class="hero-description">''' + esc(d['subtitle']) + '''. We just help you find the free ones and explain exactly what you'd be earning.</p>
       <div class="inline-signup">
         <p class="inline-signup-heading">Get free access</p>
         <p class="inline-signup-pitch">Sign up with your name and email to unlock every video, course and mastery tracker across the Academy and Health Sciences Academy. No spam, unsubscribe anytime.</p>
@@ -183,7 +183,7 @@ page = '''<!DOCTYPE html>
   <main class="credentials-main">
     <section class="credentials-section credentials-intro">
       <div class="issuer-rule">
-        <p class="issuer-rule-label">Issuer Rule</p>
+        <p class="issuer-rule-label">Who Actually Issues This</p>
         <p>''' + esc(d['issuerRule']) + '''</p>
       </div>
 
@@ -191,7 +191,7 @@ page = '''<!DOCTYPE html>
       <div class="taxonomy-grid">''' + taxonomy_html + '''</div>
 
       <div class="audit-callout">
-        <p class="audit-callout-label">Audit Note</p>
+        <p class="audit-callout-label">Worth Knowing</p>
         <p>''' + esc(d['audit']) + '''</p>
       </div>
 
