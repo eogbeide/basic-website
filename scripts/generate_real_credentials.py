@@ -253,7 +253,7 @@ page = '''<!DOCTYPE html>
         <p>''' + esc(d['audit']) + '''</p>
       </div>
 
-      <h2>Providers Verified So Far</h2>
+      <h2>Verified Providers</h2>
       <div class="provider-wall">''' + providers_html + '''</div>
 
       <div class="credentials-filter-bar">
