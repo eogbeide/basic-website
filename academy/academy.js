@@ -1589,9 +1589,17 @@
     if (!link || window.ZuyiniGate.hasAccess()) return;
     e.preventDefault();
     e.stopImmediatePropagation();
+    // Ties the gate's ask to the specific video/course just clicked (and
+    // the role/pathway/etc. it's part of) instead of a generic pitch --
+    // asking right after real intent converts better than asking before
+    // any value was shown. The title lives in the link's last <span>
+    // (after a leading play-icon span) for video/bridge links, or as
+    // plain text with no spans at all for course-sequence links.
+    var lastSpan = link.querySelector('span:last-child');
+    var itemLabel = (lastSpan ? lastSpan.textContent : link.textContent).trim();
     window.ZuyiniGate.requireAccess(function () {
       window.open(link.href, '_blank', 'noopener,noreferrer');
-    });
+    }, { itemLabel: itemLabel, parentLabel: currentItemName });
   }, true);
 
   toggleButtons.forEach(function (btn) {

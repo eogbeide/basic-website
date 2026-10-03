@@ -24,15 +24,45 @@
     }
   }
 
-  function buildOverlay() {
+  function escapeHtml(str) {
+    if (!str) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function truncate(str, n) {
+    if (!str || str.length <= n) return str || '';
+    return str.slice(0, n - 1).trim() + '…';
+  }
+
+  // `context` (optional) ties the ask to the specific thing the visitor
+  // just tried to open -- e.g. a video title and the role/topic it's
+  // part of -- instead of a generic pitch. Asking right after someone has
+  // shown real intent (they clicked something they wanted) converts
+  // better than asking before they've seen any value, so the headline
+  // and pitch get sharper when we know what that was; falling back to
+  // the generic copy when we don't (e.g. no context passed).
+  function buildOverlay(context) {
+    var headline = context && context.itemLabel ?
+      'Unlock &ldquo;' + escapeHtml(truncate(context.itemLabel, 64)) + '&rdquo;' :
+      'Get free access';
+    var pitch = context && context.itemLabel ?
+      'Sign up free (10 seconds, no card) to watch this now' +
+      (context.parentLabel ? ' and unlock the rest of ' + escapeHtml(context.parentLabel) + '&rsquo;s path' : ' and unlock every other video and course in the Academy') +
+      '. No spam, unsubscribe anytime.' :
+      'Sign up free (10 seconds, no card) to unlock every video, course and mastery tracker in the Academy and Health Sciences Academy catalogs. No spam, unsubscribe anytime.';
+
     var overlay = document.createElement('div');
     overlay.id = 'signup-gate';
     overlay.innerHTML =
       '<div class="gate-card">' +
       '<button type="button" class="gate-close" aria-label="Close">&times;</button>' +
       '<span class="logo-mark">Z</span>' +
-      '<h2>Get free access</h2>' +
-      '<p class="gate-pitch">Sign up with your name and email to unlock every video, course and mastery tracker in the Academy and Health Sciences Academy catalogs, plus occasional updates from Zuyini. No spam, unsubscribe anytime.</p>' +
+      '<h2>' + headline + '</h2>' +
+      '<p class="gate-pitch">' + pitch + '</p>' +
       '<form id="gate-form" novalidate>' +
       '<div class="gate-field">' +
       '<label for="gate-name">Name</label>' +
@@ -139,8 +169,10 @@
   // Shows the signup modal. `onGranted` (optional) runs once access is
   // granted from THIS modal instance -- used so a gated click (e.g. opening
   // a video) can complete automatically right after signup instead of
-  // making the visitor click twice.
-  function showGate(onGranted) {
+  // making the visitor click twice. `context` (optional) is the {itemLabel,
+  // parentLabel} passed through from requireAccess, used to make the ask
+  // specific to what was just clicked instead of generic.
+  function showGate(onGranted, context) {
     if (activeOverlay) {
       if (onGranted) pendingCallbacks.push(onGranted);
       return;
@@ -148,7 +180,7 @@
     if (onGranted) pendingCallbacks.push(onGranted);
 
     document.body.style.overflow = 'hidden';
-    var overlay = buildOverlay();
+    var overlay = buildOverlay(context);
     document.body.appendChild(overlay);
     activeOverlay = overlay;
 
@@ -177,12 +209,15 @@
   // free; only "reviewing the content" itself prompts signup.
   window.ZuyiniGate = {
     hasAccess: hasAccess,
-    requireAccess: function (onGranted) {
+    // `context` (optional): {itemLabel, parentLabel} -- what the visitor
+    // just tried to open, so the modal's ask can name it specifically
+    // instead of a generic pitch.
+    requireAccess: function (onGranted, context) {
       if (hasAccess()) {
         if (onGranted) onGranted();
         return true;
       }
-      showGate(onGranted);
+      showGate(onGranted, context);
       return false;
     },
   };
