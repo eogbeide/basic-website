@@ -187,7 +187,7 @@ page = '''<!DOCTYPE html>
         <p>''' + esc(d['issuerRule']) + '''</p>
       </div>
 
-      <h2>Credential Taxonomy &mdash; Named What Each Provider Actually Calls It</h2>
+      <h2>Credential Taxonomy &mdash; Exactly as Each Provider Names It</h2>
       <div class="taxonomy-grid">''' + taxonomy_html + '''</div>
 
       <div class="audit-callout">
