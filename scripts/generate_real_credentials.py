@@ -1,18 +1,55 @@
 import json
 import os
+import re
 import html as htmllib
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 d = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'real_credentials.json')))
+
+# Public, widely-recognized brand accent colors (not trademarked logo
+# artwork) used to give the provider wall a "logo wall" feel without
+# reproducing anyone's actual logo graphic -- see README note in the
+# conversation this was built from: using real logo image files on a
+# non-affiliated page edges into implied-endorsement territory, a plain
+# color-accented wordmark doesn't.
+PROVIDER_COLORS = {
+    'Google': '#4285F4',
+    'Microsoft': '#00A4EF',
+    'IBM': '#0F62FE',
+    'HubSpot': '#FF7A59',
+    'Harvard': '#A51C30',
+    'Univ. Helsinki': '#107EB2',
+    'AWS': '#FF9900',
+    'Open University': '#002E5B',
+    'HP Foundation': '#0096D6',
+    'Kaggle': '#20BEFF',
+    'Salesforce': '#00A1E0',
+}
+
+PROVIDER_NAMES = [p['name'] for p in d['providers']]
 
 
 def esc(s):
     return htmllib.escape(s or '', quote=True)
 
 
-def render_item_card(it):
+def infer_provider(text):
+    """Finds which known provider a group/card heading belongs to, so
+    filter attributes can be added without hand-tagging every item in
+    the JSON. Longest-name-first avoids 'IBM' matching inside some
+    other provider's longer name, etc."""
+    if not text:
+        return None
+    for name in sorted(PROVIDER_NAMES, key=len, reverse=True):
+        if re.search(r'\b' + re.escape(name.split('.')[-1].strip()) + r'\b', text, re.I):
+            return name
+    return None
+
+
+def render_item_card(it, provider):
+    prov_attr = ' data-provider="' + esc(provider) + '"' if provider else ''
     return (
-        '<div class="credential-card">'
+        '<div class="credential-card"' + prov_attr + '>'
         '<p class="credential-card-title">' + esc(it['title']) + '</p>'
         '<p class="credential-card-desc">' + esc(it['desc']) + '</p>'
         '<div class="credential-card-foot">'
@@ -24,10 +61,11 @@ def render_item_card(it):
 
 
 def render_group(g):
+    provider = infer_provider(g['heading'])
     out = '<h3 class="credential-group-heading">' + esc(g['heading']) + '</h3>'
     if g.get('note'):
         out += '<p class="credential-group-note">' + esc(g['note']) + '</p>'
-    out += '<div class="credential-grid">' + ''.join(render_item_card(it) for it in g['items']) + '</div>'
+    out += '<div class="credential-grid">' + ''.join(render_item_card(it, provider) for it in g['items']) + '</div>'
     return out
 
 
@@ -36,7 +74,9 @@ def render_links_row(links):
         return ''
     out = '<div class="credential-links-row">'
     for lk in links:
-        out += '<a class="credential-link-pill" href="' + esc(lk['url']) + '" target="_blank" rel="noopener noreferrer">' + esc(lk['title']) + ' &rarr;</a>'
+        provider = infer_provider(lk['title'])
+        prov_attr = ' data-provider="' + esc(provider) + '"' if provider else ''
+        out += '<a class="credential-link-pill"' + prov_attr + ' href="' + esc(lk['url']) + '" target="_blank" rel="noopener noreferrer">' + esc(lk['title']) + ' &rarr;</a>'
     out += '</div>'
     return out
 
@@ -65,8 +105,10 @@ def render_section(s):
     if s.get('cards'):
         out += '<div class="credential-grid">'
         for c in s['cards']:
+            provider = infer_provider(c['heading'])
+            prov_attr = ' data-provider="' + esc(provider) + '"' if provider else ''
             out += (
-                '<div class="credential-card credential-card--wide">'
+                '<div class="credential-card credential-card--wide"' + prov_attr + '>'
                 '<p class="credential-card-title">' + esc(c['heading']) + '</p>'
                 '<p class="credential-card-desc">' + esc(c['body']) + '</p>'
                 '<div class="credential-card-foot">'
@@ -80,7 +122,7 @@ def render_section(s):
         out += '<div class="stack-grid">'
         for st in s['stacks']:
             out += (
-                '<div class="stack-card">'
+                '<div class="stack-card" data-path="' + esc(st['path']) + '">'
                 '<span class="stack-tag">' + esc(st['tag']) + '</span>'
                 '<p class="stack-title">' + esc(st['title']) + '</p>'
                 '<p class="stack-path">' + esc(st['path']) + '</p>'
@@ -111,8 +153,14 @@ taxonomy_html = ''.join(
     for t in d['taxonomy']
 )
 
+# Wordmark wall: a styled-text "logo wall" using each provider's public
+# brand accent color, not an actual logo image file (see PROVIDER_COLORS
+# note above).
 providers_html = ''.join(
-    '<div class="provider-chip"><strong>' + esc(p['name']) + '</strong><span>' + esc(p['product']) + '</span></div>'
+    '<div class="provider-wordmark" style="--brand-color: ' + esc(PROVIDER_COLORS.get(p['name'], '#ffc629')) + '">'
+    '<p class="provider-wordmark-name">' + esc(p['name']) + '</p>'
+    '<span class="provider-wordmark-product">' + esc(p['product']) + '</span>'
+    '</div>'
     for p in d['providers']
 )
 
@@ -122,6 +170,16 @@ section_nav_html = ''.join(
 )
 
 sections_html = ''.join(render_section(s) for s in d['sections'])
+
+provider_filter_options = ''.join(
+    '<option value="' + esc(p['name']) + '">' + esc(p['name']) + '</option>'
+    for p in d['providers']
+)
+
+type_filter_options = ''.join(
+    '<option value="' + esc(s['id']) + '">' + esc(s['label']) + '</option>'
+    for s in d['sections']
+)
 
 page = '''<!DOCTYPE html>
 <html lang="en">
@@ -196,7 +254,30 @@ page = '''<!DOCTYPE html>
       </div>
 
       <h2>Providers Verified So Far</h2>
-      <div class="provider-grid">''' + providers_html + '''</div>
+      <div class="provider-wall">''' + providers_html + '''</div>
+
+      <div class="credentials-filter-bar">
+        <div class="credentials-filter-field">
+          <label for="rc-search">Search</label>
+          <input id="rc-search" type="text" placeholder="e.g. Python, Google, AI agent..." autocomplete="off" />
+        </div>
+        <div class="credentials-filter-field">
+          <label for="rc-filter-provider">Provider</label>
+          <select id="rc-filter-provider">
+            <option value="all">All Providers</option>
+            ''' + provider_filter_options + '''
+          </select>
+        </div>
+        <div class="credentials-filter-field">
+          <label for="rc-filter-type">Type</label>
+          <select id="rc-filter-type">
+            <option value="all">All Types</option>
+            ''' + type_filter_options + '''
+          </select>
+        </div>
+        <button type="button" class="credentials-filter-reset" id="rc-filter-reset" hidden>Clear filters</button>
+      </div>
+      <p class="credentials-filter-empty" id="rc-filter-empty" hidden>No credentials match that search &mdash; try a different term, provider or type.</p>
 
       <nav class="credentials-section-nav" aria-label="Jump to section">''' + section_nav_html + '''</nav>
     </section>
@@ -218,6 +299,7 @@ page = '''<!DOCTYPE html>
   </footer>
 
   <script src="../../gate.js"></script>
+  <script src="real-credentials.js"></script>
 </body>
 </html>
 '''
