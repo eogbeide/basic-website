@@ -1965,6 +1965,15 @@ body.landing-font {
   font-weight: 600;
 }
 
+.role-preview-jobs a {
+  color: #ffc629;
+  text-decoration: none;
+}
+
+.role-preview-jobs a:hover {
+  text-decoration: underline;
+}
+
 .role-preview-jobs-dot {
   flex: none;
   width: 7px;

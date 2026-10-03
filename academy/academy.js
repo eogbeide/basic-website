@@ -1943,29 +1943,16 @@
     section.hidden = false;
   }
 
-  // The hero's role-preview card rotates to a different real role each
-  // day -- deterministic by UTC date, so every visitor that day sees the
-  // same pick and it's genuinely different tomorrow, rather than one
-  // role hardcoded forever (or reshuffling on every reload, which would
-  // look broken/flickery and complicate caching for no real benefit).
-  // Picked from roles with clean, complete level data, preferring ones
-  // that also have a real live-jobs match today so the jobs line below
-  // usually has something to show. The static Finance AI Consultant
-  // markup already in the page is the fallback if this never runs (no
-  // JS) or a role lookup comes back empty -- the hero is never left
-  // blank.
+  // The hero's role-preview card picks a different real role on every
+  // page load -- not one role hardcoded forever. Picked from roles with
+  // clean, complete level data, preferring ones that also have a real
+  // live-jobs match today so the jobs line below usually has something
+  // to show (and link to). The static Finance AI Consultant markup
+  // already in the page is the fallback if this never runs (no JS) or a
+  // role lookup comes back empty -- the hero is never left blank.
   var LEVEL_LABELS = { BASIC: 'Basic', INTERMEDIATE: 'Intermediate', ADVANCED: 'Advanced' };
 
-  function simpleHash(str) {
-    var h = 0;
-    for (var i = 0; i < str.length; i++) {
-      h = ((h << 5) - h + str.charCodeAt(i)) | 0;
-    }
-    return Math.abs(h);
-  }
-
   function pickFeaturedRole() {
-    var todayKey = new Date().toISOString().slice(0, 10);
     var roles = (typeof ROLES_DATA !== 'undefined' ? ROLES_DATA : []);
     var clean = roles.filter(function (r) {
       return r.levels && r.levels.length === 3 && r.capstone &&
@@ -1974,17 +1961,28 @@
     if (!clean.length) return null;
     var withJobs = clean.filter(function (r) { return !!JOBS_BY_ROLE[slugify(r.name)]; });
     var pool = withJobs.length ? withJobs : clean;
-    return pool[simpleHash(todayKey) % pool.length];
+    return pool[Math.floor(Math.random() * pool.length)];
   }
 
+  // Each company name links out to that company's own first matching
+  // posting (same outbound-apply pattern used by the full "Who's Hiring
+  // Right Now" block elsewhere) instead of being plain, unclickable text.
   function renderHeroRolePreviewJobs(slug) {
     var el = document.getElementById('hero-role-preview-jobs');
     if (!el) return;
     var entry = JOBS_BY_ROLE[slug];
     if (!entry || !entry.jobs || !entry.jobs.length) { el.hidden = true; return; }
     var n = entry.jobs.length;
-    var label = n === 1 ? '1 live opening this week' : n + ' live openings this week';
-    el.innerHTML = '<span class="role-preview-jobs-dot" aria-hidden="true"></span>' + escapeHtml(label) + ' at ' + escapeHtml(entry.companies.join(', '));
+    var label = n === 1 ? '1 live opening this week at ' : n + ' live openings this week at ';
+    var urlByCompany = {};
+    entry.jobs.forEach(function (j) { if (!urlByCompany[j.company]) urlByCompany[j.company] = j.url; });
+    var companyLinks = entry.companies.map(function (c) {
+      var url = urlByCompany[c];
+      return url ?
+        '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(c) + '</a>' :
+        escapeHtml(c);
+    }).join(', ');
+    el.innerHTML = '<span class="role-preview-jobs-dot" aria-hidden="true"></span>' + escapeHtml(label) + companyLinks;
     el.hidden = false;
   }
 
