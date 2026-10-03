@@ -129,7 +129,8 @@ function pageShell(opts) {
   <main class="app-shell">
     <aside class="role-panel" id="role-panel">
       <button type="button" id="role-panel-toggle" class="role-panel-toggle" aria-expanded="true">
-        <span class="role-panel-toggle-icon" aria-hidden="true">&#9776;</span> Browse list
+        <span class="role-panel-toggle-icon" aria-hidden="true">&#9776;</span>
+        <span class="role-panel-toggle-label">Hide list</span>
       </button>
       <select id="category-select" class="category-select"></select>
       <div class="search-box">

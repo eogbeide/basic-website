@@ -714,25 +714,35 @@
   var toggleButtons = document.querySelectorAll('.mode-toggle button[data-mode]');
   var panelEl = document.getElementById('role-panel');
   var panelToggleBtn = document.getElementById('role-panel-toggle');
+  var panelToggleLabel = panelToggleBtn ? panelToggleBtn.querySelector('.role-panel-toggle-label') : null;
 
-  // The list panel collapses to just this toggle once an item is open, so
-  // the detail content isn't competing with a full sidebar -- expanding
-  // it again (to browse something else) is one click away, and it
-  // re-collapses automatically the moment a new item is opened.
+  // The same button works both ways: a visitor can hide the list
+  // themselves at any point ("Hide list"), and opening a role/pathway/
+  // etc. also collapses it automatically so the detail content isn't
+  // competing with a full sidebar ("Browse list" brings it back either
+  // way).
   function collapsePanel() {
     if (!panelEl) return;
     panelEl.classList.add('collapsed');
     if (panelToggleBtn) panelToggleBtn.setAttribute('aria-expanded', 'false');
+    if (panelToggleLabel) panelToggleLabel.textContent = 'Browse list';
   }
 
   function expandPanel() {
     if (!panelEl) return;
     panelEl.classList.remove('collapsed');
     if (panelToggleBtn) panelToggleBtn.setAttribute('aria-expanded', 'true');
+    if (panelToggleLabel) panelToggleLabel.textContent = 'Hide list';
   }
 
   if (panelToggleBtn) {
-    panelToggleBtn.addEventListener('click', expandPanel);
+    panelToggleBtn.addEventListener('click', function () {
+      if (panelEl.classList.contains('collapsed')) {
+        expandPanel();
+      } else {
+        collapsePanel();
+      }
+    });
   }
   var ALL_CATEGORIES = 'all';
   var currentCategory = ALL_CATEGORIES;

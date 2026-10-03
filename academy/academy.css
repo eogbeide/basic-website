@@ -394,11 +394,13 @@ a {
 }
 
 .role-panel-toggle {
-  display: none;
+  display: inline-flex;
+  flex: none;
   align-items: center;
   gap: 8px;
   width: 100%;
   padding: 10px 14px;
+  margin-bottom: 12px;
   background-color: #151617;
   border: 1px solid #333;
   border-radius: 6px;
@@ -414,9 +416,10 @@ a {
   color: #ffffff;
 }
 
-/* Once a role/pathway/etc. is open, the list collapses down to just this
-   toggle so the detail content isn't competing with a full sidebar --
-   clicking it re-expands the list to browse something else. */
+/* Visitors can collapse the list themselves at any time ("Hide list"),
+   and opening a role/pathway/etc. also collapses it automatically so
+   the detail content isn't competing with a full sidebar -- either way,
+   the same button flips to "Browse list" to bring it back. */
 .role-panel.collapsed {
   width: auto;
   padding: 10px;
@@ -424,8 +427,8 @@ a {
 }
 
 .role-panel.collapsed .role-panel-toggle {
-  display: inline-flex;
   width: auto;
+  margin-bottom: 0;
 }
 
 .role-panel.collapsed > *:not(.role-panel-toggle) {
