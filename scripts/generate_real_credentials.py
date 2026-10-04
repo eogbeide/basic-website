@@ -186,11 +186,11 @@ page = '''<!DOCTYPE html>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>REAL Provider-Issued Credentials | Zuyini Academy</title>
+  <title>Verified Certifications &amp; Credentials | Zuyini Academy</title>
   <meta name="description" content="A verified directory of real, provider-issued credentials from Google, Microsoft, IBM, HubSpot, AWS, Salesforce, Harvard and more &mdash; free certifications, micro-credentials, badges and university certificates, mapped to Zuyini roles." />
   <link rel="canonical" href="https://zuyini.com/academy/real-credentials/" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="REAL Provider-Issued Credentials | Zuyini Academy" />
+  <meta property="og:title" content="Verified Certifications &amp; Credentials | Zuyini Academy" />
   <meta property="og:description" content="A verified directory of real, provider-issued credentials from Google, Microsoft, IBM, HubSpot, AWS, Salesforce, Harvard and more." />
   <meta property="og:image" content="https://zuyini.com/academy/og-image.png" />
   <meta property="og:url" content="https://zuyini.com/academy/real-credentials/" />
@@ -218,6 +218,7 @@ page = '''<!DOCTYPE html>
       <p class="section-label">Verified Directory &mdash; Updated ''' + esc(d['verifiedDate']) + '''</p>
       <h1>''' + esc(d['title']) + '''</h1>
       <p class="hero-description">''' + esc(d['subtitle']) + '''. We just help you find the free ones and explain exactly what you'd be earning.</p>
+      <p class="hero-provider-ticker">Google &bull; Microsoft &bull; IBM &bull; AWS &bull; Harvard &bull; Salesforce &bull; and more</p>
       <div class="inline-signup">
         <p class="inline-signup-heading">Get free access</p>
         <p class="inline-signup-pitch">Sign up with your name and email to unlock every video, course and mastery tracker across the Academy and Health Sciences Academy. No spam, unsubscribe anytime.</p>

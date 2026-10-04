@@ -63,7 +63,7 @@ function pageShell(opts) {
       <a href="/index.html">Main Site</a>
       <a href="/health-sciences/index.html">Health Sciences</a>
       <a href="/newsletter/index.html">Newsletter</a>
-      <a href="/academy/real-credentials/index.html">Real Credentials</a>
+      <a href="/academy/real-credentials/index.html">Verified Credentials</a>
       <a href="/index.html#about">About Manny</a>
     </nav>
   </header>
@@ -150,7 +150,7 @@ ${opts.detailHtml}
       <a href="/academy/index.html">Academy</a>
       <a href="/health-sciences/index.html">Health Sciences</a>
       <a href="/newsletter/index.html">Newsletter</a>
-      <a href="/academy/real-credentials/index.html">Real Credentials</a>
+      <a href="/academy/real-credentials/index.html">Verified Credentials</a>
       <a href="/index.html">Zuyini Consulting</a>
       <a href="https://www.linkedin.com/in/emmanuelogbeide/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       <a href="mailto:manny.ogbeide@gmail.com">Contact</a>
