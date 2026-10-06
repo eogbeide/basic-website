@@ -10838,5 +10838,824 @@
     "rubricHeading": "Proof Rubric - Communication Expert Standard",
     "rubric": "Audience diagnosis; framework selection; answer-first clarity; concision; logical support; story + data integration; persuasive speech architecture; rhetorical control; vocal and nonverbal presence; listening; Q&A judgment; adaptability under pressure; ethical influence; ability to diagnose, coach and improve another communicator; measurable audience comprehension, recall or action.",
     "page": 747
+  },
+  {
+    "name": "AI Foundations to Agents",
+    "category": "Curated AI Certificate",
+    "tagline": "Curated AI Certification CAI01",
+    "intro": "From first principles to building your own agents -- a complete, fully free path through modern AI.",
+    "benchmark": "Curated source set: University of Helsinki + Google Skills + Microsoft + Harvard + fast.ai + MIT OpenCourseWare + Stanford + Hugging Face + IBM SkillsBuild -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Elements of AI: Introduction to AI",
+            "video": {
+              "title": "1. Elements of AI: Introduction to AI",
+              "url": "https://www.elementsofai.com/",
+              "channel": "University of Helsinki"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "2. Beginner: Introduction to Generative AI",
+            "video": {
+              "title": "2. Beginner: Introduction to Generative AI",
+              "url": "https://www.skills.google/paths/118",
+              "channel": "Google Skills"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "3. Introduction to Large Language Models",
+            "video": {
+              "title": "3. Introduction to Large Language Models",
+              "url": "https://www.skills.google/course_templates/539",
+              "channel": "Google Skills"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "4. AI for Beginners (12 weeks / 24 lessons)",
+            "video": {
+              "title": "4. AI for Beginners (12 weeks / 24 lessons)",
+              "url": "https://github.com/microsoft/AI-For-Beginners",
+              "channel": "Microsoft"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "5. CS50's Introduction to AI with Python",
+            "video": {
+              "title": "5. CS50's Introduction to AI with Python",
+              "url": "https://cs50.harvard.edu/ai/",
+              "channel": "Harvard"
+            },
+            "note": "Free to audit; provider certificate costs separately"
+          },
+          {
+            "title": "6. Practical Deep Learning for Coders",
+            "video": {
+              "title": "6. Practical Deep Learning for Coders",
+              "url": "https://course.fast.ai/",
+              "channel": "fast.ai"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "7. 6.S191: Introduction to Deep Learning",
+            "video": {
+              "title": "7. 6.S191: Introduction to Deep Learning",
+              "url": "https://introtodeeplearning.com/",
+              "channel": "MIT OpenCourseWare"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "8. CS229: Machine Learning",
+            "video": {
+              "title": "8. CS229: Machine Learning",
+              "url": "https://cs229.stanford.edu/",
+              "channel": "Stanford"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "9. AI Agents Course",
+            "video": {
+              "title": "9. AI Agents Course",
+              "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+              "channel": "Hugging Face"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "10. AI Fundamentals",
+            "video": {
+              "title": "10. AI Fundamentals",
+              "url": "https://skillsbuild.org/learning-catalog",
+              "channel": "IBM SkillsBuild"
+            },
+            "note": "Free provider digital credential on completion"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Build a small AI agent for a real workflow. Include a model choice, prompt/context design, at least one tool, a simple evaluation set, error analysis, and a responsible-AI reflection.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "Show a working agent, not a toy demo: a clear model and tool choice; deliberate prompt and context design; at least one real tool integration; an evaluation set you actually ran; documented error analysis; a responsible-AI reflection on what could go wrong."
+  },
+  {
+    "name": "Generative AI & Prompt Engineering",
+    "category": "Curated AI Certificate",
+    "tagline": "Curated AI Certification CAI02",
+    "intro": "Use generative AI effectively and turn prompting into a repeatable, reliable workflow.",
+    "benchmark": "Curated source set: Google Skills + Microsoft Learn + Anthropic Claude Academy + IBM SkillsBuild + DeepLearning.AI + OpenAI + AWS -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Gen AI: Beyond the Chatbot",
+            "video": {
+              "title": "1. Gen AI: Beyond the Chatbot",
+              "url": "https://www.skills.google/course_templates/1268",
+              "channel": "Google Skills"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "2. Gen AI: Unlock Foundational Concepts",
+            "video": {
+              "title": "2. Gen AI: Unlock Foundational Concepts",
+              "url": "https://www.skills.google/paths/1951/course_templates/1265",
+              "channel": "Google Skills"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "3. Prompt Design in Agent Platform",
+            "video": {
+              "title": "3. Prompt Design in Agent Platform",
+              "url": "https://www.skills.google/course_templates/976",
+              "channel": "Google Skills"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "4. Build foundational generative AI skills",
+            "video": {
+              "title": "4. Build foundational generative AI skills",
+              "url": "https://learn.microsoft.com/en-us/training/paths/explore-microsoft-365-copilot-business-chat/",
+              "channel": "Microsoft Learn"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "5. Claude 101",
+            "video": {
+              "title": "5. Claude 101",
+              "url": "https://academy.claude.com/courses/claude-101",
+              "channel": "Anthropic Claude Academy"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "6. Getting Started with Generative AI",
+            "video": {
+              "title": "6. Getting Started with Generative AI",
+              "url": "https://skillsbuild.org/learning-catalog",
+              "channel": "IBM SkillsBuild"
+            },
+            "note": "Free provider digital credential on completion"
+          },
+          {
+            "title": "7. ChatGPT Prompt Engineering for Developers",
+            "video": {
+              "title": "7. ChatGPT Prompt Engineering for Developers",
+              "url": "https://www.deeplearning.ai/courses/chatgpt-prompt-eng",
+              "channel": "DeepLearning.AI + OpenAI"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          },
+          {
+            "title": "8. Building Systems with the ChatGPT API",
+            "video": {
+              "title": "8. Building Systems with the ChatGPT API",
+              "url": "https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/",
+              "channel": "DeepLearning.AI + OpenAI"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          },
+          {
+            "title": "9. Generative AI Foundations on AWS",
+            "video": {
+              "title": "9. Generative AI Foundations on AWS",
+              "url": "https://www.youtube.com/playlist?list=PLhr1KZpdzukf-xb0lmiU3G89GJXaDbAIF",
+              "channel": "AWS"
+            },
+            "note": "Free, open course"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Create a reusable prompt-and-workflow library for one business or technical domain. Add a test set, compare at least three prompting strategies, document failure modes, and ship one small application or automation.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "Show a reusable system, not a one-off prompt: a documented prompt library for a real domain; a test set you used to compare strategies; at least three prompting approaches evaluated side by side; documented failure modes; one shipped application or automation."
+  },
+  {
+    "name": "Machine Learning & Deep Learning Engineering",
+    "category": "Curated AI Certificate",
+    "tagline": "Curated AI Certification CAI03",
+    "intro": "A rigorous build path across classical ML, neural networks, computer vision, NLP and practical model training.",
+    "benchmark": "Curated source set: Google for Developers + Stanford + MIT OpenCourseWare + fast.ai + Andrej Karpathy + University of Helsinki -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Machine Learning Crash Course",
+            "video": {
+              "title": "1. Machine Learning Crash Course",
+              "url": "https://developers.google.com/machine-learning/crash-course",
+              "channel": "Google for Developers"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "2. CS229: Machine Learning",
+            "video": {
+              "title": "2. CS229: Machine Learning",
+              "url": "https://cs229.stanford.edu/",
+              "channel": "Stanford"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "3. 6.S191: Introduction to Deep Learning",
+            "video": {
+              "title": "3. 6.S191: Introduction to Deep Learning",
+              "url": "https://introtodeeplearning.com/",
+              "channel": "MIT OpenCourseWare"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "4. Practical Deep Learning for Coders",
+            "video": {
+              "title": "4. Practical Deep Learning for Coders",
+              "url": "https://course.fast.ai/",
+              "channel": "fast.ai"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "5. Neural Networks: Zero to Hero",
+            "video": {
+              "title": "5. Neural Networks: Zero to Hero",
+              "url": "https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ",
+              "channel": "Andrej Karpathy"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "6. CS231n: Convolutional Neural Networks for Visual Recognition",
+            "video": {
+              "title": "6. CS231n: Convolutional Neural Networks for Visual Recognition",
+              "url": "https://cs231n.stanford.edu/",
+              "channel": "Stanford"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "7. CS224N: Natural Language Processing with Deep Learning",
+            "video": {
+              "title": "7. CS224N: Natural Language Processing with Deep Learning",
+              "url": "https://web.stanford.edu/class/cs224n/",
+              "channel": "Stanford"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "8. Elements of AI: Building AI",
+            "video": {
+              "title": "8. Elements of AI: Building AI",
+              "url": "https://buildingai.elementsofai.com/",
+              "channel": "University of Helsinki"
+            },
+            "note": "Free, open course"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Train and compare two models on one real dataset. Show baseline, data checks, training curves, error taxonomy, bias/variance reasoning, model-selection tradeoffs, and a reproducible inference demo.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "Show modeling judgment, not just a notebook that runs: a real baseline; visible data-quality checks; training curves you can read; an error taxonomy, not just an accuracy number; bias/variance reasoning behind your choices; a clear model-selection tradeoff; a reproducible inference demo."
+  },
+  {
+    "name": "LLM & NLP Engineering",
+    "category": "Curated AI Certificate",
+    "tagline": "Curated AI Certification CAI04",
+    "intro": "Understand transformers and language models from tokens and attention through fine-tuning, evaluation and serving.",
+    "benchmark": "Curated source set: Hugging Face + Stanford + Google + Andrej Karpathy + DeepLearning.AI + Google Cloud -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. LLM Course",
+            "video": {
+              "title": "1. LLM Course",
+              "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+              "channel": "Hugging Face"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "2. CS224N: Natural Language Processing with Deep Learning",
+            "video": {
+              "title": "2. CS224N: Natural Language Processing with Deep Learning",
+              "url": "https://web.stanford.edu/class/cs224n/",
+              "channel": "Stanford"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "3. Introduction to Large Language Models",
+            "video": {
+              "title": "3. Introduction to Large Language Models",
+              "url": "https://www.skills.google/course_templates/539",
+              "channel": "Google Skills"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "4. Neural Networks: Zero to Hero",
+            "video": {
+              "title": "4. Neural Networks: Zero to Hero",
+              "url": "https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ",
+              "channel": "Andrej Karpathy"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "5. Build and Train an LLM with JAX",
+            "video": {
+              "title": "5. Build and Train an LLM with JAX",
+              "url": "https://www.deeplearning.ai/courses/build-and-train-an-llm-with-jax",
+              "channel": "DeepLearning.AI + Google"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          },
+          {
+            "title": "6. Finetuning Large Language Models",
+            "video": {
+              "title": "6. Finetuning Large Language Models",
+              "url": "https://www.deeplearning.ai/courses/finetuning-large-language-models",
+              "channel": "DeepLearning.AI"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          },
+          {
+            "title": "7. LLMOps",
+            "video": {
+              "title": "7. LLMOps",
+              "url": "https://www.deeplearning.ai/courses/llmops",
+              "channel": "DeepLearning.AI + Google Cloud"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Build a compact language-model workflow: inspect tokenization and attention, adapt or fine-tune a model, evaluate quality on a defined task, document latency/cost tradeoffs, and publish a model card.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "Show you understand the model, not just call an API: tokenization and attention inspected directly; a model adapted or fine-tuned for a real task; quality evaluated against that task; latency and cost tradeoffs documented; a model card published for the result."
+  },
+  {
+    "name": "RAG, Search & Knowledge Systems",
+    "category": "Curated AI Certificate",
+    "tagline": "Curated AI Certification CAI05",
+    "intro": "Ground LLMs in trusted data using embeddings, vector search, knowledge graphs, GraphRAG and retrieval evaluation.",
+    "benchmark": "Curated source set: Neo4j GraphAcademy + DeepLearning.AI + LlamaIndex + Chroma + Weaviate -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Neo4j & Generative AI Fundamentals",
+            "video": {
+              "title": "1. Neo4j & Generative AI Fundamentals",
+              "url": "https://graphacademy.neo4j.com/courses/genai-fundamentals",
+              "channel": "Neo4j GraphAcademy"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "2. Introduction to Vector Indexes & Unstructured Data",
+            "video": {
+              "title": "2. Introduction to Vector Indexes & Unstructured Data",
+              "url": "https://graphacademy.neo4j.com/courses/llm-vectors-unstructured/",
+              "channel": "Neo4j GraphAcademy"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "3. Neo4j and Generative AI Workshop",
+            "video": {
+              "title": "3. Neo4j and Generative AI Workshop",
+              "url": "https://graphacademy.neo4j.com/courses/workshop-genai",
+              "channel": "Neo4j GraphAcademy"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "4. Neo4j & Generative AI Certification",
+            "video": {
+              "title": "4. Neo4j & Generative AI Certification",
+              "url": "https://graphacademy.neo4j.com/certifications/genai-certification/",
+              "channel": "Neo4j GraphAcademy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "5. Building Agentic RAG with LlamaIndex",
+            "video": {
+              "title": "5. Building Agentic RAG with LlamaIndex",
+              "url": "https://www.deeplearning.ai/courses/building-agentic-rag-with-llamaindex",
+              "channel": "DeepLearning.AI + LlamaIndex"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          },
+          {
+            "title": "6. Advanced Retrieval for AI with Chroma",
+            "video": {
+              "title": "6. Advanced Retrieval for AI with Chroma",
+              "url": "https://www.deeplearning.ai/courses/advanced-retrieval-for-ai",
+              "channel": "DeepLearning.AI + Chroma"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          },
+          {
+            "title": "7. Vector Databases: from Embeddings to Applications",
+            "video": {
+              "title": "7. Vector Databases: from Embeddings to Applications",
+              "url": "https://www.deeplearning.ai/courses/vector-databases-embeddings-applications",
+              "channel": "DeepLearning.AI + Weaviate"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          },
+          {
+            "title": "8. Knowledge Graphs for RAG",
+            "video": {
+              "title": "8. Knowledge Graphs for RAG",
+              "url": "https://www.deeplearning.ai/courses/knowledge-graphs-rag",
+              "channel": "DeepLearning.AI + Neo4j"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Build and compare vector RAG and GraphRAG over the same corpus. Measure retrieval quality, grounded-answer quality, latency and failure modes; include at least one hybrid or graph-enhanced retrieval strategy.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "Show retrieval evidence, not a single pipeline that happens to work: vector RAG and GraphRAG compared on the same corpus; retrieval quality actually measured; grounded-answer quality checked, not assumed; latency and failure modes documented; at least one hybrid or graph-enhanced strategy attempted."
+  },
+  {
+    "name": "AI Agent Engineering",
+    "category": "Curated AI Certificate",
+    "tagline": "Curated AI Certification CAI06",
+    "intro": "Progress from agent fundamentals to tools, MCP, multi-agent coordination, evaluation and production-ready workflows.",
+    "benchmark": "Curated source set: Hugging Face + Google Skills + Microsoft Learn + DeepLearning.AI + crewAI + LangChain + Anthropic -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. AI Agents Course",
+            "video": {
+              "title": "1. AI Agents Course",
+              "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+              "channel": "Hugging Face"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "2. Agent Fundamentals",
+            "video": {
+              "title": "2. Agent Fundamentals",
+              "url": "https://www.skills.google/paths/3546/course_templates/1562",
+              "channel": "Google Skills"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "3. Introduction to building AI agents",
+            "video": {
+              "title": "3. Introduction to building AI agents",
+              "url": "https://learn.microsoft.com/en-us/training/courses/ms-4014",
+              "channel": "Microsoft Learn"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "4. Develop AI agents on Azure",
+            "video": {
+              "title": "4. Develop AI agents on Azure",
+              "url": "https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure/",
+              "channel": "Microsoft Learn"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "5. Multi AI Agent Systems with crewAI",
+            "video": {
+              "title": "5. Multi AI Agent Systems with crewAI",
+              "url": "https://www.deeplearning.ai/courses/multi-ai-agent-systems-with-crewai",
+              "channel": "DeepLearning.AI + crewAI"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          },
+          {
+            "title": "6. Functions, Tools and Agents with LangChain",
+            "video": {
+              "title": "6. Functions, Tools and Agents with LangChain",
+              "url": "https://www.deeplearning.ai/courses/functions-tools-agents-langchain",
+              "channel": "DeepLearning.AI + LangChain"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          },
+          {
+            "title": "7. Agent Skills with Anthropic",
+            "video": {
+              "title": "7. Agent Skills with Anthropic",
+              "url": "https://www.deeplearning.ai/courses/agent-skills-with-anthropic",
+              "channel": "DeepLearning.AI + Anthropic"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          },
+          {
+            "title": "8. MCP: Build Rich-Context AI Apps with Anthropic",
+            "video": {
+              "title": "8. MCP: Build Rich-Context AI Apps with Anthropic",
+              "url": "https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic",
+              "channel": "DeepLearning.AI + Anthropic"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Ship a tool-using agent with explicit instructions, memory/context, at least one MCP or API integration, guardrails, traces and an evaluation set. Include a runbook and failure-recovery strategy.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "Show a production-minded agent, not a demo script: explicit instructions and context design; at least one real MCP or API integration; guardrails against bad actions; traces you can actually debug from; an evaluation set; a runbook covering failure recovery."
+  },
+  {
+    "name": "AI Evaluation, Safety & Responsible AI",
+    "category": "Curated AI Certificate",
+    "tagline": "Curated AI Certification CAI07",
+    "intro": "Make AI systems measurable, trustworthy and safer through evaluation, red teaming, guardrails, fairness and governance.",
+    "benchmark": "Curated source set: Google Skills + Microsoft Learn + DeepLearning.AI + Arize AI + Giskard + Guardrails AI + AMD + Meta -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Introduction to Responsible AI",
+            "video": {
+              "title": "1. Introduction to Responsible AI",
+              "url": "https://www.skills.google/course_templates/554",
+              "channel": "Google Skills"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "2. Responsible AI for Developers: Fairness & Bias",
+            "video": {
+              "title": "2. Responsible AI for Developers: Fairness & Bias",
+              "url": "https://www.skills.google/course_templates/985",
+              "channel": "Google Skills"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "3. GitHub Responsible AI",
+            "video": {
+              "title": "3. GitHub Responsible AI",
+              "url": "https://learn.microsoft.com/en-us/training/paths/github-responsible-ai/",
+              "channel": "Microsoft Learn"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "4. Operationalize AI Responsibly with Azure AI Foundry",
+            "video": {
+              "title": "4. Operationalize AI Responsibly with Azure AI Foundry",
+              "url": "https://learn.microsoft.com/en-us/training/paths/operationalize-ai-responsibly",
+              "channel": "Microsoft Learn"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "5. Evaluating AI Agents",
+            "video": {
+              "title": "5. Evaluating AI Agents",
+              "url": "https://www.deeplearning.ai/courses/evaluating-ai-agents",
+              "channel": "DeepLearning.AI + Arize AI"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          },
+          {
+            "title": "6. Red Teaming LLM Applications",
+            "video": {
+              "title": "6. Red Teaming LLM Applications",
+              "url": "https://www.deeplearning.ai/courses/red-teaming-llm-applications",
+              "channel": "DeepLearning.AI + Giskard"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          },
+          {
+            "title": "7. Safe and Reliable AI via Guardrails",
+            "video": {
+              "title": "7. Safe and Reliable AI via Guardrails",
+              "url": "https://www.deeplearning.ai/courses/safe-and-reliable-ai-via-guardrails",
+              "channel": "DeepLearning.AI + Guardrails AI"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          },
+          {
+            "title": "8. Improving Accuracy of LLM Applications",
+            "video": {
+              "title": "8. Improving Accuracy of LLM Applications",
+              "url": "https://www.deeplearning.ai/short-courses/improving-accuracy-of-llm-applications/",
+              "channel": "DeepLearning.AI + AMD/Meta"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Threat-model and evaluate one LLM/agent application. Build quality and safety evals, run a red-team exercise, add guardrails, test fairness or harmful-output scenarios, and produce a residual-risk report.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "Show a real safety review, not a checklist: a threat model for a specific application; quality and safety evals you ran, not assumed; an actual red-team exercise; guardrails added in response to what you found; fairness or harmful-output scenarios tested; a residual-risk report that's honest about what's still unresolved."
+  },
+  {
+    "name": "AI Strategy, Product & Leadership",
+    "category": "Curated AI Certificate",
+    "tagline": "Curated AI Certification CAI08",
+    "intro": "Identify high-value AI use cases, build adoption strategy, evaluate economics and lead responsible transformation.",
+    "benchmark": "Curated source set: Google Cloud + Google Skills + Microsoft Learn + AWS + IBM SkillsBuild + University of Helsinki -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Generative AI Leader Learning Path",
+            "video": {
+              "title": "1. Generative AI Leader Learning Path",
+              "url": "https://www.skills.google/paths/1951",
+              "channel": "Google Cloud"
+            },
+            "note": "Free guided learning path"
+          },
+          {
+            "title": "2. Gen AI: Beyond the Chatbot",
+            "video": {
+              "title": "2. Gen AI: Beyond the Chatbot",
+              "url": "https://www.skills.google/course_templates/1268",
+              "channel": "Google Skills"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "3. Explore the Business Value of Generative AI Solutions",
+            "video": {
+              "title": "3. Explore the Business Value of Generative AI Solutions",
+              "url": "https://learn.microsoft.com/en-us/training/paths/explore-business-value-generative-ai-solutions/",
+              "channel": "Microsoft Learn"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "4. Generative AI Learning Plan for Decision Makers",
+            "video": {
+              "title": "4. Generative AI Learning Plan for Decision Makers",
+              "url": "https://explore.skillbuilder.aws/learn/learning_plan/view/1909/generative-ai-learning-plan-for-decision-makers",
+              "channel": "AWS"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "5. Generative AI for Executives",
+            "video": {
+              "title": "5. Generative AI for Executives",
+              "url": "https://explore.skillbuilder.aws/learn/course/16666/generative-ai-for-executives",
+              "channel": "AWS"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "6. AI Fundamentals",
+            "video": {
+              "title": "6. AI Fundamentals",
+              "url": "https://skillsbuild.org/learning-catalog",
+              "channel": "IBM SkillsBuild"
+            },
+            "note": "Free provider digital credential on completion"
+          },
+          {
+            "title": "7. AI in Society",
+            "video": {
+              "title": "7. AI in Society",
+              "url": "https://ai-in-society.mooc.fi/",
+              "channel": "University of Helsinki"
+            },
+            "note": "Free, open course"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Create an executive AI opportunity portfolio: prioritize use cases, define user/business outcomes, estimate value and cost, map risks and governance, choose build/buy/partner, and present a 90-day adoption roadmap.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "Show executive-ready judgment, not a feature wishlist: use cases prioritized against real criteria; clear user and business outcomes; value and cost estimated, not guessed; risks and governance mapped; an honest build/buy/partner call; a 90-day roadmap you could actually present."
+  },
+  {
+    "name": "AI Coding & Developer Productivity",
+    "category": "Curated AI Certificate",
+    "tagline": "Curated AI Certification CAI09",
+    "intro": "Use AI coding assistants deliberately -- prompt, refactor, test, document and delegate tasks to agents without losing engineering rigor.",
+    "benchmark": "Curated source set: Microsoft Learn + GitHub + DeepLearning.AI + JetBrains + Anthropic -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. GitHub Copilot Fundamentals (Part 1 of 2)",
+            "video": {
+              "title": "1. GitHub Copilot Fundamentals (Part 1 of 2)",
+              "url": "https://learn.microsoft.com/en-us/training/paths/copilot/",
+              "channel": "Microsoft Learn / GitHub"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "2. GitHub Copilot Fundamentals (Part 2 of 2)",
+            "video": {
+              "title": "2. GitHub Copilot Fundamentals (Part 2 of 2)",
+              "url": "https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/",
+              "channel": "Microsoft Learn / GitHub"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "3. Get Started with GitHub Copilot",
+            "video": {
+              "title": "3. Get Started with GitHub Copilot",
+              "url": "https://learn.microsoft.com/en-us/training/modules/get-started-github-copilot/",
+              "channel": "Microsoft Learn / GitHub"
+            },
+            "note": "Free, open course"
+          },
+          {
+            "title": "4. Pair Programming with a Large Language Model",
+            "video": {
+              "title": "4. Pair Programming with a Large Language Model",
+              "url": "https://www.deeplearning.ai/courses/pair-programming-llm",
+              "channel": "DeepLearning.AI + Google"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          },
+          {
+            "title": "5. Spec-Driven Development with Coding Agents",
+            "video": {
+              "title": "5. Spec-Driven Development with Coding Agents",
+              "url": "https://www.deeplearning.ai/courses/spec-driven-development-with-coding-agents",
+              "channel": "DeepLearning.AI + JetBrains"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          },
+          {
+            "title": "6. Agent Skills with Anthropic",
+            "video": {
+              "title": "6. Agent Skills with Anthropic",
+              "url": "https://www.deeplearning.ai/courses/agent-skills-with-anthropic",
+              "channel": "DeepLearning.AI + Anthropic"
+            },
+            "note": "Currently free access -- re-check before enrolling"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Build or modernize a small application using an AI-assisted workflow. Require a written spec, tests, code review, documentation, before/after productivity evidence, and a retrospective on where AI helped or introduced risk.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "Show disciplined AI-assisted engineering, not vibe coding: a written spec before you started; tests that actually run; a real code review; documentation a teammate could use; before/after productivity evidence; an honest retrospective on where AI helped and where it introduced risk."
   }
 ]

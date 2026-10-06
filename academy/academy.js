@@ -573,7 +573,11 @@
         (block.items || []).map(function (it) {
           var v = it.video || {};
           var channel = v.channel || '';
-          if (it.note) channel = channel ? channel + ' &mdash; ' + escapeHtml(it.note) : escapeHtml(it.note);
+          // Plain text here, not escapeHtml()'d or HTML-entity'd -- renderVideo()
+          // below escapes the whole combined channel string itself, so doing it
+          // here too double-escapes it (an "&mdash;" literal shows up verbatim
+          // instead of an em dash, and any real &/</>/" in a note gets mangled).
+          if (it.note) channel = channel ? channel + ' — ' + it.note : it.note;
           return '<p class="competency-title">' + escapeHtml(it.title) + '</p>' +
             '<ul class="video-links">' + renderVideo({ title: v.title, url: v.url, channel: channel }) + '</ul>';
         }).join('') +
