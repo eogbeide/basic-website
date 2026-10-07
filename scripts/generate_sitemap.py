@@ -12,7 +12,10 @@ academy_urls = json.load(open(f"{ROOT}/.static-academy-urls.json"))
 hsa_urls = json.load(open(f"{ROOT}/.static-hsa-urls.json"))
 
 top_level = [
-    f"{BASE}/",
+    # "/" itself is excluded: it's a redirect to "/academy/" (see vercel.json),
+    # not a real page -- listing a redirecting URL in the sitemap just tells
+    # Google to crawl a dead end instead of the real destination, which is
+    # already listed below.
     f"{BASE}/academy/",
     f"{BASE}/health-sciences/",
     f"{BASE}/newsletter/",
