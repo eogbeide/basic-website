@@ -16607,5 +16607,1661 @@
     "practiceBody": "Take one AI or agentic product opportunity from business priority to launch-readiness: define use case, user workflow, model/tool boundaries, eval set, human oversight, cost/latency targets, safety risks, adoption plan and roadmap.",
     "rubricHeading": "Proof Rubric",
     "rubric": "AI PRD; workflow/architecture sketch; eval rubric and sample set; economics model; safety/governance checklist; roadmap; launch-readiness decision memo with measurable success criteria."
+  },
+  {
+    "name": "Leadership Foundations & Self-Awareness",
+    "category": "Curated Leadership, Management & People Certificate",
+    "tagline": "Curated Certification CLP01",
+    "intro": "Build a modern leadership operating system: know yourself, choose a leadership approach, make sound decisions and lead with ethical intent.",
+    "benchmark": "Curated source set: HP LIFE / HP Foundation + The Open University / OpenLearn + MIT Sloan OpenCourseWare + IBM SkillsBuild -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Effective Leadership",
+            "video": {
+              "title": "Effective Leadership",
+              "url": "https://www.life-global.org/course/13-effective-leadership",
+              "channel": "HP LIFE / HP Foundation"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "2. Step up to leadership",
+            "video": {
+              "title": "Step up to leadership",
+              "url": "https://www.open.edu/openlearn/money-business/leadership-management/step-leadership/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "3. Leadership and followership",
+            "video": {
+              "title": "Leadership and followership",
+              "url": "https://www.open.edu/openlearn/education-development/learning/leadership-and-followership/content-section-overview",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "4. Making decisions",
+            "video": {
+              "title": "Making decisions",
+              "url": "https://www.open.edu/openlearn/money-business/leadership-management/making-decisions/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "5. People and Organizations",
+            "video": {
+              "title": "People and Organizations",
+              "url": "https://ocw.mit.edu/courses/15-668-people-and-organizations-fall-2010/",
+              "channel": "MIT Sloan OpenCourseWare"
+            },
+            "note": "Free OpenCourseWare materials"
+          },
+          {
+            "title": "6. Working in a Digital World: Professional Skills",
+            "video": {
+              "title": "Working in a Digital World: Professional Skills",
+              "url": "https://www.ibm.com/training/badge/working-in-a-digital-world-professional-skills",
+              "channel": "IBM SkillsBuild"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "7. Success Mindset",
+            "video": {
+              "title": "Success Mindset",
+              "url": "https://www.life-global.org/course/196-success-mindset",
+              "channel": "HP LIFE / HP Foundation"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "8. Approaching leadership with care",
+            "video": {
+              "title": "Approaching leadership with care",
+              "url": "https://www.open.edu/openlearn/health-sports-psychology/approaching-leadership-care/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Build a personal leadership operating system for a real role or team. Combine self-assessment, stakeholder feedback, decision principles, leadership philosophy and a 90-day behavior experiment.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "leadership philosophy; 360-style feedback synthesis; decision journal; stakeholder map; 90-day behavior scorecard; reflection on impact and tradeoffs."
+  },
+  {
+    "name": "Emotional Intelligence, Coaching & Feedback",
+    "category": "Curated Leadership, Management & People Certificate",
+    "tagline": "Curated Certification CLP02",
+    "intro": "Develop the listening, reflection, communication and coaching habits required to move behavior without losing trust or accountability.",
+    "benchmark": "Curated source set: The Open University / OpenLearn + HP LIFE / HP Foundation + MIT Sloan OpenCourseWare + IBM SkillsBuild -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Three principles of a coaching approach",
+            "video": {
+              "title": "Three principles of a coaching approach",
+              "url": "https://www.open.edu/openlearn/money-business/leadership-management/three-principles-coaching-approach/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "2. Business Communications",
+            "video": {
+              "title": "Business Communications",
+              "url": "https://www.life-global.org/course/9-business-communications-",
+              "channel": "HP LIFE / HP Foundation"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "3. Effective Presentations",
+            "video": {
+              "title": "Effective Presentations",
+              "url": "https://www.life-global.org/course/12-effective-presentations",
+              "channel": "HP LIFE / HP Foundation"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "4. Communication for Managers",
+            "video": {
+              "title": "Communication for Managers",
+              "url": "https://ocw.mit.edu/courses/15-280-communication-for-managers-fall-2016/",
+              "channel": "MIT Sloan OpenCourseWare"
+            },
+            "note": "Free OpenCourseWare materials"
+          },
+          {
+            "title": "5. Working in a Digital World: Professional Skills",
+            "video": {
+              "title": "Working in a Digital World: Professional Skills",
+              "url": "https://www.ibm.com/training/badge/working-in-a-digital-world-professional-skills",
+              "channel": "IBM SkillsBuild"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "6. Managing and managing people",
+            "video": {
+              "title": "Managing and managing people",
+              "url": "https://www.open.edu/openlearn/money-business/leadership-management/managing-and-managing-people/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "7. Leadership and followership",
+            "video": {
+              "title": "Leadership and followership",
+              "url": "https://www.open.edu/openlearn/education-development/learning/leadership-and-followership/content-section-overview",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "8. Effective Leadership",
+            "video": {
+              "title": "Effective Leadership",
+              "url": "https://www.life-global.org/course/13-effective-leadership",
+              "channel": "HP LIFE / HP Foundation"
+            },
+            "note": "Free provider certificate on completion"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Run a four-session coaching cycle with a real or simulated coachee. Contract outcomes, practice listening and feedback, rehearse one difficult conversation, and measure observable change.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "coaching contract; session plans; feedback script; difficult-conversation reflection; behavior baseline/follow-up; coaching ethics and confidentiality note."
+  },
+  {
+    "name": "People Management & High-Performance Teams",
+    "category": "Curated Leadership, Management & People Certificate",
+    "tagline": "Curated Certification CLP03",
+    "intro": "Learn to manage people day to day, build effective teams, strengthen engagement and create operating rhythms that turn goals into coordinated action.",
+    "benchmark": "Curated source set: The Open University / OpenLearn + MIT Sloan OpenCourseWare + IBM SkillsBuild + HP LIFE / HP Foundation -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Managing and managing people",
+            "video": {
+              "title": "Managing and managing people",
+              "url": "https://www.open.edu/openlearn/money-business/leadership-management/managing-and-managing-people/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "2. Working in groups and teams",
+            "video": {
+              "title": "Working in groups and teams",
+              "url": "https://www.open.edu/openlearn/money-business/leadership-management/working-groups-and-teams/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "3. How teams work",
+            "video": {
+              "title": "How teams work",
+              "url": "https://www.open.edu/openlearn/money-business/leadership-management/how-teams-work/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "4. Employee engagement",
+            "video": {
+              "title": "Employee engagement",
+              "url": "https://www.open.edu/openlearn/money-business/employee-engagement/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "5. People and Organizations",
+            "video": {
+              "title": "People and Organizations",
+              "url": "https://ocw.mit.edu/courses/15-668-people-and-organizations-fall-2010/",
+              "channel": "MIT Sloan OpenCourseWare"
+            },
+            "note": "Free OpenCourseWare materials"
+          },
+          {
+            "title": "6. Working in a Digital World: Professional Skills",
+            "video": {
+              "title": "Working in a Digital World: Professional Skills",
+              "url": "https://www.ibm.com/training/badge/working-in-a-digital-world-professional-skills",
+              "channel": "IBM SkillsBuild"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "7. Effective Leadership",
+            "video": {
+              "title": "Effective Leadership",
+              "url": "https://www.life-global.org/course/13-effective-leadership",
+              "channel": "HP LIFE / HP Foundation"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "8. Leadership and followership",
+            "video": {
+              "title": "Leadership and followership",
+              "url": "https://www.open.edu/openlearn/education-development/learning/leadership-and-followership/content-section-overview",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free provider skill badge on completion"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Design and operate a high-performance team system for a real or simulated team. Clarify purpose, roles, norms, decision rights, meeting cadence, feedback loops and engagement signals.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "team charter; RACI/decision-rights map; meeting operating cadence; engagement pulse; conflict protocol; performance dashboard; retrospective."
+  },
+  {
+    "name": "Human Resources, Talent & Recruitment",
+    "category": "Curated Leadership, Management & People Certificate",
+    "tagline": "Curated Certification CLP04",
+    "intro": "Build practical HR fluency across recruitment, selection, employee experience, inclusion, engagement and the professional judgment expected of modern people teams.",
+    "benchmark": "Curated source set: The Open University / OpenLearn + MIT Sloan OpenCourseWare + IBM SkillsBuild -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Human resources: recruitment and selection",
+            "video": {
+              "title": "Human resources: recruitment and selection",
+              "url": "https://www.open.edu/openlearn/money-business/human-resources/human-resources-recruitment-and-selection/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "2. Developing your skills as an HR professional",
+            "video": {
+              "title": "Developing your skills as an HR professional",
+              "url": "https://www.open.edu/openlearn/money-business/developing-your-skills-hr-professional/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "3. Human Resource Management and EDI",
+            "video": {
+              "title": "Human Resource Management and EDI",
+              "url": "https://www.open.edu/openlearn/money-business/human-resource-management-and-edi/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "4. Diversity and inclusion in the workplace",
+            "video": {
+              "title": "Diversity and inclusion in the workplace",
+              "url": "https://www.open.edu/openlearn/money-business/diversity-and-inclusion-the-workplace/",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "5. Employee engagement",
+            "video": {
+              "title": "Employee engagement",
+              "url": "https://www.open.edu/openlearn/money-business/employee-engagement/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "6. People and Organizations",
+            "video": {
+              "title": "People and Organizations",
+              "url": "https://ocw.mit.edu/courses/15-668-people-and-organizations-fall-2010/",
+              "channel": "MIT Sloan OpenCourseWare"
+            },
+            "note": "Free OpenCourseWare materials"
+          },
+          {
+            "title": "7. Managing and managing people",
+            "video": {
+              "title": "Managing and managing people",
+              "url": "https://www.open.edu/openlearn/money-business/leadership-management/managing-and-managing-people/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "8. Working in a Digital World: Professional Skills",
+            "video": {
+              "title": "Working in a Digital World: Professional Skills",
+              "url": "https://www.ibm.com/training/badge/working-in-a-digital-world-professional-skills",
+              "channel": "IBM SkillsBuild"
+            },
+            "note": "Free provider skill badge on completion"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Create a talent system for one critical role family. Define workforce need, job profile, sourcing strategy, structured selection, onboarding, development and retention measures.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "workforce brief; job architecture/profile; structured interview rubric; candidate scorecard; onboarding plan; development map; retention/engagement metrics."
+  },
+  {
+    "name": "Organizational Behavior, Culture & Change",
+    "category": "Curated Leadership, Management & People Certificate",
+    "tagline": "Curated Certification CLP05",
+    "intro": "Diagnose organizations through structural, political and cultural lenses, then design change that people can understand, adopt and sustain.",
+    "benchmark": "Curated source set: MIT Sloan OpenCourseWare + The Open University / OpenLearn + HP LIFE / HP Foundation -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Organizational Processes",
+            "video": {
+              "title": "Organizational Processes",
+              "url": "https://ocw.mit.edu/courses/15-311-organizational-processes-fall-2003/",
+              "channel": "MIT Sloan OpenCourseWare"
+            },
+            "note": "Free OpenCourseWare materials"
+          },
+          {
+            "title": "2. Leading Organizations II",
+            "video": {
+              "title": "Leading Organizations II",
+              "url": "https://ocw.mit.edu/courses/sloan-school-of-management/15-322-leading-organizations-ii-fall-2003",
+              "channel": "MIT Sloan OpenCourseWare"
+            },
+            "note": "Free OpenCourseWare materials"
+          },
+          {
+            "title": "3. People and Organizations",
+            "video": {
+              "title": "People and Organizations",
+              "url": "https://ocw.mit.edu/courses/15-668-people-and-organizations-fall-2010/",
+              "channel": "MIT Sloan OpenCourseWare"
+            },
+            "note": "Free OpenCourseWare materials"
+          },
+          {
+            "title": "4. Hybrid working: change management",
+            "video": {
+              "title": "Hybrid working: change management",
+              "url": "https://www.open.edu/openlearn/money-business/hybrid-working-change-management/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "5. Step up to leadership",
+            "video": {
+              "title": "Step up to leadership",
+              "url": "https://www.open.edu/openlearn/money-business/leadership-management/step-leadership/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "6. Employee engagement",
+            "video": {
+              "title": "Employee engagement",
+              "url": "https://www.open.edu/openlearn/money-business/employee-engagement/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "7. Inclusive Leadership: Effecting change",
+            "video": {
+              "title": "Inclusive Leadership: Effecting change",
+              "url": "https://www.open.edu/openlearn/education-development/inclusive-leadership-effecting-change/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "8. Effective Leadership",
+            "video": {
+              "title": "Effective Leadership",
+              "url": "https://www.life-global.org/course/13-effective-leadership",
+              "channel": "HP LIFE / HP Foundation"
+            },
+            "note": "Free provider certificate on completion"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Diagnose a real or simulated organizational change. Map current/future state, culture and stakeholder forces; choose a change model; sequence adoption, communications and reinforcement.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "organization diagnosis; stakeholder/force-field map; change story; sponsor coalition; adoption plan; resistance log; leading/lagging change measures."
+  },
+  {
+    "name": "Inclusive Leadership, EDI & Belonging",
+    "category": "Curated Leadership, Management & People Certificate",
+    "tagline": "Curated Certification CLP06",
+    "intro": "Lead diverse teams with fairness, care and accountability; translate inclusion from values into recruiting, team norms, career access and measurable workplace practice.",
+    "benchmark": "Curated source set: The Open University / OpenLearn + MIT Sloan OpenCourseWare -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Diversity and inclusion in the workplace",
+            "video": {
+              "title": "Diversity and inclusion in the workplace",
+              "url": "https://www.open.edu/openlearn/money-business/diversity-and-inclusion-the-workplace/",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "2. Human Resource Management and EDI",
+            "video": {
+              "title": "Human Resource Management and EDI",
+              "url": "https://www.open.edu/openlearn/money-business/human-resource-management-and-edi/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "3. Inclusive Leadership: Effecting change",
+            "video": {
+              "title": "Inclusive Leadership: Effecting change",
+              "url": "https://www.open.edu/openlearn/education-development/inclusive-leadership-effecting-change/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "4. Approaching leadership with care",
+            "video": {
+              "title": "Approaching leadership with care",
+              "url": "https://www.open.edu/openlearn/health-sports-psychology/approaching-leadership-care/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "5. Leadership and followership",
+            "video": {
+              "title": "Leadership and followership",
+              "url": "https://www.open.edu/openlearn/education-development/learning/leadership-and-followership/content-section-overview",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "6. Employee engagement",
+            "video": {
+              "title": "Employee engagement",
+              "url": "https://www.open.edu/openlearn/money-business/employee-engagement/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "7. Working in groups and teams",
+            "video": {
+              "title": "Working in groups and teams",
+              "url": "https://www.open.edu/openlearn/money-business/leadership-management/working-groups-and-teams/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "8. People and Organizations",
+            "video": {
+              "title": "People and Organizations",
+              "url": "https://ocw.mit.edu/courses/15-668-people-and-organizations-fall-2010/",
+              "channel": "MIT Sloan OpenCourseWare"
+            },
+            "note": "Free OpenCourseWare materials"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Audit inclusion across one team or function and redesign two high-impact people practices. Use evidence, not slogans, to improve access, participation, fairness and belonging.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "inclusion baseline; process audit; bias-risk map; redesigned practice(s); inclusive meeting/team norms; outcome measures; implementation reflection."
+  },
+  {
+    "name": "Negotiation, Influence & Conflict Leadership",
+    "category": "Curated Leadership, Management & People Certificate",
+    "tagline": "Curated Certification CLP07",
+    "intro": "Build repeatable negotiation and influence skill across bargaining, internal alignment, difficult tactics, coalitions, ethics and conflict resolution.",
+    "benchmark": "Curated source set: MIT Sloan OpenCourseWare + The Open University / OpenLearn + IBM SkillsBuild + HP LIFE / HP Foundation -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Power and Negotiation",
+            "video": {
+              "title": "Power and Negotiation",
+              "url": "https://ocw.mit.edu/courses/15-665-power-and-negotiation-spring-2014/",
+              "channel": "MIT Sloan OpenCourseWare"
+            },
+            "note": "Free OpenCourseWare materials"
+          },
+          {
+            "title": "2. Negotiation and Conflict Management",
+            "video": {
+              "title": "Negotiation and Conflict Management",
+              "url": "https://ocw.mit.edu/courses/15-667-negotiation-and-conflict-management-spring-2001/",
+              "channel": "MIT Sloan OpenCourseWare"
+            },
+            "note": "Free OpenCourseWare materials"
+          },
+          {
+            "title": "3. Competitive Decision-Making and Negotiation",
+            "video": {
+              "title": "Competitive Decision-Making and Negotiation",
+              "url": "https://ocw.mit.edu/courses/15-067-competitive-decision-making-and-negotiation-spring-2011/",
+              "channel": "MIT Sloan OpenCourseWare"
+            },
+            "note": "Free OpenCourseWare materials"
+          },
+          {
+            "title": "4. Making decisions",
+            "video": {
+              "title": "Making decisions",
+              "url": "https://www.open.edu/openlearn/money-business/leadership-management/making-decisions/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "5. Three principles of a coaching approach",
+            "video": {
+              "title": "Three principles of a coaching approach",
+              "url": "https://www.open.edu/openlearn/money-business/leadership-management/three-principles-coaching-approach/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "6. Working in a Digital World: Professional Skills",
+            "video": {
+              "title": "Working in a Digital World: Professional Skills",
+              "url": "https://www.ibm.com/training/badge/working-in-a-digital-world-professional-skills",
+              "channel": "IBM SkillsBuild"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "7. Business Communications",
+            "video": {
+              "title": "Business Communications",
+              "url": "https://www.life-global.org/course/9-business-communications-",
+              "channel": "HP LIFE / HP Foundation"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "8. Communication for Managers",
+            "video": {
+              "title": "Communication for Managers",
+              "url": "https://ocw.mit.edu/courses/15-280-communication-for-managers-fall-2016/",
+              "channel": "MIT Sloan OpenCourseWare"
+            },
+            "note": "Free OpenCourseWare materials"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Complete three progressively harder negotiations plus one conflict intervention. Prepare BATNA/ZOPA, interests, coalition strategy, communication plan and post-mortem for each.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "negotiation prep sheets; issue/package matrix; concession logs; conflict map; recorded role-play or transcript; outcome analysis; ethics/relationship review."
+  },
+  {
+    "name": "Executive Communication, Decisions & Strategy Execution",
+    "category": "Curated Leadership, Management & People Certificate",
+    "tagline": "Curated Certification CLP08",
+    "intro": "Communicate with executive clarity, make better decisions and translate strategy into priorities, operating cadence, accountability and measurable results.",
+    "benchmark": "Curated source set: MIT Sloan OpenCourseWare + HP LIFE / HP Foundation + The Open University / OpenLearn + IBM SkillsBuild -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Communication for Managers",
+            "video": {
+              "title": "Communication for Managers",
+              "url": "https://ocw.mit.edu/courses/15-280-communication-for-managers-fall-2016/",
+              "channel": "MIT Sloan OpenCourseWare"
+            },
+            "note": "Free OpenCourseWare materials"
+          },
+          {
+            "title": "2. Effective Presentations",
+            "video": {
+              "title": "Effective Presentations",
+              "url": "https://www.life-global.org/course/12-effective-presentations",
+              "channel": "HP LIFE / HP Foundation"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "3. Business Communications",
+            "video": {
+              "title": "Business Communications",
+              "url": "https://www.life-global.org/course/9-business-communications-",
+              "channel": "HP LIFE / HP Foundation"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "4. Making decisions",
+            "video": {
+              "title": "Making decisions",
+              "url": "https://www.open.edu/openlearn/money-business/leadership-management/making-decisions/content-section-0",
+              "channel": "The Open University / OpenLearn"
+            },
+            "note": "Free course; eligible for a free Statement of Participation"
+          },
+          {
+            "title": "5. Strategic Planning in the AI Age",
+            "video": {
+              "title": "Strategic Planning in the AI Age",
+              "url": "https://www.life-global.org/course/447-strategic-planning-in-the-ai-age",
+              "channel": "HP LIFE / HP Foundation"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "6. Critical Thinking in the AI Era",
+            "video": {
+              "title": "Critical Thinking in the AI Era",
+              "url": "https://www.life-global.org/course/439-critical-thinking-in-the-ai-era",
+              "channel": "HP LIFE / HP Foundation"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "7. Working in a Digital World: Professional Skills",
+            "video": {
+              "title": "Working in a Digital World: Professional Skills",
+              "url": "https://www.ibm.com/training/badge/working-in-a-digital-world-professional-skills",
+              "channel": "IBM SkillsBuild"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "8. Organizational Processes",
+            "video": {
+              "title": "Organizational Processes",
+              "url": "https://ocw.mit.edu/courses/15-311-organizational-processes-fall-2003/",
+              "channel": "MIT Sloan OpenCourseWare"
+            },
+            "note": "Free OpenCourseWare materials"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Lead a simulated executive decision cycle: frame an ambiguous problem, analyze options, recommend a course, communicate it to senior stakeholders and run a 30-day execution cadence.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "decision memo; option matrix; executive presentation; Q&A prep; strategy-on-a-page; KPI tree; weekly operating review; after-action assessment."
+  },
+  {
+    "name": "AI Leadership, Workforce Transformation & Future of Work",
+    "category": "Curated Leadership, Management & People Certificate",
+    "tagline": "Curated Certification CLP09",
+    "intro": "Lead AI adoption as an organizational transformation: identify value, redesign work, build governance, skill teams and create an operating model for responsible scale.",
+    "benchmark": "Curated source set: Microsoft Learn + HP LIFE / HP Foundation + IBM SkillsBuild -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Transform your business with AI",
+            "video": {
+              "title": "Transform your business with AI",
+              "url": "https://learn.microsoft.com/en-us/training/paths/transform-your-business-with-microsoft-ai/",
+              "channel": "Microsoft Learn"
+            },
+            "note": "Free provider learning resource"
+          },
+          {
+            "title": "2. Explore the business value of generative AI solutions",
+            "video": {
+              "title": "Explore the business value of generative AI solutions",
+              "url": "https://learn.microsoft.com/en-us/training/paths/explore-business-value-generative-ai-solutions/",
+              "channel": "Microsoft Learn"
+            },
+            "note": "Free provider learning resource"
+          },
+          {
+            "title": "3. Scale AI in your organization",
+            "video": {
+              "title": "Scale AI in your organization",
+              "url": "https://learn.microsoft.com/en-us/training/modules/scale-ai/",
+              "channel": "Microsoft Learn"
+            },
+            "note": "Free provider learning resource"
+          },
+          {
+            "title": "4. AI Center of Excellence",
+            "video": {
+              "title": "AI Center of Excellence",
+              "url": "https://learn.microsoft.com/en-us/training/paths/ai-center-excellence/",
+              "channel": "Microsoft Learn"
+            },
+            "note": "Free provider learning resource"
+          },
+          {
+            "title": "5. AI for Business Professionals",
+            "video": {
+              "title": "AI for Business Professionals",
+              "url": "https://www.life-global.org/course/423-ai-for-business-professionals",
+              "channel": "HP LIFE / HP Foundation"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "6. Strategic Planning in the AI Age",
+            "video": {
+              "title": "Strategic Planning in the AI Age",
+              "url": "https://www.life-global.org/course/447-strategic-planning-in-the-ai-age",
+              "channel": "HP LIFE / HP Foundation"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "7. Critical Thinking in the AI Era",
+            "video": {
+              "title": "Critical Thinking in the AI Era",
+              "url": "https://www.life-global.org/course/439-critical-thinking-in-the-ai-era",
+              "channel": "HP LIFE / HP Foundation"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "8. Working in a Digital World: Professional Skills",
+            "video": {
+              "title": "Working in a Digital World: Professional Skills",
+              "url": "https://www.ibm.com/training/badge/working-in-a-digital-world-professional-skills",
+              "channel": "IBM SkillsBuild"
+            },
+            "note": "Free provider skill badge on completion"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Design an AI workforce transformation for one business function. Prioritize use cases, redesign roles/workflows, establish governance and a Center-of-Excellence model, and plan adoption and skilling.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "AI opportunity portfolio; workflow redesign; role/skill impact map; governance/RACI; adoption roadmap; learning plan; value/risk scorecard; executive readout."
+  },
+  {
+    "name": "Digital Marketing Foundations",
+    "category": "Curated Marketing, Growth & Revenue Certificate",
+    "tagline": "Curated Certification CMG01",
+    "intro": "Build an integrated digital marketing operating model across audience, inbound, content, paid media, email, social, measurement and customer journeys.",
+    "benchmark": "Curated source set: HubSpot Academy + Google Skillshop + Semrush Academy + Salesforce Trailhead -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. HubSpot Digital Marketing Certification",
+            "video": {
+              "title": "HubSpot Digital Marketing Certification",
+              "url": "https://academy.hubspot.com/courses/digital-marketing",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "2. Inbound Marketing Certification",
+            "video": {
+              "title": "Inbound Marketing Certification",
+              "url": "https://academy.hubspot.com/courses/inbound-marketing",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "3. Digital Advertising Certification",
+            "video": {
+              "title": "Digital Advertising Certification",
+              "url": "https://academy.hubspot.com/courses/digital-advertising",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "4. Social Media Marketing Certification",
+            "video": {
+              "title": "Social Media Marketing Certification",
+              "url": "https://academy.hubspot.com/courses/social-media",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "5. Email Marketing Certification",
+            "video": {
+              "title": "Email Marketing Certification",
+              "url": "https://academy.hubspot.com/courses/email-marketing-certification-en",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "6. Google Analytics Certification",
+            "video": {
+              "title": "Google Analytics Certification",
+              "url": "https://skillshop.docebosaas.com/pages/23/google-analytics",
+              "channel": "Google Skillshop"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "7. SEO Essentials with Semrush",
+            "video": {
+              "title": "SEO Essentials with Semrush",
+              "url": "https://www.semrush.com/academy/courses/seo-essentials-with-semrush/",
+              "channel": "Semrush Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "8. Marketing Cloud Engagement Basics",
+            "video": {
+              "title": "Marketing Cloud Engagement Basics",
+              "url": "https://trailhead.salesforce.com/content/learn/modules/mrkt_cloud_basics",
+              "channel": "Salesforce Trailhead"
+            },
+            "note": "Free provider skill badge on completion"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Design an integrated 90-day digital marketing plan for a real or simulated business. Define audience, positioning, content, SEO/AEO, email, social, paid media, lifecycle journeys and measurement.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "channel strategy; campaign calendar; landing page; email/social assets; paid-media brief; KPI tree; dashboard mockup; 90-day optimization plan."
+  },
+  {
+    "name": "Content Marketing, SEO & Answer Engine Optimization",
+    "category": "Curated Marketing, Growth & Revenue Certificate",
+    "tagline": "Curated Certification CMG02",
+    "intro": "Master content strategy, technical/on-page SEO, search intent and the new answer-engine discipline required to earn visibility in Google and AI-generated answers.",
+    "benchmark": "Curated source set: HubSpot Academy + Semrush Academy + Google Search Central -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Content Marketing Certification",
+            "video": {
+              "title": "Content Marketing Certification",
+              "url": "https://academy.hubspot.com/courses/content-marketing",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "2. AEO Fundamentals",
+            "video": {
+              "title": "AEO Fundamentals",
+              "url": "https://academy.hubspot.com/courses/aeo-fundamentals-certification-en",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "3. Implementing AEO With HubSpot",
+            "video": {
+              "title": "Implementing AEO With HubSpot",
+              "url": "https://app.hubspot.com/academy/l/tracks/21515868/",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "4. SEO Essentials with Semrush",
+            "video": {
+              "title": "SEO Essentials with Semrush",
+              "url": "https://www.semrush.com/academy/courses/seo-essentials-with-semrush/",
+              "channel": "Semrush Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "5. Content Marketing Essentials for SEO & AI Search",
+            "video": {
+              "title": "Content Marketing Essentials for SEO & AI Search",
+              "url": "https://www.semrush.com/academy/courses/content-marketing-essentials-for-seo-and-ai-search-with-semrush/",
+              "channel": "Semrush Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "6. Content Toolkit Crash Course",
+            "video": {
+              "title": "Content Toolkit Crash Course",
+              "url": "https://www.semrush.com/academy/courses/content-toolkit-crash-course/",
+              "channel": "Semrush Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "7. SEO Toolkit Crash Course",
+            "video": {
+              "title": "SEO Toolkit Crash Course",
+              "url": "https://www.semrush.com/academy/courses/seo-toolkit-crash-course/",
+              "channel": "Semrush Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "8. SEO Starter Guide",
+            "video": {
+              "title": "SEO Starter Guide",
+              "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+              "channel": "Google Search Central"
+            },
+            "note": "Free provider guide and resource"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Build a search-and-answer-engine content system around one market. Create a topic architecture, prioritized content backlog, optimized flagship page and AI-search visibility plan.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "intent map; topic cluster; technical/on-page audit; one long-form asset; internal-link plan; AEO citation strategy; Search/AI visibility scorecard."
+  },
+  {
+    "name": "Social Media, Community & Creator Marketing",
+    "category": "Curated Marketing, Growth & Revenue Certificate",
+    "tagline": "Curated Certification CMG03",
+    "intro": "Build audience growth systems across social strategy, brand voice, creators, community engagement, listening and platform-native content.",
+    "benchmark": "Curated source set: HubSpot Academy + Semrush Academy + TikTok for Business + Meta -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Social Media Marketing Certification",
+            "video": {
+              "title": "Social Media Marketing Certification",
+              "url": "https://academy.hubspot.com/courses/social-media",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "2. Social Media Marketing Crash Course",
+            "video": {
+              "title": "Social Media Marketing Crash Course",
+              "url": "https://www.semrush.com/academy/courses/social-media-marketing-crash-course/",
+              "channel": "Semrush Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "3. Master Your Brand Voice",
+            "video": {
+              "title": "Master Your Brand Voice",
+              "url": "https://www.semrush.com/academy/courses/master-your-brand-voice-workshop-with-jack-appleby/",
+              "channel": "Semrush Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "4. Influencer Marketing Campaigns for Beginners",
+            "video": {
+              "title": "Influencer Marketing Campaigns for Beginners",
+              "url": "https://www.semrush.com/academy/courses/influencer-marketing-campaigns-for-beginners/",
+              "channel": "Semrush Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "5. Building a Social Listening Program",
+            "video": {
+              "title": "Building a Social Listening Program",
+              "url": "https://www.semrush.com/academy/courses/building-a-social-listening-program-with-christina-garnett/",
+              "channel": "Semrush Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "6. TikTok Academy Learning Paths",
+            "video": {
+              "title": "TikTok Academy Learning Paths",
+              "url": "https://www.tiktokacademy.com/student/catalog",
+              "channel": "TikTok for Business"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "7. Meta Blueprint Learning",
+            "video": {
+              "title": "Meta Blueprint Learning",
+              "url": "https://www.facebookblueprint.com/",
+              "channel": "Meta"
+            },
+            "note": "Free provider learning resource"
+          },
+          {
+            "title": "8. Improving Your Social Storytelling",
+            "video": {
+              "title": "Improving Your Social Storytelling",
+              "url": "https://academy.hubspot.com/",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider learning resource"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Create and run a 30-day social growth experiment for one brand. Define voice, platform roles, creator strategy, community response rules, social-listening signals and weekly optimization.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "brand-voice guide; 30-day calendar; 12 finished posts; creator brief; listening dashboard; community playbook; performance retrospective."
+  },
+  {
+    "name": "Paid Media & Performance Marketing",
+    "category": "Curated Marketing, Growth & Revenue Certificate",
+    "tagline": "Curated Certification CMG04",
+    "intro": "Plan, launch and optimize measurable acquisition campaigns across search, display, video, retail media and social advertising.",
+    "benchmark": "Curated source set: HubSpot Academy + Google Skillshop + Amazon Ads Academy + TikTok for Business + Meta -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Digital Advertising Certification",
+            "video": {
+              "title": "Digital Advertising Certification",
+              "url": "https://academy.hubspot.com/courses/digital-advertising",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "2. Google Ads Search Certification",
+            "video": {
+              "title": "Google Ads Search Certification",
+              "url": "https://skillshop.docebosaas.com/learn/dashboard/channel/43",
+              "channel": "Google Skillshop"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "3. Google Ads Video Certification",
+            "video": {
+              "title": "Google Ads Video Certification",
+              "url": "https://skillshop.docebosaas.com/learn/dashboard/channel/46",
+              "channel": "Google Skillshop"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "4. Google Ads Display Certification",
+            "video": {
+              "title": "Google Ads Display Certification",
+              "url": "https://skillshop.docebosaas.com/learn/dashboard/channel/45",
+              "channel": "Google Skillshop"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "5. Amazon Ads Academy Certifications",
+            "video": {
+              "title": "Amazon Ads Academy Certifications",
+              "url": "https://advertising.amazon.com/academy/certifications",
+              "channel": "Amazon Ads Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "6. Amazon Ads Academy Learning Paths",
+            "video": {
+              "title": "Amazon Ads Academy Learning Paths",
+              "url": "https://advertising.amazon.com/academy/professional-paths",
+              "channel": "Amazon Ads Academy"
+            },
+            "note": "Free provider learning resource"
+          },
+          {
+            "title": "7. TikTok Academy Media Buying Paths",
+            "video": {
+              "title": "TikTok Academy Media Buying Paths",
+              "url": "https://www.tiktokacademy.com/student/collection/2640708-become-a-media-buying-expert",
+              "channel": "TikTok for Business"
+            },
+            "note": "Free provider learning resource"
+          },
+          {
+            "title": "8. Meta Blueprint Ads Learning",
+            "video": {
+              "title": "Meta Blueprint Ads Learning",
+              "url": "https://www.facebookblueprint.com/student/path/211543-meta-advertising-course",
+              "channel": "Meta"
+            },
+            "note": "Free provider learning resource"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Build a performance-marketing plan with a fixed budget across at least three channels. Define objectives, audiences, creative variants, bids/budgets, conversion paths and experiment cadence.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "media plan; campaign structure; creative matrix; landing-page wireframe; budget model; attribution assumptions; experiment backlog; weekly optimization report."
+  },
+  {
+    "name": "Marketing Analytics, Attribution & Conversion Optimization",
+    "category": "Curated Marketing, Growth & Revenue Certificate",
+    "tagline": "Curated Certification CMG05",
+    "intro": "Turn marketing activity into decision evidence using web analytics, funnel analysis, attribution, dashboards, customer journeys and disciplined experiments.",
+    "benchmark": "Curated source set: Google Skillshop + HubSpot Academy + Salesforce Trailhead + Semrush Academy + Google for Developers -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Google Analytics Certification",
+            "video": {
+              "title": "Google Analytics Certification",
+              "url": "https://skillshop.docebosaas.com/pages/23/google-analytics",
+              "channel": "Google Skillshop"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "2. HubSpot Reporting Certification",
+            "video": {
+              "title": "HubSpot Reporting Certification",
+              "url": "https://academy.hubspot.com/courses/hubspot-reporting",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "3. Inbound Marketing Optimization Certification",
+            "video": {
+              "title": "Inbound Marketing Optimization Certification",
+              "url": "https://academy.hubspot.com/courses/inbound-marketing-optimization",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "4. Digital Advertising Certification - Measurement",
+            "video": {
+              "title": "Digital Advertising Certification - Measurement",
+              "url": "https://academy.hubspot.com/courses/digital-advertising",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "5. Customer Journey Basics",
+            "video": {
+              "title": "Customer Journey Basics",
+              "url": "https://trailhead.salesforce.com/content/learn/modules/customer-journey-basics",
+              "channel": "Salesforce Trailhead"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "6. Getting Started with Semrush - Reporting",
+            "video": {
+              "title": "Getting Started with Semrush - Reporting",
+              "url": "https://www.semrush.com/academy/courses/getting-started-with-semrush/",
+              "channel": "Semrush Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "7. Building Custom Reports in HubSpot",
+            "video": {
+              "title": "Building Custom Reports in HubSpot",
+              "url": "https://academy.hubspot.com/courses/building-custom-reports-in-hubspot",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider learning resource"
+          },
+          {
+            "title": "8. Google Analytics Developer Learning",
+            "video": {
+              "title": "Google Analytics Developer Learning",
+              "url": "https://developers.google.com/analytics/devguides/collection/ga4",
+              "channel": "Google for Developers"
+            },
+            "note": "Free provider guide and resource"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Instrument and analyze a marketing funnel from acquisition through conversion. Produce a decision-ready dashboard, identify drop-offs, propose experiments and quantify expected business impact.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "measurement plan; event taxonomy; funnel dashboard; attribution comparison; conversion audit; A/B test design; insight memo with prioritized actions."
+  },
+  {
+    "name": "Brand Strategy, Storytelling & Creative Campaigns",
+    "category": "Curated Marketing, Growth & Revenue Certificate",
+    "tagline": "Curated Certification CMG06",
+    "intro": "Develop brands that are recognizable, coherent and persuasive across positioning, voice, narrative, visual identity and campaign execution.",
+    "benchmark": "Curated source set: Canva Design School + Semrush Academy + HubSpot Academy + Canva -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Branding Your Business",
+            "video": {
+              "title": "Branding Your Business",
+              "url": "https://www.canva.com/design-school/courses/branding-design/",
+              "channel": "Canva Design School"
+            },
+            "note": "Free provider learning resource"
+          },
+          {
+            "title": "2. Brand Starts Here with MBJ",
+            "video": {
+              "title": "Brand Starts Here with MBJ",
+              "url": "https://www.canva.com/design-school/courses/",
+              "channel": "Canva Design School"
+            },
+            "note": "Free provider learning resource"
+          },
+          {
+            "title": "3. Master Your Brand Voice",
+            "video": {
+              "title": "Master Your Brand Voice",
+              "url": "https://www.semrush.com/academy/courses/master-your-brand-voice-workshop-with-jack-appleby/",
+              "channel": "Semrush Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "4. The StoryEdge Method",
+            "video": {
+              "title": "The StoryEdge Method",
+              "url": "https://academy.hubspot.com/",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider learning resource"
+          },
+          {
+            "title": "5. Business Storytelling Training",
+            "video": {
+              "title": "Business Storytelling Training",
+              "url": "https://academy.hubspot.com/lessons/the-power-of-storytelling",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider learning resource"
+          },
+          {
+            "title": "6. Content Marketing Certification",
+            "video": {
+              "title": "Content Marketing Certification",
+              "url": "https://academy.hubspot.com/courses/content-marketing",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "7. Improving Your Social Storytelling",
+            "video": {
+              "title": "Improving Your Social Storytelling",
+              "url": "https://academy.hubspot.com/",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider learning resource"
+          },
+          {
+            "title": "8. Canva Design School Course Library",
+            "video": {
+              "title": "Canva Design School Course Library",
+              "url": "https://www.canva.com/design-school/courses/",
+              "channel": "Canva"
+            },
+            "note": "Free provider learning resource"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Create a complete brand platform and one integrated campaign. Define positioning, audience promise, voice, visual direction, signature story and campaign creative across three channels.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "brand strategy one-pager; voice guide; visual moodboard; narrative/story arc; campaign concept; 6 creative assets; consistency review; audience feedback."
+  },
+  {
+    "name": "Email, CRM & Lifecycle Marketing",
+    "category": "Curated Marketing, Growth & Revenue Certificate",
+    "tagline": "Curated Certification CMG07",
+    "intro": "Design lifecycle journeys that use segmentation, consent, email, CRM data, automation and personalization to improve activation, retention and expansion.",
+    "benchmark": "Curated source set: HubSpot Academy + Salesforce Trailhead -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Email Marketing Certification",
+            "video": {
+              "title": "Email Marketing Certification",
+              "url": "https://academy.hubspot.com/courses/email-marketing-certification-en",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "2. Inbound Marketing Certification",
+            "video": {
+              "title": "Inbound Marketing Certification",
+              "url": "https://academy.hubspot.com/courses/inbound-marketing",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "3. HubSpot Free Tools - CRM & Lead Capture",
+            "video": {
+              "title": "HubSpot Free Tools - CRM & Lead Capture",
+              "url": "https://academy.hubspot.com/courses/hubspot-free-tools",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider learning resource"
+          },
+          {
+            "title": "4. Marketing Cloud Engagement Basics",
+            "video": {
+              "title": "Marketing Cloud Engagement Basics",
+              "url": "https://trailhead.salesforce.com/content/learn/modules/mrkt_cloud_basics",
+              "channel": "Salesforce Trailhead"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "5. Customer Journey Basics",
+            "video": {
+              "title": "Customer Journey Basics",
+              "url": "https://trailhead.salesforce.com/content/learn/modules/customer-journey-basics",
+              "channel": "Salesforce Trailhead"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "6. Journey Builder Basics",
+            "video": {
+              "title": "Journey Builder Basics",
+              "url": "https://trailhead.salesforce.com/content/learn/modules/journey-builder-basics",
+              "channel": "Salesforce Trailhead"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "7. Create & Send an Email with Marketing Cloud",
+            "video": {
+              "title": "Create & Send an Email with Marketing Cloud",
+              "url": "https://trailhead.salesforce.com/content/learn/modules/quick-start-create-and-send-an-email-with-marketing-cloud",
+              "channel": "Salesforce Trailhead"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "8. Marketing Automation Strategy",
+            "video": {
+              "title": "Marketing Automation Strategy",
+              "url": "https://academy.hubspot.com/courses/automation-strategy",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider learning resource"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Design a lifecycle program from first touch through onboarding, retention and reactivation. Build segmentation rules, trigger logic, message sequence, consent controls and success metrics.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "journey map; audience segments; 5-email sequence; automation flow; preference/consent design; test plan; lifecycle dashboard; improvement backlog."
+  },
+  {
+    "name": "Sales, Revenue Operations & Growth",
+    "category": "Curated Marketing, Growth & Revenue Certificate",
+    "tagline": "Curated Certification CMG08",
+    "intro": "Connect marketing, sales and operations into one measurable revenue system across pipeline, qualification, enablement, CRM, forecasting and growth cadence.",
+    "benchmark": "Curated source set: HubSpot Academy + Salesforce Trailhead -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. Inbound Sales Certification",
+            "video": {
+              "title": "Inbound Sales Certification",
+              "url": "https://academy.hubspot.com/courses/inbound-sales",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "2. Revenue Operations Certification",
+            "video": {
+              "title": "Revenue Operations Certification",
+              "url": "https://academy.hubspot.com/courses/revenue-operations",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "3. Sales Enablement Certification",
+            "video": {
+              "title": "Sales Enablement Certification",
+              "url": "https://academy.hubspot.com/courses/sales-enablement",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "4. HubSpot Sales Hub Software",
+            "video": {
+              "title": "HubSpot Sales Hub Software",
+              "url": "https://academy.hubspot.com/courses/hubspot-sales-hub-software",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "5. Frictionless Sales",
+            "video": {
+              "title": "Frictionless Sales",
+              "url": "https://academy.hubspot.com/courses/frictionless-sales",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "6. Sales Management Training",
+            "video": {
+              "title": "Sales Management Training",
+              "url": "https://academy.hubspot.com/courses/sales-manager-training-program",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "7. HubSpot Reporting Certification",
+            "video": {
+              "title": "HubSpot Reporting Certification",
+              "url": "https://academy.hubspot.com/courses/hubspot-reporting",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "8. Customer Journey Basics",
+            "video": {
+              "title": "Customer Journey Basics",
+              "url": "https://trailhead.salesforce.com/content/learn/modules/customer-journey-basics",
+              "channel": "Salesforce Trailhead"
+            },
+            "note": "Free provider skill badge on completion"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Build a revenue operating model for a real or simulated business. Define funnel stages, qualification, SLAs, pipeline math, seller workflow, enablement assets, dashboards and weekly operating cadence.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "revenue funnel; lead qualification model; SLA; CRM stage design; sales playbook; forecast dashboard; enablement asset; 90-day growth experiment plan."
+  },
+  {
+    "name": "AI Marketing, Personalization & Growth Automation",
+    "category": "Curated Marketing, Growth & Revenue Certificate",
+    "tagline": "Curated Certification CMG09",
+    "intro": "Use AI responsibly across strategy, content, search visibility, personalization, analytics, automation and agent-assisted marketing workflows.",
+    "benchmark": "Curated source set: HubSpot Academy + Semrush Academy + Salesforce Trailhead -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "ladder": [],
+    "blocks": [
+      {
+        "type": "videos",
+        "heading": "Core Course Stack",
+        "items": [
+          {
+            "title": "1. AI for Marketing",
+            "video": {
+              "title": "AI for Marketing",
+              "url": "https://academy.hubspot.com/courses/AI-for-Marketers",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider learning resource"
+          },
+          {
+            "title": "2. AI for Marketing, Sales & Service Bootcamp",
+            "video": {
+              "title": "AI for Marketing, Sales & Service Bootcamp",
+              "url": "https://academy.hubspot.com/",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "3. AEO Fundamentals",
+            "video": {
+              "title": "AEO Fundamentals",
+              "url": "https://academy.hubspot.com/courses/aeo-fundamentals-certification-en",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "4. Implementing AEO With HubSpot",
+            "video": {
+              "title": "Implementing AEO With HubSpot",
+              "url": "https://app.hubspot.com/academy/l/tracks/21515868/",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "5. Become an AI-Powered Marketer",
+            "video": {
+              "title": "Become an AI-Powered Marketer",
+              "url": "https://www.semrush.com/academy/courses/ai-for-marketing-course/",
+              "channel": "Semrush Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "6. AI Visibility Essentials with Semrush",
+            "video": {
+              "title": "AI Visibility Essentials with Semrush",
+              "url": "https://www.semrush.com/academy/courses/ai-visibility-essentials-with-semrush/",
+              "channel": "Semrush Academy"
+            },
+            "note": "Free provider certificate on completion"
+          },
+          {
+            "title": "7. Meet Agentforce Marketing",
+            "video": {
+              "title": "Meet Agentforce Marketing",
+              "url": "https://trailhead.salesforce.com/content/learn/trails/meet-agentforce-marketing",
+              "channel": "Salesforce Trailhead"
+            },
+            "note": "Free provider skill badge on completion"
+          },
+          {
+            "title": "8. Marketing Automation Strategy",
+            "video": {
+              "title": "Marketing Automation Strategy",
+              "url": "https://academy.hubspot.com/courses/automation-strategy",
+              "channel": "HubSpot Academy"
+            },
+            "note": "Free provider learning resource"
+          }
+        ]
+      }
+    ],
+    "practiceHeading": "Hands-On Mastery Capstone",
+    "practiceBody": "Redesign one marketing workflow with AI and automation while preserving human judgment. Include content/search, personalization or lead handling, explicit quality checks, privacy controls and measurable business outcomes.",
+    "rubricHeading": "Proof Rubric",
+    "rubric": "workflow map; AI use-case selection; prompt/context pack; human review gates; personalization logic; automation design; eval/quality rubric; KPI baseline and post-test readout."
   }
 ]
