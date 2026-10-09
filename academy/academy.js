@@ -635,7 +635,7 @@
       data: (typeof ROLES_DATA !== 'undefined' ? ROLES_DATA : []).slice().sort(function (a, b) { return a.name.localeCompare(b.name); }),
       searchPlaceholder: 'Search roles, e.g. AI Engineer, UX, Finance...',
       emptyTitle: 'Choose a role to open its mastery path',
-      emptyBody: 'Search by title or scroll the list on the left. Every role includes 6 core competencies, 12 direct video bridges and a hands-on capstone.',
+      emptyBody: 'Search by title, or browse by group on the left and open one to see its roles. Every role includes 6 core competencies, 12 direct video bridges and a hands-on capstone.',
       featured: ['AI Engineer', 'Data Scientist', 'Digital Product Manager', 'UX Designer', 'Engineering Manager'],
       render: renderRole,
     },
@@ -693,7 +693,7 @@
       .sort(function (a, b) { return a.name.localeCompare(b.name); }),
     searchPlaceholder: 'Search certificates & skill tracks, e.g. Computer Science, AI Mastery, Bootcamp...',
     emptyTitle: 'Choose a certificate or skill track',
-    emptyBody: 'University-benchmarked Academic Certificates and hands-on Bootcamp, Standalone and Agent Mastery Skill Tracks, side by side. Pick a category on the left to narrow the list.',
+    emptyBody: 'University-benchmarked Academic Certificates and hands-on Bootcamp, Standalone and Agent Mastery Skill Tracks, side by side. Browse by group on the left, or pick a specific category to narrow the list.',
     featured: ['Comprehensive Certificate in Computer Science', 'Full-Stack Web Development Bootcamp Certificate', 'Comprehensive Certificate - Mini MBA', 'AI Mastery', 'Agent Mastery — Claude / Anthropic'],
     render: function (item) {
       return item._credSrcMode === 'certificates' ? renderCertificate(item) : renderSkillTrack(item);

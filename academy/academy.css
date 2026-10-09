@@ -603,6 +603,11 @@ a {
 
 .group-overview-grid {
   justify-content: flex-start;
+  /* Group overviews can hold 50+ items -- undo the 5-pick 620px cap from
+     .empty-state-picks-grid so a long roster uses the full detail pane
+     width instead of wrapping into a narrow column. */
+  max-width: none;
+  margin: 0;
 }
 
 .role-detail {
@@ -644,6 +649,11 @@ a {
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
+  /* Capped width so 5 featured picks wrap into a balanced 3+2 (each
+     wrapped row is centered independently by flexbox) instead of an
+     unbalanced 4+1 with one pill stranded alone on its own row. */
+  max-width: 620px;
+  margin: 0 auto;
 }
 
 .featured-pick {
