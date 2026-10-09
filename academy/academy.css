@@ -591,6 +591,20 @@ a {
   background-color: transparent;
 }
 
+/* Clicking a group header also shows that group's items as clickable
+   links here in the detail pane (reuses .empty-state/.featured-pick),
+   but left-aligned with tighter padding since a group can hold 50+
+   items -- the default centered/spacious empty-state look is meant for
+   a handful of featured picks, not a full group roster. */
+.empty-state.group-overview {
+  text-align: left;
+  padding: 32px 36px;
+}
+
+.group-overview-grid {
+  justify-content: flex-start;
+}
+
 .role-detail {
   flex: 1;
   min-width: 0;

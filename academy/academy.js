@@ -782,10 +782,29 @@
   CATEGORY_GROUPS.forEach(function (g) {
     g.categories.forEach(function (c) { CATEGORY_TO_GROUP[c] = g.label; });
   });
-  function groupLabelFor(category) {
-    return CATEGORY_TO_GROUP[category] || category;
+  // "roles" (196 items / 19 categories) and "pathways" (18 items / 6
+  // categories) don't need a synthetic broader-group layer the way
+  // skills/credentials did -- their existing categories already read as
+  // sensible top-level domains ("AI, Agents & Intelligent Automation",
+  // "Leadership, Management & Personal Development", etc), so the group
+  // IS the category there; only skills/credentials go through the
+  // CATEGORY_TO_GROUP lookup above. "interview" (20 items) has no
+  // category field at all and stays flat -- nothing to group by, and 20
+  // items isn't an unscannable list on its own.
+  function groupLabelFor(mode, category) {
+    if (mode === 'skills' || mode === 'credentials') {
+      return CATEGORY_TO_GROUP[category] || category;
+    }
+    return category;
   }
+  // Dropdown <optgroup>s: only skills/credentials have enough flat
+  // categories (36 / 43) to be worth nesting under a broader label.
+  // Roles' 19 and Pathways' 6 stay a plain flat <select> list.
   var GROUPED_MODES = { skills: true, credentials: true };
+  // Collapsible sidebar-list headers: also worth it for roles/pathways,
+  // since the payoff there is collapsing a long flat *item* list, not
+  // consolidating an unwieldy *category* list.
+  var COLLAPSIBLE_LIST_MODES = { skills: true, credentials: true, roles: true, pathways: true };
 
   var ALL_CATEGORIES = 'all';
   var currentCategory = ALL_CATEGORIES;
@@ -842,7 +861,7 @@
     // group too, while "skills" alone doesn't.
     var byGroup = {};
     categories.forEach(function (c) {
-      var g = groupLabelFor(c);
+      var g = groupLabelFor(currentMode, c);
       (byGroup[g] = byGroup[g] || []).push(c);
     });
     var groupOrder = CATEGORY_GROUPS.map(function (g) { return g.label; });
@@ -879,10 +898,11 @@
       return;
     }
 
-    // Only group the "all categories, no search" view of skills/credentials
+    // Only group the "all categories, no search" view of a collapsible
     // mode -- once a visitor narrows to one category or starts typing, the
     // result set is already small, so fall back to the plain flat list.
-    var shouldGroup = GROUPED_MODES[currentMode] && currentCategory === ALL_CATEGORIES && !filterText;
+    var shouldGroup = COLLAPSIBLE_LIST_MODES[currentMode] && currentCategory === ALL_CATEGORIES && !filterText;
+    lastGroupedList = null;
     if (!shouldGroup) {
       listEl.innerHTML = filtered
         .map(function (item) {
@@ -897,19 +917,28 @@
     // with a category sub-header <li> in between when a group spans more
     // than one underlying category. Still a single flat <ul><li> list --
     // headers simply carry no [data-slug], so the existing item-click
-    // delegation ignores them.
+    // delegation ignores them. lastGroupedList keeps each group's item
+    // list around so clicking a header can also show them as clickable
+    // links in the right-hand detail pane (see showGroupOverview).
     var byGroup = {};
     var groupCounts = {};
     filtered.forEach(function (item) {
-      var g = groupLabelFor(item.category);
+      var g = groupLabelFor(currentMode, item.category);
       (byGroup[g] = byGroup[g] || []).push(item);
       groupCounts[g] = (groupCounts[g] || 0) + 1;
     });
-    var groupOrder = CATEGORY_GROUPS.map(function (g) { return g.label; }).filter(function (g) { return byGroup[g]; });
-    Object.keys(byGroup).forEach(function (g) { if (groupOrder.indexOf(g) === -1) groupOrder.push(g); });
+    var groupOrder;
+    if (currentMode === 'skills' || currentMode === 'credentials') {
+      groupOrder = CATEGORY_GROUPS.map(function (g) { return g.label; }).filter(function (g) { return byGroup[g]; });
+      Object.keys(byGroup).forEach(function (g) { if (groupOrder.indexOf(g) === -1) groupOrder.push(g); });
+    } else {
+      groupOrder = Object.keys(byGroup).sort();
+    }
 
     var html = '';
+    lastGroupedList = [];
     groupOrder.forEach(function (g, gi) {
+      lastGroupedList.push({ label: g, items: byGroup[g] });
       html += '<li class="role-list-group-header" data-group="' + gi + '">' +
         '<span class="role-list-group-chevron">&#9656;</span>' + escapeHtml(g) +
         ' <span class="role-list-group-count">(' + groupCounts[g] + ')</span></li>';
@@ -930,6 +959,29 @@
     Array.prototype.forEach.call(listEl.querySelectorAll('.role-list-grouped-item'), function (li) {
       li.style.display = 'none';
     });
+  }
+
+  // Set by renderList whenever the grouped view is active (null otherwise)
+  // so the group-header click handler below can show that group's items
+  // as clickable links in the right-hand detail pane, not just expand the
+  // sidebar in place.
+  var lastGroupedList = null;
+
+  function showGroupOverview(groupLabel, items) {
+    detailEl.innerHTML =
+      '<div class="empty-state group-overview">' +
+      '<h2>' + escapeHtml(groupLabel) + '</h2>' +
+      '<p>' + items.length + ' item' + (items.length === 1 ? '' : 's') + ' in this group -- pick one to open it.</p>' +
+      '<div class="empty-state-picks-grid group-overview-grid">' +
+      items
+        .slice()
+        .sort(function (a, b) { return a.name.localeCompare(b.name); })
+        .map(function (item) {
+          return '<button type="button" class="featured-pick" data-featured="' + escapeHtml(slugify(item.name)) + '">' + escapeHtml(item.name) + '</button>';
+        })
+        .join('') +
+      '</div>' +
+      '</div>';
   }
 
   // --- My Pathway: a user-built custom path, stored locally in this
@@ -1582,6 +1634,9 @@
       Array.prototype.forEach.call(listEl.querySelectorAll('li[data-group="' + gid + '"].role-list-grouped-item'), function (li) {
         li.style.display = expanded ? '' : 'none';
       });
+      if (lastGroupedList && lastGroupedList[gid]) {
+        showGroupOverview(lastGroupedList[gid].label, lastGroupedList[gid].items);
+      }
       return;
     }
     var li = e.target.closest('li[data-slug]');
