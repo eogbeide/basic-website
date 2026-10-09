@@ -546,6 +546,51 @@ a {
   color: #666;
 }
 
+/* Collapsible group headers for the "skills" / "credentials" list once a
+   visitor hasn't narrowed to one category -- see CATEGORY_GROUPS in
+   academy.js. Headers stay simple <li>s (no [data-slug]) so the normal
+   item-click handling in academy.js ignores them. */
+.role-list li.role-list-group-header {
+  font-weight: 700;
+  color: #f2f2f2;
+  background-color: #202124;
+  border: 1px solid #2a2a2a;
+  margin-bottom: 2px;
+}
+
+.role-list li.role-list-group-header:hover {
+  background-color: #282a2d;
+}
+
+.role-list-group-chevron {
+  display: inline-block;
+  margin-right: 6px;
+  transition: transform 0.15s ease;
+}
+
+.role-list li.role-list-group-header.expanded .role-list-group-chevron {
+  transform: rotate(90deg);
+}
+
+.role-list-group-count {
+  color: #9a9a9a;
+  font-weight: 400;
+}
+
+.role-list li.role-list-category-subheader {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #8a8a8a;
+  cursor: default;
+  padding-top: 14px;
+  padding-bottom: 4px;
+}
+
+.role-list li.role-list-category-subheader:hover {
+  background-color: transparent;
+}
+
 .role-detail {
   flex: 1;
   min-width: 0;

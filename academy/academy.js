@@ -748,6 +748,45 @@
       }
     });
   }
+  // Category groups: the "skills" catalog grew to 36 flat categories (28
+  // narrow "Curated X Certificate" / "Job-Ready X Certificate" domains
+  // from the 252-certificate expansion, plus the older Language/
+  // Programming/AI/Design/Leadership/Agent-Mastery/Bootcamp/Standalone
+  // categories) and "credentials" mode adds 7 more academic-certificate
+  // categories on top of that -- both were an unscannable flat list/
+  // dropdown. These ~14 broader groups (reusing the site's own "AI,
+  // Agents & Intelligent Automation" / "Cloud, Platform & Systems
+  // Engineering" / etc. language where it already fits, plus new groups
+  // for the business/industry domains it doesn't cover) collapse that
+  // back down to something a visitor can scan. Only applied to the
+  // "skills" and "credentials" modes (GROUPED_MODES below) -- roles,
+  // pathways, certificates and interview tracks keep their original flat
+  // category list since none of them have this problem.
+  var CATEGORY_GROUPS = [
+    { label: 'AI, Agents & Intelligent Automation', categories: ['Curated AI Certificate', 'Artificial Intelligence', 'Agent Mastery'] },
+    { label: 'Data, Analytics & Machine Learning', categories: ['Curated Data & Analytics Certificate'] },
+    { label: 'Cloud, Platform & Systems Engineering', categories: ['Curated Cloud, DevOps & Platform Certificate', 'Curated Cybersecurity Certificate', 'Curated Hardware, Semiconductors, Robotics & Physical AI Certificate', 'Curated Aerospace, Space Systems & Autonomous Flight Certificate', 'Job-Ready Data Center, AI Infrastructure & Capacity Certificate', 'Job-Ready Enterprise Systems, ERP & Business Applications Certificate'] },
+    { label: 'Software & Application Engineering', categories: ['Curated Software & Application Engineering Certificate', 'Programming'] },
+    { label: 'Design & Digital Experience', categories: ['Curated Design, UX & Digital Experience Certificate', 'Design'] },
+    { label: 'Product, Strategy & Business Transformation', categories: ['Curated Product, Program & Business Certificate', 'Curated Consulting, Strategy & Transformation Certificate', 'Curated Entrepreneurship, Startups & Innovation Certificate'] },
+    { label: 'Sales, Marketing & Customer Growth', categories: ['Curated Marketing, Growth & Revenue Certificate', 'Curated Sales, Customer Success & Partnerships Certificate', 'Curated Media, Communications & Creator Economy Certificate', 'Curated Retail, E-Commerce & Omnichannel Certificate'] },
+    { label: 'Finance, Governance & Legal', categories: ['Curated Finance, Accounting & Investment Certificate', 'Curated Governance, Risk, Compliance & Resilience Certificate', 'Curated Legal, Policy & Regulatory Certificate'] },
+    { label: 'Leadership, People & Talent Development', categories: ['Curated Leadership, Management & People Certificate', 'Leadership & Growth', 'Curated Education, Learning & Talent Development Certificate'] },
+    { label: 'Operations, Supply Chain & Built Environment', categories: ['Curated Operations, Supply Chain & Procurement Certificate', 'Curated Real Estate, Construction & Built Environment Certificate'] },
+    { label: 'Health, Life Sciences & Sustainability', categories: ['Curated Healthcare, Public Health & Digital Health Certificate', 'Curated Biotechnology, Pharmaceuticals & Life Sciences Certificate', 'Curated Sustainability, Climate & Energy Certificate', 'Curated Agriculture, Food Systems & AgTech Certificate'] },
+    { label: 'Languages & Foundational Learning', categories: ['Language Learning'] },
+    { label: 'Credentials & Bootcamps', categories: ['Standalone Mastery Certificate', 'Bootcamp Mastery Certificate'] },
+    { label: 'Academic Certificates', categories: ['Computing & Software', 'Mathematics & Physical Sciences', 'Engineering & Manufacturing', 'Humanities & Communication', 'Business & Management', 'Social & Behavioral Sciences', 'Health & Life Sciences'] },
+  ];
+  var CATEGORY_TO_GROUP = {};
+  CATEGORY_GROUPS.forEach(function (g) {
+    g.categories.forEach(function (c) { CATEGORY_TO_GROUP[c] = g.label; });
+  });
+  function groupLabelFor(category) {
+    return CATEGORY_TO_GROUP[category] || category;
+  }
+  var GROUPED_MODES = { skills: true, credentials: true };
+
   var ALL_CATEGORIES = 'all';
   var currentCategory = ALL_CATEGORIES;
   var heroStatButtons = document.querySelectorAll('.hero-stat[data-hero-mode]');
@@ -786,11 +825,41 @@
       }
     });
     categories.sort();
-    categorySelect.innerHTML = '<option value="' + ALL_CATEGORIES + '">All ' + escapeHtml(mode.label) + '</option>' +
-      categories.map(function (c) {
-        var count = mode.data.filter(function (item) { return item.category === c; }).length;
-        return '<option value="' + escapeHtml(c) + '">' + escapeHtml(c) + ' (' + count + ')</option>';
-      }).join('');
+
+    if (!GROUPED_MODES[currentMode]) {
+      categorySelect.innerHTML = '<option value="' + ALL_CATEGORIES + '">All ' + escapeHtml(mode.label) + '</option>' +
+        categories.map(function (c) {
+          var count = mode.data.filter(function (item) { return item.category === c; }).length;
+          return '<option value="' + escapeHtml(c) + '">' + escapeHtml(c) + ' (' + count + ')</option>';
+        }).join('');
+      categorySelect.value = ALL_CATEGORIES;
+      return;
+    }
+
+    // Grouped dropdown: one <optgroup> per broader domain (CATEGORY_GROUPS
+    // order), containing only the categories actually present in this
+    // mode's data -- e.g. "credentials" picks up the Academic Certificates
+    // group too, while "skills" alone doesn't.
+    var byGroup = {};
+    categories.forEach(function (c) {
+      var g = groupLabelFor(c);
+      (byGroup[g] = byGroup[g] || []).push(c);
+    });
+    var groupOrder = CATEGORY_GROUPS.map(function (g) { return g.label; });
+    Object.keys(byGroup).forEach(function (g) { if (groupOrder.indexOf(g) === -1) groupOrder.push(g); });
+
+    var html = '<option value="' + ALL_CATEGORIES + '">All ' + escapeHtml(mode.label) + '</option>';
+    groupOrder.forEach(function (g) {
+      var catsInGroup = byGroup[g];
+      if (!catsInGroup || !catsInGroup.length) return;
+      html += '<optgroup label="' + escapeHtml(g) + '">' +
+        catsInGroup.map(function (c) {
+          var count = mode.data.filter(function (item) { return item.category === c; }).length;
+          return '<option value="' + escapeHtml(c) + '">' + escapeHtml(c) + ' (' + count + ')</option>';
+        }).join('') +
+        '</optgroup>';
+    });
+    categorySelect.innerHTML = html;
     categorySelect.value = ALL_CATEGORIES;
   }
 
@@ -810,11 +879,57 @@
       return;
     }
 
-    listEl.innerHTML = filtered
-      .map(function (item) {
-        return '<li data-slug="' + slugify(item.name) + '">' + escapeHtml(item.name) + '</li>';
-      })
-      .join('');
+    // Only group the "all categories, no search" view of skills/credentials
+    // mode -- once a visitor narrows to one category or starts typing, the
+    // result set is already small, so fall back to the plain flat list.
+    var shouldGroup = GROUPED_MODES[currentMode] && currentCategory === ALL_CATEGORIES && !filterText;
+    if (!shouldGroup) {
+      listEl.innerHTML = filtered
+        .map(function (item) {
+          return '<li data-slug="' + slugify(item.name) + '">' + escapeHtml(item.name) + '</li>';
+        })
+        .join('');
+      return;
+    }
+
+    // Grouped view: collapsible group-header <li>s (collapsed by default,
+    // toggled in the listEl click handler below) followed by their items,
+    // with a category sub-header <li> in between when a group spans more
+    // than one underlying category. Still a single flat <ul><li> list --
+    // headers simply carry no [data-slug], so the existing item-click
+    // delegation ignores them.
+    var byGroup = {};
+    var groupCounts = {};
+    filtered.forEach(function (item) {
+      var g = groupLabelFor(item.category);
+      (byGroup[g] = byGroup[g] || []).push(item);
+      groupCounts[g] = (groupCounts[g] || 0) + 1;
+    });
+    var groupOrder = CATEGORY_GROUPS.map(function (g) { return g.label; }).filter(function (g) { return byGroup[g]; });
+    Object.keys(byGroup).forEach(function (g) { if (groupOrder.indexOf(g) === -1) groupOrder.push(g); });
+
+    var html = '';
+    groupOrder.forEach(function (g, gi) {
+      html += '<li class="role-list-group-header" data-group="' + gi + '">' +
+        '<span class="role-list-group-chevron">&#9656;</span>' + escapeHtml(g) +
+        ' <span class="role-list-group-count">(' + groupCounts[g] + ')</span></li>';
+      var byCat = {};
+      byGroup[g].forEach(function (item) { (byCat[item.category] = byCat[item.category] || []).push(item); });
+      var catNames = Object.keys(byCat).sort();
+      var multiCategory = catNames.length > 1;
+      catNames.forEach(function (catName) {
+        if (multiCategory) {
+          html += '<li class="role-list-category-subheader role-list-grouped-item" data-group="' + gi + '">' + escapeHtml(catName) + '</li>';
+        }
+        byCat[catName].forEach(function (item) {
+          html += '<li data-slug="' + slugify(item.name) + '" data-group="' + gi + '" class="role-list-grouped-item">' + escapeHtml(item.name) + '</li>';
+        });
+      });
+    });
+    listEl.innerHTML = html;
+    Array.prototype.forEach.call(listEl.querySelectorAll('.role-list-grouped-item'), function (li) {
+      li.style.display = 'none';
+    });
   }
 
   // --- My Pathway: a user-built custom path, stored locally in this
@@ -1460,6 +1575,15 @@
   }
 
   listEl.addEventListener('click', function (e) {
+    var header = e.target.closest('.role-list-group-header');
+    if (header) {
+      var expanded = header.classList.toggle('expanded');
+      var gid = header.getAttribute('data-group');
+      Array.prototype.forEach.call(listEl.querySelectorAll('li[data-group="' + gid + '"].role-list-grouped-item'), function (li) {
+        li.style.display = expanded ? '' : 'none';
+      });
+      return;
+    }
     var li = e.target.closest('li[data-slug]');
     if (!li) return;
     selectItem(li.getAttribute('data-slug'), true);
