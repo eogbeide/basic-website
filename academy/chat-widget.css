@@ -1,0 +1,260 @@
+#zuyini-chat-root {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9000;
+  font-family: inherit;
+}
+
+#zuyini-chat-launcher {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #ffc629;
+  color: #151617;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 18px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+}
+
+#zuyini-chat-launcher:hover {
+  background-color: #ffd25c;
+}
+
+#zuyini-chat-launcher[aria-expanded="true"] {
+  display: none;
+}
+
+#zuyini-chat-panel {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 360px;
+  max-width: calc(100vw - 32px);
+  height: 520px;
+  max-height: calc(100vh - 100px);
+  background-color: #1c1d1e;
+  border: 1px solid #2a2a2a;
+  border-radius: 14px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#zuyini-chat-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 14px 16px;
+  border-bottom: 1px solid #2a2a2a;
+  background-color: #202124;
+  color: #f2f2f2;
+}
+
+#zuyini-chat-header strong {
+  display: block;
+  font-size: 15px;
+}
+
+#zuyini-chat-subtitle {
+  display: block;
+  font-size: 12px;
+  color: #9a9a9a;
+  margin-top: 2px;
+}
+
+#zuyini-chat-close {
+  background: none;
+  border: none;
+  color: #9a9a9a;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 2px;
+}
+
+#zuyini-chat-close:hover {
+  color: #ffc629;
+}
+
+#zuyini-chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.zuyini-chat-msg {
+  max-width: 92%;
+  font-size: 13px;
+  line-height: 1.45;
+  border-radius: 10px;
+  padding: 9px 12px;
+}
+
+.zuyini-chat-msg p {
+  margin: 0 0 6px;
+}
+
+.zuyini-chat-msg p:last-child {
+  margin-bottom: 0;
+}
+
+.zuyini-chat-msg-user {
+  align-self: flex-end;
+  background-color: #ffc629;
+  color: #151617;
+}
+
+.zuyini-chat-msg-bot {
+  align-self: flex-start;
+  background-color: #26272a;
+  color: #d7d7d7;
+}
+
+.zuyini-chat-results {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.zuyini-chat-result {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background-color: #1c1d1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 8px 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.zuyini-chat-result:hover {
+  border-color: #ffc629;
+}
+
+.zuyini-chat-result-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #ffc629;
+}
+
+.zuyini-chat-result-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.zuyini-chat-result-snippet {
+  font-size: 12px;
+  color: #9a9a9a;
+}
+
+.zuyini-chat-external {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #333;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.zuyini-chat-external-label {
+  color: #9a9a9a;
+  width: 100%;
+}
+
+.zuyini-chat-external a {
+  color: #ffc629;
+  text-decoration: none;
+}
+
+.zuyini-chat-external a:hover {
+  text-decoration: underline;
+}
+
+.zuyini-chat-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.zuyini-chat-chip {
+  background-color: #1c1d1e;
+  border: 1px solid #333;
+  color: #d7d7d7;
+  border-radius: 999px;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.zuyini-chat-chip:hover {
+  border-color: #ffc629;
+  color: #ffc629;
+}
+
+#zuyini-chat-form {
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  border-top: 1px solid #2a2a2a;
+  background-color: #1c1d1e;
+}
+
+#zuyini-chat-input {
+  flex: 1;
+  background-color: #26272a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 9px 12px;
+  font-size: 13px;
+  color: #f2f2f2;
+}
+
+#zuyini-chat-input:focus {
+  outline: none;
+  border-color: #ffc629;
+}
+
+#zuyini-chat-form button[type="submit"] {
+  background-color: #ffc629;
+  color: #151617;
+  border: none;
+  border-radius: 8px;
+  width: 38px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#zuyini-chat-form button[type="submit"]:hover {
+  background-color: #ffd25c;
+}
+
+@media (max-width: 420px) {
+  #zuyini-chat-panel {
+    right: 16px;
+    left: 16px;
+    width: auto;
+    bottom: 16px;
+  }
+  #zuyini-chat-root {
+    right: 16px;
+    bottom: 16px;
+  }
+}

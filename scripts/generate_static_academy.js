@@ -51,6 +51,7 @@ function pageShell(opts) {
   <meta property="og:image" content="https://zuyini.com/academy/og-image.png" />
   <meta property="og:url" content="${opts.canonical}" />
   <link rel="stylesheet" href="../../academy.css" />
+  <link rel="stylesheet" href="../../chat-widget.css" />
   <link rel="stylesheet" href="../../../gate.css" />
 </head>
 <body>
@@ -162,6 +163,7 @@ ${opts.detailHtml}
   <script src="../../data/data.js"></script>
   <script src="../../academy.js"></script>
   <script src="../../../gate.js"></script>
+  <script src="../../chat-widget.js"></script>
 </body>
 </html>
 `;
