@@ -103,16 +103,25 @@
   // ---- storage ----
   var STORAGE_KEY = 'zuyini_chat_widget_v1';
 
+  function defaultState() {
+    return { open: false, minimized: false, maximized: false, messages: [] };
+  }
+
   function loadState() {
     try {
       var raw = sessionStorage.getItem(STORAGE_KEY);
-      var state = raw ? JSON.parse(raw) : null;
-      if (!state || !Array.isArray(state.messages)) {
-        return { open: false, messages: [] };
+      var saved = raw ? JSON.parse(raw) : null;
+      if (!saved || !Array.isArray(saved.messages)) {
+        return defaultState();
       }
+      var state = defaultState();
+      state.open = !!saved.open;
+      state.minimized = !!saved.minimized;
+      state.maximized = !!saved.maximized;
+      state.messages = saved.messages;
       return state;
     } catch (e) {
-      return { open: false, messages: [] };
+      return defaultState();
     }
   }
 
@@ -137,7 +146,11 @@
     '<div id="zuyini-chat-panel" hidden>' +
     '<div id="zuyini-chat-header">' +
     '<div><strong>Zuyini Assistant</strong><span id="zuyini-chat-subtitle">Find roles, pathways, certificates &amp; courses</span></div>' +
+    '<div id="zuyini-chat-header-actions">' +
+    '<button type="button" id="zuyini-chat-minimize" aria-label="Minimize chat"></button>' +
+    '<button type="button" id="zuyini-chat-maximize" aria-label="Maximize chat"></button>' +
     '<button type="button" id="zuyini-chat-close" aria-label="Close chat">&times;</button>' +
+    '</div>' +
     '</div>' +
     '<div id="zuyini-chat-messages" role="log" aria-live="polite"></div>' +
     '<form id="zuyini-chat-form">' +
@@ -150,9 +163,28 @@
   var launcher = document.getElementById('zuyini-chat-launcher');
   var panel = document.getElementById('zuyini-chat-panel');
   var closeBtn = document.getElementById('zuyini-chat-close');
+  var minimizeBtn = document.getElementById('zuyini-chat-minimize');
+  var maximizeBtn = document.getElementById('zuyini-chat-maximize');
   var messagesEl = document.getElementById('zuyini-chat-messages');
   var form = document.getElementById('zuyini-chat-form');
   var input = document.getElementById('zuyini-chat-input');
+
+  var ICONS = {
+    minimize: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg>',
+    restoreFromMinimize: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>',
+    maximize: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" y1="3" x2="14" y2="10"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>',
+    restoreFromMaximize: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 14 10 14 10 20"></polyline><polyline points="20 10 14 10 14 4"></polyline><line x1="14" y1="10" x2="21" y2="3"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>',
+  };
+
+  function applyPanelChrome() {
+    panel.classList.toggle('zuyini-chat-minimized', state.minimized);
+    panel.classList.toggle('zuyini-chat-maximized', state.maximized);
+    minimizeBtn.innerHTML = state.minimized ? ICONS.restoreFromMinimize : ICONS.minimize;
+    minimizeBtn.setAttribute('aria-label', state.minimized ? 'Restore chat' : 'Minimize chat');
+    maximizeBtn.innerHTML = state.maximized ? ICONS.restoreFromMaximize : ICONS.maximize;
+    maximizeBtn.setAttribute('aria-label', state.maximized ? 'Restore chat size' : 'Maximize chat');
+  }
+  applyPanelChrome();
 
   function scrollToBottom() {
     messagesEl.scrollTop = messagesEl.scrollHeight;
@@ -246,9 +278,10 @@
     panel.hidden = false;
     launcher.setAttribute('aria-expanded', 'true');
     state.open = true;
+    applyPanelChrome();
     saveState(state);
     if (!state.messages.length) greet();
-    setTimeout(function () { input.focus(); }, 50);
+    if (!state.minimized) setTimeout(function () { input.focus(); }, 50);
   }
 
   function closePanel() {
@@ -258,10 +291,26 @@
     saveState(state);
   }
 
+  function toggleMinimize() {
+    state.minimized = !state.minimized;
+    applyPanelChrome();
+    saveState(state);
+    if (!state.minimized) setTimeout(function () { input.focus(); }, 50);
+  }
+
+  function toggleMaximize() {
+    if (state.minimized) state.minimized = false;
+    state.maximized = !state.maximized;
+    applyPanelChrome();
+    saveState(state);
+  }
+
   launcher.addEventListener('click', function () {
     if (panel.hidden) openPanel(); else closePanel();
   });
   closeBtn.addEventListener('click', closePanel);
+  minimizeBtn.addEventListener('click', toggleMinimize);
+  maximizeBtn.addEventListener('click', toggleMaximize);
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && !panel.hidden) closePanel();
   });

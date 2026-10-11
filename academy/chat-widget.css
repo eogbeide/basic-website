@@ -69,14 +69,58 @@
   margin-top: 2px;
 }
 
+#zuyini-chat-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  padding-top: 2px;
+}
+
+#zuyini-chat-minimize,
+#zuyini-chat-maximize,
 #zuyini-chat-close {
   background: none;
   border: none;
   color: #9a9a9a;
-  font-size: 20px;
   line-height: 1;
   cursor: pointer;
   padding: 0 2px;
+  display: flex;
+  align-items: center;
+}
+
+#zuyini-chat-close {
+  font-size: 20px;
+}
+
+#zuyini-chat-minimize:hover,
+#zuyini-chat-maximize:hover,
+#zuyini-chat-close:hover {
+  color: #ffc629;
+}
+
+/* Minimized: collapse to just the header bar. */
+#zuyini-chat-panel.zuyini-chat-minimized {
+  height: auto;
+}
+
+#zuyini-chat-panel.zuyini-chat-minimized #zuyini-chat-messages,
+#zuyini-chat-panel.zuyini-chat-minimized #zuyini-chat-form {
+  display: none;
+}
+
+/* Maximized: a much larger panel for easier reading. */
+#zuyini-chat-panel.zuyini-chat-maximized {
+  width: 480px;
+  height: 85vh;
+  max-height: 85vh;
+}
+
+@media (max-width: 560px) {
+  #zuyini-chat-panel.zuyini-chat-maximized {
+    width: calc(100vw - 32px);
+  }
 }
 
 #zuyini-chat-close:hover {
