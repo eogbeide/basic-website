@@ -10842,8 +10842,8 @@
   {
     "name": "AI Foundations to Agents",
     "category": "Curated AI Certificate",
-    "tagline": "Curated AI Certification CAI01",
-    "intro": "From first principles to building your own agents -- a complete, fully free path through modern AI.",
+    "tagline": "Curated Certification CAI01",
+    "intro": "A corrected, fully free-access version of the Top 10 AI course stack - from first principles to building agents.",
     "benchmark": "Curated source set: University of Helsinki + Google Skills + Microsoft + Harvard + fast.ai + MIT OpenCourseWare + Stanford + Hugging Face + IBM SkillsBuild -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -10854,7 +10854,7 @@
           {
             "title": "1. Elements of AI: Introduction to AI",
             "video": {
-              "title": "1. Elements of AI: Introduction to AI",
+              "title": "Elements of AI: Introduction to AI",
               "url": "https://www.elementsofai.com/",
               "channel": "University of Helsinki"
             },
@@ -10863,7 +10863,7 @@
           {
             "title": "2. Beginner: Introduction to Generative AI",
             "video": {
-              "title": "2. Beginner: Introduction to Generative AI",
+              "title": "Beginner: Introduction to Generative AI",
               "url": "https://www.skills.google/paths/118",
               "channel": "Google Skills"
             },
@@ -10872,16 +10872,16 @@
           {
             "title": "3. Introduction to Large Language Models",
             "video": {
-              "title": "3. Introduction to Large Language Models",
+              "title": "Introduction to Large Language Models",
               "url": "https://www.skills.google/course_templates/539",
               "channel": "Google Skills"
             },
             "note": "Free provider skill badge on completion"
           },
           {
-            "title": "4. AI for Beginners (12 weeks / 24 lessons)",
+            "title": "4. AI for Beginners - 12 weeks / 24 lessons",
             "video": {
-              "title": "4. AI for Beginners (12 weeks / 24 lessons)",
+              "title": "AI for Beginners - 12 weeks / 24 lessons",
               "url": "https://github.com/microsoft/AI-For-Beginners",
               "channel": "Microsoft"
             },
@@ -10890,8 +10890,8 @@
           {
             "title": "5. CS50's Introduction to AI with Python",
             "video": {
-              "title": "5. CS50's Introduction to AI with Python",
-              "url": "https://cs50.harvard.edu/ai/",
+              "title": "CS50's Introduction to AI with Python",
+              "url": "https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python",
               "channel": "Harvard"
             },
             "note": "Free to audit; provider certificate costs separately"
@@ -10899,26 +10899,26 @@
           {
             "title": "6. Practical Deep Learning for Coders",
             "video": {
-              "title": "6. Practical Deep Learning for Coders",
+              "title": "Practical Deep Learning for Coders",
               "url": "https://course.fast.ai/",
               "channel": "fast.ai"
             },
             "note": "Free, open course"
           },
           {
-            "title": "7. 6.S191: Introduction to Deep Learning",
+            "title": "7. 6.S191 Introduction to Deep Learning",
             "video": {
-              "title": "7. 6.S191: Introduction to Deep Learning",
-              "url": "https://introtodeeplearning.com/",
+              "title": "6.S191 Introduction to Deep Learning",
+              "url": "https://ocw.mit.edu/courses/6-s191-introduction-to-deep-learning-january-iap-2020/",
               "channel": "MIT OpenCourseWare"
             },
             "note": "Free, open course"
           },
           {
-            "title": "8. CS229: Machine Learning",
+            "title": "8. CS229 Machine Learning",
             "video": {
-              "title": "8. CS229: Machine Learning",
-              "url": "https://cs229.stanford.edu/",
+              "title": "CS229 Machine Learning",
+              "url": "https://see.stanford.edu/Course/CS229",
               "channel": "Stanford"
             },
             "note": "Free, open course"
@@ -10926,8 +10926,8 @@
           {
             "title": "9. AI Agents Course",
             "video": {
-              "title": "9. AI Agents Course",
-              "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+              "title": "AI Agents Course",
+              "url": "https://huggingface.co/learn/agents-course/en/unit0/introduction",
               "channel": "Hugging Face"
             },
             "note": "Free provider certificate on completion"
@@ -10935,8 +10935,8 @@
           {
             "title": "10. AI Fundamentals",
             "video": {
-              "title": "10. AI Fundamentals",
-              "url": "https://skillsbuild.org/learning-catalog",
+              "title": "AI Fundamentals",
+              "url": "https://skillsbuild.org/learn-with-ibm-bob?lnk=hptr4uk",
               "channel": "IBM SkillsBuild"
             },
             "note": "Free provider digital credential on completion"
@@ -10947,13 +10947,13 @@
     "practiceHeading": "Hands-On Mastery Capstone",
     "practiceBody": "Build a small AI agent for a real workflow. Include a model choice, prompt/context design, at least one tool, a simple evaluation set, error analysis, and a responsible-AI reflection.",
     "rubricHeading": "Proof Rubric",
-    "rubric": "Show a working agent, not a toy demo: a clear model and tool choice; deliberate prompt and context design; at least one real tool integration; an evaluation set you actually ran; documented error analysis; a responsible-AI reflection on what could go wrong."
+    "rubric": "repository / notebook / artifact; evaluation evidence; short technical or executive readout; reflection."
   },
   {
     "name": "Generative AI & Prompt Engineering",
     "category": "Curated AI Certificate",
-    "tagline": "Curated AI Certification CAI02",
-    "intro": "Use generative AI effectively and turn prompting into a repeatable, reliable workflow.",
+    "tagline": "Curated Certification CAI02",
+    "intro": "Use generative AI effectively, design stronger prompts, and turn prompting into repeatable application workflows.",
     "benchmark": "Curated source set: Google Skills + Microsoft Learn + Anthropic Claude Academy + IBM SkillsBuild + DeepLearning.AI + OpenAI + AWS -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -10964,7 +10964,7 @@
           {
             "title": "1. Gen AI: Beyond the Chatbot",
             "video": {
-              "title": "1. Gen AI: Beyond the Chatbot",
+              "title": "Gen AI: Beyond the Chatbot",
               "url": "https://www.skills.google/course_templates/1268",
               "channel": "Google Skills"
             },
@@ -10973,7 +10973,7 @@
           {
             "title": "2. Gen AI: Unlock Foundational Concepts",
             "video": {
-              "title": "2. Gen AI: Unlock Foundational Concepts",
+              "title": "Gen AI: Unlock Foundational Concepts",
               "url": "https://www.skills.google/paths/1951/course_templates/1265",
               "channel": "Google Skills"
             },
@@ -10982,7 +10982,7 @@
           {
             "title": "3. Prompt Design in Agent Platform",
             "video": {
-              "title": "3. Prompt Design in Agent Platform",
+              "title": "Prompt Design in Agent Platform",
               "url": "https://www.skills.google/course_templates/976",
               "channel": "Google Skills"
             },
@@ -10991,7 +10991,7 @@
           {
             "title": "4. Build foundational generative AI skills",
             "video": {
-              "title": "4. Build foundational generative AI skills",
+              "title": "Build foundational generative AI skills",
               "url": "https://learn.microsoft.com/en-us/training/paths/explore-microsoft-365-copilot-business-chat/",
               "channel": "Microsoft Learn"
             },
@@ -11000,7 +11000,7 @@
           {
             "title": "5. Claude 101",
             "video": {
-              "title": "5. Claude 101",
+              "title": "Claude 101",
               "url": "https://academy.claude.com/courses/claude-101",
               "channel": "Anthropic Claude Academy"
             },
@@ -11009,7 +11009,7 @@
           {
             "title": "6. Getting Started with Generative AI",
             "video": {
-              "title": "6. Getting Started with Generative AI",
+              "title": "Getting Started with Generative AI",
               "url": "https://skillsbuild.org/learning-catalog",
               "channel": "IBM SkillsBuild"
             },
@@ -11018,7 +11018,7 @@
           {
             "title": "7. ChatGPT Prompt Engineering for Developers",
             "video": {
-              "title": "7. ChatGPT Prompt Engineering for Developers",
+              "title": "ChatGPT Prompt Engineering for Developers",
               "url": "https://www.deeplearning.ai/courses/chatgpt-prompt-eng",
               "channel": "DeepLearning.AI + OpenAI"
             },
@@ -11027,8 +11027,8 @@
           {
             "title": "8. Building Systems with the ChatGPT API",
             "video": {
-              "title": "8. Building Systems with the ChatGPT API",
-              "url": "https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/",
+              "title": "Building Systems with the ChatGPT API",
+              "url": "https://www.deeplearning.ai/courses/chatgpt-building-system",
               "channel": "DeepLearning.AI + OpenAI"
             },
             "note": "Currently free access -- re-check before enrolling"
@@ -11036,8 +11036,8 @@
           {
             "title": "9. Generative AI Foundations on AWS",
             "video": {
-              "title": "9. Generative AI Foundations on AWS",
-              "url": "https://www.youtube.com/playlist?list=PLhr1KZpdzukf-xb0lmiU3G89GJXaDbAIF",
+              "title": "Generative AI Foundations on AWS",
+              "url": "https://aws.amazon.com/blogs/machine-learning/new-technical-deep-dive-course-generative-ai-foundations-on-aws/",
               "channel": "AWS"
             },
             "note": "Free, open course"
@@ -11048,12 +11048,12 @@
     "practiceHeading": "Hands-On Mastery Capstone",
     "practiceBody": "Create a reusable prompt-and-workflow library for one business or technical domain. Add a test set, compare at least three prompting strategies, document failure modes, and ship one small application or automation.",
     "rubricHeading": "Proof Rubric",
-    "rubric": "Show a reusable system, not a one-off prompt: a documented prompt library for a real domain; a test set you used to compare strategies; at least three prompting approaches evaluated side by side; documented failure modes; one shipped application or automation."
+    "rubric": "repository / notebook / artifact; evaluation evidence; short technical or executive readout; reflection."
   },
   {
     "name": "Machine Learning & Deep Learning Engineering",
     "category": "Curated AI Certificate",
-    "tagline": "Curated AI Certification CAI03",
+    "tagline": "Curated Certification CAI03",
     "intro": "A rigorous build path across classical ML, neural networks, computer vision, NLP and practical model training.",
     "benchmark": "Curated source set: Google for Developers + Stanford + MIT OpenCourseWare + fast.ai + Andrej Karpathy + University of Helsinki -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
@@ -11065,26 +11065,26 @@
           {
             "title": "1. Machine Learning Crash Course",
             "video": {
-              "title": "1. Machine Learning Crash Course",
+              "title": "Machine Learning Crash Course",
               "url": "https://developers.google.com/machine-learning/crash-course",
               "channel": "Google for Developers"
             },
             "note": "Free, open course"
           },
           {
-            "title": "2. CS229: Machine Learning",
+            "title": "2. CS229 Machine Learning",
             "video": {
-              "title": "2. CS229: Machine Learning",
-              "url": "https://cs229.stanford.edu/",
+              "title": "CS229 Machine Learning",
+              "url": "https://see.stanford.edu/Course/CS229",
               "channel": "Stanford"
             },
             "note": "Free, open course"
           },
           {
-            "title": "3. 6.S191: Introduction to Deep Learning",
+            "title": "3. 6.S191 Introduction to Deep Learning",
             "video": {
-              "title": "3. 6.S191: Introduction to Deep Learning",
-              "url": "https://introtodeeplearning.com/",
+              "title": "6.S191 Introduction to Deep Learning",
+              "url": "https://ocw.mit.edu/courses/6-s191-introduction-to-deep-learning-january-iap-2020/",
               "channel": "MIT OpenCourseWare"
             },
             "note": "Free, open course"
@@ -11092,7 +11092,7 @@
           {
             "title": "4. Practical Deep Learning for Coders",
             "video": {
-              "title": "4. Practical Deep Learning for Coders",
+              "title": "Practical Deep Learning for Coders",
               "url": "https://course.fast.ai/",
               "channel": "fast.ai"
             },
@@ -11101,25 +11101,25 @@
           {
             "title": "5. Neural Networks: Zero to Hero",
             "video": {
-              "title": "5. Neural Networks: Zero to Hero",
-              "url": "https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ",
+              "title": "Neural Networks: Zero to Hero",
+              "url": "https://karpathy.ai/zero-to-hero.html",
               "channel": "Andrej Karpathy"
             },
             "note": "Free, open course"
           },
           {
-            "title": "6. CS231n: Convolutional Neural Networks for Visual Recognition",
+            "title": "6. CS231n: Deep Learning for Computer Vision",
             "video": {
-              "title": "6. CS231n: Convolutional Neural Networks for Visual Recognition",
+              "title": "CS231n: Deep Learning for Computer Vision",
               "url": "https://cs231n.stanford.edu/",
               "channel": "Stanford"
             },
             "note": "Free, open course"
           },
           {
-            "title": "7. CS224N: Natural Language Processing with Deep Learning",
+            "title": "7. CS224N: NLP with Deep Learning",
             "video": {
-              "title": "7. CS224N: Natural Language Processing with Deep Learning",
+              "title": "CS224N: NLP with Deep Learning",
               "url": "https://web.stanford.edu/class/cs224n/",
               "channel": "Stanford"
             },
@@ -11128,8 +11128,8 @@
           {
             "title": "8. Elements of AI: Building AI",
             "video": {
-              "title": "8. Elements of AI: Building AI",
-              "url": "https://buildingai.elementsofai.com/",
+              "title": "Elements of AI: Building AI",
+              "url": "https://www.helsinki.fi/en/admissions-and-education/open-university/multidisciplinary-themed-modules/artificial-intelligence-collection",
               "channel": "University of Helsinki"
             },
             "note": "Free, open course"
@@ -11140,14 +11140,14 @@
     "practiceHeading": "Hands-On Mastery Capstone",
     "practiceBody": "Train and compare two models on one real dataset. Show baseline, data checks, training curves, error taxonomy, bias/variance reasoning, model-selection tradeoffs, and a reproducible inference demo.",
     "rubricHeading": "Proof Rubric",
-    "rubric": "Show modeling judgment, not just a notebook that runs: a real baseline; visible data-quality checks; training curves you can read; an error taxonomy, not just an accuracy number; bias/variance reasoning behind your choices; a clear model-selection tradeoff; a reproducible inference demo."
+    "rubric": "repository / notebook / artifact; evaluation evidence; short technical or executive readout; reflection."
   },
   {
     "name": "LLM & NLP Engineering",
     "category": "Curated AI Certificate",
-    "tagline": "Curated AI Certification CAI04",
+    "tagline": "Curated Certification CAI04",
     "intro": "Understand transformers and language models from tokens and attention through fine-tuning, evaluation and serving.",
-    "benchmark": "Curated source set: Hugging Face + Stanford + Google + Andrej Karpathy + DeepLearning.AI + Google Cloud -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "benchmark": "Curated source set: Hugging Face + Stanford + Google for Developers + Andrej Karpathy + DeepLearning.AI + Google + DeepLearning.AI + DeepLearning.AI + Google Cloud -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
       {
@@ -11157,16 +11157,16 @@
           {
             "title": "1. LLM Course",
             "video": {
-              "title": "1. LLM Course",
-              "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+              "title": "LLM Course",
+              "url": "https://huggingface.co/learn/llm-course/en/chapter1/1",
               "channel": "Hugging Face"
             },
             "note": "Free, open course"
           },
           {
-            "title": "2. CS224N: Natural Language Processing with Deep Learning",
+            "title": "2. CS224N: NLP with Deep Learning",
             "video": {
-              "title": "2. CS224N: Natural Language Processing with Deep Learning",
+              "title": "CS224N: NLP with Deep Learning",
               "url": "https://web.stanford.edu/class/cs224n/",
               "channel": "Stanford"
             },
@@ -11175,17 +11175,17 @@
           {
             "title": "3. Introduction to Large Language Models",
             "video": {
-              "title": "3. Introduction to Large Language Models",
-              "url": "https://www.skills.google/course_templates/539",
-              "channel": "Google Skills"
+              "title": "Introduction to Large Language Models",
+              "url": "https://developers.google.com/machine-learning/crash-course/llm",
+              "channel": "Google for Developers"
             },
             "note": "Free, open course"
           },
           {
             "title": "4. Neural Networks: Zero to Hero",
             "video": {
-              "title": "4. Neural Networks: Zero to Hero",
-              "url": "https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ",
+              "title": "Neural Networks: Zero to Hero",
+              "url": "https://karpathy.ai/zero-to-hero.html",
               "channel": "Andrej Karpathy"
             },
             "note": "Free, open course"
@@ -11193,7 +11193,7 @@
           {
             "title": "5. Build and Train an LLM with JAX",
             "video": {
-              "title": "5. Build and Train an LLM with JAX",
+              "title": "Build and Train an LLM with JAX",
               "url": "https://www.deeplearning.ai/courses/build-and-train-an-llm-with-jax",
               "channel": "DeepLearning.AI + Google"
             },
@@ -11202,7 +11202,7 @@
           {
             "title": "6. Finetuning Large Language Models",
             "video": {
-              "title": "6. Finetuning Large Language Models",
+              "title": "Finetuning Large Language Models",
               "url": "https://www.deeplearning.ai/courses/finetuning-large-language-models",
               "channel": "DeepLearning.AI"
             },
@@ -11211,7 +11211,7 @@
           {
             "title": "7. LLMOps",
             "video": {
-              "title": "7. LLMOps",
+              "title": "LLMOps",
               "url": "https://www.deeplearning.ai/courses/llmops",
               "channel": "DeepLearning.AI + Google Cloud"
             },
@@ -11223,14 +11223,14 @@
     "practiceHeading": "Hands-On Mastery Capstone",
     "practiceBody": "Build a compact language-model workflow: inspect tokenization and attention, adapt or fine-tune a model, evaluate quality on a defined task, document latency/cost tradeoffs, and publish a model card.",
     "rubricHeading": "Proof Rubric",
-    "rubric": "Show you understand the model, not just call an API: tokenization and attention inspected directly; a model adapted or fine-tuned for a real task; quality evaluated against that task; latency and cost tradeoffs documented; a model card published for the result."
+    "rubric": "repository / notebook / artifact; evaluation evidence; short technical or executive readout; reflection."
   },
   {
     "name": "RAG, Search & Knowledge Systems",
     "category": "Curated AI Certificate",
-    "tagline": "Curated AI Certification CAI05",
+    "tagline": "Curated Certification CAI05",
     "intro": "Ground LLMs in trusted data using embeddings, vector search, knowledge graphs, GraphRAG and retrieval evaluation.",
-    "benchmark": "Curated source set: Neo4j GraphAcademy + DeepLearning.AI + LlamaIndex + Chroma + Weaviate -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "benchmark": "Curated source set: Neo4j GraphAcademy + DeepLearning.AI + LlamaIndex + DeepLearning.AI + Chroma + DeepLearning.AI + Weaviate + DeepLearning.AI + Neo4j -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
       {
@@ -11238,9 +11238,9 @@
         "heading": "Core Course Stack",
         "items": [
           {
-            "title": "1. Neo4j & Generative AI Fundamentals",
+            "title": "1. Neo4j & GenerativeAI Fundamentals",
             "video": {
-              "title": "1. Neo4j & Generative AI Fundamentals",
+              "title": "Neo4j & GenerativeAI Fundamentals",
               "url": "https://graphacademy.neo4j.com/courses/genai-fundamentals",
               "channel": "Neo4j GraphAcademy"
             },
@@ -11249,8 +11249,8 @@
           {
             "title": "2. Introduction to Vector Indexes & Unstructured Data",
             "video": {
-              "title": "2. Introduction to Vector Indexes & Unstructured Data",
-              "url": "https://graphacademy.neo4j.com/courses/llm-vectors-unstructured/",
+              "title": "Introduction to Vector Indexes & Unstructured Data",
+              "url": "https://graphacademy.neo4j.com/courses/llm-vectors-unstructured",
               "channel": "Neo4j GraphAcademy"
             },
             "note": "Free, open course"
@@ -11258,7 +11258,7 @@
           {
             "title": "3. Neo4j and Generative AI Workshop",
             "video": {
-              "title": "3. Neo4j and Generative AI Workshop",
+              "title": "Neo4j and Generative AI Workshop",
               "url": "https://graphacademy.neo4j.com/courses/workshop-genai",
               "channel": "Neo4j GraphAcademy"
             },
@@ -11267,8 +11267,8 @@
           {
             "title": "4. Neo4j & Generative AI Certification",
             "video": {
-              "title": "4. Neo4j & Generative AI Certification",
-              "url": "https://graphacademy.neo4j.com/certifications/genai-certification/",
+              "title": "Neo4j & Generative AI Certification",
+              "url": "https://graphacademy.neo4j.com/certifications/genai-certification",
               "channel": "Neo4j GraphAcademy"
             },
             "note": "Free provider certificate on completion"
@@ -11276,7 +11276,7 @@
           {
             "title": "5. Building Agentic RAG with LlamaIndex",
             "video": {
-              "title": "5. Building Agentic RAG with LlamaIndex",
+              "title": "Building Agentic RAG with LlamaIndex",
               "url": "https://www.deeplearning.ai/courses/building-agentic-rag-with-llamaindex",
               "channel": "DeepLearning.AI + LlamaIndex"
             },
@@ -11285,7 +11285,7 @@
           {
             "title": "6. Advanced Retrieval for AI with Chroma",
             "video": {
-              "title": "6. Advanced Retrieval for AI with Chroma",
+              "title": "Advanced Retrieval for AI with Chroma",
               "url": "https://www.deeplearning.ai/courses/advanced-retrieval-for-ai",
               "channel": "DeepLearning.AI + Chroma"
             },
@@ -11294,7 +11294,7 @@
           {
             "title": "7. Vector Databases: from Embeddings to Applications",
             "video": {
-              "title": "7. Vector Databases: from Embeddings to Applications",
+              "title": "Vector Databases: from Embeddings to Applications",
               "url": "https://www.deeplearning.ai/courses/vector-databases-embeddings-applications",
               "channel": "DeepLearning.AI + Weaviate"
             },
@@ -11303,7 +11303,7 @@
           {
             "title": "8. Knowledge Graphs for RAG",
             "video": {
-              "title": "8. Knowledge Graphs for RAG",
+              "title": "Knowledge Graphs for RAG",
               "url": "https://www.deeplearning.ai/courses/knowledge-graphs-rag",
               "channel": "DeepLearning.AI + Neo4j"
             },
@@ -11315,14 +11315,14 @@
     "practiceHeading": "Hands-On Mastery Capstone",
     "practiceBody": "Build and compare vector RAG and GraphRAG over the same corpus. Measure retrieval quality, grounded-answer quality, latency and failure modes; include at least one hybrid or graph-enhanced retrieval strategy.",
     "rubricHeading": "Proof Rubric",
-    "rubric": "Show retrieval evidence, not a single pipeline that happens to work: vector RAG and GraphRAG compared on the same corpus; retrieval quality actually measured; grounded-answer quality checked, not assumed; latency and failure modes documented; at least one hybrid or graph-enhanced strategy attempted."
+    "rubric": "repository / notebook / artifact; evaluation evidence; short technical or executive readout; reflection."
   },
   {
     "name": "AI Agent Engineering",
     "category": "Curated AI Certificate",
-    "tagline": "Curated AI Certification CAI06",
+    "tagline": "Curated Certification CAI06",
     "intro": "Progress from agent fundamentals to tools, MCP, multi-agent coordination, evaluation and production-ready workflows.",
-    "benchmark": "Curated source set: Hugging Face + Google Skills + Microsoft Learn + DeepLearning.AI + crewAI + LangChain + Anthropic -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "benchmark": "Curated source set: Hugging Face + Google Skills + Microsoft Learn + DeepLearning.AI + crewAI + DeepLearning.AI + LangChain + DeepLearning.AI + Anthropic -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
       {
@@ -11332,8 +11332,8 @@
           {
             "title": "1. AI Agents Course",
             "video": {
-              "title": "1. AI Agents Course",
-              "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+              "title": "AI Agents Course",
+              "url": "https://huggingface.co/learn/agents-course/en/unit0/introduction",
               "channel": "Hugging Face"
             },
             "note": "Free provider certificate on completion"
@@ -11341,7 +11341,7 @@
           {
             "title": "2. Agent Fundamentals",
             "video": {
-              "title": "2. Agent Fundamentals",
+              "title": "Agent Fundamentals",
               "url": "https://www.skills.google/paths/3546/course_templates/1562",
               "channel": "Google Skills"
             },
@@ -11350,8 +11350,8 @@
           {
             "title": "3. Introduction to building AI agents",
             "video": {
-              "title": "3. Introduction to building AI agents",
-              "url": "https://learn.microsoft.com/en-us/training/courses/ms-4014",
+              "title": "Introduction to building AI agents",
+              "url": "https://learn.microsoft.com/en-us/training/paths/build-foundation-extend-microsoft-365-copilot/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -11359,7 +11359,7 @@
           {
             "title": "4. Develop AI agents on Azure",
             "video": {
-              "title": "4. Develop AI agents on Azure",
+              "title": "Develop AI agents on Azure",
               "url": "https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure/",
               "channel": "Microsoft Learn"
             },
@@ -11368,7 +11368,7 @@
           {
             "title": "5. Multi AI Agent Systems with crewAI",
             "video": {
-              "title": "5. Multi AI Agent Systems with crewAI",
+              "title": "Multi AI Agent Systems with crewAI",
               "url": "https://www.deeplearning.ai/courses/multi-ai-agent-systems-with-crewai",
               "channel": "DeepLearning.AI + crewAI"
             },
@@ -11377,7 +11377,7 @@
           {
             "title": "6. Functions, Tools and Agents with LangChain",
             "video": {
-              "title": "6. Functions, Tools and Agents with LangChain",
+              "title": "Functions, Tools and Agents with LangChain",
               "url": "https://www.deeplearning.ai/courses/functions-tools-agents-langchain",
               "channel": "DeepLearning.AI + LangChain"
             },
@@ -11386,7 +11386,7 @@
           {
             "title": "7. Agent Skills with Anthropic",
             "video": {
-              "title": "7. Agent Skills with Anthropic",
+              "title": "Agent Skills with Anthropic",
               "url": "https://www.deeplearning.ai/courses/agent-skills-with-anthropic",
               "channel": "DeepLearning.AI + Anthropic"
             },
@@ -11395,7 +11395,7 @@
           {
             "title": "8. MCP: Build Rich-Context AI Apps with Anthropic",
             "video": {
-              "title": "8. MCP: Build Rich-Context AI Apps with Anthropic",
+              "title": "MCP: Build Rich-Context AI Apps with Anthropic",
               "url": "https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic",
               "channel": "DeepLearning.AI + Anthropic"
             },
@@ -11407,14 +11407,14 @@
     "practiceHeading": "Hands-On Mastery Capstone",
     "practiceBody": "Ship a tool-using agent with explicit instructions, memory/context, at least one MCP or API integration, guardrails, traces and an evaluation set. Include a runbook and failure-recovery strategy.",
     "rubricHeading": "Proof Rubric",
-    "rubric": "Show a production-minded agent, not a demo script: explicit instructions and context design; at least one real MCP or API integration; guardrails against bad actions; traces you can actually debug from; an evaluation set; a runbook covering failure recovery."
+    "rubric": "repository / notebook / artifact; evaluation evidence; short technical or executive readout; reflection."
   },
   {
     "name": "AI Evaluation, Safety & Responsible AI",
     "category": "Curated AI Certificate",
-    "tagline": "Curated AI Certification CAI07",
+    "tagline": "Curated Certification CAI07",
     "intro": "Make AI systems measurable, trustworthy and safer through evaluation, red teaming, guardrails, fairness and governance.",
-    "benchmark": "Curated source set: Google Skills + Microsoft Learn + DeepLearning.AI + Arize AI + Giskard + Guardrails AI + AMD + Meta -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "benchmark": "Curated source set: Google Skills + Microsoft Learn + DeepLearning.AI + Arize AI + DeepLearning.AI + Giskard + DeepLearning.AI + GuardrailsAI + DeepLearning.AI + AMD/Meta -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
       {
@@ -11424,7 +11424,7 @@
           {
             "title": "1. Introduction to Responsible AI",
             "video": {
-              "title": "1. Introduction to Responsible AI",
+              "title": "Introduction to Responsible AI",
               "url": "https://www.skills.google/course_templates/554",
               "channel": "Google Skills"
             },
@@ -11433,26 +11433,26 @@
           {
             "title": "2. Responsible AI for Developers: Fairness & Bias",
             "video": {
-              "title": "2. Responsible AI for Developers: Fairness & Bias",
+              "title": "Responsible AI for Developers: Fairness & Bias",
               "url": "https://www.skills.google/course_templates/985",
               "channel": "Google Skills"
             },
             "note": "Free provider skill badge on completion"
           },
           {
-            "title": "3. GitHub Responsible AI",
+            "title": "3. GitHub responsible AI",
             "video": {
-              "title": "3. GitHub Responsible AI",
+              "title": "GitHub responsible AI",
               "url": "https://learn.microsoft.com/en-us/training/paths/github-responsible-ai/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
           },
           {
-            "title": "4. Operationalize AI Responsibly with Azure AI Foundry",
+            "title": "4. Operationalize AI responsibly with Azure AI Foundry",
             "video": {
-              "title": "4. Operationalize AI Responsibly with Azure AI Foundry",
-              "url": "https://learn.microsoft.com/en-us/training/paths/operationalize-ai-responsibly",
+              "title": "Operationalize AI responsibly with Azure AI Foundry",
+              "url": "https://learn.microsoft.com/en-us/training/paths/operationalize-ai-responsibly/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -11460,7 +11460,7 @@
           {
             "title": "5. Evaluating AI Agents",
             "video": {
-              "title": "5. Evaluating AI Agents",
+              "title": "Evaluating AI Agents",
               "url": "https://www.deeplearning.ai/courses/evaluating-ai-agents",
               "channel": "DeepLearning.AI + Arize AI"
             },
@@ -11469,7 +11469,7 @@
           {
             "title": "6. Red Teaming LLM Applications",
             "video": {
-              "title": "6. Red Teaming LLM Applications",
+              "title": "Red Teaming LLM Applications",
               "url": "https://www.deeplearning.ai/courses/red-teaming-llm-applications",
               "channel": "DeepLearning.AI + Giskard"
             },
@@ -11478,17 +11478,17 @@
           {
             "title": "7. Safe and Reliable AI via Guardrails",
             "video": {
-              "title": "7. Safe and Reliable AI via Guardrails",
+              "title": "Safe and Reliable AI via Guardrails",
               "url": "https://www.deeplearning.ai/courses/safe-and-reliable-ai-via-guardrails",
-              "channel": "DeepLearning.AI + Guardrails AI"
+              "channel": "DeepLearning.AI + GuardrailsAI"
             },
             "note": "Currently free access -- re-check before enrolling"
           },
           {
             "title": "8. Improving Accuracy of LLM Applications",
             "video": {
-              "title": "8. Improving Accuracy of LLM Applications",
-              "url": "https://www.deeplearning.ai/short-courses/improving-accuracy-of-llm-applications/",
+              "title": "Improving Accuracy of LLM Applications",
+              "url": "https://www.deeplearning.ai/courses/improving-accuracy-of-llm-applications",
               "channel": "DeepLearning.AI + AMD/Meta"
             },
             "note": "Currently free access -- re-check before enrolling"
@@ -11499,13 +11499,13 @@
     "practiceHeading": "Hands-On Mastery Capstone",
     "practiceBody": "Threat-model and evaluate one LLM/agent application. Build quality and safety evals, run a red-team exercise, add guardrails, test fairness or harmful-output scenarios, and produce a residual-risk report.",
     "rubricHeading": "Proof Rubric",
-    "rubric": "Show a real safety review, not a checklist: a threat model for a specific application; quality and safety evals you ran, not assumed; an actual red-team exercise; guardrails added in response to what you found; fairness or harmful-output scenarios tested; a residual-risk report that's honest about what's still unresolved."
+    "rubric": "repository / notebook / artifact; evaluation evidence; short technical or executive readout; reflection."
   },
   {
     "name": "AI Strategy, Product & Leadership",
     "category": "Curated AI Certificate",
-    "tagline": "Curated AI Certification CAI08",
-    "intro": "Identify high-value AI use cases, build adoption strategy, evaluate economics and lead responsible transformation.",
+    "tagline": "Curated Certification CAI08",
+    "intro": "Learn to identify high-value AI use cases, build adoption strategy, evaluate economics and lead responsible transformation.",
     "benchmark": "Curated source set: Google Cloud + Google Skills + Microsoft Learn + AWS + IBM SkillsBuild + University of Helsinki -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -11516,7 +11516,7 @@
           {
             "title": "1. Generative AI Leader Learning Path",
             "video": {
-              "title": "1. Generative AI Leader Learning Path",
+              "title": "Generative AI Leader Learning Path",
               "url": "https://www.skills.google/paths/1951",
               "channel": "Google Cloud"
             },
@@ -11525,16 +11525,16 @@
           {
             "title": "2. Gen AI: Beyond the Chatbot",
             "video": {
-              "title": "2. Gen AI: Beyond the Chatbot",
+              "title": "Gen AI: Beyond the Chatbot",
               "url": "https://www.skills.google/course_templates/1268",
               "channel": "Google Skills"
             },
             "note": "Free provider skill badge on completion"
           },
           {
-            "title": "3. Explore the Business Value of Generative AI Solutions",
+            "title": "3. Explore the business value of generative AI solutions",
             "video": {
-              "title": "3. Explore the Business Value of Generative AI Solutions",
+              "title": "Explore the business value of generative AI solutions",
               "url": "https://learn.microsoft.com/en-us/training/paths/explore-business-value-generative-ai-solutions/",
               "channel": "Microsoft Learn"
             },
@@ -11543,8 +11543,8 @@
           {
             "title": "4. Generative AI Learning Plan for Decision Makers",
             "video": {
-              "title": "4. Generative AI Learning Plan for Decision Makers",
-              "url": "https://explore.skillbuilder.aws/learn/learning_plan/view/1909/generative-ai-learning-plan-for-decision-makers",
+              "title": "Generative AI Learning Plan for Decision Makers",
+              "url": "https://aws.amazon.com/blogs/training-and-certification/unlock-the-power-of-generative-ai-with-aws-training-and-certification/",
               "channel": "AWS"
             },
             "note": "Free, open course"
@@ -11552,8 +11552,8 @@
           {
             "title": "5. Generative AI for Executives",
             "video": {
-              "title": "5. Generative AI for Executives",
-              "url": "https://explore.skillbuilder.aws/learn/course/16666/generative-ai-for-executives",
+              "title": "Generative AI for Executives",
+              "url": "https://aws.amazon.com/ai/learn/organizational-leader/",
               "channel": "AWS"
             },
             "note": "Free, open course"
@@ -11561,17 +11561,17 @@
           {
             "title": "6. AI Fundamentals",
             "video": {
-              "title": "6. AI Fundamentals",
-              "url": "https://skillsbuild.org/learning-catalog",
+              "title": "AI Fundamentals",
+              "url": "https://skillsbuild.org/learn-with-ibm-bob?lnk=hptr4uk",
               "channel": "IBM SkillsBuild"
             },
             "note": "Free provider digital credential on completion"
           },
           {
-            "title": "7. AI in Society",
+            "title": "7. AI in Society / Artificial Intelligence Collection",
             "video": {
-              "title": "7. AI in Society",
-              "url": "https://ai-in-society.mooc.fi/",
+              "title": "AI in Society / Artificial Intelligence Collection",
+              "url": "https://www.helsinki.fi/en/admissions-and-education/open-university/multidisciplinary-themed-modules/artificial-intelligence-collection",
               "channel": "University of Helsinki"
             },
             "note": "Free, open course"
@@ -11582,14 +11582,14 @@
     "practiceHeading": "Hands-On Mastery Capstone",
     "practiceBody": "Create an executive AI opportunity portfolio: prioritize use cases, define user/business outcomes, estimate value and cost, map risks and governance, choose build/buy/partner, and present a 90-day adoption roadmap.",
     "rubricHeading": "Proof Rubric",
-    "rubric": "Show executive-ready judgment, not a feature wishlist: use cases prioritized against real criteria; clear user and business outcomes; value and cost estimated, not guessed; risks and governance mapped; an honest build/buy/partner call; a 90-day roadmap you could actually present."
+    "rubric": "repository / notebook / artifact; evaluation evidence; short technical or executive readout; reflection."
   },
   {
     "name": "AI Coding & Developer Productivity",
     "category": "Curated AI Certificate",
-    "tagline": "Curated AI Certification CAI09",
-    "intro": "Use AI coding assistants deliberately -- prompt, refactor, test, document and delegate tasks to agents without losing engineering rigor.",
-    "benchmark": "Curated source set: Microsoft Learn + GitHub + DeepLearning.AI + JetBrains + Anthropic -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
+    "tagline": "Curated Certification CAI09",
+    "intro": "Use AI coding assistants deliberately: prompt, refactor, test, document, delegate tasks to agents and keep engineering rigor.",
+    "benchmark": "Curated source set: Microsoft Learn / GitHub + DeepLearning.AI + Google + DeepLearning.AI + JetBrains + DeepLearning.AI + Anthropic -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
       {
@@ -11597,27 +11597,27 @@
         "heading": "Core Course Stack",
         "items": [
           {
-            "title": "1. GitHub Copilot Fundamentals (Part 1 of 2)",
+            "title": "1. GitHub Copilot Fundamentals Part 1 of 2",
             "video": {
-              "title": "1. GitHub Copilot Fundamentals (Part 1 of 2)",
+              "title": "GitHub Copilot Fundamentals Part 1 of 2",
               "url": "https://learn.microsoft.com/en-us/training/paths/copilot/",
               "channel": "Microsoft Learn / GitHub"
             },
             "note": "Free, open course"
           },
           {
-            "title": "2. GitHub Copilot Fundamentals (Part 2 of 2)",
+            "title": "2. GitHub Copilot Fundamentals Part 2 of 2",
             "video": {
-              "title": "2. GitHub Copilot Fundamentals (Part 2 of 2)",
+              "title": "GitHub Copilot Fundamentals Part 2 of 2",
               "url": "https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/",
               "channel": "Microsoft Learn / GitHub"
             },
             "note": "Free, open course"
           },
           {
-            "title": "3. Get Started with GitHub Copilot",
+            "title": "3. Get started with GitHub Copilot",
             "video": {
-              "title": "3. Get Started with GitHub Copilot",
+              "title": "Get started with GitHub Copilot",
               "url": "https://learn.microsoft.com/en-us/training/modules/get-started-github-copilot/",
               "channel": "Microsoft Learn / GitHub"
             },
@@ -11626,7 +11626,7 @@
           {
             "title": "4. Pair Programming with a Large Language Model",
             "video": {
-              "title": "4. Pair Programming with a Large Language Model",
+              "title": "Pair Programming with a Large Language Model",
               "url": "https://www.deeplearning.ai/courses/pair-programming-llm",
               "channel": "DeepLearning.AI + Google"
             },
@@ -11635,7 +11635,7 @@
           {
             "title": "5. Spec-Driven Development with Coding Agents",
             "video": {
-              "title": "5. Spec-Driven Development with Coding Agents",
+              "title": "Spec-Driven Development with Coding Agents",
               "url": "https://www.deeplearning.ai/courses/spec-driven-development-with-coding-agents",
               "channel": "DeepLearning.AI + JetBrains"
             },
@@ -11644,7 +11644,7 @@
           {
             "title": "6. Agent Skills with Anthropic",
             "video": {
-              "title": "6. Agent Skills with Anthropic",
+              "title": "Agent Skills with Anthropic",
               "url": "https://www.deeplearning.ai/courses/agent-skills-with-anthropic",
               "channel": "DeepLearning.AI + Anthropic"
             },
@@ -11656,7 +11656,7 @@
     "practiceHeading": "Hands-On Mastery Capstone",
     "practiceBody": "Build or modernize a small application using an AI-assisted workflow. Require a written spec, tests, code review, documentation, before/after productivity evidence, and a retrospective on where AI helped or introduced risk.",
     "rubricHeading": "Proof Rubric",
-    "rubric": "Show disciplined AI-assisted engineering, not vibe coding: a written spec before you started; tests that actually run; a real code review; documentation a teammate could use; before/after productivity evidence; an honest retrospective on where AI helped and where it introduced risk."
+    "rubric": "repository / notebook / artifact; evaluation evidence; short technical or executive readout; reflection."
   },
   {
     "name": "Data Analytics Foundations",
@@ -11674,7 +11674,7 @@
             "title": "1. IBM Data Fundamentals",
             "video": {
               "title": "IBM Data Fundamentals",
-              "url": "https://skillsbuild.org/college-students/course-catalog/data-fundamentals",
+              "url": "https://skillsbuild.org/learning-catalog",
               "channel": "IBM SkillsBuild"
             },
             "note": "Free provider digital credential on completion"
@@ -11746,7 +11746,7 @@
             "title": "9. Build Your Data Literacy",
             "video": {
               "title": "Build Your Data Literacy",
-              "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-data-literacy",
+              "url": "https://trailhead.salesforce.com/content/learn/trails/tableau-see-understand-and-act-on-data",
               "channel": "Tableau / Salesforce Trailhead"
             },
             "note": "Free provider skill badge on completion"
@@ -11811,7 +11811,7 @@
             "title": "5. Query Optimization",
             "video": {
               "title": "Query Optimization",
-              "url": "https://learn.mongodb.com/courses/query-optimization",
+              "url": "https://learn.mongodb.com/skills",
               "channel": "MongoDB University"
             },
             "note": "Free provider digital credential on completion"
@@ -11820,7 +11820,7 @@
             "title": "6. Indexing Design Fundamentals",
             "video": {
               "title": "Indexing Design Fundamentals",
-              "url": "https://learn.mongodb.com/courses/indexing-design-fundamentals",
+              "url": "https://learn.mongodb.com/skills",
               "channel": "MongoDB University"
             },
             "note": "Free provider digital credential on completion"
@@ -11829,7 +11829,7 @@
             "title": "7. Relational to Document Model",
             "video": {
               "title": "Relational to Document Model",
-              "url": "https://learn.mongodb.com/courses/relational-to-document-model",
+              "url": "https://learn.mongodb.com/skills",
               "channel": "MongoDB University"
             },
             "note": "Free provider digital credential on completion"
@@ -11838,7 +11838,7 @@
             "title": "8. Hands-On Essentials: Data Warehousing",
             "video": {
               "title": "Hands-On Essentials: Data Warehousing",
-              "url": "https://learn.snowflake.com/en/courses/uni-essdww101/",
+              "url": "https://www.snowflake.com/en/resources/learn/snowflake-essentials-training/",
               "channel": "Snowflake University"
             },
             "note": "Free provider skill badge on completion"
@@ -11867,7 +11867,7 @@
             "title": "1. Tableau: See, Understand, and Act on Data",
             "video": {
               "title": "Tableau: See, Understand, and Act on Data",
-              "url": "https://trailhead.salesforce.com/",
+              "url": "https://trailhead.salesforce.com/content/learn/trails/tableau-see-understand-and-act-on-data",
               "channel": "Salesforce Trailhead"
             },
             "note": "Free provider skill badges on completion"
@@ -11876,7 +11876,7 @@
             "title": "2. Tableau: Data Visualization and Storytelling",
             "video": {
               "title": "Tableau: Data Visualization and Storytelling",
-              "url": "https://trailhead.salesforce.com/",
+              "url": "https://trailhead.salesforce.com/content/learn/trails/tableau-data-visualization-and-storytelling",
               "channel": "Salesforce Trailhead"
             },
             "note": "Free provider skill badges on completion"
@@ -11912,7 +11912,7 @@
             "title": "6. Tableau Prep + Data Modeling Badges",
             "video": {
               "title": "Tableau Prep + Data Modeling Badges",
-              "url": "https://trailhead.salesforce.com/",
+              "url": "https://trailhead.salesforce.com/content/learn/trails/tableau-see-understand-and-act-on-data",
               "channel": "Salesforce Trailhead"
             },
             "note": "Free provider skill badges on completion"
@@ -11921,7 +11921,7 @@
             "title": "7. Detailed Data Analysis in Tableau",
             "video": {
               "title": "Detailed Data Analysis in Tableau",
-              "url": "https://trailhead.salesforce.com/",
+              "url": "https://trailhead.salesforce.com/content/learn/trails/tableau-data-visualization-and-storytelling",
               "channel": "Salesforce Trailhead"
             },
             "note": "Free provider skill badge on completion"
@@ -11930,7 +11930,7 @@
             "title": "8. Data Presentation in Tableau",
             "video": {
               "title": "Data Presentation in Tableau",
-              "url": "https://trailhead.salesforce.com/",
+              "url": "https://trailhead.salesforce.com/content/learn/trails/tableau-data-visualization-and-storytelling",
               "channel": "Salesforce Trailhead"
             },
             "note": "Free provider skill badge on completion"
@@ -11959,7 +11959,7 @@
             "title": "1. Training for Data Engineers",
             "video": {
               "title": "Training for Data Engineers",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/career-paths/data-engineer",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -11968,7 +11968,7 @@
             "title": "2. Ingest Data with Microsoft Fabric",
             "video": {
               "title": "Ingest Data with Microsoft Fabric",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/ingest-data-with-microsoft-fabric/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -11977,7 +11977,7 @@
             "title": "3. Design & Transform Analytics Data in Fabric",
             "video": {
               "title": "Design & Transform Analytics Data in Fabric",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/design-transform-analytics-data/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -11986,7 +11986,7 @@
             "title": "4. dbt Fundamentals",
             "video": {
               "title": "dbt Fundamentals",
-              "url": "https://learn.getdbt.com/courses/dbt-fundamentals",
+              "url": "https://www.getdbt.com/dbt-learn",
               "channel": "dbt Labs"
             },
             "note": "Free, open course"
@@ -11995,7 +11995,7 @@
             "title": "5. Hands-On Essentials: Data Engineering",
             "video": {
               "title": "Hands-On Essentials: Data Engineering",
-              "url": "https://learn.snowflake.com/en/courses/uni-ess-dngw/",
+              "url": "https://www.snowflake.com/en/resources/learn/snowflake-essentials-training/",
               "channel": "Snowflake University"
             },
             "note": "Free provider skill badge on completion"
@@ -12004,7 +12004,7 @@
             "title": "6. Free Databricks Training",
             "video": {
               "title": "Free Databricks Training",
-              "url": "https://www.databricks.com/learn/training/home",
+              "url": "https://docs.databricks.com/aws/en/getting-started/free-training",
               "channel": "Databricks Academy"
             },
             "note": "Free, open course"
@@ -12022,7 +12022,7 @@
             "title": "8. Apache Flink 101 / Flink SQL",
             "video": {
               "title": "Apache Flink 101 / Flink SQL",
-              "url": "https://developer.confluent.io/courses/apache-flink/intro/",
+              "url": "https://developer.confluent.io/courses/",
               "channel": "Confluent Developer"
             },
             "note": "Free, open course"
@@ -12051,7 +12051,7 @@
             "title": "1. dbt Fundamentals",
             "video": {
               "title": "dbt Fundamentals",
-              "url": "https://learn.getdbt.com/courses/dbt-fundamentals",
+              "url": "https://www.getdbt.com/dbt-learn",
               "channel": "dbt Labs"
             },
             "note": "Free, open course"
@@ -12060,7 +12060,7 @@
             "title": "2. Hands-On Essentials: Data Warehousing",
             "video": {
               "title": "Hands-On Essentials: Data Warehousing",
-              "url": "https://learn.snowflake.com/en/courses/uni-essdww101/",
+              "url": "https://www.snowflake.com/en/resources/learn/snowflake-essentials-training/",
               "channel": "Snowflake University"
             },
             "note": "Free provider skill badge on completion"
@@ -12069,7 +12069,7 @@
             "title": "3. Databricks Fundamentals Accreditation",
             "video": {
               "title": "Databricks Fundamentals Accreditation",
-              "url": "https://www.databricks.com/learn/training/home",
+              "url": "https://customer-academy.databricks.com/learn/courses/2308/databricks-fundamentals-accreditation",
               "channel": "Databricks Academy"
             },
             "note": "Free provider digital credential on completion"
@@ -12078,7 +12078,7 @@
             "title": "4. Design & Transform Analytics Data in Fabric",
             "video": {
               "title": "Design & Transform Analytics Data in Fabric",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/design-transform-analytics-data/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -12105,7 +12105,7 @@
             "title": "7. Metadata Management in Tableau",
             "video": {
               "title": "Metadata Management in Tableau",
-              "url": "https://trailhead.salesforce.com/",
+              "url": "https://trailhead.salesforce.com/content/learn/trails/tableau-see-understand-and-act-on-data",
               "channel": "Salesforce Trailhead"
             },
             "note": "Free provider skill badge on completion"
@@ -12134,7 +12134,7 @@
             "title": "1. Hands-On Essentials Workshops",
             "video": {
               "title": "Hands-On Essentials Workshops",
-              "url": "https://learn.snowflake.com/en/pages/hands-on-essentials-track/",
+              "url": "https://www.snowflake.com/en/resources/learn/snowflake-essentials-training/",
               "channel": "Snowflake University"
             },
             "note": "Free provider skill badges on completion"
@@ -12143,7 +12143,7 @@
             "title": "2. Databricks Fundamentals Accreditation",
             "video": {
               "title": "Databricks Fundamentals Accreditation",
-              "url": "https://www.databricks.com/learn/training/home",
+              "url": "https://customer-academy.databricks.com/learn/courses/2308/databricks-fundamentals-accreditation",
               "channel": "Databricks Academy"
             },
             "note": "Free provider digital credential on completion"
@@ -12161,7 +12161,7 @@
             "title": "4. Implement a Data Warehouse with Microsoft Fabric",
             "video": {
               "title": "Implement a Data Warehouse with Microsoft Fabric",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-gb/training/paths/work-with-data-warehouses-using-microsoft-fabric/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -12170,7 +12170,7 @@
             "title": "5. Free Databricks Training",
             "video": {
               "title": "Free Databricks Training",
-              "url": "https://www.databricks.com/learn/training/home",
+              "url": "https://docs.databricks.com/aws/en/getting-started/free-training",
               "channel": "Databricks Academy"
             },
             "note": "Free, open course"
@@ -12179,7 +12179,7 @@
             "title": "6. MongoDB Overview",
             "video": {
               "title": "MongoDB Overview",
-              "url": "https://learn.mongodb.com/courses/mongodb-overview",
+              "url": "https://learn.mongodb.com/skills",
               "channel": "MongoDB University"
             },
             "note": "Free provider digital credential on completion"
@@ -12197,7 +12197,7 @@
             "title": "8. Get Started with Microsoft Fabric",
             "video": {
               "title": "Get Started with Microsoft Fabric",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/fabric/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -12318,7 +12318,7 @@
             "title": "1. Microsoft Purview Learning",
             "video": {
               "title": "Microsoft Purview Learning",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/purview/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -12327,7 +12327,7 @@
             "title": "2. Describe Data Governance Solutions of Purview",
             "video": {
               "title": "Describe Data Governance Solutions of Purview",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/modules/describe-purview-data-governance/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -12336,7 +12336,7 @@
             "title": "3. Data Literacy + Metadata Management",
             "video": {
               "title": "Data Literacy + Metadata Management",
-              "url": "https://trailhead.salesforce.com/",
+              "url": "https://trailhead.salesforce.com/content/learn/trails/tableau-see-understand-and-act-on-data",
               "channel": "Tableau / Salesforce Trailhead"
             },
             "note": "Free provider skill badges on completion"
@@ -12345,7 +12345,7 @@
             "title": "4. Databricks Fundamentals Accreditation",
             "video": {
               "title": "Databricks Fundamentals Accreditation",
-              "url": "https://www.databricks.com/learn/training/home",
+              "url": "https://customer-academy.databricks.com/learn/courses/2308/databricks-fundamentals-accreditation",
               "channel": "Databricks Academy"
             },
             "note": "Free provider digital credential on completion"
@@ -12354,7 +12354,7 @@
             "title": "5. Hands-On Essentials Workshops",
             "video": {
               "title": "Hands-On Essentials Workshops",
-              "url": "https://learn.snowflake.com/en/pages/hands-on-essentials-track/",
+              "url": "https://www.snowflake.com/en/resources/learn/snowflake-essentials-training/",
               "channel": "Snowflake University"
             },
             "note": "Free provider skill badges on completion"
@@ -12363,7 +12363,7 @@
             "title": "6. MongoDB Security & Data Modeling Skills",
             "video": {
               "title": "MongoDB Security & Data Modeling Skills",
-              "url": "https://learn.mongodb.com/",
+              "url": "https://learn.mongodb.com/skills",
               "channel": "MongoDB University"
             },
             "note": "Free provider digital credential on completion"
@@ -12401,7 +12401,7 @@
             "title": "1. Vector Search Fundamentals",
             "video": {
               "title": "Vector Search Fundamentals",
-              "url": "https://learn.mongodb.com/",
+              "url": "https://learn.mongodb.com/learning-paths/mongodb-genai-developer?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
               "channel": "MongoDB University"
             },
             "note": "Free provider digital credential on completion"
@@ -12410,7 +12410,7 @@
             "title": "2. RAG with MongoDB",
             "video": {
               "title": "RAG with MongoDB",
-              "url": "https://learn.mongodb.com/courses/rag-with-mongodb",
+              "url": "https://learn.mongodb.com/learning-paths/mongodb-genai-developer?sessionFields=%5B%5B%22format%22%2C%22Free%22%5D%5D",
               "channel": "MongoDB University"
             },
             "note": "Free provider digital credential on completion"
@@ -12419,7 +12419,7 @@
             "title": "3. AI Data Strategy with MongoDB",
             "video": {
               "title": "AI Data Strategy with MongoDB",
-              "url": "https://learn.mongodb.com/courses/ai-data-strategy-with-mongodb",
+              "url": "https://learn.mongodb.com/learn/course/ai-data-strategy-with-mongodb-on-demand-marketing-webxp/ai-data-strategy-with-mongodb/conclusion-1",
               "channel": "MongoDB University"
             },
             "note": "Free provider digital credential on completion"
@@ -12446,7 +12446,7 @@
             "title": "6. Get Started with Fabric IQ",
             "video": {
               "title": "Get Started with Fabric IQ",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/get-started-fabric-iq/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -12455,7 +12455,7 @@
             "title": "7. Databricks Fundamentals Accreditation",
             "video": {
               "title": "Databricks Fundamentals Accreditation",
-              "url": "https://www.databricks.com/learn/training/home",
+              "url": "https://customer-academy.databricks.com/learn/courses/2308/databricks-fundamentals-accreditation",
               "channel": "Databricks Academy"
             },
             "note": "Free provider digital credential on completion"
@@ -12511,7 +12511,7 @@
             "title": "3. Getting Started with Cybersecurity",
             "video": {
               "title": "Getting Started with Cybersecurity",
-              "url": "https://skillsbuild.org/college-students/digital-credentials/getting-started-with-cybersecurity",
+              "url": "https://skillsbuild.org/learning-catalog/university-catalog",
               "channel": "IBM SkillsBuild"
             },
             "note": "Free provider digital credential on completion"
@@ -12529,7 +12529,7 @@
             "title": "5. Cybersecurity and Cloud Fundamentals",
             "video": {
               "title": "Cybersecurity and Cloud Fundamentals",
-              "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_cybersecurity-and-cloud-fundamentals",
+              "url": "https://training.fortinet.com/local/library/?category=Certification%3ANSE_1",
               "channel": "Fortinet Training Institute"
             },
             "note": "Free, open course"
@@ -12547,7 +12547,7 @@
             "title": "7. Network Defense",
             "video": {
               "title": "Network Defense",
-              "url": "https://www.netacad.com/courses/network-defense",
+              "url": "https://www.netacad.com/trainings/network-defense?courseLang=en-US",
               "channel": "Cisco Networking Academy"
             },
             "note": "Free provider skill badge on completion"
@@ -12574,7 +12574,7 @@
             "title": "10. WebGoat Guided Security Lessons",
             "video": {
               "title": "WebGoat Guided Security Lessons",
-              "url": "https://owasp.org/www-project-webgoat/",
+              "url": "https://vwad.owasp.org/app/webgoat/",
               "channel": "OWASP"
             },
             "note": "Free, open course"
@@ -12603,7 +12603,7 @@
             "title": "1. Network Defense",
             "video": {
               "title": "Network Defense",
-              "url": "https://www.netacad.com/courses/network-defense",
+              "url": "https://www.netacad.com/trainings/network-defense?courseLang=en-US",
               "channel": "Cisco Networking Academy"
             },
             "note": "Free provider skill badge on completion"
@@ -12621,7 +12621,7 @@
             "title": "3. Getting Started with Cisco Packet Tracer",
             "video": {
               "title": "Getting Started with Cisco Packet Tracer",
-              "url": "https://www.netacad.com/courses/getting-started-cisco-packet-tracer",
+              "url": "https://www.netacad.com/courses/getting-started-cisco-packet-tracer/1000",
               "channel": "Cisco Networking Academy"
             },
             "note": "Free provider skill badge on completion"
@@ -12630,7 +12630,7 @@
             "title": "4. Zero Trust Guidance + Learning Path",
             "video": {
               "title": "Zero Trust Guidance + Learning Path",
-              "url": "https://learn.microsoft.com/en-us/training/paths/zero-trust-principles/",
+              "url": "https://learn.microsoft.com/en-us/security/zero-trust/",
               "channel": "Microsoft"
             },
             "note": "Free, open course"
@@ -12648,7 +12648,7 @@
             "title": "6. Authentication & Authorization with AWS IAM",
             "video": {
               "title": "Authentication & Authorization with AWS IAM",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/learn-about/security/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free, open course"
@@ -12657,7 +12657,7 @@
             "title": "7. Secure Networking Self-Paced Training",
             "video": {
               "title": "Secure Networking Self-Paced Training",
-              "url": "https://training.fortinet.com/",
+              "url": "https://training.fortinet.com/local/library/?category=Certification%3ANSE_5+-+Secure+Networking",
               "channel": "Fortinet Training Institute"
             },
             "note": "Free, open course"
@@ -12666,7 +12666,7 @@
             "title": "8. FortiClient / ZTNA Self-Paced Training",
             "video": {
               "title": "FortiClient / ZTNA Self-Paced Training",
-              "url": "https://training.fortinet.com/",
+              "url": "https://training.fortinet.com/local/library/?category=Exam%3ANSE_7_SASE",
               "channel": "Fortinet Training Institute"
             },
             "note": "Free, open course"
@@ -12722,24 +12722,24 @@
             "title": "4. Authentication & Authorization with AWS IAM",
             "video": {
               "title": "Authentication & Authorization with AWS IAM",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/learn-about/security/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free, open course"
           },
           {
-            "title": "5. Network Defense",
+            "title": "5. Network Defense - Access Control & Firewalls",
             "video": {
-              "title": "Network Defense",
-              "url": "https://www.netacad.com/courses/network-defense",
+              "title": "Network Defense - Access Control & Firewalls",
+              "url": "https://www.netacad.com/trainings/network-defense?courseLang=en-US",
               "channel": "Cisco Networking Academy"
             },
             "note": "Free provider skill badge on completion"
           },
           {
-            "title": "6. Endpoint Security",
+            "title": "6. Endpoint Security - Accounts & Host Protection",
             "video": {
-              "title": "Endpoint Security",
+              "title": "Endpoint Security - Accounts & Host Protection",
               "url": "https://www.netacad.com/courses/endpoint-security",
               "channel": "Cisco Networking Academy"
             },
@@ -12749,7 +12749,7 @@
             "title": "7. FortiClient / ZTNA Self-Paced Training",
             "video": {
               "title": "FortiClient / ZTNA Self-Paced Training",
-              "url": "https://training.fortinet.com/",
+              "url": "https://training.fortinet.com/local/library/?category=Exam%3ANSE_7_SASE",
               "channel": "Fortinet Training Institute"
             },
             "note": "Free, open course"
@@ -12787,7 +12787,7 @@
             "title": "2. WebGoat Guided Security Lessons",
             "video": {
               "title": "WebGoat Guided Security Lessons",
-              "url": "https://owasp.org/www-project-webgoat/",
+              "url": "https://vwad.owasp.org/app/webgoat/",
               "channel": "OWASP"
             },
             "note": "Free, open course"
@@ -12796,7 +12796,7 @@
             "title": "3. OWASP Juice Shop",
             "video": {
               "title": "OWASP Juice Shop",
-              "url": "https://owasp.org/www-project-juice-shop/",
+              "url": "https://owasp.org/projects/juice-shop",
               "channel": "OWASP"
             },
             "note": "Free, open course"
@@ -12805,7 +12805,7 @@
             "title": "4. Threat Modeling Security Fundamentals",
             "video": {
               "title": "Threat Modeling Security Fundamentals",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/tm-threat-modeling-fundamentals/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -12814,7 +12814,7 @@
             "title": "5. Introduction to Secure DevOps",
             "video": {
               "title": "Introduction to Secure DevOps",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -12832,7 +12832,7 @@
             "title": "7. Secure Repository Supply Chain + CodeQL + Secrets",
             "video": {
               "title": "Secure Repository Supply Chain + CodeQL + Secrets",
-              "url": "https://github.com/skills/secure-repository-supply-chain",
+              "url": "https://skills.github.com/",
               "channel": "GitHub Skills"
             },
             "note": "Free, open course"
@@ -12870,7 +12870,7 @@
             "title": "1. Ethical Hacker",
             "video": {
               "title": "Ethical Hacker",
-              "url": "https://www.netacad.com/courses/ethical-hacker",
+              "url": "https://www.netacad.com/courses/ethical-hacker?courseLang=en-US",
               "channel": "Cisco Networking Academy"
             },
             "note": "Free provider skill badge on completion"
@@ -12888,7 +12888,7 @@
             "title": "3. OWASP Juice Shop Challenges",
             "video": {
               "title": "OWASP Juice Shop Challenges",
-              "url": "https://owasp.org/www-project-juice-shop/",
+              "url": "https://owasp.org/projects/juice-shop",
               "channel": "OWASP"
             },
             "note": "Free, open course"
@@ -12897,7 +12897,7 @@
             "title": "4. WebGoat Guided Exploitation Lessons",
             "video": {
               "title": "WebGoat Guided Exploitation Lessons",
-              "url": "https://owasp.org/www-project-webgoat/",
+              "url": "https://vwad.owasp.org/app/webgoat/",
               "channel": "OWASP"
             },
             "note": "Free, open course"
@@ -12906,7 +12906,7 @@
             "title": "5. Secure Code Game",
             "video": {
               "title": "Secure Code Game",
-              "url": "https://github.com/skills/secure-code-game",
+              "url": "https://skills.github.com/",
               "channel": "GitHub Skills"
             },
             "note": "Free, open course"
@@ -12915,7 +12915,7 @@
             "title": "6. Threat Modeling Security Fundamentals",
             "video": {
               "title": "Threat Modeling Security Fundamentals",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/tm-threat-modeling-fundamentals/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -12959,10 +12959,10 @@
             "note": "Free, open course"
           },
           {
-            "title": "2. Network Defense",
+            "title": "2. Network Defense - Security Data & Alerts",
             "video": {
-              "title": "Network Defense",
-              "url": "https://www.netacad.com/courses/network-defense",
+              "title": "Network Defense - Security Data & Alerts",
+              "url": "https://www.netacad.com/trainings/network-defense?courseLang=en-US",
               "channel": "Cisco Networking Academy"
             },
             "note": "Free provider skill badge on completion"
@@ -12971,7 +12971,7 @@
             "title": "3. Getting Started with Threat Intelligence & Hunting",
             "video": {
               "title": "Getting Started with Threat Intelligence & Hunting",
-              "url": "https://skillsbuild.org/learning-catalog",
+              "url": "https://skillsbuild.org/learning-catalog/university-catalog",
               "channel": "IBM SkillsBuild"
             },
             "note": "Free, open course"
@@ -12980,7 +12980,7 @@
             "title": "4. Security Operations Center in Practice",
             "video": {
               "title": "Security Operations Center in Practice",
-              "url": "https://skillsbuild.org/college-students/course-catalog/security-operations-center-in-practice",
+              "url": "https://skillsbuild.org/learning-catalog/university-catalog",
               "channel": "IBM SkillsBuild"
             },
             "note": "Free, open course"
@@ -12989,7 +12989,7 @@
             "title": "5. Microsoft Sentinel / Security Operations Learning",
             "video": {
               "title": "Microsoft Sentinel / Security Operations Learning",
-              "url": "https://learn.microsoft.com/en-us/training/courses/sc-200t00",
+              "url": "https://learn.microsoft.com/en-us/security/zero-trust/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -12998,7 +12998,7 @@
             "title": "6. AWS Security Learning Plan",
             "video": {
               "title": "AWS Security Learning Plan",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/learn-about/security/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free, open course"
@@ -13007,7 +13007,7 @@
             "title": "7. Security Operations Self-Paced Training",
             "video": {
               "title": "Security Operations Self-Paced Training",
-              "url": "https://training.fortinet.com/",
+              "url": "https://training.fortinet.com/local/library/?category=Certification%3AProfessional+-+Security+Operations",
               "channel": "Fortinet Training Institute"
             },
             "note": "Free, open course"
@@ -13054,7 +13054,7 @@
             "title": "2. AWS SimuLearn: Security Learning Plan",
             "video": {
               "title": "AWS SimuLearn: Security Learning Plan",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/learn-about/security/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free, open course"
@@ -13063,7 +13063,7 @@
             "title": "3. Authentication & Authorization with AWS IAM",
             "video": {
               "title": "Authentication & Authorization with AWS IAM",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/learn-about/security/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free, open course"
@@ -13072,7 +13072,7 @@
             "title": "4. Microsoft Cloud Security Foundations",
             "video": {
               "title": "Microsoft Cloud Security Foundations",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/describe-concepts-of-security-compliance-identity/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -13081,7 +13081,7 @@
             "title": "5. Design Security Solutions for Applications & Data",
             "video": {
               "title": "Design Security Solutions for Applications & Data",
-              "url": "https://learn.microsoft.com/en-us/training/paths/sc-100-design-security-solutions-applications-data/",
+              "url": "https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-applications/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -13090,7 +13090,7 @@
             "title": "6. FortiCNAPP / Cloud Security Self-Paced Training",
             "video": {
               "title": "FortiCNAPP / Cloud Security Self-Paced Training",
-              "url": "https://training.fortinet.com/",
+              "url": "https://training.fortinet.com/local/library/?category=Certification%3ANSE_6+-+Cloud+Security",
               "channel": "Fortinet Training Institute"
             },
             "note": "Free, open course"
@@ -13099,7 +13099,7 @@
             "title": "7. Public Cloud Security Architect Self-Paced",
             "video": {
               "title": "Public Cloud Security Architect Self-Paced",
-              "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_public-cloud-security-architect",
+              "url": "https://training.fortinet.com/local/library/?category=Certification%3ANSE_6+-+Cloud+Security",
               "channel": "Fortinet Training Institute"
             },
             "note": "Free, open course"
@@ -13108,7 +13108,7 @@
             "title": "8. Network Defense - Firewalls & Cloud Security",
             "video": {
               "title": "Network Defense - Firewalls & Cloud Security",
-              "url": "https://www.netacad.com/courses/network-defense",
+              "url": "https://www.netacad.com/trainings/network-defense?courseLang=en-US",
               "channel": "Cisco Networking Academy"
             },
             "note": "Free provider skill badge on completion"
@@ -13137,7 +13137,7 @@
             "title": "1. AI Security Fundamentals",
             "video": {
               "title": "AI Security Fundamentals",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/ai-security-fundamentals/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -13173,7 +13173,7 @@
             "title": "5. OWASP GenAI / AI Security Projects",
             "video": {
               "title": "OWASP GenAI / AI Security Projects",
-              "url": "https://genai.owasp.org/",
+              "url": "https://owasp.org/projects",
               "channel": "OWASP"
             },
             "note": "Free, open course"
@@ -13182,7 +13182,7 @@
             "title": "6. Threat Modeling Security Fundamentals",
             "video": {
               "title": "Threat Modeling Security Fundamentals",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/tm-threat-modeling-fundamentals/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -13191,7 +13191,7 @@
             "title": "7. Secure DevOps + CodeQL",
             "video": {
               "title": "Secure DevOps + CodeQL",
-              "url": "https://github.com/skills/introduction-to-codeql",
+              "url": "https://learn.microsoft.com/en-us/training/modules/introduction-to-secure-devops/",
               "channel": "Microsoft Learn / GitHub"
             },
             "note": "Free, open course"
@@ -13229,7 +13229,7 @@
             "title": "2. SC-900 Learning Paths",
             "video": {
               "title": "SC-900 Learning Paths",
-              "url": "https://learn.microsoft.com/en-us/training/courses/sc-900t00",
+              "url": "https://learn.microsoft.com/en-us/training/paths/describe-concepts-of-security-compliance-identity/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -13238,7 +13238,7 @@
             "title": "3. Cyber Threat Management / Risk Topics",
             "video": {
               "title": "Cyber Threat Management / Risk Topics",
-              "url": "https://www.netacad.com/courses/cyber-threat-management",
+              "url": "https://www.netacad.com/trainings/network-defense?courseLang=en-US",
               "channel": "Cisco Networking Academy"
             },
             "note": "Free provider skill badge on completion"
@@ -13247,7 +13247,7 @@
             "title": "4. Getting Started with Cybersecurity",
             "video": {
               "title": "Getting Started with Cybersecurity",
-              "url": "https://skillsbuild.org/college-students/digital-credentials/getting-started-with-cybersecurity",
+              "url": "https://skillsbuild.org/learning-catalog/university-catalog",
               "channel": "IBM SkillsBuild"
             },
             "note": "Free provider digital credential on completion"
@@ -13256,7 +13256,7 @@
             "title": "5. Threat Intelligence & Hunting",
             "video": {
               "title": "Threat Intelligence & Hunting",
-              "url": "https://skillsbuild.org/learning-catalog",
+              "url": "https://skillsbuild.org/learning-catalog/university-catalog",
               "channel": "IBM SkillsBuild"
             },
             "note": "Free, open course"
@@ -13274,7 +13274,7 @@
             "title": "7. Cybersecurity & Cloud Fundamentals",
             "video": {
               "title": "Cybersecurity & Cloud Fundamentals",
-              "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_cybersecurity-and-cloud-fundamentals",
+              "url": "https://training.fortinet.com/local/library/?category=Certification%3ANSE_1",
               "channel": "Fortinet Training Institute"
             },
             "note": "Free, open course"
@@ -13283,7 +13283,7 @@
             "title": "8. Threat Modeling Security Fundamentals",
             "video": {
               "title": "Threat Modeling Security Fundamentals",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/tm-threat-modeling-fundamentals/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -13321,7 +13321,7 @@
             "title": "2. CS50P: Programming with Python",
             "video": {
               "title": "CS50P: Programming with Python",
-              "url": "https://pll.harvard.edu/course/cs50s-introduction-programming-python",
+              "url": "https://cs50.harvard.edu/python/",
               "channel": "Harvard / CS50"
             },
             "note": "Free provider certificate on completion"
@@ -13339,7 +13339,7 @@
             "title": "4. Introduction to GitHub + collaborative workflows",
             "video": {
               "title": "Introduction to GitHub + collaborative workflows",
-              "url": "https://github.com/skills/introduction-to-github",
+              "url": "https://skills.github.com/",
               "channel": "GitHub Skills"
             },
             "note": "Free, open course"
@@ -13440,7 +13440,7 @@
             "title": "5. Responsive Web Design Certification",
             "video": {
               "title": "Responsive Web Design Certification",
-              "url": "https://www.freecodecamp.org/learn/responsive-web-design-v9",
+              "url": "https://www.freecodecamp.org/learn/",
               "channel": "freeCodeCamp"
             },
             "note": "Free provider certificate on completion"
@@ -13449,7 +13449,7 @@
             "title": "6. JavaScript Certification",
             "video": {
               "title": "JavaScript Certification",
-              "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+              "url": "https://www.freecodecamp.org/learn/",
               "channel": "freeCodeCamp"
             },
             "note": "Free provider certificate on completion"
@@ -13467,7 +13467,7 @@
             "title": "8. The Odin Project - Foundations / JavaScript",
             "video": {
               "title": "The Odin Project - Foundations / JavaScript",
-              "url": "https://www.theodinproject.com/paths/foundations/courses/foundations",
+              "url": "https://www.theodinproject.com/paths",
               "channel": "The Odin Project"
             },
             "note": "Free, open course"
@@ -13523,7 +13523,7 @@
             "title": "4. Building a RESTful Web Service",
             "video": {
               "title": "Building a RESTful Web Service",
-              "url": "https://spring.io/guides/gs/rest-service/",
+              "url": "https://spring.io/guides/gs/rest-service",
               "channel": "Spring"
             },
             "note": "Free, open course"
@@ -13532,7 +13532,7 @@
             "title": "5. Create a Minimal API with ASP.NET Core",
             "video": {
               "title": "Create a Minimal API with ASP.NET Core",
-              "url": "https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api",
+              "url": "https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-10.0",
               "channel": "Microsoft"
             },
             "note": "Free, open course"
@@ -13559,7 +13559,7 @@
             "title": "8. GitHub Skills - CI / repository workflows",
             "video": {
               "title": "GitHub Skills - CI / repository workflows",
-              "url": "https://github.com/skills/test-with-actions",
+              "url": "https://skills.github.com/",
               "channel": "GitHub Skills"
             },
             "note": "Free, open course"
@@ -13606,7 +13606,7 @@
             "title": "3. Full Stack JavaScript Path",
             "video": {
               "title": "Full Stack JavaScript Path",
-              "url": "https://www.theodinproject.com/paths/full-stack-javascript",
+              "url": "https://www.theodinproject.com/paths",
               "channel": "The Odin Project"
             },
             "note": "Free, open course"
@@ -13651,7 +13651,7 @@
             "title": "8. GitHub Skills - collaboration and automation",
             "video": {
               "title": "GitHub Skills - collaboration and automation",
-              "url": "https://github.com/skills",
+              "url": "https://skills.github.com/",
               "channel": "GitHub Skills"
             },
             "note": "Free, open course"
@@ -13698,7 +13698,7 @@
             "title": "3. Jetpack Compose for Android Developers",
             "video": {
               "title": "Jetpack Compose for Android Developers",
-              "url": "https://developer.android.com/courses/android-basics-compose/course",
+              "url": "https://developer.android.com/courses/pathways/jetpack-compose-for-android-developers-1",
               "channel": "Google / Android"
             },
             "note": "Free, open course"
@@ -13707,7 +13707,7 @@
             "title": "4. Write Your First Flutter App",
             "video": {
               "title": "Write Your First Flutter App",
-              "url": "https://codelabs.developers.google.com/codelabs/flutter-codelab-first",
+              "url": "https://docs.flutter.dev/get-started/codelab",
               "channel": "Google / Flutter"
             },
             "note": "Free, open course"
@@ -13716,7 +13716,7 @@
             "title": "5. Develop in Swift Tutorials",
             "video": {
               "title": "Develop in Swift Tutorials",
-              "url": "https://developer.apple.com/tutorials/develop-in-swift/",
+              "url": "https://developer.apple.com/tutorials/develop-in-swift",
               "channel": "Apple"
             },
             "note": "Free, open course"
@@ -13725,7 +13725,7 @@
             "title": "6. App Dev Training - SwiftUI / UIKit",
             "video": {
               "title": "App Dev Training - SwiftUI / UIKit",
-              "url": "https://developer.apple.com/tutorials/develop-in-swift/",
+              "url": "https://developer.apple.com/tutorials/app-dev-training",
               "channel": "Apple"
             },
             "note": "Free, open course"
@@ -13734,7 +13734,7 @@
             "title": "7. React Native - Getting Started",
             "video": {
               "title": "React Native - Getting Started",
-              "url": "https://reactnative.dev/docs/environment-setup",
+              "url": "https://reactnative.dev/docs/getting-started",
               "channel": "Meta / React Native"
             },
             "note": "Free, open course"
@@ -13835,7 +13835,7 @@
             "title": "8. Automate workflows with GitHub Actions",
             "video": {
               "title": "Automate workflows with GitHub Actions",
-              "url": "https://learn.microsoft.com/en-us/training/modules/github-actions-automate-tasks/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/github-actions/",
               "channel": "Microsoft Learn / GitHub"
             },
             "note": "Free, open course"
@@ -13956,7 +13956,7 @@
             "title": "1. 6.005 Elements of Software Construction",
             "video": {
               "title": "6.005 Elements of Software Construction",
-              "url": "https://ocw.mit.edu/courses/6-005-software-construction-spring-2016/",
+              "url": "https://ocw.mit.edu/courses/6-005-elements-of-software-construction-fall-2008/",
               "channel": "MIT OpenCourseWare"
             },
             "note": "Free OpenCourseWare materials"
@@ -13974,7 +13974,7 @@
             "title": "3. Azure Architecture Center",
             "video": {
               "title": "Azure Architecture Center",
-              "url": "https://learn.microsoft.com/en-us/azure/architecture/",
+              "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/",
               "channel": "Microsoft"
             },
             "note": "Free, open course"
@@ -14010,7 +14010,7 @@
             "title": "7. Refactoring resources",
             "video": {
               "title": "Refactoring resources",
-              "url": "https://refactoring.com/",
+              "url": "https://martinfowler.com/refactoring/",
               "channel": "Martin Fowler"
             },
             "note": "Free, open course"
@@ -14048,7 +14048,7 @@
             "title": "1. Codex learning hub",
             "video": {
               "title": "Codex learning hub",
-              "url": "https://academy.openai.com/",
+              "url": "https://openai.com/academy/codex/",
               "channel": "OpenAI Academy"
             },
             "note": "Free provider learning resource"
@@ -14057,7 +14057,7 @@
             "title": "2. Codex 101: Introduction and Onboarding",
             "video": {
               "title": "Codex 101: Introduction and Onboarding",
-              "url": "https://academy.openai.com/",
+              "url": "https://academy.openai.com/en/public/clubs/builders-etkn1/resources/codex-101-introduction-and-onboarding-2026-03-18",
               "channel": "OpenAI Academy"
             },
             "note": "Free provider learning resource"
@@ -14066,7 +14066,7 @@
             "title": "3. Codex Bootcamp: 101 / 201 / 301",
             "video": {
               "title": "Codex Bootcamp: 101 / 201 / 301",
-              "url": "https://academy.openai.com/",
+              "url": "https://academy.openai.com/public/clubs/builders-etkn1/resources/codex-bootcamp-2026-09-23",
               "channel": "OpenAI Academy"
             },
             "note": "Free provider learning resource"
@@ -14084,7 +14084,7 @@
             "title": "5. Claude Code: A Highly Agentic Coding Assistant",
             "video": {
               "title": "Claude Code: A Highly Agentic Coding Assistant",
-              "url": "https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/",
+              "url": "https://www.deeplearning.ai/courses/claude-code-a-highly-agentic-coding-assistant/",
               "channel": "Anthropic + DeepLearning.AI"
             },
             "note": "Currently free access -- re-check before enrolling"
@@ -14093,7 +14093,7 @@
             "title": "6. Accelerating Development with Gemini Code Assist",
             "video": {
               "title": "Accelerating Development with Gemini Code Assist",
-              "url": "https://codelabs.developers.google.com/",
+              "url": "https://codelabs.developers.google.com/genai-for-dev-gca-dev-use-cases",
               "channel": "Google Codelabs"
             },
             "note": "Free provider learning resource"
@@ -14140,7 +14140,7 @@
             "title": "1. Cloud Computing Fundamentals",
             "video": {
               "title": "Cloud Computing Fundamentals",
-              "url": "https://skillsbuild.org/college-students/course-catalog/cloud-computing-fundamentals",
+              "url": "https://skillsbuild.org/learning-catalog",
               "channel": "IBM SkillsBuild"
             },
             "note": "Free provider digital credential on completion"
@@ -14158,7 +14158,7 @@
             "title": "3. AWS Cloud Essentials Learning Plan",
             "video": {
               "title": "AWS Cloud Essentials Learning Plan",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/learn-about/cloud-practitioner/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free, open course"
@@ -14167,7 +14167,7 @@
             "title": "4. Azure Fundamentals: Describe Cloud Concepts",
             "video": {
               "title": "Azure Fundamentals: Describe Cloud Concepts",
-              "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/",
+              "url": "https://learn.microsoft.com/en-us/learn/paths/azure-fundamentals/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -14203,7 +14203,7 @@
             "title": "8. AWS Well-Architected Foundations",
             "video": {
               "title": "AWS Well-Architected Foundations",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/learn-about/operations/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free, open course"
@@ -14232,7 +14232,7 @@
             "title": "1. AWS Cloud Essentials Learning Plan",
             "video": {
               "title": "AWS Cloud Essentials Learning Plan",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/learn-about/cloud-practitioner/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free, open course"
@@ -14241,7 +14241,7 @@
             "title": "2. AWS Cloud Practitioner Essentials",
             "video": {
               "title": "AWS Cloud Practitioner Essentials",
-              "url": "https://skillbuilder.aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials/8D79F3AVR7",
+              "url": "https://aws.amazon.com/training/learn-about/cloud-practitioner/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free, open course"
@@ -14250,7 +14250,7 @@
             "title": "3. AWS Serverless Learning Plan",
             "video": {
               "title": "AWS Serverless Learning Plan",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/learn-about/serverless/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free provider skill badge on completion"
@@ -14259,7 +14259,7 @@
             "title": "4. AWS Lambda Foundations",
             "video": {
               "title": "AWS Lambda Foundations",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/learn-about/serverless/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free, open course"
@@ -14268,7 +14268,7 @@
             "title": "5. Architecting Serverless Applications",
             "video": {
               "title": "Architecting Serverless Applications",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/learn-about/serverless/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free, open course"
@@ -14277,7 +14277,7 @@
             "title": "6. AWS Cloud Operator (SysOps) Learning Plan",
             "video": {
               "title": "AWS Cloud Operator (SysOps) Learning Plan",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/learn-about/operations/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free, open course"
@@ -14286,7 +14286,7 @@
             "title": "7. AWS Well-Architected Foundations",
             "video": {
               "title": "AWS Well-Architected Foundations",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/learn-about/operations/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free, open course"
@@ -14295,7 +14295,7 @@
             "title": "8. AWS Training Badge Assessments",
             "video": {
               "title": "AWS Training Badge Assessments",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/badges/",
               "channel": "AWS Training"
             },
             "note": "Free provider skill badges on completion"
@@ -14324,7 +14324,7 @@
             "title": "1. Azure Fundamentals: Describe Cloud Concepts",
             "video": {
               "title": "Azure Fundamentals: Describe Cloud Concepts",
-              "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/",
+              "url": "https://learn.microsoft.com/en-us/learn/paths/azure-fundamentals/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -14360,7 +14360,7 @@
             "title": "5. Azure Administrator Official Plan",
             "video": {
               "title": "Azure Administrator Official Plan",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/career-paths/administrator",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -14425,7 +14425,7 @@
             "title": "2. Getting Started with Docker - Hands-On Lab",
             "video": {
               "title": "Getting Started with Docker - Hands-On Lab",
-              "url": "https://docs.docker.com/get-started/",
+              "url": "https://docs.docker.com/guides/lab-container-getting-started/",
               "channel": "Docker"
             },
             "note": "Free, open course"
@@ -14461,7 +14461,7 @@
             "title": "6. Deploy Containers with Azure Kubernetes Service",
             "video": {
               "title": "Deploy Containers with Azure Kubernetes Service",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/deploy-manage-containers-azure-kubernetes-service/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -14470,7 +14470,7 @@
             "title": "7. Deploy & Monitor Apps on AKS",
             "video": {
               "title": "Deploy & Monitor Apps on AKS",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/deploy-monitor-apps-azure-kubernetes-service/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -14479,7 +14479,7 @@
             "title": "8. AWS Container Training & Free Digital Learning",
             "video": {
               "title": "AWS Container Training & Free Digital Learning",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/digital/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free, open course"
@@ -14508,7 +14508,7 @@
             "title": "1. DevOps Foundations: Core Principles & Practices",
             "video": {
               "title": "DevOps Foundations: Core Principles & Practices",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/devops-foundations-core-principles-practices/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -14517,7 +14517,7 @@
             "title": "2. Automate Your Workflow with GitHub Actions",
             "video": {
               "title": "Automate Your Workflow with GitHub Actions",
-              "url": "https://learn.microsoft.com/en-us/training/modules/github-actions-automate-tasks/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/github-actions/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -14526,7 +14526,7 @@
             "title": "3. AZ-400: Implement CI with Pipelines & GitHub Actions",
             "video": {
               "title": "AZ-400: Implement CI with Pipelines & GitHub Actions",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/az-400-implement-ci-azure-pipelines-github-actions/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -14535,7 +14535,7 @@
             "title": "4. AZ-400: Development for Enterprise DevOps",
             "video": {
               "title": "AZ-400: Development for Enterprise DevOps",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/az-400-work-git-for-enterprise-devops/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -14544,7 +14544,7 @@
             "title": "5. GitHub Skills - Interactive Projects",
             "video": {
               "title": "GitHub Skills - Interactive Projects",
-              "url": "https://learn.github.com/skills",
+              "url": "https://skills.github.com/",
               "channel": "GitHub"
             },
             "note": "Free, open course"
@@ -14562,7 +14562,7 @@
             "title": "7. Ansible Basics: Automation Technical Overview",
             "video": {
               "title": "Ansible Basics: Automation Technical Overview",
-              "url": "https://www.redhat.com/en/services/training-and-certification",
+              "url": "https://www.redhat.com/en/technologies/management/ansible/training-and-certification",
               "channel": "Red Hat"
             },
             "note": "Free, open course"
@@ -14600,7 +14600,7 @@
             "title": "1. Terraform Get Started - AWS",
             "video": {
               "title": "Terraform Get Started - AWS",
-              "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started",
+              "url": "https://developer.hashicorp.com/terraform/tutorials",
               "channel": "HashiCorp Developer"
             },
             "note": "Free, open course"
@@ -14609,7 +14609,7 @@
             "title": "2. Terraform Get Started - Azure",
             "video": {
               "title": "Terraform Get Started - Azure",
-              "url": "https://developer.hashicorp.com/terraform/tutorials/azure-get-started",
+              "url": "https://developer.hashicorp.com/terraform/tutorials",
               "channel": "HashiCorp Developer"
             },
             "note": "Free, open course"
@@ -14618,7 +14618,7 @@
             "title": "3. Terraform Get Started - Google Cloud",
             "video": {
               "title": "Terraform Get Started - Google Cloud",
-              "url": "https://developer.hashicorp.com/terraform/tutorials/gcp-get-started",
+              "url": "https://developer.hashicorp.com/terraform/tutorials",
               "channel": "HashiCorp Developer"
             },
             "note": "Free, open course"
@@ -14627,7 +14627,7 @@
             "title": "4. Terraform Associate 004 Learning Path",
             "video": {
               "title": "Terraform Associate 004 Learning Path",
-              "url": "https://developer.hashicorp.com/terraform/tutorials",
+              "url": "https://developer.hashicorp.com/terraform/tutorials/certification-004",
               "channel": "HashiCorp Developer"
             },
             "note": "Free certification-prep resource"
@@ -14636,7 +14636,7 @@
             "title": "5. Ansible Basics: Automation Technical Overview",
             "video": {
               "title": "Ansible Basics: Automation Technical Overview",
-              "url": "https://www.redhat.com/en/services/training-and-certification",
+              "url": "https://www.redhat.com/en/technologies/management/ansible/training-and-certification",
               "channel": "Red Hat"
             },
             "note": "Free, open course"
@@ -14645,7 +14645,7 @@
             "title": "6. DevOps Foundations - Infrastructure as Code",
             "video": {
               "title": "DevOps Foundations - Infrastructure as Code",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/devops-foundations-core-principles-practices/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -14654,7 +14654,7 @@
             "title": "7. GitHub Actions Learning Path",
             "video": {
               "title": "GitHub Actions Learning Path",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/github-actions/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -14663,7 +14663,7 @@
             "title": "8. GitHub Skills",
             "video": {
               "title": "GitHub Skills",
-              "url": "https://learn.github.com/skills",
+              "url": "https://skills.github.com/",
               "channel": "GitHub"
             },
             "note": "Free, open course"
@@ -14692,7 +14692,7 @@
             "title": "1. Site Reliability Engineering",
             "video": {
               "title": "Site Reliability Engineering",
-              "url": "https://sre.google/sre-book/table-of-contents/",
+              "url": "https://sre.google/books/",
               "channel": "Google SRE"
             },
             "note": "Free, open course"
@@ -14701,7 +14701,7 @@
             "title": "2. The Site Reliability Workbook",
             "video": {
               "title": "The Site Reliability Workbook",
-              "url": "https://sre.google/workbook/table-of-contents/",
+              "url": "https://sre.google/books/",
               "channel": "Google SRE"
             },
             "note": "Free, open course"
@@ -14719,7 +14719,7 @@
             "title": "4. Getting Started with Prometheus",
             "video": {
               "title": "Getting Started with Prometheus",
-              "url": "https://prometheus.io/docs/prometheus/latest/getting_started/",
+              "url": "https://prometheus.io/docs/tutorials/getting_started/",
               "channel": "Prometheus"
             },
             "note": "Free, open course"
@@ -14746,7 +14746,7 @@
             "title": "7. DevOps Foundations - Operate with DevOps",
             "video": {
               "title": "DevOps Foundations - Operate with DevOps",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/devops-foundations-core-principles-practices/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -14755,7 +14755,7 @@
             "title": "8. AWS Cloud Operator Learning Plan",
             "video": {
               "title": "AWS Cloud Operator Learning Plan",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/learn-about/operations/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free, open course"
@@ -14784,7 +14784,7 @@
             "title": "1. Design and Implement Platform Engineering",
             "video": {
               "title": "Design and Implement Platform Engineering",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/designing-implementing-platform-engineering/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -14793,7 +14793,7 @@
             "title": "2. Start Your Platform Engineering Journey",
             "video": {
               "title": "Start Your Platform Engineering Journey",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/platform-engineering/journey",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -14811,7 +14811,7 @@
             "title": "4. Backstage Software Catalog & Templates",
             "video": {
               "title": "Backstage Software Catalog & Templates",
-              "url": "https://backstage.io/docs/features/software-catalog/",
+              "url": "https://backstage.io/docs/getting-started/",
               "channel": "Backstage / CNCF"
             },
             "note": "Free, open course"
@@ -14820,7 +14820,7 @@
             "title": "5. GitHub Skills - Interactive Projects",
             "video": {
               "title": "GitHub Skills - Interactive Projects",
-              "url": "https://learn.github.com/skills",
+              "url": "https://skills.github.com/",
               "channel": "GitHub"
             },
             "note": "Free, open course"
@@ -14894,7 +14894,7 @@
             "title": "3. Control Azure Spending & Manage Bills",
             "video": {
               "title": "Control Azure Spending & Manage Bills",
-              "url": "https://learn.microsoft.com/en-us/training/browse/",
+              "url": "https://learn.microsoft.com/en-us/training/paths/control-spending-manage-bills/",
               "channel": "Microsoft Learn"
             },
             "note": "Free, open course"
@@ -14912,7 +14912,7 @@
             "title": "5. AWS Well-Architected Foundations",
             "video": {
               "title": "AWS Well-Architected Foundations",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/learn-about/operations/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free, open course"
@@ -14921,7 +14921,7 @@
             "title": "6. AWS Cloud Operator (SysOps) Learning Plan",
             "video": {
               "title": "AWS Cloud Operator (SysOps) Learning Plan",
-              "url": "https://aws.amazon.com/training/",
+              "url": "https://aws.amazon.com/training/learn-about/operations/",
               "channel": "AWS Skill Builder"
             },
             "note": "Free, open course"
@@ -14930,7 +14930,7 @@
             "title": "7. Building Secure & Reliable Systems",
             "video": {
               "title": "Building Secure & Reliable Systems",
-              "url": "https://google.github.io/building-secure-and-reliable-systems/raw/toc.html",
+              "url": "https://sre.google/books/",
               "channel": "Google SRE"
             },
             "note": "Free, open course"
@@ -14939,7 +14939,7 @@
             "title": "8. Journey to Cloud: Orchestrating Your Solution",
             "video": {
               "title": "Journey to Cloud: Orchestrating Your Solution",
-              "url": "https://skillsbuild.org/college-students/course-catalog/journey-to-cloud-orchestrating-your-solution",
+              "url": "https://skillsbuild.org/learning-catalog",
               "channel": "IBM SkillsBuild"
             },
             "note": "Free, open course"
@@ -14977,7 +14977,7 @@
             "title": "2. Companies and Financial Accounting",
             "video": {
               "title": "Companies and Financial Accounting",
-              "url": "https://www.open.edu/openlearn/money-business/companies-and-financial-accounting/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/companies-and-financial-accounting/",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -14986,7 +14986,7 @@
             "title": "3. Financial Statement Analysis & Interpretation",
             "video": {
               "title": "Financial Statement Analysis & Interpretation",
-              "url": "https://www.open.edu/openlearn/money-business/financial-statement-analysis-and-interpretation/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/financial-statement-analysis-and-interpretation",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -15022,7 +15022,7 @@
             "title": "7. Finance Focus Badge",
             "video": {
               "title": "Finance Focus Badge",
-              "url": "https://www.life-global.org/badges",
+              "url": "https://www.life-global.org/en/badges",
               "channel": "HP LIFE / HP Foundation"
             },
             "note": "Free provider skill badge on completion"
@@ -15031,7 +15031,7 @@
             "title": "8. Accounting Online Class",
             "video": {
               "title": "Accounting Online Class",
-              "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/webcastacctg.htm",
+              "url": "https://pages.stern.nyu.edu/adamodar/New_Home_Page/webcastacctg.htm",
               "channel": "NYU Stern / Aswath Damodaran"
             },
             "note": "Free provider learning resource"
@@ -15078,7 +15078,7 @@
             "title": "3. Corporate Finance Online",
             "video": {
               "title": "Corporate Finance Online",
-              "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/webcastcfonline.htm",
+              "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/onlineclass.htm",
               "channel": "NYU Stern / Aswath Damodaran"
             },
             "note": "Free provider learning resource"
@@ -15087,7 +15087,7 @@
             "title": "4. Organisations and the Financial System",
             "video": {
               "title": "Organisations and the Financial System",
-              "url": "https://www.open.edu/openlearn/money-business/organisations-and-the-financial-system/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/organisations-and-the-financial-system/",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -15114,7 +15114,7 @@
             "title": "7. Financial Statement Analysis & Interpretation",
             "video": {
               "title": "Financial Statement Analysis & Interpretation",
-              "url": "https://www.open.edu/openlearn/money-business/financial-statement-analysis-and-interpretation/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/financial-statement-analysis-and-interpretation",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -15161,7 +15161,7 @@
             "title": "2. Corporate Finance Online",
             "video": {
               "title": "Corporate Finance Online",
-              "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/webcastcfonline.htm",
+              "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/onlineclass.htm",
               "channel": "NYU Stern / Aswath Damodaran"
             },
             "note": "Free provider learning resource"
@@ -15206,7 +15206,7 @@
             "title": "7. Financial Statement Analysis & Interpretation",
             "video": {
               "title": "Financial Statement Analysis & Interpretation",
-              "url": "https://www.open.edu/openlearn/money-business/financial-statement-analysis-and-interpretation/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/financial-statement-analysis-and-interpretation",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -15298,7 +15298,7 @@
             "title": "7. Microsoft Copilot - Finance Use Case",
             "video": {
               "title": "Microsoft Copilot - Finance Use Case",
-              "url": "https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-finance/",
+              "url": "https://learn.microsoft.com/en-us/training/modules/agent-speed-skills-finance/",
               "channel": "Microsoft Learn"
             },
             "note": "Free provider learning resource"
@@ -15307,7 +15307,7 @@
             "title": "8. Financial Statement Analysis & Interpretation",
             "video": {
               "title": "Financial Statement Analysis & Interpretation",
-              "url": "https://www.open.edu/openlearn/money-business/financial-statement-analysis-and-interpretation/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/financial-statement-analysis-and-interpretation",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -15354,7 +15354,7 @@
             "title": "3. Managing My Investments",
             "video": {
               "title": "Managing My Investments",
-              "url": "https://www.open.edu/openlearn/money-business/managing-my-investments/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/managing-my-investments/",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -15363,7 +15363,7 @@
             "title": "4. Asset Allocation in Investment",
             "video": {
               "title": "Asset Allocation in Investment",
-              "url": "https://www.open.edu/openlearn/money-business/asset-allocation-investment/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/asset-allocation-investment/content-section-0?active-tab=content-tab",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -15372,7 +15372,7 @@
             "title": "5. Financial Market Analysis (FMAx)",
             "video": {
               "title": "Financial Market Analysis (FMAx)",
-              "url": "https://www.edx.org/learn/finance/the-international-monetary-fund-financial-market-analysis",
+              "url": "https://www.imf.org/en/capacity-development/training/icdtc/courses/fmax",
               "channel": "International Monetary Fund"
             },
             "note": "Free online course"
@@ -15390,7 +15390,7 @@
             "title": "7. Markets Sales & Trading Job Simulation",
             "video": {
               "title": "Markets Sales & Trading Job Simulation",
-              "url": "https://www.theforage.com/simulations/citi/markets-sales-trading-0vhv",
+              "url": "https://www.theforage.com/simulations/Citi/markets-sales-trading-0vhv",
               "channel": "Citi / Forage"
             },
             "note": "Free provider certificate on completion"
@@ -15428,7 +15428,7 @@
             "title": "1. Risk Management",
             "video": {
               "title": "Risk Management",
-              "url": "https://www.open.edu/openlearn/money-business/risk-management/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/risk-management/",
               "channel": "The Open University + Rolls-Royce"
             },
             "note": "Free provider skill badge on completion"
@@ -15446,7 +15446,7 @@
             "title": "3. Risk Job Simulation",
             "video": {
               "title": "Risk Job Simulation",
-              "url": "https://www.theforage.com/simulations/goldman-sachs/risk-ljdz",
+              "url": "https://www.theforage.com/simulations/Goldman%20Sachs/risk-ljdz",
               "channel": "Goldman Sachs / Forage"
             },
             "note": "Free provider certificate on completion"
@@ -15455,7 +15455,7 @@
             "title": "4. Financial Market Analysis (FMAx)",
             "video": {
               "title": "Financial Market Analysis (FMAx)",
-              "url": "https://www.edx.org/learn/finance/the-international-monetary-fund-financial-market-analysis",
+              "url": "https://www.imf.org/en/capacity-development/training/icdtc/courses/fmax",
               "channel": "International Monetary Fund"
             },
             "note": "Free online course"
@@ -15464,7 +15464,7 @@
             "title": "5. Debt Sustainability & Debt Management",
             "video": {
               "title": "Debt Sustainability & Debt Management",
-              "url": "https://www.edx.org/learn/sustainability/the-international-monetary-fund-debt-sustainability-framework-for-low-income-countries",
+              "url": "https://www.imf.org/en/capacity-development/training/icdtc/courses/dsmx",
               "channel": "IMF + World Bank"
             },
             "note": "Free online course"
@@ -15482,7 +15482,7 @@
             "title": "7. Organisations and the Financial System",
             "video": {
               "title": "Organisations and the Financial System",
-              "url": "https://www.open.edu/openlearn/money-business/organisations-and-the-financial-system/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/organisations-and-the-financial-system/",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -15520,7 +15520,7 @@
             "title": "1. Introduction to Financial Programming & Policies",
             "video": {
               "title": "Introduction to Financial Programming & Policies",
-              "url": "https://www.edx.org/learn/economics-finance/the-international-monetary-fund-introduction-to-financial-programming-and-policies",
+              "url": "https://www.imf.org/en/capacity-development/training/icdtc/courses/fpp-0x",
               "channel": "International Monetary Fund"
             },
             "note": "Free online course"
@@ -15529,7 +15529,7 @@
             "title": "2. Financial Programming & Policies Part 1",
             "video": {
               "title": "Financial Programming & Policies Part 1",
-              "url": "https://www.edx.org/learn/finance/the-international-monetary-fund-financial-programming-and-policies-part-1-macroeconomic-accounts-analysis",
+              "url": "https://www.imf.org/en/capacity-development/training/icdtc/courses/fpp-1x",
               "channel": "International Monetary Fund"
             },
             "note": "Free online course"
@@ -15538,7 +15538,7 @@
             "title": "3. Macroeconomic Diagnostics",
             "video": {
               "title": "Macroeconomic Diagnostics",
-              "url": "https://www.edx.org/learn/macroeconomics/the-international-monetary-fund-macroeconomic-diagnostics",
+              "url": "https://www.imf.org/en/capacity-development/training/icdtc/courses/mdsx",
               "channel": "International Monetary Fund"
             },
             "note": "Free online course"
@@ -15547,7 +15547,7 @@
             "title": "4. Projecting Public Debt - DDTx",
             "video": {
               "title": "Projecting Public Debt - DDTx",
-              "url": "https://www.edx.org/learn/public-economics/the-international-monetary-fund-projecting-public-debt-the-public-debt-dynamics-tool",
+              "url": "https://www.imf.org/en/capacity-development/training/icdtc/courses/ddtx",
               "channel": "International Monetary Fund"
             },
             "note": "Free online course"
@@ -15556,7 +15556,7 @@
             "title": "5. Financial Market Analysis (FMAx)",
             "video": {
               "title": "Financial Market Analysis (FMAx)",
-              "url": "https://www.edx.org/learn/finance/the-international-monetary-fund-financial-market-analysis",
+              "url": "https://www.imf.org/en/capacity-development/training/icdtc/courses/fmax",
               "channel": "International Monetary Fund"
             },
             "note": "Free online course"
@@ -15574,7 +15574,7 @@
             "title": "7. Organisations and the Financial System",
             "video": {
               "title": "Organisations and the Financial System",
-              "url": "https://www.open.edu/openlearn/money-business/organisations-and-the-financial-system/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/organisations-and-the-financial-system/",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -15583,7 +15583,7 @@
             "title": "8. Research Methods for Finance",
             "video": {
               "title": "Research Methods for Finance",
-              "url": "https://www.open.edu/openlearn/money-business/quantitative-and-qualitative-research-finance/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/quantitative-and-qualitative-research-finance/",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -15666,7 +15666,7 @@
             "title": "7. Financial Statement Analysis & Interpretation",
             "video": {
               "title": "Financial Statement Analysis & Interpretation",
-              "url": "https://www.open.edu/openlearn/money-business/financial-statement-analysis-and-interpretation/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/financial-statement-analysis-and-interpretation",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -15675,7 +15675,7 @@
             "title": "8. Organisations and the Financial System",
             "video": {
               "title": "Organisations and the Financial System",
-              "url": "https://www.open.edu/openlearn/money-business/organisations-and-the-financial-system/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/organisations-and-the-financial-system/",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -15713,7 +15713,7 @@
             "title": "2. Microsoft Copilot - Finance Use Case",
             "video": {
               "title": "Microsoft Copilot - Finance Use Case",
-              "url": "https://learn.microsoft.com/en-us/training/modules/empower-workforce-copilot-finance/",
+              "url": "https://learn.microsoft.com/en-us/training/modules/agent-speed-skills-finance/",
               "channel": "Microsoft Learn"
             },
             "note": "Free provider learning resource"
@@ -15767,7 +15767,7 @@
             "title": "8. Financial Statement Analysis & Interpretation",
             "video": {
               "title": "Financial Statement Analysis & Interpretation",
-              "url": "https://www.open.edu/openlearn/money-business/financial-statement-analysis-and-interpretation/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/financial-statement-analysis-and-interpretation",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -15814,7 +15814,7 @@
             "title": "3. The Product Discovery Handbook",
             "video": {
               "title": "The Product Discovery Handbook",
-              "url": "https://www.atlassian.com/software/jira/product-discovery/resources/handbook/introduction",
+              "url": "https://support.atlassian.com/jira-product-discovery/docs/the-product-management-handbook/",
               "channel": "Atlassian"
             },
             "note": "Free provider guide and resource"
@@ -15832,7 +15832,7 @@
             "title": "5. Understanding Your Customers",
             "video": {
               "title": "Understanding Your Customers",
-              "url": "https://www.open.edu/openlearn/money-business/understanding-your-customers/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/understanding-your-customers",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -15906,7 +15906,7 @@
             "title": "3. Jira Product Discovery - Getting Started",
             "video": {
               "title": "Jira Product Discovery - Getting Started",
-              "url": "https://www.atlassian.com/software/jira/product-discovery/guides/getting-started/quick-start",
+              "url": "https://www.atlassian.com/software/jira/product-discovery/guides/getting-started/introduction",
               "channel": "Atlassian"
             },
             "note": "Free provider guide and resource"
@@ -15924,7 +15924,7 @@
             "title": "5. Understanding Your Customers",
             "video": {
               "title": "Understanding Your Customers",
-              "url": "https://www.open.edu/openlearn/money-business/understanding-your-customers/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/understanding-your-customers",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -15933,7 +15933,7 @@
             "title": "6. First Steps in Innovation and Entrepreneurship",
             "video": {
               "title": "First Steps in Innovation and Entrepreneurship",
-              "url": "https://www.open.edu/openlearn/money-business/first-steps-innovation-and-entrepreneurship/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/first-steps-innovation-and-entrepreneurship",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -16016,7 +16016,7 @@
             "title": "5. Business Models in Strategic Management",
             "video": {
               "title": "Business Models in Strategic Management",
-              "url": "https://www.open.edu/openlearn/money-business/business-models-strategic-management/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/business-models-strategic-management/",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -16034,7 +16034,7 @@
             "title": "7. Strategy for New Companies",
             "video": {
               "title": "Strategy for New Companies",
-              "url": "https://stvp.stanford.edu/videos/strategy-for-new-companies-entire-talk/",
+              "url": "https://ecorner.stanford.edu/wp-content/uploads/sites/2/2023/11/strategy-for-new-companies-entire-talk-transcript.pdf",
               "channel": "Stanford eCorner"
             },
             "note": "Free, open course"
@@ -16072,7 +16072,7 @@
             "title": "1. Google Analytics Certification 2026",
             "video": {
               "title": "Google Analytics Certification 2026",
-              "url": "https://skillshop.docebosaas.com/pages/23/google-analytics",
+              "url": "https://skillshop.docebosaas.com/learn/courses/18609/google-analytics-certification-2026",
               "channel": "Google Skillshop"
             },
             "note": "Free provider certificate on completion"
@@ -16108,7 +16108,7 @@
             "title": "5. Product Management KPIs",
             "video": {
               "title": "Product Management KPIs",
-              "url": "https://www.atlassian.com/agile/product-management/product-management-kpis",
+              "url": "https://www.atlassian.com/agile/product-management/product-management-kpis/",
               "channel": "Atlassian"
             },
             "note": "Free provider guide and resource"
@@ -16117,7 +16117,7 @@
             "title": "6. Inbound Marketing Certification",
             "video": {
               "title": "Inbound Marketing Certification",
-              "url": "https://academy.hubspot.com/courses/inbound",
+              "url": "https://academy.hubspot.com/courses/inbound-marketing",
               "channel": "HubSpot Academy"
             },
             "note": "Free provider certificate on completion"
@@ -16182,7 +16182,7 @@
             "title": "3. Inbound Marketing Certification",
             "video": {
               "title": "Inbound Marketing Certification",
-              "url": "https://academy.hubspot.com/courses/inbound",
+              "url": "https://academy.hubspot.com/courses/inbound-marketing",
               "channel": "HubSpot Academy"
             },
             "note": "Free provider certificate on completion"
@@ -16218,7 +16218,7 @@
             "title": "7. Achieving Go-to-Market Fit",
             "video": {
               "title": "Achieving Go-to-Market Fit",
-              "url": "https://ecorner.stanford.edu/clips/achieving-go-to-market-fit/",
+              "url": "https://stvp.stanford.edu/ecorner/",
               "channel": "Stanford eCorner"
             },
             "note": "Free, open course"
@@ -16227,7 +16227,7 @@
             "title": "8. Marketing in the 21st Century",
             "video": {
               "title": "Marketing in the 21st Century",
-              "url": "https://www.open.edu/openlearn/money-business/marketing-the-21st-century/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/marketing-the-21st-century/content-section-",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -16256,7 +16256,7 @@
             "title": "1. KICKOFF Project Management",
             "video": {
               "title": "KICKOFF Project Management",
-              "url": "https://www.pmi.org/kickoff",
+              "url": "https://www.pmi.org/kickoff/",
               "channel": "Project Management Institute"
             },
             "note": "Free provider skill badge on completion"
@@ -16274,7 +16274,7 @@
             "title": "3. Project Governance and PMO",
             "video": {
               "title": "Project Governance and PMO",
-              "url": "https://www.open.edu/openlearn/money-business/",
+              "url": "https://www.open.edu/openlearn/money-business/project-governance-and-project-management-office-pmo/content-section-0?intro=1",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -16283,7 +16283,7 @@
             "title": "4. Managing Virtual Project Teams",
             "video": {
               "title": "Managing Virtual Project Teams",
-              "url": "https://www.open.edu/openlearn/money-business/managing-virtual-project-teams/content-section-0",
+              "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=27295&intro=1&section=0",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -16357,7 +16357,7 @@
             "title": "2. Business Models in Strategic Management",
             "video": {
               "title": "Business Models in Strategic Management",
-              "url": "https://www.open.edu/openlearn/money-business/business-models-strategic-management/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/business-models-strategic-management/",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -16393,7 +16393,7 @@
             "title": "6. First Steps in Innovation and Entrepreneurship",
             "video": {
               "title": "First Steps in Innovation and Entrepreneurship",
-              "url": "https://www.open.edu/openlearn/money-business/first-steps-innovation-and-entrepreneurship/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/first-steps-innovation-and-entrepreneurship",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -16402,7 +16402,7 @@
             "title": "7. Strategy for New Companies",
             "video": {
               "title": "Strategy for New Companies",
-              "url": "https://stvp.stanford.edu/videos/strategy-for-new-companies-entire-talk/",
+              "url": "https://ecorner.stanford.edu/wp-content/uploads/sites/2/2023/11/strategy-for-new-companies-entire-talk-transcript.pdf",
               "channel": "Stanford eCorner"
             },
             "note": "Free, open course"
@@ -16440,7 +16440,7 @@
             "title": "1. Pricing",
             "video": {
               "title": "Pricing",
-              "url": "https://ocw.mit.edu/",
+              "url": "https://ocw.mit.edu/courses/15-818-pricing-spring-2010/",
               "channel": "MIT OpenCourseWare"
             },
             "note": "Free OpenCourseWare materials"
@@ -16449,7 +16449,7 @@
             "title": "2. Entrepreneurial Finance",
             "video": {
               "title": "Entrepreneurial Finance",
-              "url": "https://ocw.mit.edu/",
+              "url": "https://ocw.mit.edu/courses/15-431-entrepreneurial-finance-spring-2011/",
               "channel": "MIT OpenCourseWare"
             },
             "note": "Free OpenCourseWare materials"
@@ -16476,7 +16476,7 @@
             "title": "5. Business Models in Strategic Management",
             "video": {
               "title": "Business Models in Strategic Management",
-              "url": "https://www.open.edu/openlearn/money-business/business-models-strategic-management/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/business-models-strategic-management/",
               "channel": "The Open University"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -16494,7 +16494,7 @@
             "title": "7. Product Management KPIs",
             "video": {
               "title": "Product Management KPIs",
-              "url": "https://www.atlassian.com/agile/product-management/product-management-kpis",
+              "url": "https://www.atlassian.com/agile/product-management/product-management-kpis/",
               "channel": "Atlassian"
             },
             "note": "Free provider guide and resource"
@@ -16503,7 +16503,7 @@
             "title": "8. Google Analytics Certification 2026",
             "video": {
               "title": "Google Analytics Certification 2026",
-              "url": "https://skillshop.docebosaas.com/pages/23/google-analytics",
+              "url": "https://skillshop.docebosaas.com/learn/courses/18609/google-analytics-certification-2026",
               "channel": "Google Skillshop"
             },
             "note": "Free provider certificate on completion"
@@ -16532,7 +16532,7 @@
             "title": "1. AI Leadership",
             "video": {
               "title": "AI Leadership",
-              "url": "https://academy.openai.com/",
+              "url": "https://academy.openai.com/public/courses/ai-leadership-fcwe8",
               "channel": "OpenAI Academy"
             },
             "note": "Free provider learning resource"
@@ -16559,7 +16559,7 @@
             "title": "4. Gen AI: Unlock Foundational Concepts",
             "video": {
               "title": "Gen AI: Unlock Foundational Concepts",
-              "url": "https://www.skills.google/",
+              "url": "https://www.cloudskillsboost.google/course_templates/1265?locale=en",
               "channel": "Google Cloud Skills Boost"
             },
             "note": "Free provider skill badge on completion"
@@ -16577,7 +16577,7 @@
             "title": "6. Product Discovery Handbook",
             "video": {
               "title": "Product Discovery Handbook",
-              "url": "https://www.atlassian.com/software/jira/product-discovery/resources/handbook/introduction",
+              "url": "https://support.atlassian.com/jira-product-discovery/docs/the-product-management-handbook/",
               "channel": "Atlassian"
             },
             "note": "Free provider guide and resource"
@@ -16624,7 +16624,7 @@
             "title": "1. Effective Leadership",
             "video": {
               "title": "Effective Leadership",
-              "url": "https://www.life-global.org/course/13-effective-leadership",
+              "url": "https://www.life-global.org/categorylist/6-career-development",
               "channel": "HP LIFE / HP Foundation"
             },
             "note": "Free provider certificate on completion"
@@ -16633,7 +16633,7 @@
             "title": "2. Step up to leadership",
             "video": {
               "title": "Step up to leadership",
-              "url": "https://www.open.edu/openlearn/money-business/leadership-management/step-leadership/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/leadership-management/step-leadership",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -16642,7 +16642,7 @@
             "title": "3. Leadership and followership",
             "video": {
               "title": "Leadership and followership",
-              "url": "https://www.open.edu/openlearn/education-development/learning/leadership-and-followership/content-section-overview",
+              "url": "https://www.open.edu/openlearn/education-development/learning/leadership-and-followership",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free provider skill badge on completion"
@@ -16678,7 +16678,7 @@
             "title": "7. Success Mindset",
             "video": {
               "title": "Success Mindset",
-              "url": "https://www.life-global.org/course/196-success-mindset",
+              "url": "https://www.life-global.org/categorylist/6-career-development",
               "channel": "HP LIFE / HP Foundation"
             },
             "note": "Free provider certificate on completion"
@@ -16687,7 +16687,7 @@
             "title": "8. Approaching leadership with care",
             "video": {
               "title": "Approaching leadership with care",
-              "url": "https://www.open.edu/openlearn/health-sports-psychology/approaching-leadership-care/content-section-0",
+              "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=143053&section=2",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -16770,7 +16770,7 @@
             "title": "7. Leadership and followership",
             "video": {
               "title": "Leadership and followership",
-              "url": "https://www.open.edu/openlearn/education-development/learning/leadership-and-followership/content-section-overview",
+              "url": "https://www.open.edu/openlearn/education-development/learning/leadership-and-followership",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free provider skill badge on completion"
@@ -16779,7 +16779,7 @@
             "title": "8. Effective Leadership",
             "video": {
               "title": "Effective Leadership",
-              "url": "https://www.life-global.org/course/13-effective-leadership",
+              "url": "https://www.life-global.org/categorylist/6-career-development",
               "channel": "HP LIFE / HP Foundation"
             },
             "note": "Free provider certificate on completion"
@@ -16826,7 +16826,7 @@
             "title": "3. How teams work",
             "video": {
               "title": "How teams work",
-              "url": "https://www.open.edu/openlearn/money-business/leadership-management/how-teams-work/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/leadership-management/how-teams-work/content-section-0?intro=1",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -16835,7 +16835,7 @@
             "title": "4. Employee engagement",
             "video": {
               "title": "Employee engagement",
-              "url": "https://www.open.edu/openlearn/money-business/employee-engagement/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/employee-engagement/",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -16862,7 +16862,7 @@
             "title": "7. Effective Leadership",
             "video": {
               "title": "Effective Leadership",
-              "url": "https://www.life-global.org/course/13-effective-leadership",
+              "url": "https://www.life-global.org/categorylist/6-career-development",
               "channel": "HP LIFE / HP Foundation"
             },
             "note": "Free provider certificate on completion"
@@ -16871,7 +16871,7 @@
             "title": "8. Leadership and followership",
             "video": {
               "title": "Leadership and followership",
-              "url": "https://www.open.edu/openlearn/education-development/learning/leadership-and-followership/content-section-overview",
+              "url": "https://www.open.edu/openlearn/education-development/learning/leadership-and-followership",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free provider skill badge on completion"
@@ -16900,7 +16900,7 @@
             "title": "1. Human resources: recruitment and selection",
             "video": {
               "title": "Human resources: recruitment and selection",
-              "url": "https://www.open.edu/openlearn/money-business/human-resources/human-resources-recruitment-and-selection/content-section-0",
+              "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=1348",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -16918,7 +16918,7 @@
             "title": "3. Human Resource Management and EDI",
             "video": {
               "title": "Human Resource Management and EDI",
-              "url": "https://www.open.edu/openlearn/money-business/human-resource-management-and-edi/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/human-resource-management-and-edi/",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -16936,7 +16936,7 @@
             "title": "5. Employee engagement",
             "video": {
               "title": "Employee engagement",
-              "url": "https://www.open.edu/openlearn/money-business/employee-engagement/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/employee-engagement/",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -17001,7 +17001,7 @@
             "title": "2. Leading Organizations II",
             "video": {
               "title": "Leading Organizations II",
-              "url": "https://ocw.mit.edu/courses/sloan-school-of-management/15-322-leading-organizations-ii-fall-2003",
+              "url": "https://ocw.mit.edu/courses/15-322-leading-organizations-ii-fall-2003/",
               "channel": "MIT Sloan OpenCourseWare"
             },
             "note": "Free OpenCourseWare materials"
@@ -17028,7 +17028,7 @@
             "title": "5. Step up to leadership",
             "video": {
               "title": "Step up to leadership",
-              "url": "https://www.open.edu/openlearn/money-business/leadership-management/step-leadership/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/leadership-management/step-leadership",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -17037,7 +17037,7 @@
             "title": "6. Employee engagement",
             "video": {
               "title": "Employee engagement",
-              "url": "https://www.open.edu/openlearn/money-business/employee-engagement/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/employee-engagement/",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -17046,7 +17046,7 @@
             "title": "7. Inclusive Leadership: Effecting change",
             "video": {
               "title": "Inclusive Leadership: Effecting change",
-              "url": "https://www.open.edu/openlearn/education-development/inclusive-leadership-effecting-change/content-section-0",
+              "url": "https://www.open.edu/openlearn/education-development/inclusive-leadership-effecting-change/content-section-2",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -17055,7 +17055,7 @@
             "title": "8. Effective Leadership",
             "video": {
               "title": "Effective Leadership",
-              "url": "https://www.life-global.org/course/13-effective-leadership",
+              "url": "https://www.life-global.org/categorylist/6-career-development",
               "channel": "HP LIFE / HP Foundation"
             },
             "note": "Free provider certificate on completion"
@@ -17093,7 +17093,7 @@
             "title": "2. Human Resource Management and EDI",
             "video": {
               "title": "Human Resource Management and EDI",
-              "url": "https://www.open.edu/openlearn/money-business/human-resource-management-and-edi/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/human-resource-management-and-edi/",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -17102,7 +17102,7 @@
             "title": "3. Inclusive Leadership: Effecting change",
             "video": {
               "title": "Inclusive Leadership: Effecting change",
-              "url": "https://www.open.edu/openlearn/education-development/inclusive-leadership-effecting-change/content-section-0",
+              "url": "https://www.open.edu/openlearn/education-development/inclusive-leadership-effecting-change/content-section-2",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -17111,7 +17111,7 @@
             "title": "4. Approaching leadership with care",
             "video": {
               "title": "Approaching leadership with care",
-              "url": "https://www.open.edu/openlearn/health-sports-psychology/approaching-leadership-care/content-section-0",
+              "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=143053&section=2",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -17120,7 +17120,7 @@
             "title": "5. Leadership and followership",
             "video": {
               "title": "Leadership and followership",
-              "url": "https://www.open.edu/openlearn/education-development/learning/leadership-and-followership/content-section-overview",
+              "url": "https://www.open.edu/openlearn/education-development/learning/leadership-and-followership",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free provider skill badge on completion"
@@ -17129,7 +17129,7 @@
             "title": "6. Employee engagement",
             "video": {
               "title": "Employee engagement",
-              "url": "https://www.open.edu/openlearn/money-business/employee-engagement/content-section-0",
+              "url": "https://www.open.edu/openlearn/money-business/employee-engagement/",
               "channel": "The Open University / OpenLearn"
             },
             "note": "Free course; eligible for a free Statement of Participation"
@@ -17313,7 +17313,7 @@
             "title": "6. Critical Thinking in the AI Era",
             "video": {
               "title": "Critical Thinking in the AI Era",
-              "url": "https://www.life-global.org/course/439-critical-thinking-in-the-ai-era",
+              "url": "https://www.life-global.org/course/439",
               "channel": "HP LIFE / HP Foundation"
             },
             "note": "Free provider certificate on completion"
@@ -17414,7 +17414,7 @@
             "title": "7. Critical Thinking in the AI Era",
             "video": {
               "title": "Critical Thinking in the AI Era",
-              "url": "https://www.life-global.org/course/439-critical-thinking-in-the-ai-era",
+              "url": "https://www.life-global.org/course/439",
               "channel": "HP LIFE / HP Foundation"
             },
             "note": "Free provider certificate on completion"
@@ -17497,7 +17497,7 @@
             "title": "6. Google Analytics Certification",
             "video": {
               "title": "Google Analytics Certification",
-              "url": "https://skillshop.docebosaas.com/pages/23/google-analytics",
+              "url": "https://skillshop.withgoogle.com/",
               "channel": "Google Skillshop"
             },
             "note": "Free provider certificate on completion"
@@ -17515,7 +17515,7 @@
             "title": "8. Marketing Cloud Engagement Basics",
             "video": {
               "title": "Marketing Cloud Engagement Basics",
-              "url": "https://trailhead.salesforce.com/content/learn/modules/mrkt_cloud_basics",
+              "url": "https://trailhead.salesforce.com/content/learn/trails/personalize_customer_journeys_marketing_cloud",
               "channel": "Salesforce Trailhead"
             },
             "note": "Free provider skill badge on completion"
@@ -17562,7 +17562,7 @@
             "title": "3. Implementing AEO With HubSpot",
             "video": {
               "title": "Implementing AEO With HubSpot",
-              "url": "https://app.hubspot.com/academy/l/tracks/21515868/",
+              "url": "https://academy.hubspot.com/courses/implementing-aeo-with-hubspot-certification-en",
               "channel": "HubSpot Academy"
             },
             "note": "Free provider certificate on completion"
@@ -17645,7 +17645,7 @@
             "title": "2. Social Media Marketing Crash Course",
             "video": {
               "title": "Social Media Marketing Crash Course",
-              "url": "https://www.semrush.com/academy/courses/social-media-marketing-crash-course/",
+              "url": "https://www.semrush.com/academy/courses/social-media/",
               "channel": "Semrush Academy"
             },
             "note": "Free provider certificate on completion"
@@ -17663,7 +17663,7 @@
             "title": "4. Influencer Marketing Campaigns for Beginners",
             "video": {
               "title": "Influencer Marketing Campaigns for Beginners",
-              "url": "https://www.semrush.com/academy/courses/influencer-marketing-campaigns-for-beginners/",
+              "url": "https://www.semrush.com/academy/courses/social-media/",
               "channel": "Semrush Academy"
             },
             "note": "Free provider certificate on completion"
@@ -17672,7 +17672,7 @@
             "title": "5. Building a Social Listening Program",
             "video": {
               "title": "Building a Social Listening Program",
-              "url": "https://www.semrush.com/academy/courses/building-a-social-listening-program-with-christina-garnett/",
+              "url": "https://www.semrush.com/academy/courses/social-media/",
               "channel": "Semrush Academy"
             },
             "note": "Free provider certificate on completion"
@@ -17681,7 +17681,7 @@
             "title": "6. TikTok Academy Learning Paths",
             "video": {
               "title": "TikTok Academy Learning Paths",
-              "url": "https://www.tiktokacademy.com/student/catalog",
+              "url": "https://ads.tiktok.com/business/en-US/academy",
               "channel": "TikTok for Business"
             },
             "note": "Free provider skill badge on completion"
@@ -17690,7 +17690,7 @@
             "title": "7. Meta Blueprint Learning",
             "video": {
               "title": "Meta Blueprint Learning",
-              "url": "https://www.facebookblueprint.com/",
+              "url": "https://www.facebook.com/business/learn",
               "channel": "Meta"
             },
             "note": "Free provider learning resource"
@@ -17699,7 +17699,7 @@
             "title": "8. Improving Your Social Storytelling",
             "video": {
               "title": "Improving Your Social Storytelling",
-              "url": "https://academy.hubspot.com/",
+              "url": "https://academy.hubspot.com/lessons/Improving_Your_Social_Storytelling",
               "channel": "HubSpot Academy"
             },
             "note": "Free provider learning resource"
@@ -17737,7 +17737,7 @@
             "title": "2. Google Ads Search Certification",
             "video": {
               "title": "Google Ads Search Certification",
-              "url": "https://skillshop.docebosaas.com/learn/dashboard/channel/43",
+              "url": "https://skillshop.withgoogle.com/googleads/",
               "channel": "Google Skillshop"
             },
             "note": "Free provider certificate on completion"
@@ -17746,7 +17746,7 @@
             "title": "3. Google Ads Video Certification",
             "video": {
               "title": "Google Ads Video Certification",
-              "url": "https://skillshop.docebosaas.com/learn/dashboard/channel/46",
+              "url": "https://skillshop.withgoogle.com/googleads/",
               "channel": "Google Skillshop"
             },
             "note": "Free provider certificate on completion"
@@ -17755,7 +17755,7 @@
             "title": "4. Google Ads Display Certification",
             "video": {
               "title": "Google Ads Display Certification",
-              "url": "https://skillshop.docebosaas.com/learn/dashboard/channel/45",
+              "url": "https://skillshop.withgoogle.com/googleads/",
               "channel": "Google Skillshop"
             },
             "note": "Free provider certificate on completion"
@@ -17773,7 +17773,7 @@
             "title": "6. Amazon Ads Academy Learning Paths",
             "video": {
               "title": "Amazon Ads Academy Learning Paths",
-              "url": "https://advertising.amazon.com/academy/professional-paths",
+              "url": "https://advertising.amazon.com/academy",
               "channel": "Amazon Ads Academy"
             },
             "note": "Free provider learning resource"
@@ -17782,7 +17782,7 @@
             "title": "7. TikTok Academy Media Buying Paths",
             "video": {
               "title": "TikTok Academy Media Buying Paths",
-              "url": "https://www.tiktokacademy.com/student/collection/2640708-become-a-media-buying-expert",
+              "url": "https://ads.tiktok.com/business/en-US/academy",
               "channel": "TikTok for Business"
             },
             "note": "Free provider learning resource"
@@ -17791,7 +17791,7 @@
             "title": "8. Meta Blueprint Ads Learning",
             "video": {
               "title": "Meta Blueprint Ads Learning",
-              "url": "https://www.facebookblueprint.com/student/path/211543-meta-advertising-course",
+              "url": "https://www.facebook.com/business/learn",
               "channel": "Meta"
             },
             "note": "Free provider learning resource"
@@ -17820,7 +17820,7 @@
             "title": "1. Google Analytics Certification",
             "video": {
               "title": "Google Analytics Certification",
-              "url": "https://skillshop.docebosaas.com/pages/23/google-analytics",
+              "url": "https://skillshop.withgoogle.com/",
               "channel": "Google Skillshop"
             },
             "note": "Free provider certificate on completion"
@@ -17921,7 +17921,7 @@
             "title": "2. Brand Starts Here with MBJ",
             "video": {
               "title": "Brand Starts Here with MBJ",
-              "url": "https://www.canva.com/design-school/courses/",
+              "url": "https://www.canva.com/design-school/courses/brand-starts-here-with-mbj/",
               "channel": "Canva Design School"
             },
             "note": "Free provider learning resource"
@@ -17939,7 +17939,7 @@
             "title": "4. The StoryEdge Method",
             "video": {
               "title": "The StoryEdge Method",
-              "url": "https://academy.hubspot.com/",
+              "url": "https://academy.hubspot.com/courses/the-storyedge-method-how-to-use-strategic-storytelling-to-build-trust-engagement-and-conversions",
               "channel": "HubSpot Academy"
             },
             "note": "Free provider learning resource"
@@ -17966,7 +17966,7 @@
             "title": "7. Improving Your Social Storytelling",
             "video": {
               "title": "Improving Your Social Storytelling",
-              "url": "https://academy.hubspot.com/",
+              "url": "https://academy.hubspot.com/lessons/Improving_Your_Social_Storytelling",
               "channel": "HubSpot Academy"
             },
             "note": "Free provider learning resource"
@@ -18031,7 +18031,7 @@
             "title": "4. Marketing Cloud Engagement Basics",
             "video": {
               "title": "Marketing Cloud Engagement Basics",
-              "url": "https://trailhead.salesforce.com/content/learn/modules/mrkt_cloud_basics",
+              "url": "https://trailhead.salesforce.com/content/learn/trails/personalize_customer_journeys_marketing_cloud",
               "channel": "Salesforce Trailhead"
             },
             "note": "Free provider skill badge on completion"
@@ -18114,7 +18114,7 @@
             "title": "3. Sales Enablement Certification",
             "video": {
               "title": "Sales Enablement Certification",
-              "url": "https://academy.hubspot.com/courses/sales-enablement",
+              "url": "https://academy.hubspot.com/courses/Sales-Enablement",
               "channel": "HubSpot Academy"
             },
             "note": "Free provider certificate on completion"
@@ -18197,7 +18197,7 @@
             "title": "2. AI for Marketing, Sales & Service Bootcamp",
             "video": {
               "title": "AI for Marketing, Sales & Service Bootcamp",
-              "url": "https://academy.hubspot.com/",
+              "url": "https://academy.hubspot.com/courses/ai-for-marketing-sales-and-service-bootcamp",
               "channel": "HubSpot Academy"
             },
             "note": "Free provider certificate on completion"
@@ -18215,7 +18215,7 @@
             "title": "4. Implementing AEO With HubSpot",
             "video": {
               "title": "Implementing AEO With HubSpot",
-              "url": "https://app.hubspot.com/academy/l/tracks/21515868/",
+              "url": "https://academy.hubspot.com/courses/implementing-aeo-with-hubspot-certification-en",
               "channel": "HubSpot Academy"
             },
             "note": "Free provider certificate on completion"
@@ -25720,7 +25720,7 @@
     "name": "Legal Foundations, Legal Reasoning & Research",
     "category": "Curated Legal, Policy & Regulatory Certificate",
     "tagline": "Curated Certification CPL01",
-    "intro": "Build practical legal literacy — sources of law, statutory and case research, issue spotting, and decision-ready legal analysis.",
+    "intro": "Build practical legal literacy: sources of law, rights and duties, statutory and case research, issue spotting, legal reasoning, citations and decision-ready legal analysis.",
     "benchmark": "Curated source set: The Open University / OpenLearn + MIT OpenCourseWare + Cornell Law School + Harvard Law School / edX + U.S. SEC / Investor.gov + U.S. Federal Trade Commission + Administrative Conference of the U.S. + Harvard / CS50 -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -25812,7 +25812,7 @@
     "name": "Contracts, Commercial Transactions & Deal Documentation",
     "category": "Curated Legal, Policy & Regulatory Certificate",
     "tagline": "Curated Certification CPL02",
-    "intro": "Master contract formation, negotiation, and risk allocation to turn business intent into enforceable commercial deals.",
+    "intro": "Understand contract formation, interpretation, performance, breach, remedies, negotiation, risk allocation and the commercial documents used to translate business intent into enforceable commitments.",
     "benchmark": "Curated source set: Harvard Law School / edX + MIT OpenCourseWare + Cornell Law School / LII + U.S. Small Business Administration + U.S. Federal Trade Commission + Harvard Law School + WIPO Academy + U.S. SEC -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -25904,7 +25904,7 @@
     "name": "Corporate Law, Governance, Capital Raising & M&A Foundations",
     "category": "Curated Legal, Policy & Regulatory Certificate",
     "tagline": "Curated Certification CPL03",
-    "intro": "Build business-law fluency across entity formation, fiduciary duties, securities regulation, fundraising, and transaction risk.",
+    "intro": "Build business-law fluency across entity formation, fiduciary duties, boards, securities regulation, fundraising, public-company obligations, competition issues and transaction lifecycle risk.",
     "benchmark": "Curated source set: MIT OpenCourseWare + U.S. Securities and Exchange Commission + U.S. SEC + U.S. SEC / Investor.gov + U.S. Small Business Administration + U.S. Federal Trade Commission + Cornell Law School / LII -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -25996,7 +25996,7 @@
     "name": "Intellectual Property, Patents, Trademarks & Licensing",
     "category": "Curated Legal, Policy & Regulatory Certificate",
     "tagline": "Curated Certification CPL04",
-    "intro": "Build an IP strategy across patents, trademarks, copyright, trade secrets, licensing, and commercialization using official WIPO and U.S. IP-office resources.",
+    "intro": "Build an IP strategy around patents, trademarks, copyright, trade secrets, ownership, licensing, enforcement and commercialization using official WIPO and U.S. IP-office learning resources.",
     "benchmark": "Curated source set: WIPO Academy + U.S. Patent and Trademark Office + U.S. Copyright Office + MIT OpenCourseWare + U.S. Federal Trade Commission -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -26088,7 +26088,7 @@
     "name": "Employment, Workplace Law & HR Compliance",
     "category": "Curated Legal, Policy & Regulatory Certificate",
     "tagline": "Curated Certification CPL05",
-    "intro": "Apply employment-law fundamentals across wages, leave, classification, discrimination, accommodation, and manager compliance.",
+    "intro": "Apply employment-law fundamentals across wages, leave, classification, discrimination, accommodation, recordkeeping, workplace policy, investigations and manager compliance.",
     "benchmark": "Curated source set: U.S. Department of Labor + U.S. Equal Employment Opportunity Commission + Cornell Law School / LII -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -26180,7 +26180,7 @@
     "name": "Privacy, Data Protection, Consumer Protection & Cyber Law",
     "category": "Curated Legal, Policy & Regulatory Certificate",
     "tagline": "Curated Certification CPL06",
-    "intro": "Understand privacy and data-security obligations through risk-based governance, consumer protection, and cross-border data rules.",
+    "intro": "Understand privacy and data-security obligations through risk-based governance, consumer protection, security-by-design, cross-border data rules and evidence from regulator guidance and enforcement lessons.",
     "benchmark": "Curated source set: NIST + U.S. Federal Trade Commission + European Commission + Harvard / CS50 -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -26272,7 +26272,7 @@
     "name": "Regulatory Policy, Administrative Law & Competition",
     "category": "Curated Legal, Policy & Regulatory Certificate",
     "tagline": "Curated Certification CPL07",
-    "intro": "Learn how rules are designed, justified, implemented and challenged, connecting administrative procedure with competition policy.",
+    "intro": "Learn how rules are designed, justified, consulted on, implemented, reviewed and challenged - while connecting administrative procedure, regulatory impact analysis and competition policy.",
     "benchmark": "Curated source set: Administrative Conference of the U.S. + U.S. Federal Trade Commission + U.S. SEC / Investor.gov + UK Department for Business & Trade + OECD + MIT OpenCourseWare -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -26364,7 +26364,7 @@
     "name": "Negotiation, Dispute Resolution & Legal Operations",
     "category": "Curated Legal, Policy & Regulatory Certificate",
     "tagline": "Curated Certification CPL08",
-    "intro": "Combine principled negotiation, mediation, matter management, and technology-enabled legal operations into one practical toolkit.",
+    "intro": "Combine principled negotiation, mediation, dispute strategy, matter management, legal research workflows, process design and technology-enabled legal operations.",
     "benchmark": "Curated source set: Harvard Law School + Harvard Program on Negotiation + MIT OpenCourseWare + Administrative Conference of the U.S. + Cornell Law School + Harvard / CS50 + OpenAI Academy + Everlaw + LSNTAP + American Bar Association -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -26456,7 +26456,7 @@
     "name": "AI, Legal Tech & Responsible Legal Automation",
     "category": "Curated Legal, Policy & Regulatory Certificate",
     "tagline": "Curated Certification CPL09",
-    "intro": "Use AI and legal technology for research, drafting, and service delivery while preserving confidentiality, human judgment, and auditability.",
+    "intro": "Use AI and legal technology for research, drafting, review, knowledge work and service delivery while preserving confidentiality, source verification, human judgment, professional responsibility and auditability.",
     "benchmark": "Curated source set: OpenAI Academy + Everlaw + LSNTAP + OpenAI Academy + Harvard / CS50 + American Bar Association + Stanford Law School + NIST + European Commission -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -26548,7 +26548,7 @@
     "name": "Learning Science, Memory & Evidence-Based Study",
     "category": "Curated Education, Learning & Talent Development Certificate",
     "tagline": "Curated Certification CEL01",
-    "intro": "Build a practical learning system around retrieval, reflection, active engagement, feedback and deliberate improvement.",
+    "intro": "Build a practical learning system around retrieval, reflection, active engagement, feedback and deliberate improvement - for your own learning and for the learners you support.",
     "benchmark": "Curated source set: The Open University / OpenLearn + Stanford Teaching Commons + Harvard Derek Bok Center + Cornell Center for Teaching Innovation -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -27646,7 +27646,7 @@
     "practiceHeading": "Hands-On Mastery Capstone",
     "practiceBody": "Build a strategic communications plan for a real or simulated organization facing a major launch, reputation challenge or public-interest issue. Segment stakeholders, create a message house, select channels, prepare spokesperson materials and define trust/reputation measures.",
     "rubricHeading": "Proof Rubric",
-    "rubric": "stakeholder map; communication objective tree; message house; channel plan; press/public materials; spokesperson Q&A; reputation risk register; measurement dashboard."
+    "rubric": "stakeholder map; communication objective tree; message house; channel plan; press/public materials; spokesperson Q&A reputation risk register; measurement dashboard."
   },
   {
     "name": "Writing, Editing & Content Strategy",
@@ -27922,7 +27922,7 @@
     "practiceHeading": "Hands-On Mastery Capstone",
     "practiceBody": "Design a creator business for one niche. Define audience and positioning, build a 12-week content cadence, model discovery and retention loops, choose at least three revenue streams and build a simple creator P&L with sensitivity scenarios and ethical sponsorship rules.",
     "rubricHeading": "Proof Rubric",
-    "rubric": "creator thesis; audience persona; content system; growth funnel; revenue model; 12-month P&L; sponsor/membership policy; analytics dashboard; experiment roadmap."
+    "rubric": "creator thesis; audience persona; content system; growth funnel; revenue model; 12-month P&L sponsor/membership policy; analytics dashboard; experiment roadmap."
   },
   {
     "name": "Social Media, Community & Platform Strategy",
@@ -28106,7 +28106,7 @@
     "practiceHeading": "Hands-On Mastery Capstone",
     "practiceBody": "Run a live crisis-communications simulation. Build a verified situation picture, stakeholder and channel plan, initial holding statement, executive briefing, press Q&A and social updates; then respond to injected misinformation and changing facts without overclaiming certainty.",
     "rubricHeading": "Proof Rubric",
-    "rubric": "crisis comms plan; message map; holding statement; executive brief; media Q&A; social posts; rumor-control log; update cadence; after-action review."
+    "rubric": "crisis comms plan; message map; holding statement; executive brief; media Q&A social posts; rumor-control log; update cadence; after-action review."
   },
   {
     "name": "AI Content, Synthetic Media & Provenance",
@@ -29032,7 +29032,7 @@
     "name": "Electronics, Digital Logic & Hardware Foundations",
     "category": "Curated Hardware, Semiconductors, Robotics & Physical AI Certificate",
     "tagline": "Curated Certification CHR01",
-    "intro": "Build first-principles hardware fluency across circuits, Boolean logic, state machines, timing, and microprocessors.",
+    "intro": "Build first-principles hardware fluency across circuits, analog and digital abstraction, Boolean logic, state machines, timing, microprocessors and hands-on electronic systems.",
     "benchmark": "Curated source set: MIT OpenCourseWare + Nand2Tetris + Arm Education -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -29124,7 +29124,7 @@
     "name": "Computer Architecture, CPUs, GPUs & Accelerators",
     "category": "Curated Hardware, Semiconductors, Robotics & Physical AI Certificate",
     "tagline": "Curated Certification CHR02",
-    "intro": "Understand how processors execute work from instruction sets through caches, parallelism, GPUs, SoCs and hardware security.",
+    "intro": "Understand how processors execute work from instruction sets and pipelines through caches, memory hierarchy, parallelism, GPUs, accelerators, SoCs, performance and hardware security.",
     "benchmark": "Curated source set: MIT OpenCourseWare + Nand2Tetris + Arm Education + NVIDIA Developer -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -29216,7 +29216,7 @@
     "name": "Semiconductor Devices, VLSI & Chip Design",
     "category": "Curated Hardware, Semiconductors, Robotics & Physical AI Certificate",
     "tagline": "Curated Certification CHR03",
-    "intro": "Connect semiconductor device physics to integrated circuits, fabrication, yield, VLSI and system-on-chip thinking.",
+    "intro": "Connect semiconductor device physics to integrated circuits, digital design, fabrication, yield, VLSI implementation and system-on-chip thinking from transistor to manufactured silicon.",
     "benchmark": "Curated source set: MIT OpenCourseWare + Arm Education -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -29308,7 +29308,7 @@
     "name": "Embedded Systems, Firmware & Internet of Things",
     "category": "Curated Hardware, Semiconductors, Robotics & Physical AI Certificate",
     "tagline": "Curated Certification CHR04",
-    "intro": "Build resource-constrained systems connecting sensors, actuators, firmware, real-time behavior and edge/cloud interfaces.",
+    "intro": "Build resource-constrained systems that connect sensors, actuators, firmware, real-time behavior, communications and edge/cloud interfaces while preserving reliability, security and power discipline.",
     "benchmark": "Curated source set: Arm Education + MIT OpenCourseWare + Arduino + Raspberry Pi -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -29400,7 +29400,7 @@
     "name": "Robotics, ROS 2 & Autonomous Systems",
     "category": "Curated Hardware, Semiconductors, Robotics & Physical AI Certificate",
     "tagline": "Curated Certification CHR05",
-    "intro": "Develop the software and systems foundation for autonomous robots across kinematics, perception, planning and simulation.",
+    "intro": "Develop the software and systems foundation for autonomous robots across kinematics, perception, localization, planning, manipulation, robot middleware, simulation and safe execution.",
     "benchmark": "Curated source set: MIT OpenCourseWare + MoveIt + Open Robotics / Gazebo + Open Robotics + Northwestern University -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -29492,7 +29492,7 @@
     "name": "Control Systems, Mechatronics & Motion",
     "category": "Curated Hardware, Semiconductors, Robotics & Physical AI Certificate",
     "tagline": "Curated Certification CHR06",
-    "intro": "Master the feedback and dynamics layer behind electromechanical systems, from modeling to robust implementation.",
+    "intro": "Master the feedback and dynamics layer behind electromechanical systems: modeling, stability, frequency and state-space methods, estimation, trajectory control, robustness and implementation constraints.",
     "benchmark": "Curated source set: MIT OpenCourseWare -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -29584,7 +29584,7 @@
     "name": "Edge AI, Computer Vision & TinyML",
     "category": "Curated Hardware, Semiconductors, Robotics & Physical AI Certificate",
     "tagline": "Curated Certification CHR07",
-    "intro": "Deploy efficient machine learning on constrained and edge hardware using compression, quantization and GPU acceleration.",
+    "intro": "Deploy efficient machine learning on constrained and edge hardware using compression, quantization, GPU acceleration, computer vision, embedded inference, latency/energy measurement and hardware-aware optimization.",
     "benchmark": "Curated source set: MIT HAN Lab + MIT AI Hardware Program + NVIDIA Developer + MIT OpenCourseWare + STMicroelectronics + MIT HAN Lab -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -29676,7 +29676,7 @@
     "name": "Hardware Validation, Reliability & Manufacturing",
     "category": "Curated Hardware, Semiconductors, Robotics & Physical AI Certificate",
     "tagline": "Curated Certification CHR08",
-    "intro": "Engineer hardware for manufacturability and dependable operation through verification, process control, and failure analysis.",
+    "intro": "Engineer hardware for manufacturability and dependable operation through verification, test, process control, yield, quality, security, failure analysis, reliability growth and lifecycle evidence.",
     "benchmark": "Curated source set: MIT OpenCourseWare -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
@@ -29768,7 +29768,7 @@
     "name": "Physical AI, Simulation & Intelligent Machines",
     "category": "Curated Hardware, Semiconductors, Robotics & Physical AI Certificate",
     "tagline": "Curated Certification CHR09",
-    "intro": "Integrate simulation, perception, planning, controls and learning into intelligent machines with explicit sim-to-real risk management.",
+    "intro": "Integrate simulation, perception, planning, controls and learning into intelligent machines using digital twins, synthetic data, robot learning, scalable evaluation and explicit sim-to-real risk management.",
     "benchmark": "Curated source set: NVIDIA Developer + MIT CSAIL + MIT OpenCourseWare + Open Robotics / Gazebo + MoveIt -- Credential note: this is a Zuyini mastery certificate built from the cited public courses. It is not issued, sponsored or endorsed by the source institutions, providers or companies.",
     "ladder": [],
     "blocks": [
