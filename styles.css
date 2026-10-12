@@ -301,11 +301,42 @@ h1 {
   padding: 20px 34px 70px;
 }
 
+.about-top {
+  /* Places the profile photo and intro text beside each other. */
+  display: flex;
+  /* Lines up the photo and text at the top. */
+  align-items: flex-start;
+  /* Adds space between the photo and text. */
+  gap: 50px;
+  /* Adds space below the photo-and-text row. */
+  margin-bottom: 30px;
+}
+
+.about-photo {
+  /* Gives the photo a balanced width beside the text. */
+  width: 34%;
+  /* Keeps the photo from stretching on wide screens. */
+  flex-shrink: 0;
+}
+
+.about-photo img {
+  /* Makes the profile photo fill its column. */
+  width: 100%;
+  /* Prevents the photo from becoming too large. */
+  max-width: 360px;
+  /* Sets a steady photo height. */
+  height: 300px;
+  /* Crops the photo neatly. */
+  object-fit: cover;
+  /* Keeps the crop centered on the subject. */
+  object-position: center top;
+  /* Adds a soft shadow behind the photo. */
+  box-shadow: 0 26px 60px rgba(0, 0, 0, 0.45);
+}
+
 .about-intro {
   /* Keeps the about intro text from becoming too wide. */
   max-width: 860px;
-  /* Adds space below the about intro. */
-  margin-bottom: 30px;
 }
 
 .section-label {
@@ -572,6 +603,25 @@ footer p {
   .about {
     /* Reduces about section spacing on smaller screens. */
     padding: 0 24px 50px;
+  }
+
+  .about-top {
+    /* Stacks the profile photo and text on smaller screens. */
+    display: block;
+  }
+
+  .about-photo {
+    /* Makes the photo area full width on smaller screens. */
+    width: 100%;
+    /* Adds space below the photo on smaller screens. */
+    margin-bottom: 24px;
+  }
+
+  .about-photo img {
+    /* Keeps the photo from becoming too wide on small screens. */
+    max-width: 100%;
+    /* Reduces the photo height on smaller screens. */
+    height: 260px;
   }
 
   .about-intro h2 {
