@@ -14,7 +14,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "ai-engineer": {
 "companies": [
@@ -50,7 +50,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "ai-evaluation-reliability-engineer": {
 "companies": [
@@ -59,12 +59,12 @@
 ],
 "jobs": [
 {
-"title": "Data Center Engineer, Reliability & Infrastructure Management \u2013 Compute Supply",
+"title": "Applied AI Engineer, Public Sector",
 "company": "Anthropic",
-"location": "San Francisco, CA | New York City, NY",
-"state": "CA",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5440636008",
-"postedDate": "2026-10-05",
+"location": "Washington, DC",
+"state": "DC",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5445410008",
+"postedDate": "2026-10-06",
 "isNew": false
 },
 {
@@ -77,15 +77,6 @@
 "isNew": false
 },
 {
-"title": "Applied AI Engineer, Public Sector",
-"company": "Anthropic",
-"location": "Washington, DC",
-"state": "DC",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5445410008",
-"postedDate": "2026-10-06",
-"isNew": false
-},
-{
 "title": "Software Engineer, Staff: Applied AI, Science & Engineering",
 "company": "Anthropic",
 "location": "New York City, NY; San Francisco, CA; Seattle, WA",
@@ -95,7 +86,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "ai-inference-performance-engineer": {
 "companies": [
@@ -131,7 +122,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "ai-platform-engineer": {
 "companies": [
@@ -194,7 +185,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "ai-product-manager": {
 "companies": [
@@ -211,7 +202,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "ai-research-engineer": {
 "companies": [
@@ -237,7 +228,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "ai-security-engineer": {
 "companies": [
@@ -300,7 +291,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "ai-solutions-engineer": {
 "companies": [
@@ -336,7 +327,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "ai-support-engineer": {
 "companies": [
@@ -390,7 +381,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "technical-program-manager-ai-ml": {
 "companies": [
@@ -453,22 +444,13 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "analytics-engineer": {
 "companies": [
 "Airbnb"
 ],
 "jobs": [
-{
-"title": "Senior Analytics Engineer, Airbnb.org",
-"company": "Airbnb",
-"location": "United States",
-"state": null,
-"url": "https://careers.airbnb.com/positions/8249633?gh_jid=8249633",
-"postedDate": "2026-10-05",
-"isNew": false
-},
 {
 "title": "Principal, Strategic Finance & Analytics, Incubations",
 "company": "Airbnb",
@@ -479,7 +461,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "cloud-platform-engineer": {
 "companies": [
@@ -496,7 +478,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "core-ai-product-manager": {
 "companies": [
@@ -513,7 +495,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "customer-support-service-ai-consultant": {
 "companies": [
@@ -539,7 +521,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "data-center-ai-infrastructure-engineer": {
 "companies": [
@@ -583,7 +565,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "data-engineer": {
 "companies": [
@@ -600,7 +582,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "data-scientist": {
 "companies": [
@@ -617,7 +599,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "developer-experience-engineer": {
 "companies": [
@@ -634,7 +616,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "growth-product-manager": {
 "companies": [
@@ -651,7 +633,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "legal-ai-consultant": {
 "companies": [
@@ -668,7 +650,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "privacy-engineer": {
 "companies": [
@@ -685,7 +667,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "product-builder": {
 "companies": [
@@ -702,7 +684,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "product-marketing-manager": {
 "companies": [
@@ -737,7 +719,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "product-operations-manager": {
 "companies": [
@@ -790,7 +772,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "product-security-engineer": {
 "companies": [
@@ -835,7 +817,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "revenue-operations-manager": {
 "companies": [
@@ -862,7 +844,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "sales-revenue-ai-consultant": {
 "companies": [
@@ -897,7 +879,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "sales-engineer-solutions-consultant": {
 "companies": [
@@ -923,7 +905,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "senior-manager": {
 "companies": [
@@ -940,7 +922,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "senior-manager-machine-learning-engineering": {
 "companies": [
@@ -966,7 +948,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "ai-research-scientist-applied-scientist": {
 "companies": [
@@ -992,7 +974,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "identity-access-management-engineer-identity-security-engineer": {
 "companies": [
@@ -1018,7 +1000,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "ai-hardware-accelerator-systems-engineer": {
 "companies": [
@@ -1044,7 +1026,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "ai-agent-engineer-agentic-systems-engineer": {
 "companies": [
@@ -1070,7 +1052,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "it-support-specialist-it-technician": {
 "companies": [
@@ -1096,7 +1078,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "ai-solution-developer": {
 "companies": [
@@ -1113,7 +1095,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "business-operations-manager-strategy-operations": {
 "companies": [
@@ -1157,7 +1139,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "enterprise-account-executive-ai-sales": {
 "companies": [
@@ -1211,7 +1193,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "strategic-partnerships-alliances-manager": {
 "companies": [
@@ -1237,14 +1219,22 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "financial-controller-comptroller-cfo": {
 "companies": [
-"Anthropic",
 "OpenAI"
 ],
 "jobs": [
+{
+"title": "Client Partner, Ads Solutions - Financial Services",
+"company": "OpenAI",
+"location": "New York City",
+"state": "NY",
+"url": "https://jobs.ashbyhq.com/openai/be7abbba-bca2-4baa-b7d8-98d5ab514520",
+"postedDate": "2026-10-12",
+"isNew": true
+},
 {
 "title": "Product Manager, Financial Services",
 "company": "OpenAI",
@@ -1253,18 +1243,9 @@
 "url": "https://jobs.ashbyhq.com/openai/a8210588-a178-4afe-91e7-1fa2d269d2e8",
 "postedDate": "2026-10-06",
 "isNew": false
-},
-{
-"title": "Director, Financial Reporting - Special Projects",
-"company": "Anthropic",
-"location": "San Francisco, CA | Seattle, WA",
-"state": "CA",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5441936008",
-"postedDate": "2026-10-05",
-"isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "crm-engineer-salesforce-revenue-systems-engineer": {
 "companies": [
@@ -1309,7 +1290,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "gtm-growth-engineer-revenue-ai-engineer": {
 "companies": [
@@ -1354,7 +1335,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "claude-ai-engineer-anthropic-platform-engineer": {
 "companies": [
@@ -1407,7 +1388,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "openai-ai-engineer-applied-ai-engineer": {
 "companies": [
@@ -1433,7 +1414,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "snowflake-cortex-ai-engineer-cortex-code-agents-engineer": {
 "companies": [
@@ -1450,7 +1431,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "oracle-oci-ai-engineer-enterprise-ai-agent-engineer": {
 "companies": [
@@ -1467,7 +1448,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "ai-agent-developer": {
 "companies": [
@@ -1494,7 +1475,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "marketing-manager": {
 "companies": [
@@ -1520,7 +1501,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "communications-director": {
 "companies": [
@@ -1537,7 +1518,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "conversational-ai-engineer": {
 "companies": [
@@ -1554,7 +1535,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "product-manager-agentic-commerce": {
 "companies": [
@@ -1580,7 +1561,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 },
 "technical-program-manager-ai-inference": {
 "companies": [
@@ -1643,23 +1624,6 @@
 "isNew": false
 }
 ],
-"asOf": "2026-10-11"
-},
-"ad-tech-manager-advertising-technology-manager": {
-"companies": [
-"OpenAI"
-],
-"jobs": [
-{
-"title": "Sr. Integrations Engineer, Supply Chain Technology",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/fa02b383-d5b0-45ea-b29e-3464ceeb4574",
-"postedDate": "2026-10-05",
-"isNew": false
-}
-],
-"asOf": "2026-10-11"
+"asOf": "2026-10-12"
 }
 }
