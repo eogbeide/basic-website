@@ -19,8 +19,8 @@
       <a href="academy/index.html">Academy</a>
       <a href="health-sciences/index.html">Health Sciences</a>
       <a href="newsletter/index.html">Newsletter</a>
-      <a href="mailto:manny.ogbeide@gmail.com">Contact</a>
-      <a href="mailto:manny.ogbeide@gmail.com" class="nav-button">Book My Time</a>
+      <a href="#contact">Contact</a>
+      <a href="#book" class="nav-button">Book My Time</a>
     </nav>
   </header>
 
@@ -41,7 +41,7 @@
         </div>
 
         <div class="hero-actions">
-          <a href="mailto:manny.ogbeide@gmail.com" class="hero-button">Book My Time</a>
+          <a href="#book" class="hero-button">Book My Time</a>
           <a href="#about" class="secondary-button">About Me</a>
         </div>
       </div>
@@ -110,18 +110,61 @@
         <p>Build simple action plans that help you attract customers and measure progress.</p>
       </article>
     </section>
+
+    <section class="contact-book" id="contact">
+      <p class="section-label">Get In Touch</p>
+      <h2>Send a message, or grab time directly on my calendar.</h2>
+
+      <div class="contact-book-grid">
+        <div class="contact-card" id="contact-form-card">
+          <h3>Send a Message</h3>
+          <p class="contact-card-sub">I read every message and reply personally, usually within a day or two.</p>
+          <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY" />
+            <input type="hidden" name="subject" value="New message from zuyini.com" />
+            <input type="checkbox" name="botcheck" class="hidden-field" tabindex="-1" autocomplete="off" />
+
+            <label for="contact-name">Name</label>
+            <input type="text" id="contact-name" name="name" placeholder="Your name" required />
+
+            <label for="contact-email">Email</label>
+            <input type="email" id="contact-email" name="email" placeholder="you@example.com" required />
+
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" rows="5" placeholder="How can I help?" required></textarea>
+
+            <button type="submit" class="hero-button contact-submit">Send Message</button>
+            <p id="contact-form-status" class="contact-form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="contact-card" id="book">
+          <h3>Book Time on My Calendar</h3>
+          <p class="contact-card-sub">Pick a slot that works for you — it drops straight onto my calendar.</p>
+          <div class="booking-embed">
+            <iframe
+              src="https://cal.com/YOUR_CAL_USERNAME?embed=true&theme=dark"
+              title="Book time with Manny Ogbeide"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer id="contact">
+  <footer>
     <div class="footer-links">
       <a href="academy/index.html">Academy</a>
       <a href="health-sciences/index.html">Health Sciences</a>
       <a href="newsletter/index.html">Newsletter</a>
       <a href="https://www.linkedin.com/in/emmanuelogbeide/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <a href="mailto:manny.ogbeide@gmail.com">Contact</a>
+      <a href="#contact">Contact</a>
       <a href="privacy.html">Privacy Policy</a>
     </div>
     <p>&copy; 2026 Zuyini's Website. All rights reserved.</p>
   </footer>
+
+  <script src="contact-form.js"></script>
 </body>
 </html>

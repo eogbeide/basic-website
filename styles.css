@@ -496,6 +496,180 @@ h1 {
   margin-bottom: 0;
 }
 
+.contact-book {
+  /* Keeps the contact section from becoming too wide. */
+  max-width: 1180px;
+  /* Centers the contact section. */
+  margin: 0 auto;
+  /* Adds space around the contact section. */
+  padding: 0 34px 70px;
+}
+
+.contact-book h2 {
+  /* Makes the contact heading large and confident. */
+  font-size: 36px;
+  /* Tightens the contact heading line spacing. */
+  line-height: 1.2;
+  /* Removes extra space above the contact heading. */
+  margin-top: 0;
+  /* Adds space below the contact heading. */
+  margin-bottom: 30px;
+  /* Makes the contact heading white. */
+  color: white;
+  /* Keeps the heading from running too wide. */
+  max-width: 760px;
+}
+
+.contact-book-grid {
+  /* Places the form and booking cards side by side. */
+  display: flex;
+  /* Adds space between the two cards. */
+  gap: 24px;
+  /* Lets both cards match height. */
+  align-items: stretch;
+}
+
+.contact-card {
+  /* Allows each card to share the row evenly. */
+  flex: 1;
+  /* Adds space inside each card. */
+  padding: 28px;
+  /* Gives each card a slightly lighter dark background. */
+  background-color: #202224;
+  /* Adds a subtle border around each card. */
+  border: 1px solid #34373a;
+  /* Keeps the card's own width from affecting the other card. */
+  min-width: 0;
+}
+
+.contact-card h3 {
+  /* Makes card headings clear. */
+  font-size: 22px;
+  /* Makes card headings white. */
+  color: white;
+  /* Removes extra space above card headings. */
+  margin-top: 0;
+  /* Adds a small space below card headings. */
+  margin-bottom: 8px;
+}
+
+.contact-card-sub {
+  /* Uses a soft gray for the card subtext. */
+  color: #c7c7c7;
+  /* Adds space below the subtext, above the form or embed. */
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  /* Shows each field label on its own line. */
+  display: block;
+  /* Makes labels small and uppercase like the rest of the site. */
+  font-size: 12px;
+  /* Makes labels uppercase. */
+  text-transform: uppercase;
+  /* Gives labels a soft gray color. */
+  color: #9a9a9a;
+  /* Adds space below each label. */
+  margin-bottom: 6px;
+  /* Adds space above each label, except the first. */
+  margin-top: 16px;
+}
+
+#contact-form label:first-of-type {
+  /* Removes extra space above the very first label. */
+  margin-top: 0;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  /* Makes form fields fill the card width. */
+  width: 100%;
+  /* Adds comfortable space inside each field. */
+  padding: 12px 14px;
+  /* Gives fields a dark background that matches the card. */
+  background-color: #151617;
+  /* Adds a subtle border around each field. */
+  border: 1px solid #34373a;
+  /* Makes field text white. */
+  color: white;
+  /* Sets a readable field text size. */
+  font-size: 15px;
+  /* Uses the same font as the rest of the site. */
+  font-family: inherit;
+}
+
+#contact-form textarea {
+  /* Keeps the message field from being resized too small. */
+  resize: vertical;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  /* Highlights the active field with the site's gold accent. */
+  outline: 1px solid #ffc629;
+}
+
+.hidden-field {
+  /* Hides the spam-trap field from real visitors without using
+     display:none, since some bots skip fields that are display:none. */
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.contact-submit {
+  /* Adds space above the submit button. */
+  margin-top: 20px;
+  /* Removes the default button border. */
+  border: none;
+  /* Makes the submit button behave like the hero button. */
+  cursor: pointer;
+  /* Sets a readable button text size. */
+  font-size: 13px;
+}
+
+.contact-submit:disabled {
+  /* Shows a busy state while the message is sending. */
+  opacity: 0.7;
+  cursor: default;
+}
+
+.contact-form-status {
+  /* Adds space above the status message. */
+  margin-top: 14px;
+  /* Removes extra space below the status message. */
+  margin-bottom: 0;
+  /* Sets a compact status message size. */
+  font-size: 14px;
+}
+
+.contact-form-status-success {
+  /* Shows success messages in the site's gold accent. */
+  color: #ffc629;
+}
+
+.contact-form-status-error {
+  /* Shows error messages in a soft red. */
+  color: #ff6b6b;
+}
+
+.booking-embed {
+  /* Gives the calendar embed a steady height. */
+  height: 600px;
+}
+
+.booking-embed iframe {
+  /* Makes the calendar embed fill its card. */
+  width: 100%;
+  /* Matches the embed height to its container. */
+  height: 100%;
+  /* Removes the default iframe border. */
+  border: none;
+}
+
 footer {
   /* Centers the footer text. */
   text-align: center;
@@ -642,5 +816,30 @@ footer p {
   .service-card {
     /* Adds space below each stacked service card. */
     margin-bottom: 18px;
+  }
+
+  .contact-book {
+    /* Reduces contact section spacing on smaller screens. */
+    padding: 0 24px 50px;
+  }
+
+  .contact-book h2 {
+    /* Reduces the contact heading size on smaller screens. */
+    font-size: 28px;
+  }
+
+  .contact-book-grid {
+    /* Stacks the form and booking cards on smaller screens. */
+    display: block;
+  }
+
+  .contact-card {
+    /* Adds space below each stacked card. */
+    margin-bottom: 18px;
+  }
+
+  .booking-embed {
+    /* Reduces the calendar embed height on smaller screens. */
+    height: 500px;
   }
 }
