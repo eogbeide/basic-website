@@ -661,6 +661,24 @@ h1 {
   height: 600px;
 }
 
+.booking-embed-pending {
+  /* Centers the placeholder message inside the embed box. */
+  display: flex;
+  /* Centers the message horizontally. */
+  align-items: center;
+  /* Centers the message vertically. */
+  justify-content: center;
+  /* Gives the placeholder its own dashed boundary. */
+  border: 1px dashed #34373a;
+}
+
+.booking-embed-pending p {
+  /* Uses a soft gray for the placeholder message. */
+  color: #9a9a9a;
+  /* Keeps the placeholder message compact. */
+  margin: 0;
+}
+
 .booking-embed iframe {
   /* Makes the calendar embed fill its card. */
   width: 100%;
