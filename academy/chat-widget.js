@@ -147,6 +147,7 @@
     '<div id="zuyini-chat-header">' +
     '<div><strong>Zuyini Assistant</strong><span id="zuyini-chat-subtitle">Find roles, pathways, certificates &amp; courses</span></div>' +
     '<div id="zuyini-chat-header-actions">' +
+    '<button type="button" id="zuyini-chat-clear" aria-label="Start new chat"></button>' +
     '<button type="button" id="zuyini-chat-minimize" aria-label="Minimize chat"></button>' +
     '<button type="button" id="zuyini-chat-maximize" aria-label="Maximize chat"></button>' +
     '<button type="button" id="zuyini-chat-close" aria-label="Close chat">&times;</button>' +
@@ -163,6 +164,7 @@
   var launcher = document.getElementById('zuyini-chat-launcher');
   var panel = document.getElementById('zuyini-chat-panel');
   var closeBtn = document.getElementById('zuyini-chat-close');
+  var clearBtn = document.getElementById('zuyini-chat-clear');
   var minimizeBtn = document.getElementById('zuyini-chat-minimize');
   var maximizeBtn = document.getElementById('zuyini-chat-maximize');
   var messagesEl = document.getElementById('zuyini-chat-messages');
@@ -170,11 +172,13 @@
   var input = document.getElementById('zuyini-chat-input');
 
   var ICONS = {
+    clear: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>',
     minimize: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line></svg>',
     restoreFromMinimize: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>',
     maximize: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" y1="3" x2="14" y2="10"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>',
     restoreFromMaximize: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 14 10 14 10 20"></polyline><polyline points="20 10 14 10 14 4"></polyline><line x1="14" y1="10" x2="21" y2="3"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>',
   };
+  clearBtn.innerHTML = ICONS.clear;
 
   function applyPanelChrome() {
     panel.classList.toggle('zuyini-chat-minimized', state.minimized);
@@ -248,6 +252,14 @@
     });
   }
 
+  function clearChat() {
+    state.messages = [];
+    saveState(state);
+    renderMessages();
+    greet();
+    if (!state.minimized) setTimeout(function () { input.focus(); }, 50);
+  }
+
   function handleQuery(query) {
     query = query.trim();
     if (!query) return;
@@ -309,6 +321,7 @@
     if (panel.hidden) openPanel(); else closePanel();
   });
   closeBtn.addEventListener('click', closePanel);
+  clearBtn.addEventListener('click', clearChat);
   minimizeBtn.addEventListener('click', toggleMinimize);
   maximizeBtn.addEventListener('click', toggleMaximize);
   document.addEventListener('keydown', function (e) {
