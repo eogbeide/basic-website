@@ -714,16 +714,24 @@
   // selecting an item hands off to its real underlying mode (certificates
   // or skills) via _credSrcMode, so the real URL, localStorage progress
   // keys and tier rendering are all completely unchanged.
+  // Bootcamp Mastery Certificate / Standalone Mastery Certificate / Agent
+  // Mastery skill tracks are deliberately excluded from this combined
+  // view -- they now have their own dedicated "Bootcamps" and "Mastery"
+  // ribbon tabs (below), so listing them here too was pure duplication
+  // and exactly what made them feel "lost" in the first place.
+  var NON_CREDENTIALS_SKILL_CATEGORIES = { 'Bootcamp Mastery Certificate': true, 'Standalone Mastery Certificate': true, 'Agent Mastery': true };
   MODES.credentials = {
     label: 'certificates & skill tracks',
     data: MODES.certificates.data
       .map(function (c) { return Object.assign({}, c, { _credSrcMode: 'certificates' }); })
-      .concat(MODES.skills.data.map(function (s) { return Object.assign({}, s, { _credSrcMode: 'skills' }); }))
+      .concat(MODES.skills.data
+        .filter(function (s) { return !NON_CREDENTIALS_SKILL_CATEGORIES[s.category]; })
+        .map(function (s) { return Object.assign({}, s, { _credSrcMode: 'skills' }); }))
       .sort(function (a, b) { return a.name.localeCompare(b.name); }),
-    searchPlaceholder: 'Search certificates & skill tracks, e.g. Computer Science, AI Mastery, Bootcamp...',
+    searchPlaceholder: 'Search certificates & skill tracks, e.g. Computer Science, AI Mastery, Spanish...',
     emptyTitle: 'Choose a certificate or skill track',
-    emptyBody: 'University-benchmarked Academic Certificates and hands-on Bootcamp, Standalone and Agent Mastery Skill Tracks, side by side. Browse by group on the left, or pick a specific category to narrow the list.',
-    featured: ['Comprehensive Certificate in Computer Science', 'Full-Stack Web Development Bootcamp Certificate', 'Comprehensive Certificate - Mini MBA', 'AI Mastery', 'Agent Mastery — Claude / Anthropic'],
+    emptyBody: 'University-benchmarked Academic Certificates alongside focused skill tracks in languages, programming, AI and design. Looking for a Bootcamp or a Mastery track? Those have their own tabs above.',
+    featured: ['Comprehensive Certificate in Computer Science', 'Comprehensive Certificate - Mini MBA', 'Comprehensive Certificate in Finance', 'AI Mastery', 'UI & UX Mastery'],
     isCombined: true,
     render: function (item) {
       return item._credSrcMode === 'certificates' ? renderCertificate(item) : renderSkillTrack(item);
@@ -827,17 +835,12 @@
   // pathways, certificates and interview tracks keep their original flat
   // category list since none of them have this problem.
   var CATEGORY_GROUPS = [
-    // First on purpose: "bootcamp" is the single most-searched-for word in
-    // this catalog's own search placeholder/featured items, but it used to
-    // sit alphabetically/topically between "Health, Life Sciences &
-    // Sustainability" and "Academic Certificates" as the 13th of 14 groups
-    // -- easy to miss unless a visitor scrolled past everything else.
-    // Bootcamp Mastery Certificate gets its own group; Standalone Mastery
-    // Certificate and Agent Mastery (pulled out of the AI group below)
-    // share the same "video-first mastery route, not a topic domain" shape
-    // as each other, so those two stay together as a separate group.
-    { label: 'Bootcamps', categories: ['Bootcamp Mastery Certificate'] },
-    { label: 'Mastery Tracks', categories: ['Standalone Mastery Certificate', 'Agent Mastery'] },
+    // Bootcamp Mastery Certificate / Standalone Mastery Certificate / Agent
+    // Mastery are deliberately absent here -- they have their own
+    // dedicated "Bootcamps" and "Mastery" ribbon tabs now (see
+    // NON_CREDENTIALS_SKILL_CATEGORIES above) and are excluded from
+    // "credentials" mode's data entirely, so there is no group to build
+    // for them in this dropdown/sidebar.
     { label: 'AI, Agents & Intelligent Automation', categories: ['Curated AI Certificate', 'Artificial Intelligence'] },
     { label: 'Data, Analytics & Machine Learning', categories: ['Curated Data & Analytics Certificate'] },
     { label: 'Cloud, Platform & Systems Engineering', categories: ['Curated Cloud, DevOps & Platform Certificate', 'Curated Cybersecurity Certificate', 'Curated Hardware, Semiconductors, Robotics & Physical AI Certificate', 'Curated Aerospace, Space Systems & Autonomous Flight Certificate', 'Job-Ready Data Center, AI Infrastructure & Capacity Certificate', 'Job-Ready Enterprise Systems, ERP & Business Applications Certificate'] },
