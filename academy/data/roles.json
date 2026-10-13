@@ -8172,7 +8172,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "PRODUCT MANAGEMENT FULL COURSE",
+        "title": "Product Management Course FREE",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=wZwByQTksxQ"
+      }
+    ],
     "page": 343,
     "category": "Product Operations & Product Leadership"
   },
@@ -9353,7 +9360,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "PRODUCT MANAGEMENT FULL COURSE",
+        "title": "Product Management Course FREE",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=wZwByQTksxQ"
+      }
+    ],
     "page": 514,
     "category": "Product Operations & Product Leadership"
   },
@@ -11569,7 +11583,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "PRODUCT MANAGEMENT FULL COURSE",
+        "title": "Product Management Course FREE",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=wZwByQTksxQ"
+      }
+    ],
     "page": 499,
     "category": "Product Operations & Product Leadership"
   },
@@ -12875,7 +12896,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "PRODUCT MANAGEMENT FULL COURSE",
+        "title": "Product Management Course FREE",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=wZwByQTksxQ"
+      }
+    ],
     "page": 5,
     "category": "Product Operations & Product Leadership"
   },
@@ -13917,7 +13945,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "PRODUCT MANAGEMENT FULL COURSE",
+        "title": "Product Management Course FREE",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=wZwByQTksxQ"
+      }
+    ],
     "page": 563,
     "category": "Product Operations & Product Leadership"
   },
@@ -14438,7 +14473,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "PRODUCT MANAGEMENT FULL COURSE",
+        "title": "Product Management Course FREE",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=wZwByQTksxQ"
+      }
+    ],
     "page": 567,
     "category": "Product Operations & Product Leadership"
   },
@@ -14695,7 +14737,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "AGILE SCRUM FULL COURSE",
+        "title": "Agile Scrum Full Course In 4 Hours",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=VFQtSqChlsk"
+      }
+    ],
     "page": 569,
     "category": "Product Operations & Product Leadership"
   },
@@ -23085,7 +23134,14 @@
     ],
     "page": 701,
     "category": "Product Operations & Product Leadership",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "AGILE SCRUM FULL COURSE",
+        "title": "Agile Scrum Full Course In 4 Hours",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=VFQtSqChlsk"
+      }
+    ]
   },
   {
     "name": "QA Automation Engineer / SDET",
@@ -23342,7 +23398,14 @@
     ],
     "page": 703,
     "category": "Product Operations & Product Leadership",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "BUSINESS ANALYST FULL COURSE",
+        "title": "Business Analyst Training Full Course",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=LktbfHdEm-U"
+      }
+    ]
   },
   {
     "name": "Technology GRC / IT Risk & Compliance Manager",
