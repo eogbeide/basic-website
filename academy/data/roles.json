@@ -1015,7 +1015,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "NVIDIA TENSORRT INFERENCE",
+        "title": "Inference Optimization with NVIDIA TensorRT",
+        "channel": "NVIDIA",
+        "url": "https://www.youtube.com/watch?v=UnIuMXGylfY"
+      }
+    ],
     "page": 551,
     "category": "Data Center, AI Compute & Infrastructure"
   },
@@ -1140,7 +1147,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "NVIDIA TENSORRT INFERENCE",
+        "title": "Inference Optimization with NVIDIA TensorRT",
+        "channel": "NVIDIA",
+        "url": "https://www.youtube.com/watch?v=UnIuMXGylfY"
+      }
+    ],
     "page": 17,
     "category": "Data Center, AI Compute & Infrastructure"
   },
@@ -3714,7 +3728,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "DATA CENTER ENGINEERING",
+        "title": "Data Centers (engineering-level breakdown)",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLFXQBJlBdA0HTB4jnM6EaqlNpDOlGKLgB"
+      }
+    ],
     "page": 511,
     "category": "Data Center, AI Compute & Infrastructure"
   },
@@ -6150,7 +6171,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "NVIDIA TENSORRT INFERENCE",
+        "title": "Inference Optimization with NVIDIA TensorRT",
+        "channel": "NVIDIA",
+        "url": "https://www.youtube.com/watch?v=UnIuMXGylfY"
+      }
+    ],
     "page": 342,
     "category": "Data Center, AI Compute & Infrastructure"
   },
@@ -7413,7 +7441,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "CCNA 200-301 FULL COURSE",
+        "title": "FREE CCNA 200-301 Complete Course",
+        "channel": "NetworkChuck",
+        "url": "https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P"
+      }
+    ],
     "page": 490,
     "category": "Data Center, AI Compute & Infrastructure"
   },
@@ -15074,7 +15109,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "NVIDIA TENSORRT INFERENCE",
+        "title": "Inference Optimization with NVIDIA TensorRT",
+        "channel": "NVIDIA",
+        "url": "https://www.youtube.com/watch?v=UnIuMXGylfY"
+      }
+    ],
     "page": 575,
     "category": "Data Center, AI Compute & Infrastructure"
   },
@@ -15199,7 +15241,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "FINOPS WEEKLY",
+        "title": "FinOps Weekly Podcast",
+        "channel": "FinOps Foundation",
+        "url": "https://www.youtube.com/playlist?list=PLZp7eZoOt-1zJE2uc_gNaVFUV9bVlLq4f"
+      }
+    ],
     "page": 576,
     "category": "Data Center, AI Compute & Infrastructure"
   },
@@ -15456,7 +15505,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "COMPTIA A+ FULL COURSE",
+        "title": "CompTIA A+ Full Course FREE [31+ Hours]",
+        "channel": "Paul Browning",
+        "url": "https://www.youtube.com/watch?v=1CZXXNKAY5o"
+      }
+    ],
     "page": 578,
     "category": "Data Center, AI Compute & Infrastructure"
   },
@@ -24088,7 +24144,14 @@
     ],
     "page": 714,
     "category": "Data Center, AI Compute & Infrastructure",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "NVIDIA TENSORRT INFERENCE",
+        "title": "Inference Optimization with NVIDIA TensorRT",
+        "channel": "NVIDIA",
+        "url": "https://www.youtube.com/watch?v=UnIuMXGylfY"
+      }
+    ]
   },
   {
     "name": "Product Manager, AI Inference",
@@ -24213,7 +24276,14 @@
     ],
     "page": 715,
     "category": "Data Center, AI Compute & Infrastructure",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "NVIDIA TENSORRT INFERENCE",
+        "title": "Inference Optimization with NVIDIA TensorRT",
+        "channel": "NVIDIA",
+        "url": "https://www.youtube.com/watch?v=UnIuMXGylfY"
+      }
+    ]
   },
   {
     "name": "AI Factory Manager / AI Industrialization Lead",
@@ -24338,7 +24408,14 @@
     ],
     "page": 746,
     "category": "Data Center, AI Compute & Infrastructure",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "DATA CENTER ENGINEERING",
+        "title": "Data Centers (engineering-level breakdown)",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLFXQBJlBdA0HTB4jnM6EaqlNpDOlGKLgB"
+      }
+    ]
   },
   {
     "name": "Monetization Manager",
@@ -24588,7 +24665,14 @@
     ],
     "page": 748,
     "category": "Data Center, AI Compute & Infrastructure",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "DATA CENTER ENGINEERING",
+        "title": "Data Centers (engineering-level breakdown)",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLFXQBJlBdA0HTB4jnM6EaqlNpDOlGKLgB"
+      }
+    ]
   },
   {
     "name": "Ad Tech Manager / Advertising Technology Manager",
