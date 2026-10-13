@@ -2068,6 +2068,74 @@
     Remote: 'Remote (US)',
   };
 
+  // Homepage "Hottest Roles": ranks roles by live, currently-open job
+  // volume from the same JOBS_DATA used by Featured Jobs below, and
+  // surfaces the top 3 with their core skills and a direct link to that
+  // role's free learning path. Pure client-side aggregation of data
+  // already loaded for Featured Jobs -- no extra cost or infrastructure,
+  // and it refreshes automatically as JOBS_DATA's daily job refresh runs.
+  // Only present on academy/index.html, which has the #hot-roles-grid
+  // placeholder; a no-op everywhere else.
+  function initHotRolesHome() {
+    var section = document.getElementById('hot-roles-section');
+    var grid = document.getElementById('hot-roles-grid');
+    if (!section || !grid) return;
+
+    var ranked = Object.keys(JOBS_BY_ROLE)
+      .map(function (slug) {
+        var entry = JOBS_BY_ROLE[slug];
+        var newCount = entry.jobs.filter(function (j) { return j.isNew; }).length;
+        return { slug: slug, count: entry.jobs.length, newCount: newCount };
+      })
+      .filter(function (r) { return r.count > 0 && MODES.roles.bySlug[r.slug]; });
+    if (!ranked.length) return;
+
+    ranked.sort(function (a, b) {
+      if (a.count !== b.count) return b.count - a.count;
+      return b.newCount - a.newCount;
+    });
+    var top3 = ranked.slice(0, 3);
+
+    // One pill per competency (not per "/"-separated fragment) -- most
+    // roles write coverage as a single clean skill phrase, but a few use
+    // "/" as an internal word-separator within one phrase rather than
+    // between distinct skills, which split() would otherwise shred into
+    // single-word fragments. Truncating the whole phrase keeps every
+    // role's pills readable regardless of which style it was written in.
+    function topSkills(role) {
+      var skills = [];
+      (role.levels || []).forEach(function (lvl) {
+        (lvl.competencies || []).forEach(function (c) {
+          var s = (c.coverage || '').trim();
+          if (s && skills.indexOf(s) === -1) skills.push(truncateSnippet(s, 38));
+        });
+      });
+      return skills.slice(0, 3);
+    }
+
+    grid.innerHTML = top3.map(function (r, i) {
+      var role = MODES.roles.bySlug[r.slug];
+      var skills = topSkills(role);
+      var openingsLabel = r.count === 1 ? '1 live opening' : r.count + ' live openings';
+      var skillsHtml = skills.length
+        ? '<div class="hot-role-skills">' + skills.map(function (s) {
+            return '<span class="hot-role-skill-pill">' + escapeHtml(s) + '</span>';
+          }).join('') + '</div>'
+        : '';
+      return (
+        '<article class="hot-role-card">' +
+        '<span class="hot-role-rank">#' + (i + 1) + '</span>' +
+        '<h3>' + escapeHtml(role.name) + '</h3>' +
+        '<p class="hot-role-openings">' + escapeHtml(openingsLabel) + (r.newCount ? ' &middot; ' + r.newCount + ' new' : '') + '</p>' +
+        skillsHtml +
+        '<a class="hot-role-cta" href="/academy/roles/' + escapeHtml(r.slug) + '/">Start the free path &rarr;</a>' +
+        '</article>'
+      );
+    }).join('');
+
+    section.hidden = false;
+  }
+
   function initFeaturedJobsHome() {
     var grid = document.getElementById('featured-jobs-grid');
     var section = document.getElementById('featured-jobs-section');
@@ -2263,6 +2331,7 @@
   }
 
   renderHeroRolePreview();
+  initHotRolesHome();
   initFeaturedJobsHome();
 
   window.addEventListener('popstate', routeFromPath);
