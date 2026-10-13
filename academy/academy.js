@@ -319,10 +319,10 @@
     return (
       (track.subtitle ? '<p class="detail-description">' + escapeHtml(track.subtitle) + '</p>' : '') +
       (track.benchmark ? '<p class="detail-benchmark">Benchmark: ' + escapeHtml(track.benchmark) + '</p>' : '') +
-      track.levels.map(function (lvl, i) { return renderLevel(lvl, i, 'Practice'); }).join('') +
       (bonus
         ? '<div class="cross-links-block"><h3>Enrichment</h3><ul class="video-links">' + bonus + '</ul></div>'
         : '') +
+      track.levels.map(function (lvl, i) { return renderLevel(lvl, i, 'Practice'); }).join('') +
       (track.capstone
         ? '<div class="capstone-block"><h3>Interview-Readiness Proof / Practice Loop</h3><p>' + escapeHtml(track.capstone) + '</p></div>'
         : '') +
@@ -362,25 +362,14 @@
   }
 
   function renderRole(role) {
-    var bonus = (role.bonus || [])
-      .map(function (b) {
-        var url = b.url ? escapeHtml(b.url) : '#';
-        var channel = b.channel ? ' &mdash; ' + escapeHtml(b.channel) : '';
-        return (
-          '<li><a href="' + url + '" target="_blank" rel="noopener noreferrer">' +
-          '<span class="play-icon">&#9654;</span><span>' +
-          (b.label ? '<strong>' + escapeHtml(b.label) + ':</strong> ' : '') +
-          escapeHtml(b.title) + channel + '</span></a></li>'
-        );
-      })
-      .join('');
+    var bonus = renderBonusList(role.bonus);
 
     var masteryPanel =
       renderRoleGuide(role) +
-      role.levels.map(function (lvl, i) { return renderLevel(lvl, i); }).join('') +
       (bonus
         ? '<div class="cross-links-block"><h3>Enrichment</h3><ul class="video-links">' + bonus + '</ul></div>'
         : '') +
+      role.levels.map(function (lvl, i) { return renderLevel(lvl, i); }).join('') +
       (role.capstone
         ? '<div class="capstone-block"><h3>Role-Readiness Proof / Capstone</h3><p>' + escapeHtml(role.capstone) + '</p></div>'
         : '') +
@@ -511,11 +500,11 @@
       (roleLinks
         ? '<div class="cross-links-block"><h3>Representative Roles</h3><div class="role-pills">' + roleLinks + '</div></div>'
         : '') +
+      (resources
+        ? '<div class="cross-links-block"><h3>Enrichment</h3><ul class="video-links">' + resources + '</ul></div>'
+        : '') +
       (courses
         ? '<div class="course-sequence-block"><h3>Course Sequence</h3><ol class="course-sequence">' + courses + '</ol></div>'
-        : '') +
-      (resources
-        ? '<div class="cross-links-block"><h3>Direct Video Bridges</h3><ul class="video-links">' + resources + '</ul></div>'
         : '') +
       '</div>'
     );
@@ -562,10 +551,10 @@
       (cert.description ? '<p class="detail-description">' + escapeHtml(cert.description) + '</p>' : '') +
       (cert.university_benchmark ? '<p class="detail-benchmark">University Curriculum Benchmark: ' + escapeHtml(cert.university_benchmark) + '</p>' : '') +
       renderHiringFallback(cert.name) +
-      tiers +
       (resourceLinks
-        ? '<div class="cross-links-block"><h3>Direct Learning Bridges</h3><ul class="video-links">' + resourceLinks + '</ul></div>'
+        ? '<div class="cross-links-block"><h3>Enrichment</h3><ul class="video-links">' + resourceLinks + '</ul></div>'
         : '') +
+      tiers +
       (cert.capstone
         ? '<div class="capstone-block"><h3>Integrative Capstone</h3><p>' + escapeHtml(cert.capstone) + '</p></div>'
         : '') +
