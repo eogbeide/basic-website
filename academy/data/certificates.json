@@ -256,7 +256,7 @@
       {
         "competency": "Real analysis",
         "coverage": "MIT OCW Real Analysis",
-        "url": null
+        "url": "https://www.youtube.com/watch?v=BWvjy0a1Ffg"
       },
       {
         "competency": "Abstract algebra + structural depth",
@@ -624,7 +624,7 @@
       {
         "competency": "Circuits & analog electronics",
         "coverage": "MIT OCW Circuits",
-        "url": null
+        "url": "https://learn.mit.edu/video/13676/lecture-1-introduction-and-lumped-abstraction?playlist=13675"
       },
       {
         "competency": "Probability & inference for EE",
@@ -757,7 +757,7 @@
       {
         "competency": "Engineering dynamics & control",
         "coverage": "MIT OCW Engineering Dynamics - FIXED",
-        "url": null
+        "url": "https://www.youtube.com/watch?v=GUvoVvXwoOQ"
       },
       {
         "competency": "Thermodynamics",
@@ -880,7 +880,7 @@
       {
         "competency": "Chemical engineering thermodynamics",
         "coverage": "LearnChemE Thermodynamics - FIXED",
-        "url": null
+        "url": "https://www.youtube.com/watch?v=UMs9GIrY4dw"
       },
       {
         "competency": "Transport: fluid / heat / mass",
@@ -1016,7 +1016,7 @@
       {
         "competency": "Linear / convex optimization",
         "coverage": "Linear Programming bridge",
-        "url": null
+        "url": "https://www.youtube.com/watch?v=qKNkP6IfjvY"
       },
       {
         "competency": "Stochastic models + queueing",
@@ -1026,7 +1026,7 @@
       {
         "competency": "Simulation / Monte Carlo",
         "coverage": "MIT OCW Simulation",
-        "url": null
+        "url": "https://ocw.mit.edu/courses/ids-333-risk-and-decision-analysis-fall-2021/resources/unit-5-simulation-video-1/"
       },
       {
         "competency": "Quality + process improvement",
@@ -1036,7 +1036,7 @@
       {
         "competency": "Supply chain + human factors / systems design",
         "coverage": "MIT Lean Supply Chain",
-        "url": null
+        "url": "https://ocw.mit.edu/courses/16-660j-introduction-to-lean-six-sigma-methods-january-iap-2012/resources/lean-supply-chain-basics/"
       }
     ],
     "page": 385,
@@ -1147,7 +1147,7 @@
       {
         "competency": "Circuits & electronics",
         "coverage": "MIT OCW Circuits",
-        "url": null
+        "url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/resources/lecture-1/"
       },
       {
         "competency": "Digital logic & lab thinking",
@@ -1298,7 +1298,7 @@
       {
         "competency": "Decision analysis, simulation & optimization",
         "coverage": "MIT OCW Decision / Simulation",
-        "url": null
+        "url": "https://ocw.mit.edu/courses/ids-333-risk-and-decision-analysis-fall-2021/resources/unit-8-decision-analysis-video-1/"
       },
       {
         "competency": "Reliability, risk & uncertainty",
@@ -1414,7 +1414,7 @@
       {
         "competency": "Close reading & textual evidence",
         "coverage": "Oregon State - Close Reading",
-        "url": null
+        "url": "https://www.youtube.com/watch?v=J2KHX1Pm5co"
       },
       {
         "competency": "Academic argument, evidence + research",
@@ -1429,12 +1429,12 @@
       {
         "competency": "Narrative theory + plot / story",
         "coverage": "Open Yale - Russian Formalism - FIXED",
-        "url": null
+        "url": "https://www.youtube.com/watch?v=11_oVlwfv2M"
       },
       {
         "competency": "Literary history + contextual reading",
         "coverage": "Open Yale - Literature Context - FIXED",
-        "url": null
+        "url": "https://www.youtube.com/watch?v=TyVAU5iGe0k"
       },
       {
         "competency": "Creative revision + professional rhetoric",
