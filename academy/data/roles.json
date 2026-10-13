@@ -3180,7 +3180,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GOOGLE CLOUD AI AGENTS",
+        "title": "Crash Course for AI Agents with Google Cloud",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/playlist?list=PLutB-DANVpnSLECwNqxDXjzqExPmGE7uu"
+      }
+    ],
     "page": 558,
     "category": "AI Product, Strategy & Enterprise Transformation"
   },
@@ -21370,7 +21377,14 @@
     ],
     "page": 671,
     "category": "AI Product, Strategy & Enterprise Transformation",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "NIST AI RMF ENTERPRISE GOVERNANCE",
+        "title": "NIST AI RMF: Governing AI Risk at Enterprise Scale",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=IPxRCt-BQwc"
+      }
+    ]
   },
   {
     "name": "Learner / Learning Strategist",
@@ -22683,7 +22697,14 @@
     ],
     "page": 697,
     "category": "AI Product, Strategy & Enterprise Transformation",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "PRODUCT MANAGEMENT FULL COURSE",
+        "title": "Product Management Course FREE",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=wZwByQTksxQ"
+      }
+    ]
   },
   {
     "name": "Marketing Manager",
@@ -23864,7 +23885,14 @@
     ],
     "page": 706,
     "category": "AI Product, Strategy & Enterprise Transformation",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "GOOGLE CLOUD AI AGENTS",
+        "title": "Crash Course for AI Agents with Google Cloud",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/playlist?list=PLutB-DANVpnSLECwNqxDXjzqExPmGE7uu"
+      }
+    ]
   },
   {
     "name": "ERP Systems Manager / Enterprise Applications Manager",
@@ -24517,7 +24545,14 @@
     ],
     "page": 711,
     "category": "AI Product, Strategy & Enterprise Transformation",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "GOOGLE CLOUD AI AGENTS",
+        "title": "Crash Course for AI Agents with Google Cloud",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/playlist?list=PLutB-DANVpnSLECwNqxDXjzqExPmGE7uu"
+      }
+    ]
   },
   {
     "name": "Platform Engineer",
@@ -25566,7 +25601,14 @@
     ],
     "page": 750,
     "category": "AI Product, Strategy & Enterprise Transformation",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "PRICING & MONETIZATION STRATEGY",
+        "title": "Software Pricing & Monetization Strategy Explained",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLf2OT6bt1X3MdCmlLGksE3XgPDgNDlPIR"
+      }
+    ]
   },
   {
     "name": "Supply Chain & Procurement Planner",
@@ -26349,7 +26391,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GOOGLE CLOUD AI AGENTS",
+        "title": "Crash Course for AI Agents with Google Cloud",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/playlist?list=PLutB-DANVpnSLECwNqxDXjzqExPmGE7uu"
+      }
+    ],
     "page": 1885,
     "category": "AI Product, Strategy & Enterprise Transformation"
   }
