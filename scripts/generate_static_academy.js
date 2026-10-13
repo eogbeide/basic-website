@@ -121,7 +121,9 @@ function pageShell(opts) {
     <div class="mode-toggle">
       <button type="button" data-mode="roles"${opts.mode === 'roles' ? ' class="active"' : ''}>Roles</button>
       <button type="button" data-mode="pathways"${opts.mode === 'pathways' ? ' class="active"' : ''}>Career Pathways</button>
-      <button type="button" data-mode="credentials"${opts.mode === 'credentials' || opts.mode === 'certificates' || opts.mode === 'skills' ? ' class="active"' : ''}>Certificates &amp; Skill Tracks</button>
+      <button type="button" data-mode="bootcamps"${opts.credGroup === 'bootcamps' ? ' class="active"' : ''}>Bootcamps</button>
+      <button type="button" data-mode="mastery"${opts.credGroup === 'mastery' ? ' class="active"' : ''}>Mastery</button>
+      <button type="button" data-mode="credentials"${opts.mode === 'credentials' || opts.mode === 'certificates' || (opts.mode === 'skills' && opts.credGroup !== 'bootcamps' && opts.credGroup !== 'mastery') ? ' class="active"' : ''}>Certificates &amp; Skill Tracks</button>
       <button type="button" data-mode="interview"${opts.mode === 'interview' ? ' class="active"' : ''}>Interview Prep</button>
       <button type="button" data-mode="mypathway"${opts.mode === 'mypathway' ? ' class="active"' : ''}>My Learning</button>
     </div>
@@ -317,11 +319,15 @@ skillTracks.forEach((t) => {
   navigate('/academy/skills/' + slug + '/');
   const detailHtml = doc.getElementById('role-detail').innerHTML.replace('<h2>', '<h1>').replace('</h2>', '</h1>');
   const canonical = `${BASE_URL}/academy/skills/${slug}/`;
+  const credGroup = t.category === 'Bootcamp Mastery Certificate' ? 'bootcamps'
+    : (t.category === 'Standalone Mastery Certificate' || t.category === 'Agent Mastery') ? 'mastery'
+    : 'credentials';
   const page = pageShell({
     title: `${t.name} | Zuyini Academy Skill Track`,
     description: truncate(t.tagline || t.intro || `A hands-on mastery route: ${t.name}.`, 155),
     canonical,
     mode: 'skills',
+    credGroup,
     staticList: renderStaticList('skills'),
     detailHtml,
   });

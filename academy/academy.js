@@ -724,9 +724,44 @@
     emptyTitle: 'Choose a certificate or skill track',
     emptyBody: 'University-benchmarked Academic Certificates and hands-on Bootcamp, Standalone and Agent Mastery Skill Tracks, side by side. Browse by group on the left, or pick a specific category to narrow the list.',
     featured: ['Comprehensive Certificate in Computer Science', 'Full-Stack Web Development Bootcamp Certificate', 'Comprehensive Certificate - Mini MBA', 'AI Mastery', 'Agent Mastery — Claude / Anthropic'],
+    isCombined: true,
     render: function (item) {
       return item._credSrcMode === 'certificates' ? renderCertificate(item) : renderSkillTrack(item);
     },
+  };
+
+  // Bootcamps and Mastery Tracks: two more browsing-only tabs, each a
+  // pre-filtered slice of the "skills" catalog (same handoff trick as
+  // "credentials" above -- selecting an item hands off to its real
+  // /academy/skills/<slug>/ URL and renderSkillTrack, nothing about the
+  // underlying catalog, static pages or localStorage keys changes). These
+  // exist as their own top-level ribbon tabs instead of being reachable
+  // only via a category inside "Certificates & Skill Tracks", since both
+  // were specifically asked to be promoted to top-level visibility.
+  MODES.bootcamps = {
+    label: 'bootcamps',
+    data: MODES.skills.data
+      .filter(function (s) { return s.category === 'Bootcamp Mastery Certificate'; })
+      .map(function (s) { return Object.assign({}, s, { _credSrcMode: 'skills' }); }),
+    searchPlaceholder: 'Search bootcamps, e.g. Full-Stack, Python, Data Cloud...',
+    emptyTitle: 'Choose a bootcamp',
+    emptyBody: 'Video-first, project-based Bootcamp Certificates: a structured build-along sequence, hands-on checkpoints and an independent capstone.',
+    featured: ['Full-Stack Web Development Bootcamp Certificate', 'Python Software Engineering Bootcamp Certificate'],
+    isCombined: true,
+    render: function (item) { return renderSkillTrack(item); },
+  };
+
+  MODES.mastery = {
+    label: 'mastery tracks',
+    data: MODES.skills.data
+      .filter(function (s) { return s.category === 'Standalone Mastery Certificate' || s.category === 'Agent Mastery'; })
+      .map(function (s) { return Object.assign({}, s, { _credSrcMode: 'skills' }); }),
+    searchPlaceholder: 'Search mastery tracks, e.g. AI Mastery, Agent Mastery, UI & UX...',
+    emptyTitle: 'Choose a mastery track',
+    emptyBody: 'Focused, video-first Standalone and Agent Mastery tracks: Deep Learning, Leadership, Negotiation, Cybersecurity and more, plus Agent Mastery across Claude, OpenAI, Google Cloud, AWS and Microsoft.',
+    featured: ['Agent Mastery — Claude / Anthropic', 'Deep Learning Certificate', 'Leadership Certificate', 'Cybersecurity Certificate'],
+    isCombined: true,
+    render: function (item) { return renderSkillTrack(item); },
   };
 
   Object.keys(MODES).forEach(function (key) {
@@ -1577,12 +1612,13 @@
   function selectItem(slug, updatePath) {
     var item = MODES[currentMode].bySlug[slug];
     if (!item) return;
-    // Certificates & Skill Tracks is a browsing-only combined view -- hand
-    // off to the item's real mode/URL/storage rather than rendering it as
-    // a "credentials" item, so nothing about the underlying catalogs
-    // changes for anyone linking directly to /academy/certificates/... or
-    // /academy/skills/...
-    if (currentMode === 'credentials') {
+    // Certificates & Skill Tracks (and the narrower Bootcamps/Mastery
+    // Tracks tabs) are browsing-only combined views -- hand off to the
+    // item's real mode/URL/storage rather than rendering it as a
+    // "credentials"/"bootcamps"/"mastery" item, so nothing about the
+    // underlying catalogs changes for anyone linking directly to
+    // /academy/certificates/... or /academy/skills/...
+    if (MODES[currentMode].isCombined) {
       setMode(item._credSrcMode, slug, updatePath);
       return;
     }
@@ -1612,11 +1648,21 @@
     currentMode = mode;
     currentCategory = ALL_CATEGORIES;
 
+    // "certificates" always belongs to the "Certificates & Skill Tracks"
+    // tab, but "skills" items are split across three tabs (Bootcamps,
+    // Mastery Tracks, and Certificates & Skill Tracks for everything
+    // else -- languages, programming, AI Mastery, UI & UX Mastery,
+    // Leadership & Growth) -- so which one should re-highlight after a
+    // handoff depends on the specific item's own category.
+    var impliedCombinedMode = 'credentials';
+    if (mode === 'skills' && slug && MODES.skills.bySlug[slug]) {
+      var openedCategory = MODES.skills.bySlug[slug].category;
+      if (openedCategory === 'Bootcamp Mastery Certificate') impliedCombinedMode = 'bootcamps';
+      else if (openedCategory === 'Standalone Mastery Certificate' || openedCategory === 'Agent Mastery') impliedCombinedMode = 'mastery';
+    }
     toggleButtons.forEach(function (btn) {
       var btnMode = btn.getAttribute('data-mode');
-      // Certificates and Skill Tracks share one combined tab button, so
-      // opening either underlying mode should still highlight it
-      var active = btnMode === mode || (btnMode === 'credentials' && (mode === 'certificates' || mode === 'skills'));
+      var active = btnMode === mode || ((mode === 'certificates' || mode === 'skills') && btnMode === impliedCombinedMode);
       btn.classList.toggle('active', active);
     });
 
@@ -1645,9 +1691,9 @@
 
     renderList('');
 
-    if (mode === 'credentials' && slug && MODES[mode].bySlug[slug]) {
+    if (MODES[mode].isCombined && slug && MODES[mode].bySlug[slug]) {
       // hand off entirely to the item's real mode/URL -- don't also push
-      // a /academy/credentials/<slug>/ history entry after it
+      // a /academy/credentials|bootcamps|mastery/<slug>/ history entry
       selectItem(slug, updatePath);
       return;
     }
