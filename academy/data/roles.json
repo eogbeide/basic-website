@@ -495,7 +495,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "HUGGING FACE AGENTS COURSE",
+        "title": "Free AI Agents Course From Hugging Face",
+        "channel": "Hugging Face",
+        "url": "https://www.youtube.com/watch?v=szIyS_aOS0E"
+      }
+    ],
     "page": 19,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -15499,7 +15506,14 @@
     "capstone": "Transform a real manual business workflow into a production-ready AI solution. Diagnose the current process and controls; define success and acceptance criteria; query and validate source data in SQL; build an agent with tools, MCP or APIs and a grounded knowledge layer; create evals and regression tests; instrument traces, quality, latency, cost and alerts; run a failure/incident drill; pilot with real users; then deliver SOPs, training, self-service ownership and an adoption/impact readout.",
     "rubric": "Show a measurable workflow improvement, not an AI demo: traceable requirements; trustworthy SQL/data logic; sound agent/tool boundaries; grounded retrieval; reliable integrations; eval coverage and failure analysis; observability and recovery; security/control awareness; user feedback and adoption evidence; maintainable documentation and handoff; quantify cycle time, quality, cost, error-rate or capacity impact and explain when a simpler non-agent solution is better.",
     "category": "AI, Agents & Intelligent Automation",
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "IBM WATSONX ORCHESTRATE",
+        "title": "IBM watsonx Orchestrate",
+        "channel": "IBM",
+        "url": "https://www.youtube.com/playlist?list=PLqJW9Qk7ml-nAx3VJcC9TaBA2ZC1N29qb"
+      }
+    ],
     "levels": [
       {
         "level": "BASIC",
@@ -17360,7 +17374,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "CLAUDE CODE FULL COURSE",
+        "title": "Claude Code for Beginners Tutorial [Full Course]",
+        "channel": "freeCodeCamp.org",
+        "url": "https://www.youtube.com/watch?v=gh2_PhgZGsM"
+      }
+    ],
     "page": 606,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -17485,7 +17506,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "COPILOT STUDIO AGENTS",
+        "title": "Building AI Agents with Microsoft Copilot Studio",
+        "channel": "Microsoft",
+        "url": "https://www.youtube.com/playlist?list=PLXXz88_TPiHqmMjb8UR0KL9YDid_V-J9F"
+      }
+    ],
     "page": 607,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -17610,7 +17638,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GOOGLE CLOUD AI AGENTS",
+        "title": "Crash Course for AI Agents with Google Cloud",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/playlist?list=PLutB-DANVpnSLECwNqxDXjzqExPmGE7uu"
+      }
+    ],
     "page": 608,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -17735,7 +17770,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "AMAZON BEDROCK AGENTCORE",
+        "title": "Amazon Bedrock AgentCore",
+        "channel": "AWS",
+        "url": "https://www.youtube.com/playlist?list=PLhr1KZpdzukc60dMwb86KTBl41sko_hRE"
+      }
+    ],
     "page": 609,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -17860,7 +17902,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "OPENAI AI ENGINEER TALKS",
+        "title": "OpenAI @ AI Engineer",
+        "channel": "OpenAI",
+        "url": "https://www.youtube.com/playlist?list=PLcfpQ4tk2k0VxzFm4TrRp56PIwnboyyrs"
+      }
+    ],
     "page": 610,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -17985,7 +18034,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "NVIDIA AGENTIC AI CERTIFICATION",
+        "title": "NVIDIA Certified Professional: Agentic AI (NCP-AAI)",
+        "channel": "NVIDIA",
+        "url": "https://www.youtube.com/playlist?list=PL3Sk77w7CQs_7RUoqHQdUTY_c9vtrmR5F"
+      }
+    ],
     "page": 611,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -18110,7 +18166,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "SALESFORCE TRAILHEAD",
+        "title": "Salesforce / Trailhead",
+        "channel": "Salesforce Developers",
+        "url": "https://www.youtube.com/playlist?list=PLwcSBTogUpAnfEHioc2ybrYaSdF4zalqp"
+      }
+    ],
     "page": 612,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -18235,7 +18298,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "DATABRICKS AGENT BRICKS",
+        "title": "Databricks Agent Bricks Full Course",
+        "channel": "Databricks",
+        "url": "https://www.youtube.com/playlist?list=PL7S7dD8r4QdVj9P_boNjRbhy_udOx-IVB"
+      }
+    ],
     "page": 613,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -18360,7 +18430,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "SNOWFLAKE CORTEX AI",
+        "title": "Cortex AI",
+        "channel": "Snowflake",
+        "url": "https://www.youtube.com/playlist?list=PLavJpcg8cl1Fz5IyYbMpvg0FDT8IANxam"
+      }
+    ],
     "page": 614,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -18485,7 +18562,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "SERVICENOW AI AGENT STUDIO",
+        "title": "Walkthrough of ServiceNow's AI Agent Studio",
+        "channel": "ServiceNow Community",
+        "url": "https://www.youtube.com/watch?v=EJzKIYWFdDQ"
+      }
+    ],
     "page": 615,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -18610,7 +18694,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "ORACLE CLOUD AI AGENTS",
+        "title": "Oracle Fusion Cloud AI Agents (Basics to Advanced)",
+        "channel": "Oracle",
+        "url": "https://www.youtube.com/playlist?list=PL5k39Pp6168qI9ynl_xjsWCbiWZDZjTM7"
+      }
+    ],
     "page": 616,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -18735,7 +18826,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "IBM WATSONX ORCHESTRATE",
+        "title": "IBM watsonx Orchestrate",
+        "channel": "IBM",
+        "url": "https://www.youtube.com/playlist?list=PLqJW9Qk7ml-nAx3VJcC9TaBA2ZC1N29qb"
+      }
+    ],
     "page": 617,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -18860,7 +18958,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "META AI PLAYLIST",
+        "title": "Meta AI: Llama 3, Llama 2, Code Llama and more",
+        "channel": "Meta",
+        "url": "https://www.youtube.com/playlist?list=PL25YsUhIcpO_rCbuKiZuHfNraFsO-f2pz"
+      }
+    ],
     "page": 618,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -18985,7 +19090,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "APPLE FOUNDATION MODELS",
+        "title": "Meet the Foundation Models Framework (WWDC25)",
+        "channel": "Apple",
+        "url": "https://developer.apple.com/videos/play/wwdc2025/286/"
+      }
+    ],
     "page": 619,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -19110,7 +19222,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "XAI API GETTING STARTED",
+        "title": "Get Started With xAI: How To Make Your First API Call",
+        "channel": "xAI developer content",
+        "url": "https://www.youtube.com/watch?v=DpqujvyaotU"
+      }
+    ],
     "page": 620,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -19235,7 +19354,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "PERPLEXITY SONAR API",
+        "title": "Perplexity's Sonar API: AI Search for Everyone",
+        "channel": "Tech News Now",
+        "url": "https://www.youtube.com/watch?v=ngO3TXxV5pk"
+      }
+    ],
     "page": 621,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -19360,7 +19486,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GETTING STARTED WITH MISTRAL",
+        "title": "Getting Started with Mistral",
+        "channel": "DeepLearning.AI",
+        "url": "https://www.youtube.com/watch?v=tcBYaZqdc4A"
+      }
+    ],
     "page": 622,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -19485,7 +19618,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "COHERE LLM UNIVERSITY",
+        "title": "LLM University",
+        "channel": "Cohere",
+        "url": "https://www.youtube.com/playlist?list=PLLalUvky4CLIpL4PkbTyf9DeXxJaZzEgU"
+      }
+    ],
     "page": 623,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -19610,7 +19750,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "HUGGING FACE AGENTS COURSE",
+        "title": "Free AI Agents Course From Hugging Face",
+        "channel": "Hugging Face",
+        "url": "https://www.youtube.com/watch?v=szIyS_aOS0E"
+      }
+    ],
     "page": 624,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -19735,7 +19882,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "PALANTIR AIP AGENTS",
+        "title": "Build an AIP Agent in Palantir Foundry (Step by Step)",
+        "channel": "Palantir",
+        "url": "https://www.youtube.com/watch?v=EqsLWIrzDbs"
+      }
+    ],
     "page": 625,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -20112,7 +20266,14 @@
     ],
     "page": 648,
     "category": "AI, Agents & Intelligent Automation",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "PROMPT ENGINEERING FOR DEVELOPERS",
+        "title": "ChatGPT Prompt Engineering for Developers (9 lessons)",
+        "channel": "DeepLearning.AI / OpenAI",
+        "url": "https://www.deeplearning.ai/courses/chatgpt-prompt-eng"
+      }
+    ]
   },
   {
     "name": "Responsible AI Program Manager",
@@ -21487,7 +21648,14 @@
     ],
     "page": 696,
     "category": "AI, Agents & Intelligent Automation",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "GOOGLE CLOUD AI AGENTS",
+        "title": "Crash Course for AI Agents with Google Cloud",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/playlist?list=PLutB-DANVpnSLECwNqxDXjzqExPmGE7uu"
+      }
+    ]
   },
   {
     "name": "Digital Product Manager",
@@ -22612,7 +22780,14 @@
     ],
     "page": 705,
     "category": "AI, Agents & Intelligent Automation",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "RASA CONVERSATIONAL AI",
+        "title": "Conversational AI with Rasa Open Source 3.x",
+        "channel": "Rasa",
+        "url": "https://www.youtube.com/playlist?list=PL75e0qA87dlEjGAc9j9v3a5h1mxI2Z9fi"
+      }
+    ]
   },
   {
     "name": "Product Manager, Agentic Commerce",
