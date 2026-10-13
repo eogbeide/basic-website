@@ -3200,7 +3200,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "CUSTOMER SUCCESS PLAYBOOK",
+        "title": "How to Run Customer Success in HubSpot",
+        "channel": "HubSpot",
+        "url": "https://www.youtube.com/playlist?list=PL73lIzHzGyoeQU-_sQoI8VnRWRDBGQVh3"
+      }
+    ],
     "page": 409,
     "category": "Revenue Operations, Technical Sales & GTM Systems"
   },
@@ -6013,7 +6020,14 @@
     ],
     "page": 520,
     "category": "Revenue Operations, Technical Sales & GTM Systems",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "GO-TO-MARKET STRATEGY",
+        "title": "Full Course: Go-To-Market Strategy & Product Launch Plan",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=FmyI8jmLdEg"
+      }
+    ]
   },
   {
     "name": "Hardware Engineer",
@@ -8809,7 +8823,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GO-TO-MARKET STRATEGY",
+        "title": "Full Course: Go-To-Market Strategy & Product Launch Plan",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=FmyI8jmLdEg"
+      }
+    ],
     "page": 500,
     "category": "Revenue Operations, Technical Sales & GTM Systems"
   },
@@ -8934,7 +8955,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GO-TO-MARKET STRATEGY",
+        "title": "Full Course: Go-To-Market Strategy & Product Launch Plan",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=FmyI8jmLdEg"
+      }
+    ],
     "page": 410,
     "category": "Revenue Operations, Technical Sales & GTM Systems"
   },
@@ -9684,7 +9712,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "SALESFORCE ADMIN FULL COURSE",
+        "title": "Salesforce Admin - Full Course",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLQXsHnNZgiNftAdsvhbVu0YV01mqc0zDl"
+      }
+    ],
     "page": 510,
     "category": "Revenue Operations, Technical Sales & GTM Systems"
   },
@@ -9934,7 +9969,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GOOGLE CLOUD AI AGENTS",
+        "title": "Crash Course for AI Agents with Google Cloud",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/playlist?list=PLutB-DANVpnSLECwNqxDXjzqExPmGE7uu"
+      }
+    ],
     "page": 329,
     "category": "Revenue Operations, Technical Sales & GTM Systems"
   },
@@ -10059,7 +10101,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "TECHNICAL SALES TRAINING",
+        "title": "Technical Sales & Sales Engineer Training",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLdmOG7sUsCQwNK1Ez5UFrgYA7OJ_-w4Om"
+      }
+    ],
     "page": 513,
     "category": "Revenue Operations, Technical Sales & GTM Systems"
   },
@@ -13240,7 +13289,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "TECHNICAL SALES TRAINING",
+        "title": "Technical Sales & Sales Engineer Training",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLdmOG7sUsCQwNK1Ez5UFrgYA7OJ_-w4Om"
+      }
+    ],
     "page": 561,
     "category": "Revenue Operations, Technical Sales & GTM Systems"
   },
@@ -13365,7 +13421,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "TECHNICAL SALES TRAINING",
+        "title": "Technical Sales & Sales Engineer Training",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLdmOG7sUsCQwNK1Ez5UFrgYA7OJ_-w4Om"
+      }
+    ],
     "page": 562,
     "category": "Revenue Operations, Technical Sales & GTM Systems"
   },
@@ -16271,7 +16334,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GO-TO-MARKET STRATEGY",
+        "title": "Full Course: Go-To-Market Strategy & Product Launch Plan",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=FmyI8jmLdEg"
+      }
+    ],
     "page": 596,
     "category": "Revenue Operations, Technical Sales & GTM Systems"
   },
@@ -16396,7 +16466,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GO-TO-MARKET STRATEGY",
+        "title": "Full Course: Go-To-Market Strategy & Product Launch Plan",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=FmyI8jmLdEg"
+      }
+    ],
     "page": 597,
     "category": "Revenue Operations, Technical Sales & GTM Systems"
   },
@@ -17271,7 +17348,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "SALESFORCE ADMIN FULL COURSE",
+        "title": "Salesforce Admin - Full Course",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLQXsHnNZgiNftAdsvhbVu0YV01mqc0zDl"
+      }
+    ],
     "page": 604,
     "category": "Revenue Operations, Technical Sales & GTM Systems"
   },
@@ -17396,7 +17480,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GOOGLE CLOUD AI AGENTS",
+        "title": "Crash Course for AI Agents with Google Cloud",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/playlist?list=PLutB-DANVpnSLECwNqxDXjzqExPmGE7uu"
+      }
+    ],
     "page": 605,
     "category": "Revenue Operations, Technical Sales & GTM Systems"
   },
