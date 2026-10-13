@@ -641,7 +641,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "DATA SCIENCE FULL COURSE",
+        "title": "Complete Data Science Course Playlist",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLK5362eEMpaCtuA5GpIMn1S2N6pAd2_-Z"
+      }
+    ],
     "page": 553,
     "category": "Data, AI & Machine Learning"
   },
@@ -1962,7 +1969,14 @@
     ],
     "page": 422,
     "category": "Data, AI & Machine Learning",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "ULTIMATE MLOPS FULL COURSE",
+        "title": "Ultimate MLOps Full Course in One Video",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=w71RHxAWxaM"
+      }
+    ]
   },
   {
     "name": "Analytics Engineer",
@@ -2361,7 +2375,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "POWER BI FULL COURSE",
+        "title": "Power BI Complete Course 2026 - Beginner to Expert",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=cyWVzAQF9YU"
+      }
+    ],
     "page": 416,
     "category": "Data, AI & Machine Learning"
   },
@@ -4326,7 +4347,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "DATA SCIENCE FULL COURSE",
+        "title": "Complete Data Science Course Playlist",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLK5362eEMpaCtuA5GpIMn1S2N6pAd2_-Z"
+      }
+    ],
     "page": 8,
     "category": "Data, AI & Machine Learning"
   },
@@ -4451,7 +4479,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "DATA SCIENCE FULL COURSE",
+        "title": "Complete Data Science Course Playlist",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLK5362eEMpaCtuA5GpIMn1S2N6pAd2_-Z"
+      }
+    ],
     "page": 552,
     "category": "Data, AI & Machine Learning"
   },
@@ -10457,7 +10492,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "RAG EXPLAINED FULL COURSE",
+        "title": "The End of Search Engines? RAG Explained (Full 8-Hour Course)",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=9c48sMot1gA"
+      }
+    ],
     "page": 550,
     "category": "Data, AI & Machine Learning"
   },
@@ -11888,7 +11930,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "ULTIMATE MLOPS FULL COURSE",
+        "title": "Ultimate MLOps Full Course in One Video",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=w71RHxAWxaM"
+      }
+    ],
     "page": 544,
     "category": "Data, AI & Machine Learning"
   },
@@ -14854,7 +14903,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "NEO4J KNOWLEDGE GRAPHS",
+        "title": "Neo4j Hands-On Workshops & Tutorials",
+        "channel": "Neo4j",
+        "url": "https://www.youtube.com/playlist?list=PL9Hl4pk2FsvVX4F6eDrolGvGEIL0QTpLr"
+      }
+    ],
     "page": 571,
     "category": "Data, AI & Machine Learning"
   },
@@ -14979,7 +15035,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "LLM EVALUATIONS",
+        "title": "Evaluating LLMs",
+        "channel": "Hamel Husain",
+        "url": "https://www.youtube.com/watch?v=SnbGD677_u0"
+      }
+    ],
     "page": 572,
     "category": "Data, AI & Machine Learning"
   },
