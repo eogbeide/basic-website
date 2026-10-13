@@ -3745,7 +3745,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "DATA PIPELINE FOUNDATIONS",
+        "title": "Data Engineering Course for Beginners",
+        "channel": "freeCodeCamp",
+        "url": "https://www.youtube.com/watch?v=PHsC_t0j1dU"
+      }
+    ],
     "page": 9,
     "category": "Data, AI & Machine Learning"
   },
@@ -5620,7 +5627,20 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "AI-NATIVE CUSTOMER DISCOVERY",
+        "title": "AI-Powered Customer Discovery for Product Managers",
+        "channel": "Maven",
+        "url": "https://maven.com/p/3cf123/ai-powered-customer-discovery-for-product-managers"
+      },
+      {
+        "label": "FDE-STYLE PRODUCT DELIVERY",
+        "title": "Build Products Like a Forward Deployed Engineer",
+        "channel": "Maven",
+        "url": "https://maven.com/p/a42c6c/build-products-like-a-forward-deployed-engineer"
+      }
+    ],
     "page": 543,
     "category": "AI Product, Strategy & Enterprise Transformation"
   },
@@ -6745,7 +6765,20 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "MLOPS PRODUCTION PROJECT",
+        "title": "MLOps Course: Build Machine Learning Production-Grade Projects",
+        "channel": "freeCodeCamp / Ayush Singh",
+        "url": "https://www.youtube.com/watch?v=-dJPoLm_gtE"
+      },
+      {
+        "label": "END-TO-END MLOPS PIPELINE",
+        "title": "End-to-End MLOps Project: Real-Time YouTube Sentiment Analysis",
+        "channel": "freeCodeCamp / Bappy Ahmed",
+        "url": "https://www.youtube.com/watch?v=gwNPV882tkc"
+      }
+    ],
     "page": 402,
     "category": "AI Evaluation, Reliability & Safety Engineering"
   },
@@ -24508,5 +24541,505 @@
     "page": 752,
     "category": "Business Management",
     "bonus": []
+  },
+  {
+    "name": "Machine Learning API Engineer",
+    "benchmark": "Cross-industry ML inference and model-serving signals (current Oct 2026) Mastery ladder: 2 current-market competencies per level; 2 substantive learning bridges per competency (12 total).",
+    "capstone": "Deploy a production ML prediction API: build a versioned inference endpoint with schema validation, authentication and failure-case handling; containerize it and deploy through CI/CD; instrument latency, errors and rollback; then compare two model versions with a documented quality, reliability and cost review.",
+    "rubric": "Demonstrate reliable API design, reproducible model serving, disciplined testing and containerized CI/CD delivery. Show scaling, monitoring, security and rollback judgment, and quantify latency, throughput, reliability and cost tradeoffs between model versions.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build and test a reliable ML inference API",
+        "competencies": [
+          {
+            "title": "API and model-serving fundamentals",
+            "coverage": "Python / APIs & Backend Engineering / Model Serving",
+            "videos": [
+              {
+                "title": "FastAPI for Machine Learning - Full Course | Deploy ML Models as APIs",
+                "url": "https://www.youtube.com/watch?v=2tagcO5v9aw",
+                "channel": "Coding With Sagar"
+              },
+              {
+                "title": "Deploy ML Models with FastAPI, Docker, and Heroku",
+                "url": "https://www.youtube.com/watch?v=h5wLuVDr0oc",
+                "channel": "freeCodeCamp"
+              }
+            ]
+          },
+          {
+            "title": "ML fundamentals, input validation and testing",
+            "coverage": "Machine Learning / Software Testing & Quality Engineering",
+            "videos": [
+              {
+                "title": "Machine Learning Full Course with Scikit-Learn",
+                "url": "https://www.youtube.com/watch?v=ie4oGI85SAE",
+                "channel": "Coding With Sagar"
+              },
+              {
+                "title": "Troubleshooting & Testing (43m)",
+                "url": "https://www.youtube.com/watch?v=UezTglxJC88",
+                "channel": "FSDL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Version models and data, and ship through CI/CD",
+        "competencies": [
+          {
+            "title": "Model/data versioning and experiment tracking",
+            "coverage": "MLOps / Experiment Tracking / Reproducibility",
+            "videos": [
+              {
+                "title": "MLflow Tutorial Part 1: Experiment Tracking",
+                "url": "https://www.youtube.com/watch?v=RnYa3QsXRAc",
+                "channel": "freeCodeCamp"
+              },
+              {
+                "title": "Data Management (35m)",
+                "url": "https://www.youtube.com/watch?v=Pkh0dqLCsrs",
+                "channel": "FSDL"
+              }
+            ]
+          },
+          {
+            "title": "Containers and CI/CD for ML services",
+            "coverage": "Docker / CI/CD / MLOps",
+            "videos": [
+              {
+                "title": "Deploy ML Models with FastAPI, Docker, and Fly.io",
+                "url": "https://www.youtube.com/watch?v=jzGzw98Eikk",
+                "channel": "freeCodeCamp"
+              },
+              {
+                "title": "MLOps Engineering (54m)",
+                "url": "https://www.youtube.com/watch?v=SS9_DusYvus",
+                "channel": "AWS re:Invent"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Scale, secure and operate production inference safely",
+        "competencies": [
+          {
+            "title": "Scaling, latency and reliable serving",
+            "coverage": "MLOps & Model Serving / Systems Performance",
+            "videos": [
+              {
+                "title": "KServe Model Serving Deep Dive (28m)",
+                "url": "https://www.youtube.com/watch?v=W3hKjXg7fXM",
+                "channel": "CNCF"
+              },
+              {
+                "title": "Deployment (57m)",
+                "url": "https://www.youtube.com/watch?v=a54xH6nT4Sw",
+                "channel": "FSDL"
+              }
+            ]
+          },
+          {
+            "title": "Production MLOps pipeline, AWS and rollback",
+            "coverage": "MLOps / AWS / Production Deployment",
+            "videos": [
+              {
+                "title": "MLOps Pipeline with Python, AWS and Docker",
+                "url": "https://www.youtube.com/watch?v=gwNPV882tkc",
+                "channel": "freeCodeCamp / Bappy Ahmed"
+              },
+              {
+                "title": "MLOps Course: Build Machine Learning Production-Grade Projects",
+                "url": "https://www.youtube.com/watch?v=-dJPoLm_gtE",
+                "channel": "freeCodeCamp / Ayush Singh"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 1875,
+    "category": "AI Evaluation, Reliability & Safety Engineering"
+  },
+  {
+    "name": "Computer Vision Engineer",
+    "benchmark": "Cross-industry computer-vision and perception-systems signals (current Oct 2026) Mastery ladder: 2 current-market competencies per level; 2 substantive learning bridges per competency (12 total).",
+    "capstone": "Build a detection/segmentation pipeline for an open image dataset with labeled test splits: benchmark mAP, IoU, precision/recall, inference latency, model size and subgroup errors; deploy a versioned inference API with monitoring; and defend architecture and cost tradeoffs.",
+    "rubric": "Demonstrate vision-model fundamentals through production judgment: disciplined data/labeling practice, defensible architecture choices, rigorous evaluation (mAP/IoU/precision/recall), and deployment readiness covering latency, drift and robustness.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Build vision and deep-learning foundations",
+        "competencies": [
+          {
+            "title": "Computer vision and deep-learning fundamentals",
+            "coverage": "Computer Vision / Deep Learning Fundamentals",
+            "videos": [
+              {
+                "title": "Lecture 1: Introduction to Deep Learning for Computer Vision (UMich EECS 498-007)",
+                "url": "https://www.youtube.com/watch?v=QytpbYkGxKo",
+                "channel": "Justin Johnson"
+              },
+              {
+                "title": "OpenCV Tutorial | Full OpenCV with Python Course",
+                "url": "https://www.youtube.com/watch?v=yQu_3e7MAr0",
+                "channel": "Coding With Sagar"
+              }
+            ]
+          },
+          {
+            "title": "Image classification and neural-network basics",
+            "coverage": "Image Classification / Neural Networks / Optimization",
+            "videos": [
+              {
+                "title": "Lecture 2: Image Classification (UMich EECS 498-007)",
+                "url": "https://www.youtube.com/watch?v=qr5rsiJuuRc",
+                "channel": "Justin Johnson"
+              },
+              {
+                "title": "Lecture 5: Neural Networks (UMich EECS 498-007)",
+                "url": "https://www.youtube.com/watch?v=eMJm-Eoacdc",
+                "channel": "Justin Johnson"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Build and evaluate CNN-based vision models",
+        "competencies": [
+          {
+            "title": "Backpropagation and convolutional networks",
+            "coverage": "Backpropagation / Convolutional Networks",
+            "videos": [
+              {
+                "title": "The Spelled-Out Intro to Neural Networks and Backpropagation: Building Micrograd",
+                "url": "https://www.youtube.com/watch?v=VMj-3S1tku0",
+                "channel": "Andrej Karpathy"
+              },
+              {
+                "title": "Lecture 7: Convolutional Networks (UMich EECS 498-007)",
+                "url": "https://www.youtube.com/watch?v=gJ5UENsAQGY",
+                "channel": "Justin Johnson"
+              }
+            ]
+          },
+          {
+            "title": "CNN architectures and training practice",
+            "coverage": "CNN Architectures / Model Training / Regularization",
+            "videos": [
+              {
+                "title": "Lecture 8: CNN Architectures (UMich EECS 498-007)",
+                "url": "https://www.youtube.com/watch?v=Y78DttDmkr8",
+                "channel": "Justin Johnson"
+              },
+              {
+                "title": "Lecture 10: Training Neural Networks Part 1 (UMich EECS 498-007)",
+                "url": "https://www.youtube.com/watch?v=ux2-9QbsMPI",
+                "channel": "Justin Johnson"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Ship modern perception systems to production",
+        "competencies": [
+          {
+            "title": "Advanced training, detection and segmentation",
+            "coverage": "Object Detection / Segmentation / Model Training",
+            "videos": [
+              {
+                "title": "Lecture 11: Training Neural Networks Part 2 (UMich EECS 498-007)",
+                "url": "https://www.youtube.com/watch?v=q9_bxtae0ok",
+                "channel": "Justin Johnson"
+              },
+              {
+                "title": "Lecture 16: Detection and Segmentation (UMich EECS 498-007)",
+                "url": "https://www.youtube.com/watch?v=zHSjrqS0jAY",
+                "channel": "Justin Johnson"
+              }
+            ]
+          },
+          {
+            "title": "3D vision, numerical foundations and deployment",
+            "coverage": "3D Vision / Numerical Computing / Production Deployment",
+            "videos": [
+              {
+                "title": "Lecture 17: 3D Vision (UMich EECS 498-007)",
+                "url": "https://www.youtube.com/watch?v=dkDf0FE8lJ8",
+                "channel": "Justin Johnson"
+              },
+              {
+                "title": "Numpy for Data Science | Full Course",
+                "url": "https://www.youtube.com/watch?v=9DhZ-JCWvDw",
+                "channel": "Coding With Sagar"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 1879,
+    "category": "AI Evaluation, Reliability & Safety Engineering"
+  },
+  {
+    "name": "Security Operations Analyst",
+    "benchmark": "Microsoft SC-200 Security Operations Analyst + cross-industry SOC signals (current Oct 2026) Mastery ladder: 2 current-market competencies per level; 2 substantive learning bridges per competency (12 total).",
+    "capstone": "Analyze a synthetic alert queue, write and explain three KQL detections, reconstruct an incident timeline, prioritize containment, document evidence and produce an executive incident report. Track precision, triage time and escalation quality.",
+    "rubric": "Demonstrate SOC fundamentals, disciplined detection and investigation practice, and operational defense judgment. Show KQL/Sentinel/Defender XDR fluency, evidence-handling rigor, and measurable triage precision, speed and escalation quality.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Learn SOC fundamentals and modern threat telemetry",
+        "competencies": [
+          {
+            "title": "SOC fundamentals and cybersecurity foundations",
+            "coverage": "SOC Fundamentals / Cybersecurity / Risk Management",
+            "videos": [
+              {
+                "title": "Cyber Security Full Course 2026 | Complete Cyber Security Course for Beginners",
+                "url": "https://www.youtube.com/watch?v=prKRQL3f88c",
+                "channel": "Intellipaat"
+              },
+              {
+                "title": "Mitigate Threats Using Microsoft Defender XDR",
+                "url": "https://www.youtube.com/watch?v=8gCUtYEpTe8",
+                "channel": "Microsoft (SC-200)"
+              }
+            ]
+          },
+          {
+            "title": "Agentic AI and modern SOC tooling context",
+            "coverage": "Agentic AI / AI Agents / Security Operations",
+            "videos": [
+              {
+                "title": "Agentic AI Full Course for Beginners 2026",
+                "url": "https://www.youtube.com/watch?v=P2_U45akVvA",
+                "channel": "Intellipaat"
+              },
+              {
+                "title": "Mitigate Threats Using Microsoft Security Copilot",
+                "url": "https://www.youtube.com/watch?v=QmvVYOG4uWI",
+                "channel": "Microsoft (SC-200)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Detect, investigate and correlate signals with Sentinel and Defender",
+        "competencies": [
+          {
+            "title": "KQL, Sentinel and Defender XDR practice",
+            "coverage": "KQL / Microsoft Sentinel / Defender XDR",
+            "videos": [
+              {
+                "title": "SC-200: Microsoft Security Operations Analyst (Full Series)",
+                "url": "https://www.youtube.com/playlist?list=PLahhVEj9XNTfSpvU-_iEvLJXiA0EDXkXQ",
+                "channel": "Microsoft Learn"
+              },
+              {
+                "title": "Build a Cloud SOC with Microsoft Sentinel & Defender XDR",
+                "url": "https://www.youtube.com/watch?v=-10ldZJHJkg",
+                "channel": "Microsoft"
+              }
+            ]
+          },
+          {
+            "title": "Alert triage, correlation and evidence handling",
+            "coverage": "Alert Triage / Log Correlation / Incident Evidence",
+            "videos": [
+              {
+                "title": "SOC Analyst: How Cyber Attacks Are Detected in the Real World",
+                "url": "https://www.youtube.com/watch?v=41ue56PyYc8",
+                "channel": "IBM Technology"
+              },
+              {
+                "title": "Defender Experts for Hunting",
+                "url": "https://www.youtube.com/watch?v=iqlxXf6JeQg",
+                "channel": "Microsoft"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Hunt threats, automate response and operate at SOC scale",
+        "competencies": [
+          {
+            "title": "Threat hunting and detection engineering",
+            "coverage": "Threat Hunting / Detection Engineering / MITRE ATT&CK",
+            "videos": [
+              {
+                "title": "Threat Hunting Crash Course",
+                "url": "https://www.youtube.com/watch?v=5OuPcohUfvY",
+                "channel": "Security YouTube"
+              },
+              {
+                "title": "Threat Hunting with Defender Threat Intelligence",
+                "url": "https://www.youtube.com/watch?v=3GzohqHSiHM",
+                "channel": "Microsoft"
+              }
+            ]
+          },
+          {
+            "title": "Automation, response playbooks and SOC metrics",
+            "coverage": "SOC Automation / Response Playbooks / Security Copilot",
+            "videos": [
+              {
+                "title": "Perform Threat Hunting in Microsoft Sentinel",
+                "url": "https://www.youtube.com/watch?v=z6QbN4rpAvA",
+                "channel": "Microsoft (SC-200)"
+              },
+              {
+                "title": "Security Copilot: Alert to Remediation",
+                "url": "https://www.youtube.com/watch?v=Cn7p5i_4vjk",
+                "channel": "Microsoft"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 1881,
+    "category": "Data Governance, Privacy & Trust"
+  },
+  {
+    "name": "AI Platform Product Manager",
+    "benchmark": "Cross-industry AI/LLM platform product management signals (current Oct 2026) Mastery ladder: 2 current-market competencies per level; 2 substantive learning bridges per competency (12 total).",
+    "capstone": "Create a platform PRD and 2-quarter roadmap for a shared LLM inference and evaluation service: include persona journeys, API/SDK adoption, cost per successful request, p95 latency, evaluation pass rates, release controls, a risk register, and a build-versus-buy recommendation. Present a 10-minute executive investment case.",
+    "rubric": "Demonstrate platform-product judgment: translate developer/platform needs into requirements; show LLM lifecycle and reliability fluency; defend latency-quality-cost tradeoffs; and ground governance, SLOs and roadmap decisions in adoption and unit economics.",
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Translate developer and platform needs into product requirements",
+        "competencies": [
+          {
+            "title": "Platform product foundations and GenAI literacy",
+            "coverage": "Platform Product Management / APIs / Generative AI",
+            "videos": [
+              {
+                "title": "Generative AI Full Course 2026 | LLMs, RAG, AI Agents & Projects",
+                "url": "https://www.youtube.com/watch?v=3iFMc6ELt7k",
+                "channel": "Coding With Sagar"
+              },
+              {
+                "title": "Use Case Discovery & Scoping (1h20)",
+                "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
+                "channel": "OpenAI Academy"
+              }
+            ]
+          },
+          {
+            "title": "Internal developer platforms and self-service",
+            "coverage": "Internal Developer Platforms / Developer Experience",
+            "videos": [
+              {
+                "title": "What Is an Internal Developer Platform",
+                "url": "https://www.youtube.com/watch?v=Wx_ay8svnEU",
+                "channel": "TechWorld with Nana"
+              },
+              {
+                "title": "Build Foundry Agents with the AI Gateway Tier",
+                "url": "https://www.youtube.com/watch?v=Sd1B1upIUg8",
+                "channel": "Microsoft"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Own the LLM lifecycle, evaluation and release gates",
+        "competencies": [
+          {
+            "title": "LLM lifecycle, versioning and serving workflows",
+            "coverage": "LLMOps / Model Versioning / Fine-Tuning",
+            "videos": [
+              {
+                "title": "LLMOps",
+                "url": "https://www.deeplearning.ai/courses/llmops",
+                "channel": "DeepLearning.AI / Google Cloud"
+              },
+              {
+                "title": "Model Deployment & Inferencing with Azure ML",
+                "url": "https://www.youtube.com/watch?v=kHN3SpA23BY",
+                "channel": "Microsoft"
+              }
+            ]
+          },
+          {
+            "title": "Automated evaluation and release gates",
+            "coverage": "AI Evals & Monitoring / CI Release Gates / Quality",
+            "videos": [
+              {
+                "title": "Automated Testing for LLMOps",
+                "url": "https://www.deeplearning.ai/courses/automated-testing-llmops",
+                "channel": "DeepLearning.AI / CircleCI"
+              },
+              {
+                "title": "KServe Next: Scaling Generative AI Inference",
+                "url": "https://www.youtube.com/watch?v=5sseTrdHjaw",
+                "channel": "CNCF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Make platform economics, reliability and governance tradeoffs",
+        "competencies": [
+          {
+            "title": "Latency, cost and platform economics",
+            "coverage": "Platform Economics / Latency-Cost Tradeoffs / Reliability SLOs",
+            "videos": [
+              {
+                "title": "Alerting with Service Level Objectives",
+                "url": "https://www.youtube.com/watch?v=uQAnXzCSPbI",
+                "channel": "USENIX / Google"
+              },
+              {
+                "title": "Data & AI Governance: Catalog for AI",
+                "url": "https://www.youtube.com/watch?v=cdmvSHJEh2E",
+                "channel": "Google Cloud"
+              }
+            ]
+          },
+          {
+            "title": "Platform governance, roadmap and responsible AI",
+            "coverage": "Governance / Roadmap / Responsible AI",
+            "videos": [
+              {
+                "title": "Building the Agentic Enterprise",
+                "url": "https://www.youtube.com/watch?v=lsqPct4NnNs",
+                "channel": "Google Cloud"
+              },
+              {
+                "title": "Responsible AI in Practice",
+                "url": "https://www.microsoft.com/en-us/research/video/in-pursuit-of-responsible-ai-bringing-principles-to-practice/",
+                "channel": "Microsoft Research"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bonus": [],
+    "page": 1885,
+    "category": "AI Product, Strategy & Enterprise Transformation"
   }
 ]
