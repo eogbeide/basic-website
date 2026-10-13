@@ -772,6 +772,24 @@
     render: function (item) { return renderSkillTrack(item); },
   };
 
+  // Skill Tracks: Academic Certificates' sibling tab -- every skill track
+  // except Bootcamp/Standalone Mastery/Agent Mastery, which have their own
+  // dedicated tabs above. Same browsing-only handoff pattern: opening an
+  // item routes to its real /academy/skills/<slug>/ URL and
+  // renderSkillTrack.
+  MODES.skilltracks = {
+    label: 'skill tracks',
+    data: MODES.skills.data
+      .filter(function (s) { return !NON_CREDENTIALS_SKILL_CATEGORIES[s.category]; })
+      .map(function (s) { return Object.assign({}, s, { _credSrcMode: 'skills' }); }),
+    searchPlaceholder: 'Search skill tracks, e.g. AI, Spanish, UX, Leadership...',
+    emptyTitle: 'Choose a skill track',
+    emptyBody: 'Curated and Job-Ready skill tracks across every domain, plus languages, programming, AI Mastery, UI & UX Mastery and Leadership & Growth. Looking for a Bootcamp or a Mastery track? Those have their own tabs above.',
+    featured: ['AI Foundations to Agents', 'UI & UX Mastery', 'Language Learning — Spanish', 'Programming Languages Mastery'],
+    isCombined: true,
+    render: function (item) { return renderSkillTrack(item); },
+  };
+
   Object.keys(MODES).forEach(function (key) {
     var bySlug = {};
     MODES[key].data.forEach(function (item) {
@@ -869,19 +887,19 @@
   // category field at all and stays flat -- nothing to group by, and 20
   // items isn't an unscannable list on its own.
   function groupLabelFor(mode, category) {
-    if (mode === 'skills' || mode === 'credentials') {
+    if (mode === 'skills' || mode === 'credentials' || mode === 'skilltracks') {
       return CATEGORY_TO_GROUP[category] || category;
     }
     return category;
   }
-  // Dropdown <optgroup>s: only skills/credentials have enough flat
-  // categories (36 / 43) to be worth nesting under a broader label.
-  // Roles' 19 and Pathways' 6 stay a plain flat <select> list.
-  var GROUPED_MODES = { skills: true, credentials: true };
+  // Dropdown <optgroup>s: only skills/credentials/skilltracks have enough
+  // flat categories (36 / 43 / 33) to be worth nesting under a broader
+  // label. Roles' 19 and Pathways' 6 stay a plain flat <select> list.
+  var GROUPED_MODES = { skills: true, credentials: true, skilltracks: true };
   // Collapsible sidebar-list headers: also worth it for roles/pathways,
   // since the payoff there is collapsing a long flat *item* list, not
   // consolidating an unwieldy *category* list.
-  var COLLAPSIBLE_LIST_MODES = { skills: true, credentials: true, roles: true, pathways: true };
+  var COLLAPSIBLE_LIST_MODES = { skills: true, credentials: true, skilltracks: true, roles: true, pathways: true };
 
   var ALL_CATEGORIES = 'all';
   var currentCategory = ALL_CATEGORIES;
@@ -1005,7 +1023,7 @@
       groupCounts[g] = (groupCounts[g] || 0) + 1;
     });
     var groupOrder;
-    if (currentMode === 'skills' || currentMode === 'credentials') {
+    if (currentMode === 'skills' || currentMode === 'credentials' || currentMode === 'skilltracks') {
       groupOrder = CATEGORY_GROUPS.map(function (g) { return g.label; }).filter(function (g) { return byGroup[g]; });
       Object.keys(byGroup).forEach(function (g) { if (groupOrder.indexOf(g) === -1) groupOrder.push(g); });
     } else {
@@ -1651,13 +1669,15 @@
     currentMode = mode;
     currentCategory = ALL_CATEGORIES;
 
-    // "certificates" always belongs to the "Certificates & Skill Tracks"
-    // tab, but "skills" items are split across three tabs (Bootcamps,
-    // Mastery Tracks, and Certificates & Skill Tracks for everything
-    // else -- languages, programming, AI Mastery, UI & UX Mastery,
-    // Leadership & Growth) -- so which one should re-highlight after a
-    // handoff depends on the specific item's own category.
-    var impliedCombinedMode = 'credentials';
+    // "certificates" is its own direct ribbon tab now (Academic
+    // Certificates), so a plain btnMode === mode match already covers it.
+    // "skills" items are still split across three tabs (Bootcamps, Mastery
+    // Tracks, and Skill Tracks for everything else -- languages,
+    // programming, AI Mastery, UI & UX Mastery, Leadership & Growth, plus
+    // every Curated/Job-Ready skill track) -- so which one should
+    // re-highlight after a handoff depends on the specific item's own
+    // category.
+    var impliedCombinedMode = 'skilltracks';
     if (mode === 'skills' && slug && MODES.skills.bySlug[slug]) {
       var openedCategory = MODES.skills.bySlug[slug].category;
       if (openedCategory === 'Bootcamp Mastery Certificate') impliedCombinedMode = 'bootcamps';
@@ -1665,7 +1685,13 @@
     }
     toggleButtons.forEach(function (btn) {
       var btnMode = btn.getAttribute('data-mode');
-      var active = btnMode === mode || ((mode === 'certificates' || mode === 'skills') && btnMode === impliedCombinedMode);
+      // "credentials" itself has no ribbon button any more (only the
+      // homepage hero stat still opens it directly, as the certificates +
+      // skilltracks union) -- light up both of its real tabs instead of
+      // leaving the ribbon with nothing highlighted.
+      var active = btnMode === mode ||
+        (mode === 'skills' && btnMode === impliedCombinedMode) ||
+        (mode === 'credentials' && (btnMode === 'certificates' || btnMode === 'skilltracks'));
       btn.classList.toggle('active', active);
     });
 
