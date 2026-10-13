@@ -904,7 +904,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "LLM EVALUATIONS",
+        "title": "Evaluating LLMs",
+        "channel": "Hamel Husain",
+        "url": "https://www.youtube.com/watch?v=SnbGD677_u0"
+      }
+    ],
     "page": 516,
     "category": "AI Evaluation, Reliability & Safety Engineering"
   },
@@ -1425,7 +1432,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "LLM EVALUATIONS",
+        "title": "Evaluating LLMs",
+        "channel": "Hamel Husain",
+        "url": "https://www.youtube.com/watch?v=SnbGD677_u0"
+      }
+    ],
     "page": 420,
     "category": "AI Evaluation, Reliability & Safety Engineering"
   },
@@ -1550,7 +1564,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "AI RED TEAMING 101",
+        "title": "AI Red Teaming 101 Series",
+        "channel": "Microsoft",
+        "url": "https://www.youtube.com/playlist?list=PLlrxD0HtieHhXnVUQM42aKRPrirbUIDdh"
+      }
+    ],
     "page": 3,
     "category": "AI Evaluation, Reliability & Safety Engineering"
   },
@@ -1807,7 +1828,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "COMPTIA A+ FULL COURSE",
+        "title": "CompTIA A+ Full Course FREE [31+ Hours]",
+        "channel": "Paul Browning",
+        "url": "https://www.youtube.com/watch?v=1CZXXNKAY5o"
+      }
+    ],
     "page": 547,
     "category": "AI Evaluation, Reliability & Safety Engineering"
   },
@@ -7303,7 +7331,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "ULTIMATE MLOPS FULL COURSE",
+        "title": "Ultimate MLOps Full Course in One Video",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=w71RHxAWxaM"
+      }
+    ],
     "page": 403,
     "category": "AI Evaluation, Reliability & Safety Engineering"
   },
@@ -10943,7 +10978,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "ULTIMATE MLOPS FULL COURSE",
+        "title": "Ultimate MLOps Full Course in One Video",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=w71RHxAWxaM"
+      }
+    ],
     "page": 557,
     "category": "AI Evaluation, Reliability & Safety Engineering"
   },
@@ -13902,7 +13944,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "LLM EVALUATIONS",
+        "title": "Evaluating LLMs",
+        "channel": "Hamel Husain",
+        "url": "https://www.youtube.com/watch?v=SnbGD677_u0"
+      }
+    ],
     "page": 564,
     "category": "AI Evaluation, Reliability & Safety Engineering"
   },
@@ -20965,7 +21014,14 @@
     ],
     "page": 670,
     "category": "AI Evaluation, Reliability & Safety Engineering",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "NIST AI RMF ENTERPRISE GOVERNANCE",
+        "title": "NIST AI RMF: Governing AI Risk at Enterprise Scale",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=IPxRCt-BQwc"
+      }
+    ]
   },
   {
     "name": "Responsible AI Product Manager",
@@ -25596,7 +25652,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "ULTIMATE MLOPS FULL COURSE",
+        "title": "Ultimate MLOps Full Course in One Video",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=w71RHxAWxaM"
+      }
+    ],
     "page": 1875,
     "category": "AI Evaluation, Reliability & Safety Engineering"
   },
@@ -25721,7 +25784,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "NVIDIA TENSORRT INFERENCE",
+        "title": "Inference Optimization with NVIDIA TensorRT",
+        "channel": "NVIDIA",
+        "url": "https://www.youtube.com/watch?v=UnIuMXGylfY"
+      }
+    ],
     "page": 1879,
     "category": "AI Evaluation, Reliability & Safety Engineering"
   },
