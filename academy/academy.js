@@ -792,7 +792,18 @@
   // pathways, certificates and interview tracks keep their original flat
   // category list since none of them have this problem.
   var CATEGORY_GROUPS = [
-    { label: 'AI, Agents & Intelligent Automation', categories: ['Curated AI Certificate', 'Artificial Intelligence', 'Agent Mastery'] },
+    // First on purpose: "bootcamp" is the single most-searched-for word in
+    // this catalog's own search placeholder/featured items, but it used to
+    // sit alphabetically/topically between "Health, Life Sciences &
+    // Sustainability" and "Academic Certificates" as the 13th of 14 groups
+    // -- easy to miss unless a visitor scrolled past everything else.
+    // Bootcamp Mastery Certificate, Standalone Mastery Certificate and
+    // Agent Mastery (pulled out of the AI group below) all share the same
+    // "video-first mastery route, not a topic domain" shape, so they're
+    // one group now instead of three separately-named, separately-placed
+    // ones.
+    { label: 'Bootcamps & Mastery Tracks', categories: ['Bootcamp Mastery Certificate', 'Standalone Mastery Certificate', 'Agent Mastery'] },
+    { label: 'AI, Agents & Intelligent Automation', categories: ['Curated AI Certificate', 'Artificial Intelligence'] },
     { label: 'Data, Analytics & Machine Learning', categories: ['Curated Data & Analytics Certificate'] },
     { label: 'Cloud, Platform & Systems Engineering', categories: ['Curated Cloud, DevOps & Platform Certificate', 'Curated Cybersecurity Certificate', 'Curated Hardware, Semiconductors, Robotics & Physical AI Certificate', 'Curated Aerospace, Space Systems & Autonomous Flight Certificate', 'Job-Ready Data Center, AI Infrastructure & Capacity Certificate', 'Job-Ready Enterprise Systems, ERP & Business Applications Certificate'] },
     { label: 'Software & Application Engineering', categories: ['Curated Software & Application Engineering Certificate', 'Programming'] },
@@ -804,7 +815,6 @@
     { label: 'Operations, Supply Chain & Built Environment', categories: ['Curated Operations, Supply Chain & Procurement Certificate', 'Curated Real Estate, Construction & Built Environment Certificate'] },
     { label: 'Health, Life Sciences & Sustainability', categories: ['Curated Healthcare, Public Health & Digital Health Certificate', 'Curated Biotechnology, Pharmaceuticals & Life Sciences Certificate', 'Curated Sustainability, Climate & Energy Certificate', 'Curated Agriculture, Food Systems & AgTech Certificate'] },
     { label: 'Languages & Foundational Learning', categories: ['Language Learning'] },
-    { label: 'Credentials & Bootcamps', categories: ['Standalone Mastery Certificate', 'Bootcamp Mastery Certificate'] },
     { label: 'Academic Certificates', categories: ['Computing & Software', 'Mathematics & Physical Sciences', 'Engineering & Manufacturing', 'Humanities & Communication', 'Business & Management', 'Social & Behavioral Sciences', 'Health & Life Sciences'] },
   ];
   var CATEGORY_TO_GROUP = {};
