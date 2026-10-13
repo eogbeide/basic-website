@@ -120,7 +120,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "ACTUARIAL FINANCIAL MATH",
+        "title": "Course FM: Financial Mathematics",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLmichdCH6hb6SvM9D6CEkYDPeCoB7jPjw"
+      }
+    ],
     "page": 517,
     "category": "Actuarial, Insurance & Enterprise Risk"
   },
@@ -2853,7 +2860,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GOOGLE CLOUD AI AGENTS",
+        "title": "Crash Course for AI Agents with Google Cloud",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/playlist?list=PLutB-DANVpnSLECwNqxDXjzqExPmGE7uu"
+      }
+    ],
     "page": 334,
     "category": "Actuarial, Insurance & Enterprise Risk"
   },
@@ -4534,7 +4548,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "OPERATIONS RESEARCH FULL COURSE",
+        "title": "Operation Research - Complete Course",
+        "channel": "GP Sir",
+        "url": "https://www.youtube.com/playlist?list=PLU6SqdYcYsfLyEPjMPHT_1ZhTRrnXA55R"
+      }
+    ],
     "page": 417,
     "category": "Actuarial, Insurance & Enterprise Risk"
   },
@@ -5443,7 +5464,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GOOGLE CLOUD AI AGENTS",
+        "title": "Crash Course for AI Agents with Google Cloud",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/playlist?list=PLutB-DANVpnSLECwNqxDXjzqExPmGE7uu"
+      }
+    ],
     "page": 327,
     "category": "Actuarial, Insurance & Enterprise Risk"
   },
@@ -5568,7 +5596,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "FINANCIAL ACCOUNTING FULL COURSE",
+        "title": "Financial Accounting Full Course",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxP0KZzCGFYPPrBAvUPyakPyeGEKLzgsP"
+      }
+    ],
     "page": 415,
     "category": "Actuarial, Insurance & Enterprise Risk"
   },
@@ -6734,7 +6769,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "FINANCIAL MODELING & VALUATION",
+        "title": "Financial Modeling & Valuation Full Course + Resources",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLOLYhJ4eq2rkrZiHtqobXliHDOX9zh4O5"
+      }
+    ],
     "page": 414,
     "category": "Actuarial, Insurance & Enterprise Risk"
   },
@@ -7129,7 +7171,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "FINANCIAL MODELING & VALUATION",
+        "title": "Financial Modeling & Valuation Full Course + Resources",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLOLYhJ4eq2rkrZiHtqobXliHDOX9zh4O5"
+      }
+    ],
     "page": 408,
     "category": "Actuarial, Insurance & Enterprise Risk"
   },
@@ -9463,7 +9512,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "FINANCIAL MODELING & VALUATION",
+        "title": "Financial Modeling & Valuation Full Course + Resources",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLOLYhJ4eq2rkrZiHtqobXliHDOX9zh4O5"
+      }
+    ],
     "page": 418,
     "category": "Actuarial, Insurance & Enterprise Risk"
   },
@@ -15784,7 +15840,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "FINANCIAL ACCOUNTING FULL COURSE",
+        "title": "Financial Accounting Full Course",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxP0KZzCGFYPPrBAvUPyakPyeGEKLzgsP"
+      }
+    ],
     "page": 579,
     "category": "Actuarial, Insurance & Enterprise Risk"
   },
@@ -15909,7 +15972,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "FINANCIAL ACCOUNTING FULL COURSE",
+        "title": "Financial Accounting Full Course",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLxP0KZzCGFYPPrBAvUPyakPyeGEKLzgsP"
+      }
+    ],
     "page": 580,
     "category": "Actuarial, Insurance & Enterprise Risk"
   },
