@@ -1145,7 +1145,7 @@
               },
               {
                 "title": "How to Talk to Users",
-                "url": "https://www.nist.gov/video/airmf22-what-does-good-governance-ai-risk-management-look",
+                "url": "https://www.youtube.com/watch?v=z1iF1c8w5Lg",
                 "channel": "Y Combinator"
               }
             ]
@@ -1156,12 +1156,12 @@
             "videos": [
               {
                 "title": "Intro to LLMs (1h)",
-                "url": "https://www.youtube.com/watch?v=x0d_GE_jWGE",
+                "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
                 "channel": "Andrej Karpathy"
               },
               {
                 "title": "Build Hour: Agents SDK (47m)",
-                "url": "https://www.youtube.com/watch?v=2ZK9X7YSg20",
+                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
                 "channel": "OpenAI"
               }
             ]
@@ -1178,12 +1178,12 @@
             "videos": [
               {
                 "title": "Practical Evaluation Systems",
-                "url": "https://www.youtube.com/watch?v=ZpvEY5BaZ8w",
+                "url": "https://academy.openai.com/en/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
                 "channel": "OpenAI Academy"
               },
               {
                 "title": "Evals for AI Agents (2026 Webinar)",
-                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "url": "https://www.anthropic.com/webinars/evals-for-ai-agents-how-product-builders-get-the-most-out-of-every-new-model",
                 "channel": "Anthropic"
               }
             ]
@@ -1194,12 +1194,12 @@
             "videos": [
               {
                 "title": "HAX Toolkit Webinar (46m)",
-                "url": "https://www.youtube.com/watch?v=DwFVhFdD2fs",
+                "url": "https://www.microsoft.com/en-us/research/video/create-human-centered-ai-with-the-human-ai-experience-hax-toolkit-webinar/",
                 "channel": "Microsoft Research"
               },
               {
                 "title": "Designing Human-Centered AI Products",
-                "url": "https://www.nist.gov/video/airmf23-how-measure-ai-risk-across-ai-lifecycle",
+                "url": "https://www.youtube.com/watch?v=rf83vRxLWFQ",
                 "channel": "Google I/O"
               }
             ]
@@ -1216,12 +1216,12 @@
             "videos": [
               {
                 "title": "Fine-Tuning Strategy & Tradeoffs",
-                "url": "https://www.nist.gov/video/airmf24-managing-ai-risks",
+                "url": "https://academy.openai.com/en/public/clubs/builders-etkn1/videos/ai-techniques-production-fine-tuning-strategy-and-tradeoffs-2025-12-11",
                 "channel": "OpenAI Academy"
               },
               {
                 "title": "AI Experimentation Webinar",
-                "url": "https://www.youtube.com/watch?v=_NWff8vVXFU",
+                "url": "https://www.youtube.com/watch?v=LzMiAXDkLwY",
                 "channel": "Statsig"
               }
             ]
@@ -1232,12 +1232,12 @@
             "videos": [
               {
                 "title": "AI Risk Management Framework Launch",
-                "url": "https://www.nist.gov/video/airmf13-exactly-what-ai-rmf-profile",
+                "url": "https://www.nist.gov/news-events/events/2023/01/nist-ai-risk-management-framework-ai-rmf-10-launch",
                 "channel": "NIST"
               },
               {
                 "title": "Responsible AI in Practice",
-                "url": "https://www.youtube.com/watch?v=rL1vMr1euG8",
+                "url": "https://www.microsoft.com/en-us/research/video/in-pursuit-of-responsible-ai-bringing-principles-to-practice/",
                 "channel": "Microsoft Research"
               }
             ]
@@ -1890,12 +1890,12 @@
             "videos": [
               {
                 "title": "SQL Tutorial: Full Database Course",
-                "url": "https://www.youtube.com/watch?v=gRE3E7VUzRU",
+                "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
                 "channel": "freeCodeCamp"
               },
               {
                 "title": "Data Modeling 101 for the Lakehouse",
-                "url": "https://www.youtube.com/watch?v=QimxOUwHdgo",
+                "url": "https://www.youtube.com/watch?v=kZjAJkDs3so",
                 "channel": "Databricks"
               }
             ]
@@ -1906,12 +1906,12 @@
             "videos": [
               {
                 "title": "How We Model Looker at Looker",
-                "url": "https://www.youtube.com/watch?v=aEGan35iBbE",
+                "url": "https://www.youtube.com/watch?v=_esIAwM3ITQ",
                 "channel": "Google Cloud"
               },
               {
                 "title": "KPI Dashboards with the dbt Semantic Layer",
-                "url": "https://www.youtube.com/watch?v=xwtR_GdlkZA",
+                "url": "https://www.youtube.com/watch?v=1vHNKsE_pcE",
                 "channel": "dbt Labs"
               }
             ]
@@ -1928,12 +1928,12 @@
             "videos": [
               {
                 "title": "CI/CD in the dbt Platform (Coalesce 2025)",
-                "url": "https://www.youtube.com/watch?v=Cb2BpFoL30g",
+                "url": "https://www.youtube.com/watch?v=DpP3_ms5zzU",
                 "channel": "dbt Labs"
               },
               {
                 "title": "Product Spotlight: Unit Tests",
-                "url": "https://www.youtube.com/watch?v=B5j3uNBH8X4",
+                "url": "https://www.youtube.com/watch?v=5byGFDDj9pg",
                 "channel": "dbt Labs"
               }
             ]
@@ -1944,12 +1944,12 @@
             "videos": [
               {
                 "title": "AI/BI Dashboards & Genie End-to-End...",
-                "url": "https://www.youtube.com/watch?v=MmvZY1gTAy4",
+                "url": "https://www.youtube.com/watch?v=Tc3WqbV7fKA",
                 "channel": "Databricks"
               },
               {
                 "title": "How to Turn Data Into Stories",
-                "url": "https://www.youtube.com/watch?v=_MJDqcLO79I",
+                "url": "https://www.youtube.com/watch?v=Hfx1X9WSGYQ",
                 "channel": "Storytelling with Data"
               }
             ]
@@ -1966,12 +1966,12 @@
             "videos": [
               {
                 "title": "Data Quality Monitoring at Scale",
-                "url": "https://www.youtube.com/watch?v=SVOrURyOu_U",
+                "url": "https://www.youtube.com/watch?v=bZXswjZ0avA",
                 "channel": "Databricks"
               },
               {
                 "title": "Lineage System Table in Unity Catalog",
-                "url": "https://www.youtube.com/watch?v=8ybMtzb6ytQ",
+                "url": "https://www.youtube.com/watch?v=chaYl3dRfTY",
                 "channel": "Databricks"
               }
             ]
@@ -1982,12 +1982,12 @@
             "videos": [
               {
                 "title": "Build an LLM Data Analysis...",
-                "url": "https://www.youtube.com/watch?v=gGbGqR49kMQ",
+                "url": "https://www.youtube.com/watch?v=7fqTqjNFrGw",
                 "channel": "Snowflake Developers"
               },
               {
                 "title": "AI/BI Genie: Complex Analytics Demo",
-                "url": "https://www.youtube.com/watch?v=sMQ5R92F86o",
+                "url": "https://www.youtube.com/watch?v=SLINAuoIfq4",
                 "channel": "Databricks"
               }
             ]
@@ -4890,12 +4890,12 @@
             "videos": [
               {
                 "title": "Tactics for Management |...",
-                "url": "https://www.youtube.com/watch?v=K3VmeqRz7wA",
+                "url": "https://www.youtube.com/watch?v=rNpthtDn4VQ",
                 "channel": "Claire Hughes Johnson"
               },
               {
                 "title": "Building a Psychologically Safe...",
-                "url": "https://www.youtube.com/watch?v=K3VmeqRz7wA",
+                "url": "https://www.youtube.com/watch?v=LhoLuui9gX8",
                 "channel": "Amy Edmondson"
               }
             ]
@@ -4906,12 +4906,12 @@
             "videos": [
               {
                 "title": "Why the Secret to Success Is Setting the...",
-                "url": "https://www.youtube.com/watch?v=OAIlucguNzY",
+                "url": "https://www.youtube.com/watch?v=L4N1q4RNi9I",
                 "channel": "John Doerr"
               },
               {
                 "title": "From One Server to a Scalable System",
-                "url": "https://www.youtube.com/watch?v=OAIlucguNzY",
+                "url": "https://www.youtube.com/watch?v=FxAom29OEKE",
                 "channel": "System Design"
               }
             ]
@@ -4928,7 +4928,7 @@
             "videos": [
               {
                 "title": "Unlock Team Potential with Coaching",
-                "url": "https://www.youtube.com/watch?v=YbEXroVA8Uc",
+                "url": "https://www.youtube.com/watch?v=bG24BIvQc9c",
                 "channel": "Google"
               },
               {
@@ -4944,12 +4944,12 @@
             "videos": [
               {
                 "title": "Testing at Scale with Mauricio Aniche",
-                "url": "https://www.youtube.com/watch?v=qd1_EQXZoh4",
+                "url": "https://www.youtube.com/watch?v=oFO85YFuXjg",
                 "channel": "Beyond Coding"
               },
               {
                 "title": "AI Productivity Hub with Copilot CLI (2026)",
-                "url": "https://www.youtube.com/watch?v=qd1_EQXZoh4",
+                "url": "https://www.youtube.com/watch?v=BDZKubrUO1M",
                 "channel": "GitHub"
               }
             ]
@@ -4966,12 +4966,12 @@
             "videos": [
               {
                 "title": "The Art of SLOs",
-                "url": "https://www.youtube.com/watch?v=-rU2EX8GMuU",
+                "url": "https://www.youtube.com/watch?v=E3ReKuJ8ewA",
                 "channel": "Google Cloud"
               },
               {
                 "title": "Incident Management: SRE...",
-                "url": "https://www.youtube.com/watch?v=-rU2EX8GMuU",
+                "url": "https://www.youtube.com/watch?v=n4y9dwinPBQ",
                 "channel": "Google Cloud"
               }
             ]
@@ -4982,7 +4982,7 @@
             "videos": [
               {
                 "title": "Track Dependencies Across Teams in Jira...",
-                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "url": "https://www.youtube.com/watch?v=qd1_EQXZoh4",
                 "channel": "Atlassian"
               },
               {
@@ -5890,12 +5890,12 @@
             "videos": [
               {
                 "title": "Schematic Capture",
-                "url": "https://www.youtube.com/watch?v=1la6fMl7xNA",
+                "url": "https://www.youtube.com/watch?v=YOj7-UgiCL8",
                 "channel": "Altium Academy"
               },
               {
                 "title": "PCB Routing Tips",
-                "url": "https://www.youtube.com/watch?v=uWECSx5CoiM",
+                "url": "https://www.youtube.com/watch?v=CaGzxD0jCKM",
                 "channel": "Altium Academy"
               }
             ]
@@ -5906,12 +5906,12 @@
             "videos": [
               {
                 "title": "STM32 I2C Sensor Interface",
-                "url": "https://www.youtube.com/watch?v=Sdjn9FOkhnA",
+                "url": "https://www.youtube.com/watch?v=isOekyygpR8",
                 "channel": "DigiKey"
               },
               {
                 "title": "STM32 SPI Interface",
-                "url": "https://www.youtube.com/watch?v=51K5EqGqzCM",
+                "url": "https://www.youtube.com/watch?v=eFKeNPJq50g",
                 "channel": "DigiKey"
               }
             ]
@@ -5928,12 +5928,12 @@
             "videos": [
               {
                 "title": "Signal Integrity Basics",
-                "url": "https://www.youtube.com/watch?v=kyQtbyR536I",
+                "url": "https://www.youtube.com/watch?v=E64lNx6OFqY",
                 "channel": "Keysight"
               },
               {
                 "title": "Designing for Power Integrity",
-                "url": "https://www.youtube.com/watch?v=tjGVnjsvi-k",
+                "url": "https://www.youtube.com/watch?v=N4K3y4I4sKA",
                 "channel": "Keysight"
               }
             ]
@@ -5944,12 +5944,12 @@
             "videos": [
               {
                 "title": "FPGA/SoC Board Bring-Up",
-                "url": "https://www.youtube.com/watch?v=jbpIFCkEEng",
+                "url": "https://www.youtube.com/watch?v=B-CbDfrfJRk",
                 "channel": "Phil's Lab"
               },
               {
                 "title": "1MW Rack Power & Liquid Cooling",
-                "url": "https://www.youtube.com/watch?v=DPVFqvkIo5M",
+                "url": "https://www.youtube.com/watch?v=YGMziRxe-P4",
                 "channel": "Open Compute Project"
               }
             ]
@@ -5966,12 +5966,12 @@
             "videos": [
               {
                 "title": "Design for Manufacturing",
-                "url": "https://www.youtube.com/watch?v=c8_hnLSXSCs",
+                "url": "https://www.youtube.com/watch?v=kfS52oUlNbU",
                 "channel": "Altium Academy"
               },
               {
                 "title": "Product Validation Stages",
-                "url": "https://www.youtube.com/watch?v=SeImiPDVMCw",
+                "url": "https://www.youtube.com/watch?v=es9GqaECtaI",
                 "channel": "EVT, DVT, PVT"
               }
             ]
@@ -5982,12 +5982,12 @@
             "videos": [
               {
                 "title": "STM32 Board Bring-Up & Test",
-                "url": "https://www.youtube.com/watch?v=vnE5WMwebnE",
+                "url": "https://www.youtube.com/watch?v=dRKSs3wms4U",
                 "channel": "Phil's Lab"
               },
               {
                 "title": "Reliability Testing Overview",
-                "url": "https://www.youtube.com/watch?v=TRc0z_qcze0",
+                "url": "https://www.youtube.com/watch?v=NThoiYzz_hI",
                 "channel": "Altium"
               }
             ]
@@ -7890,12 +7890,12 @@
             "videos": [
               {
                 "title": "Privacy Engineering Collaboration Space",
-                "url": "https://www.youtube.com/watch?v=Sb9uJLtXDGo",
+                "url": "https://www.youtube.com/watch?v=utq2hKolG5s",
                 "channel": "IAPP / NIST"
               },
               {
                 "title": "User-Centered Privacy Technology",
-                "url": "https://www.youtube.com/watch?v=cdmvSHJEh2E",
+                "url": "https://www.youtube.com/watch?v=t-kmzG1Gk0Y",
                 "channel": "IAPP / CMU"
               }
             ]
@@ -7906,12 +7906,12 @@
             "videos": [
               {
                 "title": "Identity & Access Management",
-                "url": "https://www.youtube.com/watch?v=gW-erhQIFik",
+                "url": "https://www.youtube.com/watch?v=usHb4RCJU0E",
                 "channel": "Microsoft Learn"
               },
               {
                 "title": "Enabling Agility with Data Governance",
-                "url": "https://www.youtube.com/watch?v=izdDPlEmhJc",
+                "url": "https://www.youtube.com/watch?v=89BGjQYA0uE",
                 "channel": "AWS re:Invent"
               }
             ]
@@ -7928,12 +7928,12 @@
             "videos": [
               {
                 "title": "Privacy Threat Modeling",
-                "url": "https://www.youtube.com/watch?v=aNj36g7fSsU",
+                "url": "https://www.youtube.com/watch?v=qaZWKpdzl9c",
                 "channel": "USENIX"
               },
               {
                 "title": "Privacy Threat Modeling Methodology",
-                "url": "https://www.youtube.com/watch?v=lHGaAJTdCF8",
+                "url": "https://www.youtube.com/watch?v=lg-VhHlztqo",
                 "channel": "LINDDUN"
               }
             ]
@@ -7944,12 +7944,12 @@
             "videos": [
               {
                 "title": "Cynthia Dwork: Differential Privacy",
-                "url": "https://www.youtube.com/watch?v=MhyQxIp1H58",
+                "url": "https://www.youtube.com/watch?v=HKl8fvX6uBA",
                 "channel": "Simons Institute"
               },
               {
                 "title": "Federated Learning on Decentralized Data",
-                "url": "https://www.youtube.com/watch?v=Lt8_s8ywEAA",
+                "url": "https://www.youtube.com/watch?v=hENwFyrtm1g",
                 "channel": "TensorFlow"
               }
             ]
@@ -7966,12 +7966,12 @@
             "videos": [
               {
                 "title": "Secure Multiparty Computation",
-                "url": "https://www.youtube.com/watch?v=za5YYUIQIaM",
+                "url": "https://www.youtube.com/watch?v=oqWSSS7ml44",
                 "channel": "Simons Institute"
               },
               {
                 "title": "AI and Fully Homomorphic Encryption",
-                "url": "https://www.youtube.com/watch?v=8rHt7bAl7ds",
+                "url": "https://www.youtube.com/watch?v=o3NXEgbvdmQ",
                 "channel": "IBM Research"
               }
             ]
@@ -7982,12 +7982,12 @@
             "videos": [
               {
                 "title": "Open Policy Agent Intro & Deep Dive",
-                "url": "https://www.youtube.com/watch?v=3A855rN_9pE",
+                "url": "https://www.youtube.com/watch?v=n4y9dwinPBQ",
                 "channel": "CNCF"
               },
               {
                 "title": "Incident Management",
-                "url": "https://www.youtube.com/watch?v=BBhdoJGC5Sw",
+                "url": "https://www.youtube.com/watch?v=vznDgJkoH7k",
                 "channel": "Google Cloud"
               }
             ]
@@ -11890,12 +11890,12 @@
             "videos": [
               {
                 "title": "Requirements Definition",
-                "url": "https://ocw.mit.edu/courses/3-020-thermodynamics-of-materials-spring-2021/resources/mit3_020s21_lecture_04_1080p_v3_mp4/",
+                "url": "https://learn.mit.edu/video/9117/session-2-requirements-definition?playlist=9105",
                 "channel": "MIT OCW"
               },
               {
                 "title": "System Architecture & Concept Generation",
-                "url": "https://www.youtube.com/watch?v=SP21-5q2uzw",
+                "url": "https://learn.mit.edu/video/9119/session-4-system-architecture-and-concept-generation?playlist=9105",
                 "channel": "MIT OCW"
               }
             ]
@@ -11906,12 +11906,12 @@
             "videos": [
               {
                 "title": "Systems Modeling Languages",
-                "url": "https://www.youtube.com/watch?v=V7kyG8LxFlo",
+                "url": "https://learn.mit.edu/video/9118/session-3-systems-modeling-languages?playlist=9105",
                 "channel": "MIT OCW"
               },
               {
                 "title": "Introduction to Model-Based Systems Engineering",
-                "url": "https://www.youtube.com/watch?v=0hQnIO4LyNk",
+                "url": "https://nescacademy.nasa.gov/video/804f524f16c24fd2927a4eb9f01bdf831d",
                 "channel": "NASA NESC"
               }
             ]
@@ -11928,12 +11928,12 @@
             "videos": [
               {
                 "title": "Concept Selection & Tradespace Exploration",
-                "url": "https://www.youtube.com/watch?v=6CQpFO-wvFk",
+                "url": "https://www.youtube.com/watch?v=9AtMQqCBdhw",
                 "channel": "MIT OCW"
               },
               {
                 "title": "Design Definition & Multidisciplinary Optimization",
-                "url": "https://www.youtube.com/watch?v=5NmfRVPL3qQ",
+                "url": "https://nescacademy.nasa.gov/video/727a192a50614d41b5a61788536fecae1d",
                 "channel": "MIT OCW"
               }
             ]
@@ -11944,12 +11944,12 @@
             "videos": [
               {
                 "title": "Systems Integration & Interface Management",
-                "url": "https://www.youtube.com/watch?v=Lyq6FDnlfHw",
+                "url": "https://learn.mit.edu/video/9120/session-5-concept-selection-and-tradespace-exploration?playlist=9105",
                 "channel": "MIT OCW"
               },
               {
                 "title": "Using MBSE on a Working Project",
-                "url": "https://youtu.be/-i-JGv_fVmc",
+                "url": "https://learn.mit.edu/video/9121/session-6-design-definition-and-multidisciplinary?playlist=9105",
                 "channel": "NASA NESC"
               }
             ]
@@ -11966,12 +11966,12 @@
             "videos": [
               {
                 "title": "Verification & Validation",
-                "url": "https://www.youtube.com/watch?v=rpHvaEza5ls",
+                "url": "https://www.youtube.com/watch?v=-63JXElqPaY",
                 "channel": "MIT OCW"
               },
               {
                 "title": "Requirements Verification Using Statistics",
-                "url": "https://www.youtube.com/watch?v=cpttz8Q7jww",
+                "url": "https://nescacademy.nasa.gov/video/1fee5789d3bf4e46aa1112123851ddee1d",
                 "channel": "NASA NESC"
               }
             ]
@@ -11982,12 +11982,12 @@
             "videos": [
               {
                 "title": "Commissioning & Operations",
-                "url": "https://www.youtube.com/watch?v=xIA-AmGfQ5E",
+                "url": "https://learn.mit.edu/video-playlist/detail/9125?playlist=9105",
                 "channel": "MIT OCW"
               },
               {
                 "title": "Lifecycle Management",
-                "url": "https://www.youtube.com/watch?v=F09LRLmDmRA",
+                "url": "https://learn.mit.edu/video/9126?playlist=9105",
                 "channel": "MIT OCW"
               }
             ]
@@ -16275,12 +16275,12 @@
             "videos": [
               {
                 "title": "What It Takes to Be Successful as an Entrepreneur (1h11)",
-                "url": "https://www.youtube.com/watch?v=CBYhVcO4WgI",
+                "url": "https://www.youtube.com/watch?v=YWZr4lr1jR0",
                 "channel": "MIT OCW"
               },
               {
                 "title": "Competition Is for Losers, Peter Thiel (full lecture)",
-                "url": "https://www.youtube.com/watch?v=CBYhVcO4WgI",
+                "url": "https://www.youtube.com/watch?v=YWZr4lr1jR0",
                 "channel": "YC / Stanford"
               }
             ]
@@ -16329,12 +16329,12 @@
             "videos": [
               {
                 "title": "How to Operate with Keith Rabois (full lecture)",
-                "url": "https://www.youtube.com/watch?v=0JBOSmRo8js",
+                "url": "https://www.youtube.com/watch?v=w19IBxDu2Y4",
                 "channel": "YC / Stanford"
               },
               {
                 "title": "Activator Labs 101: Foundations (recording)",
-                "url": "https://www.youtube.com/watch?v=0JBOSmRo8js",
+                "url": "https://www.youtube.com/watch?v=w19IBxDu2Y4",
                 "channel": "OpenAI Academy"
               }
             ]
@@ -16351,12 +16351,12 @@
             "videos": [
               {
                 "title": "How to Manage with Ben Horowitz (full lecture)",
-                "url": "https://www.youtube.com/watch?v=w19IBxDu2Y4",
+                "url": "https://www.youtube.com/watch?v=j7tr3IlH5Ro",
                 "channel": "Y Combinator"
               },
               {
                 "title": "Culture with Brian Chesky & Alfred Lin (full lecture)",
-                "url": "https://www.youtube.com/watch?v=w19IBxDu2Y4",
+                "url": "https://www.youtube.com/watch?v=j7tr3IlH5Ro",
                 "channel": "Stanford / YC"
               }
             ]
