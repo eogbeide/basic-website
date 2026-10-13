@@ -1640,7 +1640,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GOOGLE CLOUD AI AGENTS",
+        "title": "Crash Course for AI Agents with Google Cloud",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/playlist?list=PLutB-DANVpnSLECwNqxDXjzqExPmGE7uu"
+      }
+    ],
     "page": 424,
     "category": "Software & Application Engineering"
   },
@@ -2159,7 +2166,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "MULESOFT FUNDAMENTALS",
+        "title": "MuleSoft Fundamentals Course",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLml-xlYLiffwFdA1mcg1fE50PWtWyzaAh"
+      }
+    ],
     "page": 559,
     "category": "Software & Application Engineering"
   },
@@ -5581,7 +5595,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "PALANTIR AIP AGENTS",
+        "title": "Build an AIP Agent in Palantir Foundry (Step by Step)",
+        "channel": "Palantir",
+        "url": "https://www.youtube.com/watch?v=EqsLWIrzDbs"
+      }
+    ],
     "page": 525,
     "category": "Software & Application Engineering"
   },
@@ -8482,7 +8503,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "HOW TO PLAN AN MVP",
+        "title": "How to Plan an MVP",
+        "channel": "Y Combinator / Michael Seibel",
+        "url": "https://www.youtube.com/watch?v=1hHMwLxN6EM"
+      }
+    ],
     "page": 12,
     "category": "Software & Application Engineering"
   },
@@ -10857,7 +10885,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "FULL STACK DEVELOPMENT",
+        "title": "Full Stack Development",
+        "channel": "freeCodeCamp.org",
+        "url": "https://www.youtube.com/playlist?list=PLNvOKbV26aTkQAybRk3vjxtVYg8RxIYS8"
+      }
+    ],
     "page": 10,
     "category": "Software & Application Engineering"
   },
@@ -10982,7 +11017,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "BUILDING ENGINEERING TEAMS",
+        "title": "Building and Motivating Engineering Teams",
+        "channel": "Camille Fournier",
+        "url": "https://www.youtube.com/watch?v=7R-Y2DwWOr0"
+      }
+    ],
     "page": 522,
     "category": "Software & Application Engineering"
   },
@@ -11232,7 +11274,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "SYSTEM DESIGN & ARCHITECTURE",
+        "title": "Complete System Design & Software Architecture Course 2026",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=PRqGuM2y39o"
+      }
+    ],
     "page": 18,
     "category": "Software & Application Engineering"
   },
@@ -12982,7 +13031,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "MULESOFT FUNDAMENTALS",
+        "title": "MuleSoft Fundamentals Course",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLml-xlYLiffwFdA1mcg1fE50PWtWyzaAh"
+      }
+    ],
     "page": 560,
     "category": "Software & Application Engineering"
   },
@@ -13732,7 +13788,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "ENGINEERING LEADERSHIP",
+        "title": "An Elegant Puzzle: Systems of Engineering Management",
+        "channel": "Will Larson",
+        "url": "https://www.youtube.com/watch?v=DsOyyigf5mM"
+      }
+    ],
     "page": 566,
     "category": "Software & Application Engineering"
   },
@@ -20773,7 +20836,14 @@
     ],
     "page": 689,
     "category": "Software & Application Engineering",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "VIBE CODING FULL COURSE",
+        "title": "Vibe Coding for Beginners (Full Course 2026)",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=BpOsHF5Oj_I"
+      }
+    ]
   },
   {
     "name": "Search Engineer",
@@ -20898,7 +20968,14 @@
     ],
     "page": 690,
     "category": "Software & Application Engineering",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "ELASTICSEARCH 101",
+        "title": "Elasticsearch 101 Course",
+        "channel": "Elastic",
+        "url": "https://www.youtube.com/playlist?list=PL_mJOmq4zsHbHFer6CGTd-1qoqEQ0qkQm"
+      }
+    ]
   },
   {
     "name": "Database Engineer",
@@ -21023,7 +21100,14 @@
     ],
     "page": 691,
     "category": "Software & Application Engineering",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "POSTGRESQL FULL COURSE",
+        "title": "Learn PostgreSQL Tutorial - Full Course for Beginners",
+        "channel": "freeCodeCamp.org",
+        "url": "https://www.youtube.com/watch?v=qw--VYLpxG4"
+      }
+    ]
   },
   {
     "name": "Front-End Engineer",
@@ -21148,7 +21232,14 @@
     ],
     "page": 692,
     "category": "Software & Application Engineering",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "FULL STACK DEVELOPMENT",
+        "title": "Full Stack Development",
+        "channel": "freeCodeCamp.org",
+        "url": "https://www.youtube.com/playlist?list=PLNvOKbV26aTkQAybRk3vjxtVYg8RxIYS8"
+      }
+    ]
   },
   {
     "name": "Back-End Engineer",
@@ -21273,7 +21364,14 @@
     ],
     "page": 693,
     "category": "Software & Application Engineering",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "FULL STACK DEVELOPMENT",
+        "title": "Full Stack Development",
+        "channel": "freeCodeCamp.org",
+        "url": "https://www.youtube.com/playlist?list=PLNvOKbV26aTkQAybRk3vjxtVYg8RxIYS8"
+      }
+    ]
   },
   {
     "name": "Full-Stack Engineer",
@@ -21398,7 +21496,14 @@
     ],
     "page": 694,
     "category": "Software & Application Engineering",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "FULL STACK DEVELOPMENT",
+        "title": "Full Stack Development",
+        "channel": "freeCodeCamp.org",
+        "url": "https://www.youtube.com/playlist?list=PLNvOKbV26aTkQAybRk3vjxtVYg8RxIYS8"
+      }
+    ]
   },
   {
     "name": "Web Developer",
@@ -21523,7 +21628,14 @@
     ],
     "page": 695,
     "category": "Software & Application Engineering",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "FULL STACK DEVELOPMENT",
+        "title": "Full Stack Development",
+        "channel": "freeCodeCamp.org",
+        "url": "https://www.youtube.com/playlist?list=PLNvOKbV26aTkQAybRk3vjxtVYg8RxIYS8"
+      }
+    ]
   },
   {
     "name": "AI Agent Developer",
@@ -22405,7 +22517,14 @@
     ],
     "page": 702,
     "category": "Software & Application Engineering",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "PLAYWRIGHT FULL COURSE",
+        "title": "Playwright Tutorial 2026 [FREE Full Course]",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PL83cimSRP5ZmwhC6u255huRwSi9tlP-nc"
+      }
+    ]
   },
   {
     "name": "Business Analyst / Business Systems Analyst",
