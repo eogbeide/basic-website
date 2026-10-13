@@ -1,0 +1,65 @@
+name: Refresh "Hot Right Now" roles banner
+
+# Weekly: freeze a snapshot of the 3 roles with the most live job openings
+# into academy/data/hot-roles.json (see scripts/build_hot_roles.py),
+# reading academy/data/jobs.json exactly as the daily jobs-refresh
+# workflow last left it -- this does not re-fetch job boards itself.
+# Runs once a week (not daily) on purpose: the Academy homepage banner is
+# meant to show a stable "this week's hottest roles" for every visitor,
+# not reshuffle every time the daily refresh nudges a count by one.
+on:
+  schedule:
+    - cron: '30 11 * * 1' # 11:30 UTC every Monday, shortly after that day's 11:00 UTC daily jobs refresh
+  workflow_dispatch: {} # allows a manual "Run workflow" trigger too
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-hot-roles
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24' # needed for the final `npx vercel` deploy step
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Snapshot this week's hottest roles
+        run: npm run refresh-hot-roles
+
+      - name: Commit refreshed snapshot (if anything changed)
+        id: commit
+        run: |
+          git config user.name "zuyini-jobs-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add academy/data/hot-roles.json academy/data/data.js
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes to commit."
+          else
+            git commit -m "Weekly refresh: hottest roles banner ($(date -u +%Y-%m-%d))"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Deploy to Vercel (production)
+        if: steps.commit.outputs.changed == 'true'
+        run: npx vercel --prod --yes --token="$VERCEL_TOKEN"
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}

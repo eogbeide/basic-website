@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "ai-platform-engineer",
+    "name": "AI Platform Engineer",
+    "count": 6,
+    "newCount": 0,
+    "skills": [
+      "Kubernetes & Cloud Infrastructure",
+      "Terraform, GitOps & Continuous Delive\u2026",
+      "Distributed Systems, Scheduling & GPU\u2026"
+    ]
+  },
+  {
+    "slug": "ai-security-engineer",
+    "name": "AI Security Engineer",
+    "count": 6,
+    "newCount": 0,
+    "skills": [
+      "Security Fundamentals & Threat Modeli\u2026",
+      "AI Red Teaming & Adversarial Testing",
+      "Identity & Access Management (IAM) /\u2026"
+    ]
+  },
+  {
+    "slug": "technical-program-manager-ai-ml",
+    "name": "Technical Program Manager, AI/ML",
+    "count": 6,
+    "newCount": 0,
+    "skills": [
+      "Models / data / training / inference\u2026",
+      "Program framing / functional requirem\u2026",
+      "Offline/online metrics / golden sets\u2026"
+    ]
+  }
+]
