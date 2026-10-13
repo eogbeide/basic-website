@@ -8089,7 +8089,14 @@
     ],
     "page": 344,
     "category": "Business Management",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "PRICING & MONETIZATION STRATEGY",
+        "title": "Software Pricing & Monetization Strategy Explained",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLf2OT6bt1X3MdCmlLGksE3XgPDgNDlPIR"
+      }
+    ]
   },
   {
     "name": "Privacy Engineer",
@@ -15903,7 +15910,14 @@
     "capstone": "Build a decision-ready corporate real estate plan for a real or simulated multi-site portfolio. Create a property/lease register and market map; underwrite hold, lease, buy, sublease, redevelop and exit options with DCF/IRR/NPV and sensitivity cases; complete site/risk diligence; negotiate a lease term sheet; build an operating budget and NOI bridge; analyze utilization and space needs; define vendor/tenant service KPIs; recommend capital and sustainability actions; then deliver a five-year portfolio strategy, transaction roadmap and executive investment memo.",
     "rubric": "Demonstrate defensible real estate judgment: auditable assumptions and valuation logic; market/site evidence; lease and transaction fluency; lifecycle and capital-allocation tradeoffs; budget/NOI and vendor controls; occupancy evidence rather than badge-count intuition; zoning, environmental, climate and operational risk awareness; effective negotiation; technology/data use that improves decisions; measurable portfolio value, cost, utilization and service outcomes; clear executive recommendation with downside cases.",
     "category": "Business Management",
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "REAL ESTATE INVESTING",
+        "title": "Real Estate Investing (A to Z)",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PL0jXIXQVUiVmjVBYIYWDucTeZwAaNYu73"
+      }
+    ],
     "levels": [
       {
         "level": "BASIC",
@@ -16027,7 +16041,14 @@
     "capstone": "Act as the Business Operations lead for a real or simulated business unit. Write a strategy kernel and explicit priorities; build an annual/quarterly operating plan, budget and headcount/resource scenarios; define a KPI tree and SQL-backed dashboard; establish weekly/monthly operating rhythms and a decision log; map one fragmented cross-functional workflow and redesign it with clear ownership, SLAs and controls; automate one repeatable step only where justified; run an executive review; then produce a decision memo, adoption plan and before/after impact readout.",
     "rubric": "Demonstrate strategy-to-execution evidence: coherent priorities and stop-doing choices; auditable planning/resource assumptions; trusted metrics and SQL/data logic; useful operating cadence rather than meeting volume; measurable process improvement; explicit decision rights and accountability; scenario sensitivity; safe automation with human controls; stakeholder influence; concise executive synthesis; quantify cycle time, budget, quality, capacity or business-outcome improvement and identify where the operating system still breaks.",
     "category": "Business Management",
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "HOW TO START A STARTUP",
+        "title": "How To Start A Startup (Stanford CS183B)",
+        "channel": "Y Combinator",
+        "url": "https://www.youtube.com/playlist?list=PL11qn6zM2Y3bMZdChxEqHKaCaKUjwItGL"
+      }
+    ],
     "levels": [
       {
         "level": "BASIC",
@@ -16151,7 +16172,14 @@
     "capstone": "Own a strategic sourcing category for a real or simulated AI/data-center/enterprise-spend portfolio. Build the spend baseline, demand forecast and supplier-market map; create category strategy and sourcing waves; issue an RFP/RFQ with weighted evaluation criteria; build TCO/should-cost and scenario models; negotiate pricing, capacity, SLA/quality, risk and change-order terms; create supplier scorecards and QBR governance; map continuity and concentration risk with mitigation/dual-source options; automate one procurement workflow with approval/audit controls; then deliver an award memo and executive sourcing review with savings, value, capacity and risk outcomes.",
     "rubric": "Show procurement value beyond unit-price savings: defensible category and supplier evidence; auditable TCO/should-cost assumptions; fair and traceable supplier selection; negotiation and contract discipline; supplier scorecards and corrective-action logic; capacity/NPI and resilience planning; finance/engineering/legal alignment; scenario and downside analysis; automation with approval, provenance and exception handling; measurable savings/value, lead-time, quality, capacity and risk impact; explain when partnership, dual sourcing, redesign or no-award is the better decision.",
     "category": "Business Management",
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "PROCUREMENT MANAGEMENT COURSE",
+        "title": "Procurement Management Course",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLWySm7JMfPqM1ltnM56xSu4_g0AW7KGtB"
+      }
+    ],
     "levels": [
       {
         "level": "BASIC",
@@ -16654,7 +16682,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "HOW TO START A STARTUP",
+        "title": "How To Start A Startup (Stanford CS183B)",
+        "channel": "Y Combinator",
+        "url": "https://www.youtube.com/playlist?list=PL11qn6zM2Y3bMZdChxEqHKaCaKUjwItGL"
+      }
+    ],
     "page": 598,
     "category": "Business Management"
   },
@@ -16779,7 +16814,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "HOW TO START A STARTUP",
+        "title": "How To Start A Startup (Stanford CS183B)",
+        "channel": "Y Combinator",
+        "url": "https://www.youtube.com/playlist?list=PL11qn6zM2Y3bMZdChxEqHKaCaKUjwItGL"
+      }
+    ],
     "page": 599,
     "category": "Business Management"
   },
@@ -17029,7 +17071,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "THE CFO PLAYBOOK",
+        "title": "The CFO Playbook",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLJ6KLp_o3Y4BRpJVhB6GPtVaNyfov710h"
+      }
+    ],
     "page": 601,
     "category": "Business Management"
   },
@@ -17154,7 +17203,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "HR MANAGEMENT FULL COURSE",
+        "title": "Human Resource Management (Complete Course)",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PL3Y_p3e-Lne31qsip5QPMjsEEYd0fqpKy"
+      }
+    ],
     "page": 602,
     "category": "Business Management"
   },
@@ -17279,7 +17335,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "HR MANAGEMENT FULL COURSE",
+        "title": "Human Resource Management (Complete Course)",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PL3Y_p3e-Lne31qsip5QPMjsEEYd0fqpKy"
+      }
+    ],
     "page": 603,
     "category": "Business Management"
   },
@@ -24540,7 +24603,14 @@
     ],
     "page": 747,
     "category": "Business Management",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "PRICING & MONETIZATION STRATEGY",
+        "title": "Software Pricing & Monetization Strategy Explained",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLf2OT6bt1X3MdCmlLGksE3XgPDgNDlPIR"
+      }
+    ]
   },
   {
     "name": "Capacity Planning Manager",
@@ -25047,7 +25117,14 @@
     ],
     "page": 751,
     "category": "Business Management",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "PROCUREMENT MANAGEMENT COURSE",
+        "title": "Procurement Management Course",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLWySm7JMfPqM1ltnM56xSu4_g0AW7KGtB"
+      }
+    ]
   },
   {
     "name": "Business Planner",
@@ -25172,7 +25249,14 @@
     ],
     "page": 752,
     "category": "Business Management",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "HOW TO START A STARTUP",
+        "title": "How To Start A Startup (Stanford CS183B)",
+        "channel": "Y Combinator",
+        "url": "https://www.youtube.com/playlist?list=PL11qn6zM2Y3bMZdChxEqHKaCaKUjwItGL"
+      }
+    ]
   },
   {
     "name": "Machine Learning API Engineer",
