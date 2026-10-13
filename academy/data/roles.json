@@ -370,7 +370,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "PROSCI ADKAR MODEL",
+        "title": "The Prosci ADKAR Model",
+        "channel": "Prosci",
+        "url": "https://www.youtube.com/playlist?list=PLnPoJi83DPgIkLjQHQRJHNvprZn_3FtoQ"
+      }
+    ],
     "page": 518,
     "category": "AI Adoption, Transformation & Organizational Change"
   },
@@ -1279,7 +1286,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GOOGLE CLOUD AI AGENTS",
+        "title": "Crash Course for AI Agents with Google Cloud",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/playlist?list=PLutB-DANVpnSLECwNqxDXjzqExPmGE7uu"
+      }
+    ],
     "page": 407,
     "category": "AI Adoption, Transformation & Organizational Change"
   },
@@ -3346,7 +3360,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GOOGLE CLOUD AI AGENTS",
+        "title": "Crash Course for AI Agents with Google Cloud",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/playlist?list=PLutB-DANVpnSLECwNqxDXjzqExPmGE7uu"
+      }
+    ],
     "page": 330,
     "category": "AI Adoption, Transformation & Organizational Change"
   },
@@ -6553,7 +6574,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "HR MANAGEMENT FULL COURSE",
+        "title": "Human Resource Management (Complete Course)",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PL3Y_p3e-Lne31qsip5QPMjsEEYd0fqpKy"
+      }
+    ],
     "page": 333,
     "category": "AI Adoption, Transformation & Organizational Change"
   },
@@ -6803,7 +6831,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "LEGAL AI IN PRACTICE",
+        "title": "Thomson Reuters Legal AI Released",
+        "channel": "Thomson Reuters",
+        "url": "https://www.youtube.com/watch?v=xuk9X0-Udq0"
+      }
+    ],
     "page": 332,
     "category": "AI Adoption, Transformation & Organizational Change"
   },
@@ -7573,7 +7608,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "PROSCI ADKAR MODEL",
+        "title": "The Prosci ADKAR Model",
+        "channel": "Prosci",
+        "url": "https://www.youtube.com/playlist?list=PLnPoJi83DPgIkLjQHQRJHNvprZn_3FtoQ"
+      }
+    ],
     "page": 331,
     "category": "AI Adoption, Transformation & Organizational Change"
   },
@@ -9629,7 +9671,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "NIST AI RMF ENTERPRISE GOVERNANCE",
+        "title": "NIST AI RMF: Governing AI Risk at Enterprise Scale",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=IPxRCt-BQwc"
+      }
+    ],
     "page": 376,
     "category": "AI Adoption, Transformation & Organizational Change"
   },
@@ -10525,7 +10574,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "MCKINSEY CASE INTERVIEWS",
+        "title": "McKinsey Case Interviews",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLDQSMulzBqekjU5EuOY5gWvO2YstCFlaO"
+      }
+    ],
     "page": 21,
     "category": "AI Adoption, Transformation & Organizational Change"
   },
@@ -11810,7 +11866,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "MCKINSEY CASE INTERVIEWS",
+        "title": "McKinsey Case Interviews",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLDQSMulzBqekjU5EuOY5gWvO2YstCFlaO"
+      }
+    ],
     "page": 11,
     "category": "AI Adoption, Transformation & Organizational Change"
   },
@@ -11935,7 +11998,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "MCKINSEY CASE INTERVIEWS",
+        "title": "McKinsey Case Interviews",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLDQSMulzBqekjU5EuOY5gWvO2YstCFlaO"
+      }
+    ],
     "page": 345,
     "category": "AI Adoption, Transformation & Organizational Change"
   },
@@ -12060,7 +12130,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "MCKINSEY CASE INTERVIEWS",
+        "title": "McKinsey Case Interviews",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLDQSMulzBqekjU5EuOY5gWvO2YstCFlaO"
+      }
+    ],
     "page": 13,
     "category": "AI Adoption, Transformation & Organizational Change"
   },
