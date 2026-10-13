@@ -10,6 +10,7 @@
     { "source": "/(.*)", "has": [{ "type": "host", "value": "zuyini.org" }], "destination": "https://zuyini.com/$1", "permanent": true },
     { "source": "/(.*)", "has": [{ "type": "host", "value": "zuyinihq.com" }], "destination": "https://zuyini.com/$1", "permanent": true },
     { "source": "/(.*)", "has": [{ "type": "host", "value": "www.zuyini.com" }], "destination": "https://zuyini.com/$1", "permanent": true },
+    { "source": "/", "destination": "/academy/", "permanent": false },
     { "source": "/barkerbox-signup", "destination": "/academy/", "permanent": false },
     { "source": "/barkerbox-signup/:path*", "destination": "/academy/", "permanent": false },
     { "source": "/interactive_event", "destination": "/academy/", "permanent": false },
