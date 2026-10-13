@@ -252,7 +252,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "MIT AERODYNAMICS FULL COURSE",
+        "title": "MIT 16.100 Aerodynamics (2023)",
+        "channel": "MIT",
+        "url": "https://www.youtube.com/playlist?list=PLcqHTXprNMIMs1IsTeRkyneQlLXsnGRfB"
+      }
+    ],
     "page": 396,
     "category": "Cloud, Platform & Systems Engineering"
   },
@@ -9756,7 +9763,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "RENEWABLE ENERGY COURSE",
+        "title": "A Course on Renewable Energies and Energy Planning",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLmho8Rcnd60cYDvQ0T8FwhuZrgPzbAlum"
+      }
+    ],
     "page": 421,
     "category": "Cloud, Platform & Systems Engineering"
   },
@@ -10145,7 +10159,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "ROS ROBOTICS PROGRAMMING",
+        "title": "Programming for Robotics (ROS)",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLE-BQwvVGf8HOvwXPgtDfWoxd4Cc6ghiP"
+      }
+    ],
     "page": 358,
     "category": "Cloud, Platform & Systems Engineering"
   },
@@ -12639,7 +12660,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "AIOPS & OBSERVABILITY",
+        "title": "DevOps: AIOps, Application Health and Observability",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLOspHqNVtKAA75RfVxm-CLdARe0VpBwbx"
+      }
+    ],
     "page": 359,
     "category": "Cloud, Platform & Systems Engineering"
   },
@@ -23919,7 +23947,14 @@
     ],
     "page": 707,
     "category": "Cloud, Platform & Systems Engineering",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "SAP TRAINING FOR BEGINNERS",
+        "title": "Full SAP Training for Beginners",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLckPQEKYlbxcQmSVH5mpCtyGWU0h3ME2F"
+      }
+    ]
   },
   {
     "name": "AIOps Engineer",
@@ -24044,7 +24079,14 @@
     ],
     "page": 708,
     "category": "Cloud, Platform & Systems Engineering",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "AIOPS & OBSERVABILITY",
+        "title": "DevOps: AIOps, Application Health and Observability",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLOspHqNVtKAA75RfVxm-CLdARe0VpBwbx"
+      }
+    ]
   },
   {
     "name": "Systems Administrator / Cloud Operations Engineer",
@@ -24169,7 +24211,14 @@
     ],
     "page": 709,
     "category": "Cloud, Platform & Systems Engineering",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "CCNA 200-301 FULL COURSE",
+        "title": "FREE CCNA 200-301 Complete Course",
+        "channel": "NetworkChuck",
+        "url": "https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P"
+      }
+    ]
   },
   {
     "name": "Manager, SEO & Digital Growth",
@@ -24544,7 +24593,14 @@
     ],
     "page": 713,
     "category": "Cloud, Platform & Systems Engineering",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "AIOPS & OBSERVABILITY",
+        "title": "DevOps: AIOps, Application Health and Observability",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PLOspHqNVtKAA75RfVxm-CLdARe0VpBwbx"
+      }
+    ]
   },
   {
     "name": "Technical Program Manager, AI Inference",
