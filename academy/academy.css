@@ -2267,6 +2267,125 @@ body.landing-font {
   margin: 0 auto;
 }
 
+.job-radar-band {
+  background: linear-gradient(180deg, #141414 0%, #1a1710 100%);
+  border-top: 1px solid #2a2c31;
+  border-bottom: 1px solid #2a2c31;
+  padding: 48px 24px;
+}
+
+.job-radar-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.job-radar-inner h2 {
+  margin: 10px 0 10px;
+  font-size: 26px;
+  letter-spacing: -0.5px;
+}
+
+.job-radar-intro {
+  color: #a8a8a8;
+  font-size: 13.5px;
+  line-height: 1.6;
+  margin: 0 0 24px;
+}
+
+.job-radar-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 16px;
+}
+
+.job-radar-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-radar-field label {
+  color: #8a8a8a;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-bottom: 6px;
+}
+
+.job-radar-field input[type='text'],
+.job-radar-field input[type='email'],
+.job-radar-field select {
+  width: 100%;
+  padding: 12px 14px;
+  background-color: #151617;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.job-radar-field input:focus,
+.job-radar-field select:focus {
+  outline: none;
+  border-color: #ffc629;
+}
+
+.job-radar-field input:disabled {
+  opacity: 0.4;
+}
+
+.job-radar-remote-check {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  color: #c9cbd2;
+  font-size: 12.5px;
+  text-transform: none;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+
+.job-radar-submit {
+  grid-column: 1 / -1;
+  margin-top: 4px;
+}
+
+.job-radar-status {
+  grid-column: 1 / -1;
+  font-size: 13px;
+  margin: 2px 0 0;
+}
+
+.job-radar-status-success {
+  color: #7fd98f;
+}
+
+.job-radar-status-error {
+  color: #ff8a8a;
+}
+
+.job-radar-fineprint {
+  color: #6f6f6f;
+  font-size: 11.5px;
+  margin: 18px 0 0;
+}
+
+.job-radar-form .hidden-field {
+  /* Spam-trap field, hidden from real visitors without display:none,
+     since some bots skip fields that are display:none. */
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+}
+
+@media (max-width: 640px) {
+  .job-radar-form {
+    grid-template-columns: 1fr;
+  }
+}
+
 .category-grid-section {
   padding: 56px 24px;
 }

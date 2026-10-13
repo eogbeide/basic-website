@@ -1,0 +1,45 @@
+name: Send Zuyini Job Radar digests
+
+# Weekly: for every subscriber due this cycle (by their own chosen
+# frequency -- weekly every run, biweekly on even ISO weeks, monthly
+# every 4th week), compile a personalized digest of real, ranked job
+# openings for their role from free sources (this role's own benchmark
+# employers, RemoteOK, We Work Remotely), plus direct LinkedIn/Indeed
+# search links and matching Zuyini course links, then send it via Kit
+# (ConvertKit). See scripts/build_job_radar_digest.py for the full logic.
+#
+# Unlike refresh-jobs.yml and refresh-hot-roles.yml, this workflow never
+# touches the repo -- it only reads academy/data/jobs.json and
+# academy/data/roles.json (already committed, already fresh from the
+# other two workflows) and talks to Kit's API, so there's nothing to
+# commit or deploy here.
+on:
+  schedule:
+    - cron: '0 13 * * 1' # 13:00 UTC every Monday, after both the daily jobs refresh and the weekly hot-roles snapshot
+  workflow_dispatch: {} # allows a manual "Run workflow" trigger too
+
+permissions:
+  contents: read
+
+concurrency:
+  group: job-radar-digest
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Compile and send this cycle's digests
+        run: npm run send-job-radar
+        env:
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}

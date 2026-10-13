@@ -134,6 +134,45 @@
     </div>
   </section>
 
+  <section class="job-radar-band" id="job-radar">
+    <div class="job-radar-inner">
+      <p class="section-label">&#128225; Job Radar</p>
+      <h2>One ranked digest, pulled from multiple job sites &mdash; no need to check them yourself.</h2>
+      <p class="job-radar-intro">Pick a role and how often you want updates. We&rsquo;ll pull and rank real openings from your role&rsquo;s own benchmark employers plus RemoteOK and We Work Remotely, add a direct LinkedIn/Indeed search link for anything those two don&rsquo;t expose publicly, and match it all to the free Zuyini courses for that role &mdash; delivered straight to your inbox.</p>
+      <form id="job-radar-form" class="job-radar-form" novalidate>
+        <input type="checkbox" name="botcheck" class="hidden-field" tabindex="-1" autocomplete="off" />
+        <div class="job-radar-field">
+          <label for="job-radar-name">Name</label>
+          <input id="job-radar-name" name="first_name" type="text" autocomplete="given-name" required />
+        </div>
+        <div class="job-radar-field">
+          <label for="job-radar-email">Email</label>
+          <input id="job-radar-email" name="email" type="email" autocomplete="email" required />
+        </div>
+        <div class="job-radar-field">
+          <label for="job-radar-role">Role you&rsquo;re targeting</label>
+          <select id="job-radar-role" required></select>
+        </div>
+        <div class="job-radar-field job-radar-field-location">
+          <label for="job-radar-location">Location</label>
+          <input id="job-radar-location" type="text" placeholder="e.g. Austin, TX" />
+          <label class="job-radar-remote-check"><input type="checkbox" id="job-radar-remote" /> Remote only</label>
+        </div>
+        <div class="job-radar-field">
+          <label for="job-radar-frequency">How often</label>
+          <select id="job-radar-frequency" required>
+            <option value="Weekly">Weekly</option>
+            <option value="Biweekly">Every 2 weeks</option>
+            <option value="Monthly">Monthly</option>
+          </select>
+        </div>
+        <button type="submit" class="hero-button job-radar-submit">Start My Job Radar</button>
+        <p id="job-radar-status" class="job-radar-status" role="status" aria-live="polite" hidden></p>
+      </form>
+      <p class="job-radar-fineprint">Free, always. No spam, unsubscribe anytime. We never scrape LinkedIn or Indeed &mdash; only sources with their own public, free job-board access, plus a direct link out to the other two.</p>
+    </div>
+  </section>
+
   <div class="mode-toggle-bar">
     <div class="mode-toggle">
       <button type="button" data-mode="roles" class="active">Roles</button>
@@ -350,6 +389,7 @@
   <script src="data/data.js"></script>
   <script src="academy.js"></script>
   <script src="../gate.js"></script>
+  <script src="job-radar.js"></script>
   <script src="chat-widget.js"></script>
 </body>
 </html>
