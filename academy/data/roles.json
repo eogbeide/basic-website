@@ -3492,7 +3492,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "IT SECURITY GRC INTRO",
+        "title": "3-Hour Intro to Cyber and IT Security Governance, Risk, and Compliance (GRC)",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=aCDviSgueKQ"
+      }
+    ],
     "page": 556,
     "category": "Data Governance, Privacy & Trust"
   },
@@ -4013,7 +4020,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GDPR CRASH COURSE",
+        "title": "GDPR Crash Course - Master Privacy in 2 Hours",
+        "channel": "Shalini Garg",
+        "url": "https://www.youtube.com/watch?v=7X8bd1poAdk"
+      }
+    ],
     "page": 515,
     "category": "Data Governance, Privacy & Trust"
   },
@@ -4138,7 +4152,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GDPR CRASH COURSE",
+        "title": "GDPR Crash Course - Master Privacy in 2 Hours",
+        "channel": "Shalini Garg",
+        "url": "https://www.youtube.com/watch?v=7X8bd1poAdk"
+      }
+    ],
     "page": 554,
     "category": "Data Governance, Privacy & Trust"
   },
@@ -5290,7 +5311,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "IT SECURITY GRC INTRO",
+        "title": "3-Hour Intro to Cyber and IT Security Governance, Risk, and Compliance (GRC)",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=aCDviSgueKQ"
+      }
+    ],
     "page": 423,
     "category": "Data Governance, Privacy & Trust"
   },
@@ -8261,7 +8289,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GDPR CRASH COURSE",
+        "title": "GDPR Crash Course - Master Privacy in 2 Hours",
+        "channel": "Shalini Garg",
+        "url": "https://www.youtube.com/watch?v=7X8bd1poAdk"
+      }
+    ],
     "page": 549,
     "category": "Data Governance, Privacy & Trust"
   },
@@ -9296,7 +9331,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "ETHICAL HACKING FULL COURSE",
+        "title": "Ethical Hacking & Penetration Testing - Complete Course",
+        "channel": "HackerSploit",
+        "url": "https://www.youtube.com/playlist?list=PLBf0hzazHTGOEuhPQSnq-Ej8jRyXxfYvl"
+      }
+    ],
     "page": 545,
     "category": "Data Governance, Privacy & Trust"
   },
@@ -10449,7 +10491,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "ETHICAL HACKING FULL COURSE",
+        "title": "Ethical Hacking & Penetration Testing - Complete Course",
+        "channel": "HackerSploit",
+        "url": "https://www.youtube.com/playlist?list=PLBf0hzazHTGOEuhPQSnq-Ej8jRyXxfYvl"
+      }
+    ],
     "page": 4,
     "category": "Data Governance, Privacy & Trust"
   },
@@ -13922,7 +13971,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "ETHICAL HACKING FULL COURSE",
+        "title": "Ethical Hacking & Penetration Testing - Complete Course",
+        "channel": "HackerSploit",
+        "url": "https://www.youtube.com/playlist?list=PLBf0hzazHTGOEuhPQSnq-Ej8jRyXxfYvl"
+      }
+    ],
     "page": 565,
     "category": "Data Governance, Privacy & Trust"
   },
@@ -14943,7 +14999,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "IDENTITY & ACCESS MANAGEMENT",
+        "title": "Identity and Access Management",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/playlist?list=PL4CWMK8cYKHUdqYg_vr4oKq5TjVZYoqh5"
+      }
+    ],
     "page": 573,
     "category": "Data Governance, Privacy & Trust"
   },
@@ -23152,7 +23215,14 @@
     ],
     "page": 704,
     "category": "Data Governance, Privacy & Trust",
-    "bonus": []
+    "bonus": [
+      {
+        "label": "IT SECURITY GRC INTRO",
+        "title": "3-Hour Intro to Cyber and IT Security Governance, Risk, and Compliance (GRC)",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=aCDviSgueKQ"
+      }
+    ]
   },
   {
     "name": "Conversational AI Engineer",
@@ -25706,7 +25776,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "ETHICAL HACKING FULL COURSE",
+        "title": "Ethical Hacking & Penetration Testing - Complete Course",
+        "channel": "HackerSploit",
+        "url": "https://www.youtube.com/playlist?list=PLBf0hzazHTGOEuhPQSnq-Ej8jRyXxfYvl"
+      }
+    ],
     "page": 1881,
     "category": "Data Governance, Privacy & Trust"
   },
