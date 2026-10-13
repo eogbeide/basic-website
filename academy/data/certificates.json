@@ -3036,6 +3036,11 @@
         "competency": "Signaling + integrated metabolism",
         "coverage": "MIT 7.016",
         "url": "https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/resources/lecture-20-cell-signaling-12014overview/"
+      },
+      {
+        "competency": "Topic-organized biochemistry review (supplementary)",
+        "coverage": "AK Lectures",
+        "url": "https://aklectures.com/subject/biochemistry/introduction-to-proteins"
       }
     ],
     "page": 640,
@@ -3657,19 +3662,19 @@
         "tier": "BASIC - UNDERSTAND",
         "courses": [
           {
-            "title": "MIT 2.71 - Lecture 1: Introduction to Optics — MIT OpenCourseWare",
+            "title": "MIT 2.71 - Lecture 1: Introduction to Optics \u2014 MIT OpenCourseWare",
             "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-1-course-organization-introduction-to-optics/"
           },
           {
-            "title": "MIT 2.71 - Lecture 2: Reflection, Refraction, Prisms & Dispersion — MIT OpenCourseWare",
+            "title": "MIT 2.71 - Lecture 2: Reflection, Refraction, Prisms & Dispersion \u2014 MIT OpenCourseWare",
             "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-2-reflection-and-refraction-prisms-waveguides-and-dispersion/"
           },
           {
-            "title": "MIT 2.71 - Lecture 3: Focusing, Imaging & Paraxial Approximation — MIT OpenCourseWare",
+            "title": "MIT 2.71 - Lecture 3: Focusing, Imaging & Paraxial Approximation \u2014 MIT OpenCourseWare",
             "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-3-focusing-imaging-and-the-paraxial-approximation/"
           },
           {
-            "title": "MIT 2.71 - Lecture 6: Apertures, Stops, Pupils & Single-Lens Camera — MIT OpenCourseWare",
+            "title": "MIT 2.71 - Lecture 6: Apertures, Stops, Pupils & Single-Lens Camera \u2014 MIT OpenCourseWare",
             "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-6-terms-apertures-stops-pupils-and-windows-single-lens-camera/"
           }
         ]
@@ -3678,19 +3683,19 @@
         "tier": "INTERMEDIATE - APPLY",
         "courses": [
           {
-            "title": "MIT 2.71 - Lecture 8: Telescopes & Aberrations — MIT OpenCourseWare",
+            "title": "MIT 2.71 - Lecture 8: Telescopes & Aberrations \u2014 MIT OpenCourseWare",
             "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-8-telescopes-aberrations-chromatic-spherical-and-coma/"
           },
           {
-            "title": "MIT 2.71 - Lecture 9: Optical Design, Aberrations & GRIN — MIT OpenCourseWare",
+            "title": "MIT 2.71 - Lecture 9: Optical Design, Aberrations & GRIN \u2014 MIT OpenCourseWare",
             "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-9-more-aberrations-optical-design-gradient-index-grin/"
           },
           {
-            "title": "MIT 2.71 - Lecture 14: Maxwell, Polarization & Poynting Vector — MIT OpenCourseWare",
+            "title": "MIT 2.71 - Lecture 14: Maxwell, Polarization & Poynting Vector \u2014 MIT OpenCourseWare",
             "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-14-maxwells-equations-polarization-poyntings-vector/"
           },
           {
-            "title": "MIT 2.71 - Lecture 15: Interferometers & Fresnel Diffraction — MIT OpenCourseWare",
+            "title": "MIT 2.71 - Lecture 15: Interferometers & Fresnel Diffraction \u2014 MIT OpenCourseWare",
             "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-15-huygens-principle-interferometers-fresnel-diffraction/"
           }
         ]
@@ -3699,19 +3704,19 @@
         "tier": "ADVANCED - DESIGN / VERIFY",
         "courses": [
           {
-            "title": "MIT 2.71 - Lecture 17: Fraunhofer Diffraction & Fourier Optics — MIT OpenCourseWare",
+            "title": "MIT 2.71 - Lecture 17: Fraunhofer Diffraction & Fourier Optics \u2014 MIT OpenCourseWare",
             "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-17-fraunhofer-diffraction-fourier-transforms-and-theorems/"
           },
           {
-            "title": "MIT 2.71 - Lecture 18: Spatial Filtering & Lens Transfer Functions — MIT OpenCourseWare",
+            "title": "MIT 2.71 - Lecture 18: Spatial Filtering & Lens Transfer Functions \u2014 MIT OpenCourseWare",
             "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-18-spatial-filtering-lens-transfer-functions-transforms/"
           },
           {
-            "title": "MIT 2.71 - Lecture 22: Coherent/Incoherent Imaging, OTF & MTF — MIT OpenCourseWare",
+            "title": "MIT 2.71 - Lecture 22: Coherent/Incoherent Imaging, OTF & MTF \u2014 MIT OpenCourseWare",
             "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-22-coherent-and-incoherent-imaging/"
           },
           {
-            "title": "MIT 2.71 - Lecture 25: Resolution & Defocused Optical Systems — MIT OpenCourseWare",
+            "title": "MIT 2.71 - Lecture 25: Resolution & Defocused Optical Systems \u2014 MIT OpenCourseWare",
             "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-25-resolution-defocused-optical-systems/"
           }
         ]
@@ -3753,19 +3758,19 @@
         "tier": "BASIC - MEASURE",
         "courses": [
           {
-            "title": "NPTEL - Fundamental of Measurement Systems I — IIT Guwahati",
+            "title": "NPTEL - Fundamental of Measurement Systems I \u2014 IIT Guwahati",
             "url": "https://www.youtube.com/watch?v=l4PAyQ9k_AY"
           },
           {
-            "title": "NPTEL - Fundamental of Measurement Systems II — IIT Guwahati",
+            "title": "NPTEL - Fundamental of Measurement Systems II \u2014 IIT Guwahati",
             "url": "https://www.youtube.com/watch?v=epscq8X1p2I"
           },
           {
-            "title": "NPTEL - Industrial Instrumentation: Introduction — IIT Kharagpur",
+            "title": "NPTEL - Industrial Instrumentation: Introduction \u2014 IIT Kharagpur",
             "url": "https://www.youtube.com/watch?v=NuQqDFkhIlU"
           },
           {
-            "title": "NPTEL - Flow Measurement — IIT Kharagpur",
+            "title": "NPTEL - Flow Measurement \u2014 IIT Kharagpur",
             "url": "https://www.youtube.com/watch?v=gByrUkZUnKo"
           }
         ]
@@ -3774,19 +3779,19 @@
         "tier": "INTERMEDIATE - CONDITION / ACQUIRE",
         "courses": [
           {
-            "title": "NPTEL - Signal Conditioning Circuits I — IIT Kharagpur",
+            "title": "NPTEL - Signal Conditioning Circuits I \u2014 IIT Kharagpur",
             "url": "https://www.youtube.com/watch?v=GMnw9gch7jo"
           },
           {
-            "title": "NPTEL - Signal Conditioning Circuits II — IIT Kharagpur",
+            "title": "NPTEL - Signal Conditioning Circuits II \u2014 IIT Kharagpur",
             "url": "https://www.youtube.com/watch?v=7-RKGk4jtyQ"
           },
           {
-            "title": "NPTEL - Grounding and Shielding — IIT Guwahati",
+            "title": "NPTEL - Grounding and Shielding \u2014 IIT Guwahati",
             "url": "https://www.youtube.com/watch?v=hmb4xeCZHcE"
           },
           {
-            "title": "NPTEL - Introduction to Data Acquisition Systems — IIT Guwahati",
+            "title": "NPTEL - Introduction to Data Acquisition Systems \u2014 IIT Guwahati",
             "url": "https://www.youtube.com/watch?v=_xxx7fHNAoE"
           }
         ]
@@ -3795,19 +3800,19 @@
         "tier": "ADVANCED - CONTROL / INTEGRATE",
         "courses": [
           {
-            "title": "NPTEL - Signal Generators and Analyzers — IIT Guwahati",
+            "title": "NPTEL - Signal Generators and Analyzers \u2014 IIT Guwahati",
             "url": "https://www.youtube.com/watch?v=v_uB1zJ4GWc"
           },
           {
-            "title": "NPTEL - P-I-D Control — IIT Kharagpur",
+            "title": "NPTEL - P-I-D Control \u2014 IIT Kharagpur",
             "url": "https://www.youtube.com/watch?v=-To4nPh-N2A"
           },
           {
-            "title": "NPTEL - PLC Hardware Environment — IIT Kharagpur",
+            "title": "NPTEL - PLC Hardware Environment \u2014 IIT Kharagpur",
             "url": "https://www.youtube.com/watch?v=ayg2vt25XiY"
           },
           {
-            "title": "NPTEL - The Fieldbus Network I — IIT Kharagpur",
+            "title": "NPTEL - The Fieldbus Network I \u2014 IIT Kharagpur",
             "url": "https://www.youtube.com/watch?v=ap27YeBOr_c"
           }
         ]

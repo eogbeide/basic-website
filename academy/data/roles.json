@@ -745,7 +745,20 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "AGENTIC WORKFLOWS PLAYLIST",
+        "title": "AI Engineering 101 \u2014 Agentic Workflows (18 episodes: tool calling, LangGraph, RAG, MCP)",
+        "channel": "AI Engineering 101",
+        "url": "https://www.youtube.com/playlist?list=PL3tZ_eA1QJswSQrpDveVkIH-wElOmsxQT"
+      },
+      {
+        "label": "LLM OPS PRODUCTION COHORT",
+        "title": "LLM Ops: Large Language Models in Production",
+        "channel": "AI Makerspace",
+        "url": "https://www.youtube.com/playlist?list=PLrSHiQgy4VjGQohoAmgX9VFH52psNOu71"
+      }
+    ],
     "page": 2,
     "category": "AI, Agents & Intelligent Automation"
   },
@@ -1995,7 +2008,26 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "DBT FOR DATA ENGINEERS",
+        "title": "DBT for Data Engineers Full Course 2026 | Basics to Advanced",
+        "channel": "Data with Jay",
+        "url": "https://www.youtube.com/watch?v=us1rf2iynOY"
+      },
+      {
+        "label": "DBT FUNDAMENTALS",
+        "title": "dbt Fundamentals",
+        "channel": "dbt Labs",
+        "url": "https://www.youtube.com/playlist?list=PLy4OcwFFrHZDAmKQ5s5w_DH4sUOzQZjVz"
+      },
+      {
+        "label": "DBT DEEP DIVE",
+        "title": "dbt Deep Dive",
+        "channel": "Kahan Data Solutions",
+        "url": "https://www.youtube.com/playlist?list=PLy4OcwImJzBLJzLYxpxaPUmCWp8j1esvT"
+      }
+    ],
     "page": 548,
     "category": "Data, AI & Machine Learning"
   },
@@ -2495,7 +2527,20 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "TERRAFORM ON AWS",
+        "title": "Terraform Tutorial on AWS [Full Course]",
+        "channel": "Anton Putra",
+        "url": "https://www.youtube.com/playlist?list=PLiMWaCMwGJXkGuVPyM2hTQumcaqnXEgHA"
+      },
+      {
+        "label": "AWS EKS KUBERNETES",
+        "title": "AWS EKS Kubernetes Tutorial [Full Course]",
+        "channel": "Anton Putra",
+        "url": "https://www.youtube.com/playlist?list=PLiMWaCMwGJXnKY6XmeifEpjIfkWRo9v2l"
+      }
+    ],
     "page": 405,
     "category": "Data Center, AI Compute & Infrastructure"
   },
@@ -3495,7 +3540,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "DATA ANALYST BOOTCAMP",
+        "title": "2026 Data Analyst Bootcamp (26+ hours): SQL, Excel, Python, Power BI, GitHub, AWS",
+        "channel": "Alex The Analyst",
+        "url": "https://www.youtube.com/watch?v=cnjhHZNJEDk"
+      }
+    ],
     "page": 406,
     "category": "Data, AI & Machine Learning"
   },
@@ -4627,7 +4679,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "PLATFORM ENGINEERING SERIES",
+        "title": "Platform Engineering Series: Internal Developer Platforms and Platform as Product",
+        "channel": "Tom Peperkamp",
+        "url": "https://www.youtube.com/playlist?list=PLhTFKjucJxnmtZTmRXC__uOQYOG3AB7Vd"
+      }
+    ],
     "page": 546,
     "category": "Software & Application Engineering"
   },
@@ -4752,7 +4811,20 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GITOPS WITH ARGO CD",
+        "title": "Argo CD Tutorials",
+        "channel": "Anton Putra",
+        "url": "https://www.youtube.com/playlist?list=PLiMWaCMwGJXkktZoHhmL6sbg7ELNjv9Xw"
+      },
+      {
+        "label": "KUBERNETES HANDS-ON",
+        "title": "Kubernetes Tutorials",
+        "channel": "Anton Putra",
+        "url": "https://www.youtube.com/playlist?list=PLiMWaCMwGJXnHmccp2xlBENZ1xr4FpjXF"
+      }
+    ],
     "page": 404,
     "category": "AI Evaluation, Reliability & Safety Engineering"
   },

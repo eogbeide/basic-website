@@ -1131,7 +1131,21 @@
     ],
     "page": 658,
     "trackNumber": 9,
-    "relatedRole": "Prompt Engineer"
+    "relatedRole": "Prompt Engineer",
+    "bonus": [
+      {
+        "label": "PROMPT ENGINEERING FOR DEVELOPERS",
+        "title": "ChatGPT Prompt Engineering for Developers (9 lessons)",
+        "channel": "DeepLearning.AI / OpenAI",
+        "url": "https://www.deeplearning.ai/courses/chatgpt-prompt-eng"
+      },
+      {
+        "label": "PRODUCTION PROMPT PIPELINES",
+        "title": "Building Systems with the ChatGPT API (11 lessons)",
+        "channel": "DeepLearning.AI / OpenAI",
+        "url": "https://www.deeplearning.ai/courses/chatgpt-building-system"
+      }
+    ]
   },
   {
     "name": "Engineering Manager",
