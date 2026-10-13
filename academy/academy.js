@@ -90,6 +90,24 @@
   // a tier-2 block: real, live LinkedIn/Indeed search links for that
   // subject, clearly labeled as a search shortcut rather than a curated
   // match, so nothing here is ever invented or exaggerated.
+  // Remote-only search shortcut for the same subject -- LinkedIn's f_WT=2
+  // and Indeed's l=Remote both filter to genuinely remote-only results on
+  // the real site (not anything invented or estimated here), so this
+  // works for literally any role/pathway/track name and needs no data of
+  // its own. Appended to both the curated tier-1 block and the tier-2
+  // fallback, so every page -- not just the minority with a live-opening
+  // feed -- gets a direct way to filter to remote.
+  function renderRemoteSearchLinks(subjectName) {
+    var q = encodeURIComponent(subjectName + ' jobs');
+    return (
+      '<div class="hiring-remote-links">' +
+      '<span class="hiring-remote-label">Remote only:</span>' +
+      '<a href="https://www.linkedin.com/jobs/search/?keywords=' + q + '&f_WT=2" target="_blank" rel="noopener noreferrer">LinkedIn &rarr;</a>' +
+      '<a href="https://www.indeed.com/jobs?q=' + q + '&l=Remote" target="_blank" rel="noopener noreferrer">Indeed &rarr;</a>' +
+      '</div>'
+    );
+  }
+
   function renderHiringFallback(subjectName) {
     var q = encodeURIComponent(subjectName + ' jobs');
     return (
@@ -100,6 +118,7 @@
       '<a href="https://www.linkedin.com/jobs/search/?keywords=' + q + '&location=United%20States" target="_blank" rel="noopener noreferrer">Search on LinkedIn &rarr;</a>' +
       '<a href="https://www.indeed.com/jobs?q=' + q + '&l=United+States" target="_blank" rel="noopener noreferrer">Search on Indeed &rarr;</a>' +
       '</div>' +
+      renderRemoteSearchLinks(subjectName) +
       '</div>'
     );
   }
@@ -117,6 +136,7 @@
       ' &mdash; this role&rsquo;s own benchmark employers &mdash; refreshed daily, as of ' + escapeHtml(entry.asOf) +
       '. Pulled directly from each company&rsquo;s public job board; not exhaustive, and postings close fast &mdash; worth confirming the details on the employer&rsquo;s own site before applying.</p>' +
       '<ul class="hiring-job-list">' + items + '</ul>' +
+      (fallbackName ? renderRemoteSearchLinks(fallbackName) : '') +
       '</div>'
     );
   }
@@ -147,6 +167,7 @@
       '<p class="hiring-block-note">US openings posted in the last 7 days at ' + escapeHtml(Object.keys(companies).join(', ')) +
       ' across this pathway&rsquo;s representative roles, refreshed daily. Pulled directly from each company&rsquo;s public job board; not exhaustive, and postings close fast &mdash; worth confirming the details on the employer&rsquo;s own site before applying.</p>' +
       '<ul class="hiring-job-list">' + items + '</ul>' +
+      renderRemoteSearchLinks(pathwayName) +
       '</div>'
     );
   }

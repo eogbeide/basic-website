@@ -146,7 +146,7 @@ def classify_location(raw):
             found_us_state = found_us_state or city_hit
             continue
         if is_remote and not non_us_hit:
-            found_us_remote = found_us_remote or False
+            found_us_remote = True
 
     if found_us_state:
         return (True, found_us_state)

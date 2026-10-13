@@ -901,6 +901,33 @@ a {
   border-color: rgba(255, 198, 41, 0.5);
 }
 
+.hiring-remote-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.hiring-remote-label {
+  color: #a8a8a8;
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.hiring-remote-links a {
+  color: #ffc629;
+  font-size: 12.5px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hiring-remote-links a:hover {
+  text-decoration: underline;
+}
+
 .cross-links-block,
 .course-sequence-block,
 .tier-block {
