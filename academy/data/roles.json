@@ -6492,7 +6492,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "GOOGLE CLOUD AI AGENTS",
+        "title": "Crash Course for AI Agents with Google Cloud",
+        "channel": "Google Cloud",
+        "url": "https://www.youtube.com/playlist?list=PLutB-DANVpnSLECwNqxDXjzqExPmGE7uu"
+      }
+    ],
     "page": 328,
     "category": "Healthcare Operations, Digital Health & Interoperability"
   },
@@ -6617,7 +6624,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "VALUE-BASED CARE",
+        "title": "Understanding the Value of \"Value-Based Care\"",
+        "channel": "YouTube",
+        "url": "https://www.youtube.com/watch?v=en0Iw9bDo_Q"
+      }
+    ],
     "page": 512,
     "category": "Healthcare Operations, Digital Health & Interoperability"
   },
@@ -17436,7 +17450,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "LAND SURVEYOR BASICS",
+        "title": "Land Surveyor Basics Course",
+        "channel": "Land Surveyors United",
+        "url": "https://www.youtube.com/playlist?list=PL1EzH8XlwSxsFskDNT3tJvOqK-OIQaWkO"
+      }
+    ],
     "page": 600,
     "category": "Surveying, Geospatial & Infrastructure"
   },
@@ -20861,7 +20882,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "OSHA COMPLIANCE TRAINING",
+        "title": "OSHA Compliance Workplace Safety Training",
+        "channel": "OSHA Outreach Courses",
+        "url": "https://www.youtube.com/playlist?list=PL0k4Uvrgzs7kZZeB8C0-7AANFTobUC8tp"
+      }
+    ],
     "page": 646,
     "category": "Environmental Health & Safety"
   },
@@ -20986,7 +21014,14 @@
         ]
       }
     ],
-    "bonus": [],
+    "bonus": [
+      {
+        "label": "OSHA COMPLIANCE TRAINING",
+        "title": "OSHA Compliance Workplace Safety Training",
+        "channel": "OSHA Outreach Courses",
+        "url": "https://www.youtube.com/playlist?list=PL0k4Uvrgzs7kZZeB8C0-7AANFTobUC8tp"
+      }
+    ],
     "page": 647,
     "category": "Environmental Health & Safety"
   },
