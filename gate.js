@@ -7,6 +7,23 @@
   // -------------------------------------------------------------------------
 
   var STORAGE_KEY = 'zuyini_access_granted';
+  var SESSION_DISMISS_KEY = 'zuyini_gate_dismissed';
+
+  function wasDismissedThisSession() {
+    try {
+      return sessionStorage.getItem(SESSION_DISMISS_KEY) === '1';
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function markDismissedThisSession() {
+    try {
+      sessionStorage.setItem(SESSION_DISMISS_KEY, '1');
+    } catch (e) {
+      // ignore -- worst case the auto-popup can show again on the next page
+    }
+  }
 
   function hasAccess() {
     try {
@@ -164,6 +181,13 @@
     activeOverlay.remove();
     activeOverlay = null;
     pendingCallbacks = [];
+    // A visitor who explicitly closes the gate (X button or clicking the
+    // backdrop) shouldn't have it jump back in their face on literally
+    // every subsequent page this session -- but this only suppresses the
+    // automatic on-load popup below; clicking something that specifically
+    // requires access (a video, a mastery checkbox) still gates normally,
+    // since that's the visitor's own high-intent action, not an interruption.
+    markDismissedThisSession();
   }
 
   // Shows the signup modal. `onGranted` (optional) runs once access is
@@ -246,4 +270,13 @@
   // so the static markup it wires up already exists -- no need to wait for
   // DOMContentLoaded.
   wireStaticForms();
+
+  // Prompts new (not-yet-signed-up) visitors immediately on page load,
+  // instead of waiting for them to click a gated video/checkbox first.
+  // Skipped once they've already signed up (hasAccess) or already closed
+  // the auto-popup once this session (wasDismissedThisSession) -- so it
+  // greets a new visitor once per visit, not on every single page.
+  if (!hasAccess() && !wasDismissedThisSession()) {
+    showGate();
+  }
 })();
