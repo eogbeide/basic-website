@@ -709,23 +709,30 @@ a {
 .level-block .video-links .mastery-check {
   order: 2;
   align-self: flex-end;
-  width: 15px;
+  width: 16px;
   height: 15px;
   margin: 0 0 0 auto;
   accent-color: var(--pdf-green);
   cursor: pointer;
 }
 
-.level-block .video-links .mastery-check::after {
+/* The "Mark complete" label lives as generated content on the <li> itself
+   (not on the checkbox) -- a checkbox is a UA-styled replaced-ish element,
+   so a ::after attached to it paints but never contributes to its layout
+   box, which left the label overflowing past the card edge into whatever
+   sits next to it. The <li> is a real flex container, so its own ::after
+   lays out as a proper flex item (its own right-aligned row below the
+   checkbox) and stays contained. */
+.level-block .video-links li::after {
+  order: 3;
+  align-self: flex-end;
   content: 'Mark complete';
-  margin-left: 6px;
   font-size: 11px;
   font-weight: 700;
   color: var(--pdf-text-mute);
-  vertical-align: middle;
 }
 
-.level-block .video-links .mastery-check:checked::after {
+.level-block .video-links li:has(.mastery-check:checked)::after {
   content: 'Completed';
   color: var(--pdf-green);
 }
