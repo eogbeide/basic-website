@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Find Your Path | Zuyini Academy</title>
+  <meta name="description" content="Answer three quick questions and get a free, job-benchmarked career path matched to your background &mdash; Basic, Intermediate and Advanced lessons plus a capstone." />
+  <link rel="canonical" href="https://zuyini.com/academy/find-your-path/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Find Your Path | Zuyini Academy" />
+  <meta property="og:description" content="Answer three quick questions and get a free, job-benchmarked career path matched to your background." />
+  <meta property="og:image" content="https://zuyini.com/academy/og-image.png" />
+  <meta property="og:url" content="https://zuyini.com/academy/find-your-path/" />
+  <link rel="stylesheet" href="../academy.css" />
+  <link rel="stylesheet" href="../chat-widget.css" />
+  <link rel="stylesheet" href="../academy-theme.css" />
+  <link rel="stylesheet" href="../academy-home-theme.css" />
+  <link rel="stylesheet" href="quiz.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&amp;display=swap" />
+</head>
+<body class="landing-font">
+  <header class="site-header">
+    <a href="/academy/index.html" class="logo">
+      <span class="logo-mark">Z</span>
+      <span>Zuyini Academy</span>
+    </a>
+    <a href="/academy/index.html" class="quiz-back-link">&larr; Back to home</a>
+  </header>
+
+  <main class="quiz-shell">
+    <div class="quiz-card">
+      <div class="quiz-card-head">
+        <p class="quiz-kicker">Find My Path</p>
+        <p class="quiz-step-label" id="quiz-step-label">Question 1 of 3</p>
+      </div>
+      <div class="quiz-progress-track">
+        <div class="quiz-progress-fill" id="quiz-progress-fill" style="width: 33.33%"></div>
+      </div>
+
+      <div id="quiz-question-view">
+        <h1 class="quiz-question" id="quiz-question-title">What&rsquo;s your background?</h1>
+        <p class="quiz-question-sub" id="quiz-question-sub">Pick the closest fit. You can change it later.</p>
+        <div class="quiz-options" id="quiz-options" role="radiogroup" aria-labelledby="quiz-question-title"></div>
+        <div class="quiz-nav">
+          <button type="button" class="quiz-btn quiz-btn-ghost" id="quiz-back">Back</button>
+          <button type="button" class="quiz-btn quiz-btn-primary" id="quiz-next" disabled>Next</button>
+        </div>
+      </div>
+
+      <div id="quiz-result-view" hidden>
+        <p class="quiz-result-label">Your match</p>
+        <h1 class="quiz-question" id="quiz-result-title">Role</h1>
+        <p class="quiz-question-sub" id="quiz-result-sub">Based on your answers, this is the free path we&rsquo;d start with.</p>
+        <div class="quiz-result-card">
+          <div class="role-preview-head">
+            <span class="role-preview-kicker" id="quiz-result-category">Role Path</span>
+            <span class="role-preview-tag">Recommended</span>
+          </div>
+          <h2 class="role-preview-title" id="quiz-result-role-title">Role Title</h2>
+          <p class="role-preview-meta" id="quiz-result-meta">13 video lessons &middot; 3 levels &middot; 1 capstone project</p>
+          <p class="quiz-result-why" id="quiz-result-why"></p>
+          <a class="quiz-btn quiz-btn-primary quiz-result-link" id="quiz-result-link" href="/academy/index.html">Open this path &rarr;</a>
+        </div>
+        <div class="quiz-nav quiz-nav-result">
+          <button type="button" class="quiz-btn quiz-btn-ghost" id="quiz-restart">Start over</button>
+          <a class="quiz-btn-text" href="/academy/index.html#browse">Or browse all 196 roles &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href="/academy/index.html#browse">Paths</a>
+      <a href="/academy/real-credentials/index.html">Credentials guide</a>
+      <a href="/newsletter/index.html">Zuyini Weekly</a>
+      <a href="/health-sciences/index.html">Health Sciences</a>
+      <a href="/index.html">Zuyini Consulting</a>
+      <a href="mailto:manny.ogbeide@gmail.com">Contact</a>
+      <a href="/privacy.html">Privacy</a>
+    </div>
+    <p>&copy; 2026 Zuyini Academy. Built by Manny Ogbeide.</p>
+  </footer>
+
+  <script src="quiz.js"></script>
+  <script src="../chat-widget.js"></script>
+</body>
+</html>

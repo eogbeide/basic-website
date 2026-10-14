@@ -1617,9 +1617,71 @@
     refresh();
   }
 
+  // Level-tab strip (Basic / Intermediate / Advanced / Capstone), matching
+  // the Academy Redesign PDF's role-page layout: only one level's lessons
+  // show at a time instead of every level stacked. Every tab stays
+  // clickable regardless of progress -- nothing is hard-locked, matching
+  // the existing "Recommended after X" (never-hidden) philosophy in
+  // attachMasteryTracking above, which still runs its own logic against
+  // the same .level-block elements whether or not they're the visible tab.
+  var LEVEL_TAB_MODES = { roles: true, interview: true, courses: true };
+  function attachLevelTabs(mode) {
+    if (!LEVEL_TAB_MODES[mode]) return;
+    var card = detailEl.querySelector('.detail-card');
+    if (!card) return;
+    var scopeEl = card.querySelector('[data-role-panel="mastery"]') || card;
+    if (scopeEl.querySelector('.role-level-tabs')) return; // already attached
+    var levelBlocks = Array.prototype.slice.call(scopeEl.querySelectorAll('.level-block'));
+    if (levelBlocks.length < 2) return; // nothing to switch between
+
+    var capstoneTargets = Array.prototype.slice.call(
+      scopeEl.querySelectorAll('.capstone-block, .rubric-block')
+    );
+
+    var tabs = levelBlocks.map(function (block, i) {
+      var badge = block.querySelector('.level-badge');
+      return { key: 'level-' + i, label: badge ? badge.textContent.trim() : 'Level ' + (i + 1), targets: [block] };
+    });
+    if (capstoneTargets.length) tabs.push({ key: 'capstone', label: 'Capstone', targets: capstoneTargets });
+
+    var strip = document.createElement('div');
+    strip.className = 'role-level-tabs';
+    strip.setAttribute('role', 'tablist');
+    strip.innerHTML = tabs.map(function (t, i) {
+      var num = t.key === 'capstone' ? '&#127942;' : String(i + 1);
+      return (
+        '<button type="button" class="role-level-tab' + (i === 0 ? ' active' : '') + '" role="tab" ' +
+        'aria-selected="' + (i === 0 ? 'true' : 'false') + '" data-level-tab-key="' + t.key + '">' +
+        '<span class="role-level-tab-num">' + num + '</span>' +
+        '<span class="role-level-tab-label">' + escapeHtml(t.label) + '</span>' +
+        '</button>'
+      );
+    }).join('');
+    levelBlocks[0].parentNode.insertBefore(strip, levelBlocks[0]);
+
+    function showTab(key) {
+      tabs.forEach(function (t) {
+        t.targets.forEach(function (el) { el.hidden = t.key !== key; });
+      });
+      Array.prototype.forEach.call(strip.querySelectorAll('.role-level-tab'), function (btn) {
+        var active = btn.getAttribute('data-level-tab-key') === key;
+        btn.classList.toggle('active', active);
+        btn.setAttribute('aria-selected', active ? 'true' : 'false');
+      });
+    }
+    showTab(tabs[0].key);
+
+    strip.addEventListener('click', function (e) {
+      var btn = e.target.closest('.role-level-tab');
+      if (!btn) return;
+      showTab(btn.getAttribute('data-level-tab-key'));
+    });
+  }
+
   function renderItem(item) {
     detailEl.innerHTML = MODES[currentMode].render(item);
     attachMasteryTracking(currentMode, currentSlug);
+    attachLevelTabs(currentMode);
     recordView(currentMode, currentSlug, item.name);
 
     document.querySelectorAll('.role-list li[data-slug]').forEach(function (li) {
@@ -1656,6 +1718,7 @@
     if (!course) return;
     detailEl.innerHTML = renderCourse(course, backTarget);
     attachMasteryTracking('courses', slug);
+    attachLevelTabs('courses');
     recordView('courses', slug, course.name);
     collapsePanel();
     detailEl.scrollIntoView({ behavior: 'smooth', block: 'start' });

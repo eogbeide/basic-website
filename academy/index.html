@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="academy.css" />
   <link rel="stylesheet" href="chat-widget.css" />
   <link rel="stylesheet" href="../gate.css" />
+  <link rel="stylesheet" href="academy-theme.css" />
+  <link rel="stylesheet" href="academy-home-theme.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&amp;display=swap" />
@@ -25,26 +27,34 @@
       <span>Zuyini Academy</span>
     </a>
     <nav class="nav-links">
-      <a href="/index.html">Main Site</a>
-      <a href="/health-sciences/index.html">Health Sciences</a>
-      <a href="/newsletter/index.html">Newsletter</a>
-      <a href="/academy/real-credentials/index.html">Free Provider Credentials</a>
-      <a href="/index.html#about">About Manny</a>
+      <a href="/academy/find-your-path/index.html">Find Your Path</a>
+      <a href="#browse">Paths</a>
+      <a href="/academy/real-credentials/index.html">Credentials</a>
+      <a href="#browse">Interview Prep</a>
+      <a href="/academy/mypathway/index.html">My Learning</a>
     </nav>
+    <a href="#save-your-path" class="header-cta">Get free access</a>
   </header>
 
   <section class="academy-hero">
     <div class="hero-glow" aria-hidden="true"></div>
     <div class="hero-inner hero-inner-split">
-      <div class="hero-text-col">
-        <p class="section-label hero-badge">Free to browse &middot; no credit card</p>
-        <h1>Master the skills the job market is <span class="hero-accent">actually hiring for.</span></h1>
-        <p class="hero-description">Pick a real job title. Follow a clear Basic &rarr; Intermediate &rarr; Advanced path built from the best free videos online. Finish with a capstone project you can show an employer.</p>
+      <div class="hero-text-col" id="find-your-path">
+        <p class="section-label hero-badge">Free career paths, benchmarked against real hiring</p>
+        <h1>Learn exactly what your <span class="hero-accent">next role requires.</span></h1>
+        <p class="hero-description">Pick a job title. Follow a Basic, Intermediate and Advanced video path chosen for that role. Prove it with a capstone you can show an employer.</p>
         <form id="skill-finder-form" class="skill-finder" novalidate>
-          <input id="skill-finder-input" type="text" placeholder="What skill are you looking for? e.g. negotiation, Python, AI agents..." autocomplete="off" />
-          <button type="submit">Find My Path</button>
+          <input id="skill-finder-input" type="text" placeholder="I want to become a&hellip; e.g. AI Engineer, Finance AI Consultant" autocomplete="off" />
+          <button type="submit">Show my path</button>
         </form>
-        <p class="hero-secondary-cta"><a href="/newsletter/index.html">Get the free weekly pick &rarr;</a></p>
+        <p class="hero-chips">
+          <span class="hero-chips-label">Popular:</span>
+          <a class="hero-chip" href="/academy/roles/finance-ai-consultant/">Finance AI Consultant</a>
+          <a class="hero-chip" href="/academy/roles/ai-engineer/">AI Engineer</a>
+          <a class="hero-chip" href="/academy/roles/solutions-engineer/">Solutions Engineer</a>
+          <a class="hero-chip" href="/academy/roles/data-governance-lead/">Data Governance Lead</a>
+        </p>
+        <p class="hero-secondary-cta"><a href="/academy/find-your-path/index.html">Not sure? Take the 60-second quiz &rarr;</a></p>
         <p class="hero-fineprint">Free sign-up unlocks every video and your progress tracker. No spam, unsubscribe anytime.</p>
       </div>
       <div class="hero-card-col">
@@ -94,6 +104,9 @@
   </section>
 
   <section class="glance-band" aria-label="Academy at a glance">
+    <div class="glance-band-inner">
+      <p class="glance-band-attribution">Paths built by <strong>Manny Ogbeide</strong>, product leader at Microsoft, formerly Amazon and AWS, who has hired for the roles these paths prepare you for.</p>
+    </div>
     <div class="glance-band-inner hero-stats">
       <button type="button" class="hero-stat" data-hero-mode="roles">
         <span class="hero-stat-num" id="hero-stat-roles">196</span>
@@ -114,23 +127,152 @@
     </div>
   </section>
 
-  <section class="signup-band">
-    <div class="inline-signup">
-      <p class="inline-signup-heading">Get free access</p>
-      <p class="inline-signup-pitch">Browsing every role, pathway and certificate is already free &mdash; no signup required. Sign up with your name and email (also free) to unlock every video, track your progress and save your own learning path. No spam, unsubscribe anytime.</p>
-      <form class="zuyini-inline-signup" novalidate>
-        <div class="gate-field">
-          <label for="hero-signup-name">Name</label>
-          <input id="hero-signup-name" name="first_name" type="text" autocomplete="given-name" required />
+  <section class="popular-paths-section" id="career-paths">
+    <div class="category-grid-inner">
+      <div class="category-grid-head">
+        <p class="section-label">Popular Paths</p>
+        <h2>Every path follows the same shape.</h2>
+        <a class="category-grid-browse-all" href="#browse">Browse all 196 roles &rarr;</a>
+      </div>
+      <p class="popular-paths-intro">Three levels of hand-picked lessons, then a capstone with a rubric.</p>
+      <div class="popular-paths-grid">
+        <a class="popular-path-card" href="/academy/roles/finance-ai-consultant/">
+          <span class="popular-path-tag">Finance &amp; AI</span>
+          <h3>Finance AI Consultant</h3>
+          <p>Forecasting, close and reconciliation, and finance agents.</p>
+          <span class="popular-path-meta">13 lessons &middot; 3 levels &middot; Capstone</span>
+        </a>
+        <a class="popular-path-card" href="/academy/roles/ai-engineer/">
+          <span class="popular-path-tag">AI &amp; Agents</span>
+          <h3>AI Engineer</h3>
+          <p>Production software foundations, modern LLM/context engineering and agents.</p>
+          <span class="popular-path-meta">14 lessons &middot; 3 levels &middot; Capstone</span>
+        </a>
+        <a class="popular-path-card" href="/academy/roles/solutions-engineer/">
+          <span class="popular-path-tag">Revenue &amp; GTM</span>
+          <h3>Solutions Engineer</h3>
+          <p>Turn customer ambiguity into a credible technical solution.</p>
+          <span class="popular-path-meta">13 lessons &middot; 3 levels &middot; Capstone</span>
+        </a>
+        <a class="popular-path-card" href="/academy/roles/data-governance-lead/">
+          <span class="popular-path-tag">Data &amp; ML</span>
+          <h3>Data Governance Lead</h3>
+          <p>Ownership, policy and a discoverable inventory of enterprise data.</p>
+          <span class="popular-path-meta">13 lessons &middot; 3 levels &middot; Capstone</span>
+        </a>
+      </div>
+      <p class="pathway-filter-label">Filter by pathway</p>
+      <div class="pathway-filter-chips">
+        <a class="pathway-chip" href="#pathway-ai-agents">AI &amp; Agents</a>
+        <a class="pathway-chip" href="#pathway-software">Software Engineering</a>
+        <a class="pathway-chip" href="#pathway-revenue">Revenue &amp; GTM</a>
+        <a class="pathway-chip" href="#pathway-data-center">Data Center &amp; Infrastructure</a>
+        <a class="pathway-chip" href="#pathway-leadership">Leadership</a>
+        <a class="pathway-chip" href="#pathway-data-ml">Data &amp; ML</a>
+        <a class="pathway-chip" href="#pathway-business">Business Management</a>
+        <a class="pathway-chip" href="#pathway-adoption">AI Adoption &amp; Change</a>
+      </div>
+      <div class="category-grid">
+        <div class="category-card" id="pathway-ai-agents">
+          <h3>AI, Agents &amp; Intelligent Automation</h3>
+          <a href="/academy/roles/ai-engineer/">AI Engineer</a>
+          <a href="/academy/roles/ai-agent-developer/">AI Agent Developer</a>
+          <a href="/academy/roles/prompt-engineer/">Prompt Engineer</a>
         </div>
-        <div class="gate-field">
-          <label for="hero-signup-email">Email</label>
-          <input id="hero-signup-email" name="email" type="email" autocomplete="email" required />
+        <div class="category-card" id="pathway-software">
+          <h3>Software &amp; Application Engineering</h3>
+          <a href="/academy/roles/full-stack-engineer/">Full-Stack Engineer</a>
+          <a href="/academy/roles/front-end-engineer/">Front-End Engineer</a>
+          <a href="/academy/roles/software-developer/">Software Developer</a>
         </div>
-        <button type="submit" class="gate-submit">Get Access</button>
-        <p class="gate-error" hidden></p>
-      </form>
-      <p class="gate-success" hidden>You're in &mdash; every video, course and tracker is unlocked. Thanks for joining Zuyini!</p>
+        <div class="category-card" id="pathway-revenue">
+          <h3>Revenue, Sales &amp; GTM Systems</h3>
+          <a href="/academy/roles/customer-success-manager/">Customer Success Manager</a>
+          <a href="/academy/roles/sales-engineer-solutions-consultant/">Sales Engineer</a>
+          <a href="/academy/roles/product-marketing-manager/">Product Marketing Manager</a>
+        </div>
+        <div class="category-card" id="pathway-data-center">
+          <h3>Data Center, AI Compute &amp; Infrastructure</h3>
+          <a href="/academy/roles/cloud-platform-engineer/">Cloud / Platform Engineer</a>
+          <a href="/academy/roles/ai-platform-engineer/">AI Platform Engineer</a>
+          <a href="/academy/roles/network-engineer/">Network Engineer</a>
+        </div>
+        <div class="category-card" id="pathway-leadership">
+          <h3>Leadership &amp; Management</h3>
+          <a href="/academy/roles/engineering-manager/">Engineering Manager</a>
+          <a href="/academy/roles/senior-manager/">Senior Manager</a>
+          <a href="/academy/roles/operations-consultant/">Operations Consultant</a>
+        </div>
+        <div class="category-card" id="pathway-data-ml">
+          <h3>Data, AI &amp; Machine Learning</h3>
+          <a href="/academy/roles/data-scientist/">Data Scientist</a>
+          <a href="/academy/roles/data-engineer/">Data Engineer</a>
+          <a href="/academy/roles/data-analyst/">Data Analyst</a>
+        </div>
+        <div class="category-card" id="pathway-business">
+          <h3>Business Management</h3>
+          <a href="/academy/roles/entrepreneur-business-owner/">Entrepreneur / Business Owner</a>
+          <a href="/academy/roles/startup-founder-venture-founder/">Startup Founder</a>
+          <a href="/academy/roles/hr-manager-human-resources-manager/">HR Manager</a>
+        </div>
+        <div class="category-card" id="pathway-adoption">
+          <h3>AI Adoption &amp; Organizational Change</h3>
+          <a href="/academy/roles/ai-product-manager/">AI Product Manager</a>
+          <a href="/academy/roles/responsible-ai-manager/">Responsible AI Manager</a>
+          <a href="/academy/roles/legal-ai-consultant/">Legal AI Consultant</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="how-it-works">
+    <details class="how-it-works-inner">
+      <summary class="section-collapse-summary section-label">
+        How It Works
+        <span class="section-collapse-chevron" aria-hidden="true">&#9662;</span>
+      </summary>
+      <div class="how-it-works-steps">
+        <div class="how-it-works-step">
+          <div class="how-it-works-icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0f5c46" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="m15.5 8.5-2 5-5 2 2-5z"></path></svg></div>
+          <small class="how-it-works-step-label">STEP 1</small>
+          <h3>Pick a role</h3>
+          <p>Search or browse 196 job-market-benchmarked roles, Career Pathways and Certificates &mdash; or jump straight into a Skill Track if you already know what you want to learn.</p>
+        </div>
+        <div class="how-it-works-step">
+          <div class="how-it-works-icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0f5c46" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"></rect><path d="m10 9 5 3-5 3z"></path></svg></div>
+          <small class="how-it-works-step-label">STEP 2</small>
+          <h3>Learn through curated videos</h3>
+          <p>Work the ladder &mdash; Basic &rarr; Intermediate &rarr; Advanced &mdash; with direct links to the best free videos for each competency. No filler courses, no paywalled lessons.</p>
+        </div>
+        <div class="how-it-works-step">
+          <div class="how-it-works-icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0f5c46" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"></circle><path d="M8.5 14 7 22l5-3 5 3-1.5-8"></path></svg></div>
+          <small class="how-it-works-step-label">STEP 3</small>
+          <h3>Prove it with a capstone</h3>
+          <p>Every path ends in a hands-on capstone project &mdash; something concrete you can put in a portfolio or talk through in an interview.</p>
+        </div>
+      </div>
+      <p class="how-it-works-note">Certificates here are self-paced completion tracking, not formal credentials: finishing a certificate's proof rubric marks it complete in your own browser, including paths built around public university material, like the Full-Stack Web Development Bootcamp Certificate's Harvard CS50W video spine. There&rsquo;s no accreditation or outside verification body behind it &mdash; each certificate page states its exact benchmark so you know precisely what &ldquo;complete&rdquo; means before you list it anywhere.</p>
+    </details>
+  </section>
+
+  <section class="capstone-spotlight-section">
+    <div class="capstone-spotlight-inner">
+      <div class="capstone-spotlight-text">
+        <p class="section-label">Capstone Spotlight</p>
+        <h2>Design an AI-native finance operating system</h2>
+        <p>Cover forecasting, close and reconciliation, pricing, or spend. Deliver a unit-economics or scenario model, one AI workflow, data contracts, exception queues, approvals, controls, audit trails, KPIs, and a staged adoption roadmap.</p>
+        <a class="capstone-spotlight-link" href="/academy/roles/finance-ai-consultant/">See the full brief &rarr;</a>
+      </div>
+      <div class="capstone-spotlight-card">
+        <p class="capstone-spotlight-card-label">Scored on</p>
+        <ul class="capstone-spotlight-list">
+          <li>Explains the financial logic and economics</li>
+          <li>Reconciles a realistic model or workflow</li>
+          <li>Compares automation, data-quality, control, and human-approval tradeoffs</li>
+          <li>Shows scenario, exception, control, and dashboard evidence</li>
+          <li>Quantifies forecast error, cycle time, unit economics, or decision impact</li>
+        </ul>
+      </div>
     </div>
   </section>
 
@@ -170,6 +312,33 @@
         <p id="job-radar-status" class="job-radar-status" role="status" aria-live="polite" hidden></p>
       </form>
       <p class="job-radar-fineprint">Free, always. No spam, unsubscribe anytime. We never scrape LinkedIn or Indeed &mdash; only sources with their own public, free job-board access, plus a direct link out to the other two.</p>
+    </div>
+  </section>
+
+  <section class="credentials-section">
+    <div class="credentials-inner">
+      <p class="section-label">Free Credentials</p>
+      <h2>Free credentials, honestly explained</h2>
+      <p class="credentials-intro">Credentials issued by Google, Microsoft, Harvard, AWS, and others. We find them, verify them, and tell you what each one is actually worth on a resume.</p>
+      <div class="credentials-grid">
+        <div class="credentials-card">
+          <h3>Provider certifications</h3>
+          <p>Exam-based, from the provider itself</p>
+        </div>
+        <div class="credentials-card">
+          <h3>Verified micro-credentials</h3>
+          <p>Hands-on, such as Microsoft Applied Skills</p>
+        </div>
+        <div class="credentials-card">
+          <h3>University course certificates</h3>
+          <p>Such as Harvard CS50. Courses, not degrees</p>
+        </div>
+        <div class="credentials-card">
+          <h3>Completion badges</h3>
+          <p>Proof of completion, not certification</p>
+        </div>
+      </div>
+      <a class="credentials-guide-link" href="/academy/real-credentials/index.html">Explore the credentials guide &rarr;</a>
     </div>
   </section>
 
@@ -218,96 +387,6 @@
     </section>
   </main>
 
-  <section class="how-it-works">
-    <details class="how-it-works-inner">
-      <summary class="section-collapse-summary section-label">
-        How It Works
-        <span class="section-collapse-chevron" aria-hidden="true">&#9662;</span>
-      </summary>
-      <div class="how-it-works-steps">
-        <div class="how-it-works-step">
-          <div class="how-it-works-icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#F5C850" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="m15.5 8.5-2 5-5 2 2-5z"></path></svg></div>
-          <small class="how-it-works-step-label">STEP 1</small>
-          <h3>Pick a role</h3>
-          <p>Search or browse 196 job-market-benchmarked roles, Career Pathways and Certificates &mdash; or jump straight into a Skill Track if you already know what you want to learn.</p>
-        </div>
-        <div class="how-it-works-step">
-          <div class="how-it-works-icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#F5C850" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"></rect><path d="m10 9 5 3-5 3z"></path></svg></div>
-          <small class="how-it-works-step-label">STEP 2</small>
-          <h3>Learn through curated videos</h3>
-          <p>Work the ladder &mdash; Basic &rarr; Intermediate &rarr; Advanced &mdash; with direct links to the best free videos for each competency. No filler courses, no paywalled lessons.</p>
-        </div>
-        <div class="how-it-works-step">
-          <div class="how-it-works-icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#F5C850" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"></circle><path d="M8.5 14 7 22l5-3 5 3-1.5-8"></path></svg></div>
-          <small class="how-it-works-step-label">STEP 3</small>
-          <h3>Prove it with a capstone</h3>
-          <p>Every path ends in a hands-on capstone project &mdash; something concrete you can put in a portfolio or talk through in an interview.</p>
-        </div>
-      </div>
-      <p class="how-it-works-note">Certificates here are self-paced completion tracking, not formal credentials: finishing a certificate's proof rubric marks it complete in your own browser, including paths built around public university material, like the Full-Stack Web Development Bootcamp Certificate's Harvard CS50W video spine. There&rsquo;s no accreditation or outside verification body behind it &mdash; each certificate page states its exact benchmark so you know precisely what &ldquo;complete&rdquo; means before you list it anywhere.</p>
-    </details>
-  </section>
-
-  <section class="category-grid-section" id="career-paths">
-    <div class="category-grid-inner">
-      <div class="category-grid-head">
-        <p class="section-label">Career Paths</p>
-        <h2>Whatever you do next, there&rsquo;s a path for it.</h2>
-        <a class="category-grid-browse-all" href="#browse">Browse all 196 roles &rarr;</a>
-      </div>
-      <div class="category-grid">
-        <div class="category-card">
-          <h3>AI, Agents &amp; Intelligent Automation</h3>
-          <a href="/academy/roles/ai-engineer/">AI Engineer</a>
-          <a href="/academy/roles/ai-agent-developer/">AI Agent Developer</a>
-          <a href="/academy/roles/prompt-engineer/">Prompt Engineer</a>
-        </div>
-        <div class="category-card">
-          <h3>Software &amp; Application Engineering</h3>
-          <a href="/academy/roles/full-stack-engineer/">Full-Stack Engineer</a>
-          <a href="/academy/roles/front-end-engineer/">Front-End Engineer</a>
-          <a href="/academy/roles/software-developer/">Software Developer</a>
-        </div>
-        <div class="category-card">
-          <h3>Revenue, Sales &amp; GTM Systems</h3>
-          <a href="/academy/roles/customer-success-manager/">Customer Success Manager</a>
-          <a href="/academy/roles/sales-engineer-solutions-consultant/">Sales Engineer</a>
-          <a href="/academy/roles/product-marketing-manager/">Product Marketing Manager</a>
-        </div>
-        <div class="category-card">
-          <h3>Data Center, AI Compute &amp; Infrastructure</h3>
-          <a href="/academy/roles/cloud-platform-engineer/">Cloud / Platform Engineer</a>
-          <a href="/academy/roles/ai-platform-engineer/">AI Platform Engineer</a>
-          <a href="/academy/roles/network-engineer/">Network Engineer</a>
-        </div>
-        <div class="category-card">
-          <h3>Leadership &amp; Management</h3>
-          <a href="/academy/roles/engineering-manager/">Engineering Manager</a>
-          <a href="/academy/roles/senior-manager/">Senior Manager</a>
-          <a href="/academy/roles/operations-consultant/">Operations Consultant</a>
-        </div>
-        <div class="category-card">
-          <h3>Data, AI &amp; Machine Learning</h3>
-          <a href="/academy/roles/data-scientist/">Data Scientist</a>
-          <a href="/academy/roles/data-engineer/">Data Engineer</a>
-          <a href="/academy/roles/data-analyst/">Data Analyst</a>
-        </div>
-        <div class="category-card">
-          <h3>Business Management</h3>
-          <a href="/academy/roles/entrepreneur-business-owner/">Entrepreneur / Business Owner</a>
-          <a href="/academy/roles/startup-founder-venture-founder/">Startup Founder</a>
-          <a href="/academy/roles/hr-manager-human-resources-manager/">HR Manager</a>
-        </div>
-        <div class="category-card">
-          <h3>AI Adoption &amp; Organizational Change</h3>
-          <a href="/academy/roles/ai-product-manager/">AI Product Manager</a>
-          <a href="/academy/roles/responsible-ai-manager/">Responsible AI Manager</a>
-          <a href="/academy/roles/legal-ai-consultant/">Legal AI Consultant</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section class="featured-jobs" id="featured-jobs-section" hidden>
     <div class="featured-jobs-inner">
       <p class="section-label">Who&rsquo;s Hiring</p>
@@ -332,17 +411,6 @@
         <p class="section-label">Why This Exists</p>
         <h2>Built by a practitioner, for people who want results.</h2>
         <p class="why-section-body">Most "free" course catalogs paywall you after lesson two, or string together recycled filler just to pad a syllabus. Zuyini Academy is built the other way: every role, pathway and certificate is benchmarked against what companies are actually hiring for, assembled entirely from the best free videos already online, and ends in a capstone you can point to &mdash; not a certificate claim with nothing behind it.</p>
-        <div class="about-manny-card">
-          <span class="about-manny-avatar" aria-hidden="true">M</span>
-          <div class="about-manny-body">
-            <p class="about-manny-name">About Manny</p>
-            <p class="about-manny-bio">10+ years in product &amp; program leadership across Microsoft, Amazon, AWS and BHP.</p>
-            <div class="about-manny-links">
-              <a href="/index.html#about">Full bio &rarr;</a>
-              <a href="https://www.linkedin.com/in/emmanuelogbeide/" target="_blank" rel="noopener noreferrer">LinkedIn &rarr;</a>
-            </div>
-          </div>
-        </div>
       </div>
       <div class="why-feature-grid">
         <div class="why-feature-card">
@@ -365,6 +433,36 @@
     </div>
   </section>
 
+  <section class="founder-quote-section">
+    <div class="founder-quote-inner">
+      <span class="founder-quote-avatar" aria-hidden="true">M</span>
+      <div class="founder-quote-body">
+        <p class="founder-quote-text">&ldquo;I built Zuyini Academy because the free material to change careers already exists. What&rsquo;s missing is knowing which pieces matter for the job you want.&rdquo;</p>
+        <p class="founder-quote-byline">Manny Ogbeide &middot; Product leader at Microsoft &middot; formerly Amazon, AWS, and BHP &middot; <a href="https://www.linkedin.com/in/emmanuelogbeide/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="signup-band" id="save-your-path">
+    <div class="inline-signup">
+      <p class="inline-signup-heading">Save your path. It&rsquo;s free.</p>
+      <p class="inline-signup-pitch">Track lessons, keep your capstone in one place, and get Zuyini Weekly: one hand-picked resource every week.</p>
+      <form class="zuyini-inline-signup" novalidate>
+        <div class="gate-field">
+          <label for="hero-signup-name">Name</label>
+          <input id="hero-signup-name" name="first_name" type="text" autocomplete="given-name" required />
+        </div>
+        <div class="gate-field">
+          <label for="hero-signup-email">Email</label>
+          <input id="hero-signup-email" name="email" type="email" autocomplete="email" required />
+        </div>
+        <button type="submit" class="gate-submit">Get Access</button>
+        <p class="gate-error" hidden></p>
+      </form>
+      <p class="gate-success" hidden>You're in &mdash; every video, course and tracker is unlocked. Thanks for joining Zuyini!</p>
+    </div>
+  </section>
+
   <section class="newsletter-cta">
     <div class="newsletter-cta-inner">
       <span class="newsletter-cta-mark" aria-hidden="true">Z</span>
@@ -377,15 +475,16 @@
 
   <footer>
     <div class="footer-links">
-      <a href="/academy/index.html">Academy</a>
+      <a href="#browse">Paths</a>
+      <a href="/academy/real-credentials/index.html">Credentials guide</a>
+      <a href="/newsletter/index.html">Zuyini Weekly</a>
       <a href="/health-sciences/index.html">Health Sciences</a>
-      <a href="/newsletter/index.html">Newsletter</a>
-      <a href="/academy/real-credentials/index.html">Free Provider Credentials</a>
       <a href="/index.html">Zuyini Consulting</a>
       <a href="https://www.linkedin.com/in/emmanuelogbeide/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       <a href="mailto:manny.ogbeide@gmail.com">Contact</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <a href="/privacy.html">Privacy</a>
     </div>
+    <p class="footer-disclaimer">Academy certificates track self-paced completion. They are not accredited credentials.</p>
     <p>&copy; 2026 Zuyini Academy. Built by Manny Ogbeide.</p>
   </footer>
 

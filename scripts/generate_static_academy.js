@@ -53,6 +53,7 @@ function pageShell(opts) {
   <link rel="stylesheet" href="../../academy.css" />
   <link rel="stylesheet" href="../../chat-widget.css" />
   <link rel="stylesheet" href="../../../gate.css" />
+  <link rel="stylesheet" href="../../academy-theme.css" />
 </head>
 <body>
   <header class="site-header">

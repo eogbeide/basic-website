@@ -20,6 +20,7 @@ top_level = [
     f"{BASE}/health-sciences/",
     f"{BASE}/newsletter/",
     f"{BASE}/academy/real-credentials/",
+    f"{BASE}/academy/find-your-path/",
     f"{BASE}/privacy.html",
 ]
 

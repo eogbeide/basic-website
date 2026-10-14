@@ -1,0 +1,263 @@
+/* Find Your Path quiz -- page-specific layout. Colors are pulled from the
+   --pdf-* custom properties defined on body.landing-font in
+   ../academy-home-theme.css (loaded before this file), so the quiz stays
+   visually identical to the redesigned homepage. */
+
+.quiz-back-link {
+  color: var(--pdf-text-soft);
+  text-decoration: none;
+  font-size: 13.5px;
+  font-weight: 700;
+}
+
+.quiz-back-link:hover {
+  color: var(--pdf-green);
+}
+
+.quiz-shell {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px 24px 96px;
+}
+
+.quiz-card {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+  border-radius: 16px;
+  padding: 36px;
+}
+
+.quiz-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.quiz-kicker {
+  margin: 0;
+  color: var(--pdf-text-mute);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.quiz-step-label {
+  margin: 0;
+  color: var(--pdf-text-mute);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.quiz-progress-track {
+  height: 6px;
+  background-color: var(--pdf-bg-alt);
+  border-radius: 99px;
+  overflow: hidden;
+  margin-bottom: 28px;
+}
+
+.quiz-progress-fill {
+  height: 6px;
+  background-color: var(--pdf-green);
+  border-radius: 99px;
+  transition: width 0.25s ease;
+}
+
+.quiz-question {
+  margin: 0 0 8px;
+  font-size: 28px;
+  letter-spacing: -0.5px;
+  color: var(--pdf-text);
+}
+
+.quiz-question-sub {
+  margin: 0 0 24px;
+  color: var(--pdf-text-soft);
+  font-size: 14.5px;
+}
+
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.quiz-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  width: 100%;
+  text-align: left;
+  background-color: var(--pdf-surface);
+  border: 1.5px solid var(--pdf-border);
+  border-radius: 12px;
+  padding: 16px 18px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.quiz-option:hover {
+  border-color: var(--pdf-green);
+}
+
+.quiz-option-radio {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  border-radius: 50%;
+  border: 1.5px solid var(--pdf-border);
+  position: relative;
+}
+
+.quiz-option.is-selected {
+  border-color: var(--pdf-green);
+  background-color: var(--pdf-green-soft);
+}
+
+.quiz-option.is-selected .quiz-option-radio {
+  border-color: var(--pdf-green);
+}
+
+.quiz-option.is-selected .quiz-option-radio::after {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border-radius: 50%;
+  background-color: var(--pdf-green);
+}
+
+.quiz-option-title {
+  margin: 0 0 2px;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--pdf-text);
+}
+
+.quiz-option-desc {
+  margin: 0;
+  font-size: 13px;
+  color: var(--pdf-text-mute);
+}
+
+.quiz-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.quiz-nav-result {
+  margin-top: 24px;
+}
+
+.quiz-btn {
+  padding: 11px 22px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+.quiz-btn-ghost {
+  background-color: var(--pdf-surface);
+  border-color: var(--pdf-border);
+  color: var(--pdf-text-soft);
+}
+
+.quiz-btn-ghost:hover {
+  border-color: var(--pdf-text-mute);
+}
+
+.quiz-btn-primary {
+  background-color: var(--pdf-green);
+  color: var(--pdf-black);
+}
+
+.quiz-btn-primary:hover {
+  background-color: var(--pdf-green-dark);
+}
+
+.quiz-btn-primary:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.quiz-btn-primary:disabled:hover {
+  background-color: var(--pdf-green);
+}
+
+.quiz-btn-text {
+  color: var(--pdf-green);
+  font-weight: 700;
+  font-size: 13.5px;
+  text-decoration: none;
+}
+
+.quiz-btn-text:hover {
+  text-decoration: underline;
+}
+
+.quiz-result-label {
+  margin: 0 0 6px;
+  color: var(--pdf-green);
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.quiz-result-card {
+  background-color: var(--pdf-bg);
+  border: 1px solid var(--pdf-border);
+  border-radius: 14px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quiz-result-card .role-preview-kicker {
+  color: var(--pdf-text-mute);
+}
+
+.quiz-result-card .role-preview-tag {
+  background-color: var(--pdf-green-soft);
+  color: var(--pdf-green);
+}
+
+.quiz-result-card .role-preview-title {
+  color: var(--pdf-text);
+}
+
+.quiz-result-card .role-preview-meta {
+  color: var(--pdf-text-mute);
+}
+
+.quiz-result-why {
+  margin: 0;
+  color: var(--pdf-text-soft);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.quiz-result-link {
+  align-self: flex-start;
+  margin-top: 6px;
+}
+
+@media (max-width: 520px) {
+  .quiz-card {
+    padding: 24px;
+  }
+
+  .quiz-question {
+    font-size: 24px;
+  }
+}

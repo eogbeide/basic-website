@@ -2819,3 +2819,389 @@ body.landing-font {
     text-align: left;
   }
 }
+
+/* Homepage redesign (Oct 2026): header CTA, hero popular-path chips, the
+   merged stats/attribution band, Popular Paths + Capstone Spotlight +
+   Credentials sections, the founder quote, and the final signup band.
+   New classes only -- scoped the same way as the rest of this landing-page
+   block, so the 196+ generated catalog pages are unaffected. */
+
+.popular-paths-section {
+  border-top: 1px solid #262626;
+  padding: 56px 24px;
+}
+
+.header-cta {
+  flex: none;
+  background-color: #ffc629;
+  color: #16171a;
+  font-weight: 800;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+.header-cta:hover {
+  background-color: #ffd255;
+}
+
+.hero-chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
+  margin: 16px 0 0;
+}
+
+.hero-chips-label {
+  color: #8a8a8a;
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+.hero-chip {
+  color: #e4e4e6;
+  background-color: #1c1d1e;
+  border: 1px solid #2e3036;
+  border-radius: 999px;
+  padding: 6px 13px;
+  font-size: 12.5px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hero-chip:hover {
+  border-color: #ffc629;
+  color: #ffc629;
+}
+
+.glance-band-attribution {
+  max-width: 680px;
+  margin: 0 auto 28px;
+  text-align: center;
+  color: #c9cbd2;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.glance-band-attribution strong {
+  color: #ffffff;
+}
+
+.popular-paths-intro {
+  margin: -22px 0 28px;
+  color: #a8a8a8;
+  font-size: 14px;
+  max-width: 600px;
+}
+
+.popular-paths-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+  margin-bottom: 32px;
+}
+
+.popular-path-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: linear-gradient(180deg, #1c1d1e 0%, #17181a 100%);
+  border: 1px solid #2e3036;
+  border-radius: 14px;
+  padding: 22px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.popular-path-card:hover {
+  border-color: rgba(255, 198, 41, 0.5);
+}
+
+.popular-path-tag {
+  color: #ffc629;
+  font-size: 11.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.popular-path-card h3 {
+  margin: 2px 0 0;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.popular-path-card p {
+  margin: 0;
+  color: #c9cbd2;
+  font-size: 13.5px;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.popular-path-meta {
+  color: #8a8a8a;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.pathway-filter-label {
+  color: #8a8a8a;
+  font-size: 12.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0 0 12px;
+}
+
+.pathway-filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+  margin-bottom: 32px;
+}
+
+.pathway-chip {
+  color: #c9cbd2;
+  background-color: #1c1d1e;
+  border: 1px solid #2e3036;
+  border-radius: 999px;
+  padding: 7px 14px;
+  font-size: 12.5px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.pathway-chip:hover {
+  border-color: #ffc629;
+  color: #ffc629;
+}
+
+.capstone-spotlight-section {
+  border-top: 1px solid #262626;
+  padding: 56px 24px;
+}
+
+.capstone-spotlight-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  align-items: stretch;
+}
+
+.capstone-spotlight-text {
+  flex: 1 1 420px;
+  min-width: 0;
+}
+
+.capstone-spotlight-text h2 {
+  margin: 10px 0 14px;
+  font-size: 28px;
+  letter-spacing: -0.5px;
+}
+
+.capstone-spotlight-text p {
+  color: #c9cbd2;
+  font-size: 14.5px;
+  line-height: 1.6;
+  max-width: 560px;
+}
+
+.capstone-spotlight-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #ffc629;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.capstone-spotlight-link:hover {
+  text-decoration: underline;
+}
+
+.capstone-spotlight-card {
+  flex: 1 1 340px;
+  min-width: 0;
+  background-color: #1c1d1e;
+  border: 1px solid #2e3036;
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.capstone-spotlight-card-label {
+  margin: 0 0 14px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.capstone-spotlight-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.capstone-spotlight-list li {
+  position: relative;
+  padding-left: 26px;
+  color: #c9cbd2;
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
+.capstone-spotlight-list li::before {
+  content: '\2713';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ffc629;
+  font-weight: 800;
+}
+
+.credentials-section {
+  background-color: #1c1d1e;
+  border-top: 1px solid #2a2c31;
+  border-bottom: 1px solid #2a2c31;
+  padding: 56px 24px;
+}
+
+.credentials-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.credentials-inner h2 {
+  margin: 10px 0 10px;
+  font-size: 28px;
+  letter-spacing: -0.5px;
+}
+
+.credentials-intro {
+  color: #a8a8a8;
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 680px;
+  margin: 0 0 28px;
+}
+
+.credentials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.credentials-card {
+  background-color: #151617;
+  border: 1px solid #2e3036;
+  border-radius: 12px;
+  padding: 18px;
+}
+
+.credentials-card h3 {
+  margin: 0 0 6px;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.credentials-card p {
+  margin: 0;
+  color: #a9abb3;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.credentials-guide-link {
+  color: #ffc629;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.credentials-guide-link:hover {
+  text-decoration: underline;
+}
+
+.founder-quote-section {
+  border-top: 1px solid #262626;
+  padding: 56px 24px;
+}
+
+.founder-quote-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.founder-quote-avatar {
+  flex: none;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: #ffc629;
+  color: #151617;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.founder-quote-text {
+  margin: 0 0 10px;
+  font-size: 19px;
+  line-height: 1.5;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.founder-quote-byline {
+  margin: 0;
+  color: #a8a8a8;
+  font-size: 13px;
+}
+
+.founder-quote-byline a {
+  color: #ffc629;
+  text-decoration: none;
+}
+
+.founder-quote-byline a:hover {
+  text-decoration: underline;
+}
+
+#save-your-path.signup-band {
+  background: linear-gradient(180deg, #1a1710 0%, #141414 100%);
+  border-top: 1px solid #2a2c31;
+  border-bottom: 1px solid #2a2c31;
+}
+
+.footer-disclaimer {
+  color: #6f6f6f;
+  font-size: 12px;
+  max-width: 640px;
+  margin: 0 0 6px;
+}
+
+@media (max-width: 640px) {
+  .capstone-spotlight-inner {
+    flex-direction: column;
+  }
+
+  .founder-quote-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

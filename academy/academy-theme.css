@@ -1,0 +1,907 @@
+/* Zuyini Academy -- global theme, applied site-wide: homepage, quiz, and
+   all 375+ generated role / pathway / certificate / course / interview-
+   prep / skill-track pages. Loaded after academy.css and gate.css
+   everywhere, so its overrides win on specificity (equal-or-higher
+   selectors) rather than depending on load order. Unscoped by design --
+   there is no more "unthemed" page left to protect once this is linked
+   everywhere.
+
+   Restored to the original Zuyini dark/gold palette (academy.css's own
+   top-of-file comment: "matches the dark / gold branding of the main
+   site") after a light/green pass was tried and rolled back -- the
+   structural work from that pass (Popular Paths, Capstone Spotlight,
+   Credentials section, founder quote, the Level-tab strip, lesson cards,
+   the Find Your Path quiz) stays; only the color tokens changed back.
+   --pdf-black is the dark text color used *on top of* the gold accent
+   (buttons, badges), not a literal background -- kept as a distinct
+   token from --pdf-bg in case a real near-black is ever needed again. */
+
+:root {
+  --pdf-bg: #151617;
+  --pdf-bg-alt: #1c1d1e;
+  --pdf-surface: #1c1d1e;
+  --pdf-text: #ffffff;
+  --pdf-text-soft: #c9cbd2;
+  --pdf-text-mute: #a8a8a8;
+  --pdf-border: #2a2c31;
+  --pdf-green: #ffc629;
+  --pdf-green-dark: #e6b324;
+  --pdf-green-soft: rgba(255, 198, 41, 0.12);
+  --pdf-black: #16171a;
+  --pdf-dark-band: #141414;
+  --pdf-success: #6ee7b7;
+  --pdf-error: #e0554f;
+  --pdf-error-soft: rgba(224, 85, 79, 0.1);
+}
+
+body {
+  background-color: var(--pdf-bg);
+  color: var(--pdf-text);
+  font-family: 'Manrope', Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+/* Header */
+.site-header {
+  background-color: var(--pdf-surface);
+  border-bottom: 1px solid var(--pdf-border);
+}
+
+.logo {
+  color: var(--pdf-text);
+}
+
+.logo-mark {
+  background-color: var(--pdf-green);
+  color: var(--pdf-black);
+}
+
+.nav-links a {
+  color: var(--pdf-text-soft);
+}
+
+.nav-links a:hover {
+  color: var(--pdf-green);
+}
+
+.header-cta {
+  background-color: var(--pdf-green);
+  color: var(--pdf-black);
+}
+
+.header-cta:hover {
+  background-color: var(--pdf-green-dark);
+}
+
+/* Hero (the non-split version used on every generated role/pathway/cert/
+   course/interview/skill page -- the homepage's own hero-inner-split
+   variant is restyled separately in academy-home-theme.css) */
+.academy-hero {
+  background-color: var(--pdf-bg);
+  border-bottom: 1px solid var(--pdf-border);
+}
+
+.hero-glow {
+  background: none;
+}
+
+.section-label {
+  color: var(--pdf-green);
+  border-color: rgba(255, 198, 41, 0.35);
+  background: var(--pdf-green-soft);
+}
+
+.academy-hero h1,
+.academy-hero .hero-tagline-heading {
+  background: none;
+  -webkit-text-fill-color: var(--pdf-text);
+  color: var(--pdf-text);
+}
+
+.hero-accent {
+  -webkit-text-fill-color: var(--pdf-text);
+  color: var(--pdf-text);
+}
+
+.hero-description {
+  color: var(--pdf-text-soft);
+}
+
+.skill-finder input {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+  color: var(--pdf-text);
+}
+
+.skill-finder input::placeholder {
+  color: var(--pdf-text-mute);
+}
+
+.skill-finder button {
+  background-color: var(--pdf-green);
+  color: var(--pdf-black);
+  border: none;
+}
+
+.skill-finder button:hover {
+  background-color: var(--pdf-green-dark);
+}
+
+.hero-stat-num {
+  color: var(--pdf-text);
+}
+
+.hero-stat-label {
+  color: var(--pdf-text-mute);
+}
+
+.hero-stat-tooltip::after {
+  background-color: var(--pdf-surface);
+  color: var(--pdf-text);
+  border: 1px solid var(--pdf-border);
+}
+
+/* Inline signup (hero + anywhere else .inline-signup / gate-field appear) */
+.inline-signup {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+}
+
+.inline-signup-heading {
+  color: var(--pdf-text);
+}
+
+.inline-signup-pitch {
+  color: var(--pdf-text-soft);
+}
+
+.gate-field label {
+  color: var(--pdf-text-soft);
+}
+
+.gate-field input {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+  color: var(--pdf-text);
+}
+
+.gate-submit {
+  background-color: var(--pdf-green);
+  color: var(--pdf-black);
+}
+
+.gate-submit:hover {
+  background-color: var(--pdf-green-dark);
+}
+
+.gate-error {
+  color: var(--pdf-error);
+}
+
+.gate-success {
+  color: var(--pdf-success);
+}
+
+/* Mode toggle + browse panel (shared app-shell chrome on every page) */
+.mode-toggle-bar {
+  background-color: var(--pdf-bg);
+  border-bottom: 1px solid var(--pdf-border);
+}
+
+.mode-toggle button {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+  color: var(--pdf-text-soft);
+}
+
+.mode-toggle button:hover {
+  border-color: var(--pdf-green);
+  color: var(--pdf-green);
+}
+
+.mode-toggle button.active {
+  background-color: var(--pdf-green);
+  border-color: var(--pdf-green);
+  color: var(--pdf-black);
+}
+
+.app-shell {
+  background-color: var(--pdf-bg);
+}
+
+.role-panel {
+  background-color: var(--pdf-surface);
+  border-right: 1px solid var(--pdf-border);
+}
+
+.role-panel-toggle {
+  color: var(--pdf-text-soft);
+}
+
+.category-select,
+.search-box input,
+.featured-jobs-controls select {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+  color: var(--pdf-text);
+}
+
+.role-count,
+.role-list-group-count {
+  color: var(--pdf-text-mute);
+}
+
+.role-list a {
+  color: var(--pdf-text-soft);
+}
+
+.role-list li.active a,
+.role-list a:hover {
+  color: var(--pdf-green);
+}
+
+.role-list-group-chevron {
+  color: var(--pdf-text-mute);
+}
+
+.role-detail,
+.empty-state h2 {
+  color: var(--pdf-text);
+}
+
+.empty-state p,
+.empty-state-picks-label {
+  color: var(--pdf-text-soft);
+}
+
+.featured-pick {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+  color: var(--pdf-text);
+}
+
+.featured-pick:hover {
+  border-color: var(--pdf-green);
+  color: var(--pdf-green);
+}
+
+/* Detail card -- the shared shell for role / pathway / certificate /
+   course / interview-prep / skill-track content */
+.detail-card,
+.skill-results {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+  color: var(--pdf-text);
+}
+
+.detail-card h1,
+.detail-card h2,
+.detail-card h3,
+.skill-results h2 {
+  color: var(--pdf-text);
+}
+
+.detail-description,
+.skill-results-query {
+  color: var(--pdf-text-soft);
+}
+
+.detail-benchmark,
+.hiring-block-note,
+.mastery-hint,
+.role-quickfact,
+.competency-coverage,
+.tier-bridges-label,
+.video-time {
+  color: var(--pdf-text-mute);
+}
+
+.video-why {
+  color: var(--pdf-text-soft);
+  font-style: italic;
+}
+
+.share-label {
+  color: var(--pdf-text-mute);
+}
+
+.share-btn,
+.pathway-add-btn,
+.back-link,
+.course-link {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+  color: var(--pdf-text-soft);
+}
+
+.share-btn:hover,
+.pathway-add-btn:hover,
+.back-link:hover,
+.course-link:hover {
+  border-color: var(--pdf-green);
+  color: var(--pdf-green);
+}
+
+.pathway-add-btn.active {
+  background-color: var(--pdf-green);
+  border-color: var(--pdf-green);
+  color: var(--pdf-black);
+}
+
+.mastery-badge {
+  background-color: var(--pdf-bg-alt);
+  border: 1px solid var(--pdf-border);
+}
+
+.mastery-level {
+  color: var(--pdf-text);
+}
+
+.mastery-count {
+  color: var(--pdf-text-mute);
+}
+
+.mastery-track {
+  background-color: var(--pdf-border);
+}
+
+.mastery-fill {
+  background-color: var(--pdf-green);
+}
+
+.role-outcomes li,
+.rubric-list li,
+.level-intro,
+.capstone-block p,
+.guide-list li,
+.guide-overview p,
+.guide-faq-a,
+.skill-grid-body {
+  color: var(--pdf-text-soft);
+}
+
+.role-cta {
+  background-color: var(--pdf-green);
+  color: var(--pdf-black);
+  border: none;
+}
+
+.role-cta:hover {
+  background-color: var(--pdf-green-dark);
+}
+
+.video-links a {
+  color: var(--pdf-text);
+}
+
+.video-links a:hover,
+.play-icon {
+  color: var(--pdf-green);
+}
+
+/* Level / tier badges -- unified to one accent treatment (the PDF uses a
+   single green accent throughout rather than per-level colors) */
+.level-badge,
+.level-badge.basic,
+.level-badge.intermediate,
+.level-badge.advanced,
+.level-badge.foundations,
+.level-badge.build,
+.level-badge.operate,
+.tier-label {
+  background-color: var(--pdf-green-soft);
+  color: var(--pdf-green);
+}
+
+.capstone-block,
+.rubric-block {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+  border-radius: 14px;
+  padding: 22px;
+  margin: 0 0 16px;
+}
+
+.capstone-block h3,
+.rubric-block h3 {
+  margin: 0 0 10px;
+}
+
+.rubric-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rubric-list li {
+  position: relative;
+  padding: 10px 14px 10px 36px;
+  background-color: var(--pdf-bg-alt);
+  border-radius: 10px;
+  font-size: 13.5px;
+}
+
+.rubric-list li::before {
+  content: '\2713';
+  position: absolute;
+  left: 14px;
+  top: 10px;
+  color: var(--pdf-green);
+  font-weight: 800;
+}
+
+.level-lock-banner {
+  background-color: var(--pdf-bg-alt);
+  color: var(--pdf-text-soft);
+}
+
+.level-lock-icon {
+  color: var(--pdf-green);
+}
+
+.competency-title,
+.skill-grid-title {
+  color: var(--pdf-text);
+}
+
+.role-pill,
+.role-guide-summary,
+.section-collapse-summary {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+  color: var(--pdf-text-soft);
+}
+
+.role-pill:hover {
+  border-color: var(--pdf-green);
+  color: var(--pdf-green);
+}
+
+.role-guide-body {
+  color: var(--pdf-text-soft);
+}
+
+.guide-block h3,
+.guide-faq-q {
+  color: var(--pdf-text);
+}
+
+.hiring-fallback-links a,
+.hiring-remote-links a,
+.featured-job-apply,
+.hot-role-cta,
+.credentials-guide-link,
+.category-grid-browse-all,
+.capstone-spotlight-link,
+.newsletter-cta-button {
+  color: var(--pdf-green);
+}
+
+.hiring-remote-label {
+  color: var(--pdf-text-mute);
+}
+
+.hiring-block,
+.hiring-block-fallback {
+  background-color: var(--pdf-bg-alt);
+  border: 1px solid var(--pdf-border);
+}
+
+.hiring-job {
+  border-bottom: 1px solid var(--pdf-border);
+}
+
+.hiring-job-title {
+  color: var(--pdf-text);
+}
+
+.hiring-job-meta {
+  color: var(--pdf-text-mute);
+}
+
+.hiring-job-badge {
+  background-color: var(--pdf-green-soft);
+  color: var(--pdf-green);
+}
+
+.hiring-job-new {
+  background-color: var(--pdf-green);
+  color: var(--pdf-black);
+}
+
+.job-radar-status-success {
+  color: var(--pdf-success);
+}
+
+.job-radar-status-error {
+  color: var(--pdf-error);
+}
+
+.recently-viewed-header,
+.my-pathway-name {
+  color: var(--pdf-text);
+}
+
+.recently-viewed-card,
+.my-pathway-card,
+.my-pathway-item {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+}
+
+.recently-viewed-time,
+.my-pathway-type {
+  color: var(--pdf-text-mute);
+}
+
+.recently-viewed-clear,
+.my-pathway-remove,
+.my-pathway-move {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+  color: var(--pdf-text-soft);
+}
+
+.recently-viewed-clear:hover,
+.my-pathway-remove:hover {
+  border-color: var(--pdf-error);
+  color: var(--pdf-error);
+}
+
+.skill-grid-item,
+.skill-ladder-rung {
+  background-color: var(--pdf-bg-alt);
+  border: 1px solid var(--pdf-border);
+}
+
+.tier-block {
+  border-top: 1px solid var(--pdf-border);
+}
+
+.skill-result-card {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+}
+
+.skill-result-name {
+  color: var(--pdf-text);
+}
+
+.skill-result-snippet,
+.skill-result-type {
+  color: var(--pdf-text-mute);
+}
+
+.skill-result-badges,
+.skill-result-match {
+  color: var(--pdf-green);
+}
+
+.skill-results-empty {
+  color: var(--pdf-text-mute);
+}
+
+.role-tab {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+  color: var(--pdf-text-soft);
+}
+
+.role-tab.active {
+  background-color: var(--pdf-green);
+  border-color: var(--pdf-green);
+  color: var(--pdf-black);
+}
+
+/* Level 1/2/3 + Capstone tab strip (role/interview/course detail pages) */
+.role-level-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0 24px;
+}
+
+.role-level-tab {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--pdf-surface);
+  border: 1.5px solid var(--pdf-border);
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 13.5px;
+  color: var(--pdf-text-soft);
+  cursor: pointer;
+}
+
+.role-level-tab:hover {
+  border-color: var(--pdf-green);
+}
+
+.role-level-tab-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: var(--pdf-bg-alt);
+  color: var(--pdf-text-mute);
+  font-size: 12px;
+}
+
+.role-level-tab.active {
+  background-color: var(--pdf-green);
+  border-color: var(--pdf-green);
+  color: var(--pdf-black);
+}
+
+.role-level-tab.active .role-level-tab-num {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--pdf-black);
+}
+
+/* Lesson cards -- restyles the existing .video-links li structure inside a
+   level (no markup change, so progress tracking in academy.js keeps
+   working against the same li/a/.play-icon/.mastery-check elements). */
+.level-block .video-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.level-block .video-links li {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.level-block .video-links li a {
+  order: 1;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.level-block .video-links .play-icon {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: var(--pdf-green-soft);
+  color: var(--pdf-green);
+  font-size: 11px;
+}
+
+.level-block .video-links li a span:last-child {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--pdf-text);
+  line-height: 1.45;
+  padding-top: 4px;
+}
+
+.level-block .video-links li a:hover span:last-child {
+  color: var(--pdf-green);
+}
+
+.level-block .video-links .mastery-check {
+  order: 2;
+  align-self: flex-end;
+  width: 15px;
+  height: 15px;
+  margin: 0 0 0 auto;
+  accent-color: var(--pdf-green);
+  cursor: pointer;
+}
+
+.level-block .video-links .mastery-check::after {
+  content: 'Mark complete';
+  margin-left: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--pdf-text-mute);
+  vertical-align: middle;
+}
+
+.level-block .video-links .mastery-check:checked::after {
+  content: 'Completed';
+  color: var(--pdf-green);
+}
+
+.level-block .video-links .mastery-check:disabled {
+  cursor: not-allowed;
+}
+
+/* How It Works was already a light/cream exception in the dark theme;
+   realign its accent from gold to the new green so it matches everything
+   else now that the whole site uses the same light palette. */
+.how-it-works {
+  background-color: var(--pdf-bg);
+}
+
+.how-it-works-step {
+  background-color: var(--pdf-surface);
+  border-color: var(--pdf-border);
+}
+
+.how-it-works-icon {
+  background-color: var(--pdf-green);
+}
+
+.how-it-works-step-label,
+.how-it-works .section-label,
+.how-it-works .section-collapse-chevron {
+  color: var(--pdf-green);
+  background: var(--pdf-green-soft);
+  border-color: rgba(255, 198, 41, 0.35);
+}
+
+.how-it-works .section-collapse-summary:hover .section-collapse-chevron {
+  color: var(--pdf-green-dark);
+}
+
+.how-it-works-step h3 {
+  color: var(--pdf-text);
+}
+
+.how-it-works-step p,
+.how-it-works-note {
+  color: var(--pdf-text-soft);
+}
+
+/* Why section + footer */
+.why-section {
+  background-color: var(--pdf-bg);
+  border-top: 1px solid var(--pdf-border);
+}
+
+.why-section-split h2 {
+  color: var(--pdf-text);
+}
+
+.why-section-body {
+  color: var(--pdf-text-soft);
+}
+
+.why-feature-card {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+}
+
+.why-feature-card h3 {
+  color: var(--pdf-text);
+}
+
+.why-feature-card p {
+  color: var(--pdf-text-soft);
+}
+
+.about-manny-card {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+}
+
+.about-manny-avatar {
+  background-color: var(--pdf-green);
+  color: var(--pdf-black);
+}
+
+.about-manny-name {
+  color: var(--pdf-text);
+}
+
+.about-manny-bio {
+  color: var(--pdf-text-soft);
+}
+
+.about-manny-links a {
+  color: var(--pdf-green);
+}
+
+.newsletter-cta {
+  background-color: var(--pdf-bg);
+  border-top: 1px solid var(--pdf-border);
+}
+
+.newsletter-cta-mark {
+  background-color: var(--pdf-green);
+  color: var(--pdf-black);
+}
+
+.newsletter-cta-inner h2 {
+  color: var(--pdf-text);
+}
+
+.newsletter-cta-inner p {
+  color: var(--pdf-text-soft);
+}
+
+.newsletter-cta-fineprint {
+  color: var(--pdf-text-mute);
+}
+
+footer {
+  background-color: var(--pdf-surface);
+  border-top: 1px solid var(--pdf-border);
+}
+
+.footer-links a {
+  color: var(--pdf-text-soft);
+}
+
+.footer-links a:hover {
+  color: var(--pdf-green);
+}
+
+.footer-disclaimer {
+  color: var(--pdf-text-mute);
+}
+
+footer p:not(.footer-disclaimer) {
+  color: var(--pdf-text-mute);
+}
+
+/* Job radar (present on the homepage only today, but theme it globally
+   since the markup/classes are shared) */
+.job-radar-band {
+  background-color: var(--pdf-bg);
+  border-top: 1px solid var(--pdf-border);
+  border-bottom: 1px solid var(--pdf-border);
+}
+
+.job-radar-inner h2 {
+  color: var(--pdf-text);
+}
+
+.job-radar-intro,
+.job-radar-fineprint {
+  color: var(--pdf-text-soft);
+}
+
+.job-radar-field label {
+  color: var(--pdf-text-soft);
+}
+
+.job-radar-field input,
+.job-radar-field select {
+  background-color: var(--pdf-surface);
+  border: 1px solid var(--pdf-border);
+  color: var(--pdf-text);
+}
+
+.job-radar-remote-check {
+  color: var(--pdf-text-soft);
+}
+
+.job-radar-submit,
+.hero-button {
+  background-color: var(--pdf-green);
+  color: var(--pdf-black);
+  border: none;
+}
+
+.job-radar-submit:hover {
+  background-color: var(--pdf-green-dark);
+}
