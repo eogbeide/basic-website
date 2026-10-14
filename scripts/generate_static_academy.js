@@ -37,6 +37,13 @@ function navigate(pathname) {
 }
 
 function pageShell(opts) {
+  // `../../` reaches academy/ and `../../../` reaches the site root from a
+  // 3-deep output path (academy/<category>/<slug>/index.html), which is
+  // every page type except My Pathway (academy/mypathway/index.html, only
+  // 2-deep) -- that one passes shallower prefixes so its assets resolve
+  // instead of 404ing.
+  const toAcademy = opts.assetPrefix || '../../';
+  const toRoot = opts.rootPrefix || '../../../';
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,10 +57,10 @@ function pageShell(opts) {
   <meta property="og:description" content="${escapeHtml(opts.description)}" />
   <meta property="og:image" content="https://zuyini.com/academy/og-image.png" />
   <meta property="og:url" content="${opts.canonical}" />
-  <link rel="stylesheet" href="../../academy.css" />
-  <link rel="stylesheet" href="../../chat-widget.css" />
-  <link rel="stylesheet" href="../../../gate.css" />
-  <link rel="stylesheet" href="../../academy-theme.css" />
+  <link rel="stylesheet" href="${toAcademy}academy.css" />
+  <link rel="stylesheet" href="${toAcademy}chat-widget.css" />
+  <link rel="stylesheet" href="${toRoot}gate.css" />
+  <link rel="stylesheet" href="${toAcademy}academy-theme.css" />
 </head>
 <body>
   <header class="site-header">
@@ -164,10 +171,10 @@ ${opts.detailHtml}
     <p>&copy; 2026 Zuyini Academy. Built by Manny Ogbeide.</p>
   </footer>
 
-  <script src="../../data/data.js"></script>
-  <script src="../../academy.js"></script>
-  <script src="../../../gate.js"></script>
-  <script src="../../chat-widget.js"></script>
+  <script src="${toAcademy}data/data.js"></script>
+  <script src="${toAcademy}academy.js"></script>
+  <script src="${toRoot}gate.js"></script>
+  <script src="${toAcademy}chat-widget.js"></script>
 </body>
 </html>
 `;
@@ -360,6 +367,8 @@ console.log('skill tracks generated:', skillTracks.length);
     mode: 'mypathway',
     staticList: renderStaticList('roles'),
     detailHtml,
+    assetPrefix: '../',
+    rootPrefix: '../../',
   });
   writePage(`${ROOT}/academy/mypathway`, page);
   urls.push(canonical);
