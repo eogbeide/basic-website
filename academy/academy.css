@@ -3205,3 +3205,10 @@ body.landing-font {
     text-align: center;
   }
 }
+
+/* App mode: set by academy.js when a page is opened from the Zuyini app. */
+.zuyini-in-app .site-header,
+.zuyini-in-app .academy-hero,
+.zuyini-in-app footer {
+  display: none !important;
+}

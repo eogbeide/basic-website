@@ -1,3 +1,17 @@
+// App mode: pages opened from the Zuyini app carry ?app=1. Remember it for
+// the rest of this browsing session and hide the website's own header, hero
+// and footer, since the app already provides navigation.
+(function () {
+  try {
+    if (new URLSearchParams(window.location.search).get('app') === '1') {
+      window.sessionStorage.setItem('zuyini_app_mode', '1');
+    }
+    if (window.sessionStorage.getItem('zuyini_app_mode') === '1') {
+      document.documentElement.classList.add('zuyini-in-app');
+    }
+  } catch (e) {}
+})();
+
 (function () {
   function escapeHtml(str) {
     if (!str) return '';

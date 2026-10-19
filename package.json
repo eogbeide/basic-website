@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "description": "Build/data scripts for zuyini.com (static site). See scripts/ for the jobs-refresh, static-page-generation and sitemap pipeline.",
   "scripts": {
-    "refresh-jobs": "python3 scripts/build_jobs_data.py && node scripts/generate_static_academy.js && python3 scripts/generate_sitemap.py",
+    "refresh-jobs": "python3 scripts/build_jobs_data.py && node scripts/generate_static_academy.js && node scripts/build_app_catalog.js && python3 scripts/generate_sitemap.py",
+    "build-app-catalog": "node scripts/build_app_catalog.js",
     "refresh-hot-roles": "python3 scripts/build_hot_roles.py",
     "send-job-radar": "python3 scripts/build_job_radar_digest.py"
   },
