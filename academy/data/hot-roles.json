@@ -1,35 +1,35 @@
 [
   {
-    "slug": "ai-platform-engineer",
-    "name": "AI Platform Engineer",
-    "count": 6,
-    "newCount": 0,
-    "skills": [
-      "Kubernetes & Cloud Infrastructure",
-      "Terraform, GitOps & Continuous Delive\u2026",
-      "Distributed Systems, Scheduling & GPU\u2026"
-    ]
-  },
-  {
-    "slug": "ai-security-engineer",
-    "name": "AI Security Engineer",
-    "count": 6,
-    "newCount": 0,
-    "skills": [
-      "Security Fundamentals & Threat Modeli\u2026",
-      "AI Red Teaming & Adversarial Testing",
-      "Identity & Access Management (IAM) /\u2026"
-    ]
-  },
-  {
     "slug": "technical-program-manager-ai-ml",
     "name": "Technical Program Manager, AI/ML",
     "count": 6,
-    "newCount": 0,
+    "newCount": 2,
     "skills": [
       "Models / data / training / inference\u2026",
       "Program framing / functional requirem\u2026",
       "Offline/online metrics / golden sets\u2026"
+    ]
+  },
+  {
+    "slug": "gtm-growth-engineer-revenue-ai-engineer",
+    "name": "GTM Growth Engineer / Revenue AI Engineer",
+    "count": 6,
+    "newCount": 1,
+    "skills": [
+      "GTM Systems / Customer Discovery / Re\u2026",
+      "SQL / Customer Data / Funnel Metrics\u2026",
+      "Full-Stack Engineering / APIs / CRM &\u2026"
+    ]
+  },
+  {
+    "slug": "technical-program-manager-ai-inference",
+    "name": "Technical Program Manager, AI Inference",
+    "count": 6,
+    "newCount": 1,
+    "skills": [
+      "Prefill/decode / GPU memory / model s\u2026",
+      "Critical path / dependencies / RACI /\u2026",
+      "TTFT / ITL / throughput / GPU utiliza\u2026"
     ]
   }
 ]
