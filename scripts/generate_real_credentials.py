@@ -301,6 +301,7 @@ page = '''<!DOCTYPE html>
 
   <script src="../../gate.js"></script>
   <script src="real-credentials.js"></script>
+  <script src="/zuyini-bridge.js" defer></script>
 </body>
 </html>
 '''

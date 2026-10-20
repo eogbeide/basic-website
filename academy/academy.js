@@ -12,6 +12,15 @@
   } catch (e) {}
 })();
 
+// Load the app bridge (links and "Back to Zuyini App") on every Academy page.
+(function () {
+  if (document.querySelector('script[src="/zuyini-bridge.js"]')) return;
+  var s = document.createElement('script');
+  s.src = '/zuyini-bridge.js';
+  s.defer = true;
+  document.head.appendChild(s);
+})();
+
 (function () {
   function escapeHtml(str) {
     if (!str) return '';
