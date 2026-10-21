@@ -25,7 +25,31 @@
     }
   }
 
+  // Visitors who come from the Zuyini app (?from=app on the web, ?app=1 in
+  // the phone app's browser) are already Zuyini users, so they skip the
+  // sign-up gate for the rest of the visit.
+  var FROM_APP_KEY = 'zuyini_from_app';
+  try {
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('from') === 'app' || params.get('app') === '1') {
+      sessionStorage.setItem(FROM_APP_KEY, '1');
+    }
+  } catch (e) {}
+
+  function fromApp() {
+    try {
+      return (
+        sessionStorage.getItem(FROM_APP_KEY) === '1' ||
+        sessionStorage.getItem('zuyini_return_app') !== null ||
+        sessionStorage.getItem('zuyini_app_mode') === '1'
+      );
+    } catch (e) {
+      return false;
+    }
+  }
+
   function hasAccess() {
+    if (fromApp()) return true;
     try {
       return localStorage.getItem(STORAGE_KEY) === '1';
     } catch (e) {
