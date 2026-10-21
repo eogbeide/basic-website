@@ -4,11 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Zuyini App Privacy Policy | Zuyini</title>
-  <meta name="description" content="How the Zuyini mobile app (daily word, language, business, relationship, fitness and devotional lessons) handles your data: what stays only on your device, and what's sent to OpenAI to generate content." />
+  <meta name="description" content="How the Zuyini app handles your data: what stays on your device, what our server stores, and what goes to OpenAI, map services and payment providers." />
   <link rel="canonical" href="https://zuyini.com/daily-devotional/privacy.html" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Zuyini App Privacy Policy" />
-  <meta property="og:description" content="What stays on your device, and what's sent to OpenAI to generate content, in the Zuyini mobile app." />
+  <meta property="og:description" content="What stays on your device, what our server stores, and what goes to other services in the Zuyini app." />
   <meta property="og:url" content="https://zuyini.com/daily-devotional/privacy.html" />
   <link rel="stylesheet" href="../academy/academy.css" />
   <link rel="stylesheet" href="../gate.css" />
@@ -30,82 +30,130 @@
   <section class="academy-hero">
     <div class="hero-glow" aria-hidden="true"></div>
     <div class="hero-inner">
-      <p class="section-label">Last Updated October 17, 2026</p>
+      <p class="section-label">Last Updated October 21, 2026</p>
       <h1>Zuyini App Privacy Policy</h1>
-      <p class="hero-description">This policy covers the Zuyini mobile app (word-of-the-day, language, business frameworks, relationships, fitness, interview prep and devotional lessons) on iOS and Android. It's separate from the policy for zuyini.com, since the app works differently: there's no account, no login, and no database on our server at all.</p>
+      <p class="hero-description">This policy covers the Zuyini app on iPhone, Android and the web (app.zuyini.com): daily words, languages, business frameworks, relationships, fitness, interview prep, assistants, Local Finder, Community and Couples. The Zuyini Academy website (zuyini.com) has its own policy.</p>
     </div>
   </section>
 
   <main class="newsletter-main">
     <section class="newsletter-section">
       <p class="section-label">The Short Version</p>
-      <h2>No accounts, no server-side storage, no ads.</h2>
-      <p class="newsletter-section-intro">You don't create an account or sign in. Your streaks, completed lessons, journal reflections and saved items live only on your device, in local app storage &mdash; we have no database and no way to see them. The only things that leave your device are the pieces needed to generate that day's AI content, read it aloud, or answer a question you type into the AI Companion. We run no ad network and no analytics/tracking SDKs.</p>
+      <h2>No sign-up, no ads, no selling your data.</h2>
+      <p class="newsletter-section-intro">You don't need an email or password. The app creates an anonymous account for your device, made of a random code stored on the device, so your Zuyini Tokens work and nobody can reset them. Most of your progress stays on your device. Things you choose to share, like community posts or answers for your partner, are stored on our server so others can see them. Text you send to an AI feature goes to OpenAI to get an answer. We don't run ads, we don't use third-party analytics or tracking tools, and we never sell your data.</p>
     </section>
 
     <section class="newsletter-section">
       <p class="section-label">What Stays On Your Device</p>
-      <h2>Local only &mdash; never sent to us.</h2>
+      <h2>Only on your phone or browser.</h2>
       <div class="newsletter-faq">
         <div class="newsletter-faq-item">
-          <p class="newsletter-faq-q">Progress and streaks</p>
-          <p class="newsletter-faq-a">Which lessons you've completed, your daily streak count, and your library of past content are stored on-device using your OS's local app storage.</p>
+          <p class="newsletter-faq-q">Progress, streaks and saved items</p>
+          <p class="newsletter-faq-a">Lessons you've finished, your Daily Mission and streak, Smart Review cards, saved places and lists, alerts, and your content library are stored in the app's local storage on your device.</p>
         </div>
         <div class="newsletter-faq-item">
-          <p class="newsletter-faq-q">Journal reflections</p>
-          <p class="newsletter-faq-a">Anything you write in a reflection or journal prompt is saved only on your device. It is never transmitted to our server or anywhere else.</p>
+          <p class="newsletter-faq-q">Journals and single-phone reflections</p>
+          <p class="newsletter-faq-a">Reflections you write in the Couples Journal on one shared phone, and other journal entries, stay on your device.</p>
         </div>
         <div class="newsletter-faq-item">
-          <p class="newsletter-faq-q">Notification preferences</p>
-          <p class="newsletter-faq-a">Daily reminder notifications are scheduled directly on your device through iOS/Android's own notification system. No notification server or device token is involved on our end.</p>
+          <p class="newsletter-faq-q">Assistant chats and memory</p>
+          <p class="newsletter-faq-a">Your assistant conversations and the short facts an assistant remembers about you, such as your goals, are kept on your device. They're sent to our server only with each new message, so the assistant can reply.</p>
+        </div>
+        <div class="newsletter-faq-item">
+          <p class="newsletter-faq-q">Reminders</p>
+          <p class="newsletter-faq-a">Phone reminders are scheduled by your phone's own notification system. On the web, reminders are added to your own calendar.</p>
         </div>
       </div>
     </section>
 
     <section class="newsletter-section">
-      <p class="section-label">What's Sent To Generate Content</p>
-      <h2>Only what's needed, to OpenAI, to do the thing you asked for.</h2>
-      <p class="newsletter-section-intro">The app's lessons, scenarios and practice content are generated by OpenAI's API, called from our own server (we hold the API key; your device never talks to OpenAI directly).</p>
+      <p class="section-label">What We Store On Our Server</p>
+      <h2>Only what a feature needs to work.</h2>
+      <p class="newsletter-section-intro">Our server runs on Render, and our database is hosted by Supabase in the United States.</p>
       <div class="newsletter-faq">
         <div class="newsletter-faq-item">
-          <p class="newsletter-faq-q">Choosing a topic or tapping "New"</p>
-          <p class="newsletter-faq-a">Sends a category selection (e.g. "fitness: workout" or "language: Spanish") to our server, which asks OpenAI to generate that day's content. No personal information is included.</p>
+          <p class="newsletter-faq-q">Your anonymous account and tokens</p>
+          <p class="newsletter-faq-a">A random account ID, a scrambled (hashed) copy of your device's account code, your token balance and a history of token activity, such as &ldquo;Translation, -1&rdquo; or &ldquo;Daily mission, +5&rdquo;. This history never includes the content of what you asked.</p>
         </div>
         <div class="newsletter-faq-item">
-          <p class="newsletter-faq-q">Tapping "Listen"</p>
-          <p class="newsletter-faq-a">The on-screen text is sent to our server, which asks OpenAI to synthesize it into speech and returns the audio. Identical text/voice requests are cached on our server and reused across all users to keep this fast and cheap &mdash; nothing in that cache is tied to you personally.</p>
+          <p class="newsletter-faq-q">Usage counts</p>
+          <p class="newsletter-faq-a">Which days the app is used, and which sections (for example &ldquo;language&rdquo; or &ldquo;assistant&rdquo;), at most once per section per day, tied to the anonymous account. We use this only to see whether people come back and which features help, and never for ads. It includes nothing you type.</p>
         </div>
         <div class="newsletter-faq-item">
-          <p class="newsletter-faq-q">The AI Companion (business case studies)</p>
-          <p class="newsletter-faq-a">If you type a question to the AI Companion, that question text is sent to our server and forwarded to OpenAI to generate an answer. This is the one place in the app where you type free-form text that leaves your device.</p>
+          <p class="newsletter-faq-q">Community (only if you join)</p>
+          <p class="newsletter-faq-a">Your nickname and avatar, the posts and likes you share, friends, Study Circles, reports and blocks. Other members see your nickname and posts. You can delete your community account in the app at any time, which deletes these.</p>
+        </div>
+        <div class="newsletter-faq-item">
+          <p class="newsletter-faq-q">Couples Together (only if you link)</p>
+          <p class="newsletter-faq-a">The first names you and your partner enter, the day's question, and your answers. Your answers are shown only to your linked partner, and only after you've both answered that day. Unlinking deletes your answers from our server.</p>
+        </div>
+        <div class="newsletter-faq-item">
+          <p class="newsletter-faq-q">Purchases</p>
+          <p class="newsletter-faq-a">Whether you have Pro or bought tokens, and the reference numbers our payment providers give us. We never see or store your card details.</p>
         </div>
       </div>
-      <p class="newsletter-section-intro">We don't operate our own database, so none of this is logged or stored against you on our side beyond what's needed to serve the response in the moment. OpenAI processes API requests under its own API data usage terms, which (unlike ChatGPT's consumer product) do not use API content to train their models by default.</p>
     </section>
 
     <section class="newsletter-section">
-      <p class="section-label">Who We Share It With</p>
-      <h2>OpenAI (to generate content) and our hosting provider (to run the server).</h2>
-      <p class="newsletter-section-intro">We use OpenAI's API as described above, and Render to host the server that calls it. Render runs our code but we keep no database there either, so no user data is persisted on it. We don't sell, rent or share any data with advertisers, analytics companies, or anyone else.</p>
+      <p class="section-label">What's Sent To Other Services</p>
+      <h2>To do the thing you asked for.</h2>
+      <div class="newsletter-faq">
+        <div class="newsletter-faq-item">
+          <p class="newsletter-faq-q">OpenAI (AI features)</p>
+          <p class="newsletter-faq-a">When you use an assistant, the translator, Local Finder, the date coach or a &ldquo;Generate&rdquo; button, our server sends your message, or the topic you picked, to OpenAI to create the answer. When you tap Listen, the text on screen is sent to OpenAI to make the audio. OpenAI doesn't use API content to train its models by default. Please don't put sensitive personal details in AI messages.</p>
+        </div>
+        <div class="newsletter-faq-item">
+          <p class="newsletter-faq-q">Map services (Local Finder)</p>
+          <p class="newsletter-faq-a">Your search, and your approximate location if you allow it, or the city you type, go to our server and to free OpenStreetMap services (Overpass, Photon by Komoot and Nominatim) to find places. Buttons that open Google Maps, Apple Maps, Booking.com, Airbnb, Google Flights or Skyscanner take you to those sites, which have their own policies.</p>
+        </div>
+        <div class="newsletter-faq-item">
+          <p class="newsletter-faq-q">Apple, Google and RevenueCat (phone purchases)</p>
+          <p class="newsletter-faq-a">Subscriptions and token packs bought in the phone app go through the App Store or Google Play. RevenueCat manages them for us and receives your purchase details and your anonymous account ID.</p>
+        </div>
+        <div class="newsletter-faq-item">
+          <p class="newsletter-faq-q">Stripe (web purchases)</p>
+          <p class="newsletter-faq-a">Purchases on app.zuyini.com go through Stripe Checkout. Stripe collects your payment details and email under its own privacy policy, and tells us only whether the payment succeeded.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section">
+      <p class="section-label">Moving To Another Device</p>
+      <h2>Your account code.</h2>
+      <p class="newsletter-section-intro">The Tokens screen shows your account code. Entering it on another device moves your tokens and any Pro bought on the web. Keep it private, because anyone with the code can use your tokens.</p>
     </section>
 
     <section class="newsletter-section">
       <p class="section-label">Deleting Your Data</p>
-      <h2>Uninstall the app.</h2>
-      <p class="newsletter-section-intro">Because everything personal to you (streaks, reflections, saved content) lives only in the app's local storage on your device, deleting the app deletes it. There's no account or server-side record for us to separately delete. If you have questions about a specific request, email <a href="mailto:manny.ogbeide@gmail.com">manny.ogbeide@gmail.com</a>.</p>
+      <h2>You're in control.</h2>
+      <div class="newsletter-faq">
+        <div class="newsletter-faq-item">
+          <p class="newsletter-faq-q">On your device</p>
+          <p class="newsletter-faq-a">Uninstalling the app, or clearing the site's data in your browser, deletes everything stored on the device, including your account code.</p>
+        </div>
+        <div class="newsletter-faq-item">
+          <p class="newsletter-faq-q">Community and Couples</p>
+          <p class="newsletter-faq-a">Delete your community account from the Community screen, and unlink from Couples Together to delete your answers.</p>
+        </div>
+        <div class="newsletter-faq-item">
+          <p class="newsletter-faq-q">Everything else on our server</p>
+          <p class="newsletter-faq-a">Email <a href='mailto:manny.ogbeide@gmail.com'>manny.ogbeide@gmail.com</a> with your account code from the Tokens screen, and we'll delete your account, token history and usage counts.</p>
+        </div>
+      </div>
     </section>
 
     <section class="newsletter-section">
       <p class="section-label">Children</p>
       <h2>Not directed at children under 13.</h2>
-      <p class="newsletter-section-intro">The app is intended for general audiences and is not designed for or directed at children under 13. We don't knowingly collect information from children under 13.</p>
+      <p class="newsletter-section-intro">The app is for general audiences and isn't designed for or directed at children under 13. We don't knowingly collect information from children under 13. If you think a child has shared information with us, email us and we'll delete it.</p>
     </section>
 
     <section class="newsletter-section">
       <p class="section-label">Changes To This Policy</p>
       <h2>We'll update the date at the top.</h2>
-      <p class="newsletter-section-intro">If this policy changes in a way that affects what's sent off-device or how it's used, we'll update this page and the "Last Updated" date above. This is a plain-language policy written for a small app and is not a substitute for legal advice.</p>
+      <p class="newsletter-section-intro">If we change what's stored or shared, we'll update this page and the date above. This is a plain-language policy for a small app, and it isn't legal advice.</p>
     </section>
+
   </main>
 
   <footer>
