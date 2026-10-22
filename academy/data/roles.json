@@ -924,6 +924,12 @@
         "title": "Evaluating LLMs",
         "channel": "Hamel Husain",
         "url": "https://www.youtube.com/watch?v=SnbGD677_u0"
+      },
+      {
+        "label": "LLM EVALUATION COURSE",
+        "title": "LLM Evaluation",
+        "channel": "CampusX",
+        "url": "https://www.youtube.com/playlist?list=PLEneLIDJFpcA"
       }
     ],
     "page": 516,
@@ -1584,6 +1590,18 @@
         "title": "AI Red Teaming 101 Series",
         "channel": "Microsoft",
         "url": "https://www.youtube.com/playlist?list=PLlrxD0HtieHhXnVUQM42aKRPrirbUIDdh"
+      },
+      {
+        "label": "AI SECURITY EXPLAINED",
+        "title": "AI Security Explained",
+        "channel": "IBM Technology",
+        "url": "https://www.youtube.com/playlist?list=PLOspHqNVtKADin6JGozvzSvUQFTQRdum-"
+      },
+      {
+        "label": "HANDS-ON AI RED TEAMING",
+        "title": "Hands-On AI Security and Red Teaming",
+        "channel": "Probably Private",
+        "url": "https://www.youtube.com/playlist?list=PLJkNSeYcYBlC88vkG58yx3fHSobmCmDw_"
       }
     ],
     "page": 3,
@@ -4902,6 +4920,12 @@
         "title": "Platform Engineering Series: Internal Developer Platforms and Platform as Product",
         "channel": "Tom Peperkamp",
         "url": "https://www.youtube.com/playlist?list=PLhTFKjucJxnmtZTmRXC__uOQYOG3AB7Vd"
+      },
+      {
+        "label": "AGENTIC PLATFORMS",
+        "title": "Agentic Software Development (PlatformCon 2026 learning path)",
+        "channel": "Platform Engineering",
+        "url": "https://www.youtube.com/playlist?list=PLCmac8RqT2U4"
       }
     ],
     "page": 546,
@@ -5832,6 +5856,18 @@
         "title": "Build an AIP Agent in Palantir Foundry (Step by Step)",
         "channel": "Palantir",
         "url": "https://www.youtube.com/watch?v=EqsLWIrzDbs"
+      },
+      {
+        "label": "FDE ROADMAP",
+        "title": "Forward Deployed Engineer (FDE)",
+        "channel": "Abhishek.Veeramalla",
+        "url": "https://www.youtube.com/playlist?list=PLWHCEQ2gUA8E"
+      },
+      {
+        "label": "FDE FULL COURSE",
+        "title": "Forward Deployed Engineer Full Course (GenAI)",
+        "channel": "Coder Army",
+        "url": "https://www.youtube.com/playlist?list=PLWSlr9idVBc0"
       }
     ],
     "page": 525,
@@ -7164,6 +7200,12 @@
         "title": "End-to-End MLOps Project: Real-Time YouTube Sentiment Analysis",
         "channel": "freeCodeCamp / Bappy Ahmed",
         "url": "https://www.youtube.com/watch?v=gwNPV882tkc"
+      },
+      {
+        "label": "ML SPECIALIZATION",
+        "title": "Machine Learning Specialization by Andrew Ng",
+        "channel": "DeepLearning.AI",
+        "url": "https://www.youtube.com/playlist?list=PLkDaE6sCZn6FNC6YRfRQc_FbeQrF8BwGI"
       }
     ],
     "page": 402,
@@ -9540,6 +9582,12 @@
         "title": "Ethical Hacking & Penetration Testing - Complete Course",
         "channel": "HackerSploit",
         "url": "https://www.youtube.com/playlist?list=PLBf0hzazHTGOEuhPQSnq-Ej8jRyXxfYvl"
+      },
+      {
+        "label": "CYBERSECURITY ARCHITECTURE",
+        "title": "Cybersecurity Architecture Series",
+        "channel": "IBM Technology",
+        "url": "https://www.youtube.com/playlist?list=PLOspHqNVtKADkWLFt9OcziQF7EatuANSY"
       }
     ],
     "page": 545,
@@ -10728,6 +10776,12 @@
         "title": "Ethical Hacking & Penetration Testing - Complete Course",
         "channel": "HackerSploit",
         "url": "https://www.youtube.com/playlist?list=PLBf0hzazHTGOEuhPQSnq-Ej8jRyXxfYvl"
+      },
+      {
+        "label": "CYBERSECURITY ARCHITECTURE",
+        "title": "Cybersecurity Architecture Series",
+        "channel": "IBM Technology",
+        "url": "https://www.youtube.com/playlist?list=PLOspHqNVtKADkWLFt9OcziQF7EatuANSY"
       }
     ],
     "page": 4,
@@ -11652,6 +11706,12 @@
         "title": "Product Management Course FREE",
         "channel": "YouTube",
         "url": "https://www.youtube.com/watch?v=wZwByQTksxQ"
+      },
+      {
+        "label": "PRODUCT SCHOOL PM 101",
+        "title": "Product Management 101",
+        "channel": "Product School",
+        "url": "https://www.youtube.com/playlist?list=PLEXcbK4FvkxG_Zfq8-_CLkwqhqZQG-yVe"
       }
     ],
     "page": 499,
@@ -12312,6 +12372,12 @@
         "title": "McKinsey Case Interviews",
         "channel": "YouTube",
         "url": "https://www.youtube.com/playlist?list=PLDQSMulzBqekjU5EuOY5gWvO2YstCFlaO"
+      },
+      {
+        "label": "CASE INTERVIEW EXAMPLES",
+        "title": "Case Interview Examples",
+        "channel": "Management Consulted",
+        "url": "https://www.youtube.com/playlist?list=PLDQSMulzBqek-jVZj1CUSyP2T49VxEC-O"
       }
     ],
     "page": 345,
@@ -12444,6 +12510,12 @@
         "title": "McKinsey Case Interviews",
         "channel": "YouTube",
         "url": "https://www.youtube.com/playlist?list=PLDQSMulzBqekjU5EuOY5gWvO2YstCFlaO"
+      },
+      {
+        "label": "CASE INTERVIEW EXAMPLES",
+        "title": "Case Interview Examples",
+        "channel": "Management Consulted",
+        "url": "https://www.youtube.com/playlist?list=PLDQSMulzBqek-jVZj1CUSyP2T49VxEC-O"
       }
     ],
     "page": 13,
@@ -12972,6 +13044,12 @@
         "title": "Product Management Course FREE",
         "channel": "YouTube",
         "url": "https://www.youtube.com/watch?v=wZwByQTksxQ"
+      },
+      {
+        "label": "PRODUCT SCHOOL PM 101",
+        "title": "Product Management 101",
+        "channel": "Product School",
+        "url": "https://www.youtube.com/playlist?list=PLEXcbK4FvkxG_Zfq8-_CLkwqhqZQG-yVe"
       }
     ],
     "page": 5,
@@ -15216,6 +15294,12 @@
         "title": "Evaluating LLMs",
         "channel": "Hamel Husain",
         "url": "https://www.youtube.com/watch?v=SnbGD677_u0"
+      },
+      {
+        "label": "STANFORD CS229",
+        "title": "Stanford CS229: Machine Learning, led by Andrew Ng (Autumn 2018)",
+        "channel": "Stanford Online",
+        "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU"
       }
     ],
     "page": 572,
@@ -16421,6 +16505,12 @@
         "title": "Microsoft Copilot Studio Tutorials: Build AI Agents (2026)",
         "channel": "Anders Jensen",
         "url": "https://www.youtube.com/playlist?list=PLXXz88_TPiHqmMjb8UR0KL9YDid_V-J9F"
+      },
+      {
+        "label": "MICROSOFT LEARN AB-100",
+        "title": "AB-100: Architecting Agentic AI Business Solutions",
+        "channel": "Microsoft Learn",
+        "url": "https://www.youtube.com/playlist?list=PLWkuMDqdJEw4"
       }
     ],
     "levels": [
@@ -18512,6 +18602,12 @@
         "title": "Building AI Agents with Microsoft Copilot Studio",
         "channel": "Microsoft",
         "url": "https://www.youtube.com/playlist?list=PLXXz88_TPiHqmMjb8UR0KL9YDid_V-J9F"
+      },
+      {
+        "label": "MICROSOFT LEARN AB-100",
+        "title": "AB-100: Architecting Agentic AI Business Solutions",
+        "channel": "Microsoft Learn",
+        "url": "https://www.youtube.com/playlist?list=PLWkuMDqdJEw4"
       }
     ],
     "page": 607,
@@ -20888,6 +20984,12 @@
         "title": "Build an AIP Agent in Palantir Foundry (Step by Step)",
         "channel": "Palantir",
         "url": "https://www.youtube.com/watch?v=EqsLWIrzDbs"
+      },
+      {
+        "label": "FDE FULL COURSE",
+        "title": "Forward Deployed Engineer Full Course (GenAI)",
+        "channel": "Coder Army",
+        "url": "https://www.youtube.com/playlist?list=PLWSlr9idVBc0"
       }
     ],
     "page": 625,
@@ -22210,6 +22312,12 @@
         "title": "Full Stack Development",
         "channel": "freeCodeCamp.org",
         "url": "https://www.youtube.com/playlist?list=PLNvOKbV26aTkQAybRk3vjxtVYg8RxIYS8"
+      },
+      {
+        "label": "FRONT-END LEARNING PATH",
+        "title": "Front End Developer Learning Path",
+        "channel": "freeCodeCamp.org",
+        "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbmMuZ3saqRIBimAKIMYkt0E"
       }
     ]
   },
@@ -22870,6 +22978,12 @@
         "title": "Product Management Course FREE",
         "channel": "YouTube",
         "url": "https://www.youtube.com/watch?v=wZwByQTksxQ"
+      },
+      {
+        "label": "PRODUCT STRATEGY & ROADMAP",
+        "title": "Product Strategy and Roadmap",
+        "channel": "Roman Pichler",
+        "url": "https://www.youtube.com/playlist?list=PLR93fC9Q2E2IpfST9dZO6BPxZS1DzFsjU"
       }
     ]
   },
@@ -24850,6 +24964,12 @@
         "title": "DevOps: AIOps, Application Health and Observability",
         "channel": "YouTube",
         "url": "https://www.youtube.com/playlist?list=PLOspHqNVtKAA75RfVxm-CLdARe0VpBwbx"
+      },
+      {
+        "label": "AGENTIC PLATFORMS",
+        "title": "Agentic Software Development (PlatformCon 2026 learning path)",
+        "channel": "Platform Engineering",
+        "url": "https://www.youtube.com/playlist?list=PLCmac8RqT2U4"
       }
     ]
   },
@@ -26432,6 +26552,12 @@
         "title": "Ethical Hacking & Penetration Testing - Complete Course",
         "channel": "HackerSploit",
         "url": "https://www.youtube.com/playlist?list=PLBf0hzazHTGOEuhPQSnq-Ej8jRyXxfYvl"
+      },
+      {
+        "label": "CS50 CYBERSECURITY",
+        "title": "CS50's Introduction to Cybersecurity",
+        "channel": "CS50 (Harvard)",
+        "url": "https://www.youtube.com/playlist?list=PLhQjrBD2T383Cqo5I1oRrbC1EKRAKGKUE"
       }
     ],
     "page": 1881,
