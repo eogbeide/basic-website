@@ -16409,6 +16409,138 @@
     ]
   },
   {
+    "name": "AI Solutions & Enablement Lead",
+    "benchmark": "Enterprise AI solutions and enablement roles (current Oct 2026): translate enterprise AI opportunities into secure, usable solutions; enable stakeholders and measure realized business value. Market refresh: AI/LLM fundamentals; use-case discovery and process mapping; stakeholder interviews and value hypotheses; data readiness and responsible AI; RAG, agent workflows, MCP and API integration; Microsoft Copilot Studio; solution demos, pilot design and evaluation datasets; identity and access, prompt-injection defense and governance; observability, LLM evaluation and cost/latency; operating models and change management.",
+    "capstone": "Select an enterprise workflow, document its baseline and ROI case, and design a reference architecture. Build a secure RAG or agent pilot, run quality and security evaluations, deliver training and an adoption playbook, measure results against the baseline, and present executive recommendations.",
+    "rubric": "Show realized business value, not a demo: an opportunity assessment with a documented baseline and value hypothesis; a solution architecture with clear data, identity and integration boundaries; a working prototype; an evaluation report covering quality, failure cases, cost and latency; a security checklist including prompt-injection defenses; an enablement plan and training; an adoption dashboard; and an executive ROI readout that states what worked, what didn't and the recommended next step.",
+    "category": "AI Adoption, Transformation & Organizational Change",
+    "page": 1958,
+    "bonus": [
+      {
+        "label": "COPILOT STUDIO AGENTS",
+        "title": "Microsoft Copilot Studio Tutorials: Build AI Agents (2026)",
+        "channel": "Anders Jensen",
+        "url": "https://www.youtube.com/playlist?list=PLXXz88_TPiHqmMjb8UR0KL9YDid_V-J9F"
+      }
+    ],
+    "levels": [
+      {
+        "level": "BASIC",
+        "intro": "Discover and frame: understand AI, find the right use cases and build the value case",
+        "competencies": [
+          {
+            "title": "AI/LLM fundamentals, data readiness + responsible AI",
+            "coverage": "AI Fundamentals / Data Readiness / Responsible AI",
+            "videos": [
+              {
+                "title": "Intro to Large Language Models (1h)",
+                "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+                "channel": "Andrej Karpathy"
+              },
+              {
+                "title": "Quick Wins Across the Enterprise with Responsible AI",
+                "url": "https://www.youtube.com/watch?v=7hqyL3-U8uU",
+                "channel": "Microsoft"
+              }
+            ]
+          },
+          {
+            "title": "Use-case discovery, process mapping, stakeholder interviews + value hypotheses",
+            "coverage": "AI Use-Case Discovery / Process Mapping / Business Value",
+            "videos": [
+              {
+                "title": "Use Case Discovery & System Scoping (1h20m)",
+                "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "How to Accelerate Enterprise Adoption of AI for Business Impact",
+                "url": "https://www.youtube.com/watch?v=XBv25DnBoa4",
+                "channel": "AI Council"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "INTERMEDIATE",
+        "intro": "Prototype and integrate: build grounded, connected pilots and prove they work",
+        "competencies": [
+          {
+            "title": "RAG, agent workflows + evaluation datasets",
+            "coverage": "RAG / AI Agents / Solution Demos",
+            "videos": [
+              {
+                "title": "Advanced RAG Deep Dive",
+                "url": "https://www.youtube.com/watch?v=hfx7F7lObdg",
+                "channel": "Microsoft Reactor"
+              },
+              {
+                "title": "Build Hour: Agentic Tool Calling",
+                "url": "https://www.youtube.com/watch?v=7E-qdsVEoB8",
+                "channel": "OpenAI"
+              }
+            ]
+          },
+          {
+            "title": "MCP, API integration, Copilot Studio + pilot design",
+            "coverage": "MCP / APIs / Microsoft Copilot Studio / Pilots",
+            "videos": [
+              {
+                "title": "Building Agents with Model Context Protocol: Full Workshop (Anthropic)",
+                "url": "https://www.youtube.com/watch?v=kQmXtrmQ5Zg",
+                "channel": "AI Engineer"
+              },
+              {
+                "title": "Custom AI Agents with Copilot Studio",
+                "url": "https://developer.microsoft.com/en-us/reactor/events/26242/",
+                "channel": "Microsoft Reactor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": "ADVANCED",
+        "intro": "Deploy and scale: secure, measure and operate AI so adoption lasts",
+        "competencies": [
+          {
+            "title": "Identity and access, prompt-injection defense + governance",
+            "coverage": "AI Security / Identity / Governance",
+            "videos": [
+              {
+                "title": "Zero Trust Security for AI Agents",
+                "url": "https://www.youtube.com/watch?v=G6Aot9UCePU",
+                "channel": "Microsoft Mechanics"
+              },
+              {
+                "title": "What Is a Prompt Injection Attack?",
+                "url": "https://www.youtube.com/watch?v=jrHRe9lSqqA",
+                "channel": "IBM Technology"
+              }
+            ]
+          },
+          {
+            "title": "LLM evaluation, observability, operating model + change management",
+            "coverage": "AI Evals / Observability / Operating Models / Change Management",
+            "videos": [
+              {
+                "title": "Building Practical Evaluation Systems (28m)",
+                "url": "https://academy.openai.com/en/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
+                "channel": "OpenAI Academy"
+              },
+              {
+                "title": "Getting Your Enterprise Ready for Microsoft 365 Copilot",
+                "url": "https://www.youtube.com/watch?v=We9U68QF294",
+                "channel": "Microsoft"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Real Estate Manager",
     "benchmark": "AWS Principal Real Estate Manager + CBRE Real Estate Manager + Disney real estate leasing/business-development signals (current 2026) Market refresh: portfolio strategy; acquisitions, dispositions and lease negotiations; DCF/IRR/NPV/comps/cap rates; market/site intelligence; property operations and vendor/tenant leadership; budgets and NOI; occupancy/space analytics; zoning/environmental and climate risk; portfolio technology, PropTech/AI and executive decision support.",
     "capstone": "Build a decision-ready corporate real estate plan for a real or simulated multi-site portfolio. Create a property/lease register and market map; underwrite hold, lease, buy, sublease, redevelop and exit options with DCF/IRR/NPV and sensitivity cases; complete site/risk diligence; negotiate a lease term sheet; build an operating budget and NOI bridge; analyze utilization and space needs; define vendor/tenant service KPIs; recommend capital and sustainability actions; then deliver a five-year portfolio strategy, transaction roadmap and executive investment memo.",
