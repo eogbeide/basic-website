@@ -1053,6 +1053,89 @@
   if (state.open && !small) openPanel();
   else if (state.open) { state.open = false; saveState(state); }
 
+  // ---- the "here's what I can do" alert -----------------------------------
+  // Once per visit (browser session), a small bubble above the Ask button
+  // says what the assistant does, with quick starts. It waits for the
+  // sign-up box to close, never opens the chat by itself, and fades after
+  // 15 seconds. On a role page it offers help with that role.
+
+  var TEASER_KEY = 'zuyini_chat_teaser_v1';
+  var teaser = null;
+
+  function pageRole() {
+    var m = location.pathname.match(/^\/academy\/roles\/([^/]+)/);
+    if (!m) return null;
+    if (!index) index = buildIndex();
+    for (var i = 0; i < index.length; i++) if (index[i].type === 'role' && slugify(index[i].name) === m[1]) return index[i];
+    return null;
+  }
+
+  function hideTeaser() {
+    if (!teaser) return;
+    teaser.classList.remove('zuyini-chat-teaser-show');
+    launcher.classList.remove('zuyini-chat-pulse');
+    var t = teaser;
+    teaser = null;
+    setTimeout(function () { if (t.parentNode) t.parentNode.removeChild(t); }, 300);
+  }
+
+  function showTeaser() {
+    if (!panel.hidden || teaser) return;
+    try { sessionStorage.setItem(TEASER_KEY, '1'); } catch (e) {}
+    var role = pageRole();
+    var text = role
+      ? 'Questions about ' + shortName(role.name) + '? I can list the skills, make you a time plan or find interview prep.'
+      : 'Hi! I\'m the Zuyini Assistant. I can help you plan a career change, get ready for a new job, grow in your role, or answer any question about the Academy.';
+    var chips = role
+      ? ['Skills for ' + shortName(role.name), 'Show the plan for ' + shortName(role.name), 'Interview prep for ' + shortName(role.name)]
+      : ['Change careers', 'Grow in my current role', 'Ask a question'];
+    teaser = document.createElement('div');
+    teaser.id = 'zuyini-chat-teaser';
+    teaser.setAttribute('role', 'status');
+    teaser.innerHTML =
+      '<button type="button" class="zuyini-chat-teaser-close" aria-label="Dismiss">&times;</button>' +
+      '<p class="zuyini-chat-teaser-text">' + escapeHtml(text) + '</p>' +
+      '<div class="zuyini-chat-teaser-chips">' + chips.map(function (c) {
+        return '<button type="button" class="zuyini-chat-teaser-chip" data-chip="' + escapeHtml(c) + '">' + escapeHtml(c) + '</button>';
+      }).join('') + '</div>';
+    root.insertBefore(teaser, launcher);
+    teaser.addEventListener('click', function (e) {
+      if (e.target.closest('.zuyini-chat-teaser-close')) return hideTeaser();
+      var chip = e.target.closest('.zuyini-chat-teaser-chip');
+      var q = chip ? chip.getAttribute('data-chip') : null;
+      hideTeaser();
+      openPanel();
+      if (role) state.ctx.lastRole = role.name;
+      if (q && q !== 'Ask a question') handleQuery(q);
+    });
+    // Next frame, so the fade-in runs.
+    requestAnimationFrame(function () {
+      if (!teaser) return;
+      teaser.classList.add('zuyini-chat-teaser-show');
+      launcher.classList.add('zuyini-chat-pulse');
+    });
+    setTimeout(hideTeaser, 15000);
+  }
+
+  function maybeTeaser() {
+    try { if (sessionStorage.getItem(TEASER_KEY)) return; } catch (e) { return; }
+    var waited = 0;
+    var clearFor = 0;
+    var timer = setInterval(function () {
+      waited += 500;
+      // Wait until the sign-up box has been gone for 1.5 seconds.
+      clearFor = document.getElementById('signup-gate') ? 0 : clearFor + 500;
+      if (!panel.hidden || waited > 180000) return clearInterval(timer);
+      if (waited >= 3000 && clearFor >= 1500) {
+        clearInterval(timer);
+        showTeaser();
+      }
+    }, 500);
+  }
+
+  launcher.addEventListener('click', hideTeaser);
+  maybeTeaser();
+
   // For tests: the conversation engine without the UI.
-  window.__zuyiniAssistant = { search: search, handle: handleQuery, state: function () { return state; } };
+  window.__zuyiniAssistant = { search: search, handle: handleQuery, state: function () { return state; }, showTeaser: showTeaser };
 })();

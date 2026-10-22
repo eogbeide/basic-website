@@ -420,3 +420,96 @@
     max-height: calc(100vh - 24px);
   }
 }
+
+/* The once-per-visit alert above the Ask button. */
+#zuyini-chat-teaser {
+  position: absolute;
+  right: 0;
+  bottom: 62px;
+  width: 300px;
+  max-width: calc(100vw - 40px);
+  background-color: #1c1d1e;
+  border: 1px solid #ffc629;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+  padding: 12px 14px;
+  color: #e5e5e5;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  cursor: pointer;
+}
+
+#zuyini-chat-teaser.zuyini-chat-teaser-show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#zuyini-chat-teaser::after {
+  content: '';
+  position: absolute;
+  right: 28px;
+  bottom: -7px;
+  width: 12px;
+  height: 12px;
+  background-color: #1c1d1e;
+  border-right: 1px solid #ffc629;
+  border-bottom: 1px solid #ffc629;
+  transform: rotate(45deg);
+}
+
+.zuyini-chat-teaser-text {
+  margin: 0 18px 8px 0;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.zuyini-chat-teaser-close {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  background: none;
+  border: none;
+  color: #9a9a9a;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.zuyini-chat-teaser-close:hover {
+  color: #ffc629;
+}
+
+.zuyini-chat-teaser-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.zuyini-chat-teaser-chip {
+  background-color: #26272a;
+  border: 1px solid #3a3a3a;
+  color: #f2f2f2;
+  border-radius: 999px;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.zuyini-chat-teaser-chip:hover {
+  border-color: #ffc629;
+}
+
+#zuyini-chat-launcher.zuyini-chat-pulse {
+  animation: zuyini-chat-pulse 1.6s ease-out 3;
+}
+
+@keyframes zuyini-chat-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(255, 198, 41, 0.7); }
+  100% { box-shadow: 0 0 0 16px rgba(255, 198, 41, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #zuyini-chat-teaser { transition: none; }
+  #zuyini-chat-launcher.zuyini-chat-pulse { animation: none; }
+}
