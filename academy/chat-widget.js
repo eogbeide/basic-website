@@ -975,7 +975,9 @@
   var ASK_URL = (window.ZUYINI_API_BASE || 'https://zuyini-api.onrender.com/api') + '/academy/ask';
 
   function chatHistory() {
-    return state.messages.slice(-9, -1).filter(function (m) { return m.text && !m.typing; }).map(function (m) {
+    // The last few turns, without the question being asked now.
+    var past = state.messages.filter(function (m) { return m.text && !m.typing; });
+    return past.slice(-9, -1).map(function (m) {
       var content = m.text + (m.results && m.results.length ? ' [Pages shown: ' + m.results.map(function (r) { return r.name; }).join('; ') + ']' : '');
       return { role: m.role === 'user' ? 'user' : 'assistant', content: content };
     });
