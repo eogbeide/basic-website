@@ -1,0 +1,466 @@
+{
+ "note": "Lesson/video pairs the weekly check flagged and a person reviewed as fine (the lesson names a topic, and the video covers it). scripts/check_video_links.py skips these.",
+ "reviewedAt": "2026-10-23",
+ "pairs": [
+  {
+   "id": "-MTSQjw5DrM",
+   "title": "Back-End Development"
+  },
+  {
+   "id": "1nYFpuc2Umk",
+   "title": "Business Storytelling, Slidecraft & Technical Writing"
+  },
+  {
+   "id": "1nYFpuc2Umk",
+   "title": "C110  Data Storytelling & Visualization"
+  },
+  {
+   "id": "1nYFpuc2Umk",
+   "title": "Data Storytelling & Visualization"
+  },
+  {
+   "id": "1nYFpuc2Umk",
+   "title": "Executive Storyline & Slidecraft Practice"
+  },
+  {
+   "id": "29M-rw6DWd8",
+   "title": "Agile Program Development & Management"
+  },
+  {
+   "id": "29M-rw6DWd8",
+   "title": "C036  Agile Program Development & Management"
+  },
+  {
+   "id": "2nGwjjXJx8E",
+   "title": "Animation & AI Content Creation"
+  },
+  {
+   "id": "6oQwFJjzHII",
+   "title": "Experimentation & A/B Testing"
+  },
+  {
+   "id": "6oQwFJjzHII",
+   "title": "Experimentation & Decision Analysis Lab"
+  },
+  {
+   "id": "8SF_h3xF3cE",
+   "title": "C093  Data Science Foundations"
+  },
+  {
+   "id": "8SF_h3xF3cE",
+   "title": "Data Science Foundations"
+  },
+  {
+   "id": "996OiexHze0",
+   "title": "Authentication & Authorization"
+  },
+  {
+   "id": "99j-iGxJJ7c",
+   "title": "Agentic Platform in Dynamics 365 Sales & Service"
+  },
+  {
+   "id": "BuTt6QNiuZI",
+   "title": "C134  Security Governance, Risk, Privacy & Software Supply Chain"
+  },
+  {
+   "id": "BuTt6QNiuZI",
+   "title": "Cyber Security Full Course"
+  },
+  {
+   "id": "BuTt6QNiuZI",
+   "title": "Security Governance, Risk, Privacy & Software Supply Chain"
+  },
+  {
+   "id": "Cb2BpFoL30g",
+   "title": "Warehousing + lakehouse foundations"
+  },
+  {
+   "id": "CzdWqFTmn0Y",
+   "title": "Introduction to Random Forests"
+  },
+  {
+   "id": "DHjqpvDnNGE",
+   "title": "Front-End Development"
+  },
+  {
+   "id": "E3ReKuJ8ewA",
+   "title": "Production Backend & Agentic Systems Engineering"
+  },
+  {
+   "id": "EWS_CIxttVw",
+   "title": "Single Server to Scalable System"
+  },
+  {
+   "id": "GGtwJ-SGXTA",
+   "title": "Evidence-based pharmacotherapy"
+  },
+  {
+   "id": "GbxVsi94DrE",
+   "title": "C142  Intelligent Data Platform"
+  },
+  {
+   "id": "GbxVsi94DrE",
+   "title": "Intelligent Data Platform"
+  },
+  {
+   "id": "JDpg2tdHdq0",
+   "title": "Pharmacovigilance + medication-use systems"
+  },
+  {
+   "id": "J_y2I09rj_I",
+   "title": "Systems Engineering"
+  },
+  {
+   "id": "LCEmiRjPEtQ",
+   "title": "Vibe Coding / AI-Assisted Development"
+  },
+  {
+   "id": "MuiazbyOSqQ",
+   "title": "Ethics + moral reasoning"
+  },
+  {
+   "id": "NuQqDFkhIlU",
+   "title": "NPTEL - Industrial Instrumentation: Introduction \\u2014 IIT Kharagpur"
+  },
+  {
+   "id": "Oe421EPjeBE",
+   "title": "Project 1 - Task Manager API"
+  },
+  {
+   "id": "Oe421EPjeBE",
+   "title": "Project 2 - Store API"
+  },
+  {
+   "id": "Oe421EPjeBE",
+   "title": "Project 3 - JWT Basics"
+  },
+  {
+   "id": "Oe421EPjeBE",
+   "title": "Project 4 - Jobs API"
+  },
+  {
+   "id": "OlAmyf8_4O4",
+   "title": "ACE 2025 - IaC bridge, compute operations, storage/database operations and monitoring"
+  },
+  {
+   "id": "OlAmyf8_4O4",
+   "title": "ACE 2025 - VMs, machine choices, disks, images, operations and scaling"
+  },
+  {
+   "id": "OlAmyf8_4O4",
+   "title": "ACE 2025 - VPC, routes, firewalls, load balancing and connectivity resources"
+  },
+  {
+   "id": "OlAmyf8_4O4",
+   "title": "ACE 2025 - identity access, projects/folders, service accounts and resource setup"
+  },
+  {
+   "id": "OlAmyf8_4O4",
+   "title": "ACE 2025 - storage options, lifecycle and data-service selection"
+  },
+  {
+   "id": "PDw3Uk9dN9k",
+   "title": "AI for Writing & Research"
+  },
+  {
+   "id": "PmvhH6R-H44",
+   "title": "New York Times Bestseller Insights: Leadership, Growth & Decisions"
+  },
+  {
+   "id": "RH95h36NChI",
+   "title": "How to Study Efficiently & Effectively"
+  },
+  {
+   "id": "RH95h36NChI",
+   "title": "Retrieval Practice: A Video for Students"
+  },
+  {
+   "id": "SVOrURyOu_U",
+   "title": "Streaming + event systems"
+  },
+  {
+   "id": "SgJfXIjFsds",
+   "title": "Operational Excellence Analytics: Root Cause, SPC & Process Mining"
+  },
+  {
+   "id": "SgJfXIjFsds",
+   "title": "Run a DMAIC Improvement Project"
+  },
+  {
+   "id": "SnbGD677_u0",
+   "title": "AI Evals & Monitoring"
+  },
+  {
+   "id": "SnbGD677_u0",
+   "title": "C019  AI Evals & Monitoring"
+  },
+  {
+   "id": "UiIIqIGqAKs",
+   "title": "Event-Driven Architecture, Messaging & Realtime Systems"
+  },
+  {
+   "id": "V4Zam6_oZKE",
+   "title": "Caching, Load Balancing & Sharding"
+  },
+  {
+   "id": "Vss3nofHpZI",
+   "title": "Growth, finance + open economy"
+  },
+  {
+   "id": "Vss3nofHpZI",
+   "title": "Microeconomic reasoning"
+  },
+  {
+   "id": "X48VuDVv0do",
+   "title": "Platform as a Product"
+  },
+  {
+   "id": "XuSQU5Grv1g",
+   "title": "Golden Paths Interactive Labs"
+  },
+  {
+   "id": "YqurSBERAlY",
+   "title": "C020  LLMOps"
+  },
+  {
+   "id": "YqurSBERAlY",
+   "title": "LLMOps"
+  },
+  {
+   "id": "_2th8LDnvQk",
+   "title": "Observability & Site Reliability Engineering"
+  },
+  {
+   "id": "_Pqfjer8-O4",
+   "title": "C152  Infrastructure Hardware Engineering"
+  },
+  {
+   "id": "_Pqfjer8-O4",
+   "title": "Infrastructure Hardware Engineering"
+  },
+  {
+   "id": "aEGan35iBbE",
+   "title": "ETL/ELT + orchestration"
+  },
+  {
+   "id": "aHCDrAbH_go",
+   "title": "Agent Frameworks & Platforms"
+  },
+  {
+   "id": "aHCDrAbH_go",
+   "title": "Drive Agentic Execution Excellence"
+  },
+  {
+   "id": "aYF1Tc0VoUA",
+   "title": "C116  Operations Management & Operating Models"
+  },
+  {
+   "id": "aYF1Tc0VoUA",
+   "title": "DMAIC / Process Analytics Project"
+  },
+  {
+   "id": "aYF1Tc0VoUA",
+   "title": "Operations Management & Operating Models"
+  },
+  {
+   "id": "dItUGF8GdTw",
+   "title": "Problem Solving & Great Questions"
+  },
+  {
+   "id": "dg8eloQbKLM",
+   "title": "AI Orchestration"
+  },
+  {
+   "id": "eIho2S0ZahI",
+   "title": "Executive Presence & Speaking to Senior Leaders"
+  },
+  {
+   "id": "eLxBnGoBltc",
+   "title": "Sovereign IDP"
+  },
+  {
+   "id": "fNk_zzaMoSs",
+   "title": "C089  Mathematics for Data Science"
+  },
+  {
+   "id": "fNk_zzaMoSs",
+   "title": "Mathematics for Data Science"
+  },
+  {
+   "id": "gl1r1XV0SLw",
+   "title": "Embeddings"
+  },
+  {
+   "id": "gvkqT_Uoahw",
+   "title": "App Development"
+  },
+  {
+   "id": "hDKCxebp88A",
+   "title": "Jovian Lesson 1 - regression fundamentals and implementation"
+  },
+  {
+   "id": "hDKCxebp88A",
+   "title": "Jovian Lesson 2 - classification workflow"
+  },
+  {
+   "id": "hDKCxebp88A",
+   "title": "Jovian Lesson 3 - tree-based modeling"
+  },
+  {
+   "id": "hDKCxebp88A",
+   "title": "Jovian Lesson 4 - end-to-end project methodology"
+  },
+  {
+   "id": "hDKCxebp88A",
+   "title": "Jovian Lesson 5 - boosting, tuning and evaluation"
+  },
+  {
+   "id": "hDKCxebp88A",
+   "title": "Jovian Lesson 6 - clustering / representation basics"
+  },
+  {
+   "id": "hDKCxebp88A",
+   "title": "Jovian Lesson 7 - complete applied project workflow"
+  },
+  {
+   "id": "hDKCxebp88A",
+   "title": "Jovian Lesson 8 - application deployment"
+  },
+  {
+   "id": "hciNKcLwSes",
+   "title": "Tool Use & Function Calling"
+  },
+  {
+   "id": "ht9GwXQMgpo",
+   "title": "Advanced Mechanical Design Analysis, GD&T & Reliability"
+  },
+  {
+   "id": "jrHRe9lSqqA",
+   "title": "Agentic Security"
+  },
+  {
+   "id": "jrHRe9lSqqA",
+   "title": "C016  Agentic Security"
+  },
+  {
+   "id": "kBdfcR-8hEY",
+   "title": "Ancient + modern philosophical methods"
+  },
+  {
+   "id": "kBdfcR-8hEY",
+   "title": "Independent philosophical thesis"
+  },
+  {
+   "id": "kjBOesZCoqc",
+   "title": "ML Mathematics"
+  },
+  {
+   "id": "ktlTxC4QG8g",
+   "title": "Personal Development & Executive Effectiveness"
+  },
+  {
+   "id": "l7-5x0ra2tc",
+   "title": "C127  Market Research, Competitive Analysis & Market Sizing"
+  },
+  {
+   "id": "l7-5x0ra2tc",
+   "title": "Market Research, Competitive Analysis & Market Sizing"
+  },
+  {
+   "id": "lCJke5YtZZo",
+   "title": "Medicinal chemistry + dosage-form science"
+  },
+  {
+   "id": "lmyZMtPVodo",
+   "title": "C124  Organizational Leadership: Decision-Making, Influence & Change"
+  },
+  {
+   "id": "lmyZMtPVodo",
+   "title": "Leadership & Management"
+  },
+  {
+   "id": "lmyZMtPVodo",
+   "title": "Organizational Leadership: Decision-Making, Influence & Change"
+  },
+  {
+   "id": "o2HJCGcYwoU",
+   "title": "Architect Integration Strategy"
+  },
+  {
+   "id": "o3K_HbpWNpg",
+   "title": "Speaking & Presentation Frameworks"
+  },
+  {
+   "id": "o_XVt5rdpFY",
+   "title": "Global Languages & Intercultural Communication"
+  },
+  {
+   "id": "ok-plXXHlWw",
+   "title": "Web Development"
+  },
+  {
+   "id": "om2WiDsHLso",
+   "title": "Creator Monetization, Partnerships & Social Commerce"
+  },
+  {
+   "id": "qO_VTiooQZ0",
+   "title": "Unified Routing: Intake, Classification & Assignment"
+  },
+  {
+   "id": "t2Ic6iGLmvc",
+   "title": "Autonomous Systems"
+  },
+  {
+   "id": "t2Ic6iGLmvc",
+   "title": "Robotic Systems"
+  },
+  {
+   "id": "tomUWcQ0P3k",
+   "title": "Infrastructure as Code"
+  },
+  {
+   "id": "un6ZyFkqFKo",
+   "title": "Boot.dev project - API keys and many-to-many relationships"
+  },
+  {
+   "id": "un6ZyFkqFKo",
+   "title": "Boot.dev project - Postgres database and schema workflow"
+  },
+  {
+   "id": "un6ZyFkqFKo",
+   "title": "Boot.dev project - RSS aggregator + Chi router"
+  },
+  {
+   "id": "veSXjIzTa3c",
+   "title": "C128  Financial Modeling, Business Cases & Unit Economics"
+  },
+  {
+   "id": "veSXjIzTa3c",
+   "title": "Financial Modeling, Business Cases & Unit Economics"
+  },
+  {
+   "id": "vmxHUiiHgNk",
+   "title": "People Management"
+  },
+  {
+   "id": "xZi4kTJG-LE",
+   "title": "Founder-led sales + growth"
+  },
+  {
+   "id": "y2ILKr8kCJU",
+   "title": "Intelligent Delivery"
+  },
+  {
+   "id": "yKWQ_oLSXI8",
+   "title": "Integrated diagnostic correlation"
+  },
+  {
+   "id": "ysPbXH0LpIE",
+   "title": "Prompt & Context Engineering"
+  },
+  {
+   "id": "zsjvFFKOm3c",
+   "title": "Databases"
+  }
+ ]
+}

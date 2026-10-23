@@ -767,7 +767,7 @@
             "videos": [
               {
                 "title": "Reliable Agent Architectures",
-                "url": "https://www.youtube.com/watch?v=uhJJgc-0iTQ",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-designing-reliable-agent-architectures-2025-12-11",
                 "channel": "OpenAI Academy"
               },
               {
@@ -1121,7 +1121,7 @@
             "videos": [
               {
                 "title": "Distributed Systems Lecture",
-                "url": "https://www.youtube.com/watch?v=d3YfSnbpduY",
+                "url": "https://www.youtube.com/watch?v=cQP8WApzIQQ",
                 "channel": "MIT 6.824"
               },
               {
@@ -1164,7 +1164,7 @@
               },
               {
                 "title": "Engineering with Backstage",
-                "url": "https://www.youtube.com/watch?v=UKnIjrs8s7o",
+                "url": "https://www.youtube.com/watch?v=gJHYTlO0VwA",
                 "channel": "CNCF / Spotify"
               }
             ]
@@ -1180,7 +1180,7 @@
               },
               {
                 "title": "Google Cloud",
-                "url": "https://www.youtube.com/watch?v=IPFaLuuAjTs",
+                "url": "https://www.youtube.com/watch?v=NUmOZ3nnS7I",
                 "channel": "Incident Management: SRE Implements DevOps"
               }
             ]
@@ -1352,7 +1352,7 @@
               },
               {
                 "title": "From LLMs to Large Multimodal Mod...",
-                "url": "https://www.youtube.com/watch?v=BPYOsDCZbno",
+                "url": "https://www.youtube.com/watch?v=cYfKQ6YG9Qo",
                 "channel": "Stanford CS25"
               }
             ]
@@ -1368,7 +1368,7 @@
               },
               {
                 "title": "Da...",
-                "url": "https://www.youtube.com/watch?v=-K3bZYHYHEA",
+                "url": "https://www.youtube.com/watch?v=_EMfJSmLSKE",
                 "channel": "End-to-End Vision-Language Model Fine-Tuning"
               }
             ]
@@ -1428,7 +1428,7 @@
               },
               {
                 "title": "Problems in Distributed Machine L...",
-                "url": "https://www.youtube.com/watch?v=SnbGD677_u0",
+                "url": "https://www.youtube.com/watch?v=R7N3quJcGNQ",
                 "channel": "Stanford MLSys"
               }
             ]
@@ -1439,12 +1439,12 @@
             "videos": [
               {
                 "title": "Reproducible Machine Learning",
-                "url": "https://www.youtube.com/watch?v=YEaKXjHENyQ",
-                "channel": "Weights & Biases"
+                "url": "https://www.youtube.com/watch?v=tHAFujRhZLA",
+                "channel": "Weights & Biases (CoreWeave)"
               },
               {
                 "title": "Experiment Management and Reproducibility",
-                "url": "https://www.youtube.com/watch?v=IYtGw1btOsM",
+                "url": "https://www.youtube.com/watch?v=FHQq_zZz5ms",
                 "channel": "DVC"
               }
             ]
@@ -1908,8 +1908,8 @@
               },
               {
                 "title": "Project Lifecycle Reviews",
-                "url": "https://www.youtube.com/watch?v=fbUStXvPTZE",
-                "channel": "NASA"
+                "url": "https://www.youtube.com/watch?v=kittbOWXuP0",
+                "channel": "NASA / Saylor Academy"
               }
             ]
           }
@@ -2575,12 +2575,12 @@
             "videos": [
               {
                 "title": "Kubernetes Full Course (4h)",
-                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
+                "url": "https://www.youtube.com/watch?v=X48VuDVv0do",
                 "channel": "TechWorld with Nana"
               },
               {
                 "title": "Kubernetes Hands-On Course (1h52)",
-                "url": "https://www.youtube.com/watch?v=uhJJgc-0iTQ",
+                "url": "https://www.youtube.com/watch?v=XuSQU5Grv1g",
                 "channel": "KodeKloud"
               }
             ]
@@ -2602,7 +2602,7 @@
               },
               {
                 "title": "IAM Policy Power Hour",
-                "url": "https://www.youtube.com/watch?v=G6Aot9UCePU",
+                "url": "https://www.youtube.com/watch?v=MKhkLqN0AyY",
                 "channel": "AWS re:Inforce"
               }
             ]
@@ -2618,7 +2618,7 @@
               },
               {
                 "title": "Backstage: From Spreadsheet to Standard",
-                "url": "https://www.youtube.com/watch?v=LzMiAXDkLwY",
+                "url": "https://www.youtube.com/watch?v=gJHYTlO0VwA",
                 "channel": "CNCF"
               }
             ]
@@ -2640,7 +2640,7 @@
               },
               {
                 "title": "Build an Open-Source Observability Stack",
-                "url": "https://www.youtube.com/watch?v=E3ReKuJ8ewA",
+                "url": "https://www.youtube.com/watch?v=0XwwCp1NQyQ",
                 "channel": "CNCF"
               }
             ]
@@ -2697,13 +2697,13 @@
             "videos": [
               {
                 "title": "10 Ways to Have a Better Conversation",
-                "url": "https://www.youtube.com/watch?v=BPYOsDCZbno",
-                "channel": "Celeste Headlee"
+                "url": "https://www.youtube.com/watch?v=R1vskiVDwl4",
+                "channel": "Celeste Headlee / TED"
               },
               {
                 "title": "Tame Your Advice Monster",
-                "url": "https://www.youtube.com/watch?v=UezTglxJC88",
-                "channel": "Michael Bungay Stanier"
+                "url": "https://www.youtube.com/watch?v=5gVTwb3ebAI",
+                "channel": "Michael Bungay Stanier / TED"
               }
             ]
           },
@@ -2713,12 +2713,12 @@
             "videos": [
               {
                 "title": "GROW Model Demonstration",
-                "url": "https://www.youtube.com/watch?v=Jlm4oqW41vY",
+                "url": "https://www.youtube.com/watch?v=7JM1gXkzrnk",
                 "channel": "The Coaching Academy"
               },
               {
                 "title": "Use the GROW Model to Coach",
-                "url": "https://www.youtube.com/watch?v=zoS5Fx2Ou1Y",
+                "url": "https://www.youtube.com/watch?v=JCNJydlAKbk",
                 "channel": "Sabine Renner"
               }
             ]
@@ -2735,12 +2735,12 @@
             "videos": [
               {
                 "title": "The Secret to Giving Great Feedback",
-                "url": "https://www.youtube.com/watch?v=XFsFDGKZHh4",
+                "url": "https://www.youtube.com/watch?v=wtl5UrrgU8c",
                 "channel": "TED"
               },
               {
                 "title": "How to Lead With Radical Candor",
-                "url": "https://www.youtube.com/watch?v=Dk88zv1KYMI",
+                "url": "https://www.youtube.com/watch?v=vmxHUiiHgNk",
                 "channel": "Kim Scott / TED"
               }
             ]
@@ -2751,12 +2751,12 @@
             "videos": [
               {
                 "title": "Facilitate Your First Workshop",
-                "url": "https://www.youtube.com/watch?v=W3hKjXg7fXM",
+                "url": "https://www.youtube.com/watch?v=4-RZRLdBpFc",
                 "channel": "AJ&Smart"
               },
               {
                 "title": "ADDIE Instructional Design Model",
-                "url": "https://www.youtube.com/watch?v=nra0Tt3a-Oc",
+                "url": "https://www.youtube.com/watch?v=JB6aDdq3HTI",
                 "channel": "Devlin Peck"
               }
             ]
@@ -2773,13 +2773,13 @@
             "videos": [
               {
                 "title": "Assessment-Based Coaching for Leaders",
-                "url": "https://www.youtube.com/watch?v=c8_hnLSXSCs",
+                "url": "https://www.youtube.com/watch?v=vGjKDvm6LfU",
                 "channel": "Hogan"
               },
               {
                 "title": "Maximizing the Impact of 360 Assessments",
-                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
-                "channel": "CCL"
+                "url": "https://www.youtube.com/watch?v=KhoaNnqoa9E",
+                "channel": "Business School 101"
               }
             ]
           },
@@ -2789,12 +2789,12 @@
             "videos": [
               {
                 "title": "Kirkpatrick Training Evaluation Model",
-                "url": "https://www.youtube.com/watch?v=uhJJgc-0iTQ",
+                "url": "https://www.youtube.com/watch?v=7ThFfgocqrc",
                 "channel": "Devlin Peck"
               },
               {
                 "title": "Leaders Empowering Productivity With AI",
-                "url": "https://www.youtube.com/watch?v=a54xH6nT4Sw",
+                "url": "https://www.youtube.com/watch?v=UT-D8A6nsW0",
                 "channel": "Microsoft"
               }
             ]
@@ -3438,7 +3438,7 @@
               },
               {
                 "title": "Dynamics 365 Customer Service Real-Time Analytics",
-                "url": "https://www.youtube.com/watch?v=TK9MN22q6E0",
+                "url": "https://www.youtube.com/watch?v=GcZqwCntiDM",
                 "channel": ""
               }
             ]
@@ -3454,7 +3454,7 @@
               },
               {
                 "title": "Google Cloud",
-                "url": "https://www.youtube.com/watch?v=G6Aot9UCePU",
+                "url": "https://www.youtube.com/watch?v=E3ReKuJ8ewA",
                 "channel": "The Art of SLOs"
               }
             ]
@@ -3901,12 +3901,12 @@
             "videos": [
               {
                 "title": "End-to-End Databricks Data Engineering Project",
-                "url": "https://www.youtube.com/watch?v=_esIAwM3ITQ",
+                "url": "https://www.youtube.com/watch?v=U6ZUKWdfSLY",
                 "channel": ""
               },
               {
                 "title": "Realtime Logs Processing with Airflow and Kafka",
-                "url": "https://www.youtube.com/watch?v=1vHNKsE_pcE",
+                "url": "https://www.youtube.com/watch?v=xwtR_GdlkZA",
                 "channel": ""
               }
             ]
@@ -3923,12 +3923,12 @@
             "videos": [
               {
                 "title": "Full Walkthrough",
-                "url": "https://www.youtube.com/watch?v=XSqHlNaQ3a0",
+                "url": "https://www.youtube.com/watch?v=Cb2BpFoL30g",
                 "channel": "GCP, Kafka, PySpark, Airflow"
               },
               {
                 "title": "Apache Kafka Fundamentals",
-                "url": "https://www.youtube.com/watch?v=7fqTqjNFrGw",
+                "url": "https://www.youtube.com/watch?v=-DyWhcX3Dpc",
                 "channel": "Confluent"
               }
             ]
@@ -3944,7 +3944,7 @@
               },
               {
                 "title": "Unity Catalog: Governance + Lineage",
-                "url": "https://www.youtube.com/watch?v=AtM1kcHtD9w",
+                "url": "https://www.youtube.com/watch?v=mjGPetUAhgg",
                 "channel": "Databricks"
               }
             ]
@@ -3966,7 +3966,7 @@
               },
               {
                 "title": "Apache Iceberg v3 and Beyond",
-                "url": "https://www.youtube.com/watch?v=SLINAuoIfq4",
+                "url": "https://www.youtube.com/watch?v=8ybMtzb6ytQ",
                 "channel": "AWS re:Invent 2025"
               }
             ]
@@ -4324,7 +4324,7 @@
               },
               {
                 "title": "Bias and Variance",
-                "url": "https://www.youtube.com/watch?v=hEzpiDuYFoE",
+                "url": "https://www.youtube.com/watch?v=EuBBz3bI-aA",
                 "channel": "StatQuest"
               }
             ]
@@ -4335,7 +4335,7 @@
             "videos": [
               {
                 "title": "What Is A/B Testing?",
-                "url": "https://www.youtube.com/watch?v=7z7jUF4Clok",
+                "url": "https://www.youtube.com/watch?v=_WuE80AbxjE",
                 "channel": "Statsig"
               },
               {
@@ -4373,7 +4373,7 @@
             "videos": [
               {
                 "title": "Building Practical Evaluation Syst...",
-                "url": "https://www.youtube.com/watch?v=7TglVxNgbKQ",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
                 "channel": "OpenAI Academy"
               },
               {
@@ -4456,7 +4456,7 @@
               },
               {
                 "title": "Data Quality at Scale with AWS Glue",
-                "url": "https://www.youtube.com/watch?v=2Qo5_CIsSH4",
+                "url": "https://www.youtube.com/watch?v=KIpky7-v4QI",
                 "channel": "AWS re:Invent"
               }
             ]
@@ -4467,12 +4467,12 @@
             "videos": [
               {
                 "title": "How We Model Looker at Looker",
-                "url": "https://www.youtube.com/watch?v=AtM1kcHtD9w",
+                "url": "https://www.youtube.com/watch?v=eC5NArpQpJ0",
                 "channel": "Google Cloud"
               },
               {
                 "title": "Semantic Layer with MetricFlow",
-                "url": "https://www.youtube.com/watch?v=7fqTqjNFrGw",
+                "url": "https://www.youtube.com/watch?v=DS7Ub_CmBR0",
                 "channel": "dbt Labs"
               }
             ]
@@ -4863,12 +4863,12 @@
             "videos": [
               {
                 "title": "Backstage: Shaping Developer...",
-                "url": "https://www.youtube.com/watch?v=CQywdSdi5iA",
+                "url": "https://www.youtube.com/watch?v=UbrPNvaHxCE",
                 "channel": "CNCF / Spotify"
               },
               {
                 "title": "Platform Engineering: Day Zero",
-                "url": "https://www.youtube.com/watch?v=7E-qdsVEoB8",
+                "url": "https://www.youtube.com/watch?v=dIgxuxdDYCs",
                 "channel": "CNCF / Google"
               }
             ]
@@ -4890,8 +4890,8 @@
               },
               {
                 "title": "Developer Experience in the...",
-                "url": "https://www.youtube.com/watch?v=0kOXsQUNzss",
-                "channel": "DORA / Nathen Harvey"
+                "url": "https://www.youtube.com/watch?v=_IKB4h9e4NA",
+                "channel": "Nathen Harvey / GOTO"
               }
             ]
           },
@@ -4947,12 +4947,12 @@
             "videos": [
               {
                 "title": "Linux Hands-On Tutorial (2h18)",
-                "url": "https://www.youtube.com/watch?v=XUoGxMrES4M",
+                "url": "https://www.youtube.com/watch?v=t3e_CaC4V_k",
                 "channel": "KodeKloud"
               },
               {
                 "title": "Shell Tools & Scripting (Missing Semester)",
-                "url": "https://www.youtube.com/watch?v=uBs6dfUgxcI",
+                "url": "https://www.youtube.com/watch?v=kgII-YWo3Zw",
                 "channel": "MIT"
               }
             ]
@@ -4963,12 +4963,12 @@
             "videos": [
               {
                 "title": "Terraform + Labs (1h54)",
-                "url": "https://www.youtube.com/watch?v=t4vKPhjcMZg",
+                "url": "https://www.youtube.com/watch?v=YcJ9IeukJL8",
                 "channel": "KodeKloud"
               },
               {
                 "title": "IaC, State & Modules (1h23)",
-                "url": "https://www.youtube.com/watch?v=z1iF1c8w5Lg",
+                "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
                 "channel": "Terraform Full Course"
               }
             ]
@@ -4985,12 +4985,12 @@
             "videos": [
               {
                 "title": "GitHub Actions CI/CD",
-                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
+                "url": "https://www.youtube.com/watch?v=R8_veQiYBjI",
                 "channel": "TechWorld with Nana"
               },
               {
                 "title": "Progressive Delivery with Argo Rollouts",
-                "url": "https://www.youtube.com/watch?v=X6fSJZDZZ0I",
+                "url": "https://www.youtube.com/watch?v=tnB0TwEqNFA",
                 "channel": "CNCF"
               }
             ]
@@ -5001,12 +5001,12 @@
             "videos": [
               {
                 "title": "Kubernetes Full Course (4h)",
-                "url": "https://www.youtube.com/watch?v=CQywdSdi5iA",
+                "url": "https://www.youtube.com/watch?v=X48VuDVv0do",
                 "channel": "TechWorld with Nana"
               },
               {
                 "title": "Kubernetes Hands-On Course (1h52)",
-                "url": "https://www.youtube.com/watch?v=7E-qdsVEoB8",
+                "url": "https://www.youtube.com/watch?v=XuSQU5Grv1g",
                 "channel": "KodeKloud"
               }
             ]
@@ -5028,7 +5028,7 @@
               },
               {
                 "title": "Build an Open-Source Observability Stack",
-                "url": "https://www.youtube.com/watch?v=0kOXsQUNzss",
+                "url": "https://www.youtube.com/watch?v=0XwwCp1NQyQ",
                 "channel": "CNCF"
               }
             ]
@@ -5039,12 +5039,12 @@
             "videos": [
               {
                 "title": "IAM Policy Power Hour",
-                "url": "https://www.youtube.com/watch?v=UbrPNvaHxCE",
+                "url": "https://www.youtube.com/watch?v=MKhkLqN0AyY",
                 "channel": "AWS re:Inforce"
               },
               {
                 "title": "Are You Well-Architected?",
-                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
+                "url": "https://www.youtube.com/watch?v=jtjEWlGkwjQ",
                 "channel": "AWS re:Invent"
               }
             ]
@@ -5144,7 +5144,7 @@
               },
               {
                 "title": "HubSpot Marketing Hub",
-                "url": "https://www.youtube.com/watch?v=Hfx1X9WSGYQ",
+                "url": "https://www.youtube.com/watch?v=94gHaHKmD4Q",
                 "channel": "Email Marketing Tutorial"
               }
             ]
@@ -5161,12 +5161,12 @@
             "videos": [
               {
                 "title": "Google Analytics",
-                "url": "https://www.youtube.com/watch?v=yDLErwgajOQ",
+                "url": "https://www.youtube.com/watch?v=UuE37-MM1ws",
                 "channel": "Set Up GA4 with Google Tag Manager"
               },
               {
                 "title": "Experimentation Platform",
-                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
+                "url": "https://www.youtube.com/watch?v=JL1frBY-yuI",
                 "channel": "VWO Testing Overview"
               }
             ]
@@ -5425,12 +5425,12 @@
             "videos": [
               {
                 "title": "Google Cloud",
-                "url": "https://www.youtube.com/watch?v=aNj36g7fSsU",
+                "url": "https://www.youtube.com/watch?v=JkmmDL386c4",
                 "channel": "Agentic Data Cloud: System of Action"
               },
               {
                 "title": "Google Cloud Next '26: Building the Agentic Enterpri...",
-                "url": "https://www.youtube.com/watch?v=yn6CPQ9RioA",
+                "url": "https://www.youtube.com/watch?v=lsqPct4NnNs",
                 "channel": ""
               }
             ]
@@ -5486,7 +5486,7 @@
               },
               {
                 "title": "Financial Modeling",
-                "url": "https://www.youtube.com/watch?v=aeALuG0E2EQ",
+                "url": "https://www.youtube.com/watch?v=UsbVUOnBy3Y",
                 "channel": "Scenario Analysis in Excel"
               }
             ]
@@ -5578,7 +5578,7 @@
               },
               {
                 "title": "CFI",
-                "url": "https://www.youtube.com/watch?v=2PIeM9pZvZI",
+                "url": "https://www.youtube.com/watch?v=4YjMHhOyjnE",
                 "channel": "Financial Storytelling for Strategic Influence"
               }
             ]
@@ -5689,7 +5689,7 @@
             "videos": [
               {
                 "title": "FP&A Operating Model (60m)",
-                "url": "https://www.youtube.com/watch?v=rUZt1O7yYhs",
+                "url": "https://www.youtube.com/watch?v=nedRlRfpaoM",
                 "channel": "FP&A Trends + EY"
               },
               {
@@ -6048,8 +6048,8 @@
               },
               {
                 "title": "How Iconic Brands Use Color",
-                "url": "https://www.youtube.com/watch?v=RanfCx18gi4",
-                "channel": "Adobe MAX"
+                "url": "https://www.youtube.com/watch?v=x0smq5ljlf4",
+                "channel": "Visme"
               }
             ]
           }
@@ -6482,7 +6482,7 @@
               },
               {
                 "title": "Microsoft Research",
-                "url": "https://www.youtube.com/watch?v=7E-qdsVEoB8",
+                "url": "https://www.youtube.com/watch?v=5K0YemTKu-w",
                 "channel": "AI for Precision Health"
               }
             ]
@@ -6504,8 +6504,8 @@
               },
               {
                 "title": "Human Oversight in AI-Enabled Healthcare Systems",
-                "url": "https://www.youtube.com/watch?v=TK9MN22q6E0",
-                "channel": ""
+                "url": "https://www.youtube.com/watch?v=TAbXdSr_9e4",
+                "channel": "World Health Organization"
               }
             ]
           },
@@ -6520,7 +6520,7 @@
               },
               {
                 "title": "Google Cloud",
-                "url": "https://www.youtube.com/watch?v=G6Aot9UCePU",
+                "url": "https://www.youtube.com/watch?v=E3ReKuJ8ewA",
                 "channel": "The Art of SLOs"
               }
             ]
@@ -7032,7 +7032,7 @@
               },
               {
                 "title": "OpenAI DevDay",
-                "url": "https://www.youtube.com/watch?v=IlNglM9bKLw",
+                "url": "https://www.youtube.com/watch?v=TK9MN22q6E0",
                 "channel": "Interactive Agent Evals"
               }
             ]
@@ -7088,7 +7088,7 @@
               },
               {
                 "title": "Troubleshooting & Testing (43m)",
-                "url": "https://www.youtube.com/watch?v=UezTglxJC88",
+                "url": "https://www.youtube.com/watch?v=D65SlCSoS-0",
                 "channel": "FSDL"
               }
             ]
@@ -7099,12 +7099,12 @@
             "videos": [
               {
                 "title": "Cross-Validation (80m)",
-                "url": "https://www.youtube.com/watch?v=Jlm4oqW41vY",
+                "url": "https://www.youtube.com/watch?v=6eWODQJrMKs",
                 "channel": "Stanford CS229"
               },
               {
                 "title": "Debugging ML Models (77m)",
-                "url": "https://www.youtube.com/watch?v=zoS5Fx2Ou1Y",
+                "url": "https://www.youtube.com/watch?v=_0cN8uWY3I4",
                 "channel": "Stanford CS229"
               }
             ]
@@ -7121,13 +7121,13 @@
             "videos": [
               {
                 "title": "Recommender Systems (Andrew Ng)",
-                "url": "https://www.youtube.com/watch?v=XFsFDGKZHh4",
+                "url": "https://www.youtube.com/watch?v=GIcuSNAAa4g",
                 "channel": "Stanford"
               },
               {
                 "title": "GNN Recommender Systems",
-                "url": "https://www.youtube.com/watch?v=Dk88zv1KYMI",
-                "channel": "Stanford CS224W"
+                "url": "https://www.youtube.com/watch?v=K6anQieeurc",
+                "channel": "Stanford CS224W (2018)"
               }
             ]
           },
@@ -7142,7 +7142,7 @@
               },
               {
                 "title": "Chip Huyen (67m)",
-                "url": "https://www.youtube.com/watch?v=nra0Tt3a-Oc",
+                "url": "https://www.youtube.com/watch?v=c_AUuTuPA5k",
                 "channel": "Stanford MLSys"
               }
             ]
@@ -7159,12 +7159,12 @@
             "videos": [
               {
                 "title": "Deployment (57m)",
-                "url": "https://www.youtube.com/watch?v=c8_hnLSXSCs",
+                "url": "https://www.youtube.com/watch?v=W3hKjXg7fXM",
                 "channel": "FSDL"
               },
               {
                 "title": "KServe Model Serving Deep Dive (28m)",
-                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
+                "url": "https://www.youtube.com/watch?v=FX6naJLaq2Y",
                 "channel": "CNCF"
               }
             ]
@@ -7175,7 +7175,7 @@
             "videos": [
               {
                 "title": "Continual Learning (65m)",
-                "url": "https://www.youtube.com/watch?v=uhJJgc-0iTQ",
+                "url": "https://www.youtube.com/watch?v=nra0Tt3a-Oc",
                 "channel": "FSDL"
               },
               {
@@ -7359,12 +7359,12 @@
             "videos": [
               {
                 "title": "Data Management (35m)",
-                "url": "https://www.youtube.com/watch?v=Pkh0dqLCsrs",
+                "url": "https://www.youtube.com/watch?v=Jlm4oqW41vY",
                 "channel": "FSDL"
               },
               {
                 "title": "Troubleshooting & Testing (43m)",
-                "url": "https://www.youtube.com/watch?v=Pkh0dqLCsrs",
+                "url": "https://www.youtube.com/watch?v=D65SlCSoS-0",
                 "channel": "FSDL"
               }
             ]
@@ -7397,12 +7397,12 @@
             "videos": [
               {
                 "title": "KServe Model Serving Deep Dive (28m)",
-                "url": "https://www.youtube.com/watch?v=W3hKjXg7fXM",
+                "url": "https://www.youtube.com/watch?v=FX6naJLaq2Y",
                 "channel": "CNCF"
               },
               {
                 "title": "ModelMesh at Scale",
-                "url": "https://www.youtube.com/watch?v=W3hKjXg7fXM",
+                "url": "https://www.youtube.com/watch?v=sK3sfJX-66g",
                 "channel": "Linux Foundation"
               }
             ]
@@ -7413,12 +7413,12 @@
             "videos": [
               {
                 "title": "Continual Learning (65m)",
-                "url": "https://www.youtube.com/watch?v=9tvJ_GYJA-o",
+                "url": "https://www.youtube.com/watch?v=nra0Tt3a-Oc",
                 "channel": "FSDL"
               },
               {
                 "title": "Monitoring Lab (31m)",
-                "url": "https://www.youtube.com/watch?v=9tvJ_GYJA-o",
+                "url": "https://www.youtube.com/watch?v=-mKzxSC0r7w",
                 "channel": "FSDL"
               }
             ]
@@ -7491,12 +7491,12 @@
             "videos": [
               {
                 "title": "Firefly Creative Workflow Deep Dive",
-                "url": "https://www.youtube.com/watch?v=_krYKDYURQ4",
+                "url": "https://www.youtube.com/watch?v=26UwPI6Fa8U",
                 "channel": "Adobe Live"
               },
               {
                 "title": "Content Authenticity Initiative: Trust & Transparency",
-                "url": "https://www.youtube.com/watch?v=_krYKDYURQ4",
+                "url": "https://www.youtube.com/watch?v=Xd6vtHMlse4",
                 "channel": "Adobe"
               }
             ]
@@ -7507,8 +7507,8 @@
             "videos": [
               {
                 "title": "Exposure Triangle",
-                "url": "https://www.youtube.com/watch?v=U6I1tMgjW-I",
-                "channel": "Photography Basics"
+                "url": "https://www.youtube.com/watch?v=Edvpu_939l4",
+                "channel": "B&H Photo"
               },
               {
                 "title": "Recording Sound for Film",
@@ -7529,12 +7529,12 @@
             "videos": [
               {
                 "title": "Pre-Production: Budgeting & Scheduling",
-                "url": "https://www.youtube.com/watch?v=oLMdXC_B1vQ",
+                "url": "https://www.youtube.com/watch?v=U6I1tMgjW-I",
                 "channel": "StudioBinder"
               },
               {
                 "title": "Production Process Explained",
-                "url": "https://www.youtube.com/watch?v=oLMdXC_B1vQ",
+                "url": "https://www.youtube.com/watch?v=puF9CkvmJt0",
                 "channel": "StudioBinder"
               }
             ]
@@ -7550,7 +7550,7 @@
               },
               {
                 "title": "After Effects Motion Design Workshop",
-                "url": "https://www.youtube.com/watch?v=iWecEjVP61E",
+                "url": "https://www.youtube.com/watch?v=ALmYrTm6EKQ",
                 "channel": "Adobe"
               }
             ]
@@ -7572,7 +7572,7 @@
               },
               {
                 "title": "How to Make a Storyboard",
-                "url": "https://www.youtube.com/watch?v=Xd6vtHMlse4",
+                "url": "https://www.youtube.com/watch?v=238eypcdOzU",
                 "channel": "StudioBinder"
               }
             ]
@@ -7699,7 +7699,7 @@
             "videos": [
               {
                 "title": "A...",
-                "url": "https://www.youtube.com/watch?v=tjGVnjsvi-k",
+                "url": "https://www.youtube.com/watch?v=yvLmJS-ayyM",
                 "channel": "Advanced Routing Policy with AWS Cloud WAN"
               },
               {
@@ -8040,7 +8040,7 @@
               },
               {
                 "title": "Core Message",
-                "url": "https://www.youtube.com/watch?v=gTaJhjQHcf8",
+                "url": "https://www.youtube.com/watch?v=_u8lxBrIm0c",
                 "channel": "Atomic Habits"
               }
             ]
@@ -8062,7 +8062,7 @@
               },
               {
                 "title": "Management Consulted",
-                "url": "https://www.youtube.com/watch?v=dItUGF8GdTw",
+                "url": "https://www.youtube.com/watch?v=6kReKGrcoSc",
                 "channel": "How To Be MECE"
               }
             ]
@@ -8078,7 +8078,7 @@
               },
               {
                 "title": "Renee St Jacques / TED",
-                "url": "https://www.youtube.com/watch?v=OntE3tCaUR0",
+                "url": "https://www.youtube.com/watch?v=OAIlucguNzY",
                 "channel": "How to Give Feedback That Lands"
               }
             ]
@@ -8100,7 +8100,7 @@
               },
               {
                 "title": "TED",
-                "url": "https://www.youtube.com/watch?v=o3K_HbpWNpg",
+                "url": "https://www.youtube.com/watch?v=eIho2S0ZahI",
                 "channel": "How to Speak So People Want to Listen"
               }
             ]
@@ -8172,7 +8172,7 @@
               },
               {
                 "title": "Management Consulted",
-                "url": "https://www.youtube.com/watch?v=mYF2_FBCvXw",
+                "url": "https://www.youtube.com/watch?v=1mI1GneSCtE",
                 "channel": "Market Sizing Framework Walkthrough"
               }
             ]
@@ -8232,7 +8232,7 @@
               },
               {
                 "title": "Henrik Kniberg",
-                "url": "https://www.youtube.com/watch?v=eQu5VsUqyZA",
+                "url": "https://www.youtube.com/watch?v=502ILHjX9EE",
                 "channel": "Agile Product Ownership in a Nutshell"
               }
             ]
@@ -8248,7 +8248,7 @@
               },
               {
                 "title": "Amplitude Demo: Funnels, Retention & Session Replay",
-                "url": "https://www.youtube.com/watch?v=H8NtY8GnBIc",
+                "url": "https://www.youtube.com/watch?v=4_2s9PMSzaE",
                 "channel": ""
               }
             ]
@@ -8283,7 +8283,7 @@
             "videos": [
               {
                 "title": "Willingness to Pay",
-                "url": "https://www.youtube.com/watch?v=MT4Ig2uqjTc",
+                "url": "https://www.youtube.com/watch?v=cdQzCVUJybY",
                 "channel": "Pricing for B2B SaaS"
               },
               {
@@ -8469,7 +8469,7 @@
             "videos": [
               {
                 "title": "Cynthia Dwork: Differential Privacy",
-                "url": "https://www.youtube.com/watch?v=HKl8fvX6uBA",
+                "url": "https://www.youtube.com/watch?v=5muBxGQ9B2g",
                 "channel": "Simons Institute"
               },
               {
@@ -8507,13 +8507,13 @@
             "videos": [
               {
                 "title": "Open Policy Agent Intro & Deep Dive",
-                "url": "https://www.youtube.com/watch?v=n4y9dwinPBQ",
+                "url": "https://www.youtube.com/watch?v=hENwFyrtm1g",
                 "channel": "CNCF"
               },
               {
                 "title": "Incident Management",
-                "url": "https://www.youtube.com/watch?v=vznDgJkoH7k",
-                "channel": "Google Cloud"
+                "url": "https://www.youtube.com/watch?v=NUmOZ3nnS7I",
+                "channel": "Google SRE book explained"
               }
             ]
           }
@@ -8827,7 +8827,7 @@
             "videos": [
               {
                 "title": "Design Sprint",
-                "url": "https://www.youtube.com/watch?v=IlqJqcl8ONE",
+                "url": "https://www.youtube.com/watch?v=K2vSQPh6MCE",
                 "channel": "Google Ventures"
               },
               {
@@ -8854,7 +8854,7 @@
               },
               {
                 "title": "Python API Development with FastAPI",
-                "url": "https://www.youtube.com/watch?v=EPyyyB23NUU",
+                "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA",
                 "channel": "freeCodeCamp"
               }
             ]
@@ -8908,7 +8908,7 @@
               },
               {
                 "title": "Getting Started with SLOs",
-                "url": "https://www.youtube.com/watch?v=EPyyyB23NUU",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
                 "channel": "Google Cloud"
               }
             ]
@@ -9266,7 +9266,7 @@
               },
               {
                 "title": "Designing GTM Strategy",
-                "url": "https://www.youtube.com/watch?v=rbGf67v5o7s",
+                "url": "https://www.youtube.com/watch?v=YBb5qEvF56s",
                 "channel": "Amazon Principal PM"
               }
             ]
@@ -9288,7 +9288,7 @@
               },
               {
                 "title": "AI-Powered Team Selling",
-                "url": "https://www.youtube.com/watch?v=UTmFuSZfJ9U",
+                "url": "https://www.youtube.com/watch?v=vaavJszbD9I",
                 "channel": "Gong + Anthropic"
               }
             ]
@@ -9304,7 +9304,7 @@
               },
               {
                 "title": "Adoption to GRR (43m)",
-                "url": "https://www.youtube.com/watch?v=8wLXHrZVOys",
+                "url": "https://www.youtube.com/watch?v=3rmpoQ9J4aw",
                 "channel": "Zendesk/Gainsight"
               }
             ]
@@ -9932,8 +9932,8 @@
               },
               {
                 "title": "Unleashing AI Innovation & Trust (Day 1)",
-                "url": "https://www.youtube.com/watch?v=_NWff8vVXFU",
-                "channel": "NIST"
+                "url": "https://www.youtube.com/watch?v=pyuPSRTe08I",
+                "channel": "NIST / Johns Hopkins"
               }
             ]
           }
@@ -9954,7 +9954,7 @@
               },
               {
                 "title": "Sierra: Realistic Agent Benchmarks",
-                "url": "https://www.youtube.com/watch?v=zFRn_RMSPI4",
+                "url": "https://www.youtube.com/watch?v=rL1vMr1euG8",
                 "channel": "OpenAI DevDay"
               }
             ]
@@ -10180,7 +10180,7 @@
               },
               {
                 "title": "Autonomous Navigation on Real Hardware",
-                "url": "https://www.youtube.com/watch?v=LioOvUZ1MiM",
+                "url": "https://www.youtube.com/watch?v=jkoGkAd0GYk",
                 "channel": "ROS 2 Nav2"
               }
             ]
@@ -10366,7 +10366,7 @@
               },
               {
                 "title": "Microsoft Product Leader",
-                "url": "https://www.youtube.com/watch?v=TK9MN22q6E0",
+                "url": "https://www.youtube.com/watch?v=yDLErwgajOQ",
                 "channel": "Go-to-Market Strategy"
               }
             ]
@@ -10670,8 +10670,8 @@
               },
               {
                 "title": "Zero Trust Access Controls",
-                "url": "https://www.youtube.com/watch?v=oyciotF-qGA",
-                "channel": "Google Cloud"
+                "url": "https://www.youtube.com/watch?v=wjlGvqocTAU",
+                "channel": "Google Cloud / Priyanka Vergadia"
               }
             ]
           },
@@ -10681,12 +10681,12 @@
             "videos": [
               {
                 "title": "Identity & Access Management (SC-100)",
-                "url": "https://www.youtube.com/watch?v=cgXJWaixzbg",
+                "url": "https://www.youtube.com/watch?v=qaZWKpdzl9c",
                 "channel": "Microsoft Learn"
               },
               {
                 "title": "Illustrated Guide to OAuth & OpenID Connect",
-                "url": "https://www.youtube.com/watch?v=HHXPEWvfFwk",
+                "url": "https://www.youtube.com/watch?v=t18YB3xDfXI",
                 "channel": "OktaDev"
               }
             ]
@@ -10703,7 +10703,7 @@
             "videos": [
               {
                 "title": "Threat Modeling (SC-100)",
-                "url": "https://www.youtube.com/watch?v=uHotwi6myog",
+                "url": "https://www.youtube.com/watch?v=O-hx2cZ2_EE",
                 "channel": "Microsoft Learn"
               },
               {
@@ -10719,12 +10719,12 @@
             "videos": [
               {
                 "title": "Introduction to AWS Security",
-                "url": "https://www.youtube.com/watch?v=GSIDS_lvRv4",
+                "url": "https://www.youtube.com/watch?v=ItZJF527UxA",
                 "channel": "AWS Events"
               },
               {
                 "title": "IAM Best Practices",
-                "url": "https://www.youtube.com/watch?v=_PkruK8vOt0",
+                "url": "https://www.youtube.com/watch?v=SGntDzEn30s",
                 "channel": "AWS re:Invent"
               }
             ]
@@ -10741,7 +10741,7 @@
             "videos": [
               {
                 "title": "Burp Suite + PortSwigger Juice Shop",
-                "url": "https://www.youtube.com/watch?v=n6kP-CWO_0Q",
+                "url": "https://www.youtube.com/watch?v=FPzoD_nUQYU",
                 "channel": "CryptoCat"
               },
               {
@@ -10762,7 +10762,7 @@
               },
               {
                 "title": "Incident Response Hands-On",
-                "url": "https://www.youtube.com/watch?v=F1JYRchNmdo",
+                "url": "https://www.youtube.com/watch?v=HdeCiMh97g0",
                 "channel": "Microsoft Sentinel"
               }
             ]
@@ -10808,7 +10808,7 @@
               },
               {
                 "title": "BCG Matrix: Analyze a Product Portfolio",
-                "url": "https://www.youtube.com/watch?v=MDC5NxG_9bU",
+                "url": "https://www.youtube.com/watch?v=gNR49lk5dS0",
                 "channel": ""
               }
             ]
@@ -10935,12 +10935,12 @@
             "videos": [
               {
                 "title": "Milken Institute",
-                "url": "https://www.youtube.com/watch?v=BPYOsDCZbno",
+                "url": "https://www.youtube.com/watch?v=K3VmeqRz7wA",
                 "channel": "Playing to Win: How Strategy Really Works"
               },
               {
                 "title": "John Doerr / TED",
-                "url": "https://www.youtube.com/watch?v=UezTglxJC88",
+                "url": "https://www.youtube.com/watch?v=L4N1q4RNi9I",
                 "channel": "Set the Right Goals with OKRs"
               }
             ]
@@ -10951,12 +10951,12 @@
             "videos": [
               {
                 "title": "Renee St Jacques / TED",
-                "url": "https://www.youtube.com/watch?v=Jlm4oqW41vY",
+                "url": "https://www.youtube.com/watch?v=OAIlucguNzY",
                 "channel": "How to Give Feedback That Lands"
               },
               {
                 "title": "Google",
-                "url": "https://www.youtube.com/watch?v=zoS5Fx2Ou1Y",
+                "url": "https://www.youtube.com/watch?v=YOPwNGIzE8E",
                 "channel": "Support Your Team to Success as a Manager"
               }
             ]
@@ -10973,12 +10973,12 @@
             "videos": [
               {
                 "title": "Google",
-                "url": "https://www.youtube.com/watch?v=XFsFDGKZHh4",
+                "url": "https://www.youtube.com/watch?v=YbEXroVA8Uc",
                 "channel": "Develop People Through Coaching"
               },
               {
                 "title": "Google",
-                "url": "https://www.youtube.com/watch?v=Dk88zv1KYMI",
+                "url": "https://www.youtube.com/watch?v=Db8YqY_2q2A",
                 "channel": "Create a Learning Culture on Your Team"
               }
             ]
@@ -10989,12 +10989,12 @@
             "videos": [
               {
                 "title": "Atlassian",
-                "url": "https://www.youtube.com/watch?v=W3hKjXg7fXM",
+                "url": "https://www.youtube.com/watch?v=qd1_EQXZoh4",
                 "channel": "Jira Plans: Dependency Tracking"
               },
               {
                 "title": "Google",
-                "url": "https://www.youtube.com/watch?v=nra0Tt3a-Oc",
+                "url": "https://www.youtube.com/watch?v=-DptKt3b0l0",
                 "channel": "Set Clear Goals as a Manager"
               }
             ]
@@ -11011,12 +11011,12 @@
             "videos": [
               {
                 "title": "Stanford GSB",
-                "url": "https://www.youtube.com/watch?v=c8_hnLSXSCs",
+                "url": "https://www.youtube.com/watch?v=-rU2EX8GMuU",
                 "channel": "Turning Data Into a Superpower"
               },
               {
                 "title": "Microsoft",
-                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
+                "url": "https://www.youtube.com/watch?v=3yJYmQhj87A",
                 "channel": "How Leaders Can Drive AI Transformation"
               }
             ]
@@ -11027,12 +11027,12 @@
             "videos": [
               {
                 "title": "Stanford GSB",
-                "url": "https://www.youtube.com/watch?v=uhJJgc-0iTQ",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
                 "channel": "Think Fast, Talk Smart"
               },
               {
                 "title": "Sylvia Ann Hewlett / Talks at Google",
-                "url": "https://www.youtube.com/watch?v=a54xH6nT4Sw",
+                "url": "https://www.youtube.com/watch?v=i2QOAfWLedE",
                 "channel": "Executive Presence"
               }
             ]
@@ -11390,7 +11390,7 @@
               },
               {
                 "title": "GitHub Actions CI/CD + Docker",
-                "url": "https://www.youtube.com/watch?v=UbtB4sMaaNM",
+                "url": "https://www.youtube.com/watch?v=R8_veQiYBjI",
                 "channel": "TechWorld with Nana"
               }
             ]
@@ -12056,7 +12056,7 @@
               },
               {
                 "title": "AI/BI Genie: Complex Analytics Demo",
-                "url": "https://www.youtube.com/watch?v=AtM1kcHtD9w",
+                "url": "https://www.youtube.com/watch?v=6W3BnCgoYVA",
                 "channel": "Databricks"
               }
             ]
@@ -12210,7 +12210,7 @@
               },
               {
                 "title": "Building a Psychologically Safe Workplace",
-                "url": "https://www.youtube.com/watch?v=OAIlucguNzY",
+                "url": "https://www.youtube.com/watch?v=LhoLuui9gX8",
                 "channel": "Amy Edmondson"
               }
             ]
@@ -12266,7 +12266,7 @@
               },
               {
                 "title": "How to Talk to Users",
-                "url": "https://www.youtube.com/watch?v=1mI1GneSCtE",
+                "url": "https://www.youtube.com/watch?v=z1iF1c8w5Lg",
                 "channel": "Y Combinator"
               }
             ]
@@ -12304,7 +12304,7 @@
               },
               {
                 "title": "Intrinsic & DCF Valuation",
-                "url": "https://www.youtube.com/watch?v=HY0AdM_PxHA",
+                "url": "https://www.youtube.com/watch?v=veSXjIzTa3c",
                 "channel": "Aswath Damodaran"
               }
             ]
@@ -12320,7 +12320,7 @@
               },
               {
                 "title": "Reshaping Enterprise Operations with Agentic AI",
-                "url": "https://www.youtube.com/watch?v=P7XseLlcPSU",
+                "url": "https://www.youtube.com/watch?v=Ud9no3OLKfA",
                 "channel": "BCG"
               }
             ]
@@ -12358,7 +12358,7 @@
               },
               {
                 "title": "Think Fast, Talk Smart",
-                "url": "https://www.youtube.com/watch?v=elMPIxLYtoc",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
                 "channel": "Stanford GSB"
               }
             ]
@@ -17171,7 +17171,7 @@
             "videos": [
               {
                 "title": "When AI Agents Join the Platform (60m)",
-                "url": "https://www.youtube.com/watch?v=_wKUEOeAnFI",
+                "url": "https://www.youtube.com/watch?v=GVN7G-wFf3Q",
                 "channel": "MIT Sloan"
               },
               {
@@ -17308,7 +17308,7 @@
               },
               {
                 "title": "Disciplined Entrepreneurship with Bill Aulet (~1h)",
-                "url": "https://www.youtube.com/watch?v=CBYhVcO4WgI",
+                "url": "https://www.youtube.com/watch?v=GtWexnfPhKk",
                 "channel": "MIT Sloan"
               }
             ]
@@ -17362,7 +17362,7 @@
               },
               {
                 "title": "Legal & Accounting Basics for Startups (full lecture)",
-                "url": "https://www.youtube.com/watch?v=0JBOSmRo8js",
+                "url": "https://www.youtube.com/watch?v=EHzvmyMJEK4",
                 "channel": "Stanford / YC"
               }
             ]
@@ -17400,7 +17400,7 @@
               },
               {
                 "title": "Builder Bootcamp: Production & Optimization (recording)",
-                "url": "https://www.youtube.com/watch?v=PB64IQrkID8",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1",
                 "channel": "OpenAI Academy"
               }
             ]
@@ -17440,7 +17440,7 @@
               },
               {
                 "title": "Competition Is for Losers, Peter Thiel (full lecture)",
-                "url": "https://www.youtube.com/watch?v=YWZr4lr1jR0",
+                "url": "https://www.youtube.com/watch?v=5_0dVHMpJlo",
                 "channel": "YC / Stanford"
               }
             ]
@@ -17494,7 +17494,7 @@
               },
               {
                 "title": "Activator Labs 101: Foundations (recording)",
-                "url": "https://www.youtube.com/watch?v=w19IBxDu2Y4",
+                "url": "https://www.youtube.com/watch?v=4UTn7oWvSJc",
                 "channel": "OpenAI Academy"
               }
             ]
@@ -17516,7 +17516,7 @@
               },
               {
                 "title": "Culture with Brian Chesky & Alfred Lin (full lecture)",
-                "url": "https://www.youtube.com/watch?v=j7tr3IlH5Ro",
+                "url": "https://www.youtube.com/watch?v=RfWgVWGEuGE",
                 "channel": "Stanford / YC"
               }
             ]
@@ -17532,7 +17532,7 @@
               },
               {
                 "title": "How to Build AI Agents (production-focused video)",
-                "url": "https://www.youtube.com/watch?v=PB64IQrkID8",
+                "url": "https://academy.openai.com/public/clubs/india-gkubq/videos/how-to-build-ai-agents-2025-06-04",
                 "channel": "OpenAI Academy"
               }
             ]
@@ -17780,7 +17780,7 @@
               },
               {
                 "title": "Valuation in Four Lessons (1h+)",
-                "url": "https://www.youtube.com/watch?v=p0Bx6UtherQ",
+                "url": "https://www.youtube.com/watch?v=Z5chrxMuBoo",
                 "channel": "Aswath Damodaran / Talks at Google"
               }
             ]
@@ -18176,8 +18176,8 @@
               },
               {
                 "title": "Building Agents with Model Context Protocol: Full Workshop (1h+)",
-                "url": "https://www.youtube.com/watch?v=bloFZGpcdgg",
-                "channel": "Anthropic"
+                "url": "https://www.youtube.com/watch?v=kQmXtrmQ5Zg",
+                "channel": "Anthropic / AI Engineer"
               }
             ]
           },
@@ -18248,7 +18248,7 @@
               },
               {
                 "title": "Learning Video Library: How to Turn Data into Stories",
-                "url": "https://www.youtube.com/watch?v=vHYeChEf2lA",
+                "url": "https://www.youtube.com/watch?v=Hfx1X9WSGYQ",
                 "channel": "Storytelling with Data"
               }
             ]
@@ -18270,8 +18270,8 @@
               },
               {
                 "title": "Building Agents with Model Context Protocol: Full Workshop (1h+)",
-                "url": "https://www.youtube.com/watch?v=DNyEt15VPNw",
-                "channel": "Anthropic"
+                "url": "https://www.youtube.com/watch?v=kQmXtrmQ5Zg",
+                "channel": "Anthropic / AI Engineer"
               }
             ]
           },
@@ -18324,7 +18324,7 @@
               },
               {
                 "title": "Build Hour: AgentKit (~46m)",
-                "url": "https://www.youtube.com/watch?v=LzMiAXDkLwY",
+                "url": "https://www.youtube.com/watch?v=sAitLFLbgDA",
                 "channel": "OpenAI"
               }
             ]
@@ -21296,7 +21296,7 @@
               },
               {
                 "title": "What Is a Prompt Injection Attack?",
-                "url": "https://www.youtube.com/watch?v=6_BcCthVvb8",
+                "url": "https://www.youtube.com/watch?v=jrHRe9lSqqA",
                 "channel": "IBM"
               }
             ]
@@ -21318,8 +21318,8 @@
               },
               {
                 "title": "Evaluating LLMs",
-                "url": "https://www.youtube.com/watch?v=wd7TZ4w1mSw",
-                "channel": "Hamel Husain"
+                "url": "https://www.youtube.com/watch?v=uiza7wp1KrE",
+                "channel": "Hamel Husain / Peter Yang"
               }
             ]
           },
@@ -21334,7 +21334,7 @@
               },
               {
                 "title": "Model Context Protocol (MCP)",
-                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
+                "url": "https://www.youtube.com/watch?v=CQywdSdi5iA",
                 "channel": "Anthropic"
               }
             ]
@@ -21372,7 +21372,7 @@
               },
               {
                 "title": "What Is a Prompt Injection Attack?",
-                "url": "https://www.youtube.com/watch?v=DwFVhFdD2fs",
+                "url": "https://www.youtube.com/watch?v=jrHRe9lSqqA",
                 "channel": "IBM"
               }
             ]
@@ -21423,8 +21423,8 @@
             "videos": [
               {
                 "title": "Project Lifecycle Reviews",
-                "url": "https://www.youtube.com/watch?v=fbUStXvPTZE",
-                "channel": "NASA"
+                "url": "https://www.youtube.com/watch?v=kittbOWXuP0",
+                "channel": "NASA / Saylor Academy"
               },
               {
                 "title": "Think Fast, Talk Smart",
@@ -21466,7 +21466,7 @@
               },
               {
                 "title": "Generative AI Governance",
-                "url": "https://www.youtube.com/watch?v=_NWff8vVXFU",
+                "url": "https://www.youtube.com/watch?v=odrD0OLPeiY",
                 "channel": "IBM"
               }
             ]
@@ -21504,7 +21504,7 @@
               },
               {
                 "title": "Think Fast, Talk Smart",
-                "url": "https://www.youtube.com/watch?v=zYe2fG8m4Ow",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
                 "channel": "Stanford GSB"
               }
             ]
@@ -21593,7 +21593,7 @@
             "videos": [
               {
                 "title": "Practical Evaluation Systems",
-                "url": "https://www.youtube.com/watch?v=DwFVhFdD2fs",
+                "url": "https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-building-practical-evaluation-systems-2025-12-11",
                 "channel": "OpenAI Academy"
               },
               {
@@ -21620,8 +21620,8 @@
               },
               {
                 "title": "Managing AI Risks Across Lifecycle",
-                "url": "https://www.youtube.com/watch?v=_NWff8vVXFU",
-                "channel": "NIST"
+                "url": "https://www.youtube.com/watch?v=0oeD2Wf25wY",
+                "channel": "IBM Technology"
               }
             ]
           },
@@ -21636,7 +21636,7 @@
               },
               {
                 "title": "Think Fast, Talk Smart",
-                "url": "https://www.youtube.com/watch?v=rL1vMr1euG8",
+                "url": "https://www.youtube.com/watch?v=HAnw168huqA",
                 "channel": "Stanford GSB"
               }
             ]
@@ -21819,12 +21819,12 @@
             "videos": [
               {
                 "title": "Codex Bootcamp 101: Agentic Coding",
-                "url": "https://www.youtube.com/watch?v=IlqJqcl8ONE",
-                "channel": "OpenAI"
+                "url": "https://www.youtube.com/watch?v=u-Jl7bzab8A",
+                "channel": "freeCodeCamp"
               },
               {
                 "title": "Claude Code: Foundations",
-                "url": "https://www.youtube.com/watch?v=kF2WQgk1LtY",
+                "url": "https://www.youtube.com/watch?v=6eBSHbLKuN0",
                 "channel": "Anthropic"
               }
             ]
@@ -21846,7 +21846,7 @@
               },
               {
                 "title": "Build Your Idea (Hands-On)",
-                "url": "https://www.youtube.com/watch?v=EPyyyB23NUU",
+                "url": "https://www.youtube.com/watch?v=RkXotIEM5QQ",
                 "channel": "Replit"
               }
             ]
@@ -21857,7 +21857,7 @@
             "videos": [
               {
                 "title": "Claude Code in an Hour",
-                "url": "https://www.youtube.com/watch?v=OXOypK7_90c",
+                "url": "https://www.youtube.com/watch?v=6eBSHbLKuN0",
                 "channel": "Anthropic"
               },
               {
@@ -21900,7 +21900,7 @@
               },
               {
                 "title": "Codex Bootcamp 301: Automation",
-                "url": "https://www.youtube.com/watch?v=EPyyyB23NUU",
+                "url": "https://academy.openai.com/public/videos/codex-bootcamp-301-advanced-automation-2026-08-13",
                 "channel": "OpenAI"
               }
             ]
@@ -22088,8 +22088,8 @@
               },
               {
                 "title": "Data-Intensive Applications",
-                "url": "https://www.youtube.com/watch?v=tUFha9-DuSk",
-                "channel": "Martin Kleppmann"
+                "url": "https://www.youtube.com/watch?v=SVOrURyOu_U",
+                "channel": "Martin Kleppmann / The Pragmatic Engineer"
               }
             ]
           }
@@ -22143,7 +22143,7 @@
             "videos": [
               {
                 "title": "Testing at Scale",
-                "url": "https://www.youtube.com/watch?v=OJySfiMKXLs",
+                "url": "https://www.youtube.com/watch?v=tWJN2DVBmfA",
                 "channel": "Beyond Coding"
               },
               {
@@ -22159,12 +22159,12 @@
             "videos": [
               {
                 "title": "Incident Management / SRE",
-                "url": "https://www.youtube.com/watch?v=X2jc4qalNy0",
-                "channel": "Google Cloud"
+                "url": "https://www.youtube.com/watch?v=NUmOZ3nnS7I",
+                "channel": "Google SRE book explained"
               },
               {
                 "title": "CI/CD + Docker",
-                "url": "https://www.youtube.com/watch?v=n4y9dwinPBQ",
+                "url": "https://www.youtube.com/watch?v=R8_veQiYBjI",
                 "channel": "TechWorld with Nana"
               }
             ]
@@ -22291,7 +22291,7 @@
             "videos": [
               {
                 "title": "GitHub Actions + Docker",
-                "url": "https://www.youtube.com/watch?v=UbtB4sMaaNM",
+                "url": "https://www.youtube.com/watch?v=R8_veQiYBjI",
                 "channel": "TechWorld with Nana"
               },
               {
@@ -22429,7 +22429,7 @@
             "videos": [
               {
                 "title": "GitHub Actions + Docker",
-                "url": "https://www.youtube.com/watch?v=UbtB4sMaaNM",
+                "url": "https://www.youtube.com/watch?v=R8_veQiYBjI",
                 "channel": "TechWorld with Nana"
               },
               {
@@ -22523,7 +22523,7 @@
             "videos": [
               {
                 "title": "Git & GitHub Crash Course",
-                "url": "https://www.youtube.com/watch?v=Wgp1a1XRq3I",
+                "url": "https://www.youtube.com/watch?v=mAFoROnOfHs",
                 "channel": "freeCodeCamp"
               },
               {
@@ -22545,12 +22545,12 @@
             "videos": [
               {
                 "title": "GitHub Actions + Docker",
-                "url": "https://www.youtube.com/watch?v=UbtB4sMaaNM",
+                "url": "https://www.youtube.com/watch?v=R8_veQiYBjI",
                 "channel": "TechWorld with Nana"
               },
               {
                 "title": "Playwright End-to-End Testing",
-                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "url": "https://www.youtube.com/watch?v=4-LwodVujTg",
                 "channel": "Microsoft"
               }
             ]
@@ -22561,12 +22561,12 @@
             "videos": [
               {
                 "title": "Understanding Core Web Vitals",
-                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
+                "url": "https://www.youtube.com/watch?v=F0NYT7DIlDQ",
                 "channel": "Chrome"
               },
               {
                 "title": "Getting Started with SLOs",
-                "url": "https://www.youtube.com/watch?v=BHqxD9qr6Gw",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
                 "channel": "Google Cloud"
               }
             ]
@@ -22698,7 +22698,7 @@
               },
               {
                 "title": "GitHub Actions + Docker",
-                "url": "https://www.youtube.com/watch?v=UbtB4sMaaNM",
+                "url": "https://www.youtube.com/watch?v=R8_veQiYBjI",
                 "channel": "TechWorld with Nana"
               }
             ]
@@ -24536,7 +24536,7 @@
               },
               {
                 "title": "OpenTelemetry: What It Is + How It Works",
-                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
+                "url": "https://www.youtube.com/watch?v=l8xiNOCIdLY",
                 "channel": "CNCF"
               }
             ]
@@ -24851,12 +24851,12 @@
             "videos": [
               {
                 "title": "Kubernetes 101",
-                "url": "https://www.youtube.com/watch?v=jtjEWlGkwjQ",
+                "url": "https://www.youtube.com/watch?v=wymoY6Z_uCs",
                 "channel": "CNCF"
               },
               {
                 "title": "GitOps with Argo",
-                "url": "https://www.youtube.com/watch?v=0sfKGUZ6kcg",
+                "url": "https://www.youtube.com/watch?v=SELZh-wHpAw",
                 "channel": "CNCF"
               }
             ]
@@ -24889,12 +24889,12 @@
             "videos": [
               {
                 "title": "Backstage",
-                "url": "https://www.youtube.com/watch?v=YcJ9IeukJL8",
+                "url": "https://www.youtube.com/watch?v=gJHYTlO0VwA",
                 "channel": "CNCF / Spotify"
               },
               {
                 "title": "Backstage + Crossplane + ArgoCD",
-                "url": "https://www.youtube.com/watch?v=v4wJE3I8BYM",
+                "url": "https://www.youtube.com/watch?v=20ZYhXpwJtY",
                 "channel": ""
               }
             ]
@@ -24943,12 +24943,12 @@
             "videos": [
               {
                 "title": "Backstage to Business Value",
-                "url": "https://www.youtube.com/watch?v=0XwwCp1NQyQ",
+                "url": "https://www.youtube.com/watch?v=85TQEpNCaU0",
                 "channel": ""
               },
               {
                 "title": "Future of Platform Engineering",
-                "url": "https://www.youtube.com/watch?v=Oyd65CVm16w",
+                "url": "https://www.youtube.com/watch?v=Xsd02ebVv4w",
                 "channel": ""
               }
             ]
@@ -25032,7 +25032,7 @@
               },
               {
                 "title": "SLOs",
-                "url": "https://www.youtube.com/watch?v=_2th8LDnvQk",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
                 "channel": "Google Cloud"
               }
             ]
@@ -25043,7 +25043,7 @@
             "videos": [
               {
                 "title": "KServe GenAI Inference",
-                "url": "https://www.youtube.com/watch?v=n4y9dwinPBQ",
+                "url": "https://www.youtube.com/watch?v=kE6lNBA56vM",
                 "channel": "CNCF"
               },
               {
@@ -25065,8 +25065,8 @@
             "videos": [
               {
                 "title": "Incident Management",
-                "url": "https://www.youtube.com/watch?v=cQP8WApzIQQ",
-                "channel": "Google Cloud"
+                "url": "https://www.youtube.com/watch?v=NUmOZ3nnS7I",
+                "channel": "Google SRE book explained"
               },
               {
                 "title": "Distributed Inference 101",
@@ -25180,7 +25180,7 @@
               },
               {
                 "title": "SLOs",
-                "url": "https://www.youtube.com/watch?v=_2th8LDnvQk",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
                 "channel": "Google Cloud"
               }
             ]
@@ -25258,7 +25258,7 @@
               },
               {
                 "title": "Use Case Discovery & System Scoping",
-                "url": "https://www.youtube.com/watch?v=Pkh0dqLCsrs",
+                "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
                 "channel": "OpenAI Academy"
               }
             ]
@@ -25312,7 +25312,7 @@
               },
               {
                 "title": "Token Economics + New Job of FinOps",
-                "url": "https://www.youtube.com/watch?v=9tvJ_GYJA-o",
+                "url": "https://www.youtube.com/watch?v=W4g8xvduIbs",
                 "channel": "FinOps X 2026"
               }
             ]
@@ -25350,7 +25350,7 @@
               },
               {
                 "title": "Successful Enterprise AI Adoption",
-                "url": "https://www.youtube.com/watch?v=a54xH6nT4Sw",
+                "url": "https://www.youtube.com/watch?v=gjEHaZzHWnM",
                 "channel": "NDC"
               }
             ]
@@ -25390,7 +25390,7 @@
               },
               {
                 "title": "Value Proposition Canvas Webinar",
-                "url": "https://www.youtube.com/watch?v=MT4Ig2uqjTc",
+                "url": "https://www.youtube.com/watch?v=r0mtUQnny94",
                 "channel": "Strategyzer"
               }
             ]
@@ -25522,7 +25522,7 @@
               },
               {
                 "title": "Invest Northern Ireland",
-                "url": "https://www.youtube.com/watch?v=7TglVxNgbKQ",
+                "url": "https://www.youtube.com/watch?v=xmiPJq9PR6c",
                 "channel": "Sales & Operational Planning"
               }
             ]
@@ -25533,12 +25533,12 @@
             "videos": [
               {
                 "title": "Introduction to Linear Programming",
-                "url": "https://www.youtube.com/watch?v=nmv2FSTP470",
+                "url": "https://www.youtube.com/watch?v=qKNkP6IfjvY",
                 "channel": "MIT OCW"
               },
               {
                 "title": "Monte Carlo Simulation",
-                "url": "https://www.youtube.com/watch?v=nmv2FSTP470",
+                "url": "https://www.youtube.com/watch?v=OgO1gpXSUzU",
                 "channel": "MIT OCW"
               }
             ]
@@ -25560,7 +25560,7 @@
               },
               {
                 "title": "Advanced Supply Chain Systems Planning",
-                "url": "https://www.youtube.com/watch?v=TyFMsx9PVeM",
+                "url": "https://www.youtube.com/watch?v=OAr341BlZUA",
                 "channel": "MIT CTL"
               }
             ]
@@ -25614,7 +25614,7 @@
               },
               {
                 "title": "OR-Tools Decision Workflows & Scenario Testing",
-                "url": "https://www.youtube.com/watch?v=Hfx1X9WSGYQ",
+                "url": "https://www.youtube.com/watch?v=mO0-SZWC0dw",
                 "channel": "Nextmv"
               }
             ]
@@ -25725,7 +25725,7 @@
             "videos": [
               {
                 "title": "Reinventing Retail with AI",
-                "url": "https://www.youtube.com/watch?v=_WuE80AbxjE",
+                "url": "https://www.youtube.com/watch?v=j8rF_eTfn0I",
                 "channel": "Google Cloud"
               },
               {
@@ -25746,7 +25746,7 @@
               },
               {
                 "title": "Building the Agentic Enterprise",
-                "url": "https://www.youtube.com/watch?v=yDLErwgajOQ",
+                "url": "https://www.youtube.com/watch?v=lsqPct4NnNs",
                 "channel": "Google Cloud"
               }
             ]
@@ -25781,7 +25781,7 @@
             "videos": [
               {
                 "title": "Use Case Discovery & System Scoping",
-                "url": "https://www.youtube.com/watch?v=MT4Ig2uqjTc",
+                "url": "https://academy.openai.com/en/public/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11",
                 "channel": "OpenAI Academy"
               },
               {
@@ -25857,12 +25857,12 @@
             "videos": [
               {
                 "title": "Introduction to FOCUS",
-                "url": "https://www.youtube.com/watch?v=k204wIknczU",
+                "url": "https://www.youtube.com/watch?v=dnU3ZedDys4",
                 "channel": "FinOps Foundation"
               },
               {
                 "title": "HubSpot",
-                "url": "https://www.youtube.com/watch?v=W4g8xvduIbs",
+                "url": "https://www.youtube.com/watch?v=k204wIknczU",
                 "channel": "RevOps: Science of Revenue Growth"
               }
             ]
@@ -26142,7 +26142,7 @@
               },
               {
                 "title": "Augmenting Finance With AI",
-                "url": "https://www.youtube.com/watch?v=wP7Ei_EpVB0",
+                "url": "https://www.youtube.com/watch?v=QrTR8uRCosI",
                 "channel": "FP&A Trends"
               }
             ]
@@ -26198,7 +26198,7 @@
               },
               {
                 "title": "Troubleshooting & Testing (43m)",
-                "url": "https://www.youtube.com/watch?v=UezTglxJC88",
+                "url": "https://www.youtube.com/watch?v=D65SlCSoS-0",
                 "channel": "FSDL"
               }
             ]
@@ -26220,7 +26220,7 @@
               },
               {
                 "title": "Data Management (35m)",
-                "url": "https://www.youtube.com/watch?v=Pkh0dqLCsrs",
+                "url": "https://www.youtube.com/watch?v=Jlm4oqW41vY",
                 "channel": "FSDL"
               }
             ]
@@ -26253,7 +26253,7 @@
             "videos": [
               {
                 "title": "KServe Model Serving Deep Dive (28m)",
-                "url": "https://www.youtube.com/watch?v=W3hKjXg7fXM",
+                "url": "https://www.youtube.com/watch?v=FX6naJLaq2Y",
                 "channel": "CNCF"
               },
               {
@@ -26622,7 +26622,7 @@
               },
               {
                 "title": "Model Deployment & Inferencing with Azure ML",
-                "url": "https://www.youtube.com/watch?v=kHN3SpA23BY",
+                "url": "https://www.youtube.com/watch?v=WZ7vS10KPAw",
                 "channel": "Microsoft"
               }
             ]
@@ -26638,7 +26638,7 @@
               },
               {
                 "title": "KServe Next: Scaling Generative AI Inference",
-                "url": "https://www.youtube.com/watch?v=5sseTrdHjaw",
+                "url": "https://www.youtube.com/watch?v=vbRpeUDN4TQ",
                 "channel": "CNCF"
               }
             ]

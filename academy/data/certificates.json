@@ -207,7 +207,7 @@
         "courses": [
           {
             "title": "Causal Inference, Forecasting & Decision Science",
-            "url": "https://www.youtube.com/watch?v=4jRBRDbJemM"
+            "url": "https://www.youtube.com/watch?v=CfzO4IEMVUk"
           }
         ],
         "bridges": [
@@ -308,7 +308,7 @@
           },
           {
             "title": "Causal Inference, Forecasting & Decision Science",
-            "url": "https://www.youtube.com/watch?v=4jRBRDbJemM"
+            "url": "https://www.youtube.com/watch?v=CfzO4IEMVUk"
           },
           {
             "title": "Data Storytelling & Visualization",
@@ -978,7 +978,7 @@
         "courses": [
           {
             "title": "Causal Inference, Forecasting & Decision Science",
-            "url": "https://www.youtube.com/watch?v=4jRBRDbJemM"
+            "url": "https://www.youtube.com/watch?v=CfzO4IEMVUk"
           },
           {
             "title": "Data Engineering",
@@ -2523,7 +2523,7 @@
           },
           {
             "title": "Measurement, QC + clinical chemistry",
-            "url": "https://www.youtube.com/watch?v=ayFiGn2fYi8"
+            "url": "https://www.youtube.com/watch?v=XO9o726KUlo"
           },
           {
             "title": "Hematology + immunology foundations",
@@ -2585,7 +2585,7 @@
           },
           {
             "title": "Integrated diagnostic correlation",
-            "url": "https://www.youtube.com/watch?v=ayFiGn2fYi8"
+            "url": "https://www.youtube.com/watch?v=yKWQ_oLSXI8"
           }
         ],
         "bridges": [
@@ -2679,7 +2679,7 @@
         "courses": [
           {
             "title": "Spark + distributed processing",
-            "url": "https://www.youtube.com/watch?v=MmvZY1gTAy4"
+            "url": "https://www.youtube.com/watch?v=VZ7EHLdrVo0"
           },
           {
             "title": "Streaming + event systems",
@@ -2710,11 +2710,11 @@
         "courses": [
           {
             "title": "Iceberg/open table formats + performance",
-            "url": "https://www.youtube.com/watch?v=tEylFyxbDLE"
+            "url": "https://www.youtube.com/watch?v=TsmhRZElPvM"
           },
           {
             "title": "Lineage, privacy + governance",
-            "url": "https://www.youtube.com/watch?v=gRE3E7VUzRU"
+            "url": "https://www.youtube.com/watch?v=uPsUjKLHLAg"
           },
           {
             "title": "AI-ready self-service data products",

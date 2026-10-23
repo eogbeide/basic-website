@@ -1271,7 +1271,7 @@
             "channel": "OpenAI",
             "time": "60 min selected",
             "why": "tool/function calling, hosted and custom tools, delegation and long- horizon agent execution. Explains the standard",
-            "url": "https://www.youtube.com/watch?v=CQywdSdi5iA"
+            "url": "https://www.youtube.com/watch?v=7E-qdsVEoB8"
           },
           {
             "title": "The Model Context Protocol (MCP)",
@@ -3104,7 +3104,7 @@
             "channel": "PI Planning in Agile & SAFe",
             "time": "",
             "why": "Apply Agile Product Development & Management through the adjacent capability: Agile Program Development & Management.",
-            "url": "https://www.youtube.com/watch?v=eQu5VsUqyZA"
+            "url": "https://www.youtube.com/watch?v=iEWlxUmpFmI"
           },
           {
             "title": "One-Hour Product Analytics Tutorial",
@@ -3168,7 +3168,7 @@
             "channel": "PI Planning in Agile & SAFe",
             "time": "5 min",
             "why": "Fast visual explanation of objectives, dependencies, capacity, risks and cross- team alignment.",
-            "url": "https://www.youtube.com/watch?v=eQu5VsUqyZA"
+            "url": "https://www.youtube.com/watch?v=iEWlxUmpFmI"
           },
           {
             "title": "Managing Dependencies in Jira Plans",
@@ -3251,7 +3251,7 @@
             "channel": "LangChain",
             "time": "30 min",
             "why": "demonstrates execution patterns such as routing, parallelization, orchestration and evaluator-optimizer loops. Connects architecture",
-            "url": "https://www.youtube.com/watch?v=7E-qdsVEoB8"
+            "url": "https://www.youtube.com/watch?v=aHCDrAbH_go"
           },
           {
             "title": "Build Hour: Agentic Tool Calling",
@@ -11361,7 +11361,7 @@
             "channel": "Richard Rumelt",
             "time": "25 min selected",
             "why": "Shows how market diagnosis becomes focused strategic choice rather than a list of goals.",
-            "url": "https://www.youtube.com/watch?v=oCW1-6Yrkto"
+            "url": "https://www.youtube.com/watch?v=UZrTl16hZdk"
           }
         ]
       },
@@ -11444,14 +11444,14 @@
             "channel": "Statsig",
             "time": "30 min selected",
             "why": "Connect investment decisions to measured outcomes, uncertainty and incremental value.",
-            "url": "https://www.youtube.com/watch?v=SIRGvRtPzZM"
+            "url": "https://www.youtube.com/watch?v=KBIhJCDyiic"
           },
           {
             "title": "How Strategy Really Works",
             "channel": "Roger Martin",
             "time": "20 min selected",
             "why": "Ground financial models in explicit strategic choices and testable assumptions.",
-            "url": "https://www.youtube.com/watch?v=L4N1q4RNi9I"
+            "url": "https://www.youtube.com/watch?v=trax_OMOPcU"
           }
         ]
       },
@@ -11527,14 +11527,14 @@
             "channel": "Scrum.org",
             "time": "20 min",
             "why": "A concise model for coordinating multiple teams and shared delivery.",
-            "url": "https://www.youtube.com/watch?v=uJF0Rpy0YuI"
+            "url": "https://www.youtube.com/watch?v=29M-rw6DWd8"
           },
           {
             "title": "Learn in 5 Minutes",
             "channel": "PI Planning in Agile & SAFe",
             "time": "5 min",
             "why": "Visualize objectives, dependencies, capacity and cross-team risks.",
-            "url": "https://www.youtube.com/watch?v=eQu5VsUqyZA"
+            "url": "https://www.youtube.com/watch?v=iEWlxUmpFmI"
           },
           {
             "title": "Managing Dependencies in Jira Plans",
@@ -11601,7 +11601,7 @@
     "hands_on": {
       "title": "Dependency & Risk Board",
       "channel": "Agile Program Planning",
-      "url": "https://www.youtube.com/watch?v=29M-rw6DWd8"
+      "url": "https://www.youtube.com/watch?v=Pg5Y3QrOs8U"
     },
     "page": 286
   },
@@ -11631,7 +11631,7 @@
             "channel": "IBM",
             "time": "8 min",
             "why": "Shows how operating-system and network fundamentals surface in production delivery and operations.",
-            "url": "https://www.youtube.com/watch?v=R8_veQiYBjI"
+            "url": "https://www.youtube.com/watch?v=UbtB4sMaaNM"
           }
         ]
       },
@@ -11707,14 +11707,14 @@
             "channel": "IBM",
             "time": "8 min",
             "why": "Fast end-to-end mental model for development, delivery and operations.",
-            "url": "https://www.youtube.com/watch?v=R8_veQiYBjI"
+            "url": "https://www.youtube.com/watch?v=UbtB4sMaaNM"
           },
           {
             "title": "GitHub Actions CI/CD + Docker",
             "channel": "TechWorld with Nana",
             "time": "45 min selected",
             "why": "Hands-on CI pipeline using tests, containers and deployment automation.",
-            "url": "https://www.youtube.com/watch?v=UbtB4sMaaNM"
+            "url": "https://www.youtube.com/watch?v=R8_veQiYBjI"
           },
           {
             "title": "DevSecOps in a CI/CD Pipeline",
@@ -11797,14 +11797,14 @@
             "channel": "IBM Technology",
             "time": "10 min",
             "why": "Clear mental model for decoupling producers and consumers with events.",
-            "url": "https://www.youtube.com/watch?v=UiIIqIGqAKs"
+            "url": "https://www.youtube.com/watch?v=o2HJCGcYwoU"
           },
           {
             "title": "4 Types of Event-Driven Architecture",
             "channel": "Confluent",
             "time": "9 min",
             "why": "Compares major event-driven patterns and when each is useful.",
-            "url": "https://www.youtube.com/watch?v=16d35un5a9Q"
+            "url": "https://www.youtube.com/watch?v=J-kKR3omk-g"
           },
           {
             "title": "Apache Kafka Fundamentals",
@@ -11894,7 +11894,7 @@
             "channel": "",
             "time": "25 min",
             "why": "Shows the architectural evolution from one server to resilient distributed services.",
-            "url": "https://www.youtube.com/watch?v=J_y2I09rj_I"
+            "url": "https://www.youtube.com/watch?v=EWS_CIxttVw"
           },
           {
             "title": "Cloud Cost Optimization Strategy Explained | FinOps",
@@ -12171,7 +12171,7 @@
             "channel": "StatQuest",
             "time": "15 min selected",
             "why": "Build evidence-updating intuition for uncertainty and decision analysis.",
-            "url": "https://www.youtube.com/watch?v=QUT1VHiLmmI"
+            "url": "https://www.youtube.com/watch?v=9wCnvr7Xw4E"
           }
         ]
       },
@@ -12344,14 +12344,14 @@
             "channel": "Great Learning",
             "time": "Medium",
             "why": "Connect Kaizen, quality, process mapping and structured problem solving.",
-            "url": "https://www.youtube.com/watch?v=s2HCrhNVfak"
+            "url": "https://www.youtube.com/watch?v=aYF1Tc0VoUA"
           },
           {
             "title": "Six Sigma Full Course",
             "channel": "Simplilearn",
             "time": "Long",
             "why": "Deep dive into DMAIC, measurement, analysis and control methods.",
-            "url": "https://www.youtube.com/watch?v=aYF1Tc0VoUA"
+            "url": "https://www.youtube.com/watch?v=KfFez57ay6E"
           }
         ]
       },
@@ -12441,7 +12441,7 @@
             "channel": "Matt Abrahams",
             "time": "18 min",
             "why": "High-density framework for structured communication under pressure.",
-            "url": "https://www.youtube.com/watch?v=-kHkWgjGD7U"
+            "url": "https://www.youtube.com/watch?v=HAnw168huqA"
           }
         ]
       },
@@ -12531,7 +12531,7 @@
             "channel": "Amy Edmondson",
             "time": "12 min selected",
             "why": "Foundation for facilitation, candor, learning and team-coaching environments.",
-            "url": "https://www.youtube.com/watch?v=rrkrvAUbU9Y"
+            "url": "https://www.youtube.com/watch?v=LhoLuui9gX8"
           }
         ]
       },
@@ -13593,7 +13593,7 @@
             "channel": "Crash Course Computer Science",
             "time": "~10 min",
             "why": "Build the digital-logic foundation behind compute hardware: gates, Boolean operations and how logic becomes useful circuits.",
-            "url": "https://www.youtube.com/watch?v=_Pqfjer8-O4"
+            "url": "https://www.youtube.com/watch?v=gI-qXk7XojA"
           },
           {
             "title": "The Central Processing Unit (CPU)",
@@ -13607,7 +13607,7 @@
             "channel": "Branch Education",
             "time": "~17 min",
             "why": "Connect semiconductor switches to logic gates, arithmetic and the physical construction of modern processors.",
-            "url": "https://www.youtube.com/watch?v=gI-qXk7XojA"
+            "url": "https://www.youtube.com/watch?v=_Pqfjer8-O4"
           }
         ]
       },
@@ -13929,7 +13929,7 @@
             "channel": "Roger Martin",
             "time": "",
             "why": "Frame monetization as a set of integrated strategic choices about where to play, how to win and the capabilities required.",
-            "url": "https://www.youtube.com/watch?v=L4N1q4RNi9I"
+            "url": "https://www.youtube.com/watch?v=trax_OMOPcU"
           }
         ]
       }
@@ -14611,7 +14611,7 @@
             "channel": "HubSpot",
             "time": "",
             "why": "Connect social content to audience journey, goals, audits and repeatable editorial planning.",
-            "url": "https://www.youtube.com/watch?v=40X4mNxHJkw"
+            "url": "https://www.youtube.com/watch?v=DSOfPEyeMNg"
           },
           {
             "title": "Starting Meta Ads in 2026? Follow These 5 Steps",
