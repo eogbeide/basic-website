@@ -680,7 +680,7 @@
               },
               {
                 "title": "TypeScript in 100 Seconds",
-                "url": "https://www.youtube.com/watch?v=UezTglxJC88",
+                "url": "https://www.youtube.com/watch?v=zQnBQ4tB3ZA",
                 "channel": "Fireship"
               }
             ]
@@ -691,12 +691,12 @@
             "videos": [
               {
                 "title": "Intro to Large Language Models",
-                "url": "https://www.youtube.com/watch?v=Jlm4oqW41vY",
+                "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
                 "channel": "Andrej Karpathy"
               },
               {
                 "title": "Context Engineering for AI Agents",
-                "url": "https://www.youtube.com/watch?v=zoS5Fx2Ou1Y",
+                "url": "https://www.youtube.com/watch?v=6_BcCthVvb8",
                 "channel": "LangChain"
               }
             ]
@@ -713,12 +713,12 @@
             "videos": [
               {
                 "title": "Advanced RAG Deep Dive",
-                "url": "https://www.youtube.com/watch?v=XFsFDGKZHh4",
+                "url": "https://www.youtube.com/watch?v=hfx7F7lObdg",
                 "channel": "Microsoft Reactor"
               },
               {
                 "title": "RAG From Scratch: Part 1",
-                "url": "https://www.youtube.com/watch?v=Dk88zv1KYMI",
+                "url": "https://www.youtube.com/watch?v=wd7TZ4w1mSw",
                 "channel": "LangChain"
               }
             ]
@@ -729,12 +729,12 @@
             "videos": [
               {
                 "title": "Build Hour: Agents SDK (2026)",
-                "url": "https://www.youtube.com/watch?v=W3hKjXg7fXM",
+                "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
                 "channel": "OpenAI"
               },
               {
                 "title": "The Model Context Protocol (MCP)",
-                "url": "https://www.youtube.com/watch?v=nra0Tt3a-Oc",
+                "url": "https://www.youtube.com/watch?v=CQywdSdi5iA",
                 "channel": "Anthropic"
               }
             ]
@@ -751,7 +751,7 @@
             "videos": [
               {
                 "title": "Instrumenting & Evaluating LLMs",
-                "url": "https://www.youtube.com/watch?v=c8_hnLSXSCs",
+                "url": "https://www.youtube.com/watch?v=SnbGD677_u0",
                 "channel": "Hamel Husain"
               },
               {
@@ -772,7 +772,7 @@
               },
               {
                 "title": "Getting Started with SLOs",
-                "url": "https://www.youtube.com/watch?v=a54xH6nT4Sw",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
                 "channel": "Google Cloud"
               }
             ]
@@ -1083,12 +1083,12 @@
             "videos": [
               {
                 "title": "Kubernetes 101 Workshop",
-                "url": "https://www.youtube.com/watch?v=QLucB04QiYg",
+                "url": "https://www.youtube.com/watch?v=wymoY6Z_uCs",
                 "channel": "CNCF"
               },
               {
                 "title": "Google Cloud",
-                "url": "https://www.youtube.com/watch?v=2j6kKALy7lE",
+                "url": "https://www.youtube.com/watch?v=RZLqsBXRSk8",
                 "channel": "Using Kubernetes with Compute Engine VMs"
               }
             ]
@@ -1099,12 +1099,12 @@
             "videos": [
               {
                 "title": "HashiCorp",
-                "url": "https://www.youtube.com/watch?v=9Woz9RFImKE",
+                "url": "https://www.youtube.com/watch?v=ZFLWA1kQ3ls",
                 "channel": "Introduction to Terraform"
               },
               {
                 "title": "CNCF",
-                "url": "https://www.youtube.com/watch?v=wzu8M9nlwsI",
+                "url": "https://www.youtube.com/watch?v=N8eJW0bTtzc",
                 "channel": "GitOps Continuous Delivery with Argo"
               }
             ]
@@ -1126,7 +1126,7 @@
               },
               {
                 "title": "CNCF",
-                "url": "https://www.youtube.com/watch?v=WcCMXzcOwlw",
+                "url": "https://www.youtube.com/watch?v=nu6bLhuvlWM",
                 "channel": "GPUs on Kubernetes: What Actually Happens"
               }
             ]
@@ -1137,12 +1137,12 @@
             "videos": [
               {
                 "title": "Microsoft",
-                "url": "https://www.youtube.com/watch?v=kHN3SpA23BY",
+                "url": "https://www.youtube.com/watch?v=WZ7vS10KPAw",
                 "channel": "Model Deployment & Inferencing with Azure ML"
               },
               {
                 "title": "CNCF",
-                "url": "https://www.youtube.com/watch?v=5sseTrdHjaw",
+                "url": "https://www.youtube.com/watch?v=vbRpeUDN4TQ",
                 "channel": "KServe Next: Scaling Generative AI Inference"
               }
             ]
@@ -1175,7 +1175,7 @@
             "videos": [
               {
                 "title": "Alerting with Service Level Objectives",
-                "url": "https://www.youtube.com/watch?v=uQAnXzCSPbI",
+                "url": "https://www.youtube.com/watch?v=_2th8LDnvQk",
                 "channel": "USENIX / Google"
               },
               {
@@ -2100,7 +2100,7 @@
               },
               {
                 "title": "Lineage System Table in Unity Catalog",
-                "url": "https://www.youtube.com/watch?v=chaYl3dRfTY",
+                "url": "https://www.youtube.com/watch?v=bZXswjZ0avA",
                 "channel": "Databricks"
               }
             ]
@@ -2111,7 +2111,7 @@
             "videos": [
               {
                 "title": "Build an LLM Data Analysis...",
-                "url": "https://www.youtube.com/watch?v=7fqTqjNFrGw",
+                "url": "https://www.youtube.com/watch?v=chaYl3dRfTY",
                 "channel": "Snowflake Developers"
               },
               {
@@ -2597,7 +2597,7 @@
             "videos": [
               {
                 "title": "Terraform + Labs (1h54)",
-                "url": "https://www.youtube.com/watch?v=W_4n27sRluY",
+                "url": "https://www.youtube.com/watch?v=YcJ9IeukJL8",
                 "channel": "KodeKloud"
               },
               {
@@ -3845,7 +3845,7 @@
             "videos": [
               {
                 "title": "Building Gigawatt-Scale AI Factories With Digit...",
-                "url": "https://www.youtube.com/watch?v=DPVFqvkIo5M",
+                "url": "https://www.youtube.com/watch?v=TRc0z_qcze0",
                 "channel": "NVIDIA"
               },
               {
@@ -4319,7 +4319,7 @@
             "videos": [
               {
                 "title": "Machine Learning with Python & Sci...",
-                "url": "https://www.youtube.com/watch?v=_WuE80AbxjE",
+                "url": "https://www.youtube.com/watch?v=hDKCxebp88A",
                 "channel": "freeCodeCamp"
               },
               {
@@ -4885,7 +4885,7 @@
             "videos": [
               {
                 "title": "Build Hour: Agentic Tool Calling",
-                "url": "https://www.youtube.com/watch?v=VuLJr6YRmU4",
+                "url": "https://www.youtube.com/watch?v=7E-qdsVEoB8",
                 "channel": "OpenAI"
               },
               {
@@ -4901,7 +4901,7 @@
             "videos": [
               {
                 "title": "Copilot Day 2026: Real Workflows + Live...",
-                "url": "https://www.youtube.com/watch?v=UbrPNvaHxCE",
+                "url": "https://www.youtube.com/watch?v=0kOXsQUNzss",
                 "channel": "GitHub"
               },
               {
@@ -5106,7 +5106,7 @@
               },
               {
                 "title": "Ahrefs",
-                "url": "https://www.youtube.com/watch?v=SiUKVbTaI_I",
+                "url": "https://www.youtube.com/watch?v=q0Ujy3EN0lk",
                 "channel": "SEO Copywriting Tutorial: Start to Finish"
               }
             ]
@@ -5123,7 +5123,7 @@
             "videos": [
               {
                 "title": "Ahrefs",
-                "url": "https://www.youtube.com/watch?v=CF7MCoXT-Ks",
+                "url": "https://www.youtube.com/watch?v=xsVTqzratPs",
                 "channel": "Complete SEO Course for Beginners"
               },
               {
@@ -5392,7 +5392,7 @@
               },
               {
                 "title": "Datab...",
-                "url": "https://www.youtube.com/watch?v=SHsSyEAjmnc",
+                "url": "https://www.youtube.com/watch?v=iMGG1Ng7sy4",
                 "channel": "Unity Catalog from A-Z: Technical Deep Dive"
               }
             ]
@@ -5441,7 +5441,7 @@
             "videos": [
               {
                 "title": "Microsoft Mechan...",
-                "url": "https://www.youtube.com/watch?v=j2U6FKu8Br4",
+                "url": "https://www.youtube.com/watch?v=G6Aot9UCePU",
                 "channel": "Zero Trust Security for AI Agents"
               },
               {
@@ -5705,7 +5705,7 @@
             "videos": [
               {
                 "title": "Augmenting Finance With AI (60m)",
-                "url": "https://www.youtube.com/watch?v=wP7Ei_EpVB0",
+                "url": "https://www.youtube.com/watch?v=QrTR8uRCosI",
                 "channel": "FP&A Trends"
               },
               {
@@ -7545,7 +7545,7 @@
             "videos": [
               {
                 "title": "Premiere Pro Start-to-Finish Workshop",
-                "url": "https://www.youtube.com/watch?v=iWecEjVP61E",
+                "url": "https://www.youtube.com/watch?v=oLMdXC_B1vQ",
                 "channel": "Adobe"
               },
               {
@@ -7567,7 +7567,7 @@
             "videos": [
               {
                 "title": "Villeneuve & Deakins: Visual Storytelling",
-                "url": "https://www.youtube.com/watch?v=ojCH-N-qEjw",
+                "url": "https://www.youtube.com/watch?v=iWecEjVP61E",
                 "channel": "StudioBinder"
               },
               {
@@ -7715,7 +7715,7 @@
             "videos": [
               {
                 "title": "Cisco",
-                "url": "https://www.youtube.com/watch?v=OnlN-2Q5QsE",
+                "url": "https://www.youtube.com/watch?v=r9VIc_ct2-s",
                 "channel": "Network Visibility That Matters: ThousandEyes"
               },
               {
@@ -8431,7 +8431,7 @@
             "videos": [
               {
                 "title": "Identity & Access Management",
-                "url": "https://www.youtube.com/watch?v=usHb4RCJU0E",
+                "url": "https://www.youtube.com/watch?v=i5WK22EPUBc",
                 "channel": "Microsoft Learn"
               },
               {
@@ -8453,7 +8453,7 @@
             "videos": [
               {
                 "title": "Privacy Threat Modeling",
-                "url": "https://www.youtube.com/watch?v=qaZWKpdzl9c",
+                "url": "https://www.youtube.com/watch?v=kvK7zN0diqg",
                 "channel": "USENIX"
               },
               {
@@ -8474,7 +8474,7 @@
               },
               {
                 "title": "Federated Learning on Decentralized Data",
-                "url": "https://www.youtube.com/watch?v=hENwFyrtm1g",
+                "url": "https://www.youtube.com/watch?v=89BGjQYA0uE",
                 "channel": "TensorFlow"
               }
             ]
@@ -8491,12 +8491,12 @@
             "videos": [
               {
                 "title": "Secure Multiparty Computation",
-                "url": "https://www.youtube.com/watch?v=oqWSSS7ml44",
+                "url": "https://www.youtube.com/watch?v=pjlXjBSyyHI",
                 "channel": "Simons Institute"
               },
               {
                 "title": "AI and Fully Homomorphic Encryption",
-                "url": "https://www.youtube.com/watch?v=o3NXEgbvdmQ",
+                "url": "https://www.youtube.com/watch?v=HKl8fvX6uBA",
                 "channel": "IBM Research"
               }
             ]
@@ -8832,7 +8832,7 @@
               },
               {
                 "title": "10 Usability Heuristics in Practice",
-                "url": "https://www.youtube.com/watch?v=kF2WQgk1LtY",
+                "url": "https://www.youtube.com/watch?v=WmmBLgtkjN4",
                 "channel": "NN/g"
               }
             ]
@@ -8887,12 +8887,12 @@
             "videos": [
               {
                 "title": "Must-Have Product Metrics",
-                "url": "https://www.youtube.com/watch?v=-AJnsmYODIk",
+                "url": "https://www.youtube.com/watch?v=AVhFjJ7E1xw",
                 "channel": "Reforge"
               },
               {
                 "title": "AI Experimentation",
-                "url": "https://www.youtube.com/watch?v=LSYkD-MKdmk",
+                "url": "https://www.youtube.com/watch?v=KBIhJCDyiic",
                 "channel": "Statsig"
               }
             ]
@@ -9949,7 +9949,7 @@
             "videos": [
               {
                 "title": "AI Red Teaming 101 Full Course",
-                "url": "https://www.youtube.com/watch?v=rL1vMr1euG8",
+                "url": "https://www.youtube.com/watch?v=DwFVhFdD2fs",
                 "channel": "Microsoft"
               },
               {
@@ -14467,7 +14467,7 @@
             "videos": [
               {
                 "title": "AIOps: Prove It!",
-                "url": "https://www.youtube.com/watch?v=7cJiDpfZ6Bg",
+                "url": "https://www.youtube.com/watch?v=twl_PdIpRA0",
                 "channel": "USENIX SREcon"
               },
               {
@@ -20267,7 +20267,7 @@
             "videos": [
               {
                 "title": "Build a Realtime Voice AI Agent",
-                "url": "https://www.youtube.com/watch?v=cgfcxUQCgQw",
+                "url": "https://www.youtube.com/watch?v=Axg9TNZ5038",
                 "channel": "LiveKit"
               },
               {
@@ -22126,7 +22126,7 @@
               },
               {
                 "title": "Distributed Databases Pt. 1",
-                "url": "https://www.youtube.com/watch?v=IOZ2Um6e430",
+                "url": "https://www.youtube.com/watch?v=IFLQBWY6dlE",
                 "channel": "CMU"
               }
             ]
@@ -22148,7 +22148,7 @@
               },
               {
                 "title": "Getting Started with SLOs",
-                "url": "https://www.youtube.com/watch?v=pQh5fka3FC0",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
                 "channel": "Google Cloud"
               }
             ]
@@ -22258,7 +22258,7 @@
               },
               {
                 "title": "Git & GitHub Crash Course",
-                "url": "https://www.youtube.com/watch?v=sAitLFLbgDA",
+                "url": "https://www.youtube.com/watch?v=mAFoROnOfHs",
                 "channel": "freeCodeCamp"
               }
             ]
@@ -23552,7 +23552,7 @@
               },
               {
                 "title": "Cypress Full Course",
-                "url": "https://www.youtube.com/watch?v=sAY9FmBih08",
+                "url": "https://www.youtube.com/watch?v=u8vMu7viCm8",
                 "channel": "freeCodeCamp"
               }
             ]
@@ -24795,7 +24795,7 @@
             "videos": [
               {
                 "title": "Getting Started with SLOs",
-                "url": "https://www.youtube.com/watch?v=_2th8LDnvQk",
+                "url": "https://www.youtube.com/watch?v=U53wC2A75Is",
                 "channel": "Google Cloud"
               },
               {
@@ -25665,7 +25665,7 @@
             "videos": [
               {
                 "title": "Retail Media in 2026",
-                "url": "https://www.youtube.com/watch?v=R7WbvRLqW64",
+                "url": "https://www.youtube.com/watch?v=hRBkGgbQ6Og",
                 "channel": "Walmart Connect"
               },
               {
@@ -25708,7 +25708,7 @@
               },
               {
                 "title": "What Is A/B Testing?",
-                "url": "https://www.youtube.com/watch?v=QAWxBbv3dB0",
+                "url": "https://www.youtube.com/watch?v=_WuE80AbxjE",
                 "channel": "Statsig"
               }
             ]
@@ -25741,7 +25741,7 @@
             "videos": [
               {
                 "title": "Go-to-Market Strategy",
-                "url": "https://www.youtube.com/watch?v=HB0ALd1K2Uc",
+                "url": "https://www.youtube.com/watch?v=yDLErwgajOQ",
                 "channel": "Product School"
               },
               {
@@ -26655,7 +26655,7 @@
             "videos": [
               {
                 "title": "Alerting with Service Level Objectives",
-                "url": "https://www.youtube.com/watch?v=uQAnXzCSPbI",
+                "url": "https://www.youtube.com/watch?v=_2th8LDnvQk",
                 "channel": "USENIX / Google"
               },
               {

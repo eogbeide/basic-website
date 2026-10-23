@@ -1192,6 +1192,102 @@
     saveRecentlyViewed(loadRecentlyViewed().filter(function (i) { return !(i.mode === mode && i.slug === slug); }));
   }
 
+  // --- Progress summaries: one small entry per path the learner has made
+  // progress on (lessons done, total, the next lesson's name), written by
+  // the path page whenever progress changes, so the home and My Learning
+  // pages can offer "Continue where you left off" without re-reading every
+  // path. Same localStorage-only model as My Pathway.
+  var PROGRESS_KEY = 'zuyini_progress_v1';
+
+  function loadProgress() {
+    try {
+      var raw = JSON.parse(localStorage.getItem(PROGRESS_KEY) || '{}');
+      return raw && typeof raw === 'object' && !Array.isArray(raw) ? raw : {};
+    } catch (e) {
+      return {};
+    }
+  }
+
+  function saveProgress(mode, slug, entry, touched) {
+    var all = loadProgress();
+    var key = mode + ':' + slug;
+    var prev = all[key];
+    // Only real progress (a lesson opened or checked) moves a path to the
+    // top; simply viewing a page keeps its place.
+    if (!touched && !prev) return;
+    entry.at = touched ? Date.now() : prev.at;
+    all[key] = entry;
+    try {
+      localStorage.setItem(PROGRESS_KEY, JSON.stringify(all));
+    } catch (e) {
+      // ignore -- same private-mode/quota tradeoff as My Pathway
+    }
+  }
+
+  function inProgress() {
+    var all = loadProgress();
+    return Object.keys(all)
+      .map(function (k) { return all[k]; })
+      .filter(function (e) { return e && e.total && e.done < e.total; })
+      .sort(function (a, b) { return b.at - a.at; });
+  }
+
+  function renderContinueCard() {
+    var list = inProgress();
+    if (!list.length) return '';
+    var top = list[0];
+    var pct = Math.round((top.done / top.total) * 100);
+    var others = list.slice(1, 3);
+    return (
+      '<div class="detail-card continue-card">' +
+      '<p class="continue-label">Continue where you left off</p>' +
+      '<button type="button" class="continue-main" data-continue-open="' + escapeHtml(top.mode + '|' + top.slug) + '">' +
+      '<span class="continue-name">' + escapeHtml(top.name) + '</span>' +
+      '<span class="continue-next">Next: ' + escapeHtml(top.next || 'your next lesson') + '</span>' +
+      '<span class="continue-progress"><span class="mastery-track"><span class="mastery-fill" style="width:' + pct + '%"></span></span>' +
+      '<span class="continue-count">' + top.done + ' / ' + top.total + ' lessons · ' + pct + '%</span></span>' +
+      '<span class="continue-go">Resume &rarr;</span>' +
+      '</button>' +
+      (others.length
+        ? '<p class="continue-others">Also in progress: ' +
+          others
+            .map(function (o) {
+              return '<button type="button" class="continue-other" data-continue-open="' + escapeHtml(o.mode + '|' + o.slug) + '">' + escapeHtml(o.name) + ' (' + Math.round((o.done / o.total) * 100) + '%)</button>';
+            })
+            .join(', ') +
+          '</p>'
+        : '') +
+      '</div>'
+    );
+  }
+
+  // --- Anonymous usage counts, so we can see whether the Academy works:
+  // daily visits, returning visits, paths started, lessons completed and
+  // paths finished. Only the event name is sent (no ID, no page, nothing
+  // about the person) and the server just adds 1 to that day's count.
+  var COUNT_URL = (window.ZUYINI_API_BASE || 'https://zuyini-api.onrender.com/api') + '/academy/count';
+  var VISIT_KEY = 'zuyini_visits_v1';
+
+  function count(event) {
+    try {
+      var body = JSON.stringify({ event: event });
+      if (navigator.sendBeacon) navigator.sendBeacon(COUNT_URL, new Blob([body], { type: 'text/plain' }));
+      else fetch(COUNT_URL, { method: 'POST', body: body, keepalive: true }).catch(function () {});
+    } catch (e) {
+      // counting is best-effort
+    }
+  }
+
+  function countVisit() {
+    var today = new Date().toISOString().slice(0, 10);
+    var v;
+    try { v = JSON.parse(localStorage.getItem(VISIT_KEY) || 'null'); } catch (e) { v = null; }
+    if (v && v.last === today) return;
+    count('visit');
+    if (v && v.first && v.first !== today) count('return_visit');
+    try { localStorage.setItem(VISIT_KEY, JSON.stringify({ first: (v && v.first) || today, last: today })); } catch (e) { /* ignore */ }
+  }
+
   function openMyPathwayItem(item) {
     if (item.mode === 'courses') {
       showCourse(item.slug, null, true);
@@ -1288,7 +1384,7 @@
   }
 
   function renderMyPathwayPage() {
-    detailEl.innerHTML = renderMyPathwaySection() + renderRecentlyViewedSection();
+    detailEl.innerHTML = renderContinueCard() + renderMyPathwaySection() + renderRecentlyViewedSection();
   }
 
   function renderFeaturedPicks(mode) {
@@ -1314,6 +1410,7 @@
   function showEmptyState() {
     var mode = MODES[currentMode];
     detailEl.innerHTML =
+      renderContinueCard() +
       '<div class="empty-state">' +
       '<h2>' + escapeHtml(mode.emptyTitle) + '</h2>' +
       '<p>' + escapeHtml(mode.emptyBody) + '</p>' +
@@ -1601,10 +1698,13 @@
       });
     }
 
-    function refresh() {
+    function refresh(touched) {
       computeLevelRecommendations();
-      updateMasteryBadge(badge, state.filter(Boolean).length, items.length);
+      var done = state.filter(Boolean).length;
+      updateMasteryBadge(badge, done, items.length);
       updateCta();
+      var nextIndex = state.findIndex(function (v) { return !v; });
+      saveProgress(mode, slug, { mode: mode, slug: slug, name: h2.textContent, done: done, total: items.length, next: nextIndex >= 0 ? itemDisplayLabel(items[nextIndex]) : '' }, touched);
       items.forEach(function (li, i) {
         var cb = li.querySelector('.mastery-check');
         if (!cb) return;
@@ -1622,16 +1722,25 @@
       cb.setAttribute('aria-label', 'Mark complete');
       li.insertBefore(cb, li.firstChild);
       cb.addEventListener('change', function () {
+        var before = state.filter(Boolean).length;
         state[i] = cb.checked;
         saveMasteryState(mode, slug, state);
-        refresh();
+        if (cb.checked) {
+          count('lesson_done');
+          if (before === 0 && !clickState.some(function (c, j) { return c && items[j].querySelector('a, button[data-cross-course]'); })) count('path_start');
+          if (before + 1 === items.length) count('path_complete');
+        }
+        refresh(true);
       });
       if (trigger) {
         trigger.addEventListener('click', function () {
           if (!clickState[i]) {
+            // The first lesson opened on a path counts as starting it.
+            var started = state.some(Boolean) || clickState.some(function (c, j) { return c && items[j].querySelector('a, button[data-cross-course]'); });
             clickState[i] = true;
             saveClickState(mode, slug, clickState);
-            refresh();
+            if (!started) count('path_start');
+            refresh(true);
           }
         });
       }
@@ -1876,6 +1985,17 @@
       if (it) removeFromMyPathway(it.mode, it.slug);
       renderMyPathwayPage();
       if (countEl && currentMode === 'mypathway') countEl.textContent = loadMyPathway().length;
+      return;
+    }
+    var continueBtn = e.target.closest('[data-continue-open]');
+    if (continueBtn) {
+      var parts = continueBtn.getAttribute('data-continue-open').split('|');
+      openMyPathwayItem({ mode: parts[0], slug: parts[1] });
+      // Then jump to the next lesson, as the path's own Continue button does.
+      setTimeout(function () {
+        var cta = detailEl.querySelector('.role-cta');
+        if (cta) cta.click();
+      }, 250);
       return;
     }
     var recentOpenBtn = e.target.closest('[data-recent-open]');
@@ -2487,4 +2607,5 @@
 
   window.addEventListener('popstate', routeFromPath);
   routeFromPath();
+  countVisit();
 })();

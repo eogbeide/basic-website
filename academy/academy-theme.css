@@ -912,3 +912,78 @@ footer p:not(.footer-disclaimer) {
 .job-radar-submit:hover {
   background-color: var(--pdf-green-dark);
 }
+
+/* "Continue where you left off" on the Academy home and My Learning. */
+.continue-card {
+  margin-bottom: 18px;
+}
+.continue-label {
+  margin: 0 0 10px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--pdf-green);
+}
+.continue-main {
+  display: grid;
+  gap: 6px;
+  width: 100%;
+  text-align: left;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid var(--pdf-border);
+  background: var(--pdf-bg-alt);
+  color: var(--pdf-text);
+  font: inherit;
+  cursor: pointer;
+}
+.continue-main:hover,
+.continue-main:focus-visible {
+  border-color: var(--pdf-green);
+}
+.continue-name {
+  font-size: 17px;
+  font-weight: 800;
+}
+.continue-next {
+  color: var(--pdf-text-soft);
+  font-size: 14px;
+}
+.continue-progress {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+.continue-progress .mastery-track {
+  display: block;
+}
+.continue-progress .mastery-fill {
+  display: block;
+}
+.continue-count {
+  color: var(--pdf-text-mute);
+  font-size: 12.5px;
+}
+.continue-go {
+  justify-self: start;
+  margin-top: 4px;
+  font-weight: 800;
+  color: var(--pdf-green);
+}
+.continue-others {
+  margin: 10px 0 0;
+  color: var(--pdf-text-mute);
+  font-size: 13.5px;
+}
+.continue-other {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: var(--pdf-text-soft);
+  text-decoration: underline;
+  cursor: pointer;
+}
