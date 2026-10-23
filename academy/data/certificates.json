@@ -551,7 +551,7 @@
         "bridges": [
           {
             "topic": "Circuits & Electronics",
-            "url": "https://learn.mit.edu/video/13676/lecture-1-introduction-and-lumped-abstraction?playlist=13675"
+            "url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/video_galleries/video-lectures/"
           },
           {
             "topic": "Digital Logic / Digital Electronics",
@@ -624,7 +624,7 @@
       {
         "competency": "Circuits & analog electronics",
         "coverage": "MIT OCW Circuits",
-        "url": "https://learn.mit.edu/video/13676/lecture-1-introduction-and-lumped-abstraction?playlist=13675"
+        "url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/video_galleries/video-lectures/"
       },
       {
         "competency": "Probability & inference for EE",

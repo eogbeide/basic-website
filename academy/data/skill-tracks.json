@@ -2647,7 +2647,7 @@
             "title": "06 — JavaScript, DOM, events, local storage & APIs",
             "video": {
               "title": "Harvard CS50W - Lecture 5",
-              "url": "https://www.youtube.com/watch?v=x5trgvmktdy",
+              "url": "https://www.youtube.com/watch?v=x5trGVMKTdY",
               "channel": "Harvard CS50W"
             }
           },
@@ -16034,7 +16034,7 @@
             "title": "7. Strategy for New Companies",
             "video": {
               "title": "Strategy for New Companies",
-              "url": "https://ecorner.stanford.edu/wp-content/uploads/sites/2/2023/11/strategy-for-new-companies-entire-talk-transcript.pdf",
+              "url": "https://www.youtube.com/watch?v=qxtU2z3ihZE",
               "channel": "Stanford eCorner"
             },
             "note": "Free, open course"
@@ -16402,7 +16402,7 @@
             "title": "7. Strategy for New Companies",
             "video": {
               "title": "Strategy for New Companies",
-              "url": "https://ecorner.stanford.edu/wp-content/uploads/sites/2/2023/11/strategy-for-new-companies-entire-talk-transcript.pdf",
+              "url": "https://www.youtube.com/watch?v=qxtU2z3ihZE",
               "channel": "Stanford eCorner"
             },
             "note": "Free, open course"
@@ -20892,7 +20892,7 @@
             "title": "5. How To Talk To Users",
             "video": {
               "title": "How To Talk To Users",
-              "url": "https://www.ycombinator.com/library/6g-how-to-talk-to-users",
+              "url": "https://www.ycombinator.com/library/Iq-how-to-talk-to-users",
               "channel": "Y Combinator"
             },
             "note": "Free training video"
@@ -21462,7 +21462,7 @@
             "title": "7. Building a People-First Company",
             "video": {
               "title": "Building a People-First Company",
-              "url": "https://ecorner.stanford.edu/video/building-a-people-first-company-entire-talk/",
+              "url": "https://www.youtube.com/watch?v=5sD6mJrdOGQ",
               "channel": "Stanford eCorner"
             },
             "note": "Free training video"
@@ -25041,7 +25041,7 @@
             "title": "6. Real Property Leasing Guidance",
             "video": {
               "title": "Real Property Leasing Guidance",
-              "url": "https://origin-www.gsa.gov/real-estate/leasing/leasing-guidance",
+              "url": "https://www.gsa.gov/real-estate/leasing/leasing-guidance",
               "channel": "U.S. GSA"
             },
             "note": "Free, open resource"
@@ -25207,7 +25207,7 @@
             "title": "4. Real Property Leasing Guidance",
             "video": {
               "title": "Real Property Leasing Guidance",
-              "url": "https://origin-www.gsa.gov/real-estate/leasing/leasing-guidance",
+              "url": "https://www.gsa.gov/real-estate/leasing/leasing-guidance",
               "channel": "U.S. GSA"
             },
             "note": "Free, open resource"
@@ -25281,7 +25281,7 @@
             "title": "2. Real Property Leasing Guidance",
             "video": {
               "title": "Real Property Leasing Guidance",
-              "url": "https://origin-www.gsa.gov/real-estate/leasing/leasing-guidance",
+              "url": "https://www.gsa.gov/real-estate/leasing/leasing-guidance",
               "channel": "U.S. GSA"
             },
             "note": "Free, open resource"
@@ -30699,8 +30699,8 @@
           {
             "title": "1. Introduction to Bioengineering - Video Lectures",
             "video": {
-              "title": "Introduction to Bioengineering - Video Lectures",
-              "url": "https://ocw.mit.edu/courses/20-010j-introduction-to-bioengineering-be-010j-spring-2006/",
+              "title": "Introduction to Biological Engineering Design",
+              "url": "https://ocw.mit.edu/courses/20-020-introduction-to-biological-engineering-design-spring-2009/",
               "channel": "MIT OpenCourseWare"
             },
             "note": "Free training video"
@@ -33781,7 +33781,7 @@
             "title": "6. API Policies & Security",
             "video": {
               "title": "API Policies & Security",
-              "url": "https://docs.mulesoft.com/api-manager/latest/policies-overview",
+              "url": "https://docs.mulesoft.com/gateway/latest/policies-included-directory",
               "channel": "MuleSoft"
             },
             "note": "Free, open course"

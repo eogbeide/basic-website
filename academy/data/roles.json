@@ -73,9 +73,9 @@
                 "channel": "Rob J Hyndman"
               },
               {
-                "title": "Cyber Risk Costs & Insurance Pricing",
-                "url": "https://www.youtube.com/watch?v=0ID-InAz7FA",
-                "channel": "RAND"
+                "title": "Quantifying the Cost of Cyber Risk and Cyber Insurance",
+                "url": "https://www.youtube.com/watch?v=g36j8LcMRhY",
+                "channel": "Qualys"
               }
             ]
           }
@@ -106,9 +106,9 @@
             "coverage": "Enterprise Risk / Model Governance / Executive Communication",
             "videos": [
               {
-                "title": "Is Cyber Risk Insurable?",
-                "url": "https://www.youtube.com/watch?v=WajOHWiNY9w",
-                "channel": "University Paris-Dauphine"
+                "title": "Understanding the Cyber Insurance Business",
+                "url": "https://www.youtube.com/watch?v=L-1vjCPZ91Y",
+                "channel": "S4 Events"
               },
               {
                 "title": "Think Fast, Talk Smart",
@@ -833,9 +833,9 @@
                 "channel": "Microsoft Developer"
               },
               {
-                "title": "Full-Stack AI Red Teaming (2026)",
-                "url": "https://www.youtube.com/watch?v=68MmP084rXA",
-                "channel": "Microsoft CISO"
+                "title": "AI Red Teaming 101 (Full Course)",
+                "url": "https://www.youtube.com/watch?v=DwFVhFdD2fs",
+                "channel": "Microsoft Developer"
               }
             ]
           }
@@ -1478,9 +1478,9 @@
             "coverage": "Security Fundamentals & Threat Modeling / Agentic Security",
             "videos": [
               {
-                "title": "Full-Stack AI Red Teaming (2026)",
-                "url": "https://www.youtube.com/watch?v=68MmP084rXA",
-                "channel": "Microsoft CISO"
+                "title": "AI Red Teaming 101 (Full Course)",
+                "url": "https://www.youtube.com/watch?v=DwFVhFdD2fs",
+                "channel": "Microsoft Developer"
               },
               {
                 "title": "Engineering Fundamentals for AI Security",
@@ -6613,9 +6613,9 @@
                 "channel": "HL7"
               },
               {
-                "title": "What Is an API? What Is FHIR?",
-                "url": "https://www.youtube.com/watch?v=cn0HRmtQjIA",
-                "channel": "Redox"
+                "title": "HL7 FHIR: What Is It, Really?",
+                "url": "https://www.youtube.com/watch?v=AkqNuxVBQKY",
+                "channel": "InterSystems Learning Services"
               }
             ]
           }
@@ -17319,13 +17319,13 @@
             "videos": [
               {
                 "title": "Building Product, Talking to Users & Growing (full lecture)",
-                "url": "https://startupclass.github.io/lectures/lecture-4/",
-                "channel": "Stanford / YC"
+                "url": "https://www.youtube.com/watch?v=1e4izfOsijE",
+                "channel": "Y Combinator"
               },
               {
                 "title": "How to Build Products Users Love (full lecture)",
-                "url": "https://startupclass.github.io/lectures/lecture-7/",
-                "channel": "Stanford / YC"
+                "url": "https://www.youtube.com/watch?v=12D8zEdOPYo",
+                "channel": "Y Combinator"
               }
             ]
           }
@@ -17451,8 +17451,8 @@
             "videos": [
               {
                 "title": "Legal & Accounting Basics for Startups (full lecture)",
-                "url": "https://startupclass.github.io/lectures/lecture-18/",
-                "channel": "Stanford / YC"
+                "url": "https://www.youtube.com/watch?v=sd9yLmJ1Jfk",
+                "channel": "Y Combinator"
               },
               {
                 "title": "How to Raise Money (full lecture)",
@@ -24228,9 +24228,9 @@
             "coverage": "Integration contracts / APIs / events / middleware / BTP / non-SAP systems / NFRs",
             "videos": [
               {
-                "title": "S/4HANA APIs + Events",
-                "url": "https://youtu.be/EpQTv1vfSfs?list=PLkzo92owKnVxiagp35AcwoxOlX0J4hLyY",
-                "channel": "SAP HANA Academy"
+                "title": "Consume SAP S/4HANA Cloud Events",
+                "url": "https://www.youtube.com/watch?v=vR78mU0flx8",
+                "channel": "SAP Developers"
               },
               {
                 "title": "Designing Quality APIs",
@@ -24815,9 +24815,9 @@
                 "channel": "Microsoft Research"
               },
               {
-                "title": "Go-to-Market Strategy by Microsoft...",
-                "url": "https://www.youtube.com/watch?v=Q6cB3k8O3oA",
-                "channel": "Product School"
+                "title": "What Is a Go-To-Market Strategy?",
+                "url": "https://www.youtube.com/watch?v=hPp5sj37mOA",
+                "channel": "Hattie the PMM"
               }
             ]
           }
@@ -25218,8 +25218,8 @@
               },
               {
                 "title": "GTM Strategy",
-                "url": "https://www.youtube.com/watch?v=Q6cB3k8O3oA",
-                "channel": "Product School"
+                "url": "https://www.youtube.com/watch?v=hPp5sj37mOA",
+                "channel": "Hattie the PMM"
               }
             ]
           }
@@ -26309,8 +26309,8 @@
             "videos": [
               {
                 "title": "Lecture 1: Introduction to Deep Learning for Computer Vision (UMich EECS 498-007)",
-                "url": "https://www.youtube.com/watch?v=QytpbYkGxKo",
-                "channel": "Justin Johnson"
+                "url": "https://www.youtube.com/watch?v=dJYGatp4SvA",
+                "channel": "Michigan Online"
               },
               {
                 "title": "OpenCV Tutorial | Full OpenCV with Python Course",
@@ -26325,13 +26325,13 @@
             "videos": [
               {
                 "title": "Lecture 2: Image Classification (UMich EECS 498-007)",
-                "url": "https://www.youtube.com/watch?v=qr5rsiJuuRc",
-                "channel": "Justin Johnson"
+                "url": "https://www.youtube.com/watch?v=0nqvO3AM2Vw",
+                "channel": "Michigan Online"
               },
               {
                 "title": "Lecture 5: Neural Networks (UMich EECS 498-007)",
-                "url": "https://www.youtube.com/watch?v=eMJm-Eoacdc",
-                "channel": "Justin Johnson"
+                "url": "https://www.youtube.com/watch?v=g6InpdhUblE",
+                "channel": "Michigan Online"
               }
             ]
           }
@@ -26352,8 +26352,8 @@
               },
               {
                 "title": "Lecture 7: Convolutional Networks (UMich EECS 498-007)",
-                "url": "https://www.youtube.com/watch?v=gJ5UENsAQGY",
-                "channel": "Justin Johnson"
+                "url": "https://www.youtube.com/watch?v=ANyxBVxmdZ0",
+                "channel": "Michigan Online"
               }
             ]
           },
@@ -26363,13 +26363,13 @@
             "videos": [
               {
                 "title": "Lecture 8: CNN Architectures (UMich EECS 498-007)",
-                "url": "https://www.youtube.com/watch?v=Y78DttDmkr8",
-                "channel": "Justin Johnson"
+                "url": "https://www.youtube.com/watch?v=XaZIlVrIO-Q",
+                "channel": "Michigan Online"
               },
               {
                 "title": "Lecture 10: Training Neural Networks Part 1 (UMich EECS 498-007)",
-                "url": "https://www.youtube.com/watch?v=ux2-9QbsMPI",
-                "channel": "Justin Johnson"
+                "url": "https://www.youtube.com/watch?v=lGbQlr1Ts7w",
+                "channel": "Michigan Online"
               }
             ]
           }
@@ -26385,13 +26385,13 @@
             "videos": [
               {
                 "title": "Lecture 11: Training Neural Networks Part 2 (UMich EECS 498-007)",
-                "url": "https://www.youtube.com/watch?v=q9_bxtae0ok",
-                "channel": "Justin Johnson"
+                "url": "https://www.youtube.com/watch?v=WUazOtlti0g",
+                "channel": "Michigan Online"
               },
               {
                 "title": "Lecture 16: Detection and Segmentation (UMich EECS 498-007)",
-                "url": "https://www.youtube.com/watch?v=zHSjrqS0jAY",
-                "channel": "Justin Johnson"
+                "url": "https://www.youtube.com/watch?v=9AyMR4IhSWQ",
+                "channel": "Michigan Online"
               }
             ]
           },
@@ -26401,8 +26401,8 @@
             "videos": [
               {
                 "title": "Lecture 17: 3D Vision (UMich EECS 498-007)",
-                "url": "https://www.youtube.com/watch?v=dkDf0FE8lJ8",
-                "channel": "Justin Johnson"
+                "url": "https://www.youtube.com/watch?v=S1_nCdLUQQ8",
+                "channel": "Michigan Online"
               },
               {
                 "title": "Numpy for Data Science | Full Course",
