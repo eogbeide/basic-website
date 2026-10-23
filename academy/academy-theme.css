@@ -987,3 +987,49 @@ footer p:not(.footer-disclaimer) {
   text-decoration: underline;
   cursor: pointer;
 }
+
+/* Sync across devices, on My Learning. */
+.sync-card .sync-code {
+  font: 800 22px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.08em;
+  color: var(--pdf-green);
+  margin: 12px 0;
+}
+.sync-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-top: 12px;
+}
+.sync-join {
+  margin-top: 18px;
+  display: grid;
+  gap: 8px;
+}
+.sync-join label {
+  color: var(--pdf-text-soft);
+  font-size: 14px;
+}
+.sync-join-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.sync-join-row input {
+  flex: 1 1 200px;
+  min-width: 0;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--pdf-border);
+  background: var(--pdf-bg);
+  color: var(--pdf-text);
+  font: 700 16px ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.sync-error {
+  color: var(--pdf-error);
+  font-size: 13.5px;
+  margin: 0;
+}

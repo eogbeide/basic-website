@@ -1129,6 +1129,7 @@
   function saveMyPathway(items) {
     try {
       localStorage.setItem(MY_PATHWAY_KEY, JSON.stringify(items));
+      syncChanged(MY_PATHWAY_KEY);
     } catch (e) {
       // localStorage unavailable (private mode, quota) -- fail silently,
       // same tradeoff already accepted for mastery-progress storage
@@ -1177,6 +1178,7 @@
   function saveRecentlyViewed(items) {
     try {
       localStorage.setItem(RECENTLY_VIEWED_KEY, JSON.stringify(items));
+      syncChanged(RECENTLY_VIEWED_KEY);
     } catch (e) {
       // ignore -- same private-mode/quota tradeoff as My Pathway
     }
@@ -1219,6 +1221,7 @@
     all[key] = entry;
     try {
       localStorage.setItem(PROGRESS_KEY, JSON.stringify(all));
+      syncChanged(PROGRESS_KEY);
     } catch (e) {
       // ignore -- same private-mode/quota tradeoff as My Pathway
     }
@@ -1257,6 +1260,7 @@
             .join(', ') +
           '</p>'
         : '') +
+      (!syncCode() && currentMode !== 'mypathway' ? '<p class="continue-others"><a href="/academy/mypathway/">On another device too? Sync your progress &rarr;</a></p>' : '') +
       '</div>'
     );
   }
@@ -1286,6 +1290,159 @@
     count('visit');
     if (v && v.first && v.first !== today) count('return_visit');
     try { localStorage.setItem(VISIT_KEY, JSON.stringify({ first: (v && v.first) || today, last: today })); } catch (e) { /* ignore */ }
+  }
+
+  // --- Sync across devices. The Academy has no accounts, so a sync code
+  // links devices: progress (checkmarks, opened lessons, My Learning,
+  // history, "Continue", unlocked status) is saved on the Zuyini server
+  // under that code. Each value remembers when it last changed on this
+  // device; a sync fetches the saved copy, keeps the newer version of each
+  // value (merging the two when a device joins for the first time), then
+  // saves the result.
+  var SYNC_URL = (window.ZUYINI_API_BASE || 'https://zuyini-api.onrender.com/api') + '/academy/sync';
+  var SYNC_CODE_KEY = 'zuyini_sync_code';
+  var SYNC_META_KEY = 'zuyini_sync_meta';
+  var SYNC_AT_KEY = 'zuyini_sync_at';
+  var SYNC_EXACT = ['zuyini_my_pathway', 'zuyini_recently_viewed', 'zuyini_progress_v1', 'zuyini_access_granted'];
+  var SYNC_PREFIXES = ['zuyini_mastery_', 'zuyini_clicked_'];
+  var syncTimer = null;
+  var syncBusy = false;
+
+  function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* ignore */ } }
+  function syncCode() { return lsGet(SYNC_CODE_KEY) || ''; }
+  function syncMeta() { try { return JSON.parse(lsGet(SYNC_META_KEY) || '{}') || {}; } catch (e) { return {}; } }
+  function isSyncedKey(k) {
+    return SYNC_EXACT.indexOf(k) !== -1 || SYNC_PREFIXES.some(function (p) { return k.indexOf(p) === 0; });
+  }
+
+  function syncChanged(key) {
+    var meta = syncMeta();
+    meta[key] = Date.now();
+    lsSet(SYNC_META_KEY, JSON.stringify(meta));
+    if (!syncCode()) return;
+    clearTimeout(syncTimer);
+    syncTimer = setTimeout(function () { runSync(); }, 4000);
+  }
+
+  function localSnapshot() {
+    var out = {};
+    try {
+      for (var i = 0; i < localStorage.length; i++) {
+        var k = localStorage.key(i);
+        if (k && isSyncedKey(k)) out[k] = localStorage.getItem(k);
+      }
+    } catch (e) { /* ignore */ }
+    return out;
+  }
+
+  // Combines two versions of a value that changed on both sides with no
+  // way to tell which is newer (a device joining for the first time).
+  function mergeValue(key, a, b) {
+    try {
+      var x = JSON.parse(a), y = JSON.parse(b);
+      if (key === 'zuyini_access_granted') return a === '1' || b === '1' ? '1' : a;
+      if (SYNC_PREFIXES.some(function (p) { return key.indexOf(p) === 0; })) {
+        var n = Math.max(x.length, y.length), out = [];
+        for (var i = 0; i < n; i++) out.push(!!(x[i] || y[i]));
+        return JSON.stringify(out);
+      }
+      if (key === 'zuyini_progress_v1') {
+        Object.keys(y).forEach(function (k) { if (!x[k] || (y[k].at || 0) > (x[k].at || 0)) x[k] = y[k]; });
+        return JSON.stringify(x);
+      }
+      var id = function (i) { return i.mode + ':' + i.slug; };
+      if (key === 'zuyini_recently_viewed') {
+        var seen = {};
+        x.concat(y).forEach(function (i) { if (!seen[id(i)] || i.viewedAt > seen[id(i)].viewedAt) seen[id(i)] = i; });
+        return JSON.stringify(Object.keys(seen).map(function (k) { return seen[k]; }).sort(function (p, q) { return q.viewedAt - p.viewedAt; }).slice(0, RECENTLY_VIEWED_MAX));
+      }
+      if (key === 'zuyini_my_pathway') {
+        var have = x.map(id);
+        return JSON.stringify(x.concat(y.filter(function (i) { return have.indexOf(id(i)) === -1; })));
+      }
+    } catch (e) { /* fall through */ }
+    return a;
+  }
+
+  /** Fetch, combine, store locally, save back. Resolves to true if this device's data changed. */
+  function runSync(joining) {
+    var code = syncCode();
+    if (!code || syncBusy) return Promise.resolve(false);
+    syncBusy = true;
+    var headers = { 'Content-Type': 'application/json', 'X-Sync-Code': code };
+    return fetch(SYNC_URL, { headers: headers })
+      .then(function (r) { return r.json().then(function (b) { if (!r.ok) throw new Error(b.error || 'Sync failed'); return b; }); })
+      .then(function (body) {
+        var remote = Object.assign({}, body.data || {});
+        var remoteMeta = {};
+        try { remoteMeta = JSON.parse(remote.__meta || '{}'); } catch (e) { /* ignore */ }
+        delete remote.__meta;
+        var local = localSnapshot();
+        var meta = syncMeta();
+        var merged = {}, mergedMeta = {}, changedHere = false;
+        Object.keys(local).concat(Object.keys(remote)).forEach(function (k) {
+          if (k in merged) return;
+          var lv = local[k], rv = remote[k], lt = meta[k] || 0, rt = remoteMeta[k] || 0;
+          var v;
+          if (rv === undefined) v = lv;
+          else if (lv === undefined) v = rv;
+          else if (lv === rv) v = lv;
+          else if (joining || lt === rt) v = mergeValue(k, lv, rv);
+          else v = lt > rt ? lv : rv;
+          merged[k] = v;
+          mergedMeta[k] = Math.max(lt, rt);
+          if (v !== lv) { lsSet(k, v); changedHere = true; }
+        });
+        lsSet(SYNC_META_KEY, JSON.stringify(Object.assign(meta, mergedMeta)));
+        var payload = Object.assign({}, merged, { __meta: JSON.stringify(mergedMeta) });
+        return fetch(SYNC_URL, { method: 'PUT', headers: headers, body: JSON.stringify({ data: payload }) })
+          .then(function (r) { if (r.ok) lsSet(SYNC_AT_KEY, String(Date.now())); return changedHere; });
+      })
+      .catch(function () { return false; })
+      .then(function (changed) { syncBusy = false; return changed; });
+  }
+
+  function syncAndRefresh() {
+    runSync().then(function (changed) {
+      if (changed) routeFromPath();
+      else if (currentMode === 'mypathway') renderMyPathwayPage();
+    });
+  }
+
+  function renderSyncCard() {
+    var code = syncCode();
+    if (code) {
+      var at = parseInt(lsGet(SYNC_AT_KEY) || '0', 10);
+      return (
+        '<div class="detail-card sync-card">' +
+        '<h2>Synced across your devices</h2>' +
+        '<p class="detail-description">Your progress, My Learning and history are saved under this code. On another phone or computer, open My Learning and enter it.</p>' +
+        '<p class="sync-code" aria-label="Your sync code">' + escapeHtml(code) + '</p>' +
+        '<div class="sync-actions">' +
+        '<button type="button" class="pathway-add-btn" data-sync-copy>Copy code</button>' +
+        '<button type="button" class="pathway-add-btn" data-sync-now>Sync now</button>' +
+        '<button type="button" class="recently-viewed-clear" data-sync-off>Stop syncing on this device</button>' +
+        '</div>' +
+        '<p class="mastery-hint">' + (at ? 'Last synced ' + relativeTime(at) + '.' : 'Not synced yet.') + ' Keep the code private: anyone with it can see and change this progress.</p>' +
+        '</div>'
+      );
+    }
+    return (
+      '<div class="detail-card sync-card">' +
+      '<h2>Use your progress on all your devices</h2>' +
+      '<p class="detail-description">Right now your progress and history are saved only in this browser. Turn on sync to keep them on every phone and computer you use, with no account needed.</p>' +
+      '<div class="sync-actions">' +
+      '<button type="button" class="role-cta" data-sync-on>Turn on sync</button>' +
+      '</div>' +
+      '<form class="sync-join" data-sync-join>' +
+      '<label for="sync-code-input">Already have a sync code from another device?</label>' +
+      '<div class="sync-join-row"><input id="sync-code-input" name="code" autocomplete="off" autocapitalize="characters" placeholder="XXXX-XXXX-XXXX" maxlength="16">' +
+      '<button type="submit" class="pathway-add-btn">Use this code</button></div>' +
+      '<p class="sync-error" data-sync-error hidden></p>' +
+      '</form>' +
+      '</div>'
+    );
   }
 
   function openMyPathwayItem(item) {
@@ -1384,7 +1541,7 @@
   }
 
   function renderMyPathwayPage() {
-    detailEl.innerHTML = renderContinueCard() + renderMyPathwaySection() + renderRecentlyViewedSection();
+    detailEl.innerHTML = renderContinueCard() + renderMyPathwaySection() + renderSyncCard() + renderRecentlyViewedSection();
   }
 
   function renderFeaturedPicks(mode) {
@@ -1454,6 +1611,7 @@
   function saveMasteryState(mode, slug, arr) {
     try {
       localStorage.setItem(masteryStorageKey(mode, slug), JSON.stringify(arr));
+      syncChanged(masteryStorageKey(mode, slug));
     } catch (e) {
       // ignore -- worst case progress just doesn't persist this session
     }
@@ -1478,6 +1636,7 @@
   function saveClickState(mode, slug, arr) {
     try {
       localStorage.setItem(clickStorageKey(mode, slug), JSON.stringify(arr));
+      syncChanged(clickStorageKey(mode, slug));
     } catch (e) {
       // ignore
     }
@@ -1985,6 +2144,32 @@
       if (it) removeFromMyPathway(it.mode, it.slug);
       renderMyPathwayPage();
       if (countEl && currentMode === 'mypathway') countEl.textContent = loadMyPathway().length;
+      return;
+    }
+    if (e.target.closest('[data-sync-on]')) {
+      e.target.closest('[data-sync-on]').disabled = true;
+      fetch(SYNC_URL + '/new', { method: 'POST' })
+        .then(function (r) { return r.json(); })
+        .then(function (b) {
+          if (!b.code) throw new Error(b.error);
+          lsSet(SYNC_CODE_KEY, b.code);
+          return runSync();
+        })
+        .catch(function () { alert("Sync couldn't be turned on just now. Please try again."); })
+        .then(function () { renderMyPathwayPage(); });
+      return;
+    }
+    if (e.target.closest('[data-sync-now]')) { syncAndRefresh(); return; }
+    if (e.target.closest('[data-sync-copy]')) {
+      var btn = e.target.closest('[data-sync-copy]');
+      try { navigator.clipboard.writeText(syncCode()).then(function () { btn.textContent = 'Copied'; }); } catch (err) { /* ignore */ }
+      return;
+    }
+    if (e.target.closest('[data-sync-off]')) {
+      if (confirm('Stop syncing on this device? Your progress stays here and on your other devices.')) {
+        try { localStorage.removeItem(SYNC_CODE_KEY); localStorage.removeItem(SYNC_AT_KEY); } catch (err) { /* ignore */ }
+        renderMyPathwayPage();
+      }
       return;
     }
     var continueBtn = e.target.closest('[data-continue-open]');
@@ -2608,4 +2793,26 @@
   window.addEventListener('popstate', routeFromPath);
   routeFromPath();
   countVisit();
+  if (syncCode()) syncAndRefresh();
+  document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === 'visible' && syncCode()) syncAndRefresh();
+  });
+  detailEl.addEventListener('submit', function (e) {
+    var form = e.target.closest('[data-sync-join]');
+    if (!form) return;
+    e.preventDefault();
+    var code = String(form.code.value || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+    var err = form.querySelector('[data-sync-error]');
+    if (code.length !== 12) { err.textContent = 'A sync code has 12 letters and numbers.'; err.hidden = false; return; }
+    code = code.slice(0, 4) + '-' + code.slice(4, 8) + '-' + code.slice(8);
+    fetch(SYNC_URL, { headers: { 'X-Sync-Code': code } })
+      .then(function (r) { return r.json().then(function (b) { if (!r.ok) throw new Error(b.error); }); })
+      .then(function () {
+        lsSet(SYNC_CODE_KEY, code);
+        // Joining: merge this device's progress with the saved copy rather
+        // than letting either replace the other.
+        return runSync(true).then(function () { routeFromPath(); });
+      })
+      .catch(function (x) { err.textContent = (x && x.message) || "That sync code wasn't found."; err.hidden = false; });
+  });
 })();
