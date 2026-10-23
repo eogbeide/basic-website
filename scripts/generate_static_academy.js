@@ -31,6 +31,24 @@ function truncate(str, n) {
   return cut.trim().replace(/[,;:.\-–—]+$/, '') + '…';
 }
 
+// Structured data so search engines and AI assistants can tell what each
+// page is: a free online course from Zuyini Academy.
+function courseLd(name, description, url, kind) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Course',
+    name,
+    description,
+    url,
+    inLanguage: 'en',
+    isAccessibleForFree: true,
+    learningResourceType: kind,
+    provider: { '@type': 'EducationalOrganization', name: 'Zuyini Academy', url: 'https://zuyini.com/academy/' },
+    offers: { '@type': 'Offer', price: 0, priceCurrency: 'USD', category: 'Free' },
+    hasCourseInstance: { '@type': 'CourseInstance', courseMode: 'online' },
+  };
+}
+
 function navigate(pathname) {
   dom.window.history.pushState(null, '', pathname);
   dom.window.dispatchEvent(new dom.window.Event('popstate'));
@@ -61,6 +79,7 @@ function pageShell(opts) {
   <link rel="stylesheet" href="${toAcademy}chat-widget.css" />
   <link rel="stylesheet" href="${toRoot}gate.css" />
   <link rel="stylesheet" href="${toAcademy}academy-theme.css" />
+  ${opts.jsonLd ? `<script type="application/ld+json">${JSON.stringify(opts.jsonLd).replace(/</g, '\\u003c')}</script>` : ''}
 </head>
 <body>
   <header class="site-header">
@@ -232,6 +251,7 @@ roles.forEach((role) => {
     title: `${role.name} | Zuyini Academy`,
     description: truncate(role.benchmark || `Role-benchmarked mastery path for ${role.name}: core competencies, direct video bridges and a hands-on capstone.`, 155),
     canonical,
+    jsonLd: courseLd(role.name, truncate(`A free three-level learning path and capstone for ${role.name}. ${role.benchmark || ''}`, 300), canonical, 'Career role path'),
     mode: 'roles',
     staticList: renderStaticList('roles'),
     detailHtml,
@@ -252,6 +272,7 @@ pathways.forEach((p) => {
     title: `${p.name} | Zuyini Academy Career Pathway`,
     description: truncate(p.description || `An end-to-end career pathway covering ${p.name}.`, 155),
     canonical,
+    jsonLd: courseLd(p.name, truncate(p.description || `A career pathway covering ${p.name}.`, 300), canonical, 'Career pathway'),
     mode: 'pathways',
     staticList: renderStaticList('pathways'),
     detailHtml,
@@ -272,6 +293,7 @@ certs.forEach((c) => {
     title: `${c.name} | Zuyini Academy`,
     description: truncate(c.description || `A university-benchmarked academic certificate: ${c.name}.`, 155),
     canonical,
+    jsonLd: courseLd(c.name, truncate(c.description || `An academic certificate: ${c.name}.`, 300), canonical, 'Self-paced certificate'),
     mode: 'certificates',
     staticList: renderStaticList('certificates'),
     detailHtml,
@@ -292,6 +314,7 @@ courses.forEach((course) => {
     title: `${course.name} | Zuyini Academy Course`,
     description: truncate(course.description || `Video-based course: ${course.name}.`, 155),
     canonical,
+    jsonLd: courseLd(course.name, truncate(course.description || `A video-based course: ${course.name}.`, 300), canonical, 'Video course'),
     mode: 'roles',
     staticList: renderStaticList('roles'),
     detailHtml,

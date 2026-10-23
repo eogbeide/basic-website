@@ -1,0 +1,24 @@
+# Zuyini
+
+> Zuyini is an AI consulting and education practice founded by Manny Ogbeide. It offers Zuyini Academy (free, job-benchmarked career learning paths) and the Zuyini app (daily learning and personal growth). Both are free to start; the app works without sign-up.
+
+## Zuyini Academy (https://zuyini.com/academy/)
+
+- [Role paths](https://zuyini.com/academy/): 200+ job titles, each with Basic, Intermediate and Advanced levels of hand-picked free videos and a capstone project with a rubric. Benchmarked against real job postings.
+- [Find your path quiz](https://zuyini.com/academy/find-your-path/): a 60-second quiz that suggests a role.
+- Career pathways, academic certificates (self-paced, not accredited), skill tracks, courses and interview prep.
+- [Free credentials guide](https://zuyini.com/academy/real-credentials/): credentials from Google, Microsoft, AWS, Harvard and others, and what each is worth on a resume.
+- Job Radar: a free email digest of real openings for a role.
+- An on-site assistant that helps plan a career change, prepare for a new job or grow in a current role.
+
+## Zuyini app (https://app.zuyini.com/)
+
+- Daily mission, streaks, a 10-second check-in (sleep, energy, focus), weekly insights and growth tiers.
+- Executive Communication: daily phrases in 23 workplace situations and a 29-unit course.
+- Presenting & Speaking: articulation drills, shadowing, a speaking-rate meter and a 30-day Before & After journey.
+- Language learning: structured courses by level with short daily routines.
+- Money & Financial Literacy: budget, savings goals, a debt payoff planner, mortgage and investment calculators, and courses in financial literacy, investing, real estate and money markets. Education, not financial advice.
+- Books & Reading Club: summaries and key takeaways of best-selling books, a reading shelf and book clubs.
+- Movies, TV & Games: spoiler-free guides, a watchlist and watch or play clubs.
+- 30-Day Challenges (alone or with friends), Focus & Unwind sessions, fitness and weekly meal plans, Couples Together, and a personal AI assistant.
+- [Support](https://zuyini.com/daily-devotional/support.html) and [privacy policy](https://zuyini.com/daily-devotional/privacy.html).
