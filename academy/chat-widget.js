@@ -279,7 +279,7 @@
       state.open = !!saved.open;
       state.minimized = !!saved.minimized;
       state.maximized = !!saved.maximized;
-      state.messages = saved.messages.slice(-60);
+      state.messages = saved.messages.filter(function (m) { return m && !m.typing; }).slice(-60);
       state.ctx = saved.ctx && typeof saved.ctx === 'object' ? saved.ctx : {};
       return state;
     } catch (e) {
@@ -308,7 +308,7 @@
     '</button>' +
     '<div id="zuyini-chat-panel" hidden>' +
     '<div id="zuyini-chat-header">' +
-    '<div><strong>Zuyini Assistant</strong><span id="zuyini-chat-subtitle">Plan a career move or find the right path</span></div>' +
+    '<div><strong>Zuyini Assistant</strong><span id="zuyini-chat-subtitle">Ask a career question or plan your next move</span></div>' +
     '<div id="zuyini-chat-header-actions">' +
     '<button type="button" id="zuyini-chat-clear" aria-label="Start new chat"></button>' +
     '<button type="button" id="zuyini-chat-minimize" aria-label="Minimize chat"></button>' +
@@ -391,8 +391,12 @@
     if (msg.role === 'user') {
       return '<div class="zuyini-chat-msg zuyini-chat-msg-user">' + escapeHtml(msg.text) + '</div>';
     }
+    if (msg.typing) {
+      return '<div class="zuyini-chat-msg zuyini-chat-msg-bot zuyini-chat-typing" aria-label="The assistant is typing"><span></span><span></span><span></span></div>';
+    }
     var html = '<div class="zuyini-chat-msg zuyini-chat-msg-bot">';
     if (msg.text) html += paragraphs(msg.text);
+    if (msg.resultsLabel && msg.results && msg.results.length) html += '<p class="zuyini-chat-results-label">' + escapeHtml(msg.resultsLabel) + '</p>';
     if (msg.results && msg.results.length) {
       html += '<div class="zuyini-chat-results">' + msg.results.map(function (r) {
         return '<a class="zuyini-chat-result" href="' + escapeHtml(r.url) + '">' +
@@ -452,7 +456,7 @@
 
   function greet() {
     bot({
-      text: "Hi! I'm the Zuyini Assistant. I can help you plan a career change, get ready for a new job, grow in your current role or prepare for an interview, and answer questions about the Academy. What brings you here?",
+      text: "Hi! I'm the Zuyini Assistant. Ask me anything about careers, skills or learning, and I'll answer and point you to the right Academy pages. I can also plan a career change, get you ready for a new job or an interview, or help you grow in your current role. What's on your mind?",
       chips: GOAL_CHIPS,
     });
   }
@@ -965,9 +969,76 @@
     });
   }
 
+  // Open questions get a direct answer first (from the Zuyini API, using the
+  // closest Academy pages as context), then those pages. If the API can't
+  // answer (offline, busy, or today's limit), it falls back to the results.
+  var ASK_URL = (window.ZUYINI_API_BASE || 'https://zuyini-api.onrender.com/api') + '/academy/ask';
+
+  function chatHistory() {
+    return state.messages.slice(-9, -1).filter(function (m) { return m.text && !m.typing; }).map(function (m) {
+      var content = m.text + (m.results && m.results.length ? ' [Pages shown: ' + m.results.map(function (r) { return r.name; }).join('; ') + ']' : '');
+      return { role: m.role === 'user' ? 'user' : 'assistant', content: content };
+    });
+  }
+
+  function askAI(query, matches) {
+    var ctrl = typeof AbortController === 'function' ? new AbortController() : null;
+    var timer = setTimeout(function () { if (ctrl) ctrl.abort(); }, 25000);
+    return fetch(ASK_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      signal: ctrl ? ctrl.signal : undefined,
+      body: JSON.stringify({
+        question: query,
+        history: chatHistory(),
+        matches: matches.slice(0, 8).map(function (m) { return { name: m.entry.name, type: m.entry.label, snippet: clip(m.entry.snippet, 220) }; }),
+        page: document.title,
+      }),
+    }).then(function (res) {
+      clearTimeout(timer);
+      return res.json().then(function (body) { return res.ok ? body : null; });
+    }).catch(function () { clearTimeout(timer); return null; });
+  }
+
   function plainSearch(query, limit) {
-    var matches = search(query, { limit: limit || 5, min: 8 });
+    var matches = search(query, { limit: Math.max(limit || 5, 8), min: 8 });
     state.ctx.lastQuery = query;
+    var words = tokenize(query);
+    // "Show more" just lists more results.
+    if (limit || !String(query).trim()) return showResults(query, matches.slice(0, limit || 5), words);
+
+    var typing = { typing: true };
+    bot(typing);
+    askAI(query, matches).then(function (reply) {
+      var i = state.messages.indexOf(typing);
+      if (i !== -1) state.messages.splice(i, 1);
+      if (!reply || !reply.answer) return showResults(query, matches.slice(0, 5), words);
+      if (reply.crisis) return bot({ text: reply.answer });
+      var picked = (reply.picks || []).map(function (name) {
+        return matches.filter(function (m) { return m.entry.name === name; })[0];
+      }).filter(Boolean);
+      var pickedRoles = picked.filter(function (m) { return m.entry.type === 'role'; });
+      if (pickedRoles.length) {
+        state.ctx.lastRole = pickedRoles[0].entry.name;
+        state.ctx.lastResults = pickedRoles.map(function (m) { return m.entry.name; });
+      }
+      bot({
+        text: reply.answer,
+        resultsLabel: picked.length ? 'Related on the Academy:' : '',
+        results: picked.map(function (m) { var r = toResult(m, ''); r.percent = 0; return r; }),
+        after: reply.followUp || '',
+        external: picked.length ? null : externalLinksFor(query),
+        chips: pickedRoles.length ? followUps() : ['Help me choose a role', 'Change careers', 'Prepare for an interview'],
+      });
+    });
+  }
+
+  function showResults(query, matches, words) {
+    var roles = matches.filter(function (m) { return m.entry.type === 'role'; });
+    if (roles.length) {
+      state.ctx.lastRole = roles[0].entry.name;
+      state.ctx.lastResults = roles.map(function (m) { return m.entry.name; });
+    }
     if (!matches.length) {
       return bot({
         text: "I couldn't find a close match on the site for that. Here's a web search instead, or tell me what you're trying to achieve and I'll help you plan it.",
@@ -975,12 +1046,7 @@
         chips: ['Change careers', 'Grow in my current role', 'Prepare for a new job'],
       });
     }
-    var words = tokenize(query);
     var topRole = matches.filter(function (m) { return m.entry.type === 'role'; })[0];
-    if (topRole) {
-      state.ctx.lastRole = topRole.entry.name;
-      state.ctx.lastResults = matches.filter(function (m) { return m.entry.type === 'role'; }).map(function (m) { return m.entry.name; });
-    }
     bot({
       text: 'Here\'s what I found for "' + query + '":',
       results: matches.map(function (m) { return toResult(m, reasonFor(m, words)); }),
