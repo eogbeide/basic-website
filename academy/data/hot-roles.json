@@ -3,7 +3,7 @@
     "slug": "technical-program-manager-ai-ml",
     "name": "Technical Program Manager, AI/ML",
     "count": 6,
-    "newCount": 2,
+    "newCount": 0,
     "skills": [
       "Models / data / training / inference\u2026",
       "Program framing / functional requirem\u2026",
@@ -11,25 +11,25 @@
     ]
   },
   {
-    "slug": "gtm-growth-engineer-revenue-ai-engineer",
-    "name": "GTM Growth Engineer / Revenue AI Engineer",
+    "slug": "senior-manager-machine-learning-engineering",
+    "name": "Senior Manager, Machine Learning Engineering",
     "count": 6,
-    "newCount": 1,
+    "newCount": 0,
     "skills": [
-      "GTM Systems / Customer Discovery / Re\u2026",
-      "SQL / Customer Data / Funnel Metrics\u2026",
-      "Full-Stack Engineering / APIs / CRM &\u2026"
+      "ML Systems / MLOps / Platform Enginee\u2026",
+      "Data Pipelines / Feature Stores / Ann\u2026",
+      "PyTorch / DDP / GPU Compute / Serving\u2026"
     ]
   },
   {
-    "slug": "technical-program-manager-ai-inference",
-    "name": "Technical Program Manager, AI Inference",
+    "slug": "ai-research-scientist-applied-scientist",
+    "name": "AI Research Scientist / Applied Scientist",
     "count": 6,
-    "newCount": 1,
+    "newCount": 0,
     "skills": [
-      "Prefill/decode / GPU memory / model s\u2026",
-      "Critical path / dependencies / RACI /\u2026",
-      "TTFT / ITL / throughput / GPU utiliza\u2026"
+      "Statistics / Experimental Design / Ma\u2026",
+      "Deep Learning / Generative AI / Trans\u2026",
+      "Foundation Models / Data Curation / M\u2026"
     ]
   }
 ]
