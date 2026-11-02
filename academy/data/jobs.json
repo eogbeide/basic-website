@@ -60,41 +60,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
-},
-"ai-engineer": {
-"companies": [
-"OpenAI"
-],
-"jobs": [
-{
-"title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
-"postedDate": "2026-10-26",
-"isNew": false
-}
-],
-"asOf": "2026-11-01"
-},
-"ai-evaluation-reliability-engineer": {
-"companies": [
-"OpenAI"
-],
-"jobs": [
-{
-"title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
-"postedDate": "2026-10-26",
-"isNew": false
-}
-],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "ai-inference-performance-engineer": {
 "companies": [
@@ -119,35 +85,9 @@
 "url": "https://jobs.ashbyhq.com/openai/c3f0fb07-2153-4ba9-b812-cd7ceb363ae8",
 "postedDate": "2026-10-28",
 "isNew": false
-},
-{
-"title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
-"postedDate": "2026-10-26",
-"isNew": false
 }
 ],
-"asOf": "2026-11-01"
-},
-"ai-platform-engineer": {
-"companies": [
-"OpenAI"
-],
-"jobs": [
-{
-"title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
-"postedDate": "2026-10-26",
-"isNew": false
-}
-],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "ai-product-manager": {
 "companies": [
@@ -173,7 +113,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "ai-research-engineer": {
 "companies": [
@@ -206,23 +146,13 @@
 "url": "https://jobs.ashbyhq.com/openai/4bcc25ef-cf03-47db-896c-0fd9122afab1",
 "postedDate": "2026-10-30",
 "isNew": false
-},
-{
-"title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
-"postedDate": "2026-10-26",
-"isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "ai-security-engineer": {
 "companies": [
-"Anthropic",
-"OpenAI"
+"Anthropic"
 ],
 "jobs": [
 {
@@ -232,15 +162,6 @@
 "state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5419154008",
 "postedDate": "2026-10-29",
-"isNew": false
-},
-{
-"title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
-"postedDate": "2026-10-26",
 "isNew": false
 },
 {
@@ -262,44 +183,11 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
-},
-"ai-solutions-engineer": {
-"companies": [
-"OpenAI"
-],
-"jobs": [
-{
-"title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
-"postedDate": "2026-10-26",
-"isNew": false
-}
-],
-"asOf": "2026-11-01"
-},
-"ai-support-engineer": {
-"companies": [
-"OpenAI"
-],
-"jobs": [
-{
-"title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
-"postedDate": "2026-10-26",
-"isNew": false
-}
-],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "technical-program-manager-ai-ml": {
 "companies": [
+"Anthropic",
 "OpenAI"
 ],
 "jobs": [
@@ -311,6 +199,15 @@
 "url": "https://jobs.ashbyhq.com/openai/533659ff-2272-4683-87c9-b07d00feea4c",
 "postedDate": "2026-10-27",
 "isNew": false
+},
+{
+"title": "AI Outcomes Manager, Strategic Tech (Spanish-speaking)",
+"company": "Anthropic",
+"location": "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5465639008",
+"postedDate": "2026-11-02",
+"isNew": true
 },
 {
 "title": "Research Program Manager, Safety Systems",
@@ -349,7 +246,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "analytics-engineer": {
 "companies": [
@@ -366,7 +263,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "customer-support-service-ai-consultant": {
 "companies": [
@@ -392,7 +289,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "data-center-ai-infrastructure-engineer": {
 "companies": [
@@ -400,21 +297,21 @@
 ],
 "jobs": [
 {
+"title": "Data Center Controls Engineer (BMS / EPMS)",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/a46ffc60-39c6-4b1e-bd0f-9c33a8b06703",
+"postedDate": "2026-11-02",
+"isNew": true
+},
+{
 "title": "Manufacturing Quality Engineer, Data Center Equipment",
 "company": "OpenAI",
 "location": "US - Remote",
 "state": "Remote",
 "url": "https://jobs.ashbyhq.com/openai/2df14230-1cb5-4727-a34e-f480303e4212",
 "postedDate": "2026-10-30",
-"isNew": false
-},
-{
-"title": "Data Center Electrical R&D Engineer",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/c3d39767-3824-4d41-83dd-7b132834b122",
-"postedDate": "2026-10-26",
 "isNew": false
 },
 {
@@ -454,7 +351,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "developer-experience-engineer": {
 "companies": [
@@ -481,7 +378,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "devops-site-reliability-engineer": {
 "companies": [
@@ -498,7 +395,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "finance-ai-consultant": {
 "companies": [
@@ -515,7 +412,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "forward-deployed-engineer": {
 "companies": [
@@ -533,15 +430,6 @@
 "isNew": false
 },
 {
-"title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
-"postedDate": "2026-10-26",
-"isNew": false
-},
-{
 "title": "Deployment Lead, Forward Deployed Engineering (FDE) - Platform",
 "company": "OpenAI",
 "location": "San Francisco",
@@ -551,7 +439,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "legal-ai-consultant": {
 "companies": [
@@ -566,18 +454,9 @@
 "url": "https://jobs.ashbyhq.com/harvey/1b468ce7-37a6-4fd4-89a0-d706cc051190",
 "postedDate": "2026-10-27",
 "isNew": false
-},
-{
-"title": "Corporate Business Development Manager, Legal Data",
-"company": "Harvey",
-"location": "New York",
-"state": "NY",
-"url": "https://jobs.ashbyhq.com/harvey/6825190c-0cbe-4b53-976a-26afb3734c04",
-"postedDate": "2026-10-26",
-"isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "personal-executive-development": {
 "companies": [
@@ -594,7 +473,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "product-designer": {
 "companies": [
@@ -611,7 +490,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "product-security-engineer": {
 "companies": [
@@ -646,13 +525,22 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "quantitative-finance-fintech-engineer": {
 "companies": [
 "Stripe"
 ],
 "jobs": [
+{
+"title": "Data Scientist, FX Quantitative Research",
+"company": "Stripe",
+"location": "New York, NY",
+"state": "NY",
+"url": "https://stripe.com/jobs/search?gh_jid=8346831",
+"postedDate": "2026-11-02",
+"isNew": true
+},
 {
 "title": "Finance & Strategy Specialist",
 "company": "Stripe",
@@ -663,7 +551,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "sales-revenue-ai-consultant": {
 "companies": [
@@ -680,7 +568,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "sales-engineer-solutions-consultant": {
 "companies": [
@@ -697,7 +585,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "senior-manager": {
 "companies": [
@@ -714,7 +602,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "senior-manager-machine-learning-engineering": {
 "companies": [
@@ -777,7 +665,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "technical-manager": {
 "companies": [
@@ -794,7 +682,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "ai-research-scientist-applied-scientist": {
 "companies": [
@@ -847,7 +735,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "ai-experience-designer-agentic-ux-designer": {
 "companies": [
@@ -900,47 +788,23 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
-},
-"ai-hardware-accelerator-systems-engineer": {
-"companies": [
-"OpenAI"
-],
-"jobs": [
-{
-"title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
-"postedDate": "2026-10-26",
-"isNew": false
-}
-],
-"asOf": "2026-11-01"
-},
-"ai-agent-engineer-agentic-systems-engineer": {
-"companies": [
-"OpenAI"
-],
-"jobs": [
-{
-"title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
-"postedDate": "2026-10-26",
-"isNew": false
-}
-],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "it-support-specialist-it-technician": {
 "companies": [
-"Axon"
+"Axon",
+"Kong"
 ],
 "jobs": [
+{
+"title": "Senior Exec IT & Events Engineer",
+"company": "Kong",
+"location": "California, United States",
+"state": null,
+"url": "https://jobs.ashbyhq.com/kong/26240df4-72bc-4da4-a721-b6843a4a4c12",
+"postedDate": "2026-11-02",
+"isNew": true
+},
 {
 "title": "Automation Technician III (Onsite)",
 "company": "Axon",
@@ -960,7 +824,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "ai-solution-developer": {
 "companies": [
@@ -977,7 +841,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "business-operations-manager-strategy-operations": {
 "companies": [
@@ -1040,7 +904,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "enterprise-account-executive-ai-sales": {
 "companies": [
@@ -1058,13 +922,13 @@
 "isNew": false
 },
 {
-"title": "Account Director, Federal Partnerships (Defense)",
+"title": "Account Director, Startups | New Business",
 "company": "OpenAI",
-"location": "Washington, DC",
-"state": "DC",
-"url": "https://jobs.ashbyhq.com/openai/88d4dce1-a3ef-495f-b711-54988812336b",
-"postedDate": "2026-10-29",
-"isNew": false
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/50053f7b-c154-45af-b497-3298c826a15f",
+"postedDate": "2026-11-02",
+"isNew": true
 },
 {
 "title": "Manager, Enterprise Sales - Asset & Wealth Management",
@@ -1076,11 +940,11 @@
 "isNew": false
 },
 {
-"title": "Sales Manager, Startups",
+"title": "Account Director, Federal Partnerships (Defense)",
 "company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/d1f21456-f0bf-48ad-bb8d-ae0020a10600",
+"location": "Washington, DC",
+"state": "DC",
+"url": "https://jobs.ashbyhq.com/openai/88d4dce1-a3ef-495f-b711-54988812336b",
 "postedDate": "2026-10-29",
 "isNew": false
 },
@@ -1092,23 +956,33 @@
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5468266008",
 "postedDate": "2026-10-30",
 "isNew": false
+},
+{
+"title": "Sales Manager, Startups",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/d1f21456-f0bf-48ad-bb8d-ae0020a10600",
+"postedDate": "2026-10-29",
+"isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "strategic-partnerships-alliances-manager": {
 "companies": [
+"Anthropic",
 "OpenAI"
 ],
 "jobs": [
 {
-"title": "VC Partnerships Manager",
-"company": "OpenAI",
-"location": "San Francisco",
+"title": "AI Outcomes Manager, Strategic Tech (Spanish-speaking)",
+"company": "Anthropic",
+"location": "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",
 "state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/83ac3381-99c0-46a0-897c-abcd8699b466",
-"postedDate": "2026-10-26",
-"isNew": false
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5465639008",
+"postedDate": "2026-11-02",
+"isNew": true
 },
 {
 "title": "Account Director, Federal Partnerships (Defense)",
@@ -1138,7 +1012,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "crm-engineer-salesforce-revenue-systems-engineer": {
 "companies": [
@@ -1155,7 +1029,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "gtm-growth-engineer-revenue-ai-engineer": {
 "companies": [
@@ -1180,18 +1054,9 @@
 "url": "https://jobs.ashbyhq.com/openai/e5c39e03-6121-47be-8bd3-f6128557b38f",
 "postedDate": "2026-10-26",
 "isNew": false
-},
-{
-"title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
-"postedDate": "2026-10-26",
-"isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "claude-ai-engineer-anthropic-platform-engineer": {
 "companies": [
@@ -1208,7 +1073,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "openai-ai-engineer-applied-ai-engineer": {
 "companies": [
@@ -1223,35 +1088,9 @@
 "url": "https://jobs.ashbyhq.com/openai/18b4427e-b168-475e-a1e2-92a86c73f0f0",
 "postedDate": "2026-10-30",
 "isNew": false
-},
-{
-"title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
-"postedDate": "2026-10-26",
-"isNew": false
 }
 ],
-"asOf": "2026-11-01"
-},
-"oracle-oci-ai-engineer-enterprise-ai-agent-engineer": {
-"companies": [
-"OpenAI"
-],
-"jobs": [
-{
-"title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
-"postedDate": "2026-10-26",
-"isNew": false
-}
-],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "palantir-forward-deployed-ai-engineer-aip-engineer": {
 "companies": [
@@ -1268,7 +1107,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "communications-director": {
 "companies": [
@@ -1303,24 +1142,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
-},
-"conversational-ai-engineer": {
-"companies": [
-"OpenAI"
-],
-"jobs": [
-{
-"title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
-"postedDate": "2026-10-26",
-"isNew": false
-}
-],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "product-manager-agentic-commerce": {
 "companies": [
@@ -1337,10 +1159,11 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 },
 "technical-program-manager-ai-inference": {
 "companies": [
+"Anthropic",
 "OpenAI"
 ],
 "jobs": [
@@ -1352,6 +1175,15 @@
 "url": "https://jobs.ashbyhq.com/openai/533659ff-2272-4683-87c9-b07d00feea4c",
 "postedDate": "2026-10-27",
 "isNew": false
+},
+{
+"title": "AI Outcomes Manager, Strategic Tech (Spanish-speaking)",
+"company": "Anthropic",
+"location": "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5465639008",
+"postedDate": "2026-11-02",
+"isNew": true
 },
 {
 "title": "Research Program Manager, Safety Systems",
@@ -1390,6 +1222,6 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-01"
+"asOf": "2026-11-02"
 }
 }
