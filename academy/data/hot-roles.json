@@ -3,7 +3,7 @@
     "slug": "technical-program-manager-ai-ml",
     "name": "Technical Program Manager, AI/ML",
     "count": 6,
-    "newCount": 0,
+    "newCount": 1,
     "skills": [
       "Models / data / training / inference\u2026",
       "Program framing / functional requirem\u2026",
@@ -11,25 +11,25 @@
     ]
   },
   {
-    "slug": "senior-manager-machine-learning-engineering",
-    "name": "Senior Manager, Machine Learning Engineering",
+    "slug": "data-center-ai-infrastructure-engineer",
+    "name": "Data Center & AI Infrastructure Engineer",
     "count": 6,
-    "newCount": 0,
+    "newCount": 1,
     "skills": [
-      "ML Systems / MLOps / Platform Enginee\u2026",
-      "Data Pipelines / Feature Stores / Ann\u2026",
-      "PyTorch / DDP / GPU Compute / Serving\u2026"
+      "C168 Data Center Engineering",
+      "C152 / C126",
+      "C130 / C126"
     ]
   },
   {
-    "slug": "ai-research-scientist-applied-scientist",
-    "name": "AI Research Scientist / Applied Scientist",
+    "slug": "enterprise-account-executive-ai-sales",
+    "name": "Enterprise Account Executive / AI Sales",
     "count": 6,
-    "newCount": 0,
+    "newCount": 1,
     "skills": [
-      "Statistics / Experimental Design / Ma\u2026",
-      "Deep Learning / Generative AI / Trans\u2026",
-      "Foundation Models / Data Curation / M\u2026"
+      "Enterprise Sales / Customer Discovery\u2026",
+      "Product Marketing / Business Storytel\u2026",
+      "Enterprise GTM / Technical Sales / St\u2026"
     ]
   }
 ]
