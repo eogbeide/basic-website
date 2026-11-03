@@ -6,6 +6,15 @@
 ],
 "jobs": [
 {
+"title": "Data Center Strategic Sourcing Lead - Construction",
+"company": "Anthropic",
+"location": "San Francisco, CA | New York City, NY",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5468875008",
+"postedDate": "2026-11-02",
+"isNew": true
+},
+{
 "title": "Applied AI Delivery Lead - Mountain View",
 "company": "OpenAI",
 "location": "San Francisco",
@@ -42,15 +51,6 @@
 "isNew": false
 },
 {
-"title": "Product Cost Management Lead - AI Infrastructure",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/ed9255f0-981f-49e9-8b01-9fd203141929",
-"postedDate": "2026-10-26",
-"isNew": false
-},
-{
 "title": "Tech Lead Manager, Core Apps Data Scientist",
 "company": "Anthropic",
 "location": "New York City, NY; San Francisco, CA | New York City, NY; Seattle, WA",
@@ -60,7 +60,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "ai-inference-performance-engineer": {
 "companies": [
@@ -87,7 +87,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "ai-product-manager": {
 "companies": [
@@ -102,18 +102,9 @@
 "url": "https://jobs.ashbyhq.com/openai/36a746ab-66a6-4f3e-b164-3ca8fa9e0658",
 "postedDate": "2026-10-30",
 "isNew": false
-},
-{
-"title": "Product Cost Management Lead - AI Infrastructure",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/ed9255f0-981f-49e9-8b01-9fd203141929",
-"postedDate": "2026-10-26",
-"isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "ai-research-engineer": {
 "companies": [
@@ -128,6 +119,15 @@
 "url": "https://jobs.ashbyhq.com/openai/0f600ed1-d70a-4648-820f-a1d1da3f7617",
 "postedDate": "2026-10-28",
 "isNew": false
+},
+{
+"title": "Designer, Research and Experiments",
+"company": "OpenAI",
+"location": "US - Remote",
+"state": "Remote",
+"url": "https://jobs.ashbyhq.com/openai/ed37f572-0310-43fb-99b8-0600d9123638",
+"postedDate": "2026-11-02",
+"isNew": true
 },
 {
 "title": "Research Program Manager, Safety Systems",
@@ -148,7 +148,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "ai-security-engineer": {
 "companies": [
@@ -172,18 +172,9 @@
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462972008",
 "postedDate": "2026-10-27",
 "isNew": false
-},
-{
-"title": "Security Data Engineer",
-"company": "Anthropic",
-"location": "Remote-Friendly (Travel Required) | San Francisco, CA",
-"state": "CA",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5462966008",
-"postedDate": "2026-10-26",
-"isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "technical-program-manager-ai-ml": {
 "companies": [
@@ -207,7 +198,7 @@
 "state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5465639008",
 "postedDate": "2026-11-02",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Research Program Manager, Safety Systems",
@@ -246,7 +237,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "analytics-engineer": {
 "companies": [
@@ -263,7 +254,24 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
+},
+"cloud-platform-engineer": {
+"companies": [
+"OpenAI"
+],
+"jobs": [
+{
+"title": "EDA Cloud & Developer Infrastructure Engineer",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/4f2d9849-ad00-48d5-a22f-0cb943723999",
+"postedDate": "2026-11-03",
+"isNew": true
+}
+],
+"asOf": "2026-11-03"
 },
 "customer-support-service-ai-consultant": {
 "companies": [
@@ -289,7 +297,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "data-center-ai-infrastructure-engineer": {
 "companies": [
@@ -303,7 +311,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/a46ffc60-39c6-4b1e-bd0f-9c33a8b06703",
 "postedDate": "2026-11-02",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Manufacturing Quality Engineer, Data Center Equipment",
@@ -313,6 +321,15 @@
 "url": "https://jobs.ashbyhq.com/openai/2df14230-1cb5-4727-a34e-f480303e4212",
 "postedDate": "2026-10-30",
 "isNew": false
+},
+{
+"title": "EDA Cloud & Developer Infrastructure Engineer",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/4f2d9849-ad00-48d5-a22f-0cb943723999",
+"postedDate": "2026-11-03",
+"isNew": true
 },
 {
 "title": "Software Engineer, Traffic Infrastructure",
@@ -340,25 +357,26 @@
 "url": "https://jobs.ashbyhq.com/openai/33acf0e2-5c11-46d7-9dc9-417f5537139b",
 "postedDate": "2026-10-29",
 "isNew": false
-},
-{
-"title": "Land and Data Center Development",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/9878a31f-423b-43cc-b169-8bb7e55b8fc7",
-"postedDate": "2026-10-28",
-"isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "developer-experience-engineer": {
 "companies": [
 "Anthropic",
+"OpenAI",
 "Stripe"
 ],
 "jobs": [
+{
+"title": "EDA Cloud & Developer Infrastructure Engineer",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/4f2d9849-ad00-48d5-a22f-0cb943723999",
+"postedDate": "2026-11-03",
+"isNew": true
+},
 {
 "title": "Technical Curriculum Developer, Technical Enablement",
 "company": "Stripe",
@@ -378,30 +396,22 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
-},
-"devops-site-reliability-engineer": {
-"companies": [
-"OpenAI"
-],
-"jobs": [
-{
-"title": "Site Civil, Structural & Architectural Lead (CSLA)",
-"company": "OpenAI",
-"location": "US - Remote",
-"state": "Remote",
-"url": "https://jobs.ashbyhq.com/openai/d1abed60-d3d1-4c8d-a58b-3a96139fbf4e",
-"postedDate": "2026-10-27",
-"isNew": false
-}
-],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "finance-ai-consultant": {
 "companies": [
 "OpenAI"
 ],
 "jobs": [
+{
+"title": "Head of Data Science, Strategic Finance",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/961d2951-ff59-494f-971e-fe25414c234c",
+"postedDate": "2026-11-02",
+"isNew": true
+},
 {
 "title": "Strategic Finance, Workloads",
 "company": "OpenAI",
@@ -412,11 +422,10 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "forward-deployed-engineer": {
 "companies": [
-"OpenAI",
 "Palantir"
 ],
 "jobs": [
@@ -428,24 +437,41 @@
 "url": "https://jobs.lever.co/palantir/491a0133-b580-45c3-9fd4-2314faf82fb9",
 "postedDate": "2026-10-28",
 "isNew": false
-},
-{
-"title": "Deployment Lead, Forward Deployed Engineering (FDE) - Platform",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/bc80a3ae-1e69-4a8d-8366-77fcdd56ff61",
-"postedDate": "2026-10-27",
-"isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
+},
+"growth-product-manager": {
+"companies": [
+"GitLab"
+],
+"jobs": [
+{
+"title": "Staff Product Manager, Tenant Scale",
+"company": "GitLab",
+"location": "Remote, Canada; Remote, United States",
+"state": "Remote",
+"url": "https://job-boards.greenhouse.io/gitlab/jobs/8919537002",
+"postedDate": "2026-11-03",
+"isNew": true
+}
+],
+"asOf": "2026-11-03"
 },
 "legal-ai-consultant": {
 "companies": [
 "Harvey"
 ],
 "jobs": [
+{
+"title": "Legal Engineer (Law Firm, Litigation/Regulatory)",
+"company": "Harvey",
+"location": "Boston",
+"state": "MA",
+"url": "https://jobs.ashbyhq.com/harvey/6b91c32f-2fc6-4215-a743-9e83151de61e",
+"postedDate": "2026-11-03",
+"isNew": true
+},
 {
 "title": "Legal Engineering Manager, Product Specialist",
 "company": "Harvey",
@@ -456,7 +482,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "personal-executive-development": {
 "companies": [
@@ -473,7 +499,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "product-designer": {
 "companies": [
@@ -490,7 +516,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "product-security-engineer": {
 "companies": [
@@ -514,18 +540,9 @@
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462972008",
 "postedDate": "2026-10-27",
 "isNew": false
-},
-{
-"title": "Security Data Engineer",
-"company": "Anthropic",
-"location": "Remote-Friendly (Travel Required) | San Francisco, CA",
-"state": "CA",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5462966008",
-"postedDate": "2026-10-26",
-"isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "quantitative-finance-fintech-engineer": {
 "companies": [
@@ -551,7 +568,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "sales-revenue-ai-consultant": {
 "companies": [
@@ -568,7 +585,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "sales-engineer-solutions-consultant": {
 "companies": [
@@ -585,7 +602,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "senior-manager": {
 "companies": [
@@ -602,7 +619,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "senior-manager-machine-learning-engineering": {
 "companies": [
@@ -629,30 +646,12 @@
 "isNew": false
 },
 {
-"title": "Deployment Lead, Forward Deployed Engineering (FDE) - Platform",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/bc80a3ae-1e69-4a8d-8366-77fcdd56ff61",
-"postedDate": "2026-10-27",
-"isNew": false
-},
-{
 "title": "Senior Product Manager, Applied AI",
 "company": "Metropolis",
 "location": "Seattle, Washington, United States",
 "state": null,
 "url": "https://job-boards.greenhouse.io/metropolis/jobs/7741579003",
 "postedDate": "2026-10-27",
-"isNew": false
-},
-{
-"title": "Founding Software Engineer, Physical Engineering",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/2c646ef9-6f93-4124-9d51-964d2c5aa783",
-"postedDate": "2026-10-26",
 "isNew": false
 },
 {
@@ -665,7 +664,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "technical-manager": {
 "companies": [
@@ -682,7 +681,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "ai-research-scientist-applied-scientist": {
 "companies": [
@@ -706,6 +705,15 @@
 "url": "https://jobs.ashbyhq.com/openai/18b4427e-b168-475e-a1e2-92a86c73f0f0",
 "postedDate": "2026-10-30",
 "isNew": false
+},
+{
+"title": "Designer, Research and Experiments",
+"company": "OpenAI",
+"location": "US - Remote",
+"state": "Remote",
+"url": "https://jobs.ashbyhq.com/openai/ed37f572-0310-43fb-99b8-0600d9123638",
+"postedDate": "2026-11-02",
+"isNew": true
 },
 {
 "title": "Research Program Manager, Safety Systems",
@@ -735,13 +743,22 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "ai-experience-designer-agentic-ux-designer": {
 "companies": [
 "OpenAI"
 ],
 "jobs": [
+{
+"title": "Designer, Research and Experiments",
+"company": "OpenAI",
+"location": "US - Remote",
+"state": "Remote",
+"url": "https://jobs.ashbyhq.com/openai/ed37f572-0310-43fb-99b8-0600d9123638",
+"postedDate": "2026-11-02",
+"isNew": true
+},
 {
 "title": "Service Designer, Intelligence & Investigations",
 "company": "OpenAI",
@@ -788,7 +805,24 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
+},
+"ai-hardware-accelerator-systems-engineer": {
+"companies": [
+"OpenAI"
+],
+"jobs": [
+{
+"title": "Accounting Lead, Hardware",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/bfecbfa0-6573-4c00-8215-50e271f411bc",
+"postedDate": "2026-11-03",
+"isNew": true
+}
+],
+"asOf": "2026-11-03"
 },
 "it-support-specialist-it-technician": {
 "companies": [
@@ -803,7 +837,7 @@
 "state": null,
 "url": "https://jobs.ashbyhq.com/kong/26240df4-72bc-4da4-a721-b6843a4a4c12",
 "postedDate": "2026-11-02",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Automation Technician III (Onsite)",
@@ -824,13 +858,23 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "ai-solution-developer": {
 "companies": [
+"OpenAI",
 "Stripe"
 ],
 "jobs": [
+{
+"title": "EDA Cloud & Developer Infrastructure Engineer",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/4f2d9849-ad00-48d5-a22f-0cb943723999",
+"postedDate": "2026-11-03",
+"isNew": true
+},
 {
 "title": "Technical Curriculum Developer, Technical Enablement",
 "company": "Stripe",
@@ -841,7 +885,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "business-operations-manager-strategy-operations": {
 "companies": [
@@ -877,15 +921,6 @@
 "isNew": false
 },
 {
-"title": "GTM Strategy & Operations, Policy",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/e5c39e03-6121-47be-8bd3-f6128557b38f",
-"postedDate": "2026-10-26",
-"isNew": false
-},
-{
 "title": "Startup Products Strategy & Operations, Insights & Analytics",
 "company": "Stripe",
 "location": "Remote US",
@@ -904,7 +939,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "enterprise-account-executive-ai-sales": {
 "companies": [
@@ -912,15 +947,6 @@
 "OpenAI"
 ],
 "jobs": [
-{
-"title": "Manager, Enterprise Sales - Pharma",
-"company": "Anthropic",
-"location": "Boston, MA; San Francisco, CA | New York City, NY",
-"state": "MA",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5464926008",
-"postedDate": "2026-10-27",
-"isNew": false
-},
 {
 "title": "Account Director, Startups | New Business",
 "company": "OpenAI",
@@ -931,12 +957,12 @@
 "isNew": true
 },
 {
-"title": "Manager, Enterprise Sales - Asset & Wealth Management",
+"title": "Content Strategy Lead, Executive Programs",
 "company": "Anthropic",
-"location": "New York City, NY",
-"state": "NY",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5464894008",
-"postedDate": "2026-10-27",
+"location": "San Francisco, CA | New York City, NY",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5468266008",
+"postedDate": "2026-10-30",
 "isNew": false
 },
 {
@@ -949,15 +975,6 @@
 "isNew": false
 },
 {
-"title": "Content Strategy Lead, Executive Programs",
-"company": "Anthropic",
-"location": "San Francisco, CA | New York City, NY",
-"state": "CA",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5468266008",
-"postedDate": "2026-10-30",
-"isNew": false
-},
-{
 "title": "Sales Manager, Startups",
 "company": "OpenAI",
 "location": "San Francisco",
@@ -967,7 +984,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "strategic-partnerships-alliances-manager": {
 "companies": [
@@ -981,6 +998,24 @@
 "location": "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",
 "state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5465639008",
+"postedDate": "2026-11-02",
+"isNew": false
+},
+{
+"title": "Head of Data Science, Strategic Finance",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/961d2951-ff59-494f-971e-fe25414c234c",
+"postedDate": "2026-11-02",
+"isNew": true
+},
+{
+"title": "Data Center Strategic Sourcing Lead - Construction",
+"company": "Anthropic",
+"location": "San Francisco, CA | New York City, NY",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5468875008",
 "postedDate": "2026-11-02",
 "isNew": true
 },
@@ -1012,7 +1047,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "crm-engineer-salesforce-revenue-systems-engineer": {
 "companies": [
@@ -1029,12 +1064,11 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "gtm-growth-engineer-revenue-ai-engineer": {
 "companies": [
-"Anthropic",
-"OpenAI"
+"Anthropic"
 ],
 "jobs": [
 {
@@ -1045,24 +1079,24 @@
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5467233008",
 "postedDate": "2026-10-30",
 "isNew": false
-},
-{
-"title": "GTM Strategy & Operations, Policy",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/e5c39e03-6121-47be-8bd3-f6128557b38f",
-"postedDate": "2026-10-26",
-"isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "claude-ai-engineer-anthropic-platform-engineer": {
 "companies": [
 "Anthropic"
 ],
 "jobs": [
+{
+"title": "Marketing Lead, Claude Frontier Academy",
+"company": "Anthropic",
+"location": "San Francisco, CA | New York City, NY",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5467561008",
+"postedDate": "2026-11-02",
+"isNew": true
+},
 {
 "title": "Anthropic Research Resident",
 "company": "Anthropic",
@@ -1073,7 +1107,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "openai-ai-engineer-applied-ai-engineer": {
 "companies": [
@@ -1090,7 +1124,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "palantir-forward-deployed-ai-engineer-aip-engineer": {
 "companies": [
@@ -1105,9 +1139,44 @@
 "url": "https://jobs.lever.co/palantir/491a0133-b580-45c3-9fd4-2314faf82fb9",
 "postedDate": "2026-10-28",
 "isNew": false
+},
+{
+"title": "Software Engineer - Applied AI, Defense Applications",
+"company": "Palantir",
+"location": "Washington, D.C.",
+"state": "WA",
+"url": "https://jobs.lever.co/palantir/ca222ecd-b659-4e3e-aee5-d85655c7bbc8",
+"postedDate": "2026-11-02",
+"isNew": true
+},
+{
+"title": "Software Engineer - Applied AI, Defense Applications",
+"company": "Palantir",
+"location": "New York, NY",
+"state": "NY",
+"url": "https://jobs.lever.co/palantir/6b4b087c-4fc6-476d-9e72-e1bc6ac6c62a",
+"postedDate": "2026-11-02",
+"isNew": true
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
+},
+"ai-agent-developer": {
+"companies": [
+"OpenAI"
+],
+"jobs": [
+{
+"title": "EDA Cloud & Developer Infrastructure Engineer",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/4f2d9849-ad00-48d5-a22f-0cb943723999",
+"postedDate": "2026-11-03",
+"isNew": true
+}
+],
+"asOf": "2026-11-03"
 },
 "communications-director": {
 "companies": [
@@ -1142,7 +1211,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "product-manager-agentic-commerce": {
 "companies": [
@@ -1159,7 +1228,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 },
 "technical-program-manager-ai-inference": {
 "companies": [
@@ -1183,7 +1252,7 @@
 "state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5465639008",
 "postedDate": "2026-11-02",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Research Program Manager, Safety Systems",
@@ -1222,6 +1291,6 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-02"
+"asOf": "2026-11-03"
 }
 }
