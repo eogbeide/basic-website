@@ -1,13 +1,13 @@
 [
   {
-    "slug": "technical-program-manager-ai-ml",
-    "name": "Technical Program Manager, AI/ML",
+    "slug": "enterprise-account-executive-ai-sales",
+    "name": "Enterprise Account Executive / AI Sales",
     "count": 6,
-    "newCount": 1,
+    "newCount": 2,
     "skills": [
-      "Models / data / training / inference\u2026",
-      "Program framing / functional requirem\u2026",
-      "Offline/online metrics / golden sets\u2026"
+      "Enterprise Sales / Customer Discovery\u2026",
+      "Product Marketing / Business Storytel\u2026",
+      "Enterprise GTM / Technical Sales / St\u2026"
     ]
   },
   {
@@ -22,14 +22,14 @@
     ]
   },
   {
-    "slug": "enterprise-account-executive-ai-sales",
-    "name": "Enterprise Account Executive / AI Sales",
+    "slug": "legal-ai-consultant",
+    "name": "Legal AI Consultant",
     "count": 6,
     "newCount": 1,
     "skills": [
-      "Enterprise Sales / Customer Discovery\u2026",
-      "Product Marketing / Business Storytel\u2026",
-      "Enterprise GTM / Technical Sales / St\u2026"
+      "Retrieval-Augmented Generation (RAG)",
+      "Natural Language Processing (NLP) & D\u2026",
+      "Graph Databases, Knowledge Graphs, Gr\u2026"
     ]
   }
 ]
