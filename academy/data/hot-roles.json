@@ -1,35 +1,35 @@
 [
   {
-    "slug": "enterprise-account-executive-ai-sales",
-    "name": "Enterprise Account Executive / AI Sales",
+    "slug": "senior-manager-machine-learning-engineering",
+    "name": "Senior Manager, Machine Learning Engineering",
     "count": 6,
     "newCount": 2,
     "skills": [
-      "Enterprise Sales / Customer Discovery\u2026",
-      "Product Marketing / Business Storytel\u2026",
-      "Enterprise GTM / Technical Sales / St\u2026"
+      "ML Systems / MLOps / Platform Enginee\u2026",
+      "Data Pipelines / Feature Stores / Ann\u2026",
+      "PyTorch / DDP / GPU Compute / Serving\u2026"
     ]
   },
   {
-    "slug": "data-center-ai-infrastructure-engineer",
-    "name": "Data Center & AI Infrastructure Engineer",
+    "slug": "ai-research-scientist-applied-scientist",
+    "name": "AI Research Scientist / Applied Scientist",
     "count": 6,
-    "newCount": 1,
+    "newCount": 2,
     "skills": [
-      "C168 Data Center Engineering",
-      "C152 / C126",
-      "C130 / C126"
+      "Statistics / Experimental Design / Ma\u2026",
+      "Deep Learning / Generative AI / Trans\u2026",
+      "Foundation Models / Data Curation / M\u2026"
     ]
   },
   {
-    "slug": "legal-ai-consultant",
-    "name": "Legal AI Consultant",
+    "slug": "gtm-growth-engineer-revenue-ai-engineer",
+    "name": "GTM Growth Engineer / Revenue AI Engineer",
     "count": 6,
-    "newCount": 1,
+    "newCount": 2,
     "skills": [
-      "Retrieval-Augmented Generation (RAG)",
-      "Natural Language Processing (NLP) & D\u2026",
-      "Graph Databases, Knowledge Graphs, Gr\u2026"
+      "GTM Systems / Customer Discovery / Re\u2026",
+      "SQL / Customer Data / Funnel Metrics\u2026",
+      "Full-Stack Engineering / APIs / CRM &\u2026"
     ]
   }
 ]
