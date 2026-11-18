@@ -11,7 +11,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/88db99b3-9689-43d1-9223-215be81a0c02",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Builder Education",
@@ -20,10 +20,10 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/d6fac6f4-0b96-4c09-9349-9b7fc99a6547",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "ai-data-strategy-lead": {
 "companies": [
@@ -31,13 +31,22 @@
 ],
 "jobs": [
 {
+"title": "GTM Activations Strategy Lead",
+"company": "Anthropic",
+"location": "San Francisco, CA | New York City, NY",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5483359008",
+"postedDate": "2026-11-17",
+"isNew": true
+},
+{
 "title": "Web Strategy Lead",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY",
 "state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5465637008",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Tech Lead Manager, Growth Data Science",
@@ -49,13 +58,23 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "ai-engineer": {
 "companies": [
+"Anthropic",
 "OpenAI"
 ],
 "jobs": [
+{
+"title": "Applied AI Engineer, Commercial",
+"company": "Anthropic",
+"location": "San Francisco, CA",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5483945008",
+"postedDate": "2026-11-18",
+"isNew": true
+},
 {
 "title": "Partner Applied AI Engineer, AWS",
 "company": "OpenAI",
@@ -84,13 +103,23 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "ai-evaluation-reliability-engineer": {
 "companies": [
+"Anthropic",
 "OpenAI"
 ],
 "jobs": [
+{
+"title": "Applied AI Engineer, Commercial",
+"company": "Anthropic",
+"location": "San Francisco, CA",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5483945008",
+"postedDate": "2026-11-18",
+"isNew": true
+},
 {
 "title": "Partner Applied AI Engineer, AWS",
 "company": "OpenAI",
@@ -119,13 +148,23 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "ai-inference-performance-engineer": {
 "companies": [
+"Anthropic",
 "OpenAI"
 ],
 "jobs": [
+{
+"title": "Applied AI Engineer, Commercial",
+"company": "Anthropic",
+"location": "San Francisco, CA",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5483945008",
+"postedDate": "2026-11-18",
+"isNew": true
+},
 {
 "title": "Partner Applied AI Engineer, AWS",
 "company": "OpenAI",
@@ -154,13 +193,23 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "ai-platform-engineer": {
 "companies": [
+"Anthropic",
 "OpenAI"
 ],
 "jobs": [
+{
+"title": "Applied AI Engineer, Commercial",
+"company": "Anthropic",
+"location": "San Francisco, CA",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5483945008",
+"postedDate": "2026-11-18",
+"isNew": true
+},
 {
 "title": "Partner Applied AI Engineer, AWS",
 "company": "OpenAI",
@@ -189,7 +238,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "ai-product-manager": {
 "companies": [
@@ -197,13 +246,31 @@
 ],
 "jobs": [
 {
+"title": "Technical Product Manager, GRC Systems",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/2893060b-3795-4780-b538-48bb7d52254b",
+"postedDate": "2026-11-18",
+"isNew": true
+},
+{
+"title": "Growth Product Marketing Manager, SMB & B2B Self-Serve",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/db94a680-af5e-49e9-923c-149bc2c81879",
+"postedDate": "2026-11-18",
+"isNew": true
+},
+{
 "title": "AI Deployment Manager - Builder (Spanish- and Portuguese-Speaking)",
 "company": "OpenAI",
 "location": "San Francisco",
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/88db99b3-9689-43d1-9223-215be81a0c02",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Growth Product Marketing Manager",
@@ -233,7 +300,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "ai-research-engineer": {
 "companies": [
@@ -277,7 +344,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "ai-security-engineer": {
 "companies": [
@@ -286,21 +353,21 @@
 ],
 "jobs": [
 {
+"title": "Applied AI Engineer, Commercial",
+"company": "Anthropic",
+"location": "San Francisco, CA",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5483945008",
+"postedDate": "2026-11-18",
+"isNew": true
+},
+{
 "title": "Partner Applied AI Engineer, AWS",
 "company": "OpenAI",
 "location": "San Francisco",
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/9635775d-18fa-47bb-9ede-9a4137618de0",
 "postedDate": "2026-11-16",
-"isNew": false
-},
-{
-"title": "Security Engineer, RF and Technical Surveillance Countermeasures",
-"company": "Anthropic",
-"location": "San Francisco, CA | New York City, NY",
-"state": "CA",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5476579008",
-"postedDate": "2026-11-10",
 "isNew": false
 },
 {
@@ -322,14 +389,24 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "ai-solutions-engineer": {
 "companies": [
+"Anthropic",
 "OpenAI"
 ],
 "jobs": [
 {
+"title": "Applied AI Engineer, Commercial",
+"company": "Anthropic",
+"location": "San Francisco, CA",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5483945008",
+"postedDate": "2026-11-18",
+"isNew": true
+},
+{
 "title": "Partner Applied AI Engineer, AWS",
 "company": "OpenAI",
 "location": "San Francisco",
@@ -357,7 +434,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "ai-support-engineer": {
 "companies": [
@@ -381,16 +458,16 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/e0e05de8-e313-4249-bb84-2a44b2ed6d8e",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
-"title": "Partner Support Operations Lead",
+"title": "Applied AI Engineer, Commercial",
 "company": "Anthropic",
-"location": "San Francisco, CA | New York City, NY",
+"location": "San Francisco, CA",
 "state": "CA",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5453322008",
-"postedDate": "2026-11-12",
-"isNew": false
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5483945008",
+"postedDate": "2026-11-18",
+"isNew": true
 },
 {
 "title": "Partner Applied AI Engineer, AWS",
@@ -402,6 +479,15 @@
 "isNew": false
 },
 {
+"title": "Partner Support Operations Lead",
+"company": "Anthropic",
+"location": "San Francisco, CA | New York City, NY",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5453322008",
+"postedDate": "2026-11-12",
+"isNew": false
+},
+{
 "title": "Partner Applied AI Engineer, Oracle and Cloud ISV",
 "company": "OpenAI",
 "location": "San Francisco",
@@ -409,18 +495,9 @@
 "url": "https://jobs.ashbyhq.com/openai/edfaa3d2-3434-4e51-af74-3945d63ad871",
 "postedDate": "2026-11-11",
 "isNew": false
-},
-{
-"title": "Partner Applied AI Engineer, Google Cloud",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/9a57d693-24ad-4457-a408-50617551ea5e",
-"postedDate": "2026-11-11",
-"isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "technical-program-manager-ai-ml": {
 "companies": [
@@ -438,12 +515,12 @@
 "isNew": false
 },
 {
-"title": "Global Transportation Program Manager",
+"title": "Technical Product Manager, GRC Systems",
 "company": "OpenAI",
 "location": "San Francisco",
 "state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/a5d30d9b-0127-4682-be03-d787467e606f",
-"postedDate": "2026-11-17",
+"url": "https://jobs.ashbyhq.com/openai/2893060b-3795-4780-b538-48bb7d52254b",
+"postedDate": "2026-11-18",
 "isNew": true
 },
 {
@@ -456,13 +533,13 @@
 "isNew": false
 },
 {
-"title": "AI Deployment Manager - Builder (Spanish- and Portuguese-Speaking)",
+"title": "Global Transportation Program Manager",
 "company": "OpenAI",
 "location": "San Francisco",
 "state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/88db99b3-9689-43d1-9223-215be81a0c02",
+"url": "https://jobs.ashbyhq.com/openai/a5d30d9b-0127-4682-be03-d787467e606f",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Technical Program Manager, External Evaluators",
@@ -474,33 +551,16 @@
 "isNew": false
 },
 {
-"title": "Model Safety Program Manager, User Safety & Risk Operations",
+"title": "AI Deployment Manager - Builder (Spanish- and Portuguese-Speaking)",
 "company": "OpenAI",
 "location": "San Francisco",
 "state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/4444d839-3f58-4369-a241-985acbbbf2f9",
-"postedDate": "2026-11-13",
+"url": "https://jobs.ashbyhq.com/openai/88db99b3-9689-43d1-9223-215be81a0c02",
+"postedDate": "2026-11-17",
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
-},
-"analytics-engineer": {
-"companies": [
-"Airbnb"
-],
-"jobs": [
-{
-"title": "Advanced Analytics Intern",
-"company": "Airbnb",
-"location": "United States",
-"state": null,
-"url": "https://careers.airbnb.com/positions/8380007?gh_jid=8380007",
-"postedDate": "2026-11-11",
-"isNew": false
-}
-],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "backend-integration-engineer": {
 "companies": [
@@ -515,9 +575,18 @@
 "url": "https://stripe.com/jobs/search?gh_jid=8384325",
 "postedDate": "2026-11-12",
 "isNew": false
+},
+{
+"title": "Manager, Integration Engineering",
+"company": "Stripe",
+"location": "US-Seattle, US-Chicago",
+"state": null,
+"url": "https://stripe.com/jobs/search?gh_jid=8275259",
+"postedDate": "2026-11-18",
+"isNew": true
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "cloud-platform-engineer": {
 "companies": [
@@ -543,7 +612,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "compliance-risk-ai-consultant": {
 "companies": [
@@ -569,7 +638,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "core-ai-product-manager": {
 "companies": [
@@ -613,7 +682,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "customer-support-service-ai-consultant": {
 "companies": [
@@ -627,7 +696,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/e0e05de8-e313-4249-bb84-2a44b2ed6d8e",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Customer Education Adoption Lead",
@@ -636,10 +705,10 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/d78c0cd2-d0dd-4d81-8c18-3480df089b62",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "data-center-ai-infrastructure-engineer": {
 "companies": [
@@ -683,7 +752,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "data-engineer": {
 "companies": [
@@ -700,7 +769,7 @@
 "isNew": true
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "data-scientist": {
 "companies": [
@@ -714,10 +783,10 @@
 "state": "Remote",
 "url": "https://careers.airbnb.com/positions/8394151?gh_jid=8394151",
 "postedDate": "2026-11-16",
-"isNew": true
+"isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "developer-experience-engineer": {
 "companies": [
@@ -725,16 +794,16 @@
 ],
 "jobs": [
 {
-"title": "Product Manager, Seller Experience",
+"title": "Developer Relations, Platform",
 "company": "Anthropic",
 "location": "San Francisco, CA | New York City, NY",
 "state": "CA",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5477601008",
-"postedDate": "2026-11-10",
-"isNew": false
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5206870008",
+"postedDate": "2026-11-17",
+"isNew": true
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "healthcare-ai-consultant": {
 "companies": [
@@ -751,7 +820,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "legal-ai-consultant": {
 "companies": [
@@ -795,7 +864,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "personal-executive-development": {
 "companies": [
@@ -808,7 +877,7 @@
 "location": "San Francisco",
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/c717b98e-5394-4ad1-ae3f-e036717ad9b5",
-"postedDate": "2026-11-16",
+"postedDate": "2026-11-18",
 "isNew": true
 },
 {
@@ -830,7 +899,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "product-builder": {
 "companies": [
@@ -844,7 +913,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/d6fac6f4-0b96-4c09-9349-9b7fc99a6547",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "AI Deployment Manager - Builder (Spanish- and Portuguese-Speaking)",
@@ -853,16 +922,25 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/88db99b3-9689-43d1-9223-215be81a0c02",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "product-marketing-manager": {
 "companies": [
 "OpenAI"
 ],
 "jobs": [
+{
+"title": "Growth Product Marketing Manager, SMB & B2B Self-Serve",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/db94a680-af5e-49e9-923c-149bc2c81879",
+"postedDate": "2026-11-18",
+"isNew": true
+},
 {
 "title": "Growth Product Marketing Manager",
 "company": "OpenAI",
@@ -880,43 +958,18 @@
 "url": "https://jobs.ashbyhq.com/openai/274f9be7-5601-469b-83c6-ea16240bdbd0",
 "postedDate": "2026-11-17",
 "isNew": true
-}
-],
-"asOf": "2026-11-17"
 },
-"product-operations-manager": {
-"companies": [
-"Anthropic"
-],
-"jobs": [
 {
-"title": "Product Manager, Seller Experience",
-"company": "Anthropic",
-"location": "San Francisco, CA | New York City, NY",
+"title": "Technical Product Manager, GRC Systems",
+"company": "OpenAI",
+"location": "San Francisco",
 "state": "CA",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5477601008",
-"postedDate": "2026-11-10",
-"isNew": false
+"url": "https://jobs.ashbyhq.com/openai/2893060b-3795-4780-b538-48bb7d52254b",
+"postedDate": "2026-11-18",
+"isNew": true
 }
 ],
-"asOf": "2026-11-17"
-},
-"product-security-engineer": {
-"companies": [
-"Anthropic"
-],
-"jobs": [
-{
-"title": "Security Engineer, RF and Technical Surveillance Countermeasures",
-"company": "Anthropic",
-"location": "San Francisco, CA | New York City, NY",
-"state": "CA",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5476579008",
-"postedDate": "2026-11-10",
-"isNew": false
-}
-],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "quantitative-finance-fintech-engineer": {
 "companies": [
@@ -930,10 +983,10 @@
 "state": "Remote",
 "url": "https://stripe.com/jobs/search?gh_jid=8393939",
 "postedDate": "2026-11-16",
-"isNew": true
+"isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "responsible-ai-manager": {
 "companies": [
@@ -947,7 +1000,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/88db99b3-9689-43d1-9223-215be81a0c02",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "AI Deployment Manager (Japanese-Speaking)",
@@ -968,7 +1021,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "revenue-operations-manager": {
 "companies": [
@@ -985,7 +1038,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "sales-revenue-ai-consultant": {
 "companies": [
@@ -999,7 +1052,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/d484d3b2-2ae5-40a1-b6b0-4fb228895aee",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Sales Manager, Global Ads Solutions - Technology",
@@ -1008,7 +1061,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/503e4d0c-b4cb-44f2-83b1-02ff7af0870a",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Sales Manager, Global Ads Solutions - Retail & E-Commerce",
@@ -1017,7 +1070,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/66d9ba78-02a5-4b79-983e-57349914ce83",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Sales Manager, Global Ads Solutions - Regulated Verticals",
@@ -1026,7 +1079,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/a6989cb5-3b8e-45f3-b169-d5c237a895ef",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Enterprise Sales Manager, Healthcare & Life Sciences",
@@ -1047,7 +1100,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "sales-engineer-solutions-consultant": {
 "companies": [
@@ -1061,7 +1114,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/d484d3b2-2ae5-40a1-b6b0-4fb228895aee",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Sales Manager, Global Ads Solutions - Technology",
@@ -1070,7 +1123,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/503e4d0c-b4cb-44f2-83b1-02ff7af0870a",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Sales Manager, Global Ads Solutions - Retail & E-Commerce",
@@ -1079,7 +1132,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/66d9ba78-02a5-4b79-983e-57349914ce83",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Sales Manager, Global Ads Solutions - Regulated Verticals",
@@ -1088,7 +1141,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/a6989cb5-3b8e-45f3-b169-d5c237a895ef",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Enterprise Sales Manager, Healthcare & Life Sciences",
@@ -1109,13 +1162,22 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "senior-manager": {
 "companies": [
 "OpenAI"
 ],
 "jobs": [
+{
+"title": "Senior Manager, Technology Sourcing",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/0fca3b36-8aaa-491a-be87-09efacfeca5e",
+"postedDate": "2026-11-17",
+"isNew": true
+},
 {
 "title": "Senior Manager, Accounts Payable - Payments",
 "company": "OpenAI",
@@ -1126,7 +1188,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "senior-manager-machine-learning-engineering": {
 "companies": [
@@ -1171,25 +1233,25 @@
 "isNew": false
 },
 {
+"title": "Senior Manager, Technology Sourcing",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/0fca3b36-8aaa-491a-be87-09efacfeca5e",
+"postedDate": "2026-11-17",
+"isNew": true
+},
+{
 "title": "Dedicated Support Engineering Lead",
 "company": "OpenAI",
 "location": "San Francisco",
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/e0e05de8-e313-4249-bb84-2a44b2ed6d8e",
 "postedDate": "2026-11-17",
-"isNew": true
-},
-{
-"title": "Senior Manager, Accounts Payable - Payments",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/1b62655e-87e5-4dfb-ad92-03dabeb8304f",
-"postedDate": "2026-11-13",
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "ai-research-scientist-applied-scientist": {
 "companies": [
@@ -1212,7 +1274,7 @@
 "state": "Remote",
 "url": "https://jobs.ashbyhq.com/openai/be87a51f-067f-499c-a4df-97c145946ae6",
 "postedDate": "2026-11-16",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Partner Applied AI Engineer, AWS",
@@ -1242,13 +1304,22 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "identity-access-management-engineer-identity-security-engineer": {
 "companies": [
 "Okta"
 ],
 "jobs": [
+{
+"title": "Staff Software Engineer - Okta Identity Governance",
+"company": "Okta",
+"location": "Bellevue, WA, United States; New York, New York, United States; Washington D.C.",
+"state": "DC",
+"url": "https://www.okta.com/company/careers/opportunity/8396676?gh_jid=8396676",
+"postedDate": "2026-11-17",
+"isNew": true
+},
 {
 "title": "Staff Software Engineer - Okta Identity Governance",
 "company": "Okta",
@@ -1259,7 +1330,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "ai-experience-designer-agentic-ux-designer": {
 "companies": [
@@ -1276,7 +1347,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "ai-hardware-accelerator-systems-engineer": {
 "companies": [
@@ -1311,13 +1382,22 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "ai-agent-engineer-agentic-systems-engineer": {
 "companies": [
 "OpenAI"
 ],
 "jobs": [
+{
+"title": "Software Engineer, Agent Identity",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/a9a5a979-06a5-49af-95f3-7c537e3105c0",
+"postedDate": "2026-11-18",
+"isNew": true
+},
 {
 "title": "Partner Applied AI Engineer, AWS",
 "company": "OpenAI",
@@ -1346,7 +1426,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "it-support-specialist-it-technician": {
 "companies": [
@@ -1363,7 +1443,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "business-operations-manager-strategy-operations": {
 "companies": [
@@ -1372,21 +1452,21 @@
 ],
 "jobs": [
 {
+"title": "GTM Strategy & Operations, Strategic Programs",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/513e213c-2cb1-40d2-950d-3919ff5a68b5",
+"postedDate": "2026-11-18",
+"isNew": true
+},
+{
 "title": "Product Manager, Finance Operations",
 "company": "Stripe",
 "location": "US-Remote",
 "state": "Remote",
 "url": "https://stripe.com/jobs/search?gh_jid=8393939",
 "postedDate": "2026-11-16",
-"isNew": true
-},
-{
-"title": "GTM Strategy & Operations, Generalist",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/58b0c1ff-9a9a-4a8a-a7eb-97618713574d",
-"postedDate": "2026-11-13",
 "isNew": false
 },
 {
@@ -1399,7 +1479,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "enterprise-account-executive-ai-sales": {
 "companies": [
@@ -1431,7 +1511,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/d484d3b2-2ae5-40a1-b6b0-4fb228895aee",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Sales Manager, Global Ads Solutions - Technology",
@@ -1440,7 +1520,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/503e4d0c-b4cb-44f2-83b1-02ff7af0870a",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Sales Manager, Global Ads Solutions - Retail & E-Commerce",
@@ -1449,7 +1529,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/66d9ba78-02a5-4b79-983e-57349914ce83",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Sales Manager, Global Ads Solutions - Regulated Verticals",
@@ -1458,10 +1538,10 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/a6989cb5-3b8e-45f3-b169-d5c237a895ef",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "strategic-partnerships-alliances-manager": {
 "companies": [
@@ -1479,13 +1559,22 @@
 "isNew": true
 },
 {
-"title": "Engineering Manager, Agent Security Partnerships",
+"title": "GTM Strategy & Operations - Strategic Planning",
 "company": "Anthropic",
-"location": "New York City, NY | Seattle, WA; San Francisco, CA | New York City, NY",
+"location": "New York City, NY; San Francisco, CA | New York City, NY",
 "state": "NY",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5394611008",
-"postedDate": "2026-11-10",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5481842008",
+"postedDate": "2026-11-16",
 "isNew": false
+},
+{
+"title": "GTM Strategy & Operations, Strategic Programs",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/513e213c-2cb1-40d2-950d-3919ff5a68b5",
+"postedDate": "2026-11-18",
+"isNew": true
 },
 {
 "title": "Partnerships & External Affairs Associate, Global Affairs",
@@ -1495,18 +1584,26 @@
 "url": "https://jobs.ashbyhq.com/openai/a00fce27-16ef-47f0-a584-a1ea37adbc96",
 "postedDate": "2026-11-12",
 "isNew": false
-},
-{
-"title": "GTM Strategy & Operations - Strategic Planning",
-"company": "Anthropic",
-"location": "New York City, NY; San Francisco, CA | New York City, NY",
-"state": "NY",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5481842008",
-"postedDate": "2026-11-16",
-"isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
+},
+"entrepreneur-business-owner": {
+"companies": [
+"OpenAI"
+],
+"jobs": [
+{
+"title": "Owner-Furnished Equipment (OFE) Demand Planner",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/fb8d253c-b0e9-48c3-870e-2c8e2d655a0d",
+"postedDate": "2026-11-18",
+"isNew": true
+}
+],
+"asOf": "2026-11-18"
 },
 "gtm-growth-engineer-revenue-ai-engineer": {
 "companies": [
@@ -1515,13 +1612,49 @@
 ],
 "jobs": [
 {
+"title": "GTM Strategy & Operations, Strategic Programs",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/513e213c-2cb1-40d2-950d-3919ff5a68b5",
+"postedDate": "2026-11-18",
+"isNew": true
+},
+{
+"title": "Applied AI Engineer, Commercial",
+"company": "Anthropic",
+"location": "San Francisco, CA",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5483945008",
+"postedDate": "2026-11-18",
+"isNew": true
+},
+{
+"title": "Lead HRBP, GTM",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/2928f960-8f97-4bb6-aafd-3ffbe70d5ea8",
+"postedDate": "2026-11-17",
+"isNew": true
+},
+{
+"title": "GTM Activations Strategy Lead",
+"company": "Anthropic",
+"location": "San Francisco, CA | New York City, NY",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5483359008",
+"postedDate": "2026-11-17",
+"isNew": true
+},
+{
 "title": "Enterprise Education GTM Lead",
 "company": "OpenAI",
 "location": "San Francisco",
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/d5ee28a8-079f-4113-9430-79fb747877b6",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "GTM Strategy & Operations - Strategic Planning",
@@ -1531,45 +1664,26 @@
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5481842008",
 "postedDate": "2026-11-16",
 "isNew": false
-},
-{
-"title": "Partner Applied AI Engineer, AWS",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/9635775d-18fa-47bb-9ede-9a4137618de0",
-"postedDate": "2026-11-16",
-"isNew": false
-},
-{
-"title": "GTM Narrative Lead",
-"company": "Anthropic",
-"location": "San Francisco, CA | New York City, NY",
-"state": "CA",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5481671008",
-"postedDate": "2026-11-13",
-"isNew": false
-},
-{
-"title": "HR Business Partner, GTM",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/695f73a5-00f5-416a-8939-78571263819b",
-"postedDate": "2026-11-14",
-"isNew": false
-},
-{
-"title": "GTM Strategy & Operations, Generalist",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/58b0c1ff-9a9a-4a8a-a7eb-97618713574d",
-"postedDate": "2026-11-13",
-"isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
+},
+"claude-ai-engineer-anthropic-platform-engineer": {
+"companies": [
+"Anthropic"
+],
+"jobs": [
+{
+"title": "Applied AI Engineer, Commercial",
+"company": "Anthropic",
+"location": "San Francisco, CA",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5483945008",
+"postedDate": "2026-11-18",
+"isNew": true
+}
+],
+"asOf": "2026-11-18"
 },
 "openai-ai-engineer-applied-ai-engineer": {
 "companies": [
@@ -1610,7 +1724,7 @@
 "state": "Remote",
 "url": "https://jobs.ashbyhq.com/openai/be87a51f-067f-499c-a4df-97c145946ae6",
 "postedDate": "2026-11-16",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Applied Scientist, Product Policy Research & Measurement",
@@ -1622,7 +1736,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "databricks-ai-engineer-agent-bricks-engineer": {
 "companies": [
@@ -1639,7 +1753,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "snowflake-cortex-ai-engineer-cortex-code-agents-engineer": {
 "companies": [
@@ -1653,10 +1767,10 @@
 "state": "WA",
 "url": "https://jobs.ashbyhq.com/snowflake/776b1e0d-a3d4-417f-9178-eb20a0852ec4",
 "postedDate": "2026-11-16",
-"isNew": true
+"isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "oracle-oci-ai-engineer-enterprise-ai-agent-engineer": {
 "companies": [
@@ -1671,6 +1785,15 @@
 "url": "https://jobs.ashbyhq.com/openai/edfaa3d2-3434-4e51-af74-3945d63ad871",
 "postedDate": "2026-11-11",
 "isNew": false
+},
+{
+"title": "Software Engineer, Agent Identity",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/a9a5a979-06a5-49af-95f3-7c537e3105c0",
+"postedDate": "2026-11-18",
+"isNew": true
 },
 {
 "title": "Partner Applied AI Engineer, AWS",
@@ -1691,7 +1814,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "cohere-ai-engineer-enterprise-agents-search-engineer": {
 "companies": [
@@ -1705,16 +1828,34 @@
 "state": null,
 "url": "https://jobs.ashbyhq.com/cohere/d5cc437c-2397-4c1a-9d12-3a2bf64d98ea",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "full-stack-engineer": {
 "companies": [
 "OpenAI"
 ],
 "jobs": [
+{
+"title": "Full Stack Software Engineer, DotCom",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/60f8bcbc-3ca5-42f4-a73b-e864a6340a16",
+"postedDate": "2026-11-17",
+"isNew": true
+},
+{
+"title": "Full Stack Software Engineer, Dots for Companies",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/7447dd43-9bf5-445f-bb8c-ba57756c8d04",
+"postedDate": "2026-11-17",
+"isNew": true
+},
 {
 "title": "Full Stack Software Engineer, Travel",
 "company": "OpenAI",
@@ -1743,30 +1884,49 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "ai-agent-developer": {
 "companies": [
-"Anthropic"
+"Anthropic",
+"OpenAI"
 ],
 "jobs": [
 {
-"title": "Engineering Manager, Agent Security Partnerships",
+"title": "Software Engineer, Agent Identity",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/a9a5a979-06a5-49af-95f3-7c537e3105c0",
+"postedDate": "2026-11-18",
+"isNew": true
+},
+{
+"title": "Developer Relations, Platform",
 "company": "Anthropic",
-"location": "New York City, NY | Seattle, WA; San Francisco, CA | New York City, NY",
-"state": "NY",
-"url": "https://job-boards.greenhouse.io/anthropic/jobs/5394611008",
-"postedDate": "2026-11-10",
-"isNew": false
+"location": "San Francisco, CA | New York City, NY",
+"state": "CA",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5206870008",
+"postedDate": "2026-11-17",
+"isNew": true
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "marketing-manager": {
 "companies": [
 "OpenAI"
 ],
 "jobs": [
+{
+"title": "Growth Product Marketing Manager, SMB & B2B Self-Serve",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/db94a680-af5e-49e9-923c-149bc2c81879",
+"postedDate": "2026-11-18",
+"isNew": true
+},
 {
 "title": "Growth Marketing Manager, B2B SEO & AEO",
 "company": "OpenAI",
@@ -1786,7 +1946,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "conversational-ai-engineer": {
 "companies": [
@@ -1821,7 +1981,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "product-manager-agentic-commerce": {
 "companies": [
@@ -1844,7 +2004,7 @@
 "state": "Remote",
 "url": "https://stripe.com/jobs/search?gh_jid=8393939",
 "postedDate": "2026-11-16",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Product Manager, Consumer Bank Network",
@@ -1874,7 +2034,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "technical-program-manager-ai-inference": {
 "companies": [
@@ -1892,12 +2052,12 @@
 "isNew": false
 },
 {
-"title": "Global Transportation Program Manager",
+"title": "Technical Product Manager, GRC Systems",
 "company": "OpenAI",
 "location": "San Francisco",
 "state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/a5d30d9b-0127-4682-be03-d787467e606f",
-"postedDate": "2026-11-17",
+"url": "https://jobs.ashbyhq.com/openai/2893060b-3795-4780-b538-48bb7d52254b",
+"postedDate": "2026-11-18",
 "isNew": true
 },
 {
@@ -1910,13 +2070,13 @@
 "isNew": false
 },
 {
-"title": "AI Deployment Manager - Builder (Spanish- and Portuguese-Speaking)",
+"title": "Global Transportation Program Manager",
 "company": "OpenAI",
 "location": "San Francisco",
 "state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/88db99b3-9689-43d1-9223-215be81a0c02",
+"url": "https://jobs.ashbyhq.com/openai/a5d30d9b-0127-4682-be03-d787467e606f",
 "postedDate": "2026-11-17",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Technical Program Manager, External Evaluators",
@@ -1928,16 +2088,16 @@
 "isNew": false
 },
 {
-"title": "Model Safety Program Manager, User Safety & Risk Operations",
+"title": "AI Deployment Manager - Builder (Spanish- and Portuguese-Speaking)",
 "company": "OpenAI",
 "location": "San Francisco",
 "state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/4444d839-3f58-4369-a241-985acbbbf2f9",
-"postedDate": "2026-11-13",
+"url": "https://jobs.ashbyhq.com/openai/88db99b3-9689-43d1-9223-215be81a0c02",
+"postedDate": "2026-11-17",
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 },
 "ad-tech-manager-advertising-technology-manager": {
 "companies": [
@@ -1945,11 +2105,29 @@
 ],
 "jobs": [
 {
+"title": "Senior Manager, Technology Sourcing",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/0fca3b36-8aaa-491a-be87-09efacfeca5e",
+"postedDate": "2026-11-17",
+"isNew": true
+},
+{
 "title": "Sales Manager, Global Ads Solutions - Technology",
 "company": "OpenAI",
 "location": "San Francisco",
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/503e4d0c-b4cb-44f2-83b1-02ff7af0870a",
+"postedDate": "2026-11-17",
+"isNew": false
+},
+{
+"title": "HRBP, Tech",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/5b001c0f-c29c-49e7-92d0-5b63dffb191d",
 "postedDate": "2026-11-17",
 "isNew": true
 },
@@ -1963,6 +2141,6 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-17"
+"asOf": "2026-11-18"
 }
 }
