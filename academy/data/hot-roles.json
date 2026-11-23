@@ -1,35 +1,35 @@
 [
   {
+    "slug": "business-operations-manager-strategy-operations",
+    "name": "Business Operations Manager / Strategy & Operations",
+    "count": 6,
+    "newCount": 2,
+    "skills": [
+      "Business Strategy / Systems Thinking\u2026",
+      "SQL & Analytics / Product & Business\u2026",
+      "Financial Modeling / Forecasting / Bu\u2026"
+    ]
+  },
+  {
+    "slug": "strategic-partnerships-alliances-manager",
+    "name": "Strategic Partnerships / Alliances Manager",
+    "count": 6,
+    "newCount": 2,
+    "skills": [
+      "Platform Strategy / Ecosystem Strateg\u2026",
+      "Business Cases / Unit Economics / Par\u2026",
+      "APIs / AI Platform / Product Partners\u2026"
+    ]
+  },
+  {
     "slug": "senior-manager-machine-learning-engineering",
     "name": "Senior Manager, Machine Learning Engineering",
     "count": 6,
-    "newCount": 2,
+    "newCount": 1,
     "skills": [
       "ML Systems / MLOps / Platform Enginee\u2026",
       "Data Pipelines / Feature Stores / Ann\u2026",
       "PyTorch / DDP / GPU Compute / Serving\u2026"
-    ]
-  },
-  {
-    "slug": "ai-research-scientist-applied-scientist",
-    "name": "AI Research Scientist / Applied Scientist",
-    "count": 6,
-    "newCount": 2,
-    "skills": [
-      "Statistics / Experimental Design / Ma\u2026",
-      "Deep Learning / Generative AI / Trans\u2026",
-      "Foundation Models / Data Curation / M\u2026"
-    ]
-  },
-  {
-    "slug": "gtm-growth-engineer-revenue-ai-engineer",
-    "name": "GTM Growth Engineer / Revenue AI Engineer",
-    "count": 6,
-    "newCount": 2,
-    "skills": [
-      "GTM Systems / Customer Discovery / Re\u2026",
-      "SQL / Customer Data / Funnel Metrics\u2026",
-      "Full-Stack Engineering / APIs / CRM &\u2026"
     ]
   }
 ]
