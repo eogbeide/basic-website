@@ -12,7 +12,7 @@
 "state": "NY",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5491501008",
 "postedDate": "2026-11-25",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Business Development Lead, Compute Strategy & Partnerships",
@@ -40,18 +40,9 @@
 "url": "https://jobs.ashbyhq.com/openai/3ae2f8d2-b687-493e-a963-e175fdbd17b9",
 "postedDate": "2026-11-19",
 "isNew": false
-},
-{
-"title": "Strategy and Operations Lead, Creative Partnerships",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/7b70517d-8c96-4c4a-8e4a-37859cf68747",
-"postedDate": "2026-11-19",
-"isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "ai-engineer": {
 "companies": [
@@ -77,7 +68,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "ai-evaluation-reliability-engineer": {
 "companies": [
@@ -103,7 +94,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "ai-inference-performance-engineer": {
 "companies": [
@@ -129,7 +120,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "ai-platform-engineer": {
 "companies": [
@@ -155,7 +146,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "ai-product-manager": {
 "companies": [
@@ -188,27 +179,9 @@
 "url": "https://jobs.ashbyhq.com/openai/43d75302-2eef-46b6-b991-611e705f9fb1",
 "postedDate": "2026-11-20",
 "isNew": false
-},
-{
-"title": "Product Manager, Frontier Risks Safety",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/efae0a22-24d6-4562-834c-1110c5e7677b",
-"postedDate": "2026-11-19",
-"isNew": false
-},
-{
-"title": "Product Manager, ChatGPT Business Growth",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/89959eee-bd3a-4564-9c47-e4771c6c1e0f",
-"postedDate": "2026-11-19",
-"isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "ai-research-engineer": {
 "companies": [
@@ -270,7 +243,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "ai-security-engineer": {
 "companies": [
@@ -296,7 +269,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "ai-solutions-engineer": {
 "companies": [
@@ -310,7 +283,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb",
 "postedDate": "2026-11-25",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Applied AI Engineer, Mid-Market Enterprise",
@@ -331,7 +304,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "ai-support-engineer": {
 "companies": [
@@ -367,7 +340,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "technical-program-manager-ai-ml": {
 "companies": [
@@ -421,24 +394,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
-},
-"compliance-risk-ai-consultant": {
-"companies": [
-"OpenAI"
-],
-"jobs": [
-{
-"title": "Risk & Fraud Analyst",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/72a513ec-d75c-48d5-9fa5-7eac3d7d12b2",
-"postedDate": "2026-11-19",
-"isNew": false
-}
-],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "data-center-ai-infrastructure-engineer": {
 "companies": [
@@ -452,15 +408,6 @@
 "state": "Remote",
 "url": "https://jobs.ashbyhq.com/openai/5a693757-8c54-43a2-abd7-44ab598d4c6e",
 "postedDate": "2026-11-20",
-"isNew": false
-},
-{
-"title": "Geotechnical Engineer, Data Center Development",
-"company": "OpenAI",
-"location": "US - Remote",
-"state": "Remote",
-"url": "https://jobs.ashbyhq.com/openai/c389205c-b163-402f-ab8f-674b7f260c9d",
-"postedDate": "2026-11-18",
 "isNew": false
 },
 {
@@ -491,7 +438,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "data-governance-lead": {
 "companies": [
@@ -508,7 +455,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "data-scientist": {
 "companies": [
@@ -523,7 +470,7 @@
 "state": "CA",
 "url": "https://job-boards.greenhouse.io/twitch/jobs/8953490002",
 "postedDate": "2026-11-24",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Staff Data Scientist - Martech Platform (ML/Algos)",
@@ -535,7 +482,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "developer-experience-engineer": {
 "companies": [
@@ -562,7 +509,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "finance-ai-consultant": {
 "companies": [
@@ -588,7 +535,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "forward-deployed-engineer": {
 "companies": [
@@ -605,7 +552,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "legal-ai-consultant": {
 "companies": [
@@ -667,7 +614,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "machine-learning-engineer": {
 "companies": [
@@ -693,7 +640,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "personal-executive-development": {
 "companies": [
@@ -707,7 +654,7 @@
 "state": "DC",
 "url": "https://jobs.ashbyhq.com/openai/c7af5de8-ecd3-4d0e-99fb-72a8d81111e3",
 "postedDate": "2026-11-24",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Business Development Lead, Compute Strategy & Partnerships",
@@ -735,18 +682,9 @@
 "url": "https://jobs.ashbyhq.com/openai/1566f1cb-dd46-4753-a8e3-7890c55882a3",
 "postedDate": "2026-11-20",
 "isNew": false
-},
-{
-"title": "Geotechnical Engineer, Data Center Development",
-"company": "OpenAI",
-"location": "US - Remote",
-"state": "Remote",
-"url": "https://jobs.ashbyhq.com/openai/c389205c-b163-402f-ab8f-674b7f260c9d",
-"postedDate": "2026-11-18",
-"isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "privacy-engineer": {
 "companies": [
@@ -763,7 +701,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "product-marketing-manager": {
 "companies": [
@@ -814,18 +752,9 @@
 "url": "https://jobs.ashbyhq.com/openai/2b5587bf-9df9-4606-920b-a988e392a2d2",
 "postedDate": "2026-11-19",
 "isNew": false
-},
-{
-"title": "Product Manager, Frontier Risks Safety",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/efae0a22-24d6-4562-834c-1110c5e7677b",
-"postedDate": "2026-11-19",
-"isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "product-operations-manager": {
 "companies": [
@@ -839,10 +768,10 @@
 "state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5489900008",
 "postedDate": "2026-11-24",
-"isNew": true
+"isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "product-security-engineer": {
 "companies": [
@@ -859,7 +788,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "quantitative-finance-fintech-engineer": {
 "companies": [
@@ -873,7 +802,7 @@
 "state": "NY",
 "url": "https://stripe.com/jobs/search?gh_jid=8397987",
 "postedDate": "2026-11-25",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Head of Revenue Finance Automation, Finance & Strategy",
@@ -882,7 +811,7 @@
 "state": "NY",
 "url": "https://stripe.com/jobs/search?gh_jid=8412981",
 "postedDate": "2026-11-25",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Head of Global Partnerships and Startup and Ecosystem Product, Finance & Strategy",
@@ -894,7 +823,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "responsible-ai-manager": {
 "companies": [
@@ -911,7 +840,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "revenue-operations-manager": {
 "companies": [
@@ -926,7 +855,7 @@
 "state": "CA",
 "url": "https://job-boards.greenhouse.io/anthropic/jobs/5489900008",
 "postedDate": "2026-11-24",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Program Manager, Critical Harm Operations",
@@ -947,7 +876,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "sales-revenue-ai-consultant": {
 "companies": [
@@ -961,10 +890,10 @@
 "state": "Remote",
 "url": "https://jobs.ashbyhq.com/openai/c58aecd7-b306-4c06-9648-8090d0a93217",
 "postedDate": "2026-11-25",
-"isNew": true
+"isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "sales-engineer-solutions-consultant": {
 "companies": [
@@ -978,7 +907,7 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb",
 "postedDate": "2026-11-25",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Head of Applied AI Architects \u2013 Commercial Sales (Midmarket, SMB)",
@@ -987,10 +916,10 @@
 "state": "Remote",
 "url": "https://jobs.ashbyhq.com/openai/c58aecd7-b306-4c06-9648-8090d0a93217",
 "postedDate": "2026-11-25",
-"isNew": true
+"isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "search-retrieval-engineer": {
 "companies": [
@@ -1004,10 +933,10 @@
 "state": "WA",
 "url": "https://jobs.ashbyhq.com/openai/f3f3ba4c-cc37-44fe-a8b1-5aa4553c3092",
 "postedDate": "2026-11-24",
-"isNew": true
+"isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "senior-manager-machine-learning-engineering": {
 "companies": [
@@ -1031,7 +960,7 @@
 "state": null,
 "url": "https://job-boards.greenhouse.io/metropolis/jobs/8215718003",
 "postedDate": "2026-11-24",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Engineering Manager, Robotics Embedded Systems",
@@ -1070,7 +999,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "ai-research-scientist-applied-scientist": {
 "companies": [
@@ -1132,7 +1061,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "ai-experience-designer-agentic-ux-designer": {
 "companies": [
@@ -1165,18 +1094,9 @@
 "url": "https://jobs.ashbyhq.com/openai/b5a022bb-f7a5-47d9-b5e8-9d1575493dcf",
 "postedDate": "2026-11-20",
 "isNew": false
-},
-{
-"title": "Product Designer, Advertiser Experiences",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/919b3666-14c2-4c70-b28c-7a49fedc418e",
-"postedDate": "2026-11-19",
-"isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "ai-hardware-accelerator-systems-engineer": {
 "companies": [
@@ -1190,7 +1110,7 @@
 "state": "WA",
 "url": "https://jobs.ashbyhq.com/openai/e1823ba3-a94c-410f-b064-217a1d71c866",
 "postedDate": "2026-11-24",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Applied AI Engineer, Mid-Market Enterprise",
@@ -1238,7 +1158,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "ai-agent-engineer-agentic-systems-engineer": {
 "companies": [
@@ -1252,7 +1172,7 @@
 "state": "WA",
 "url": "https://jobs.ashbyhq.com/openai/e1823ba3-a94c-410f-b064-217a1d71c866",
 "postedDate": "2026-11-24",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Applied AI Engineer, Mid-Market Enterprise",
@@ -1300,7 +1220,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "business-operations-manager-strategy-operations": {
 "companies": [
@@ -1315,7 +1235,7 @@
 "state": "CA",
 "url": "https://stripe.com/jobs/search?gh_jid=8417785",
 "postedDate": "2026-11-25",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Business Development Lead, Compute Strategy & Partnerships",
@@ -1345,15 +1265,6 @@
 "isNew": false
 },
 {
-"title": "Marketing Strategy & Operations Lead, Global Demand, Campaigns, Field Marketing",
-"company": "Stripe",
-"location": "San Francisco, New York, Seattle, Chicago, Atlanta, Remote in the US",
-"state": "NY",
-"url": "https://stripe.com/jobs/search?gh_jid=8384782",
-"postedDate": "2026-11-19",
-"isNew": false
-},
-{
 "title": "GTM Strategy & Operations, Enterprise",
 "company": "OpenAI",
 "location": "New York City",
@@ -1361,9 +1272,18 @@
 "url": "https://jobs.ashbyhq.com/openai/490c443e-d555-4fd0-a5c8-d754f6ba6d23",
 "postedDate": "2026-11-23",
 "isNew": false
+},
+{
+"title": "Global Events Strategy & Operations Lead",
+"company": "OpenAI",
+"location": "San Francisco",
+"state": "CA",
+"url": "https://jobs.ashbyhq.com/openai/811d3085-41fb-4e6d-8003-617fbde96818",
+"postedDate": "2026-11-23",
+"isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "enterprise-account-executive-ai-sales": {
 "companies": [
@@ -1387,7 +1307,7 @@
 "state": "Remote",
 "url": "https://jobs.ashbyhq.com/openai/c58aecd7-b306-4c06-9648-8090d0a93217",
 "postedDate": "2026-11-25",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Strategic Account Executive, HCLS",
@@ -1423,10 +1343,10 @@
 "state": "DC",
 "url": "https://jobs.ashbyhq.com/openai/c7af5de8-ecd3-4d0e-99fb-72a8d81111e3",
 "postedDate": "2026-11-24",
-"isNew": true
+"isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "strategic-partnerships-alliances-manager": {
 "companies": [
@@ -1489,7 +1409,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "financial-controller-comptroller-cfo": {
 "companies": [
@@ -1506,7 +1426,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "crm-engineer-salesforce-revenue-systems-engineer": {
 "companies": [
@@ -1520,7 +1440,7 @@
 "state": "WA",
 "url": "https://jobs.ashbyhq.com/openai/e1823ba3-a94c-410f-b064-217a1d71c866",
 "postedDate": "2026-11-24",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Operating Systems Engineer | Consumer Devices",
@@ -1550,7 +1470,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "gtm-growth-engineer-revenue-ai-engineer": {
 "companies": [
@@ -1613,7 +1533,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "openai-ai-engineer-applied-ai-engineer": {
 "companies": [
@@ -1645,7 +1565,7 @@
 "state": "Remote",
 "url": "https://jobs.ashbyhq.com/openai/c58aecd7-b306-4c06-9648-8090d0a93217",
 "postedDate": "2026-11-25",
-"isNew": true
+"isNew": false
 },
 {
 "title": "Global Head of Applied AI Engineering, SMB / Mid-Market",
@@ -1672,10 +1592,10 @@
 "state": "DC",
 "url": "https://jobs.ashbyhq.com/openai/c7af5de8-ecd3-4d0e-99fb-72a8d81111e3",
 "postedDate": "2026-11-24",
-"isNew": true
+"isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "oracle-oci-ai-engineer-enterprise-ai-agent-engineer": {
 "companies": [
@@ -1701,7 +1621,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "full-stack-engineer": {
 "companies": [
@@ -1715,10 +1635,10 @@
 "state": "CA",
 "url": "https://jobs.ashbyhq.com/openai/0d06daee-298b-4594-a67b-8955d07adb22",
 "postedDate": "2026-11-24",
-"isNew": true
+"isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "marketing-manager": {
 "companies": [
@@ -1760,18 +1680,9 @@
 "url": "https://jobs.ashbyhq.com/openai/2b5587bf-9df9-4606-920b-a988e392a2d2",
 "postedDate": "2026-11-19",
 "isNew": false
-},
-{
-"title": "Data Science Leader, B2B Marketing & Demand Generation",
-"company": "OpenAI",
-"location": "San Francisco",
-"state": "CA",
-"url": "https://jobs.ashbyhq.com/openai/145f2801-4c59-4e90-a847-32085d20511c",
-"postedDate": "2026-11-19",
-"isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "conversational-ai-engineer": {
 "companies": [
@@ -1797,7 +1708,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "product-manager-agentic-commerce": {
 "companies": [
@@ -1823,7 +1734,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "technical-program-manager-ai-inference": {
 "companies": [
@@ -1877,7 +1788,7 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 },
 "ad-tech-manager-advertising-technology-manager": {
 "companies": [
@@ -1894,6 +1805,6 @@
 "isNew": false
 }
 ],
-"asOf": "2026-11-25"
+"asOf": "2026-11-26"
 }
 }
